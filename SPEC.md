@@ -11,7 +11,7 @@ STACK: Node 20+, zero or minimal deps, plain ESM build script (src/build.js) tha
 ABOUT ME (use only these facts, never invent more):
 - Kazbek Assanbek (Қазбек Асанбек), freelance full-stack developer, Almaty, 3rd-year Computer Engineering student at IITU.
 - Stack: React, Next.js, TypeScript, Django, DRF, PostgreSQL, Tailwind, Python, aiogram, Docker, Nginx, GitHub Actions, Linux.
-- Contacts in src/data/config.js: Telegram @RealKazbek, email g7kazbek@gmail.com, whatsapp="" and phone="" (hide buttons when empty; I will fill later). Portfolio https://realkazbek.site, GitHub https://github.com/RealKazbek.
+- Contacts in src/data/config.js: Telegram @RealKazbek, email 37765@iitu.edu.kz, whatsapp="" and phone="" (hide buttons when empty; I will fill later). Portfolio https://realkazbek.site, GitHub https://github.com/RealKazbek.
 - Portfolio items: (1) TerraCon — Next.js+Tailwind site for a sports-surfaces construction company, catalog with filters, cart; terracon.kz + Telegram bot t.me/terracon_manager_bot. (2) Telegram Business AI assistant — Python/aiogram + DeepSeek, knowledge-base answers, dialog memory, admin panel, auto-pauses 60 min when owner replies; demo t.me/RealKazbekBot. (3) Car — frontend demo realkazbek.github.io/Car/.
 - Brand name: "RK Dev". Languages: Russian (main) + Kazakh.
 

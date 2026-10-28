@@ -2,12 +2,20 @@ import { readdir, readFile, stat } from 'node:fs/promises';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { config } from '../src/data/config.js';
+import { esc } from '../src/lib/escape.js';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = join(root, process.env.OUT_DIR || 'dist');
 const site = config.siteUrl;
-const minPages = Number(process.env.MIN_PAGES ?? (process.env.DATA_DIR ? 1 : 2000));
+const minPages = Number(process.env.MIN_PAGES ?? (process.env.DATA_DIR ? 1 : 250));
+const OLD_MAIL = new RegExp('g7' + 'kazbek', 'i');
 const errors = [];
+const langOf = (u) => (u.startsWith('/kk/') ? 'kk' : u.startsWith('/en/') ? 'en' : 'ru');
+const ALLOWED_URL = /^(\/(kk|en))?\/(|catalog\/|catalog\/[a-z0-9-]+\/|products\/[a-z0-9-]+\/|goroda\/[a-z0-9-]+\/|ceny\/|bagalar\/|prices\/|portfolio\/|kontakty\/|bailanys\/|contacts\/)$/;
+const LEGAL_WORDS = [
+  /(?<![\p{L}])(ИП|ТОО|ЖК|ЖШС|НДС|ҚҚС|VAT)(?![\p{L}])/u,
+  /сч[её]т-фактур|шот-фактур|invoice|юрлиц|официальный договор|legal entity/i,
+];
 const fail = (m) => errors.push(m);
 
 async function walk(dir) {
@@ -60,7 +68,7 @@ for (const f of htmlFiles) {
   const ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]);
   const main = (html.match(/<main[\s\S]*?<\/main>/) || [''])[0];
   const h1s = (html.replace(/<script[\s\S]*?<\/script>/g, '').match(/<h1[ >]/g) || []).length;
-  const hasWa = /wa\.me/.test(html);
+  const hasWa = /https:\/\/wa\.me\/77066620060/.test(html);
   pages.set(url, {
     file: f, url, title: title && decode(title), desc: descTag && attr(descTag, 'content'),
     canonical: canonTag && attr(canonTag, 'href'), alternates, hrefs, srcs, ld, main, h1s, html,
@@ -113,14 +121,26 @@ for (const p of pages.values()) {
   else if (p.canonical && p.canonical !== site + p.url) fail(`${p.url}: canonical mismatch ${p.canonical}`);
   if (p.h1s !== 1) fail(`${p.url}: expected 1 <h1>, found ${p.h1s}`);
   // html lang, duplicate ids, OG/twitter tags, WhatsApp hidden when not configured
-  const expectLang = p.url.startsWith('/kk/') ? 'kk' : 'ru';
+  const expectLang = langOf(p.url);
   if (p.htmlLang !== expectLang) fail(`${p.url}: <html lang="${p.htmlLang}"> expected ${expectLang}`);
   const dup = p.ids.filter((id, i) => p.ids.indexOf(id) !== i);
   if (dup.length) fail(`${p.url}: duplicate id(s) ${[...new Set(dup)].join(', ')}`);
   for (const k of ['og:title', 'og:description', 'og:url', 'og:type', 'og:locale', 'twitter:card']) {
     if (!p.metaProp(k)) fail(`${p.url}: missing ${k}`);
   }
-  if (!config.whatsapp && p.hasWa) fail(`${p.url}: wa.me link present but config.whatsapp is empty`);
+  if (p.url !== '/404.html' && !p.hasWa) fail(`${p.url}: no wa.me/77066620060 link`);
+  if (p.title && p.title.length > 70) fail(`${p.url}: title longer than 70 (${p.title.length})`);
+  if (p.desc && p.desc.length > 200) fail(`${p.url}: description longer than 200 (${p.desc.length})`);
+  if (p.url !== '/404.html' && !ALLOWED_URL.test(p.url)) fail(`${p.url}: URL not part of the v2 page model (old service/niche page?)`);
+  if (p.url.includes('/sait-dlya/')) fail(`${p.url}: /sait-dlya/ must not exist`);
+  if (!/<link rel="icon" href="\/favicon\.svg"/.test(p.html)) fail(`${p.url}: favicon link missing`);
+  let legalText = p.html;
+  for (const l of Object.values(config.legal)) legalText = legalText.split(l).join(' ').split(esc(l)).join(' ');
+  for (const re of LEGAL_WORDS) {
+    const m = legalText.match(re);
+    if (m) fail(`${p.url}: forbidden legal word "${m[0]}" outside config.legal`);
+  }
+  if (OLD_MAIL.test(p.html)) fail(`${p.url}: old gmail address present`);
   for (const block of p.ld) {
     try {
       const j = JSON.parse(block);
@@ -136,9 +156,9 @@ for (const [d, urls] of seenDescs) if (urls.length > 1) fail(`duplicate descript
 
 // 3. hreflang
 for (const p of pages.values()) {
-  if (p.url.startsWith('/kk/') && !p.alternates.length) fail(`${p.url}: kk page without hreflang alternates`);
+  if (p.url !== '/404.html' && langOf(p.url) !== 'ru' && !p.alternates.length) fail(`${p.url}: ${langOf(p.url)} page without hreflang alternates`);
   if (p.alternates.length) {
-    const own = p.url.startsWith('/kk/') ? 'kk' : 'ru';
+    const own = langOf(p.url);
     const find = (l) => p.alternates.find(([x]) => x === l);
     if (!find('x-default')) fail(`${p.url}: hreflang x-default missing`);
     const self = find(own);
@@ -180,6 +200,8 @@ if (!(await exists(join(dist, 'robots.txt')))) fail('robots.txt missing');
 else if (!/Sitemap:/i.test(await readFile(join(dist, 'robots.txt'), 'utf8'))) fail('robots.txt has no Sitemap line');
 if (!(await exists(join(dist, 'CNAME')))) fail('CNAME missing');
 else if ((await readFile(join(dist, 'CNAME'), 'utf8')).trim() !== new URL(site).hostname) fail('CNAME content mismatch');
+for (const f of ['favicon.svg', 'assets/catalog.js']) if (!(await exists(join(dist, f)))) fail(`${f} missing`);
+for (const f of files) if (/\.(html|xml|txt|svg|js|css)$/.test(f) && OLD_MAIL.test(await readFile(f, 'utf8'))) fail(`${rel(f)}: old gmail address present`);
 if (!(await exists(join(dist, 'assets/styles.css')))) fail('assets/styles.css missing');
 
 // 6. near-duplicates: 5-word shingles, MinHash prefilter (128), exact Jaccard

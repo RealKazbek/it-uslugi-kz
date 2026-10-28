@@ -8,34 +8,33 @@ export function script(obj) {
 
 const country = { '@type': 'Country', name: 'Kazakhstan' };
 
-export function professionalService({ lang = 'ru', cityName, offers = [] } = {}) {
-  const o = {
+export function professionalService({ lang = 'ru', cityName } = {}) {
+  return {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
     name: config.brand,
     url: config.siteUrl + '/',
     email: config.email,
+    telephone: config.phone,
     areaServed: cityName ? { '@type': 'City', name: cityName } : country,
     address: { '@type': 'PostalAddress', addressLocality: 'Almaty', addressCountry: 'KZ' },
-    founder: { '@type': 'Person', name: config.person.name[lang] || config.person.name.ru },
+    founder: { '@type': 'Person', name: config.person.name[lang] },
     sameAs: [config.github, config.portfolioUrl],
   };
-  if (config.phone) o.telephone = config.phone;
-  if (offers.length) o.makesOffer = offers;
-  return o;
 }
 
-export function offer({ name, price, cityName, url }) {
+// Product page: Service with a KZT Offer.
+export function productService({ lang, name, description, price, url }) {
   return {
-    '@type': 'Offer',
-    priceCurrency: 'KZT',
-    price: String(price),
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name,
+    description,
     url,
-    itemOffered: {
-      '@type': 'Service',
-      name,
-      areaServed: cityName ? { '@type': 'City', name: cityName } : country,
-    },
+    inLanguage: lang,
+    areaServed: country,
+    provider: { '@type': 'ProfessionalService', name: config.brand, url: config.siteUrl + '/' },
+    offers: { '@type': 'Offer', priceCurrency: 'KZT', price: String(price), url },
   };
 }
 

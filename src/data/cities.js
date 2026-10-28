@@ -12,7 +12,7 @@ export const cities = [
       ru: ['торговля и сфера услуг', 'туризм', 'образование', 'IT и стартапы'],
       kk: ['сауда және қызмет көрсету', 'туризм', 'білім беру', 'IT және стартаптар']
     },
-    nicheFocus: ['stomatologiya', 'salon-krasoty', 'kafe-restoran', 'turagentstvo', 'uchebnyi-centr', 'magazin-odezhdy'],
+    productFocus: ['sait-dlya-stomatologii', 'sait-dlya-salona-krasoty', 'telegram-bot-zapis', 'kartochka-2gis-google-maps', 'ai-assistent-telegram', 'sait-dlya-uchebnogo-centra'],
     nearby: ['konaev', 'taldykorgan', 'zharkent'],
     inPerson: true
   },
@@ -29,7 +29,7 @@ export const cities = [
       ru: ['государственный сектор', 'строительство и недвижимость', 'сфера услуг', 'образование и медицина'],
       kk: ['мемлекеттік сектор', 'құрылыс және жылжымайтын мүлік', 'қызмет көрсету', 'білім және медицина']
     },
-    nicheFocus: ['agentstvo-nedvizhimosti', 'remont-kvartir', 'medcentr', 'kafe-restoran', 'yurist', 'event-agentstvo'],
+    productFocus: ['sait-dlya-agentstva-nedvizhimosti', 'sait-dlya-stroitelnoi-kompanii', 'sait-dlya-yurista', 'korporativnyi-sait', 'lokalnoe-seo', 'telegram-bot-zapis'],
     nearby: ['kokshetau', 'karaganda', 'temirtau'],
     inPerson: false
   },
@@ -46,7 +46,7 @@ export const cities = [
       ru: ['торговля и оптовые рынки', 'пищевая промышленность', 'лёгкая промышленность', 'строительство'],
       kk: ['сауда және көтерме базарлар', 'тамақ өнеркәсібі', 'жеңіл өнеркәсіп', 'құрылыс']
     },
-    nicheFocus: ['optovaya-torgovlya', 'toi-zal', 'proizvodstvo', 'stroimaterialy', 'magazin-odezhdy', 'torty-na-zakaz'],
+    productFocus: ['katalog-s-zakazom-v-whatsapp', 'internet-magazin', 'magazin-s-kaspi-xml', 'sait-dlya-toi-zala', 'internet-magazin-odezhdy', 'telegram-bot-katalog'],
     nearby: ['turkestan', 'taraz', 'kyzylorda'],
     inPerson: false
   },
@@ -63,7 +63,7 @@ export const cities = [
       ru: ['промышленность и металлургия', 'угледобыча', 'образование', 'торговля и услуги'],
       kk: ['өнеркәсіп және металлургия', 'көмір өндіру', 'білім беру', 'сауда және қызметтер']
     },
-    nicheFocus: ['avtoservis', 'uchebnyi-centr', 'yazykovaya-shkola', 'proizvodstvo', 'gruzoperevozki', 'stomatologiya'],
+    productFocus: ['sait-dlya-uchebnogo-centra', 'sait-dlya-avtoservisa', 'korporativnyi-sait', 'repetitor-programmirovaniya', 'zayavki-v-google-sheets', 'python-s-nulya'],
     nearby: ['temirtau', 'astana', 'balkhash'],
     inPerson: false
   },
@@ -80,7 +80,7 @@ export const cities = [
       ru: ['промышленность', 'торговля', 'транспорт и логистика', 'строительство'],
       kk: ['өнеркәсіп', 'сауда', 'көлік және логистика', 'құрылыс']
     },
-    nicheFocus: ['gruzoperevozki', 'stroimaterialy', 'avtoservis', 'remont-kvartir', 'proizvodstvo-mebeli', 'fitnes'],
+    productFocus: ['korporativnyi-sait', 'sait-dlya-stroitelnoi-kompanii', 'sait-dlya-avtoservisa', 'crm-dlya-malogo-biznesa', 'telegram-bot-zayavki', 'kartochka-2gis-google-maps'],
     nearby: ['uralsk', 'kostanay', 'kyzylorda'],
     inPerson: false
   },
@@ -97,7 +97,7 @@ export const cities = [
       ru: ['химическая промышленность', 'сельское хозяйство', 'торговля', 'сфера услуг'],
       kk: ['химия өнеркәсібі', 'ауыл шаруашылығы', 'сауда', 'қызмет көрсету']
     },
-    nicheFocus: ['optovaya-torgovlya', 'toi-zal', 'salon-krasoty', 'avtomoika', 'detskii-sad', 'cvetochnyi-magazin'],
+    productFocus: ['katalog-s-zakazom-v-whatsapp', 'sait-dlya-salona-krasoty', 'sait-dlya-toi-zala', 'internet-magazin-cvetov', 'telegram-bot-zapis', 'lending'],
     nearby: ['shymkent', 'turkestan', 'almaty'],
     inPerson: false
   },
@@ -114,7 +114,7 @@ export const cities = [
       ru: ['энергетика', 'нефтепереработка', 'машиностроение', 'торговля'],
       kk: ['энергетика', 'мұнай өңдеу', 'машина жасау', 'сауда']
     },
-    nicheFocus: ['proizvodstvo', 'stroitelstvo', 'gruzoperevozki', 'avtoservis', 'buhgalter', 'remont-tehniki'],
+    productFocus: ['korporativnyi-sait', 'sait-dlya-stroitelnoi-kompanii', 'crm-dlya-malogo-biznesa', 'otchety-v-telegram', 'integraciya-api', 'sait-dlya-avtoservisa'],
     nearby: ['ekibastuz', 'semey', 'petropavlovsk'],
     inPerson: false
   },
@@ -131,7 +131,7 @@ export const cities = [
       ru: ['цветная металлургия', 'туризм', 'торговля', 'строительство'],
       kk: ['түсті металлургия', 'туризм', 'сауда', 'құрылыс']
     },
-    nicheFocus: ['turagentstvo', 'gostinica', 'proizvodstvo', 'stroimaterialy', 'medcentr', 'avtoshkola'],
+    productFocus: ['korporativnyi-sait', 'lokalnoe-seo', 'kartochka-2gis-google-maps', 'sait-dlya-stroitelnoi-kompanii', 'ai-chat-na-sait', 'uvedomleniya-o-zayavkah'],
     nearby: ['semey', 'pavlodar', 'ekibastuz'],
     inPerson: false
   },
@@ -148,7 +148,7 @@ export const cities = [
       ru: ['торговля', 'образование и медицина', 'культурный туризм', 'переработка сельхозпродукции'],
       kk: ['сауда', 'білім және медицина', 'мәдени туризм', 'ауыл шаруашылығы өнімін өңдеу']
     },
-    nicheFocus: ['uchebnyi-centr', 'medcentr', 'fotograf', 'cvetochnyi-magazin', 'proizvodstvo-mebeli', 'kafe-restoran'],
+    productFocus: ['sait-dlya-uchebnogo-centra', 'internet-magazin-cvetov', 'sait-vizitka', 'telegram-bot-zapis', 'kartochka-2gis-google-maps', 'kompyuternaya-gramotnost'],
     nearby: ['ust-kamenogorsk', 'pavlodar', 'ekibastuz'],
     inPerson: false
   },
@@ -165,7 +165,7 @@ export const cities = [
       ru: ['нефть и газ', 'сервисные и подрядные компании', 'строительство', 'торговля'],
       kk: ['мұнай және газ', 'сервис және мердігерлік қызметтер', 'құрылыс', 'сауда']
     },
-    nicheFocus: ['stroitelstvo', 'gruzoperevozki', 'gostinica', 'transfer-taksi', 'klining', 'agentstvo-nedvizhimosti'],
+    productFocus: ['korporativnyi-sait', 'sait-dlya-stroitelnoi-kompanii', 'crm-dlya-malogo-biznesa', 'ai-baza-znanii-dlya-sotrudnikov', 'integraciya-api', 'sait-dlya-agentstva-nedvizhimosti'],
     nearby: ['aktau', 'uralsk', 'aktobe'],
     inPerson: false
   },
@@ -182,7 +182,7 @@ export const cities = [
       ru: ['сельское хозяйство', 'сельхозтехника', 'торговля', 'горнодобывающая промышленность региона'],
       kk: ['ауыл шаруашылығы', 'ауыл шаруашылығы техникасы', 'сауда', 'тау-кен өнеркәсібі']
     },
-    nicheFocus: ['optovaya-torgovlya', 'gruzoperevozki', 'avtoservis', 'stroimaterialy', 'remont-tehniki', 'yurist'],
+    productFocus: ['katalog-s-zakazom-v-whatsapp', 'internet-magazin', 'parsing-dannyh', 'kaspi-xml', 'sait-dlya-avtoservisa', 'zayavki-v-google-sheets'],
     nearby: ['rudny', 'aktobe', 'petropavlovsk'],
     inPerson: false
   },
@@ -199,7 +199,7 @@ export const cities = [
       ru: ['сельское хозяйство и рисоводство', 'нефтедобыча', 'торговля', 'сфера услуг'],
       kk: ['ауыл шаруашылығы және күріш өсіру', 'мұнай өндіру', 'сауда', 'қызмет көрсету']
     },
-    nicheFocus: ['toi-zal', 'salon-krasoty', 'cvetochnyi-magazin', 'kafe-restoran', 'stroimaterialy', 'yazykovaya-shkola'],
+    productFocus: ['sait-dlya-toi-zala', 'sait-dlya-salona-krasoty', 'internet-magazin-cvetov', 'sait-dlya-kafe', 'lending', 'telegram-bot-zayavki'],
     nearby: ['turkestan', 'shymkent', 'aktobe'],
     inPerson: false
   },
@@ -216,7 +216,7 @@ export const cities = [
       ru: ['нефтегазовый сектор региона', 'торговля', 'сельское хозяйство', 'сфера услуг'],
       kk: ['мұнай және газ', 'сауда', 'ауыл шаруашылығы', 'қызмет көрсету']
     },
-    nicheFocus: ['avtoservis', 'remont-kvartir', 'salon-krasoty', 'dostavka-edy', 'detskii-sad', 'psiholog'],
+    productFocus: ['korporativnyi-sait', 'sait-dlya-avtoservisa', 'sait-dlya-salona-krasoty', 'telegram-bot-dostavka', 'crm-dlya-malogo-biznesa', 'kartochka-2gis-google-maps'],
     nearby: ['aktobe', 'atyrau', 'kostanay'],
     inPerson: false
   },
@@ -233,7 +233,7 @@ export const cities = [
       ru: ['сельское хозяйство', 'переработка продукции', 'торговля', 'транспорт'],
       kk: ['ауыл шаруашылығы', 'ауыл шаруашылығы өнімін өңдеу', 'сауда', 'көлік']
     },
-    nicheFocus: ['optovaya-torgovlya', 'proizvodstvo', 'gruzoperevozki', 'magazin-odezhdy', 'fitnes', 'buhgalter'],
+    productFocus: ['katalog-s-zakazom-v-whatsapp', 'korporativnyi-sait', 'internet-magazin-odezhdy', 'zayavki-v-google-sheets', 'sait-dlya-fitnes-kluba', 'otchety-v-telegram'],
     nearby: ['kokshetau', 'kostanay', 'pavlodar'],
     inPerson: false
   },
@@ -250,7 +250,7 @@ export const cities = [
       ru: ['морской порт и транзит', 'нефть и газ', 'туризм на Каспии', 'строительство'],
       kk: ['теңіз порты және транзит', 'мұнай және газ', 'Каспийдегі туризм', 'құрылыс']
     },
-    nicheFocus: ['gostinica', 'turagentstvo', 'transfer-taksi', 'gruzoperevozki', 'kafe-restoran', 'event-agentstvo'],
+    productFocus: ['sait-vizitka', 'lokalnoe-seo', 'kartochka-2gis-google-maps', 'korporativnyi-sait', 'sait-dlya-kafe', 'ai-assistent-whatsapp'],
     nearby: ['atyrau', 'uralsk', 'aktobe'],
     inPerson: false
   },
@@ -267,7 +267,7 @@ export const cities = [
       ru: ['торговля', 'сельское хозяйство региона', 'образование', 'сфера услуг'],
       kk: ['сауда', 'ауыл шаруашылығы', 'білім беру', 'қызмет көрсету']
     },
-    nicheFocus: ['stroimaterialy', 'remont-kvartir', 'salon-krasoty', 'detskii-sad', 'torty-na-zakaz', 'massazh'],
+    productFocus: ['sait-dlya-stroitelnoi-kompanii', 'sait-dlya-salona-krasoty', 'telegram-bot-zapis', 'sait-vizitka', 'lending', 'sait-dlya-uchebnogo-centra'],
     nearby: ['zharkent', 'konaev', 'almaty'],
     inPerson: false
   },
@@ -284,7 +284,7 @@ export const cities = [
       ru: ['туризм и паломничество', 'гостиничный бизнес', 'общественное питание', 'торговля'],
       kk: ['туризм және зиярат', 'қонақ үй бизнесі', 'қоғамдық тамақтану', 'сауда']
     },
-    nicheFocus: ['gostinica', 'turagentstvo', 'kafe-restoran', 'transfer-taksi', 'fotograf', 'toi-zal'],
+    productFocus: ['sait-vizitka', 'sait-dlya-kafe', 'sait-dlya-toi-zala', 'kartochka-2gis-google-maps', 'ai-assistent-whatsapp', 'lending'],
     nearby: ['shymkent', 'kyzylorda', 'taraz'],
     inPerson: false
   },
@@ -301,7 +301,7 @@ export const cities = [
       ru: ['туризм и отдых', 'сельское хозяйство', 'торговля', 'образование'],
       kk: ['туризм және демалыс', 'ауыл шаруашылығы', 'сауда', 'білім беру']
     },
-    nicheFocus: ['gostinica', 'turagentstvo', 'transfer-taksi', 'kafe-restoran', 'event-agentstvo', 'stroitelstvo'],
+    productFocus: ['sait-vizitka', 'sait-dlya-kafe', 'lokalnoe-seo', 'kartochka-yandex-karty', 'sait-dlya-stroitelnoi-kompanii', 'telegram-bot-zayavki'],
     nearby: ['astana', 'petropavlovsk', 'kostanay'],
     inPerson: false
   },
@@ -318,7 +318,7 @@ export const cities = [
       ru: ['металлургия', 'сервис для промышленности', 'торговля', 'услуги для населения'],
       kk: ['металлургия', 'өнеркәсіпке арналған сервис', 'сауда', 'халыққа қызмет көрсету']
     },
-    nicheFocus: ['avtoservis', 'remont-tehniki', 'stroitelstvo', 'fitnes', 'magazin-odezhdy', 'avtoshkola'],
+    productFocus: ['sait-dlya-avtoservisa', 'sait-dlya-fitnes-kluba', 'internet-magazin-odezhdy', 'crm-dlya-malogo-biznesa', 'telegram-bot-zapis', 'kartochka-2gis-google-maps'],
     nearby: ['karaganda', 'astana', 'balkhash'],
     inPerson: false
   },
@@ -335,7 +335,7 @@ export const cities = [
       ru: ['угледобыча', 'энергетика', 'ремонт и сервис техники', 'транспорт'],
       kk: ['көмір өндіру', 'энергетика', 'техниканы жөндеу және сервис', 'көлік']
     },
-    nicheFocus: ['gruzoperevozki', 'remont-tehniki', 'avtoservis', 'stroimaterialy', 'proizvodstvo', 'salon-krasoty'],
+    productFocus: ['sait-dlya-avtoservisa', 'korporativnyi-sait', 'uvedomleniya-o-zayavkah', 'zayavki-v-google-sheets', 'crm-dlya-malogo-biznesa', 'sait-vizitka'],
     nearby: ['pavlodar', 'semey', 'astana'],
     inPerson: false
   },
@@ -352,7 +352,7 @@ export const cities = [
       ru: ['медная промышленность', 'горное оборудование и сервис', 'торговля', 'услуги для населения'],
       kk: ['мыс өнеркәсібі', 'тау-кен жабдығы және сервис', 'сауда', 'халыққа қызмет көрсету']
     },
-    nicheFocus: ['avtoservis', 'gruzoperevozki', 'stroimaterialy', 'remont-kvartir', 'medcentr', 'avtomoika'],
+    productFocus: ['sait-dlya-avtoservisa', 'korporativnyi-sait', 'sait-dlya-stroitelnoi-kompanii', 'crm-dlya-malogo-biznesa', 'telegram-bot-zayavki', 'kartochka-2gis-google-maps'],
     nearby: ['karaganda', 'kyzylorda', 'balkhash'],
     inPerson: false
   },
@@ -369,7 +369,7 @@ export const cities = [
       ru: ['туризм и отдых у водохранилища', 'торговля', 'строительство', 'сфера услуг'],
       kk: ['су қоймасындағы туризм және демалыс', 'сауда', 'құрылыс', 'қызмет көрсету']
     },
-    nicheFocus: ['gostinica', 'turagentstvo', 'kafe-restoran', 'event-agentstvo', 'stroitelstvo', 'agentstvo-nedvizhimosti'],
+    productFocus: ['sait-vizitka', 'sait-dlya-kafe', 'sait-dlya-agentstva-nedvizhimosti', 'sait-dlya-toi-zala', 'kartochka-2gis-google-maps', 'lending'],
     nearby: ['almaty', 'taldykorgan', 'zharkent'],
     inPerson: false
   },
@@ -386,7 +386,7 @@ export const cities = [
       ru: ['медная промышленность', 'рыболовство и отдых на озере', 'торговля', 'услуги для населения'],
       kk: ['мыс өнеркәсібі', 'балық аулау және көлдегі демалыс', 'сауда', 'халыққа қызмет көрсету']
     },
-    nicheFocus: ['magazin-odezhdy', 'avtoservis', 'salon-krasoty', 'cvetochnyi-magazin', 'remont-tehniki', 'kafe-restoran'],
+    productFocus: ['sait-vizitka', 'internet-magazin-odezhdy', 'sait-dlya-salona-krasoty', 'internet-magazin-cvetov', 'katalog-s-zakazom-v-whatsapp', 'sait-dlya-kafe'],
     nearby: ['karaganda', 'zhezkazgan', 'temirtau'],
     inPerson: false
   },
@@ -403,7 +403,7 @@ export const cities = [
       ru: ['добыча железной руды', 'сервис для промышленности', 'торговля', 'услуги для населения'],
       kk: ['темір кенін өндіру', 'өнеркәсіпке арналған сервис', 'сауда', 'халыққа қызмет көрсету']
     },
-    nicheFocus: ['avtoservis', 'stroitelstvo', 'remont-kvartir', 'gruzoperevozki', 'stomatologiya', 'shkola-tancev'],
+    productFocus: ['sait-dlya-avtoservisa', 'sait-dlya-stroitelnoi-kompanii', 'sait-dlya-stomatologii', 'telegram-bot-zapis', 'sait-dlya-fitnes-kluba', 'crm-dlya-malogo-biznesa'],
     nearby: ['kostanay', 'kokshetau', 'aktobe'],
     inPerson: false
   },
@@ -420,7 +420,7 @@ export const cities = [
       ru: ['приграничная торговля', 'логистика и транзит', 'сельское хозяйство', 'сфера услуг'],
       kk: ['шекара маңындағы сауда', 'логистика және транзит', 'ауыл шаруашылығы', 'қызмет көрсету']
     },
-    nicheFocus: ['gruzoperevozki', 'optovaya-torgovlya', 'transfer-taksi', 'gostinica', 'stroimaterialy', 'yazykovaya-shkola'],
+    productFocus: ['katalog-s-zakazom-v-whatsapp', 'internet-magazin', 'kaspi-xml', 'sait-vizitka', 'ai-assistent-whatsapp', 'kartochka-2gis-google-maps'],
     nearby: ['taldykorgan', 'konaev', 'almaty'],
     inPerson: false
   }

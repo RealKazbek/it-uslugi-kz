@@ -4,9 +4,12 @@ import { fileURLToPath } from 'node:url';
 import { config } from './data/config.js';
 import { pages } from './lib/site.js';
 import { abs } from './lib/urls.js';
-import { buildAllServiceCity } from './pages/service-city.js';
-import { buildAllNicheCity } from './pages/niche-city.js';
-import { buildHubs } from './pages/hubs.js';
+import { LANGS } from './lib/i18n.js';
+import { faviconSvg } from './lib/brand.js';
+import { buildProducts } from './pages/product.js';
+import { buildCatalog } from './pages/catalog.js';
+import { buildCities } from './pages/city.js';
+import { buildStatic, copyPortfolioImages } from './pages/static.js';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = process.env.OUT_DIR || 'dist';
@@ -15,9 +18,10 @@ const dist = join(root, outDir);
 await rm(dist, { recursive: true, force: true });
 await mkdir(join(dist, 'assets'), { recursive: true });
 
-buildAllServiceCity();
-buildAllNicheCity();
-buildHubs();
+buildProducts();
+buildCatalog();
+buildCities();
+buildStatic();
 
 const fileFor = (path) => (path.endsWith('/') ? join(dist, path, 'index.html') : join(dist, path));
 for (const p of pages) {
@@ -27,13 +31,17 @@ for (const p of pages) {
 }
 
 await copyFile(join(root, 'src/styles.css'), join(dist, 'assets/styles.css'));
+await copyFile(join(root, 'src/assets/catalog.js'), join(dist, 'assets/catalog.js'));
+await copyPortfolioImages(dist);
+await writeFile(join(dist, 'favicon.svg'), faviconSvg());
 
 const lastmod = new Date().toISOString().slice(0, 10);
 const indexable = pages.filter((p) => p.indexable);
 const urlEntries = indexable
   .map((p) => {
-    const alts = p.alternates
-      ? ['ru', 'kk']
+    const langs = p.alternates ? LANGS.filter((l) => p.alternates[l]) : [];
+    const alts = langs.length > 1
+      ? langs
           .map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${abs(p.alternates[l])}"/>`)
           .concat(`<xhtml:link rel="alternate" hreflang="x-default" href="${abs(p.alternates.ru)}"/>`)
           .join('')

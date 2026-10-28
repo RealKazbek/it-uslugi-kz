@@ -1,7 +1,7 @@
 const mk = (slug, ru, kk, kkLoc, kkAttr, ctxRu, ctxKk, sRu, sKk, nearby, inPerson = false) => ({
   slug, ru, kk: { name: kk, loc: kkLoc, attr: kkAttr },
   region: { ru: 'Область', kk: 'Облыс' }, context: { ru: ctxRu, kk: ctxKk }, sectors: { ru: sRu, kk: sKk },
-  nicheFocus: ['stomatologiya', 'kafe-restoran', 'avtoservis'], nearby, inPerson,
+  productFocus: ['lending', 'telegram-bot-zapis', 'sait-vizitka', 'ai-assistent-telegram', 'seo-prodvizhenie', 'podderzhka-saita'], nearby, inPerson,
 });
 export const cities = [
   mk('almaty', { name: 'Алматы', loc: 'в Алматы', gen: 'Алматы' }, 'Алматы', 'Алматыда', 'Алматыдағы',

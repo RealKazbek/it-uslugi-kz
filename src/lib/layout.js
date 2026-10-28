@@ -2,31 +2,31 @@ import { config } from '../data/config.js';
 import { esc } from './escape.js';
 import { abs, urls, tgUrl, waUrl } from './urls.js';
 import { script, breadcrumbList } from './jsonld.js';
-import { T, other } from './i18n.js';
+import { T, LANGS } from './i18n.js';
+import { logoInline } from './brand.js';
 
-const ICON =
-  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314213D'/%3E%3Ctext x='16' y='22' font-size='15' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='white'%3ERK%3C/text%3E%3C/svg%3E";
-
-// Buttons: Telegram always, WhatsApp / phone only when configured.
+// Buttons: WhatsApp is primary, Telegram secondary, phone / email optional.
 export function ctaButtons(lang, msg, { phone = false, mail = false } = {}) {
   const t = T[lang].ui;
-  const out = [`<a class="btn tg" href="${esc(tgUrl(msg))}" rel="noopener">${esc(t.tg)}</a>`];
-  const wa = waUrl(msg);
-  if (wa) out.push(`<a class="btn wa" href="${esc(wa)}" rel="noopener">${esc(t.wa)}</a>`);
-  if (phone && config.phone) out.push(`<a class="btn ghost" href="tel:${esc(config.phone)}">${esc(t.call)}</a>`);
-  if (mail && config.email) out.push(`<a class="btn ghost" href="mailto:${esc(config.email)}">${esc(config.email)}</a>`);
+  const out = [
+    `<a class="btn wa" href="${esc(waUrl(msg))}" rel="noopener">${esc(t.wa)}</a>`,
+    `<a class="btn tg" href="${esc(tgUrl(msg))}" rel="noopener">${esc(t.tg)}</a>`,
+  ];
+  if (phone) out.push(`<a class="btn ghost" href="tel:${esc(config.phone)}">${esc(t.call)}: ${esc(config.phoneDisplay)}</a>`);
+  if (mail) out.push(`<a class="btn ghost" href="mailto:${esc(config.email)}">${esc(config.email)}</a>`);
   return out.join('');
 }
 
-function head({ lang, title, description, path, alternates, noindex, jsonld }) {
+const langsOf = (alternates) => (alternates ? LANGS.filter((l) => alternates[l]) : []);
+
+function head({ lang, title, description, path, alternates, noindex, jsonld, extraHead }) {
   const t = T[lang];
+  const alts = langsOf(alternates);
   const links = [];
-  if (alternates && alternates.ru && alternates.kk) {
-    links.push(`<link rel="alternate" hreflang="ru" href="${abs(alternates.ru)}">`);
-    links.push(`<link rel="alternate" hreflang="kk" href="${abs(alternates.kk)}">`);
+  if (alts.length > 1) {
+    for (const l of alts) links.push(`<link rel="alternate" hreflang="${l}" href="${abs(alternates[l])}">`);
     links.push(`<link rel="alternate" hreflang="x-default" href="${abs(alternates.ru)}">`);
   }
-  const alt = alternates && alternates[other(lang)];
   return [
     '<meta charset="utf-8">',
     '<meta name="viewport" content="width=device-width,initial-scale=1">',
@@ -41,12 +41,13 @@ function head({ lang, title, description, path, alternates, noindex, jsonld }) {
     `<meta property="og:description" content="${esc(description)}">`,
     `<meta property="og:url" content="${abs(path)}">`,
     `<meta property="og:locale" content="${t.locale}">`,
-    alt ? `<meta property="og:locale:alternate" content="${T[other(lang)].locale}">` : '',
+    ...alts.filter((l) => l !== lang).map((l) => `<meta property="og:locale:alternate" content="${T[l].locale}">`),
     '<meta name="twitter:card" content="summary">',
     '<meta name="theme-color" content="#14213D" media="(prefers-color-scheme: light)">',
     '<meta name="theme-color" content="#0F1A2E" media="(prefers-color-scheme: dark)">',
-    `<link rel="icon" href="${ICON}">`,
+    '<link rel="icon" href="/favicon.svg" type="image/svg+xml">',
     '<link rel="stylesheet" href="/assets/styles.css">',
+    extraHead || '',
     ...jsonld.map(script),
   ]
     .filter(Boolean)
@@ -55,17 +56,24 @@ function head({ lang, title, description, path, alternates, noindex, jsonld }) {
 
 function header(lang, alternates) {
   const t = T[lang].ui;
-  const o = other(lang);
-  const switchHref = alternates && alternates[o] ? alternates[o] : urls.home(o);
+  // Pages with a defined set of languages offer only those; others (404) offer every home page.
+  const targets = LANGS.filter((l) => l !== lang && (alternates ? alternates[l] : true)).map((l) => ({
+    l,
+    href: alternates ? alternates[l] : urls.home(l),
+  }));
+  const switcher = targets
+    .map((x) => `<a class="lang" href="${x.href}" hreflang="${x.l}" lang="${x.l}">${esc(T[x.l].ui.langName)}</a>`)
+    .join('');
   return `<header class="site-header"><div class="wrap bar">
-<a class="brand" href="${urls.home(lang)}">${esc(config.brand)}</a>
+<a class="brand" href="${urls.home(lang)}">${logoInline()}<span>${esc(config.brand)}</span></a>
 <nav class="nav" aria-label="${esc(t.menu)}">
-<a href="${urls.prices()}">${esc(t.nav.prices)}</a>
-<a href="${urls.nicheIndex()}">${esc(t.nav.niches)}</a>
-<a href="${urls.portfolio()}">${esc(t.nav.portfolio)}</a>
-<a href="${urls.contacts()}">${esc(t.nav.contacts)}</a>
-<a class="lang" href="${switchHref}" hreflang="${o}" lang="${o}">${esc(T[lang].ui.langName)}</a>
-</nav></div></header>`;
+<a href="${urls.catalog(lang)}">${esc(t.nav.catalog)}</a>
+<a href="${urls.prices(lang)}">${esc(t.nav.prices)}</a>
+<a href="${urls.portfolio(lang)}">${esc(t.nav.portfolio)}</a>
+<a href="${urls.contacts(lang)}">${esc(t.nav.contacts)}</a>
+</nav>
+<div class="langs" role="group" aria-label="${esc(t.switchLabel)}">${switcher}</div>
+</div></header>`;
 }
 
 function crumbsHtml(lang, crumbs) {
@@ -82,33 +90,35 @@ function crumbsHtml(lang, crumbs) {
 
 function footer(lang) {
   const t = T[lang].ui;
-  const contacts = [`<a href="${esc(tgUrl())}" rel="noopener">Telegram @${esc(config.telegram)}</a>`];
-  if (config.email) contacts.push(`<a href="mailto:${esc(config.email)}">${esc(config.email)}</a>`);
-  if (config.whatsapp) contacts.push(`<a href="${esc(waUrl())}" rel="noopener">WhatsApp</a>`);
-  if (config.phone) contacts.push(`<a href="tel:${esc(config.phone)}">${esc(config.phone)}</a>`);
+  const contacts = [
+    `<a href="${esc(waUrl())}" rel="noopener">WhatsApp</a>`,
+    `<a href="${esc(tgUrl())}" rel="noopener">Telegram @${esc(config.telegram)}</a>`,
+    `<a href="tel:${esc(config.phone)}">${esc(config.phoneDisplay)}</a>`,
+    `<a href="mailto:${esc(config.email)}">${esc(config.email)}</a>`,
+  ];
   return `<footer class="site-footer"><div class="wrap">
-<p><strong>${esc(config.brand)}</strong> — ${esc(t.footer.tagline)}</p>
+<p><strong>${esc(config.brand)}</strong> — ${esc(t.footerTagline)}</p>
 <ul class="foot-links">
 <li><a href="${urls.home(lang)}">${esc(t.nav.home)}</a></li>
-<li><a href="${urls.nicheIndex()}">${esc(t.nav.niches)}</a></li>
-<li><a href="${urls.prices()}">${esc(t.nav.prices)}</a></li>
-<li><a href="${urls.portfolio()}">${esc(t.nav.portfolio)}</a></li>
-<li><a href="${urls.contacts()}">${esc(t.nav.contacts)}</a></li>
+<li><a href="${urls.catalog(lang)}">${esc(t.nav.catalog)}</a></li>
+<li><a href="${urls.prices(lang)}">${esc(t.nav.prices)}</a></li>
+<li><a href="${urls.portfolio(lang)}">${esc(t.nav.portfolio)}</a></li>
+<li><a href="${urls.contacts(lang)}">${esc(t.nav.contacts)}</a></li>
 </ul>
 <p class="foot-contacts">${contacts.join(' · ')}</p>
-<p class="note">${esc(t.footer.note)}</p>
+<p class="note">${esc(t.footerNote)}</p>
 </div></footer>`;
 }
 
-export function layout({ lang, title, description, path, alternates = null, crumbs = null, main, jsonld = [], ctaMsg, noindex = false }) {
+export function layout({ lang, title, description, path, alternates = null, crumbs = null, main, jsonld = [], ctaMsg, noindex = false, extraHead = '', bodyEnd = '' }) {
   const t = T[lang].ui;
   const ld = [...jsonld];
   if (crumbs && crumbs.length > 1) ld.push(breadcrumbList(crumbs));
-  const msg = ctaMsg || t.defaultMsg;
+  const msg = ctaMsg || T[lang].msg.general;
   return `<!doctype html>
 <html lang="${lang}">
 <head>
-${head({ lang, title, description, path, alternates, noindex, jsonld: ld })}
+${head({ lang, title, description, path, alternates, noindex, jsonld: ld, extraHead })}
 </head>
 <body>
 <a class="skip" href="#main">${esc(t.skip)}</a>
@@ -119,6 +129,7 @@ ${main}
 </main>
 ${footer(lang)}
 <aside class="cta-bar" aria-label="${esc(t.contactLabel)}"><div class="wrap">${ctaButtons(lang, msg)}</div></aside>
+${bodyEnd}
 </body>
 </html>
 `;

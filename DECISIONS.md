@@ -1,5 +1,94 @@
 # Decisions
 
+## v2 (SPEC-v2.md) — CURRENT CONTRACT
+SPEC-v2.md supersedes SPEC.md where they conflict. Everything below "v1 (historical)" describes the old 2189-page site and is kept only as history; where it conflicts with this section, this section wins.
+
+### Page model (target ~270 pages)
+| Type | ru | kk | en |
+|---|---|---|---|
+| Home | `/` | `/kk/` | `/en/` |
+| Catalog (grid + filter/search JS, plain list without JS) | `/catalog/` | `/kk/catalog/` | `/en/catalog/` |
+| Category hub (8) | `/catalog/{category}/` | `/kk/catalog/{category}/` | `/en/catalog/{category}/` |
+| Product (59) | `/products/{slug}/` | `/kk/products/{slug}/` | `/en/products/{slug}/` |
+| City (25, ru+kk only, NO en) | `/goroda/{city}/` | `/kk/goroda/{city}/` | — |
+| Prices | `/ceny/` | `/kk/bagalar/` | `/en/prices/` |
+| Portfolio | `/portfolio/` | `/kk/portfolio/` | `/en/portfolio/` |
+| Contacts | `/kontakty/` | `/kk/bailanys/` | `/en/contacts/` |
+| 404 | `/404.html` (one trilingual noindex page; GitHub Pages serves only the root 404) | | |
+
+Expected: 59×3 + 3 + 24 + 50 + 12 + 1 = 267 HTML pages. ~300 in the spec is approximate; "quality over quantity" wins, so no filler pages were added to reach exactly 300.
+- REMOVED: all service×city, niche×city, service hubs, niche hubs, `/sait-dlya/`. The site went live on 2026-10-28 and those URLs were not indexed yet, so there are no redirects.
+- hreflang: ru/kk/en + x-default(→ru) on every page that exists in more than one language; city pages have ru/kk + x-default only.
+- `src/data/services.js` and `src/data/niches.js` are replaced by products and deleted; the best niches became website products.
+
+### Data
+- `src/data/categories.js`: `export const categories = [{ slug, name:{ru,kk,en}, short:{ru,kk,en}, intro:{ru,kk,en} }]`, order: websites, ecommerce, bots, ai, automation, seo-maps, support, education.
+- `src/data/products.js` is the single entry point (`export const products = [...websites, ...ecommerce, ...]`). For maintainability the objects live in `src/data/products/{category}.js` (each `export default [ ... ]`). Adding a product = add one object to the right file; no template changes.
+- Product schema:
+```js
+{
+  slug: 'sait-dlya-stomatologii',          // latin, unique, used in all 3 languages
+  category: 'websites',                    // one of the 8 category slugs
+  title: { ru, kk, en },                   // H1-ready name: «Сайт для стоматологии»
+  short: { ru, kk, en },                   // one sentence for cards (<= 140 chars)
+  description: { ru, kk, en },             // 2-4 sentences, product-specific intro paragraph
+  priceFrom: 60000,                        // KZT, "from" price
+  unit: 'once' | 'month' | 'lesson' | 'hour',
+  days: { min, max },                      // working days; for month/lesson/hour = start delay
+  includes: { ru: [5-7], kk: [5-7], en: [5-7] },
+  notIncluded: { ru: [2-3], kk: [2-3], en: [2-3] },   // honest limits
+  forWhom: { ru, kk, en },                 // 1-2 sentences
+  faq: [ { q: { ru, kk, en }, a: { ru, kk, en } } ],  // exactly 3, product-specific
+  relatedProducts: ['slug', 'slug', 'slug'],          // 3 existing slugs, may be other categories
+}
+```
+- `cities.js` keeps its fields; `nicheFocus` is replaced by `productFocus: [6 product slugs]` relevant to the city's economy.
+- `config.js`: `telegram: 'RealKazbek'`, `whatsapp: '77066620060'`, `phone: '+77066620060'`, `phoneDisplay: '8 706 662 00 60'`, `email: '37765@iitu.edu.kz'`, `usdRate: 500` (KZT per USD, approximate, edit here), `legal: {ru,kk,en}` (one shared text, see below).
+
+### Products (59; priceFrom KZT / unit / days)
+websites (14): lending 45000/once/3-7 «Лендинг для бизнеса»; sait-vizitka 35000/once/3-6; korporativnyi-sait 120000/once/10-20; veb-prilozhenie 200000/once/20-40 (web app / client portal); sait-dlya-stomatologii 60000/once/5-10; sait-dlya-salona-krasoty 50000/once/5-10 (with online booking); sait-dlya-kafe 50000/once/5-10 (menu + order via WhatsApp); sait-dlya-avtoservisa 45000/once/4-8; sait-dlya-stroitelnoi-kompanii 70000/once/7-14; sait-dlya-uchebnogo-centra 55000/once/5-10; sait-dlya-agentstva-nedvizhimosti 80000/once/10-15; sait-dlya-fitnes-kluba 55000/once/5-10; sait-dlya-yurista 40000/once/3-7; sait-dlya-toi-zala 50000/once/4-8.
+ecommerce (7): internet-magazin 180000/once/15-30; magazin-s-kaspi-xml 220000/once/20-35 (store + Kaspi XML price feed); kaspi-xml 25000/once/2-4 (feed for an existing store/catalog); katalog-s-zakazom-v-whatsapp 80000/once/7-12; telegram-mini-app-magazin 120000/once/14-25; internet-magazin-cvetov 150000/once/14-25; internet-magazin-odezhdy 170000/once/15-30.
+bots (8): telegram-bot-zapis 35000/once/4-8 (appointment booking); telegram-bot-zayavki 30000/once/3-5; telegram-bot-katalog 50000/once/7-12; telegram-bot-dostavka 60000/once/10-15; telegram-bot-rassylka 30000/once/3-6; telegram-bot-faq 25000/once/2-5; telegram-bot-dlya-kursov 45000/once/7-12; whatsapp-bot 40000/once/5-10.
+ai (5): ai-assistent-telegram 60000/once/7-14 (answers clients in Telegram, based on the real portfolio project); ai-assistent-whatsapp 80000/once/10-15; ai-chat-na-sait 50000/once/5-10; ai-baza-znanii-dlya-sotrudnikov 90000/once/10-20; ai-opisaniya-tovarov 30000/once/3-7.
+automation (7): zayavki-v-google-sheets 25000/once/2-4; uvedomleniya-o-zayavkah 15000/once/1-3; crm-dlya-malogo-biznesa 90000/once/10-20; onlain-zapis-google-calendar 30000/once/3-6; otchety-v-telegram 30000/once/3-6; integraciya-api 40000/once/5-10; parsing-dannyh 20000/once/2-5.
+seo-maps (6): kartochka-2gis-google-maps 10000/once/1-3; kartochka-yandex-karty 8000/once/1-2; seo-audit 20000/once/3-5; seo-prodvizhenie 40000/month/start 1-3; lokalnoe-seo 30000/month/start 1-3; uskorenie-saita 25000/once/3-6.
+support (8): ispravlenie-oshibok 5000/once/1-2; podderzhka-saita 15000/month/start 1-2; redizain 60000/once/7-14; dorabotka-saita 15000/once/2-5; domen-hosting-ssl 10000/once/1-2; perenos-saita 15000/once/1-3; pochta-na-domene 8000/once/1-1; kompyuternaya-pomosch 3000/hour/start 1-1 (remote PC/software help for private people).
+education (4): repetitor-programmirovaniya 4000/lesson/start 1-3 (school students); python-s-nulya 5000/lesson/start 1-3; veb-razrabotka-dlya-nachinayushih 5000/lesson/start 1-3; kompyuternaya-gramotnost 3000/lesson/start 1-3 (adults, older people).
+Prices keep the v1 levels where a v1 service existed (all below the Almaty market average); new products are priced in the same range.
+
+### Contacts and CTAs
+- WhatsApp is the primary CTA everywhere: `https://wa.me/77066620060?text=<encoded>`; on product pages the text is «Здравствуйте! Интересует «{title}». {absolute page URL}» (kk/en equivalents). Telegram (`https://t.me/RealKazbek`) is secondary. Phone `tel:+77066620060`, shown as «8 706 662 00 60». Email 37765@iitu.edu.kz. The old gmail address must not appear anywhere.
+
+### Legal status (honesty)
+I work as a self-employed individual, with no IP (ИП / ЖК) and no TOO (ТОО / ЖШС). Texts (config.legal; the only place these words may appear):
+- ru: «Работаю как самозанятое физическое лицо, без ИП и ТОО. Перед началом фиксируем объём работ и цену в письменном соглашении. Оплата: 50% предоплата и 50% после сдачи работы, переводом на Kaspi. Счёт-фактуры и НДС не выставляю.»
+- kk: «Өзін-өзі жұмыспен қамтыған жеке тұлға ретінде жұмыс істеймін, ЖК немесе ЖШС ашылмаған. Жұмыс басталар алдында көлем мен бағаны жазбаша келісімде бекітеміз. Төлем: 50% алдын ала және 50% жұмыс тапсырылғаннан кейін, Kaspi аударымымен. Шот-фактура мен ҚҚС жоқ.»
+- en: «I work as a self-employed individual, not as a registered company. Before we start, we fix the scope and price in a written agreement. Payment: 50% upfront and 50% after delivery, by Kaspi transfer (for clients outside Kazakhstan we agree on a transfer method in advance). I do not issue VAT invoices.»
+Shown on contacts and prices pages, and as a FAQ item on the home page. check.js removes those exact strings and then fails on: ИП, ТОО, ЖК (as word), ЖШС, НДС, ҚҚС, счёт-фактур/счет-фактур, шот-фактур, invoice, VAT, «юрлиц», «официальный договор», «legal entity».
+
+### English
+Aimed at foreign clients hiring a Kazakhstan-based developer remotely. Natural English, not translated Russian. Prices show KZT and «≈ $N» = priceFrom / usdRate, rounded to nearest 5 USD (≥ 50) or 1 USD (< 50).
+
+### Branding
+- Inline SVG monogram «RK» (rounded square, accent fill, white letters) + wordmark «RK Dev» in the header; `/favicon.svg` from the same monogram, linked on every page. No external images.
+
+### City pages
+ru + kk only: intro from `context` + sectors; «Работаю удалённо по всему Казахстану, личная встреча возможна в Алматы» (Almaty: meeting in person); 6 recommended products from `productFocus` with a city-specific reason; full catalog grouped by category as compact links (title + price only, to limit shared text); city FAQ (3); links to the 3 nearby cities. No city×product pages.
+
+### Portfolio screenshots
+`src/assets/portfolio/{slug}.webp` is copied to `/assets/portfolio/` and rendered only if the file exists. None exist yet.
+
+### v2 implementation log
+- 2026-10-28: Code refactored to v2. Removed services/niches data, service-city/niche-city/hubs pages, names/refs/niche helpers. New modules: `lib/brand.js` (monogram, favicon), `pages/{product,catalog,city,static,common}.js`, `content/{ru,kk,en}.js` + `*-process.js`.
+- Process steps are chosen by key `${category}-${unit}` then `category` (e.g. `support-month`, `support-hour`, `seo-maps-month`, `education-lesson`), so pages differ by category and unit.
+- Catalog filter and search controls are injected by `/assets/catalog.js`; without JS the page is a plain card list. Catalog hubs are generated only for categories that have products.
+- City pages: category order and product order in the catalog block are shuffled per city (deterministic hash) and the 6 `productFocus` products show their full descriptions; without both, the shared catalog text pushed city pages above Jaccard 0.70.
+- English home lists no cities (city pages are ru/kk only) and carries a note instead.
+- `check.js` additionally enforces: title <= 70, description <= 200, URL allowlist of the v2 page model, favicon link, `wa.me/77066620060` on every page except the 404, legal-word scan after stripping `config.legal`, old gmail absent from all text files.
+- The 404 is `lang="ru"` with ru/kk/en blocks and the language switcher pointing at the three home pages.
+
+## v1 (historical)
+
 Source of truth: SPEC.md. This file logs choices made autonomously, plus the shared contract all code follows.
 
 ## Architecture
