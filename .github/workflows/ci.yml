@@ -110,5 +110,10 @@ jobs:
           USD_RATE: "500"
           NEXT_TELEMETRY_DISABLED: "1"
         run: npm run build
-      - name: Server-rendered 404 check (next start, /nope and /products/nope)
+      - name: Server-rendered 404 check (next start, unknown URLs)
+        env:
+          API_INTERNAL_URL: http://127.0.0.1:8000
+          SITE_URL: https://uslugi.realkazbek.site
+          USD_RATE: "500"
+        working-directory: frontend
         run: sh scripts/check-404.sh

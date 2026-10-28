@@ -1,5 +1,5 @@
 #!/bin/sh
-# Starts `next start` on a free port, checks that unknown URLs get a server-rendered 404,
+# Starts `next start` on a free port, checks that unknown URLs get a server-rendered 404 (status, <html lang>, <h1>, noindex),
 # then stops the server. Run after `npm run build`.
 set -eu
 
@@ -17,7 +17,7 @@ for _ in $(seq 1 60); do
 done
 
 failed=0
-for path in /nope /products/nope; do
+for path in /nope /products/nope /kk/nope /en/nope /en/city/almaty /products /kk/city; do
   body="$(mktemp)"
   status="$(curl -s -o "$body" -w '%{http_code}' "http://127.0.0.1:$PORT$path")"
   if [ "$status" != "404" ]; then
@@ -29,8 +29,11 @@ for path in /nope /products/nope; do
   if ! grep -q 'name="robots" content="noindex' "$body"; then
     echo "FAIL $path: noindex meta missing"; failed=1
   fi
+  if ! grep -q '<html lang=' "$body"; then
+    echo "FAIL $path: no <html lang=> in server HTML"; failed=1
+  fi
   rm -f "$body"
-  [ "$failed" = "0" ] && echo "OK $path -> 404 with <h1> and noindex"
+  [ "$failed" = "0" ] && echo "OK $path -> 404 with <html lang>, <h1> and noindex"
 done
 
 if [ "$failed" != "0" ]; then
