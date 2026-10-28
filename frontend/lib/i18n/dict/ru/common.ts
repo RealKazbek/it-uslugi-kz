@@ -16,7 +16,7 @@ export const commonRu: CommonDict = {
   units: { once: 'разово', month: 'в месяц', lesson: 'за урок', hour: 'за час' },
   priceFrom: (price) => `от ${price}`,
   daysTerm: (range, max) => `срок: ${range} ${ruPlural(max, 'рабочий день', 'рабочих дня', 'рабочих дней')}`,
-  daysStart: (days) => `старт в течение ${days} ${ruPlural(days, 'рабочего дня', 'рабочих дня', 'рабочих дней')}`,
+  daysStart: (days) => `старт в течение ${days} ${ruPlural(days, 'рабочего дня', 'рабочих дней', 'рабочих дней')}`,
   msgGeneral: 'Здравствуйте! Хочу обсудить задачу.',
   msgProduct: (title, url) => `Здравствуйте! Интересует «${title}». ${url}`,
   notFound: {

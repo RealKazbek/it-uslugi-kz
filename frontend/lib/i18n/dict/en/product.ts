@@ -1,7 +1,6 @@
 import type { ProductDict } from '../types';
 
 export const productEn: ProductDict = {
-  titleTemplate: (title, priceText) => `${title} — ${priceText} | RK Dev`,
   descriptionTemplate: (short, priceText) => `${short} Price ${priceText}. Remote work from Kazakhstan.`,
   remote: 'Remote work from Kazakhstan.',
   estimate: 'What is included',
@@ -17,5 +16,5 @@ export const productEn: ProductDict = {
   priceNote: 'This is a starting price; I give the final amount before work starts. USD is approximate.',
   payNote: 'Payment terms and my status',
   leadTitle: 'Or send a request',
-  leadText: 'I will reply on WhatsApp or Telegram. Your contact is used only to reply.',
+  leadText: 'I will reply in the channel you choose: WhatsApp, Telegram, phone or email. Your contact is used only to reply.',
 };

@@ -78,7 +78,6 @@ export interface CatalogDict {
 }
 
 export interface ProductDict {
-  titleTemplate: (title: string, priceText: string) => string;
   descriptionTemplate: (short: string, priceText: string) => string;
   remote: string;
   estimate: string;
@@ -110,23 +109,27 @@ export interface LeadDict {
   errors: { name: string; contact: string; message: string; channel: string };
 }
 
-/** Inputs for the city FAQ, already in the language's grammatical forms. */
-export interface CityFaqInput {
+/** City name forms: `loc` ("в Алматы" / "Алматыда"), `gen` (ru genitive), `attr` (kk "Алматыдағы"). */
+export interface CityForms {
   loc: string;
   gen: string;
   attr: string;
+}
+
+/** Inputs for the city FAQ. `example` is one focus product with its reason, if the city has one. */
+export interface CityFaqInput extends CityForms {
   sectors: string[];
   inPerson: boolean;
   titles: string[];
+  example: { title: string; reason: string } | null;
 }
 
 export interface CityDict {
   title: (name: string) => string;
-  h1: (loc: string) => string;
-  description: (loc: string, min: string) => string;
+  h1: (forms: CityForms) => string;
+  description: (forms: CityForms, min: string) => string;
   intro: (context: string, sectors: string[]) => string;
   remote: string;
-  remoteInPerson: string;
   focusHeading: string;
   focusLead: string;
   catalogHeading: (form: string) => string;

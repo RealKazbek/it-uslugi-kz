@@ -12,7 +12,7 @@ export const homeEn: HomeDict = {
   allCatalog: 'Full catalog',
   howHeading: 'How a project works',
   howSteps: [
-    { t: 'Enquiry', d: 'You message me on WhatsApp or Telegram and describe the task in a couple of sentences.' },
+    { t: 'Inquiry', d: 'You message me on WhatsApp or Telegram and describe the task in a couple of sentences.' },
     { t: 'Estimate and timeline', d: 'I give you a price and a timeline, and we fix the scope in a written agreement.' },
     { t: 'Work in stages', d: 'I build in parts and show you progress while changes are still easy to make.' },
     { t: 'Delivery', d: 'I hand over the result, show you how to use it and stay available for questions.' },

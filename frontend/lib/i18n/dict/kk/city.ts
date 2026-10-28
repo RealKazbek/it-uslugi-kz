@@ -1,12 +1,16 @@
-import type { CityDict } from '../types';
+import type { CityDict, CityFaqInput } from '../types';
+
+function example(input: CityFaqInput): string {
+  return input.example ? ` Мысалы, «${input.example.title}» үшін: ${input.example.reason}` : '';
+}
 
 export const cityKk: CityDict = {
   title: (name) => `${name} IT-қызметтер: сайттар, боттар, автоматтандыру | RK Dev`,
-  h1: (loc) => `IT-қызметтер ${loc}`,
-  description: (loc, min) => `Сайттар, Telegram-боттар және автоматтандыру ${loc}. Бағасы ${min}. Қазақстан бойынша қашықтан жұмыс істеймін.`,
+  h1: (forms) => `${forms.attr} IT-қызметтер`,
+  description: (forms, min) =>
+    `${forms.attr} бизнеске сайттар, Telegram-боттар және автоматтандыру. Бағасы ${min}. Қазақстан бойынша қашықтан жұмыс істеймін.`,
   intro: (context, sectors) => `${context} Қаладағы назар аударарлық салалар: ${sectors.join(', ')}.`,
   remote: 'Қазақстан бойынша қашықтан жұмыс істеймін, Алматыда жеке кездесу мүмкін.',
-  remoteInPerson: 'Алматыда менімен жеке кездесуге болады: мен осында тұрамын және жұмыс істеймін.',
   focusHeading: 'Бұл қаладағы бизнеске көбіне не сай келеді',
   focusLead: 'Жергілікті салаларға ең сәйкес келетін алты өнім.',
   catalogHeading: (form) => `${form} бизнеске арналған бүкіл каталог`,
@@ -14,12 +18,12 @@ export const cityKk: CityDict = {
   faqHeading: 'Жиі қойылатын сұрақтар',
   faq: (input) => [
     {
-      q: `${input.loc} жұмысты қашықтан тапсыруға бола ма?`,
+      q: `${input.loc} жұмысқа қашықтан тапсырыс беруге бола ма?`,
       a: `Иә, бәрін қашықтан жасаймын: қоңырау, WhatsApp немесе Telegram арқылы хабарласу, экранды көрсету.${input.inPerson ? ' Алматыда жеке кездесуге болады.' : ''}`,
     },
     {
-      q: `${input.attr} бизнес үшін ең көп не тапсырылады?`,
-      a: `Қаладағы салаларды ескерсек (${input.sectors.slice(0, 3).join(', ')}), көбіне мыналар сай келеді: ${input.titles.slice(0, 3).join('; ')}.`,
+      q: `${input.attr} бизнеске көбіне не сай келеді?`,
+      a: `Қаладағы салаларды ескерсек (${input.sectors.slice(0, 3).join(', ')}), көбіне мыналар сай келеді: ${input.titles.slice(0, 3).join('; ')}.${example(input)}`,
     },
     {
       q: `${input.attr} баға өзгеше ме?`,

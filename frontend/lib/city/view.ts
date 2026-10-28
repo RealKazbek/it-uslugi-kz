@@ -1,6 +1,5 @@
 import type { CardGroup } from '@/lib/catalog/cards';
 import { priceText } from '@/lib/format/price';
-import { focusReason } from '@/lib/i18n/cities/focus';
 import { getDict } from '@/lib/i18n/dict';
 import type { QA } from '@/lib/i18n/dict/types';
 import { localePath } from '@/lib/i18n/paths';
@@ -53,21 +52,23 @@ export function buildCityView(input: CityViewInput): CityView {
   const gen = dto.gen;
   const attr = dto.attr;
   const formName = lang === 'ru' ? (gen ?? dto.name) : (attr ?? dto.name);
+  const forms = { loc: dto.loc, gen: gen ?? dto.name, attr: attr ?? dto.name };
   const minText = input.minPriceKzt === null ? '' : priceText(lang, input.minPriceKzt, rate);
-  const focus = dto.product_focus.map((p, index) => ({
+  const focus = dto.product_focus.map((p) => ({
     href: localePath(lang, `/products/${p.slug}`),
     title: p.title,
     priceText: priceText(lang, p.price_from_kzt, rate),
-    reason: focusReason({ lang, gen, attr, sectors: dto.sectors }, p.category, index),
+    reason: dto.focus_why[p.slug] ?? '',
   }));
+  const first = focus.find((item) => item.reason !== '');
   return {
     slug: dto.slug,
     name: dto.name,
-    h1: d.h1(dto.loc),
+    h1: d.h1(forms),
     title: d.title(formName),
-    description: d.description(dto.loc, minText),
+    description: d.description(forms, minText),
     intro: d.intro(dto.market_context, dto.sectors),
-    remote: dto.in_person ? `${d.remote} ${d.remoteInPerson}` : d.remote,
+    remote: d.remote,
     focusHeading: d.focusHeading,
     focusLead: d.focusLead,
     focus,
@@ -83,12 +84,11 @@ export function buildCityView(input: CityViewInput): CityView {
     })),
     faqHeading: d.faqHeading,
     faq: d.faq({
-      loc: dto.loc,
-      gen: gen ?? dto.name,
-      attr: attr ?? dto.name,
+      ...forms,
       sectors: dto.sectors,
       inPerson: dto.in_person,
       titles: dto.product_focus.map((p) => p.title),
+      example: first ? { title: first.title, reason: first.reason } : null,
     }),
   };
 }

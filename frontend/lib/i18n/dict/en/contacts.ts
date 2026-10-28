@@ -16,6 +16,6 @@ export const contactsEn: ContactsDict = {
     'You talk to me directly, with no managers or middlemen.',
   ],
   formTitle: 'Or send a request',
-  formText: 'I will reply in the channel you choose. Your contact is used only to reply.',
+  formText: 'I will reply in the channel you choose: WhatsApp, Telegram, phone or email. Your contact is used only to reply.',
   nextTitle: 'What next',
 };

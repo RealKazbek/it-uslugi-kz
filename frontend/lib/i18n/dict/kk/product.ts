@@ -1,7 +1,6 @@
 import type { ProductDict } from '../types';
 
 export const productKk: ProductDict = {
-  titleTemplate: (title, priceText) => `${title} — ${priceText} | RK Dev`,
   descriptionTemplate: (short, priceText) => `${short} Бағасы: ${priceText}. Қазақстан бойынша қашықтан жұмыс істеймін.`,
   remote: 'Қазақстан бойынша қашықтан жұмыс істеймін.',
   estimate: 'Не кіреді',
@@ -17,5 +16,5 @@ export const productKk: ProductDict = {
   priceNote: 'Баға бастапқы; соңғы соманы жұмыс басталғанға дейін айтамын.',
   payNote: 'Төлем шарттары және орындаушының мәртебесі',
   leadTitle: 'Немесе өтінім қалдырыңыз',
-  leadText: 'WhatsApp немесе Telegram-да жауап беремін. Байланыс тек жауап беру үшін қажет.',
+  leadText: 'Таңдаған арнаңыз бойынша жауап беремін: WhatsApp, Telegram, телефон немесе email. Байланыс тек жауап беру үшін қажет.',
 };

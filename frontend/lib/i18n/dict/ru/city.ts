@@ -1,12 +1,15 @@
-import type { CityDict } from '../types';
+import type { CityDict, CityFaqInput } from '../types';
+
+function example(input: CityFaqInput): string {
+  return input.example ? ` Например, для «${input.example.title}»: ${input.example.reason}` : '';
+}
 
 export const cityRu: CityDict = {
   title: (name) => `IT-услуги ${name}: сайты, боты, автоматизация | RK Dev`,
-  h1: (loc) => `IT-услуги ${loc}`,
-  description: (loc, min) => `Сайты, Telegram-боты и автоматизация ${loc}. Цены ${min}. Работаю удалённо по Казахстану.`,
+  h1: (forms) => `IT-услуги ${forms.loc}`,
+  description: (forms, min) => `Сайты, Telegram-боты и автоматизация ${forms.loc}. Цены ${min}. Работаю удалённо по Казахстану.`,
   intro: (context, sectors) => `${context} Заметные сферы города: ${sectors.join(', ')}.`,
   remote: 'Работаю удалённо по всему Казахстану, личная встреча возможна в Алматы.',
-  remoteInPerson: 'В Алматы можно встретиться лично: я живу и работаю здесь.',
   focusHeading: 'Что чаще всего подходит бизнесу в этом городе',
   focusLead: 'Шесть продуктов, которые лучше всего соответствуют местным сферам.',
   catalogHeading: (form) => `Весь каталог для бизнеса ${form}`,
@@ -19,7 +22,7 @@ export const cityRu: CityDict = {
     },
     {
       q: `Что чаще всего заказывают для бизнеса ${input.gen}?`,
-      a: `С учётом сфер города (${input.sectors.slice(0, 3).join(', ')}) чаще всего подходят: ${input.titles.slice(0, 3).join('; ')}.`,
+      a: `С учётом сфер города (${input.sectors.slice(0, 3).join(', ')}) чаще всего подходят: ${input.titles.slice(0, 3).join('; ')}.${example(input)}`,
     },
     {
       q: `Отличается ли цена для ${input.gen}?`,
