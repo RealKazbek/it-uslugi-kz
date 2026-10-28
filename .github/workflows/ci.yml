@@ -1,0 +1,109 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+# Placeholder values for CI only. Real secrets live in .env on the server and are never committed.
+
+jobs:
+  backend:
+    name: Backend (ruff, mypy, pytest, OpenAPI)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: ci
+          POSTGRES_USER: ci
+          POSTGRES_PASSWORD: ci-only-not-secret
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U ci -d ci"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    defaults:
+      run:
+        working-directory: backend
+    env:
+      DJANGO_SECRET_KEY: ci-only-not-secret
+      DJANGO_DEBUG: "1"
+      POSTGRES_HOST: localhost
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: ci
+      POSTGRES_USER: ci
+      POSTGRES_PASSWORD: ci-only-not-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements-dev.txt
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Ruff check
+        run: ruff check .
+      - name: Ruff format check
+        run: ruff format --check .
+      - name: Mypy
+        run: mypy .
+      - name: Pytest
+        run: pytest
+      - name: OpenAPI schema validation
+        run: python manage.py spectacular --validate --fail-on-warn
+
+  frontend:
+    name: Frontend (lint, typecheck, vitest, next build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install backend runtime dependencies
+        run: pip install -r ../backend/requirements.txt
+      - name: Start backend on SQLite with seed data
+        working-directory: backend
+        env:
+          DJANGO_SECRET_KEY: ci-only-not-secret
+          DJANGO_DEBUG: "1"
+          DJANGO_ALLOWED_HOSTS: localhost,127.0.0.1
+        run: |
+          python manage.py migrate --noinput
+          python manage.py createcachetable
+          python manage.py seed
+          nohup python manage.py runserver 127.0.0.1:8000 > backend.log 2>&1 &
+          for i in $(seq 1 30); do
+            curl -sf http://127.0.0.1:8000/api/health && exit 0
+            sleep 1
+          done
+          cat backend.log
+          exit 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Test
+        run: npm test
+      - name: Build (ISR reads the API at build time)
+        env:
+          API_INTERNAL_URL: http://127.0.0.1:8000
+          SITE_URL: https://uslugi.realkazbek.site
+          USD_RATE: "500"
+          NEXT_TELEMETRY_DISABLED: "1"
+        run: npm run build
