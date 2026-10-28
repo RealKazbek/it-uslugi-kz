@@ -1,0 +1,26 @@
+[project]
+name = "it-uslugi-bot"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+disallow_any_generics = true
+exclude = ["\\.venv/"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+python_files = ["test_*.py"]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"
