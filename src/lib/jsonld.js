@@ -19,7 +19,6 @@ export function professionalService({ lang = 'ru', cityName, offers = [] } = {})
     address: { '@type': 'PostalAddress', addressLocality: 'Almaty', addressCountry: 'KZ' },
     founder: { '@type': 'Person', name: config.person.name[lang] || config.person.name.ru },
     sameAs: [config.github, config.portfolioUrl],
-    inLanguage: lang,
   };
   if (config.phone) o.telephone = config.phone;
   if (offers.length) o.makesOffer = offers;

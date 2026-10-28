@@ -27,6 +27,7 @@ for (const p of pages) {
 
 await copyFile(join(root, 'src/styles.css'), join(dist, 'assets/styles.css'));
 
+const lastmod = new Date().toISOString().slice(0, 10);
 const indexable = pages.filter((p) => p.indexable);
 const urlEntries = indexable
   .map((p) => {
@@ -36,7 +37,7 @@ const urlEntries = indexable
           .concat(`<xhtml:link rel="alternate" hreflang="x-default" href="${abs(p.alternates.ru)}"/>`)
           .join('')
       : '';
-    return `<url><loc>${abs(p.path)}</loc>${alts}</url>`;
+    return `<url><loc>${abs(p.path)}</loc><lastmod>${lastmod}</lastmod>${alts}</url>`;
   })
   .join('\n');
 await writeFile(

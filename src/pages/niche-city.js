@@ -15,11 +15,11 @@ const t = T.ru;
 
 export function buildNicheCity(niche, city) {
   const path = urls.nicheCity(niche.slug, city.slug);
-  const { x, fitting } = nicheCityCtx(niche, city);
+  const { x, fitting, site } = nicheCityCtx(niche, city);
   const seed = path;
   const sel = (arr, salt) => pick(arr, seed, salt);
 
-  const faqItems = [...t.niche.faq(x), sel(t.cityFaq1(x), 'cf1'), sel(t.cityFaq2(x), 'cf2')];
+  const faqItems = [...t.niche.faq(x), sel(t.cityFaq1(x), 'cf1'), sel(t.nicheCityFaq(x), 'cf2')];
   const msg = `Здравствуйте! Нужен сайт для ${niche.forRu} ${city.ru.loc} (от ${x.price}). Хочу обсудить задачу.`;
   const title = t.niche.title(x);
   const description = sel(t.niche.meta(x), 'meta');
@@ -41,6 +41,7 @@ export function buildNicheCity(niche, city) {
 
   const main = `<h1>${esc(t.niche.h1(x))}</h1>
 <p class="lead">${esc(sel(t.niche.intro(x), 'intro'))}</p>
+<p class="audience">${esc(x.audienceLine)}</p>
 <section><h2>Что учесть ${esc(city.ru.loc)}</h2><p>${esc(sel(t.niche.local(x), 'local'))}</p></section>
 <section><h2>Что нужно на сайте для ${esc(niche.forRu)}</h2><ul class="ticks">${features}</ul></section>
 <section><h2>Какие услуги подойдут</h2>${linkCols(svcLinks)}</section>
@@ -57,12 +58,11 @@ ${ctaBlock('ru', sel(t.cta(x), 'cta'), msg)}`;
     { name: cap(niche.name.ru), path: urls.nicheHub(niche.slug) },
     { name: city.ru.name, path },
   ];
-  const cheapest = fitting.reduce((a, b) => (a.priceFrom <= b.priceFrom ? a : b));
   const jsonld = [
     professionalService({
       lang: 'ru',
       cityName: city.ru.name,
-      offers: [offer({ name: `Сайт для ${niche.forRu}`, price: cheapest.priceFrom, cityName: city.ru.name, url: abs(path) })],
+      offers: [offer({ name: `Сайт для ${niche.forRu}`, price: site.priceFrom, cityName: city.ru.name, url: abs(path) })],
     }),
     faqPage(faqItems),
   ];

@@ -80,6 +80,22 @@ attr: same + ғы/гі: Алматыдағы, Шымкенттегі, Жарке
 ## Log
 - 2026-10-28: Niche hub `/sait-dlya/` added (index of all niches) so niche hubs aren't orphaned.
 - 2026-10-28: City hubs live under `/goroda/{city}/` to avoid slug collisions with service slugs.
+- 2026-10-28 (M1 review fixes):
+  - Niche price/timeline/audience come from one helper, `src/lib/niche.js` `nicheSite()`: only services with `site: true`; fallback `sait-vizitka`, then cheapest fitting (only matters for test fixtures).
+  - Days: a minimum below 1 is shown as 1 (never "0–1"). One-off services show a term ("срок: 3–7 рабочих дней"); month/lesson/hour units show only a start ("старт в течение 1 рабочего дня" / "бастау: 1 жұмыс күні ішінде"). Genitive/nominative plural handled in `lib/text.js`.
+  - Russian service names are never left in the nominative after a preposition: templates use `x.r.{nom,gen,dat,acc}` from `lib/refs.js` ("услуга «…»", "услуге «…»"); niche pages get the same forms for "сайт для …".
+  - Kazakh: before a noun we use `city.kk.attr` + lowercase service name (`lcName`: keeps capitals for Latin-start brands, digits and Cyrillic acronyms such as ЖИ-); `loc` only for standalone "in the city". No kk genitive is built in code; "Орал экономикасы" forms were avoided by rephrasing ("Оралда мына салалар байқалады").
+  - Consumer services (`consumer: true`) use separate intro/local/process/FAQ wording. The two services have different real processes, so `consumerProcess` branches on the slug in the content files. Their local block links to other services in the city (not niches), picked by page-hash and excluding `related`, so internal linking stays.
+  - To keep consumer pages below the 0.60 similarity target, the consumer local block and one FAQ answer include the city sector list.
+  - Niche pages use their own city FAQ (`nicheCityFaq`), because the business-sector question did not make sense for niches.
+  - Audience is rendered once as "Кому подходит: …" / "Кімге арналған: …" after the estimate card; it is no longer inside FAQ answers. Niche pages show the audience of the site service used for the price.
+  - Language switcher shows the target language label (`T[lang].ui.langName` holds the other language's name).
+  - kk nav labels pointing to ru-only pages carry "(орысша)" instead of building kk copies of /ceny/, /portfolio/, /kontakty/.
+  - og:image skipped: a valid PNG cannot be produced without dependencies and many crawlers ignore SVG. Kept `twitter:card summary`. Add `/assets/og.png` later if an image is produced.
+  - 404 has no canonical (noindex). Sitemap gets `<lastmod>` = build date. ProfessionalService no longer has `inLanguage`; kk pages use the kk city name for areaServed. Offer keeps a plain `price` (Google requires it); `priceSpecification` skipped.
+  - `--tg` is now #1670A8 (white on it is about 5.4:1; dark mode #4db3ee with #0F1A2E ink is about 7.4:1). The mobile CTA bar is `display:none` at 760px and up, so there is no empty landmark; body bottom padding is 96px.
+  - `ctaHub` template variants replace the regex clean-up of city-less CTA text in hubs.
+  - check.js: attribute-order-independent `<link>`/`<meta>` parsing; hreflang x-default and self-reference; kk pages must have alternates; `<html lang>`, duplicate ids, one h1 (scripts stripped), OG and twitter tags, no `wa.me` while whatsapp is empty, noindex pages have no canonical, sitemap lastmod. `npm test` builds and checks `test/fixtures` (which carry `site` and `consumer` flags and `days: {min:0,max:1}`).
 
 ## Fixed slugs (all coders use these)
 Services (21; priceFrom KZT / unit):

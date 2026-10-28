@@ -33,7 +33,7 @@ function head({ lang, title, description, path, alternates, noindex, jsonld }) {
     `<title>${esc(title)}</title>`,
     `<meta name="description" content="${esc(description)}">`,
     noindex ? '<meta name="robots" content="noindex">' : '',
-    `<link rel="canonical" href="${abs(path)}">`,
+    noindex ? '' : `<link rel="canonical" href="${abs(path)}">`,
     ...links,
     '<meta property="og:type" content="website">',
     `<meta property="og:site_name" content="${esc(config.brand)}">`,
@@ -43,7 +43,8 @@ function head({ lang, title, description, path, alternates, noindex, jsonld }) {
     `<meta property="og:locale" content="${t.locale}">`,
     alt ? `<meta property="og:locale:alternate" content="${T[other(lang)].locale}">` : '',
     '<meta name="twitter:card" content="summary">',
-    '<meta name="theme-color" content="#14213D">',
+    '<meta name="theme-color" content="#14213D" media="(prefers-color-scheme: light)">',
+    '<meta name="theme-color" content="#0F1A2E" media="(prefers-color-scheme: dark)">',
     `<link rel="icon" href="${ICON}">`,
     '<link rel="stylesheet" href="/assets/styles.css">',
     ...jsonld.map(script),
@@ -63,7 +64,7 @@ function header(lang, alternates) {
 <a href="${urls.nicheIndex()}">${esc(t.nav.niches)}</a>
 <a href="${urls.portfolio()}">${esc(t.nav.portfolio)}</a>
 <a href="${urls.contacts()}">${esc(t.nav.contacts)}</a>
-<a class="lang" href="${switchHref}" hreflang="${o}" lang="${o}">${esc(T[o].ui.langName)}</a>
+<a class="lang" href="${switchHref}" hreflang="${o}" lang="${o}">${esc(T[lang].ui.langName)}</a>
 </nav></div></header>`;
 }
 

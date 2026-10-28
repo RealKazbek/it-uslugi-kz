@@ -8,7 +8,11 @@ import { services, cities, serviceBy, cityBy, nicheBy } from '../lib/data.js';
 import { linkCols, estimateCard, faqHtml, steps, ctaBlock } from '../lib/components.js';
 import { professionalService, offer, faqPage } from '../lib/jsonld.js';
 import { add } from '../lib/site.js';
+import { lcName } from '../lib/text.js';
 import { svcCityCtx, present } from './ctx.js';
+
+// Kazakh: city attributive form + lowercase service name ("Оралдағы лендинг").
+const kkPhrase = (c, name) => `${c.kk.attr} ${lcName(name)}`;
 
 function nicheLinks(svc, city) {
   const own = present(svc.niches, nicheBy);
@@ -34,39 +38,52 @@ export function buildServiceCity(lang, svc, city) {
   const description = sel(t.meta, 'meta');
   const h1 = t.h1(x);
 
-  const nLinks = nicheLinks(svc, city)
-    .map((n) => ({ href: urls.nicheCity(n, city.slug), text: `Сайт для ${nicheBy[n].forRu} ${city.ru.loc}` }));
   const nicheNote = lang === 'kk' ? `<p class="note">Салалар беттері орыс тілінде.</p>` : '';
+  let localLinks;
+  if (svc.consumer) {
+    // Private-person services have no business niches: link to other services in the same city instead.
+    const skip = new Set([svc.slug, ...(svc.related || [])]);
+    const others = services.filter((o) => !skip.has(o.slug));
+    localLinks = pickMany(others, Math.min(4, others.length), seed, 'cl').map((o) => ({
+      href: urls.serviceCity(lang, o.slug, city.slug),
+      text: lang === 'kk' ? kkPhrase(city, o.name.kk) : `${o.name.ru} ${city.ru.loc}`,
+    }));
+  } else {
+    localLinks = nicheLinks(svc, city).map((n) => ({
+      href: urls.nicheCity(n, city.slug),
+      text: `Сайт для ${nicheBy[n].forRu} ${city.ru.loc}`,
+    }));
+  }
 
   const rel = present(svc.related, serviceBy).map((s) => serviceBy[s]).map((s) => ({
     href: urls.serviceCity(lang, s.slug, city.slug),
-    text: `${s.name[lang]} ${city[lang].loc}`,
+    text: lang === 'kk' ? kkPhrase(city, s.name.kk) : `${s.name.ru} ${city.ru.loc}`,
     hint: lang === 'ru' ? `от ${fmt(s.priceFrom)}` : `${fmt(s.priceFrom)} бастап`,
   }));
   const near = present(city.nearby, cityBy).map((c) => cityBy[c]).map((c) => ({
     href: urls.serviceCity(lang, svc.slug, c.slug),
-    text: `${svc.name[lang]} ${c[lang].loc}`,
+    text: lang === 'kk' ? kkPhrase(c, svc.name.kk) : `${svc.name.ru} ${c.ru.loc}`,
   }));
 
   const ruRel = lang === 'ru';
-  const hRel = ruRel ? `Другие услуги ${city.ru.loc}` : `${city.kk.loc} басқа қызметтер`;
-  const hNear = ruRel ? `«${svc.name.ru}» в соседних городах` : `«${svc.name.kk}» жақын қалаларда`;
-  const hLocal = ruRel ? `Для каких бизнесов ${city.ru.loc}` : 'Салалар бойынша мысалдар';
-  const hEst = ruRel ? `Смета: ${svc.name.ru} ${city.ru.loc}` : `Смета: ${city.kk.loc} ${svc.name.kk}`;
+  const hRel = ruRel ? `Другие услуги ${city.ru.loc}` : `${city.kk.attr} басқа қызметтер`;
+  const hNear = ruRel ? `«${svc.name.ru}» в соседних городах` : `«${x.svcL}» қызметі жақын қалаларда`;
+  const hLocal = svc.consumer ? t.ui.localPeople(city[lang].loc) : t.ui.localBiz(city[lang].loc);
+  const hEst = ruRel ? `Смета: ${svc.name.ru} ${city.ru.loc}` : `Смета: ${kkPhrase(city, svc.name.kk)}`;
 
   const card = estimateCard(lang, {
     title: hEst,
     items: svc.included[lang],
     total: lang === 'ru' ? `от ${x.price}` : `${x.price} бастап`,
-    meta: `${x.unitTxt}${x.days ? ` · ${t.ui.timelineLabel}: ${x.days}` : ''}`,
+    meta: `${x.unitTxt}${x.term ? ` · ${x.term}` : ''}`,
   });
 
   const cta = sel(t.cta, 'cta');
   const main = `<h1>${esc(h1)}</h1>
 <p class="lead">${esc(sel(t.intro, 'intro'))}</p>
 ${card}
-<p class="audience">${esc(x.audienceSentence)}</p>
-${nLinks.length ? `<section><h2>${esc(hLocal)}</h2><p>${esc(sel(t.local, 'local'))}</p>${linkCols(nLinks)}${nicheNote}</section>` : ''}
+<p class="audience">${esc(x.audienceLine)}</p>
+${localLinks.length ? `<section><h2>${esc(hLocal)}</h2><p>${esc(sel(t.local, 'local'))}</p>${linkCols(localLinks)}${svc.consumer ? '' : nicheNote}</section>` : ''}
 ${steps(t.ui.process, sel(t.process, 'proc'))}
 <section><h2>${esc(t.ui.priceTime)}</h2><p>${esc(sel(t.price, 'price'))}</p></section>
 ${faqHtml(t.ui.faq, faqItems)}
@@ -83,8 +100,8 @@ ${ctaBlock(lang, cta, msg)}`;
   const jsonld = [
     professionalService({
       lang,
-      cityName: city.ru.name,
-      offers: [offer({ name: svc.name[lang], price: svc.priceFrom, cityName: city.ru.name, url: abs(path) })],
+      cityName: city[lang].name,
+      offers: [offer({ name: svc.name[lang], price: svc.priceFrom, cityName: city[lang].name, url: abs(path) })],
     }),
     faqPage(faqItems),
   ];

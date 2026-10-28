@@ -42,16 +42,29 @@ for (const f of htmlFiles) {
   const url = toUrl(f);
   const title = (html.match(/<title>([\s\S]*?)<\/title>/) || [])[1];
   const descTag = (html.match(/<meta name="description"[^>]*>/) || [])[0];
-  const canonTag = (html.match(/<link rel="canonical"[^>]*>/) || [])[0];
-  const alternates = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)].map((m) => [m[1], decode(m[2])]);
+  const canonTag = (html.match(/<link\b[^>]*>/g) || []).find((t) => attr(t, 'rel') === 'canonical');
+  const linkTags = html.match(/<link\b[^>]*>/g) || [];
+  const alternates = linkTags
+    .filter((t) => attr(t, 'rel') === 'alternate' && attr(t, 'hreflang'))
+    .map((t) => [attr(t, 'hreflang'), attr(t, 'href') || '']);
+  const metaTags = html.match(/<meta\b[^>]*>/g) || [];
+  const metaProp = (name) => {
+    const t = metaTags.find((m) => attr(m, 'property') === name || attr(m, 'name') === name);
+    return t ? attr(t, 'content') : null;
+  };
+  const robots = metaProp('robots') || '';
+  const htmlLang = attr((html.match(/<html\b[^>]*>/) || [''])[0], 'lang');
+  const ids = [...html.matchAll(/<[a-z][a-z0-9]*\b[^>]*?\sid="([^"]*)"/g)].map((m) => m[1]);
   const hrefs = [...html.matchAll(/<a\b[^>]*?\shref="([^"]*)"/g)].map((m) => decode(m[1]));
   const srcs = [...html.matchAll(/<(?:link|script|img)\b[^>]*?\s(?:href|src)="([^"]*)"/g)].map((m) => decode(m[1]));
   const ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]);
   const main = (html.match(/<main[\s\S]*?<\/main>/) || [''])[0];
-  const h1s = (html.match(/<h1[ >]/g) || []).length;
+  const h1s = (html.replace(/<script[\s\S]*?<\/script>/g, '').match(/<h1[ >]/g) || []).length;
+  const hasWa = /wa\.me/.test(html);
   pages.set(url, {
     file: f, url, title: title && decode(title), desc: descTag && attr(descTag, 'content'),
     canonical: canonTag && attr(canonTag, 'href'), alternates, hrefs, srcs, ld, main, h1s, html,
+    metaProp, robots, htmlLang, ids, hasWa,
   });
 }
 
@@ -93,10 +106,21 @@ for (const p of pages.values()) {
   else (seenTitles.get(p.title) || seenTitles.set(p.title, []).get(p.title)).push(p.url);
   if (!p.desc || !p.desc.trim()) fail(`${p.url}: empty meta description`);
   else (seenDescs.get(p.desc) || seenDescs.set(p.desc, []).get(p.desc)).push(p.url);
-  if (!p.canonical) fail(`${p.url}: missing canonical`);
-  else if (!p.canonical.startsWith(`${site}/`)) fail(`${p.url}: canonical not on site domain: ${p.canonical}`);
-  else if (p.canonical !== site + p.url) fail(`${p.url}: canonical mismatch ${p.canonical}`);
+  const noindex = /noindex/.test(p.robots);
+  if (noindex) { if (p.canonical) fail(`${p.url}: noindex page must not have canonical`); }
+  else if (!p.canonical) fail(`${p.url}: missing canonical`);
+  else if (p.canonical && !p.canonical.startsWith(`${site}/`)) fail(`${p.url}: canonical not on site domain: ${p.canonical}`);
+  else if (p.canonical && p.canonical !== site + p.url) fail(`${p.url}: canonical mismatch ${p.canonical}`);
   if (p.h1s !== 1) fail(`${p.url}: expected 1 <h1>, found ${p.h1s}`);
+  // html lang, duplicate ids, OG/twitter tags, WhatsApp hidden when not configured
+  const expectLang = p.url.startsWith('/kk/') ? 'kk' : 'ru';
+  if (p.htmlLang !== expectLang) fail(`${p.url}: <html lang="${p.htmlLang}"> expected ${expectLang}`);
+  const dup = p.ids.filter((id, i) => p.ids.indexOf(id) !== i);
+  if (dup.length) fail(`${p.url}: duplicate id(s) ${[...new Set(dup)].join(', ')}`);
+  for (const k of ['og:title', 'og:description', 'og:url', 'og:type', 'og:locale', 'twitter:card']) {
+    if (!p.metaProp(k)) fail(`${p.url}: missing ${k}`);
+  }
+  if (!config.whatsapp && p.hasWa) fail(`${p.url}: wa.me link present but config.whatsapp is empty`);
   for (const block of p.ld) {
     try {
       const j = JSON.parse(block);
@@ -112,6 +136,14 @@ for (const [d, urls] of seenDescs) if (urls.length > 1) fail(`duplicate descript
 
 // 3. hreflang
 for (const p of pages.values()) {
+  if (p.url.startsWith('/kk/') && !p.alternates.length) fail(`${p.url}: kk page without hreflang alternates`);
+  if (p.alternates.length) {
+    const own = p.url.startsWith('/kk/') ? 'kk' : 'ru';
+    const find = (l) => p.alternates.find(([x]) => x === l);
+    if (!find('x-default')) fail(`${p.url}: hreflang x-default missing`);
+    const self = find(own);
+    if (!self || self[1] !== site + p.url) fail(`${p.url}: hreflang self-reference (${own}) missing or wrong`);
+  }
   for (const [lang, href] of p.alternates) {
     if (!href.startsWith(site)) { fail(`${p.url}: hreflang ${lang} off-site`); continue; }
     const t = href.slice(site.length);
@@ -133,6 +165,7 @@ if (!(await exists(sitemapFile))) fail('sitemap.xml missing');
 else {
   const sm = await readFile(sitemapFile, 'utf8');
   const locs = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  if ((sm.match(/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/g) || []).length !== locs.length) fail('sitemap: every <url> needs <lastmod>');
   const set = new Set();
   for (const l of locs) {
     if (!l.startsWith(site)) { fail(`sitemap off-site url ${l}`); continue; }
