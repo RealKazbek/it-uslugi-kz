@@ -2,6 +2,7 @@ name: CI
 
 on:
   push:
+    branches: [main]
   pull_request:
 
 # Placeholder values for CI only. Real secrets live in .env on the server and are never committed.
@@ -30,6 +31,7 @@ jobs:
     env:
       DJANGO_SECRET_KEY: ci-only-not-secret
       DJANGO_DEBUG: "1"
+      FRONTEND_INTERNAL_URL: ""
       POSTGRES_HOST: localhost
       POSTGRES_PORT: "5432"
       POSTGRES_DB: ci
@@ -76,6 +78,7 @@ jobs:
           DJANGO_SECRET_KEY: ci-only-not-secret
           DJANGO_DEBUG: "1"
           DJANGO_ALLOWED_HOSTS: localhost,127.0.0.1
+          FRONTEND_INTERNAL_URL: ""
         run: |
           python manage.py migrate --noinput
           python manage.py createcachetable
