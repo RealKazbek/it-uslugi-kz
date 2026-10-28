@@ -33,4 +33,6 @@ export const homeEn: HomeDict = {
   ctaTitle: 'Shall we discuss your project?',
   ctaText: 'Message me on WhatsApp or Telegram with a couple of sentences about the task. I will reply, clarify the details and give you a price and a timeline.',
   remoteNote: 'I work remotely with clients across Kazakhstan and abroad. In-person meetings are possible in Almaty.',
+  citiesHeading: 'Clients across Kazakhstan',
+  citiesLead: 'Pages for businesses in individual Kazakhstan cities are available in Russian and Kazakh.',
 };

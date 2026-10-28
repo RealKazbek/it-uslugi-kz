@@ -25,4 +25,6 @@ export const commonEn: CommonDict = {
     catalog: 'Catalog',
   },
   legalHeading: 'Status and payment',
+  footerContacts: 'Contacts and how I work',
+  breadcrumbHome: 'Home',
 };

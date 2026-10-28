@@ -25,4 +25,6 @@ export const commonKk: CommonDict = {
     catalog: 'Каталог',
   },
   legalHeading: 'Мәртебе және төлем',
+  footerContacts: 'Байланыс және жұмыс шарттары',
+  breadcrumbHome: 'Басты бет',
 };

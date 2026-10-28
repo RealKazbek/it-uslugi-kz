@@ -6,6 +6,11 @@ export interface Step {
   d: string;
 }
 
+export interface QA {
+  q: string;
+  a: string;
+}
+
 export interface CommonDict {
   langName: string;
   switchLabel: string;
@@ -17,6 +22,7 @@ export interface CommonDict {
   faq: string;
   footerTagline: string;
   footerNote: string;
+  footerContacts: string;
   mobileBar: { whatsapp: string; telegram: string };
   units: Record<Unit, string>;
   priceFrom: (price: string) => string;
@@ -26,6 +32,7 @@ export interface CommonDict {
   msgProduct: (title: string, url: string) => string;
   notFound: { title: string; text: string; home: string; catalog: string };
   legalHeading: string;
+  breadcrumbHome: string;
 }
 
 export interface HomeDict {
@@ -42,11 +49,13 @@ export interface HomeDict {
   aboutHeading: string;
   aboutFacts: string[];
   faqHeading: string;
-  faq: { q: string; a: string }[];
+  faq: QA[];
   legalQuestion: string;
   ctaTitle: string;
   ctaText: string;
   remoteNote: string;
+  citiesHeading: string;
+  citiesLead: string;
 }
 
 export interface CatalogDict {
@@ -101,10 +110,78 @@ export interface LeadDict {
   errors: { name: string; contact: string; message: string; channel: string };
 }
 
+/** Inputs for the city FAQ, already in the language's grammatical forms. */
+export interface CityFaqInput {
+  loc: string;
+  gen: string;
+  attr: string;
+  sectors: string[];
+  inPerson: boolean;
+  titles: string[];
+}
+
+export interface CityDict {
+  title: (name: string) => string;
+  h1: (loc: string) => string;
+  description: (loc: string, min: string) => string;
+  intro: (context: string, sectors: string[]) => string;
+  remote: string;
+  remoteInPerson: string;
+  focusHeading: string;
+  focusLead: string;
+  catalogHeading: (form: string) => string;
+  nearbyHeading: string;
+  faqHeading: string;
+  faq: (input: CityFaqInput) => QA[];
+}
+
+export interface PricesDict {
+  title: (min: string) => string;
+  description: (n: number, min: string) => string;
+  h1: (min: string) => string;
+  lead: string;
+  cols: string[];
+  legalHeading: string;
+  ctaTitle: string;
+  ctaText: string;
+}
+
+export interface PortfolioDict {
+  title: string;
+  description: string;
+  h1: string;
+  lead: string;
+  stack: string;
+  demo: string;
+  imageAlt: (title: string) => string;
+  ctaTitle: string;
+  ctaText: string;
+}
+
+export interface ContactsDict {
+  title: string;
+  description: string;
+  h1: string;
+  lead: string;
+  where: string;
+  labels: { wa: string; tg: string; phone: string; email: string; site: string; gh: string };
+  who: string;
+  legal: string;
+  how: string;
+  howLines: string[];
+  formTitle: string;
+  formText: string;
+  nextTitle: string;
+}
+
 export interface Dict {
   common: CommonDict;
   home: HomeDict;
   catalog: CatalogDict;
   product: ProductDict;
   lead: LeadDict;
+  city: CityDict;
+  prices: PricesDict;
+  portfolio: PortfolioDict;
+  contacts: ContactsDict;
 }

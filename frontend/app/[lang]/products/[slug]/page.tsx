@@ -16,9 +16,12 @@ import { daysText } from '@/lib/format/days';
 import { priceText, priceWithUnit } from '@/lib/format/price';
 import { getDict } from '@/lib/i18n/dict';
 import { LANGS, type Lang } from '@/lib/i18n/locales';
-import { localePath } from '@/lib/i18n/paths';
 import { selectProcess } from '@/lib/i18n/process';
 import { legal } from '@/lib/site/legal';
+import { JsonLd } from '@/components/features/seo/JsonLd';
+import { buildPageMetadata } from '@/lib/seo/metadata';
+import { absoluteUrl } from '@/lib/seo/urls';
+import { breadcrumbLd, faqPageLd, serviceLd } from '@/lib/seo/jsonld';
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -42,10 +45,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (product === null) return {};
   const price = priceText(lang, product.price_from_kzt, config.usdRate);
   const d = getDict(lang).product;
-  return {
+  return buildPageMetadata({
+    siteUrl: config.siteUrl,
+    lang,
+    path: `/products/${slug}`,
     title: d.titleTemplate(product.title, price),
     description: d.descriptionTemplate(product.short, price),
-  };
+    langs: LANGS,
+  });
 }
 
 export default async function ProductPage({ params }: PageProps) {
@@ -56,19 +63,26 @@ export default async function ProductPage({ params }: PageProps) {
   if (product === null) notFound();
 
   const d = getDict(lang);
-  const pagePath = localePath(lang, `/products/${product.slug}`);
-  const absoluteUrl = `${config.siteUrl}${pagePath}`;
+  const pageUrl = absoluteUrl(config.siteUrl, lang, `/products/${product.slug}`);
   const steps = selectProcess(lang, product.category, product.unit);
   const related = product.related.map((card) => cardView(card, lang, config.usdRate));
   const faqs = product.faqs.map((f) => ({ q: f.question, a: f.answer }));
 
+  const url = pageUrl;
+  const crumbs = [
+    { name: getDict(lang).common.breadcrumbHome, url: absoluteUrl(config.siteUrl, lang, '/') },
+    { name: getDict(lang).common.nav.catalog, url: absoluteUrl(config.siteUrl, lang, '/catalog') },
+    { name: product.title, url },
+  ];
+  const service = serviceLd({ name: product.title, description: product.short, url, priceKzt: product.price_from_kzt });
   return (
     <>
+      <JsonLd data={[service, faqPageLd(product.faqs.map((f) => ({ q: f.question, a: f.answer }))), breadcrumbLd(crumbs)]} />
       <Section>
         <Container className="space-y-5">
           <h1 className="text-[1.9rem] leading-tight md:text-[2.4rem]">{product.title}</h1>
           <p className="max-w-prose text-lg text-muted">{product.description}</p>
-          <ProductCtas lang={lang} title={product.title} absoluteUrl={absoluteUrl} />
+          <ProductCtas lang={lang} title={product.title} absoluteUrl={pageUrl} />
         </Container>
       </Section>
       <Section>
@@ -131,14 +145,14 @@ export default async function ProductPage({ params }: PageProps) {
         <Container className="space-y-4">
           <h2 id="cta-title" className="text-2xl">{d.product.ctaTitle}</h2>
           <p className="max-w-prose text-muted">{d.product.ctaText}</p>
-          <ProductCtas lang={lang} title={product.title} absoluteUrl={absoluteUrl} />
+          <ProductCtas lang={lang} title={product.title} absoluteUrl={pageUrl} />
         </Container>
       </Section>
       <Section labelledBy="lead-title" className="pb-24 md:pb-14">
         <Container className="space-y-5">
           <h2 id="lead-title" className="text-2xl">{d.product.leadTitle}</h2>
           <p className="max-w-prose text-muted">{d.product.leadText}</p>
-          <LeadForm lang={lang} product={product.slug} pageUrl={absoluteUrl} />
+          <LeadForm lang={lang} product={product.slug} pageUrl={pageUrl} />
         </Container>
       </Section>
     </>

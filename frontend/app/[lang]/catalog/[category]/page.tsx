@@ -14,6 +14,11 @@ import { priceText } from '@/lib/format/price';
 import { getDict } from '@/lib/i18n/dict';
 import type { Lang } from '@/lib/i18n/locales';
 import { localePath } from '@/lib/i18n/paths';
+import { JsonLd } from '@/components/features/seo/JsonLd';
+import { LANGS } from '@/lib/i18n/locales';
+import { buildPageMetadata } from '@/lib/seo/metadata';
+import { absoluteUrl } from '@/lib/seo/urls';
+import { breadcrumbLd } from '@/lib/seo/jsonld';
 import type { ProductCardDto } from '@/types/api';
 
 export const revalidate = 3600;
@@ -46,10 +51,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!current) return {};
   const products = await getProducts(lang, category);
   const d = getDict(lang).catalog;
-  return {
+  return buildPageMetadata({
+    siteUrl: config.siteUrl,
+    lang,
+    path: `/catalog/${category}`,
     title: d.hubTitle(current.name),
     description: d.hubDescription(current.short, categoryMinPrice(lang, products)),
-  };
+    langs: LANGS,
+  });
 }
 
 export default async function CategoryPage({ params }: PageProps) {
@@ -64,8 +73,14 @@ export default async function CategoryPage({ params }: PageProps) {
   const cards = products.map((p) => cardView(p, lang, config.usdRate));
   const others = catalog.categories.filter((c) => c.slug !== category && c.productCount > 0);
 
+  const crumbs = [
+    { name: getDict(lang).common.breadcrumbHome, url: absoluteUrl(config.siteUrl, lang, '/') },
+    { name: d.h1, url: absoluteUrl(config.siteUrl, lang, '/catalog') },
+    { name: current.name, url: absoluteUrl(config.siteUrl, lang, `/catalog/${category}`) },
+  ];
   return (
     <>
+      <JsonLd data={breadcrumbLd(crumbs)} />
       <Section>
         <Container className="space-y-4">
           <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.hubH1(current.name)}</h1>

@@ -10,11 +10,17 @@ import { FaqList } from '@/components/ui/FaqList';
 import { Section } from '@/components/ui/Section';
 import { StepList } from '@/components/ui/StepList';
 import { loadCatalog } from '@/lib/catalog/load';
+import { getCities } from '@/lib/api/cities';
+import { JsonLd } from '@/components/features/seo/JsonLd';
+import { config } from '@/lib/config';
+import { LANGS } from '@/lib/i18n/locales';
+import { buildPageMetadata } from '@/lib/seo/metadata';
+import { faqPageLd, professionalServiceLd } from '@/lib/seo/jsonld';
+import { isCityLang } from '@/lib/city/types';
 import { parseLang } from '@/lib/catalog/params';
 import { priceText } from '@/lib/format/price';
 import { getDict } from '@/lib/i18n/dict';
 import { localePath } from '@/lib/i18n/paths';
-import { config } from '@/lib/config';
 import { legal } from '@/lib/site/legal';
 import { whatsappGeneralLink } from '@/lib/format/links';
 
@@ -31,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const catalog = await loadCatalog(lang);
   const min = catalog.minPriceKzt === null ? '' : priceText(lang, catalog.minPriceKzt, config.usdRate);
   const d = getDict(lang).home;
-  return { title: d.title, description: d.description(min) };
+  return buildPageMetadata({ siteUrl: config.siteUrl, lang, path: '/', title: d.title, description: d.description(min), langs: LANGS });
 }
 
 export default async function HomePage({ params }: PageProps) {
@@ -41,9 +47,14 @@ export default async function HomePage({ params }: PageProps) {
   const catalog = await loadCatalog(lang);
   const featured = catalog.groups.flatMap((group) => (group.cards[0] ? [group.cards[0]] : []));
   const faq = [...d.home.faq, { q: d.home.legalQuestion, a: legal[lang] }];
+  const cities = isCityLang(lang)
+    ? (await getCities(lang)).map((c) => ({ href: localePath(lang, `/city/${c.slug}`), name: c.name }))
+    : [];
 
+  const faqLd = faqPageLd(faq);
   return (
     <>
+      <JsonLd data={[professionalServiceLd(config.siteUrl), faqLd]} />
       <Container>
         <Hero lang={lang} />
       </Container>
@@ -90,6 +101,21 @@ export default async function HomePage({ params }: PageProps) {
         <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
           <h2 id="faq" className="text-2xl">{d.home.faqHeading}</h2>
           <FaqList items={faq} />
+        </Container>
+      </Section>
+      <Section labelledBy="cities">
+        <Container className="space-y-6">
+          <h2 id="cities" className="text-2xl">{d.home.citiesHeading}</h2>
+          <p className="max-w-prose text-muted">{d.home.citiesLead}</p>
+          {cities.length > 0 && (
+            <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-3 md:grid-cols-4">
+              {cities.map((city) => (
+                <li key={city.href}>
+                  <Link href={city.href} className="text-ink">{city.name}</Link>
+                </li>
+              ))}
+            </ul>
+          )}
         </Container>
       </Section>
       <Section labelledBy="cta" className="pb-24 md:pb-14">

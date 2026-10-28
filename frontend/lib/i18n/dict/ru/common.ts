@@ -26,4 +26,6 @@ export const commonRu: CommonDict = {
     catalog: 'Каталог',
   },
   legalHeading: 'Статус и оплата',
+  footerContacts: 'Контакты и правила работы',
+  breadcrumbHome: 'Главная',
 };
