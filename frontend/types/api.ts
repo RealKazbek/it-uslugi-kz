@@ -24,6 +24,8 @@ export interface ProductCardDto {
   short: string;
   price_from_kzt: number;
   unit: Unit;
+  days_min: number;
+  days_max: number;
 }
 
 export interface FaqDto {
@@ -62,4 +64,6 @@ export interface CityDto {
   attr: string | null;
   product_focus: ProductCardDto[];
   nearby: CityRefDto[];
+  /** Hand-written reason per focus product (key: product slug), in the request language. */
+  focus_why: Record<string, string>;
 }

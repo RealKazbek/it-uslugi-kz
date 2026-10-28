@@ -10,6 +10,6 @@ export function getCities(lang: Exclude<Lang, 'en'>): Promise<CityDto[]> {
 /** Null when the city does not exist (API 404). */
 export function getCity(lang: Exclude<Lang, 'en'>, slug: string): Promise<CityDto | null> {
   return apiGetOrNull<CityDto>(`/api/cities/${encodeURIComponent(slug)}?lang=${lang}`, {
-    tags: [`city:${slug}`],
+    tags: ['cities', `city:${slug}`, 'products'],
   });
 }

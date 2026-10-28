@@ -9,6 +9,8 @@ const product = {
   short: 'Одна страница с заявкой',
   price_from_kzt: 45000,
   unit: 'once' as const,
+  days_min: 3,
+  days_max: 7,
 };
 
 const cards: CardView[] = [

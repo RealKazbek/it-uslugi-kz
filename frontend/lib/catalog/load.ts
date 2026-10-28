@@ -27,3 +27,10 @@ export async function loadCatalog(lang: Lang): Promise<CatalogData> {
     minPriceKzt,
   };
 }
+
+/** Display name of one category in the language, or the slug when the category is unknown. */
+export async function categoryName(lang: Lang, slug: string): Promise<string> {
+  const dtos = await getCategories();
+  const dto = dtos.find((c) => c.slug === slug);
+  return dto ? categoryView(dto, lang).name : slug;
+}

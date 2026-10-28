@@ -11,6 +11,6 @@ export function getProducts(lang: Lang, category?: string): Promise<ProductCardD
 /** Null when the product does not exist or is inactive (API 404). */
 export function getProduct(lang: Lang, slug: string): Promise<ProductDto | null> {
   return apiGetOrNull<ProductDto>(`/api/products/${encodeURIComponent(slug)}?lang=${lang}`, {
-    tags: [`product:${slug}`],
+    tags: ['products', `product:${slug}`],
   });
 }

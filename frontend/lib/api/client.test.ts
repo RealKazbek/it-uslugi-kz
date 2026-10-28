@@ -21,7 +21,7 @@ describe('API client', () => {
     await getProduct('ru', 'lending');
     const [url, init] = vi.mocked(fetch).mock.calls[0] ?? [];
     expect(String(url)).toBe('http://localhost:8000/api/products/lending?lang=ru');
-    expect(init).toMatchObject({ next: { revalidate: 3600, tags: ['product:lending'] } });
+    expect(init).toMatchObject({ next: { revalidate: 3600, tags: ['products', 'product:lending'] } });
   });
 
   it('returns null for a missing product (404)', async () => {
@@ -40,13 +40,13 @@ describe('API client', () => {
     respond(200, []);
     await getCategories();
     const init = vi.mocked(fetch).mock.calls[0]?.[1];
-    expect(init).toMatchObject({ next: { tags: ['categories'] } });
+    expect(init).toMatchObject({ next: { tags: ['categories', 'products'] } });
   });
 
   it('returns null for a missing city and uses the city tag', async () => {
     respond(404);
     await expect(getCity('kk', 'nowhere')).resolves.toBeNull();
     const init = vi.mocked(fetch).mock.calls[0]?.[1];
-    expect(init).toMatchObject({ next: { tags: ['city:nowhere'] } });
+    expect(init).toMatchObject({ next: { tags: ['cities', 'city:nowhere', 'products'] } });
   });
 });
