@@ -30,4 +30,9 @@ addopts = "-ra --strict-markers"
 env = [
     "DJANGO_DEBUG=1",
     "DJANGO_SECRET_KEY=test-only-not-a-secret",
+    # Empty values keep the Telegram and revalidation webhooks disabled unless a test enables them.
+    "TELEGRAM_BOT_TOKEN=",
+    "ADMIN_CHAT_ID=",
+    "FRONTEND_INTERNAL_URL=",
+    "INTERNAL_API_TOKEN=test-only-internal-token",
 ]

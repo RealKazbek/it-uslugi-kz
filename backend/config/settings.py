@@ -121,6 +121,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 REST_FRAMEWORK: dict[str, Any] = {
     "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.AllowAny"],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+    # Lead throttles: 5 per minute and 30 per day per client IP (scopes used in leads/throttles.py).
+    "DEFAULT_THROTTLE_RATES": {"leads": "5/min", "leads_daily": "30/day"},
+    # Behind one reverse proxy (nginx / Next route handler): trust the last X-Forwarded-For hop.
+    "NUM_PROXIES": 1,
 }
 
 SPECTACULAR_SETTINGS: dict[str, Any] = {
@@ -132,7 +136,8 @@ SPECTACULAR_SETTINGS: dict[str, Any] = {
 TELEGRAM_BOT_TOKEN = _env("TELEGRAM_BOT_TOKEN")
 ADMIN_CHAT_ID = _env("ADMIN_CHAT_ID")
 INTERNAL_API_TOKEN = _env("INTERNAL_API_TOKEN")
-FRONTEND_INTERNAL_URL = _env("FRONTEND_INTERNAL_URL", "http://frontend:3000")
+# Empty string disables the revalidation webhook (used by tests). Compose sets the default.
+FRONTEND_INTERNAL_URL = os.environ.get("FRONTEND_INTERNAL_URL", "http://frontend:3000").strip()
 SITE_URL = _env("SITE_URL", "https://uslugi.realkazbek.site")
 
 LOGGING: dict[str, Any] = {
@@ -149,6 +154,11 @@ LOGGING: dict[str, Any] = {
         },
     },
     "root": {"handlers": ["console"], "level": _env("LOG_LEVEL", "INFO")},
+    # httpx logs every request URL at INFO; Telegram URLs contain the bot token.
+    "loggers": {
+        "httpx": {"level": "WARNING"},
+        "httpcore": {"level": "WARNING"},
+    },
 }
 
 if not DEBUG:
