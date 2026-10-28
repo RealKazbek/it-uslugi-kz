@@ -108,6 +108,9 @@ attr: same + ғы/гі: Алматыдағы, Шымкенттегі, Жарке
   - The sticky bar is an `<aside>` instead of `div role="complementary"`.
   - Skipped MINOR 10 (sitemap `<lastmod>` = build date): lastmod stays the build date. The site is regenerated from data on each deploy and there is no per-page content history to derive an honest date from; the sitemap is small enough that this is harmless. Revisit if a content-hash date becomes useful.
   - Skipped MINOR 13 (og:image): still no valid PNG without extra dependencies; add `/assets/og.png` (1200x630) when one exists.
+- 2026-10-28 (M3 and M4 review fixes):
+  - M3: service hub leads fixed on all 42 hubs; price table on mobile, Kazakh capitalization, consumer wording and shorter titles applied (see M3/M4 reviews).
+  - M4 MINORs: lowercase `услуга «…»` after the colon in the two remaining intro variants; Kazakh intro uses `x.name тұрғындарымен`; process step 1 no longer repeats "Telegram" next to `x.meet` (ru and kk); the remote FAQ says "Сеанс"/"Сеанс" for `kompyuternaya-pomosch` and "Занятие"/"Сабақ" for tutoring instead of "Занятие или сеанс".
 
 ## Fixed slugs (all coders use these)
 Services (21; priceFrom KZT / unit):
