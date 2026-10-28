@@ -33,5 +33,25 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
+  frontend:
+    build: ./frontend
+    env_file: .env
+    environment:
+      API_INTERNAL_URL: "http://backend:8000"
+      SITE_URL: "https://uslugi.realkazbek.site"
+      USD_RATE: "500"
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:3000/ || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 180s
+    restart: unless-stopped
+
 volumes:
   pgdata:

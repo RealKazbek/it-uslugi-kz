@@ -14,6 +14,8 @@ seed:
 
 test:
 	cd backend && .venv/bin/pytest
+	cd frontend && npm test
 
 lint:
 	cd backend && .venv/bin/ruff check . && .venv/bin/ruff format --check . && DJANGO_DEBUG=1 .venv/bin/mypy .
+	cd frontend && npm run lint && npm run typecheck
