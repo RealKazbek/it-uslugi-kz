@@ -1,0 +1,46 @@
+{
+  "brand": "RK Dev",
+  "siteUrl": "https://uslugi.realkazbek.site",
+  "telegram": "RealKazbek",
+  "email": "37765@iitu.edu.kz",
+  "whatsapp": "77066620060",
+  "phone": "+77066620060",
+  "phoneDisplay": "8 706 662 00 60",
+  "portfolioUrl": "https://realkazbek.site",
+  "github": "https://github.com/RealKazbek",
+  "usdRate": 500,
+  "legal": {
+    "ru": "Работаю как самозанятое физическое лицо, без ИП и ТОО. Перед началом фиксируем объём работ и цену в письменном соглашении. Оплата: 50% предоплата и 50% после сдачи работы, переводом на Kaspi. Счёт-фактуры и НДС не выставляю.",
+    "kk": "Өзін-өзі жұмыспен қамтыған жеке тұлға ретінде жұмыс істеймін, ЖК немесе ЖШС ашылмаған. Жұмыс басталар алдында көлем мен бағаны жазбаша келісімде бекітеміз. Төлем: 50% алдын ала және 50% жұмыс тапсырылғаннан кейін, Kaspi аударымымен. Шот-фактура мен ҚҚС жоқ.",
+    "en": "I work as a self-employed individual, not as a registered company. Before we start, we fix the scope and price in a written agreement. Payment: 50% upfront and 50% after delivery, by Kaspi transfer (for clients outside Kazakhstan we agree on a transfer method in advance). I do not issue VAT invoices."
+  },
+  "person": {
+    "name": {
+      "ru": "Казбек Асанбек",
+      "kk": "Қазбек Асанбек",
+      "en": "Kazbek Assanbek"
+    },
+    "role": {
+      "ru": "фриланс full-stack разработчик из Алматы",
+      "kk": "Алматыдағы фриланс full-stack әзірлеуші",
+      "en": "freelance full-stack developer based in Almaty, Kazakhstan"
+    },
+    "facts": {
+      "ru": [
+        "Живу и работаю в Алматы.",
+        "Студент 3 курса, специальность Computer Engineering, IITU.",
+        "Работаю как фрилансер: общаюсь с заказчиком напрямую, без менеджеров и посредников."
+      ],
+      "kk": [
+        "Алматыда тұрамын және жұмыс істеймін.",
+        "IITU-дың Computer Engineering мамандығының 3-курс студентімін.",
+        "Фрилансер ретінде жұмыс істеймін: тапсырыс берушімен делдалсыз, тікелей сөйлесемін."
+      ],
+      "en": [
+        "I live and work in Almaty.",
+        "Third-year student of Computer Engineering at IITU.",
+        "I work as a freelancer: you talk to me directly, with no managers or middlemen."
+      ]
+    }
+  }
+}
