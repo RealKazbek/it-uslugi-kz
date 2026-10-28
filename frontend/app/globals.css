@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colour tokens: light by default, dark when the system asks for it or data-theme="dark". */
+:root {
+  --ink: 20 33 61; /* #14213D deep navy text */
+  --paper: 255 255 255;
+  --mist: 238 242 246;
+  --line: 201 211 222;
+  --tg: 22 112 168; /* #1670A8 Telegram action blue, CTAs only */
+  --tg-text: 255 255 255;
+  --ok: 46 125 91;
+  --muted: 84 98 118;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --ink: 232 237 243;
+    --paper: 15 26 46;
+    --mist: 23 36 60;
+    --line: 42 58 85;
+    --tg: 77 179 238;
+    --tg-text: 15 26 46;
+    --ok: 111 201 160;
+    --muted: 154 168 188;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --ink: 232 237 243;
+  --paper: 15 26 46;
+  --mist: 23 36 60;
+  --line: 42 58 85;
+  --tg: 77 179 238;
+  --tg-text: 15 26 46;
+  --ok: 111 201 160;
+  --muted: 154 168 188;
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background-color: rgb(var(--paper));
+    color: rgb(var(--ink));
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  a {
+    text-underline-offset: 0.2em;
+  }
+  :focus-visible {
+    outline: 3px solid rgb(var(--tg));
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Receipt-style estimate: item names, dotted leaders, the price total at the bottom. */
+  .receipt-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .receipt-row::after {
+    content: '';
+    order: 1;
+    flex: 1 1 auto;
+    min-width: 1.5rem;
+    border-bottom: 1px dotted rgb(var(--muted));
+    transform: translateY(-0.3em);
+  }
+  .receipt-row > span:first-child {
+    order: 0;
+  }
+  .receipt-row > span:last-child {
+    order: 2;
+  }
+  .skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 60;
+    background: rgb(var(--tg));
+    color: rgb(var(--tg-text));
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+  }
+  .skip-link:focus {
+    top: 0.5rem;
+  }
+}
