@@ -1,65 +1,52 @@
 import { config } from '@/lib/config';
 import type { Lang } from '@/lib/i18n/locales';
-import { createSlugIndex, type SlugKind } from './slug-index';
+import { createSlugIndex, type SlugKind, type SlugPayload } from './slug-index';
 
-/** Top-level sections that exist under every language segment. */
-export const SECTIONS = ['catalog', 'products', 'city', 'prices', 'portfolio', 'contacts'] as const;
+/** Sections that exist as a single segment under every language. */
+export const SINGLE_SECTIONS = ['catalog', 'prices', 'portfolio', 'contacts'] as const;
+/** Sections that need a slug (catalog/{category}, products/{slug}, city/{slug}). */
+export const SLUG_SECTIONS = ['catalog', 'products', 'city'] as const;
 
 const FETCH_TIMEOUT_MS = 2000;
 
-async function getJson(path: string): Promise<unknown> {
+/** One call for all slug sets. Null when the API cannot be reached or answers badly (the caller fails open). */
+async function loadSlugPayload(): Promise<SlugPayload | null> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
-    const response = await fetch(`${config.apiInternalUrl}${path}`, { cache: 'no-store', signal: controller.signal });
-    if (!response.ok) throw new Error(`HTTP ${response.status} for ${path}`);
-    return await response.json();
+    const response = await fetch(`${config.apiInternalUrl}/api/slugs`, { cache: 'no-store', signal: controller.signal });
+    if (!response.ok) {
+      console.warn('[routing] slug load failed', { status: response.status });
+      return null;
+    }
+    return (await response.json()) as SlugPayload;
+  } catch (cause) {
+    console.warn('[routing] slug load failed', { error: cause instanceof Error ? cause.name : 'unknown' });
+    return null;
   } finally {
     clearTimeout(timer);
   }
 }
 
-/** Current slugs for a kind, or null when the API cannot be reached (the caller fails open). */
-async function loadSlugs(kind: SlugKind): Promise<string[] | null> {
-  try {
-    if (kind === 'products') {
-      const list = (await getJson('/api/products?lang=ru')) as { slug: string }[];
-      return list.map((p) => p.slug);
-    }
-    if (kind === 'cities') {
-      const list = (await getJson('/api/cities?lang=ru')) as { slug: string }[];
-      return list.map((c) => c.slug);
-    }
-    const list = (await getJson('/api/categories')) as { slug: string; product_count: number }[];
-    return list.filter((c) => c.product_count > 0).map((c) => c.slug);
-  } catch (cause) {
-    console.warn('[routing] slug index load failed', { kind, error: cause instanceof Error ? cause.name : 'unknown' });
-    return null;
-  }
-}
-
-const index = createSlugIndex({
-  load: loadSlugs,
-  now: () => Date.now(),
-  onFailure: (kind, message) => console.warn('[routing] slug index', { kind, message }),
-});
+const index = createSlugIndex({ load: loadSlugPayload, now: () => Date.now() });
 
 /**
- * True when the path under a language segment has no page. Decided before routing so the request gets a real
- * 404. Slugs come from the in-memory index (no call per request). If the API is unreachable, the page is
- * not treated as missing, so the request is served by Next (fail open).
+ * True when the path under a language segment has no page, decided before routing so the request gets a real
+ * 404. Unknown API answers are not treated as missing (the request is served: fail open).
+ *
+ * Accepted window: a product deleted less than 60 s ago (the index TTL) is still served from memory. Its page then
+ * renders Next's default 404 shell (status 404, no server-rendered text).
  */
 export async function isMissingPage(lang: Lang, rest: string): Promise<boolean> {
   const parts = rest.split('/').filter(Boolean);
   if (parts.length === 0) return false;
   const [section, slug, extra] = parts;
-  if (!(SECTIONS as readonly string[]).includes(section ?? '') || extra !== undefined) return true;
-  if (parts.length === 1) return false;
-  if (section === 'catalog') return (await index.isKnown('categories', slug ?? '')) === false;
-  if (section === 'products') return (await index.isKnown('products', slug ?? '')) === false;
-  if (section === 'city') {
-    if (lang === 'en') return true;
-    return (await index.isKnown('cities', slug ?? '')) === false;
+  if (extra !== undefined) return true;
+  if (parts.length === 1) {
+    return !(SINGLE_SECTIONS as readonly string[]).includes(section ?? '');
   }
-  return true;
+  if (!(SLUG_SECTIONS as readonly string[]).includes(section ?? '')) return true;
+  if (section === 'city' && lang === 'en') return true;
+  const kind: SlugKind = section === 'catalog' ? 'categories' : section === 'products' ? 'products' : 'cities';
+  return (await index.isKnown(kind, slug ?? '')) === false;
 }

@@ -1,66 +1,51 @@
-export type SlugKind = 'products' | 'categories' | 'cities';
+import { createSlugLoader, type SlugLoaderOptions } from './slug-loader';
+import type { SlugKind } from './slug-types';
 
-export const SLUG_TTL_MS = 300_000;
-export const SLUG_MIN_REFRESH_MS = 30_000;
+export type { SlugKind, SlugPayload } from './slug-types';
 
-export interface SlugIndexOptions {
-  /** Loads the current slugs of a kind. Returns null when the API cannot be reached. */
-  load: (kind: SlugKind) => Promise<string[] | null>;
-  now: () => number;
+export const SLUG_TTL_MS = 60_000;
+export const SLUG_BACKOFF_MS = 30_000;
+
+export interface SlugIndexOptions extends Omit<SlugLoaderOptions, 'backoffMs'> {
   ttlMs?: number;
-  minRefreshMs?: number;
-  onFailure?: (kind: SlugKind, message: string) => void;
-}
-
-interface Entry {
-  slugs: Set<string>;
-  loadedAt: number;
-  refreshedAt: number;
+  backoffMs?: number;
 }
 
 export interface SlugIndex {
-  /** true / false when decided from the index; null when unknown (fail open: let Next serve the page). */
+  /** true / false when decided from the index; null when unknown (fail open: Next serves the request). */
   isKnown: (kind: SlugKind, slug: string) => Promise<boolean | null>;
 }
 
 /**
- * In-memory index of existing slugs. A known slug is a hit with no call. A miss refreshes the set at most
- * once per `minRefreshMs`, so a new product appears quickly without a call per request.
+ * Existence check for slugs. Known slugs are answered from memory and never wait for a load. A miss
+ * waits for the shared load only when the backoff allows one; otherwise it is decided from the snapshot.
  */
 export function createSlugIndex(options: SlugIndexOptions): SlugIndex {
   const ttl = options.ttlMs ?? SLUG_TTL_MS;
-  const minRefresh = options.minRefreshMs ?? SLUG_MIN_REFRESH_MS;
-  const entries = new Map<SlugKind, Entry>();
+  const loader = createSlugLoader({ ...options, backoffMs: options.backoffMs ?? SLUG_BACKOFF_MS });
 
-  async function refresh(kind: SlugKind): Promise<Entry | null> {
-    const now = options.now();
-    const loaded = await options.load(kind);
-    if (loaded === null) {
-      options.onFailure?.(kind, 'slug list unavailable');
-      return null;
-    }
-    const entry: Entry = { slugs: new Set(loaded), loadedAt: now, refreshedAt: now };
-    entries.set(kind, entry);
-    return entry;
+  async function afterLoad(kind: SlugKind, slug: string): Promise<boolean | null> {
+    const ok = await loader.attempt();
+    const snapshot = loader.snapshot();
+    return ok && snapshot ? snapshot.sets[kind].has(slug) : null;
   }
 
   return {
     async isKnown(kind, slug) {
       const now = options.now();
-      const current = entries.get(kind);
-      const fresh = current !== undefined && now - current.loadedAt < ttl;
-      if (fresh && current.slugs.has(slug)) return true;
-      if (current === undefined || !fresh) {
-        const reloadAllowed = current === undefined || now - current.refreshedAt >= minRefresh;
-        const entry = reloadAllowed ? await refresh(kind) : current;
-        if (entry === null) return null;
-        return entry.slugs.has(slug);
+      const snapshot = loader.snapshot();
+      const fresh = snapshot !== null && now - snapshot.loadedAt < ttl;
+      const hit = snapshot !== null && snapshot.sets[kind].has(slug);
+      const canAttempt = loader.canAttempt(now);
+
+      if (fresh && hit) return true;
+      if (snapshot && hit) {
+        if (canAttempt) void loader.attempt();
+        return true;
       }
-      // Fresh set without this slug: refresh once if allowed, then decide.
-      if (now - current.refreshedAt < minRefresh) return false;
-      const entry = await refresh(kind);
-      if (entry === null) return null;
-      return entry.slugs.has(slug);
+      if (loader.loading()) return afterLoad(kind, slug);
+      if (fresh) return canAttempt ? afterLoad(kind, slug) : false;
+      return canAttempt ? afterLoad(kind, slug) : null;
     },
   };
 }
