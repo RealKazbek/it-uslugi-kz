@@ -12,3 +12,4 @@ __pycache__/
 .ruff_cache/
 postgres-data/
 .DS_Store
+dist-test/
