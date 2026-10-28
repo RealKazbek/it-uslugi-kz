@@ -83,12 +83,6 @@
     border-bottom: 1px dotted rgb(var(--muted));
     transform: translateY(-0.3em);
   }
-  .receipt-row > span:first-child {
-    order: 0;
-  }
-  .receipt-row > span:last-child {
-    order: 2;
-  }
   .skip-link {
     position: absolute;
     left: 1rem;
