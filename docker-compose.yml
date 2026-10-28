@@ -53,5 +53,24 @@ services:
       start_period: 180s
     restart: unless-stopped
 
+  bot:
+    build: ./bot
+    environment:
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      ADMIN_CHAT_ID: ${ADMIN_CHAT_ID}
+      INTERNAL_API_TOKEN: ${INTERNAL_API_TOKEN}
+      BACKEND_URL: "http://backend:8000"
+      SITE_URL: "https://uslugi.realkazbek.site"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-m", "app.healthcheck"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+
 volumes:
   pgdata:
