@@ -2,10 +2,10 @@
 
 from aiogram import Router
 
-from app.handlers import catalog, errors, order, start
+from app.handlers import admin, catalog, errors, order, start
 
 
 def build_router() -> Router:
     root = Router(name="bot")
-    root.include_routers(start.router, catalog.router, order.router, errors.router)
+    root.include_routers(start.router, catalog.router, order.router, admin.router, errors.router)
     return root
