@@ -1,4 +1,14 @@
-node_modules
-dist
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+dist/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+postgres-data/
 .DS_Store
-dist-test
