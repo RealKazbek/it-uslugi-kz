@@ -110,3 +110,5 @@ jobs:
           USD_RATE: "500"
           NEXT_TELEMETRY_DISABLED: "1"
         run: npm run build
+      - name: Server-rendered 404 check (next start, /nope and /products/nope)
+        run: sh scripts/check-404.sh
