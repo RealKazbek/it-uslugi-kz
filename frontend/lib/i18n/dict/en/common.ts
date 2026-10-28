@@ -1,0 +1,28 @@
+import { type CommonDict } from '../types';
+
+export const commonEn: CommonDict = {
+  langName: 'English',
+  switchLabel: 'Site language',
+  skip: 'Skip to content',
+  menu: 'Main menu',
+  nav: { catalog: 'Catalog', prices: 'Prices', portfolio: 'Portfolio', contacts: 'Contacts' },
+  wa: 'WhatsApp',
+  tg: 'Telegram',
+  faq: 'FAQ',
+  footerTagline: 'freelance developer based in Almaty, working remotely with clients in Kazakhstan and abroad.',
+  footerNote: 'Prices are starting prices in Kazakhstani tenge; USD amounts are approximate. The final price is agreed before work starts.',
+  mobileBar: { whatsapp: 'Message on WhatsApp', telegram: 'Telegram' },
+  units: { once: 'one-off', month: 'per month', lesson: 'per lesson', hour: 'per hour' },
+  priceFrom: (price) => `from ${price}`,
+  daysTerm: (range, max) => `timeline: ${range} ${max === 1 ? 'working day' : 'working days'}`,
+  daysStart: (days) => `start within ${days} ${days === 1 ? 'working day' : 'working days'}`,
+  msgGeneral: 'Hello! I would like to discuss a project.',
+  msgProduct: (title, url) => `Hello! I'm interested in "${title}". ${url}`,
+  notFound: {
+    title: 'Page not found',
+    text: 'There is no such page. Go back to the home page or open the catalog.',
+    home: 'Home',
+    catalog: 'Catalog',
+  },
+  legalHeading: 'Status and payment',
+};

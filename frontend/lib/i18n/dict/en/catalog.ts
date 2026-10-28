@@ -1,0 +1,21 @@
+import type { CatalogDict } from '../types';
+
+export const catalogEn: CatalogDict = {
+  title: 'Service catalog: websites, bots, AI, automation | RK Dev',
+  description: (count, min) =>
+    `A catalog of ${count} ready-made services: websites, online stores, bots, AI assistants, automation and lessons. Prices ${min}, with filter and search.`,
+  h1: 'Service catalog',
+  lead: 'Pick a ready format for your task. Every product has a price, a timeline, a list of what is included and an honest list of what is not.',
+  filterAll: 'All categories',
+  filterLabel: 'Category',
+  searchLabel: 'Search the catalog',
+  searchPlaceholder: 'For example: bot, website, Kaspi',
+  empty: 'Nothing found. Try another search or message me.',
+  categories: 'Categories',
+  countLabel: (n) => `Products: ${n}`,
+  hubTitle: (name) => `${name}: catalog and prices | RK Dev`,
+  hubDescription: (short, min) => `${short}. Prices ${min}. Remote work from Kazakhstan.`,
+  hubH1: (name) => `${name}: catalog and prices`,
+  hubList: 'Products in this category',
+  hubOthers: 'Other categories',
+};

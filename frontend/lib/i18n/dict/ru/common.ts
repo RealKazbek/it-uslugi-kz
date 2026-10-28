@@ -1,0 +1,29 @@
+import { ruPlural } from '@/lib/format/plural';
+import type { CommonDict } from '../types';
+
+export const commonRu: CommonDict = {
+  langName: 'Русский',
+  switchLabel: 'Язык сайта',
+  skip: 'Перейти к содержимому',
+  menu: 'Основное меню',
+  nav: { catalog: 'Каталог', prices: 'Цены', portfolio: 'Портфолио', contacts: 'Контакты' },
+  wa: 'WhatsApp',
+  tg: 'Telegram',
+  faq: 'Частые вопросы',
+  footerTagline: 'фриланс-разработчик из Алматы. Работаю удалённо по всему Казахстану.',
+  footerNote: 'Цены на сайте стартовые; итоговая сумма зависит от объёма работ и называется до начала.',
+  mobileBar: { whatsapp: 'Написать в WhatsApp', telegram: 'Telegram' },
+  units: { once: 'разово', month: 'в месяц', lesson: 'за урок', hour: 'за час' },
+  priceFrom: (price) => `от ${price}`,
+  daysTerm: (range, max) => `срок: ${range} ${ruPlural(max, 'рабочий день', 'рабочих дня', 'рабочих дней')}`,
+  daysStart: (days) => `старт в течение ${days} ${ruPlural(days, 'рабочего дня', 'рабочих дня', 'рабочих дней')}`,
+  msgGeneral: 'Здравствуйте! Хочу обсудить задачу.',
+  msgProduct: (title, url) => `Здравствуйте! Интересует «${title}». ${url}`,
+  notFound: {
+    title: 'Страница не найдена',
+    text: 'Такой страницы нет. Вернитесь на главную или откройте каталог.',
+    home: 'Главная',
+    catalog: 'Каталог',
+  },
+  legalHeading: 'Статус и оплата',
+};

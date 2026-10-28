@@ -1,0 +1,28 @@
+import type { CommonDict } from '../types';
+
+export const commonKk: CommonDict = {
+  langName: 'Қазақша',
+  switchLabel: 'Сайт тілі',
+  skip: 'Мазмұнға өту',
+  menu: 'Негізгі мәзір',
+  nav: { catalog: 'Каталог', prices: 'Бағалар', portfolio: 'Портфолио', contacts: 'Байланыс' },
+  wa: 'WhatsApp',
+  tg: 'Telegram',
+  faq: 'Жиі қойылатын сұрақтар',
+  footerTagline: 'Алматыдағы фриланс әзірлеуші. Қазақстан бойынша қашықтан жұмыс істеймін.',
+  footerNote: 'Сайттағы бағалар бастапқы; түпкілікті сома жұмыс көлеміне байланысты және жұмыс басталғанға дейін айтылады.',
+  mobileBar: { whatsapp: 'WhatsApp-қа жазу', telegram: 'Telegram' },
+  units: { once: 'бір реттік', month: 'айына', lesson: 'сабағына', hour: 'сағатына' },
+  priceFrom: (price) => `${price} бастап`,
+  daysTerm: (range) => `мерзімі: ${range} жұмыс күні`,
+  daysStart: (days) => `бастау: ${days} жұмыс күні ішінде`,
+  msgGeneral: 'Сәлеметсіз бе! Тапсырманы талқылағым келеді.',
+  msgProduct: (title, url) => `Сәлеметсіз бе! Мені «${title}» қызықтырады. ${url}`,
+  notFound: {
+    title: 'Бет табылмады',
+    text: 'Мұндай бет жоқ. Басты бетке оралыңыз немесе каталогты ашыңыз.',
+    home: 'Басты бет',
+    catalog: 'Каталог',
+  },
+  legalHeading: 'Мәртебе және төлем',
+};

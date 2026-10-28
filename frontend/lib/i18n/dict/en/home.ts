@@ -1,0 +1,36 @@
+import type { HomeDict } from '../types';
+
+export const homeEn: HomeDict = {
+  title: 'RK Dev: websites, bots and automation from Kazakhstan',
+  description: (min) =>
+    `Freelance developer in Almaty, Kazakhstan: websites, Telegram bots, AI assistants and automation for businesses, remotely. Prices ${min}.`,
+  h1: 'Websites, bots and automation from a Kazakhstan-based developer',
+  lead: 'I am Kazbek, a freelance developer in Almaty. I build websites, Telegram and WhatsApp bots, AI assistants and automations, and I work remotely with clients in Kazakhstan and abroad. Prices are listed openly in tenge, with approximate USD next to them.',
+  ctaWhatsapp: 'Message on WhatsApp',
+  catsHeading: 'What I build',
+  popularHeading: 'Where to start',
+  allCatalog: 'Full catalog',
+  howHeading: 'How a project works',
+  howSteps: [
+    { t: 'Enquiry', d: 'You message me on WhatsApp or Telegram and describe the task in a couple of sentences.' },
+    { t: 'Estimate and timeline', d: 'I give you a price and a timeline, and we fix the scope in a written agreement.' },
+    { t: 'Work in stages', d: 'I build in parts and show you progress while changes are still easy to make.' },
+    { t: 'Delivery', d: 'I hand over the result, show you how to use it and stay available for questions.' },
+  ],
+  aboutHeading: 'About me',
+  aboutFacts: [
+    'I live and work in Almaty.',
+    'Third-year student of Computer Engineering at IITU.',
+    'I work as a freelancer: you talk to me directly, with no managers or middlemen.',
+  ],
+  faqHeading: 'FAQ',
+  faq: [
+    { q: 'How do we start?', a: 'Message me on WhatsApp or Telegram with a short description of the task. I will reply, clarify the details and give you a price and a timeline.' },
+    { q: 'What does "from" in a price mean?', a: 'It is the price of the basic scope described on the product page. If you need more, I tell you the final amount before work starts and put it in the agreement.' },
+    { q: 'Can you work with clients outside Kazakhstan?', a: 'Yes. Everything is done remotely: video calls, messaging and screen sharing. Prices are in Kazakhstani tenge, and the USD amounts shown are approximate.' },
+  ],
+  legalQuestion: 'Who will I be working with, and how does payment work?',
+  ctaTitle: 'Shall we discuss your project?',
+  ctaText: 'Message me on WhatsApp or Telegram with a couple of sentences about the task. I will reply, clarify the details and give you a price and a timeline.',
+  remoteNote: 'I work remotely with clients across Kazakhstan and abroad. In-person meetings are possible in Almaty.',
+};

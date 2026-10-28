@@ -1,0 +1,65 @@
+// Mirrors the backend's localized (?lang=ru|kk|en) JSON shapes. Source: backend/catalog/serializers, backend/cities/serializers.
+
+export type Unit = 'once' | 'month' | 'lesson' | 'hour';
+
+export interface CategoryDto {
+  slug: string;
+  sort: number;
+  name_ru: string;
+  name_kk: string;
+  name_en: string;
+  short_ru: string;
+  short_kk: string;
+  short_en: string;
+  intro_ru: string;
+  intro_kk: string;
+  intro_en: string;
+  product_count: number;
+}
+
+export interface ProductCardDto {
+  slug: string;
+  category: string;
+  title: string;
+  short: string;
+  price_from_kzt: number;
+  unit: Unit;
+}
+
+export interface FaqDto {
+  question: string;
+  answer: string;
+}
+
+export interface ProductDto extends ProductCardDto {
+  description: string;
+  for_whom: string;
+  includes: string[];
+  not_included: string[];
+  days_min: number;
+  days_max: number;
+  faqs: FaqDto[];
+  related: ProductCardDto[];
+  updated_at: string;
+}
+
+export interface CityRefDto {
+  slug: string;
+  name_ru: string;
+  name_kk: string;
+}
+
+/** City in the flat shape. `gen` is ru-only and `attr` is kk-only; the other is null. */
+export interface CityDto {
+  slug: string;
+  name: string;
+  loc: string;
+  region: string;
+  market_context: string;
+  sectors: string[];
+  in_person: boolean;
+  gen: string | null;
+  attr: string | null;
+  product_focus: ProductCardDto[];
+  nearby: CityRefDto[];
+}
