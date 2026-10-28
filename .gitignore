@@ -13,3 +13,9 @@ __pycache__/
 postgres-data/
 .DS_Store
 dist-test/
+backend/db.sqlite3
+backend/staticfiles/
+*.sqlite3
+htmlcov/
+.coverage
+*.log
