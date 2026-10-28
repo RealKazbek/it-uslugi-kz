@@ -1,5 +1,5 @@
 import { isLang, type Lang } from '@/lib/i18n/locales';
-import { CHANNELS, type Channel, type LeadField, type LeadPayload } from '@/types/lead';
+import { CHANNELS, type Channel, type LeadPayload } from '@/types/lead';
 
 export const NAME_MIN = 2;
 export const NAME_MAX = 80;
@@ -59,11 +59,4 @@ export function validateLead(input: unknown): LeadValidation {
       website: text(record, 'website'),
     },
   };
-}
-
-/** Field-level check for the form before submit. Same rules as validateLead. */
-export function invalidFields(input: unknown): LeadField[] {
-  const result = validateLead(input);
-  if (result.ok) return [];
-  return result.fields.filter((f): f is LeadField => ['name', 'contact', 'channel', 'message'].includes(f));
 }

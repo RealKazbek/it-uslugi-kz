@@ -7,8 +7,15 @@ import { localePath } from '@/lib/i18n/paths';
 import { contacts } from '@/lib/site/contacts';
 import { LangSwitcher } from './LangSwitcher';
 
+const LANG_NAMES: Record<Lang, string> = {
+  ru: getDict('ru').common.langName,
+  kk: getDict('kk').common.langName,
+  en: getDict('en').common.langName,
+};
+
 export function Header({ lang }: { lang: Lang }) {
   const d = getDict(lang).common;
+  const switchLabel = d.switchLabel;
   const links = [
     { href: '/catalog', label: d.nav.catalog },
     { href: '/prices', label: d.nav.prices },
@@ -30,7 +37,7 @@ export function Header({ lang }: { lang: Lang }) {
             </Link>
           ))}
         </nav>
-        <LangSwitcher lang={lang} />
+        <LangSwitcher lang={lang} names={LANG_NAMES} switchLabel={switchLabel} />
       </Container>
     </header>
   );

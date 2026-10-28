@@ -2,9 +2,15 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { getDict } from '@/lib/i18n/dict';
 import { localePath, splitLocale } from '@/lib/i18n/paths';
 import { HTML_LANG, LANGS, type Lang } from '@/lib/i18n/locales';
+
+export interface LangSwitcherProps {
+  lang: Lang;
+  /** Language names in their own language, passed from the server (no dictionary functions on the client). */
+  names: Record<Lang, string>;
+  switchLabel: string;
+}
 
 /** City pages exist in ru and kk only, so en is not offered there. */
 function langsFor(rest: string): readonly Lang[] {
@@ -15,13 +21,12 @@ function langsFor(rest: string): readonly Lang[] {
  * Links the current page to its other languages. Targets come from the URL, so the
  * layout needs no per-page props and pages stay static (ISR).
  */
-export function LangSwitcher({ lang }: { lang: Lang }) {
+export function LangSwitcher({ lang, names, switchLabel }: LangSwitcherProps) {
   const pathname = usePathname();
   const { rest } = splitLocale(pathname);
-  const label = getDict(lang).common.switchLabel;
 
   return (
-    <nav aria-label={label} className="flex gap-3 text-sm">
+    <nav aria-label={switchLabel} className="flex gap-3 text-sm">
       {langsFor(rest).map((target) => (
         <Link
           key={target}
@@ -31,7 +36,7 @@ export function LangSwitcher({ lang }: { lang: Lang }) {
           aria-current={target === lang ? 'true' : undefined}
           className={target === lang ? 'font-bold text-ink no-underline' : 'text-muted'}
         >
-          {getDict(target).common.langName}
+          {names[target]}
         </Link>
       ))}
     </nav>

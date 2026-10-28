@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { LeadForm } from '@/components/features/lead/LeadForm';
+import { ContactList, type ContactItem } from '@/components/features/contacts/ContactList';
+import { HowBlock } from '@/components/features/contacts/HowBlock';
+import { PersonBlock } from '@/components/features/contacts/PersonBlock';
 import { JsonLd } from '@/components/features/seo/JsonLd';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { ButtonLink } from '@/components/ui/Button';
@@ -14,7 +17,6 @@ import { LANGS } from '@/lib/i18n/locales';
 import { localePath } from '@/lib/i18n/paths';
 import { contacts } from '@/lib/site/contacts';
 import { person } from '@/lib/site/person';
-import { legal } from '@/lib/site/legal';
 import { buildPageMetadata } from '@/lib/seo/metadata';
 import { breadcrumbLd, professionalServiceLd } from '@/lib/seo/jsonld';
 import { absoluteUrl } from '@/lib/seo/urls';
@@ -33,6 +35,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return buildPageMetadata({ siteUrl: config.siteUrl, lang, path: '/contacts', title: d.title, description: d.description, langs: LANGS });
 }
 
+function contactItems(lang: Parameters<typeof getDict>[0]): ContactItem[] {
+  const labels = getDict(lang).contacts.labels;
+  const phone = lang === 'en' ? contacts.phoneDisplayIntl : contacts.phoneDisplay;
+  return [
+    { label: labels.wa, href: whatsappGeneralLink(lang), text: labels.wa, external: true },
+    { label: labels.tg, href: telegramLink(), text: `@${contacts.telegram}`, external: true },
+    { label: labels.phone, href: `tel:${contacts.phone}`, text: phone, external: false },
+    { label: labels.email, href: `mailto:${contacts.email}`, text: contacts.email, external: false },
+    { label: labels.site, href: contacts.portfolioUrl, text: contacts.portfolioUrl.replace('https://', ''), external: true },
+    { label: labels.gh, href: contacts.github, text: 'RealKazbek', external: true },
+  ];
+}
+
 export default async function ContactsPage({ params }: PageProps) {
   const lang = parseLang((await params).lang);
   if (lang === null) notFound();
@@ -40,7 +55,6 @@ export default async function ContactsPage({ params }: PageProps) {
   const pageUrl = absoluteUrl(config.siteUrl, lang, '/contacts');
   const home = { name: d.common.breadcrumbHome, url: absoluteUrl(config.siteUrl, lang, '/') };
   const here = { name: d.common.nav.contacts, url: pageUrl };
-  const phone = lang === 'en' ? contacts.phoneDisplayIntl : contacts.phoneDisplay;
 
   return (
     <>
@@ -59,50 +73,16 @@ export default async function ContactsPage({ params }: PageProps) {
       <Section labelledBy="where">
         <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
           <h2 id="where" className="text-2xl">{d.contacts.where}</h2>
-          <ul className="space-y-2">
-            <li>{d.contacts.labels.wa}: <a href={whatsappGeneralLink(lang)} target="_blank" rel="noopener noreferrer">{d.contacts.labels.wa}</a></li>
-            <li>{d.contacts.labels.tg}: <a href={telegramLink()} target="_blank" rel="noopener noreferrer">@{contacts.telegram}</a></li>
-            <li>{d.contacts.labels.phone}: <a href={`tel:${contacts.phone}`}>{phone}</a></li>
-            <li>{d.contacts.labels.email}: <a href={`mailto:${contacts.email}`}>{contacts.email}</a></li>
-            <li>{d.contacts.labels.site}: <a href={contacts.portfolioUrl} target="_blank" rel="noopener noreferrer">{contacts.portfolioUrl.replace('https://', '')}</a></li>
-            <li>{d.contacts.labels.gh}: <a href={contacts.github} target="_blank" rel="noopener noreferrer">RealKazbek</a></li>
-          </ul>
+          <ContactList items={contactItems(lang)} />
         </Container>
       </Section>
-      <Section labelledBy="who">
-        <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
-          <h2 id="who" className="text-2xl">{d.contacts.who}</h2>
-          <div className="space-y-2">
-            <p><strong>{person.name[lang]}</strong>, {person.role[lang]}.</p>
-            <ul className="list-disc space-y-1 pl-5">
-              {person.facts[lang].map((fact) => (
-                <li key={fact}>{fact}</li>
-              ))}
-            </ul>
-          </div>
-        </Container>
-      </Section>
-      <Section labelledBy="how">
-        <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
-          <h2 id="how" className="text-2xl">{d.contacts.how}</h2>
-          <ul className="max-w-prose list-disc space-y-2 pl-5">
-            {d.contacts.howLines.map((line) => (
-              <li key={line}>{line}</li>
-            ))}
-          </ul>
-        </Container>
-      </Section>
-      <Section labelledBy="legal">
-        <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
-          <h2 id="legal" className="text-2xl">{d.contacts.legal}</h2>
-          <p className="max-w-prose">{legal[lang]}</p>
-        </Container>
-      </Section>
+      <PersonBlock heading={d.contacts.who} name={person.name[lang]} role={person.role[lang]} facts={person.facts[lang]} />
+      <HowBlock lang={lang} howHeading={d.contacts.how} howLines={d.contacts.howLines} legalHeading={d.contacts.legal} />
       <Section labelledBy="form" className="pb-24 md:pb-14">
         <Container className="space-y-5">
           <h2 id="form" className="text-2xl">{d.contacts.formTitle}</h2>
           <p className="max-w-prose text-muted">{d.contacts.formText}</p>
-          <LeadForm lang={lang} product="" pageUrl={pageUrl} />
+          <LeadForm lang={lang} product="" pageUrl={pageUrl} labels={d.lead} />
         </Container>
       </Section>
     </>

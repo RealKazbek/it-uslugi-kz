@@ -34,6 +34,7 @@ export default async function CatalogPage({ params }: PageProps) {
   const lang = parseLang((await params).lang);
   if (lang === null) notFound();
   const d = getDict(lang).catalog;
+  const labels = { filterAll: d.filterAll, filterLabel: d.filterLabel, searchLabel: d.searchLabel, searchPlaceholder: d.searchPlaceholder, empty: d.empty };
   const catalog = await loadCatalog(lang);
 
   const crumbs = [
@@ -47,7 +48,7 @@ export default async function CatalogPage({ params }: PageProps) {
       <Container className="space-y-6">
         <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.h1}</h1>
         <p className="max-w-prose text-lg text-muted">{d.lead}</p>
-        <CatalogBrowser lang={lang} groups={catalog.groups} />
+        <CatalogBrowser labels={labels} groups={catalog.groups} />
       </Container>
     </Section>
     </>

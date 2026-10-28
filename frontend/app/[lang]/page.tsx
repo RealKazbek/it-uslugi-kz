@@ -1,28 +1,30 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/features/home/Hero';
-import { CategoryList } from '@/components/features/catalog/CategoryList';
-import { ProductCard } from '@/components/features/catalog/ProductCard';
-import { ButtonLink } from '@/components/ui/Button';
-import { Container } from '@/components/ui/Container';
-import { FaqList } from '@/components/ui/FaqList';
-import { Section } from '@/components/ui/Section';
-import { StepList } from '@/components/ui/StepList';
-import { loadCatalog } from '@/lib/catalog/load';
-import { getCities } from '@/lib/api/cities';
+import {
+  AboutSection,
+  CitiesSection,
+  CtaSection,
+  CategoriesSection,
+  FaqSection,
+  FeaturedSection,
+  HowSection,
+} from '@/components/features/home/HomeSections';
 import { JsonLd } from '@/components/features/seo/JsonLd';
-import { config } from '@/lib/config';
-import { LANGS } from '@/lib/i18n/locales';
-import { buildPageMetadata } from '@/lib/seo/metadata';
-import { faqPageLd, professionalServiceLd } from '@/lib/seo/jsonld';
-import { isCityLang } from '@/lib/city/types';
+import { Container } from '@/components/ui/Container';
+import { getCities } from '@/lib/api/cities';
+import { loadCatalog } from '@/lib/catalog/load';
 import { parseLang } from '@/lib/catalog/params';
+import { isCityLang } from '@/lib/city/types';
+import { config } from '@/lib/config';
 import { priceText } from '@/lib/format/price';
+import { whatsappGeneralLink } from '@/lib/format/links';
 import { getDict } from '@/lib/i18n/dict';
+import { LANGS, type Lang } from '@/lib/i18n/locales';
 import { localePath } from '@/lib/i18n/paths';
 import { legal } from '@/lib/site/legal';
-import { whatsappGeneralLink } from '@/lib/format/links';
+import { buildPageMetadata } from '@/lib/seo/metadata';
+import { faqPageLd, professionalServiceLd } from '@/lib/seo/jsonld';
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -40,6 +42,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return buildPageMetadata({ siteUrl: config.siteUrl, lang, path: '/', title: d.title, description: d.description(min), langs: LANGS });
 }
 
+async function citiesFor(lang: Lang): Promise<{ href: string; name: string }[]> {
+  if (!isCityLang(lang)) return [];
+  return (await getCities(lang)).map((c) => ({ href: localePath(lang, `/city/${c.slug}`), name: c.name }));
+}
+
 export default async function HomePage({ params }: PageProps) {
   const lang = parseLang((await params).lang);
   if (lang === null) notFound();
@@ -47,84 +54,26 @@ export default async function HomePage({ params }: PageProps) {
   const catalog = await loadCatalog(lang);
   const featured = catalog.groups.flatMap((group) => (group.cards[0] ? [group.cards[0]] : []));
   const faq = [...d.home.faq, { q: d.home.legalQuestion, a: legal[lang] }];
-  const cities = isCityLang(lang)
-    ? (await getCities(lang)).map((c) => ({ href: localePath(lang, `/city/${c.slug}`), name: c.name }))
-    : [];
+  const cities = await citiesFor(lang);
 
-  const faqLd = faqPageLd(faq);
   return (
     <>
-      <JsonLd data={[professionalServiceLd(config.siteUrl), faqLd]} />
+      <JsonLd data={[professionalServiceLd(config.siteUrl), faqPageLd(faq)]} />
       <Container>
         <Hero lang={lang} />
       </Container>
-      <Section labelledBy="categories">
-        <Container className="space-y-6">
-          <h2 id="categories" className="text-2xl">{d.home.catsHeading}</h2>
-          <CategoryList
-            categories={catalog.categories.filter((c) => c.productCount > 0)}
-            hrefFor={(slug) => localePath(lang, `/catalog/${slug}`)}
-            countLabel={d.catalog.countLabel}
-          />
-        </Container>
-      </Section>
-      <Section labelledBy="popular" className="bg-mist">
-        <Container className="space-y-6">
-          <div className="flex flex-wrap items-baseline justify-between gap-4">
-            <h2 id="popular" className="text-2xl">{d.home.popularHeading}</h2>
-            <Link href={localePath(lang, '/catalog')} className="font-semibold">{d.home.allCatalog}</Link>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2">
-            {featured.map((card) => (
-              <ProductCard key={card.slug} card={card} />
-            ))}
-          </div>
-        </Container>
-      </Section>
-      <Section labelledBy="how">
-        <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
-          <h2 id="how" className="text-2xl">{d.home.howHeading}</h2>
-          <StepList steps={d.home.howSteps} />
-        </Container>
-      </Section>
-      <Section labelledBy="about">
-        <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
-          <h2 id="about" className="text-2xl">{d.home.aboutHeading}</h2>
-          <ul className="max-w-prose list-disc space-y-2 pl-5">
-            {d.home.aboutFacts.map((fact) => (
-              <li key={fact}>{fact}</li>
-            ))}
-          </ul>
-        </Container>
-      </Section>
-      <Section labelledBy="faq">
-        <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
-          <h2 id="faq" className="text-2xl">{d.home.faqHeading}</h2>
-          <FaqList items={faq} />
-        </Container>
-      </Section>
-      <Section labelledBy="cities">
-        <Container className="space-y-6">
-          <h2 id="cities" className="text-2xl">{d.home.citiesHeading}</h2>
-          <p className="max-w-prose text-muted">{d.home.citiesLead}</p>
-          {cities.length > 0 && (
-            <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-3 md:grid-cols-4">
-              {cities.map((city) => (
-                <li key={city.href}>
-                  <Link href={city.href} className="text-ink">{city.name}</Link>
-                </li>
-              ))}
-            </ul>
-          )}
-        </Container>
-      </Section>
-      <Section labelledBy="cta" className="pb-24 md:pb-14">
-        <Container className="space-y-4">
-          <h2 id="cta" className="text-2xl">{d.home.ctaTitle}</h2>
-          <p className="max-w-prose text-muted">{d.home.ctaText}</p>
-          <ButtonLink href={whatsappGeneralLink(lang)}>{d.home.ctaWhatsapp}</ButtonLink>
-        </Container>
-      </Section>
+      <CategoriesSection
+        title={d.home.catsHeading}
+        categories={catalog.categories.filter((c) => c.productCount > 0)}
+        hrefFor={(slug) => localePath(lang, `/catalog/${slug}`)}
+        countLabel={d.catalog.countLabel}
+      />
+      <FeaturedSection title={d.home.popularHeading} allLabel={d.home.allCatalog} allHref={localePath(lang, '/catalog')} cards={featured} />
+      <HowSection title={d.home.howHeading} steps={d.home.howSteps} />
+      <AboutSection title={d.home.aboutHeading} facts={d.home.aboutFacts} />
+      <FaqSection title={d.home.faqHeading} items={faq} />
+      <CitiesSection title={d.home.citiesHeading} lead={d.home.citiesLead} cities={cities} />
+      <CtaSection title={d.home.ctaTitle} text={d.home.ctaText} label={d.home.ctaWhatsapp} href={whatsappGeneralLink(lang)} />
     </>
   );
 }
