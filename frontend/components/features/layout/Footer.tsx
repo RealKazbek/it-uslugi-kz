@@ -1,9 +1,10 @@
 import { Container } from '@/components/ui/Container';
 import { getDict } from '@/lib/i18n/dict';
 import type { Lang } from '@/lib/i18n/locales';
-import { legal } from '@/lib/site/legal';
 import { contacts } from '@/lib/site/contacts';
 import { whatsappGeneralLink } from '@/lib/format/links';
+import { localePath } from '@/lib/i18n/paths';
+import Link from 'next/link';
 
 export function Footer({ lang }: { lang: Lang }) {
   const d = getDict(lang).common;
@@ -31,8 +32,9 @@ export function Footer({ lang }: { lang: Lang }) {
           </li>
         </ul>
         <div className="space-y-2 text-sm text-muted md:col-span-2">
-          <p>{legal[lang]}</p>
-          <p>{d.footerNote}</p>
+          <Link href={localePath(lang, '/contacts')} className="font-semibold text-ink">
+            {d.footerContacts}
+          </Link>
         </div>
       </Container>
     </footer>
