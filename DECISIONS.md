@@ -208,3 +208,9 @@ lending 45000/once, sait-vizitka 35000/once, korporativnyi-sait 120000/once, int
 Cities (25): almaty, astana, shymkent, karaganda, aktobe, taraz, pavlodar, ust-kamenogorsk, semey, atyrau, kostanay, kyzylorda, uralsk, petropavlovsk, aktau, taldykorgan, turkestan, kokshetau, temirtau, ekibastuz, zhezkazgan, konaev, balkhash, rudny, zharkent.
 
 Niches (40): stomatologiya, salon-krasoty, barbershop, kafe-restoran, dostavka-edy, avtoservis, avtomoika, stroitelstvo, remont-kvartir, agentstvo-nedvizhimosti, fitnes, shkola-tancev, uchebnyi-centr, detskii-sad, yazykovaya-shkola, yurist, buhgalter, medcentr, veterinarnaya-klinika, cvetochnyi-magazin, magazin-odezhdy, proizvodstvo-mebeli, torty-na-zakaz, fotograf, toi-zal, turagentstvo, gostinica, klining, gruzoperevozki, transfer-taksi, proizvodstvo, optovaya-torgovlya, stroimaterialy, remont-tehniki, psiholog, massazh, nail-studiya, event-agentstvo, yuvelirnyi-magazin, avtoshkola.
+- 2026-10-28 (V2-M1 review decisions):
+  - English pages show the phone as «+7 706 662 00 60» (`phoneDisplayIntl`), because foreign clients can't dial the «8 …» form. ru/kk keep «8 706 662 00 60»; the tel: link is +77066620060 everywhere. This deviates from the literal SPEC-v2 display format on purpose.
+  - Unconfirmed personal claims removed: «lessons in English» and «home visits in Almaty» for PC help. Lessons and PC help are remote; the only in-person promise is the SPEC one: a meeting is possible in Almaty.
+  - City pages: the per-city shuffle of the catalog is removed (it was gaming the duplicate check). Uniqueness now comes from the `focusWhy` sentences (one per city and focus product), distinct `productFocus` sets (≤3 of 6 shared) and a city FAQ that uses them.
+  - html-validate@8.18.2 is a pinned devDependency and runs in `npm run check` and in CI.
+  - US English spelling throughout (en_US).
