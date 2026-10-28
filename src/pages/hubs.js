@@ -79,7 +79,7 @@ function serviceHub(lang, s) {
   const msg = t.msgHub(hx);
   const rel = present(s.related, serviceBy).map((r) => ({ href: urls.serviceHub(lang, r), text: serviceBy[r].name[lang], hint: from(lang, serviceBy[r].priceFrom) }));
   const main = `<h1>${esc(ru ? `${s.name.ru} в Казахстане — от ${fmt(s.priceFrom)}` : `Қазақстандағы ${kkName} — ${fmt(s.priceFrom)} бастап`)}</h1>
-<p class="lead">${esc(endDot(s.short[lang]))} ${esc(endDot(s.audience[lang]))}</p>
+<p class="lead">${esc(endDot(s.short[lang]))} ${esc(t.ui.audience)}: ${esc(endDot(s.audience[lang]))}</p>
 <section><h2>${esc(ru ? 'Что входит в базовую цену' : 'Негізгі бағаға не кіреді')}</h2><ul class="ticks">${incl}</ul>
 <p>${esc(ru ? 'Цена' : 'Баға')}: <strong>${esc(from(lang, s.priceFrom))}</strong>, ${esc(unitText(lang, s.unit))}${days ? ` · ${esc(days)}` : ''}.</p></section>
 <section><h2>${esc(ru ? `Выберите город для услуги «${s.name.ru}»` : `«${cap(kkName)}» қызметі үшін қаланы таңдаңыз`)}</h2>${linkCols(cityLinks)}</section>

@@ -44,7 +44,7 @@ for (const f of html) {
   const body = h.replace(/<script[\s\S]*?<\/script>/g, '');
   for (const m of body.matchAll(/<(a|link|img|script|source)\b[^>]*>/g)) {
     const a = attrs(m[0]); const ref = a.href ?? a.src; if (!ref) continue;
-    if (/^(mailto|tel):/.test(ref)) continue;
+    if (/^(mailto|tel|data):/.test(ref)) continue;
     let path = null;
     if (ref.startsWith(SITE)) path = ref.slice(SITE.length) || '/';
     else if (/^https?:\/\//.test(ref) || ref.startsWith('//')) { ext++; continue; }
