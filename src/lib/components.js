@@ -7,7 +7,7 @@ export const link = (href, text, extra = '') => `<a href="${href}"${extra}>${esc
 // Plain multi-column list of links. items: [{href, text, hint?}]
 export function linkCols(items, cls = 'cols') {
   return `<ul class="${cls}">${items
-    .map((i) => `<li>${link(i.href, i.text)}${i.hint ? ` <span class="hint">${esc(i.hint)}</span>` : ''}</li>`)
+    .map((i) => `<li>${link(i.href, i.text, i.lang ? ` lang="${i.lang}"` : '')}${i.hint ? ` <span class="hint">${esc(i.hint)}</span>` : ''}</li>`)
     .join('')}</ul>`;
 }
 

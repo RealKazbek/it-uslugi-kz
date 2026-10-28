@@ -9,6 +9,6 @@
     "build": "node src/build.js",
     "check": "node scripts/check.js",
     "serve": "node scripts/serve.js",
-    "test": "DATA_DIR=test/fixtures node src/build.js && DATA_DIR=test/fixtures node scripts/check.js"
+    "test": "OUT_DIR=dist-test DATA_DIR=test/fixtures node src/build.js && OUT_DIR=dist-test DATA_DIR=test/fixtures node scripts/check.js"
   }
 }

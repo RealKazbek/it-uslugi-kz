@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { config } from '../src/data/config.js';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const dist = join(root, 'dist');
+const dist = join(root, process.env.OUT_DIR || 'dist');
 const site = config.siteUrl;
 const minPages = Number(process.env.MIN_PAGES ?? (process.env.DATA_DIR ? 1 : 2000));
 const errors = [];

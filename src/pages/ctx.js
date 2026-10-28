@@ -3,6 +3,8 @@ import { fmt, unitText, priceWithUnit } from '../lib/price.js';
 import { daysText, withinText, endDot, lcName } from '../lib/text.js';
 import { svcRef, nicheRef } from '../lib/refs.js';
 import { nicheSite } from '../lib/niche.js';
+import { cityBy } from '../lib/data.js';
+import { purposeOf, shortOf } from '../content/names.js';
 
 export const present = (arr, by) => (arr || []).filter((s) => by[s]);
 
@@ -26,6 +28,11 @@ export function svcCityCtx(lang, svc, city) {
     consumer: !!svc.consumer,
     svc: svc.name[lang],
     svcL: lang === 'kk' ? lcName(svc.name.kk) : svc.name[lang],
+    svcShort: shortOf(svc.slug, lang, svc.name[lang]),
+    svcShortL: lang === 'kk' ? lcName(shortOf(svc.slug, lang, svc.name.kk)) : shortOf(svc.slug, lang, svc.name[lang]),
+    purpose: purposeOf(svc.slug, lang),
+    region: city.region?.[lang] ?? '',
+    nearbyList: present(city.nearby, cityBy).map((s) => cityBy[s][lang].name).join(', '),
     r: svcRef(svc.name.ru),
     loc: c.loc,
     attr: c.attr,

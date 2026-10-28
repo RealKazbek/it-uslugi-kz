@@ -13,6 +13,10 @@ import { linkCols, faqHtml, ctaBlock } from '../lib/components.js';
 import { professionalService, faqPage } from '../lib/jsonld.js';
 import { add } from '../lib/site.js';
 import { present } from './ctx.js';
+import { fit, TITLE_MAX, DESC_MAX } from '../lib/fit.js';
+import { shortOf } from '../content/names.js';
+
+const noBrand = (s) => s.replace(/ \| RK Dev$/, '');
 
 const minPrice = Math.min(...services.map((s) => s.priceFrom));
 const siteServices = services.filter((s) => s.site);
@@ -62,10 +66,13 @@ function serviceHub(lang, s) {
     text: ru ? `${s.name.ru} ${c.ru.loc}` : kkPhrase(c, s.name.kk),
   }));
   const kkName = lcName(s.name.kk);
-  const title = ru ? `${s.name.ru} в Казахстане — от ${fmt(s.priceFrom)} | RK Dev` : `Қазақстандағы ${kkName} — ${fmt(s.priceFrom)} бастап | RK Dev`;
-  const description = ru
-    ? `${endDot(s.short.ru)} Цена от ${fmt(s.priceFrom)} ${unitText('ru', s.unit)}. Работаю удалённо по всему Казахстану, в Алматы возможна личная встреча.`
-    : `${endDot(s.short.kk)} Бағасы ${fmt(s.priceFrom)} бастап (${unitText('kk', s.unit)}). Қазақстан бойынша қашықтан жұмыс істеймін.`;
+  const shortName = shortOf(s.slug, lang, s.name[lang]);
+  const shortKk = lcName(shortOf(s.slug, 'kk', s.name.kk));
+  const mkTitle = (nm, nmKk) => (ru ? `${nm} в Казахстане — от ${fmt(s.priceFrom)} | RK Dev` : `Қазақстандағы ${nmKk} — ${fmt(s.priceFrom)} бастап | RK Dev`);
+  const title = fit([mkTitle(s.name.ru, kkName), mkTitle(shortName, shortKk), noBrand(mkTitle(shortName, shortKk)), noBrand(mkTitle(s.name.ru, kkName))], TITLE_MAX);
+  const descBase = ru ? `${endDot(s.short.ru)} Цена от ${fmt(s.priceFrom)} ${unitText('ru', s.unit)}.` : `${endDot(s.short.kk)} Бағасы ${fmt(s.priceFrom)} бастап (${unitText('kk', s.unit)}).`;
+  const descTail = ru ? ' Работаю удалённо по всему Казахстану, в Алматы возможна личная встреча.' : ' Қазақстан бойынша қашықтан жұмыс істеймін.';
+  const description = fit([descBase + descTail, descBase], DESC_MAX);
   const faq = s.faq.map((f) => ({ q: f.q[lang], a: f.a[lang] }));
   const incl = s.included[lang].map((i) => `<li>${esc(i)}</li>`).join('');
   const hx = { r: svcRef(s.name.ru), svcL: kkName, price: fmt(s.priceFrom) };
@@ -75,7 +82,7 @@ function serviceHub(lang, s) {
 <p class="lead">${esc(endDot(s.short[lang]))} ${esc(endDot(s.audience[lang]))}</p>
 <section><h2>${esc(ru ? 'Что входит в базовую цену' : 'Негізгі бағаға не кіреді')}</h2><ul class="ticks">${incl}</ul>
 <p>${esc(ru ? 'Цена' : 'Баға')}: <strong>${esc(from(lang, s.priceFrom))}</strong>, ${esc(unitText(lang, s.unit))}${days ? ` · ${esc(days)}` : ''}.</p></section>
-<section><h2>${esc(ru ? `Выберите город для услуги «${s.name.ru}»` : `«${kkName}» қызметі үшін қаланы таңдаңыз`)}</h2>${linkCols(cityLinks)}</section>
+<section><h2>${esc(ru ? `Выберите город для услуги «${s.name.ru}»` : `«${cap(kkName)}» қызметі үшін қаланы таңдаңыз`)}</h2>${linkCols(cityLinks)}</section>
 ${faqHtml(t.ui.faq, faq)}
 ${rel.length ? `<section><h2>${esc(ru ? 'Связанные услуги' : 'Байланысты қызметтер')}</h2>${linkCols(rel)}</section>` : ''}
 ${ctaBlock(lang, pick(t.ctaHub(hx), path), msg)}`;
@@ -98,8 +105,10 @@ function cityHub(lang, c) {
   const nicheLinks = nicheList.map((n) => ({
     href: urls.nicheCity(n.slug, c.slug),
     text: `Сайт для ${n.forRu} ${c.ru.loc}`,
+    lang: ru ? undefined : 'ru',
   }));
-  const title = ru ? `IT-услуги ${c.ru.loc}: сайты, боты, автоматизация | RK Dev` : `${c.kk.attr} IT-қызметтер: сайттар, боттар, автоматтандыру | RK Dev`;
+  const title0 = ru ? `IT-услуги ${c.ru.loc}: сайты, боты, автоматизация | RK Dev` : `${c.kk.attr} IT-қызметтер: сайттар, боттар, автоматтандыру | RK Dev`;
+  const title = fit([title0, noBrand(title0)], TITLE_MAX);
   const description = ru
     ? `Сайты, Telegram-боты и автоматизация ${c.ru.loc}: ${services.length} услуг с ценами от ${fmt(minPrice)}. ${c.inPerson ? 'Возможна личная встреча.' : 'Работа удалённо.'}`
     : `${c.kk.attr} сайттар, Telegram-боттар және автоматтандыру: ${services.length} қызмет, бағасы ${fmt(minPrice)} бастап. ${c.inPerson ? 'Жеке кездесуге болады.' : 'Қашықтан жұмыс.'}`;
@@ -137,19 +146,19 @@ function nicheHub(n) {
   const svcLinks = fitting.map((s) => ({ href: urls.serviceHub('ru', s.slug), text: s.name.ru, hint: `от ${priceWithUnit('ru', s.priceFrom, s.unit)}` }));
   const features = n.features.map((f) => `<li>${esc(f)}</li>`).join('');
   const main = `<h1>Сайт для ${esc(n.forRu)} — от ${esc(fmt(price))}</h1>
-<p class="lead">Какой сайт нужен ${esc(n.forRu)}, из каких страниц он состоит и сколько стоит разработка. Выберите город, чтобы увидеть локальную страницу.</p>
+<p class="lead">Каким должен быть сайт для ${esc(n.forRu)}, из каких страниц он состоит и сколько стоит разработка. Выберите город, чтобы увидеть локальную страницу.</p>
 <section><h2>Что нужно на сайте</h2><ul class="ticks">${features}</ul></section>
 <section><h2>Подходящие услуги</h2>${linkCols(svcLinks)}</section>
 <section class="qa"><h2>Вопрос клиентов</h2><p><strong>${esc(n.question)}</strong></p><p>${esc(n.answer)}</p></section>
 <section><h2>Выберите город</h2>${linkCols(cityLinks)}</section>`;
   const msg = `Здравствуйте! Нужен сайт для ${n.forRu}. Хочу обсудить задачу.`;
-  add(path, layout({ lang: 'ru', title: `Сайт для ${n.forRu} в Казахстане — от ${fmt(price)} | RK Dev`, description: `Сайт для ${n.forRu}: состав страниц, подходящие услуги и цены от ${fmt(price)}. Страницы по ${cities.length} городам Казахстана.`, path, crumbs: [{ name: t.ui.nav.home, path: '/' }, { name: t.ui.nav.niches, path: urls.nicheIndex() }, { name: cap(n.name.ru), path }], main, ctaMsg: msg }));
+  add(path, layout({ lang: 'ru', title: fit([`Сайт для ${n.forRu} в Казахстане — от ${fmt(price)} | RK Dev`, `Сайт для ${n.forRu} в Казахстане — от ${fmt(price)}`, `Сайт для ${n.forRu} — от ${fmt(price)} | RK Dev`, `Сайт для ${n.forRu} — от ${fmt(price)}`], TITLE_MAX), description: `Сайт для ${n.forRu}: состав страниц, подходящие услуги и цены от ${fmt(price)}. Страницы по ${cities.length} городам Казахстана.`, path, crumbs: [{ name: t.ui.nav.home, path: '/' }, { name: t.ui.nav.niches, path: urls.nicheIndex() }, { name: cap(n.name.ru), path }], main, ctaMsg: msg }));
 }
 
 // ---------- prices / portfolio / contacts / 404 ----------
 function prices() {
   const path = urls.prices();
-  const rows = services.map((s) => `<tr><th scope="row"><a href="${urls.serviceHub('ru', s.slug)}">${esc(s.name.ru)}</a></th><td class="num">от ${esc(fmt(s.priceFrom))}</td><td>${esc(unitText('ru', s.unit))}</td><td>${esc(termText('ru', s) || '—')}</td></tr>`).join('');
+  const rows = services.map((s) => `<tr><th scope="row"><a href="${urls.serviceHub('ru', s.slug)}">${esc(s.name.ru)}</a></th><td class="num">от ${esc(fmt(s.priceFrom))}<span class="unit"> ${esc(unitText('ru', s.unit))}</span></td><td>${esc(unitText('ru', s.unit))}</td><td>${esc(termText('ru', s) || '—')}</td></tr>`).join('');
   const main = `<h1>Цены на IT-услуги — от ${esc(fmt(minPrice))}</h1>
 <p class="lead">Полный прайс-лист RK Dev. Все цены стартовые: итоговая сумма зависит от объёма работ и называется до начала. Цена не зависит от города — работаю по всему Казахстану.</p>
 <div class="table-wrap"><table class="prices"><thead><tr><th scope="col">Услуга</th><th scope="col">Цена</th><th scope="col">Формат</th><th scope="col">Срок или старт</th></tr></thead><tbody>${rows}</tbody></table></div>

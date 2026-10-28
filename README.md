@@ -39,6 +39,7 @@ npm run build   # generate dist/
 npm run check   # page count, broken links, unique titles/descriptions,
                 # near-duplicate check, canonical/hreflang/JSON-LD, sitemap/robots/CNAME
 npm run serve   # preview dist/ locally
+npm test        # build and check the small fixture set in dist-test/ (does not touch dist/)
 ```
 
 ## Deploy
@@ -46,7 +47,7 @@ npm run serve   # preview dist/ locally
 `.github/workflows/deploy.yml` builds, checks and deploys `dist/` to GitHub Pages on every push to `main` (or manually via workflow_dispatch).
 
 1. In the repo: Settings -> Pages -> Source = **GitHub Actions**.
-2. The build writes `dist/CNAME` with `uslugi.realkazbek.site`, so the custom domain is applied automatically.
+2. Set the custom domain `uslugi.realkazbek.site` in Settings -> Pages -> Custom domain (or via the Pages API). GitHub Pages deployed from Actions ignores a `CNAME` file in the artifact; the build still writes `dist/CNAME` for reference and `npm run check` verifies it.
 
 ## DNS
 

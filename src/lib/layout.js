@@ -118,7 +118,7 @@ ${crumbsHtml(lang, crumbs)}
 ${main}
 </main>
 ${footer(lang)}
-<div class="cta-bar" role="complementary" aria-label="${esc(t.contactLabel)}"><div class="wrap">${ctaButtons(lang, msg)}</div></div>
+<aside class="cta-bar" aria-label="${esc(t.contactLabel)}"><div class="wrap">${ctaButtons(lang, msg)}</div></aside>
 </body>
 </html>
 `;

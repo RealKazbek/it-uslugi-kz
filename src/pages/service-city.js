@@ -8,8 +8,12 @@ import { services, cities, serviceBy, cityBy, nicheBy } from '../lib/data.js';
 import { linkCols, estimateCard, faqHtml, steps, ctaBlock } from '../lib/components.js';
 import { professionalService, offer, faqPage } from '../lib/jsonld.js';
 import { add } from '../lib/site.js';
-import { lcName } from '../lib/text.js';
+import { lcName, cap } from '../lib/text.js';
 import { svcCityCtx, present } from './ctx.js';
+import { fit, TITLE_MAX } from '../lib/fit.js';
+
+// Services that make sense to suggest to a private person or a small office (consumer pages).
+const CONSUMER_SUGGEST = ['sait-vizitka', 'lending', 'telegram-bot', 'domen-hosting-ssl', 'ispravlenie-oshibok', 'podderzhka-saita', 'avtomatizaciya'];
 
 // Kazakh: city attributive form + lowercase service name ("Оралдағы лендинг").
 const kkPhrase = (c, name) => `${c.kk.attr} ${lcName(name)}`;
@@ -34,7 +38,9 @@ export function buildServiceCity(lang, svc, city) {
   const faqItems = [...cityFaq, ...shownFaq];
 
   const msg = t.msg(x);
-  const title = t.title(x);
+  const short = { ...x, svc: x.svcShort, svcL: x.svcShortL };
+  const noBrand = (s) => s.replace(/ \| RK Dev$/, '');
+  const title = fit([t.title(x), t.title(short), noBrand(t.title(x)), noBrand(t.title(short))], TITLE_MAX);
   const description = sel(t.meta, 'meta');
   const h1 = t.h1(x);
 
@@ -43,7 +49,7 @@ export function buildServiceCity(lang, svc, city) {
   if (svc.consumer) {
     // Private-person services have no business niches: link to other services in the same city instead.
     const skip = new Set([svc.slug, ...(svc.related || [])]);
-    const others = services.filter((o) => !skip.has(o.slug));
+    const others = services.filter((o) => CONSUMER_SUGGEST.includes(o.slug) && !skip.has(o.slug));
     localLinks = pickMany(others, Math.min(4, others.length), seed, 'cl').map((o) => ({
       href: urls.serviceCity(lang, o.slug, city.slug),
       text: lang === 'kk' ? kkPhrase(city, o.name.kk) : `${o.name.ru} ${city.ru.loc}`,
@@ -52,6 +58,7 @@ export function buildServiceCity(lang, svc, city) {
     localLinks = nicheLinks(svc, city).map((n) => ({
       href: urls.nicheCity(n, city.slug),
       text: `Сайт для ${nicheBy[n].forRu} ${city.ru.loc}`,
+      lang: lang === 'kk' ? 'ru' : undefined,
     }));
   }
 
@@ -67,7 +74,7 @@ export function buildServiceCity(lang, svc, city) {
 
   const ruRel = lang === 'ru';
   const hRel = ruRel ? `Другие услуги ${city.ru.loc}` : `${city.kk.attr} басқа қызметтер`;
-  const hNear = ruRel ? `«${svc.name.ru}» в соседних городах` : `«${x.svcL}» қызметі жақын қалаларда`;
+  const hNear = ruRel ? `«${svc.name.ru}» в соседних городах` : `«${cap(x.svcL)}» қызметі жақын қалаларда`;
   const hLocal = svc.consumer ? t.ui.localPeople(city[lang].loc) : t.ui.localBiz(city[lang].loc);
   const hEst = ruRel ? `Смета: ${svc.name.ru} ${city.ru.loc}` : `Смета: ${kkPhrase(city, svc.name.kk)}`;
 

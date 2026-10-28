@@ -10,6 +10,7 @@ import { professionalService, offer, faqPage } from '../lib/jsonld.js';
 import { add } from '../lib/site.js';
 import { nicheCityCtx, present } from './ctx.js';
 import { cap } from '../lib/text.js';
+import { fit, TITLE_MAX } from '../lib/fit.js';
 
 const t = T.ru;
 
@@ -21,7 +22,8 @@ export function buildNicheCity(niche, city) {
 
   const faqItems = [...t.niche.faq(x), sel(t.cityFaq1(x), 'cf1'), sel(t.nicheCityFaq(x), 'cf2')];
   const msg = `Здравствуйте! Нужен сайт для ${niche.forRu} ${city.ru.loc} (от ${x.price}). Хочу обсудить задачу.`;
-  const title = t.niche.title(x);
+  const title0 = t.niche.title(x);
+  const title = fit([title0, title0.replace(/ \| RK Dev$/, '')], TITLE_MAX);
   const description = sel(t.niche.meta(x), 'meta');
 
   const svcLinks = fitting.map((s) => ({

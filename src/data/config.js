@@ -12,7 +12,7 @@ export const config = {
   person: {
     name: { ru: 'Казбек Асанбек', kk: 'Қазбек Асанбек' },
     role: {
-      ru: 'Фриланс full-stack разработчик из Алматы',
+      ru: 'фриланс full-stack разработчик из Алматы',
       kk: 'Алматыдағы фриланс full-stack әзірлеуші',
     },
     facts: {

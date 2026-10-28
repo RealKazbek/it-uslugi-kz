@@ -96,6 +96,18 @@ attr: same + ғы/гі: Алматыдағы, Шымкенттегі, Жарке
   - `--tg` is now #1670A8 (white on it is about 5.4:1; dark mode #4db3ee with #0F1A2E ink is about 7.4:1). The mobile CTA bar is `display:none` at 760px and up, so there is no empty landmark; body bottom padding is 96px.
   - `ctaHub` template variants replace the regex clean-up of city-less CTA text in hubs.
   - check.js: attribute-order-independent `<link>`/`<meta>` parsing; hreflang x-default and self-reference; kk pages must have alternates; `<html lang>`, duplicate ids, one h1 (scripts stripped), OG and twitter tags, no `wa.me` while whatsapp is empty, noindex pages have no canonical, sitemap lastmod. `npm test` builds and checks `test/fixtures` (which carry `site` and `consumer` flags and `days: {min:0,max:1}`).
+- 2026-10-28 (M2 review fixes):
+  - /ceny/ table: `overflow-wrap:anywhere` removed from `.prices` cells (words stay whole, the table scrolls inside `.table-wrap`). Below 420px the "Формат" column is hidden and its text is shown as a small line inside the price cell.
+  - `npm test` builds fixtures into `dist-test/` (`OUT_DIR` env, supported by build.js and check.js; git-ignored), so it never overwrites `dist/`.
+  - Kazakh service names that open a sentence or heading inside «…» are capitalised with `cap()`.
+  - Niche hub lead: "Каким должен быть сайт для …"; `person.role.ru` is lowercase because it is only used after a dash.
+  - Consumer pages (tutoring, PC help): no project wording in the remote FAQ and price blocks; the city sector list is no longer used there. Variety now comes from the region, the nearby cities (`x.nearbyList`) and the unified UTC+5 note. The local block links only to services suited to private people (`CONSUMER_SUGGEST` in service-city.js).
+  - Business intro purpose clause is service-specific (`src/content/names.js`, `purpose`), so CRM or parsing no longer "help clients find the business".
+  - Russian niche links on Kazakh pages carry `lang="ru"`; `linkCols` accepts an item `lang`.
+  - Titles are fitted to 70 characters (full name + brand, then a short name from `names.js`, then no brand); hub descriptions to 200 (`src/lib/fit.js`).
+  - The sticky bar is an `<aside>` instead of `div role="complementary"`.
+  - Skipped MINOR 10 (sitemap `<lastmod>` = build date): lastmod stays the build date. The site is regenerated from data on each deploy and there is no per-page content history to derive an honest date from; the sitemap is small enough that this is harmless. Revisit if a content-hash date becomes useful.
+  - Skipped MINOR 13 (og:image): still no valid PNG without extra dependencies; add `/assets/og.png` (1200x630) when one exists.
 
 ## Fixed slugs (all coders use these)
 Services (21; priceFrom KZT / unit):

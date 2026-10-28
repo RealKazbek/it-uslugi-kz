@@ -9,7 +9,8 @@ import { buildAllNicheCity } from './pages/niche-city.js';
 import { buildHubs } from './pages/hubs.js';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const dist = join(root, 'dist');
+const outDir = process.env.OUT_DIR || 'dist';
+const dist = join(root, outDir);
 
 await rm(dist, { recursive: true, force: true });
 await mkdir(join(dist, 'assets'), { recursive: true });
@@ -47,4 +48,4 @@ await writeFile(
 await writeFile(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${config.siteUrl}/sitemap.xml\n`);
 await writeFile(join(dist, 'CNAME'), new URL(config.siteUrl).hostname + '\n');
 
-console.log(`Built ${pages.length} pages (${indexable.length} in sitemap) -> dist/`);
+console.log(`Built ${pages.length} pages (${indexable.length} in sitemap) -> ${outDir}/`);
