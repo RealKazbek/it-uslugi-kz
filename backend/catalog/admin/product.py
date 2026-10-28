@@ -3,7 +3,7 @@ from django.contrib import admin
 from catalog.models import Product, ProductFAQ
 
 
-class ProductFAQInline(admin.StackedInline):
+class ProductFAQInline(admin.StackedInline[ProductFAQ, Product]):
     model = ProductFAQ
     extra = 0
     fields = (
@@ -18,7 +18,7 @@ class ProductFAQInline(admin.StackedInline):
 
 
 @admin.register(Product)
-class ProductAdmin(admin.ModelAdmin):
+class ProductAdmin(admin.ModelAdmin[Product]):
     list_display = ("title_ru", "category", "price_from_kzt", "unit", "is_active", "sort")
     list_filter = ("category", "unit", "is_active")
     list_editable = ("is_active", "sort", "price_from_kzt")

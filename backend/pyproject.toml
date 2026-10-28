@@ -16,8 +16,7 @@ python_version = "3.12"
 strict = true
 plugins = ["mypy_django_plugin.main"]
 exclude = ["migrations/", ".venv/"]
-# django.contrib.admin classes are generic only in django-stubs, not at runtime.
-disallow_any_generics = false
+disallow_any_generics = true
 
 [tool.django-stubs]
 django_settings_module = "config.settings"

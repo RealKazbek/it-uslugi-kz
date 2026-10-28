@@ -10,7 +10,10 @@ logger = logging.getLogger(__name__)
 
 
 class Command(BaseCommand):
-    help = "Load categories, products, FAQs and cities from fixtures (idempotent)."
+    help = (
+        "Overwrites catalog content from fixtures; admin edits to seeded products/cities "
+        "are replaced."
+    )
 
     def handle(self, *args: Any, **options: Any) -> None:
         try:

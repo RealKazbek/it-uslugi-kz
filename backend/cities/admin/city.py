@@ -4,7 +4,7 @@ from cities.models import City
 
 
 @admin.register(City)
-class CityAdmin(admin.ModelAdmin):
+class CityAdmin(admin.ModelAdmin[City]):
     list_display = ("name_ru", "slug", "in_person", "sort")
     list_filter = ("in_person",)
     search_fields = ("slug", "name_ru", "name_kk")

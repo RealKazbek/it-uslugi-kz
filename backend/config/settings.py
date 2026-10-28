@@ -4,7 +4,11 @@ import os
 from pathlib import Path
 from typing import Any
 
+import django_stubs_ext
 from django.core.exceptions import ImproperlyConfigured
+
+# Makes admin.ModelAdmin[Model] subscriptable at runtime (typing only in django-stubs).
+django_stubs_ext.monkeypatch()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -95,7 +99,14 @@ else:
         }
     }
 
-AUTH_PASSWORD_VALIDATORS: list[dict[str, str]] = []
+AUTH_PASSWORD_VALIDATORS: list[dict[str, Any]] = [
+    {
+        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
+        "OPTIONS": {"min_length": 12},
+    },
+    {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
+    {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
+]
 
 LANGUAGE_CODE = "ru"
 TIME_ZONE = "Asia/Almaty"
@@ -139,3 +150,11 @@ LOGGING: dict[str, Any] = {
     },
     "root": {"handlers": ["console"], "level": _env("LOG_LEVEL", "INFO")},
 }
+
+if not DEBUG:
+    # Behind nginx (TLS termination). SSL redirect is handled by nginx, not Django.
+    CSRF_TRUSTED_ORIGINS = [SITE_URL]
+    SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+    SECURE_HSTS_SECONDS = 3600

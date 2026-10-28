@@ -16,4 +16,4 @@ test:
 	cd backend && .venv/bin/pytest
 
 lint:
-	cd backend && DJANGO_DEBUG=1 .venv/bin/ruff check . && .venv/bin/ruff format --check . && DJANGO_DEBUG=1 .venv/bin/mypy .
+	cd backend && .venv/bin/ruff check . && .venv/bin/ruff format --check . && DJANGO_DEBUG=1 .venv/bin/mypy .

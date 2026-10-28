@@ -4,7 +4,7 @@ from catalog.models import Category
 
 
 @admin.register(Category)
-class CategoryAdmin(admin.ModelAdmin):
+class CategoryAdmin(admin.ModelAdmin[Category]):
     list_display = ("name_ru", "slug", "sort")
     list_editable = ("sort",)
     search_fields = ("slug", "name_ru", "name_kk", "name_en")
