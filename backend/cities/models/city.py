@@ -17,6 +17,12 @@ class City(models.Model):
     context_kk = models.TextField("контекст рынка (kk)", blank=True)
     sectors_ru = models.JSONField("отрасли (ru)", default=list, blank=True)
     sectors_kk = models.JSONField("отрасли (kk)", default=list, blank=True)
+    focus_why_ru = models.JSONField(
+        "почему подходит, по услугам (ru), ключ — slug услуги", default=dict, blank=True
+    )
+    focus_why_kk = models.JSONField(
+        "почему подходит, по услугам (kk), ключ — slug услуги", default=dict, blank=True
+    )
     product_focus = models.ManyToManyField(
         Product,
         blank=True,

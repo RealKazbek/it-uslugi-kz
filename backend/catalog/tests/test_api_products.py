@@ -107,3 +107,14 @@ def test_list_query_count_stays_constant(
 
     assert response.status_code == 200
     assert len(response.json()) == 5
+
+
+def test_product_list_cards_include_unit_and_days(client: Client) -> None:
+    category = make_category(slug="days-list")
+    make_product(slug="days-card", category=category, days_min=2, days_max=4, unit="month")
+
+    body = client.get("/api/products", {"lang": "ru", "category": "days-list"}).json()
+
+    assert body[0]["unit"] == "month"
+    assert body[0]["days_min"] == 2
+    assert body[0]["days_max"] == 4

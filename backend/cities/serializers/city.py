@@ -40,6 +40,8 @@ class CityFullSerializer(serializers.ModelSerializer):  # type: ignore[type-arg]
             "sectors_ru",
             "sectors_kk",
             "in_person",
+            "focus_why_ru",
+            "focus_why_kk",
             "product_focus",
             "nearby",
         ]
@@ -57,6 +59,12 @@ class CityLocalSerializer(serializers.Serializer):  # type: ignore[type-arg]
     attr = serializers.SerializerMethodField()
     product_focus = ProductCardLocalSerializer(many=True, read_only=True)
     nearby = CityRefSerializer(many=True, read_only=True)
+    focus_why = serializers.SerializerMethodField()
+
+    def get_focus_why(self, obj: City) -> dict[str, str]:
+        """Hand-written reason per focus product (key: product slug) in the request language."""
+        reasons = obj.focus_why_ru if self.context["lang"] == "ru" else obj.focus_why_kk
+        return {str(key): str(value) for key, value in reasons.items()}
 
     def get_gen(self, obj: City) -> str | None:
         """Genitive form exists for Russian only (null for kk)."""

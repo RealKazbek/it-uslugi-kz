@@ -17,6 +17,8 @@ class ProductCardLocalSerializer(serializers.Serializer):  # type: ignore[type-a
     short = LocalizedText("short")
     price_from_kzt = serializers.IntegerField(read_only=True)
     unit = serializers.CharField(read_only=True)
+    days_min = serializers.IntegerField(read_only=True)
+    days_max = serializers.IntegerField(read_only=True)
 
 
 class ProductLocalSerializer(ProductCardLocalSerializer):
@@ -24,8 +26,6 @@ class ProductLocalSerializer(ProductCardLocalSerializer):
     for_whom = LocalizedText("for_whom")
     includes = LocalizedList("includes")
     not_included = LocalizedList("not_included")
-    days_min = serializers.IntegerField(read_only=True)
-    days_max = serializers.IntegerField(read_only=True)
     faqs = FaqLocalSerializer(many=True, read_only=True)
     related = ProductCardLocalSerializer(many=True, read_only=True)
     updated_at = serializers.DateTimeField(read_only=True)

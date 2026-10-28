@@ -69,6 +69,8 @@ def test_city_focus_products_are_short_and_active_only(client: Client) -> None:
         "short",
         "price_from_kzt",
         "unit",
+        "days_min",
+        "days_max",
     }
 
 

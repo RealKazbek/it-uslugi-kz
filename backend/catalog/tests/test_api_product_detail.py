@@ -28,6 +28,8 @@ def test_detail_with_lang_returns_flat_fields_with_related(client: Client) -> No
         "short",
         "price_from_kzt",
         "unit",
+        "days_min",
+        "days_max",
     }
     assert body["related"][0]["category"] == "web"
     assert "updated_at" in body

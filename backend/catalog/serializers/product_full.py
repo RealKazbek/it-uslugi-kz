@@ -35,6 +35,8 @@ class ProductCardFullSerializer(serializers.ModelSerializer):  # type: ignore[ty
             "short_en",
             "price_from_kzt",
             "unit",
+            "days_min",
+            "days_max",
         ]
 
 
