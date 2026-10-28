@@ -53,6 +53,7 @@ handlers/{start,catalog,order,admin}.py, keyboards/, services/backend.py (httpx 
 
 ### Milestone log
 - M1 (2026-10-28) approved by reviewer: fixtures from old generator (0 diffs), generator removed, models/admin/seed/health, docker compose db+backend. Seed overwrites admin edits by design. M2M order is not stored; API orders related/nearby/product_focus by target `sort`. Prod settings: secure cookies, HSTS 3600, CSRF trusted origin SITE_URL; SSL redirect left to nginx.
+- M2 (2026-10-29) implemented: read API, public + internal leads API, Telegram notifier, revalidation webhook, OpenAPI. Decisions beyond the contract: `?lang=` absent returns the full shape; an empty `?lang=` is treated as absent (DRF behaviour). Cities with lang: `gen` is ru-only and `attr` is kk-only (null otherwise); the city's market text key is `market_context`. Internal POST /api/internal/leads returns {"ok", "id"}. Internal list `limit` outside 1..50 gives 400. Notifier: 3 attempts with 1 s and 2 s sleeps between them (the 4 s step is unused). Empty FRONTEND_INTERNAL_URL disables the webhook. Seed fires one revalidation with all tags. httpx and httpcore log at WARNING because request URLs contain the bot token; failures log the exception type or HTTP status only.
 
 
 ## v2 (SPEC-v2.md) — historical
