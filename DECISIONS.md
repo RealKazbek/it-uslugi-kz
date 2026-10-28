@@ -52,6 +52,7 @@ Middleware rewrites un-prefixed paths to `/ru/...`; app/[lang]/ is the only root
 handlers/{start,catalog,order,admin}.py, keyboards/, services/backend.py (httpx client to internal + read API), i18n texts in texts/{ru,kk,en}.py, config.py reads env. Language per user kept in FSM storage (MemoryStorage). Admin handlers filtered by ADMIN_CHAT_ID.
 
 ### Milestone log
+- M1 (2026-10-28) approved by reviewer: fixtures from old generator (0 diffs), generator removed, models/admin/seed/health, docker compose db+backend. Seed overwrites admin edits by design. M2M order is not stored; API orders related/nearby/product_focus by target `sort`. Prod settings: secure cookies, HSTS 3600, CSRF trusted origin SITE_URL; SSL redirect left to nginx.
 
 
 ## v2 (SPEC-v2.md) — historical
