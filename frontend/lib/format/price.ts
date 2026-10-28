@@ -4,9 +4,10 @@ import type { Unit } from '@/types/api';
 
 const NBSP = ' ';
 
-/** 45000 -> "45 000 ₸" with non-breaking spaces. */
-export function formatKzt(amount: number): string {
-  const digits = String(Math.round(amount)).replace(/\B(?=(\d{3})+(?!\d))/g, NBSP);
+/** 45000 -> "45 000 ₸" (ru, kk: narrow no-break space) or "45,000 ₸" (en). */
+export function formatKzt(amount: number, lang: Lang = 'ru'): string {
+  const separator = lang === 'en' ? ',' : NBSP;
+  const digits = String(Math.round(amount)).replace(/\B(?=(\d{3})+(?!\d))/g, separator);
   return `${digits}${NBSP}₸`;
 }
 
@@ -20,10 +21,13 @@ export function usdHint(amount: number, rate: number): string {
   return `≈ $${usdAmount(amount, rate)}`;
 }
 
-/** Starting price as shown on cards: "от 45 000 ₸", "45 000 ₸ бастап", "from 45 000 ₸ (≈ $90)". */
-export function priceText(lang: Lang, amount: number, rate: number): string {
-  const base = getDict(lang).common.priceFrom(formatKzt(amount));
-  return lang === 'en' ? `${base} (${usdHint(amount, rate)})` : base;
+/**
+ * Starting price as shown on cards: "от 45 000 ₸", "45 000 ₸ бастап", "from 45,000 ₸ (≈ $90)".
+ * `withUsd` drops the English USD hint when a caller needs a shorter string (titles).
+ */
+export function priceText(lang: Lang, amount: number, rate: number, withUsd = true): string {
+  const base = getDict(lang).common.priceFrom(formatKzt(amount, lang));
+  return lang === 'en' && withUsd ? `${base} (${usdHint(amount, rate)})` : base;
 }
 
 /** Price plus the unit label: "от 4 000 ₸ за урок". */

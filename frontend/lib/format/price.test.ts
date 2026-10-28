@@ -41,13 +41,14 @@ describe('priceText', () => {
   it('uses the language phrasing for ru, kk and en', () => {
     expect(priceText('ru', 45000, 500)).toBe(`от 45${NBSP}000${NBSP}₸`);
     expect(priceText('kk', 45000, 500)).toBe(`45${NBSP}000${NBSP}₸ бастап`);
-    expect(priceText('en', 45000, 500)).toBe(`from 45${NBSP}000${NBSP}₸ (≈ $90)`);
+    expect(priceText('en', 45000, 500)).toBe(`from 45,000${NBSP}₸ (≈ $90)`);
+    expect(priceText('en', 45000, 500, false)).toBe(`from 45,000${NBSP}₸`);
   });
 });
 
 describe('priceWithUnit', () => {
   it('appends the unit label of the language', () => {
     expect(priceWithUnit('ru', 4000, 'lesson', 500)).toBe(`от 4${NBSP}000${NBSP}₸ за урок`);
-    expect(priceWithUnit('en', 25000, 'month', 500)).toBe(`from 25${NBSP}000${NBSP}₸ (≈ $50) per month`);
+    expect(priceWithUnit('en', 25000, 'month', 500)).toBe(`from 25,000${NBSP}₸ (≈ $50) per month`);
   });
 });

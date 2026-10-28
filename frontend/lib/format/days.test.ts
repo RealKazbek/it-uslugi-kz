@@ -22,7 +22,7 @@ describe('daysText', () => {
 
   it('shows the start delay for month, lesson and hour units', () => {
     expect(daysText('ru', 'month', 1, 3)).toBe('старт в течение 1 рабочего дня');
-    expect(daysText('ru', 'lesson', 2, 3)).toBe('старт в течение 2 рабочих дня');
+    expect(daysText('ru', 'lesson', 2, 3)).toBe('старт в течение 2 рабочих дней');
     expect(daysText('en', 'hour', 1, 1)).toBe('start within 1 working day');
     expect(daysText('kk', 'lesson', 1, 3)).toBe('бастау: 1 жұмыс күні ішінде');
   });

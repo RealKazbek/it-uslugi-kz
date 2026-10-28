@@ -7,16 +7,14 @@ import { LANGS } from '@/lib/i18n/locales';
 import { localePath } from '@/lib/i18n/paths';
 
 export const metadata: Metadata = {
-  title: '404: Страница не найдена | Бет табылмады | Page not found',
-  description: 'Страница не найдена. Бет табылмады. Page not found. RK Dev.',
   robots: { index: false, follow: false },
 };
 
 /**
- * Shown for unknown URLs (status 404). The segment does not expose its language here, so the
- * text is given in all three languages, each with links to the home page and the catalog.
+ * Shown when a page inside a language segment calls notFound(). Inherits <html lang> from the layout.
+ * Each block carries its own lang, so the text is given in ru, kk and en with links to the home page and the catalog.
  */
-export default function NotFound() {
+export default function LangNotFound() {
   return (
     <Section>
       <Container className="space-y-10">
@@ -24,14 +22,14 @@ export default function NotFound() {
         {LANGS.map((lang) => {
           const d = getDict(lang).common.notFound;
           return (
-            <div key={lang} lang={lang} className="space-y-2 border-t border-line pt-6">
+            <section key={lang} lang={lang} className="space-y-2 border-t border-line pt-6">
               <h2 className="text-xl">{d.title}</h2>
               <p className="text-muted">{d.text}</p>
               <p className="flex gap-4 font-semibold">
                 <Link href={localePath(lang, '/')}>{d.home}</Link>
                 <Link href={localePath(lang, '/catalog')}>{d.catalog}</Link>
               </p>
-            </div>
+            </section>
           );
         })}
       </Container>
