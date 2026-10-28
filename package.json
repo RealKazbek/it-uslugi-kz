@@ -1,0 +1,13 @@
+{
+  "name": "it-uslugi-kz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static SEO site for RK Dev freelance IT services in Kazakhstan",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.js",
+    "check": "node scripts/check.js",
+    "serve": "node scripts/serve.js"
+  }
+}
