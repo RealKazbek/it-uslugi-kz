@@ -4,7 +4,7 @@ import httpx
 import pytest
 from django.test import override_settings
 
-from core.services.telegram import send_message
+from core.services.telegram import TelegramError, send_message
 
 TOKEN = "123456:TEST-TOKEN-VALUE"
 
@@ -34,5 +34,22 @@ def test_send_message_raises_on_http_error(monkeypatch: pytest.MonkeyPatch) -> N
 
     monkeypatch.setattr(httpx, "post", fake_post)
 
-    with pytest.raises(httpx.HTTPStatusError):
+    with pytest.raises(TelegramError):
         send_message("42", "text")
+
+
+def test_error_response_description_is_kept_for_logs(monkeypatch: pytest.MonkeyPatch) -> None:
+    from core.services.errors import describe_error
+    from core.services.telegram import TelegramError
+
+    def fake_post(url: str, **kwargs: Any) -> httpx.Response:
+        body = {"ok": False, "description": "Bad Request: chat not found"}
+        return httpx.Response(400, json=body, request=httpx.Request("POST", url))
+
+    monkeypatch.setattr(httpx, "post", fake_post)
+
+    with pytest.raises(TelegramError) as caught:
+        send_message("42", "text")
+
+    assert describe_error(caught.value) == "HTTP 400: Bad Request: chat not found"
+    assert "TOKEN" not in describe_error(caught.value)

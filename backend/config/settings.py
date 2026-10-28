@@ -118,8 +118,19 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+# Database cache, not LocMem: throttle counters must be shared across gunicorn workers.
+# The table is created by `manage.py createcachetable` in entrypoint.sh.
+CACHES: dict[str, dict[str, Any]] = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.db.DatabaseCache",
+        "LOCATION": "cache",
+    }
+}
+
 REST_FRAMEWORK: dict[str, Any] = {
     "DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.AllowAny"],
+    # Public API: never parse Authorization headers. Views that need a session opt in.
+    "DEFAULT_AUTHENTICATION_CLASSES": [],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     # Lead throttles: 5 per minute and 30 per day per client IP (scopes used in leads/throttles.py).
     "DEFAULT_THROTTLE_RATES": {"leads": "5/min", "leads_daily": "30/day"},

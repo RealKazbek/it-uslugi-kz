@@ -1,7 +1,12 @@
-"""Best-effort on-demand revalidation of the Next.js frontend cache (tag based)."""
+"""Best-effort on-demand revalidation of the Next.js frontend cache (tag based).
+
+Tags raised inside one database transaction are collected into a single batch and
+sent as one webhook after the commit. A rolled-back transaction sends nothing.
+"""
 
 import logging
 from collections.abc import Sequence
+from typing import Any
 
 import httpx
 from django.conf import settings
@@ -13,6 +18,7 @@ from core.services.errors import describe_error
 logger = logging.getLogger(__name__)
 
 REVALIDATE_TIMEOUT_SECONDS = 5.0
+BATCH_ATTRIBUTE = "revalidation_batch"
 
 
 def post_revalidate(tags: Sequence[str]) -> bool:
@@ -38,9 +44,37 @@ def post_revalidate(tags: Sequence[str]) -> bool:
     return True
 
 
+class RevalidationBatch:
+    """Tags collected for one transaction; calling it sends one webhook (on commit)."""
+
+    def __init__(self) -> None:
+        self.tags: set[str] = set()
+
+    def __call__(self) -> None:
+        if self.tags:
+            run_in_daemon_thread(post_revalidate, sorted(self.tags))
+            self.tags.clear()
+
+
+def _registered_batch(connection: Any) -> RevalidationBatch | None:
+    """The open batch of this transaction, if its commit hook is still pending."""
+    batch = getattr(connection, BATCH_ATTRIBUTE, None)
+    if batch is None:
+        return None
+    pending = any(callback is batch for _, callback, _ in connection.run_on_commit)
+    return batch if pending else None
+
+
 def schedule_revalidation(tags: Sequence[str]) -> None:
-    """Fire the webhook in a daemon thread once the surrounding transaction commits."""
-    if not settings.FRONTEND_INTERNAL_URL:
+    """Add tags to the current transaction's batch; one webhook fires after commit."""
+    if not settings.FRONTEND_INTERNAL_URL or not tags:
         return
-    tag_list = list(tags)
-    transaction.on_commit(lambda: run_in_daemon_thread(post_revalidate, tag_list))
+    connection = transaction.get_connection()
+    batch = _registered_batch(connection)
+    if batch is not None:
+        batch.tags.update(tags)
+        return
+    batch = RevalidationBatch()
+    batch.tags.update(tags)
+    setattr(connection, BATCH_ATTRIBUTE, batch)
+    transaction.on_commit(batch, robust=True)

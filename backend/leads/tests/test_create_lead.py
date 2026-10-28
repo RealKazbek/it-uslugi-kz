@@ -13,7 +13,7 @@ def test_create_lead_saves_row_with_source_and_product() -> None:
     product = make_product(slug="landing")
 
     lead = create_lead(
-        {"name": "Айгүл", "contact": "+77001234567", "product": product, "lang": "kk"},
+        {"name": "Айгүл", "contact": "+77001234567", "product": "landing", "lang": "kk"},
         source=Lead.Source.BOT,
     )
 
@@ -24,13 +24,14 @@ def test_create_lead_saves_row_with_source_and_product() -> None:
 
 
 def test_create_lead_ignores_honeypot_field() -> None:
-    lead = create_lead(
+    create_lead(
         {"name": "Айгүл", "contact": "+77001234567", "website": "spam"},
         source=Lead.Source.SITE,
     )
 
-    assert not hasattr(lead, "website")
-    assert Lead.objects.count() == 1
+    lead = Lead.objects.get()
+    assert "spam" not in lead.message
+    assert lead.product is None
 
 
 def test_notification_is_scheduled_on_commit(

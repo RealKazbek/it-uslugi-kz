@@ -5,11 +5,13 @@ from cities.models import City
 
 
 def product_tags(slug: str) -> list[str]:
-    return ["products", f"product:{slug}", "categories"]
+    return ["products", f"product:{slug}", "categories", "cities"]
 
 
-def category_tags() -> list[str]:
-    return ["categories", "products"]
+def category_tags(category_id: int) -> list[str]:
+    """The category itself plus every product in it (their pages show the category)."""
+    slugs = Product.objects.filter(category_id=category_id).values_list("slug", flat=True)
+    return ["categories", "products", *(f"product:{slug}" for slug in slugs)]
 
 
 def city_tags(slug: str) -> list[str]:

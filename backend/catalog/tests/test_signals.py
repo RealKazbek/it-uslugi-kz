@@ -22,7 +22,7 @@ def scheduled(monkeypatch: pytest.MonkeyPatch) -> Recorder:
 def test_product_save_schedules_product_tags(scheduled: Recorder) -> None:
     make_product(slug="landing")
 
-    assert scheduled[-1] == ["products", "product:landing", "categories"]
+    assert scheduled[-1] == ["products", "product:landing", "categories", "cities"]
 
 
 def test_product_delete_schedules_product_tags(scheduled: Recorder) -> None:
@@ -31,7 +31,7 @@ def test_product_delete_schedules_product_tags(scheduled: Recorder) -> None:
 
     product.delete()
 
-    assert scheduled == [["products", "product:landing", "categories"]]
+    assert scheduled == [["products", "product:landing", "categories", "cities"]]
 
 
 def test_category_save_schedules_categories_and_products(scheduled: Recorder) -> None:
@@ -46,7 +46,7 @@ def test_faq_save_schedules_its_product_tags(scheduled: Recorder) -> None:
 
     make_faq(product)
 
-    assert scheduled == [["products", "product:landing", "categories"]]
+    assert scheduled == [["products", "product:landing", "categories", "cities"]]
 
 
 def test_city_save_schedules_city_tags(scheduled: Recorder) -> None:

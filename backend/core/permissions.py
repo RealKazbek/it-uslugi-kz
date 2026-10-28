@@ -17,3 +17,13 @@ class HasInternalToken(BasePermission):
             return False
         provided = request.headers.get(INTERNAL_TOKEN_HEADER, "")
         return hmac.compare_digest(provided.encode(), expected.encode())
+
+
+class SchemaAccess(BasePermission):
+    """API docs are open in DEBUG; otherwise only logged-in staff users (session auth)."""
+
+    def has_permission(self, request: Request, view: APIView) -> bool:
+        if settings.DEBUG:
+            return True
+        user = request.user
+        return bool(user and user.is_authenticated and user.is_staff)

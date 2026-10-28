@@ -19,7 +19,7 @@ VALID: dict[str, Any] = {
 }
 
 
-def test_valid_lead_is_saved_and_returns_id(
+def test_valid_lead_is_saved_and_returns_ok_only(
     client: Client, django_capture_on_commit_callbacks: Any
 ) -> None:
     make_product(slug="landing")
@@ -30,8 +30,8 @@ def test_valid_lead_is_saved_and_returns_id(
         )
 
     assert response.status_code == 201
-    lead = Lead.objects.get(pk=response.json()["id"])
-    assert response.json() == {"ok": True, "id": lead.pk}
+    assert response.json() == {"ok": True}
+    lead = Lead.objects.get()
     assert lead.source == Lead.Source.SITE
     assert lead.product is not None and lead.product.slug == "landing"
     assert lead.channel == "whatsapp"
@@ -56,7 +56,6 @@ def test_lead_without_product_is_saved(client: Client) -> None:
         {"lang": "de"},
         {"page_url": "not a url"},
         {"message": "m" * 2001},
-        {"product": "missing"},
     ],
 )
 def test_invalid_payload_is_rejected(client: Client, override: dict[str, Any]) -> None:
@@ -66,24 +65,31 @@ def test_invalid_payload_is_rejected(client: Client, override: dict[str, Any]) -
     assert Lead.objects.count() == 0
 
 
-def test_inactive_product_is_rejected(client: Client) -> None:
+@pytest.mark.parametrize("slug", ["missing", "hidden"])
+def test_unknown_or_inactive_product_is_kept_as_message_note(
+    client: Client, caplog: pytest.LogCaptureFixture, slug: str
+) -> None:
     make_product(slug="hidden", is_active=False)
 
-    response = client.post(
-        "/api/leads", {**VALID, "product": "hidden"}, content_type="application/json"
-    )
+    with caplog.at_level(logging.INFO, logger="leads.services.create_lead"):
+        response = client.post(
+            "/api/leads", {**VALID, "product": slug}, content_type="application/json"
+        )
 
-    assert response.status_code == 400
-    assert "product" in response.json()
+    assert response.status_code == 201
+    lead = Lead.objects.get()
+    assert lead.product is None
+    assert lead.message.endswith(f"[product: {slug}]")
+    assert "without product" in caplog.text
 
 
-def test_filled_honeypot_returns_ok_and_saves_nothing(
+def test_honeypot_response_matches_real_lead_and_saves_nothing(
     client: Client, caplog: pytest.LogCaptureFixture
 ) -> None:
     with caplog.at_level(logging.INFO, logger="leads.views.public"):
         response = client.post(
             "/api/leads",
-            {**VALID, "website": "http://spam.example"},
+            {**VALID, "website": "http://spam.example " * 20},
             content_type="application/json",
         )
 

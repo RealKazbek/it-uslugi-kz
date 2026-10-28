@@ -40,13 +40,16 @@ def on_product_changed(sender: type[Product], instance: Product, **kwargs: Any) 
 @receiver(post_save, sender=ProductFAQ)
 @receiver(post_delete, sender=ProductFAQ)
 def on_faq_changed(sender: type[ProductFAQ], instance: ProductFAQ, **kwargs: Any) -> None:
-    _schedule(product_tags(instance.product.slug))
+    # Look the slug up by id: during a cascade delete the product row may already be gone.
+    slug = Product.objects.filter(pk=instance.product_id).values_list("slug", flat=True).first()
+    if slug is not None:
+        _schedule(product_tags(slug))
 
 
 @receiver(post_save, sender=Category)
 @receiver(post_delete, sender=Category)
 def on_category_changed(sender: type[Category], instance: Category, **kwargs: Any) -> None:
-    _schedule(category_tags())
+    _schedule(category_tags(instance.pk))
 
 
 @receiver(post_save, sender=City)

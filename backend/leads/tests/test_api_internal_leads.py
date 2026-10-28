@@ -136,3 +136,40 @@ def test_patch_rejects_unknown_status(client: Client) -> None:
     )
 
     assert response.status_code == 400
+
+
+@pytest.mark.parametrize("telegram_user_id", [0, -1, 2**63])
+def test_telegram_user_id_out_of_range_is_rejected(client: Client, telegram_user_id: int) -> None:
+    response = client.post(
+        "/api/internal/leads",
+        {**BOT_LEAD, "telegram_user_id": telegram_user_id},
+        content_type="application/json",
+        headers=_auth(),
+    )
+
+    assert response.status_code == 400
+
+
+def test_telegram_user_id_at_int64_maximum_is_accepted(client: Client) -> None:
+    response = client.post(
+        "/api/internal/leads",
+        {**BOT_LEAD, "telegram_user_id": 2**63 - 1},
+        content_type="application/json",
+        headers=_auth(),
+    )
+
+    assert response.status_code == 201
+
+
+def test_bot_unknown_product_is_kept_as_note(client: Client) -> None:
+    response = client.post(
+        "/api/internal/leads",
+        {**BOT_LEAD, "product": "ghost"},
+        content_type="application/json",
+        headers=_auth(),
+    )
+
+    assert response.status_code == 201
+    lead = Lead.objects.get(pk=response.json()["id"])
+    assert lead.product is None
+    assert lead.message.endswith("[product: ghost]")
