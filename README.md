@@ -73,8 +73,8 @@ first. Later starts use `make up`.
 `make seed` overwrites seeded products and cities with the fixture files, including admin edits to them.
 Products created only in the admin are not in the fixtures and are not touched by seed.
 
-Content sources: `backend/catalog/fixtures/` (categories, one JSON file per product and per city) and
-`backend/cities/`. Seed reads them in file-name order.
+Content sources: `backend/catalog/fixtures/` holds `categories.json`, one JSON file per product in
+`products/` and one per city in `cities/`. Seed reads each directory in file-name order.
 
 ## Tests, lint, CI
 

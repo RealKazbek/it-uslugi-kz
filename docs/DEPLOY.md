@@ -137,6 +137,10 @@ ssh -N -L 8000:127.0.0.1:8000 <user>@<vps-ip>
 Then log in at `http://127.0.0.1:8000/admin/` with a staff account and open
 `http://127.0.0.1:8000/api/docs`. Outside `DEBUG`, the docs need a staff session.
 
+The admin session cookie is `Secure` (production settings). Login over the tunnel works only in a browser
+that accepts Secure cookies on `localhost`/`127.0.0.1` (current Chrome and Firefox do). If your browser
+refuses it, open the admin and docs on the HTTPS domain instead, with a staff account.
+
 ## 7. Updates
 
 ```
@@ -151,17 +155,25 @@ seeded products and cities by design.
 
 ## 8. Backups
 
-Nightly custom-format dump of the database, kept 14 days. Create the directory once:
-`sudo mkdir -p /var/backups/uslugi && sudo chmod 700 /var/backups/uslugi`.
+`deploy/backup.sh` dumps the database (custom format) to `/var/backups/uslugi/db-YYYY-MM-DD.dump` and keeps
+14 days. It writes a `.tmp` file and renames it only after `pg_dump` succeeds; a failed run deletes the
+partial file. Errors and the outcome go to syslog (`journalctl -t uslugi-backup`).
+
+Create the directory once: `sudo mkdir -p /var/backups/uslugi && sudo chmod 700 /var/backups/uslugi`.
 
 `/etc/cron.d/uslugi-backup` (root):
 
 ```
-15 3 * * * root cd /opt/it-uslugi && docker compose exec -T db sh -c 'pg_dump -U "$POSTGRES_USER" -d "$POSTGRES_DB" -Fc' > /var/backups/uslugi/db-$(date +\%F).dump 2>/dev/null && find /var/backups/uslugi -name 'db-*.dump' -mtime +14 -delete
+15 3 * * * root /opt/it-uslugi/deploy/backup.sh
 ```
 
-Copy the dumps off the VPS as well. Restore test (on a scratch database, not the live one):
-`docker compose exec -T db pg_restore -U "$POSTGRES_USER" -d "$POSTGRES_DB" --clean < db-YYYY-MM-DD.dump`.
+Copy the dumps off the VPS as well. Restore test, into a scratch database inside the db container (the
+live database is not touched):
+
+```
+docker compose -f /opt/it-uslugi/docker-compose.yml exec -T db sh -c 'createdb -U "$POSTGRES_USER" restore_test && pg_restore -U "$POSTGRES_USER" -d restore_test' < /var/backups/uslugi/db-YYYY-MM-DD.dump
+docker compose -f /opt/it-uslugi/docker-compose.yml exec -T db sh -c 'dropdb -U "$POSTGRES_USER" restore_test'
+```
 
 ## 9. Logs
 
