@@ -87,5 +87,7 @@ def lead(lead_id: int = 7, status: str = "new") -> LeadDict:
         "product_slug": "lending",
         "lang": "ru",
         "status": status,
+        "source": "bot",
+        "telegram_user_id": None,
         "created_at": "2026-10-29T10:15:00+05:00",
     }

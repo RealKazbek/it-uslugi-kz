@@ -32,6 +32,8 @@ class LeadDict(TypedDict):
     product_slug: str | None
     lang: str
     status: str
+    source: str
+    telegram_user_id: int | None
     created_at: str
 
 
