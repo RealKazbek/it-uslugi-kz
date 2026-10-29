@@ -18,13 +18,13 @@ services:
     env_file: .env
     environment:
       DJANGO_DEBUG: "0"
-      DJANGO_ALLOWED_HOSTS: "localhost,127.0.0.1,backend"
+      DJANGO_ALLOWED_HOSTS: "${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,backend}"
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"
       FRONTEND_INTERNAL_URL: "http://frontend:3000"
       API_INTERNAL_URL: "http://backend:8000"
       BACKEND_URL: "http://backend:8000"
-      SITE_URL: "https://uslugi.realkazbek.site"
+      SITE_URL: "${SITE_URL:-https://uslugi.realkazbek.site}"
       USD_RATE: "500"
     ports:
       - "127.0.0.1:8000:8000"
@@ -38,7 +38,7 @@ services:
     environment:
       INTERNAL_API_TOKEN: ${INTERNAL_API_TOKEN}
       API_INTERNAL_URL: "http://backend:8000"
-      SITE_URL: "https://uslugi.realkazbek.site"
+      SITE_URL: "${SITE_URL:-https://uslugi.realkazbek.site}"
       USD_RATE: "500"
     ports:
       - "127.0.0.1:3000:3000"
@@ -60,7 +60,7 @@ services:
       ADMIN_CHAT_ID: ${ADMIN_CHAT_ID}
       INTERNAL_API_TOKEN: ${INTERNAL_API_TOKEN}
       BACKEND_URL: "http://backend:8000"
-      SITE_URL: "https://uslugi.realkazbek.site"
+      SITE_URL: "${SITE_URL:-https://uslugi.realkazbek.site}"
     depends_on:
       backend:
         condition: service_healthy
