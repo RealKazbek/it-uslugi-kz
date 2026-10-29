@@ -1,4 +1,9 @@
+import logging
 from unittest.mock import AsyncMock
+
+import pytest
+from aiogram.exceptions import TelegramBadRequest
+from aiogram.methods import EditMessageText
 
 from app.handlers.admin import cmd_leads, cmd_stats, set_lead_status
 from app.services.backend_errors import BackendError
@@ -70,3 +75,27 @@ async def test_invalid_status_callback_never_calls_backend(backend: AsyncMock) -
     await set_lead_status(callback, backend)
     backend.update_lead_status.assert_not_awaited()
     callback.answer.assert_awaited_once_with()
+
+
+async def test_duplicate_press_is_answered_silently(backend: AsyncMock) -> None:
+    backend.update_lead_status.return_value = lead(7, "won")
+    source = make_message(html_text=f"{CARD}\nСтатус: выиграна")
+    callback = make_callback("lead:7:won", message=source)
+    await set_lead_status(callback, backend)
+    callback.answer.assert_awaited_once_with()
+    source.edit_text.assert_not_awaited()
+
+
+async def test_edit_refused_by_telegram_is_logged_not_raised(
+    backend: AsyncMock, caplog: pytest.LogCaptureFixture
+) -> None:
+    backend.update_lead_status.return_value = lead(7, "won")
+    source = make_message(html_text=CARD)
+    source.edit_text.side_effect = TelegramBadRequest(
+        method=EditMessageText(chat_id=1, message_id=2, text="x"),
+        message="Bad Request: message is not modified",
+    )
+    callback = make_callback("lead:7:won", message=source)
+    with caplog.at_level(logging.WARNING):
+        await set_lead_status(callback, backend)
+    assert "Could not edit message for lead 7: TelegramBadRequest" in caplog.text

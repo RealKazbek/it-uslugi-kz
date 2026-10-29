@@ -12,7 +12,11 @@ STATUS_ORDER: Final = ("new", "in_progress", "won", "lost")
 
 
 def status_label(status: str) -> str:
-    return t(ADMIN_LANG, f"status.{status}")
+    """Known statuses get their label; an unknown value is shown as the backend sent it."""
+    try:
+        return t(ADMIN_LANG, f"status.{status}")
+    except KeyError:
+        return status
 
 
 def format_created(created_at: str) -> str:

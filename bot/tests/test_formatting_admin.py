@@ -1,4 +1,4 @@
-from app.formatting.leads import format_leads, format_stats
+from app.formatting.leads import format_leads, format_stats, status_label
 from app.formatting.status import with_status_line
 from app.services.backend_models import StatusCountsDict
 from tests.factories import lead
@@ -26,3 +26,8 @@ def test_status_line_is_replaced_not_duplicated() -> None:
     assert twice.count("Статус:") == 1
     assert twice.endswith("Статус: выиграна")
     assert "Имя: A" in twice
+
+
+def test_unknown_status_is_shown_raw() -> None:
+    assert status_label("archived") == "archived"
+    assert "archived" in format_leads([{**lead(3), "status": "archived"}])
