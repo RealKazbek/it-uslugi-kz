@@ -5,7 +5,7 @@ DC=docker compose
 BOT_VENV=python -m venv /tmp/venv && /tmp/venv/bin/pip install -q -r requirements-dev.txt
 BOT_RUN=docker run --rm --user $$(id -u):$$(id -g) -e HOME=/tmp -e PIP_NO_CACHE_DIR=1 -v "$(CURDIR)/bot:/w" -w /w python:3.12-slim sh -c
 
-.PHONY: up down init seed test lint bot-lint bot-test
+.PHONY: up down init seed test lint bot-lint bot-test e2e
 
 # Start db, backend, frontend and bot, and wait until they are healthy.
 # On the very first start use `make init`: the frontend builds its pages from the API, so the data must exist first.
@@ -38,3 +38,12 @@ bot-lint:
 
 bot-test:
 	$(BOT_RUN) '$(BOT_VENV) && /tmp/venv/bin/pytest'
+
+# End-to-end run against the running stack (`make up` first). Creates 2 real leads and 2 real
+# admin notifications on every run. Needs curl; runs the bot side inside the bot container.
+e2e:
+	@echo "== E2E: lead from the website (frontend /api/lead) =="
+	@sh scripts/e2e/site_lead.sh
+	@echo "== E2E: lead from the bot (real dispatcher, real backend) =="
+	@sh scripts/e2e/bot_lead.sh
+	@echo "== E2E passed: 2 leads (site, bot), 2 admin notifications confirmed in backend logs =="
