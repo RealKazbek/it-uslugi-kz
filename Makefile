@@ -1,7 +1,9 @@
 PY=.venv/bin/python
 DC=docker compose
-# Bot checks run in a throwaway python:3.12-slim container, so no local venv is needed.
-BOT_RUN=docker run --rm -v "$(CURDIR)/bot:/w" -v botpipcache:/root/.cache/pip -w /w python:3.12-slim sh -c
+# Bot checks run in a throwaway python:3.12-slim container as the host user. The venv lives in /tmp
+# inside the container, so nothing root-owned is written into bot/.
+BOT_VENV=python -m venv /tmp/venv && /tmp/venv/bin/pip install -q -r requirements-dev.txt
+BOT_RUN=docker run --rm --user $$(id -u):$$(id -g) -e HOME=/tmp -e PIP_NO_CACHE_DIR=1 -v "$(CURDIR)/bot:/w" -w /w python:3.12-slim sh -c
 
 .PHONY: up down init seed test lint bot-lint bot-test
 
@@ -32,7 +34,7 @@ lint: bot-lint
 	cd frontend && npm run lint && npm run typecheck
 
 bot-lint:
-	$(BOT_RUN) 'pip install -q -r requirements-dev.txt && ruff check . && ruff format --check . && mypy .'
+	$(BOT_RUN) '$(BOT_VENV) && /tmp/venv/bin/ruff check . && /tmp/venv/bin/ruff format --check . && /tmp/venv/bin/mypy .'
 
 bot-test:
-	$(BOT_RUN) 'pip install -q -r requirements-dev.txt && pytest'
+	$(BOT_RUN) '$(BOT_VENV) && /tmp/venv/bin/pytest'
