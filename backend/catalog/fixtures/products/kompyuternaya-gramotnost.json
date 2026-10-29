@@ -1,0 +1,98 @@
+{
+  "slug": "kompyuternaya-gramotnost",
+  "category": "education",
+  "title_ru": "Компьютерная грамотность для взрослых",
+  "title_kk": "Ересектерге арналған компьютерлік сауаттылық",
+  "title_en": "Computer basics for adults",
+  "short_ru": "Спокойные занятия для взрослых и пожилых людей: компьютер, смартфон, интернет, мессенджеры и госуслуги.",
+  "short_kk": "Ересектер мен егде жастағы адамдарға арналған сабақтар: компьютер, смартфон, интернет, мессенджерлер және электрондық қызметтер.",
+  "short_en": "Patient lessons for adults and older people: computer, smartphone, internet, messengers and online services.",
+  "description_ru": "Никакого программирования: только то, что пригодится в повседневной жизни. Мы учимся пользоваться смартфоном и компьютером, искать информацию, общаться по видеосвязи, безопасно платить и узнавать мошеннические сообщения. Темп задаёте вы, повторяем столько раз, сколько нужно, и объясняю без непонятных терминов.",
+  "description_kk": "Бағдарламалау жоқ: тек күнделікті өмірде керек нәрселер. Смартфон мен компьютерді пайдалануды, ақпарат іздеуді, бейнебайланыспен сөйлесуді, қауіпсіз төлеуді және алаяқтық хабарламаларды танып білуді үйренеміз. Қарқынды өзіңіз белгілейсіз, қажет болғанша қайталаймыз, түсініксіз терминсіз түсіндіремін.",
+  "description_en": "No programming here, only what is useful in everyday life. We learn to use a smartphone and a computer, search for information, talk over video, pay safely and spot scam messages. You set the pace, we repeat as often as needed and I explain without confusing jargon.",
+  "for_whom_ru": "Взрослым, пожилым родителям и бабушкам с дедушками, которым нужно уверенно пользоваться техникой, а детям или внукам некогда объяснять.",
+  "for_whom_kk": "Техниканы сенімді пайдалануы керек, ал балаларында немесе немерелерінде түсіндіруге уақыт жоқ ересектерге, егде жастағы ата-аналарға, әже мен атаға арналған.",
+  "for_whom_en": "For adults and older parents or grandparents who need to use technology confidently when their children or grandchildren have no time to explain.",
+  "includes_ru": [
+    "Занятие по видеосвязи, около часа, в удобном вам темпе",
+    "Основы работы со смартфоном: звонки, камера, приложения",
+    "Работа с компьютером: файлы, папки, печать документов",
+    "Поиск информации в интернете и проверка источников",
+    "WhatsApp, Telegram и видеозвонки с родными",
+    "Онлайн-банкинг и оплата услуг, электронные госуслуги шаг за шагом",
+    "Как распознать мошеннические звонки и сообщения"
+  ],
+  "includes_kk": [
+    "Бейнебайланыс арқылы шамамен бір сағаттық сабақ, өзіңізге ыңғайлы қарқында",
+    "Смартфонмен жұмыс негіздері: қоңыраулар, камера, қосымшалар",
+    "Компьютермен жұмыс: файлдар, қалталар, құжаттарды басып шығару",
+    "Интернеттен ақпарат іздеу және дереккөздерді тексеру",
+    "WhatsApp, Telegram және туыстармен бейнеқоңыраулар",
+    "Онлайн-банкинг пен қызметтерге төлем, электрондық мемлекеттік қызметтер қадам-қадаммен",
+    "Алаяқтық қоңыраулар мен хабарламаларды қалай тануға болады"
+  ],
+  "includes_en": [
+    "An online lesson of about an hour at a pace that suits you",
+    "Smartphone basics: calls, the camera, apps",
+    "Working with a computer: files, folders, printing documents",
+    "Searching the internet and checking sources",
+    "WhatsApp, Telegram and video calls with family",
+    "Online banking, paying for services and e-government sites step by step",
+    "How to recognise scam calls and messages"
+  ],
+  "not_included_ru": [
+    "Ремонт и настройка вышедшей из строя техники: занятия только объясняют",
+    "Покупка компьютера или телефона: могу лишь посоветовать, что смотреть",
+    "Занятия очно: проходят онлайн, в Алматы возможна встреча по договорённости"
+  ],
+  "not_included_kk": [
+    "Істен шыққан техниканы жөндеу: сабақтар тек түсіндіреді",
+    "Компьютер немесе телефон сатып алу: нені қарау керегін ғана кеңес бере аламын",
+    "Бетпе-бет сабақтар: онлайн өтеді, Алматыда келісім бойынша кездесуге болады"
+  ],
+  "not_included_en": [
+    "Repairing broken equipment; lessons only explain how to use it",
+    "Buying a computer or phone; I can only advise what to look at",
+    "In-person lessons; they run online, with a meeting in Almaty possible by agreement"
+  ],
+  "price_from_kzt": 3000,
+  "unit": "lesson",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "kompyuternaya-pomosch",
+    "repetitor-programmirovaniya",
+    "pochta-na-domene"
+  ],
+  "is_active": true,
+  "sort": 58,
+  "faqs": [
+    {
+      "question_ru": "Я совсем не разбираюсь, подойдёт ли мне?",
+      "question_kk": "Мен мүлде түсінбеймін, маған жарай ма?",
+      "question_en": "I know nothing about computers. Is this right for me?",
+      "answer_ru": "Да, начинаем с самого простого. На первом занятии мы выясняем, что вы уже умеете и чему хотите научиться, и строим уроки вокруг этого.",
+      "answer_kk": "Иә, ең қарапайымынан бастаймыз. Бірінші сабақта нені білетініңізді және нені үйренгіңіз келетінін анықтап, сабақтарды соның төңірегінде құрамыз.",
+      "answer_en": "Yes, we start from the very basics. In the first lesson we find out what you can already do and what you want to learn, and build the lessons around that.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как заниматься, если я не умею пользоваться видеозвонком?",
+      "question_kk": "Бейнеқоңырауды пайдалана алмасам, қалай оқимын?",
+      "question_en": "How can I take an online lesson if I cannot use video calls yet?",
+      "answer_ru": "Первый раз я объясняю по телефону, как зайти в звонок, или связываюсь с кем-то из ваших близких. Часто помогает, если рядом сидит родственник.",
+      "answer_kk": "Алғашқыда қоңырауға қалай кіру керегін телефонмен түсіндіремін немесе жақындарыңыздың біреуімен байланысамын. Жанында туысыңыз отырса, көбіне көмектеседі.",
+      "answer_en": "The first time I explain by phone how to join the call, or I contact one of your relatives. It often helps to have a family member nearby.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли заказать занятия для родителей, живущих в другом городе?",
+      "question_kk": "Басқа қалада тұратын ата-анама сабақ тапсыруға бола ма?",
+      "question_en": "Can I book lessons for my parents who live in another city?",
+      "answer_ru": "Да, занятия идут онлайн в любом городе. Вы можете записаться и оплатить за них, а по желанию присутствовать на первом занятии.",
+      "answer_kk": "Иә, сабақтар кез келген қалада онлайн өтеді. Олар үшін өзіңіз жазылып, төлей аласыз, қаласаңыз бірінші сабаққа қатыса аласыз.",
+      "answer_en": "Yes, lessons are online and work from any city. You can sign them up and pay on their behalf, and join the first lesson if you wish.",
+      "sort": 2
+    }
+  ]
+}

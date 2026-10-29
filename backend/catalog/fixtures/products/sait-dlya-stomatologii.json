@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-stomatologii",
+  "category": "websites",
+  "title_ru": "Сайт для стоматологии",
+  "title_kk": "Стоматологияға арналған сайт",
+  "title_en": "Website for a dental clinic",
+  "short_ru": "Сайт клиники с прайсом по процедурам, страницами врачей и записью на приём.",
+  "short_kk": "Емшара бағасы, дәрігер беттері және қабылдауға жазылуы бар клиника сайты.",
+  "short_en": "A clinic website with a procedure price list, doctor profiles and appointment requests.",
+  "description_ru": "Пациент выбирает клинику по цене, врачу и тому, можно ли записаться сегодня. Сайт показывает прайс по процедурам, специализацию каждого врача и график приёма, а форма записи сразу передаёт заявку администратору. Страницы написаны так, чтобы пациенту было спокойно и понятно, без громких обещаний.",
+  "description_kk": "Науқас клиниканы баға, дәрігер және бүгін жазылуға бола ма дегенге қарап таңдайды. Сайт емшара бағасын, әр дәрігердің мамандығы мен қабылдау кестесін көрсетеді, ал жазылу формасы өтінімді бірден әкімшіге жібереді. Беттер науқасқа жайлы әрі түсінікті болатындай, дәріптеусіз жазылады.",
+  "description_en": "Patients choose a clinic by price, by the doctor, and by whether they can be seen today. The site shows a price list by procedure, each doctor's specialty and schedule, and a booking form that sends the request straight to the front desk. The wording is calm and clear, with no inflated promises.",
+  "for_whom_ru": "Частным стоматологическим клиникам и кабинетам, которые хотят получать записи с сайта и поиска.",
+  "for_whom_kk": "Сайттан және іздеуден жазылу алғысы келетін жеке стоматологиялық клиникалар мен кабинеттерге.",
+  "for_whom_en": "For private dental clinics and practices that want bookings from their website and from search.",
+  "includes_ru": [
+    "Прайс-лист по процедурам с ценами «от» и группировкой по направлениям",
+    "Страницы врачей: специализация, образование, график приёма",
+    "Форма записи с выбором врача и желаемого времени",
+    "Страницы направлений: лечение, имплантация, ортодонтия, детская стоматология",
+    "Раздел «До и после» с фото только с согласия пациентов",
+    "Лицензия, адрес, часы работы и карта проезда",
+    "Блок «Как подготовиться к визиту» и ответы на частые вопросы"
+  ],
+  "includes_kk": [
+    "Емшара бағасы «бастап» көрсетілген, бағыттар бойынша топтастырылған прайс",
+    "Дәрігер беттері: мамандығы, білімі, қабылдау кестесі",
+    "Дәрігер мен қалаулы уақытты таңдайтын жазылу формасы",
+    "Бағыт беттері: емдеу, имплантация, ортодонтия, балалар стоматологиясы",
+    "Тек науқастың келісімімен қойылатын «Дейін және кейін» бөлімі",
+    "Лицензия, мекенжай, жұмыс уақыты және карта",
+    "«Қабылдауға қалай дайындалу керек» блогы мен жиі қойылатын сұрақтар"
+  ],
+  "includes_en": [
+    "Price list by procedure with \"from\" prices, grouped by treatment type",
+    "Doctor pages: specialty, education, appointment schedule",
+    "Booking form with a choice of doctor and preferred time",
+    "Treatment pages: general care, implants, orthodontics, paediatric dentistry",
+    "A before-and-after section, using photos only with patient consent",
+    "Licence details, address, opening hours and map",
+    "\"How to prepare for your visit\" block and common questions"
+  ],
+  "not_included_ru": [
+    "Фото врачей, клиники и тексты о врачах предоставляете вы",
+    "Интеграция с медицинской информационной системой клиники",
+    "Платные сервисы онлайн-записи оплачиваются отдельно, если они нужны"
+  ],
+  "not_included_kk": [
+    "Дәрігер, клиника суреттері мен дәрігерлер туралы мәтінді өзіңіз бересіз",
+    "Клиниканың медициналық ақпараттық жүйесімен интеграция",
+    "Онлайн-жазылудың ақылы сервистері қажет болса, бөлек төленеді"
+  ],
+  "not_included_en": [
+    "Photos of doctors and the clinic, and bios, come from you",
+    "Integration with the clinic's medical information system",
+    "Paid online-booking services, if you want one, are billed separately"
+  ],
+  "price_from_kzt": 60000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "telegram-bot-zapis",
+    "kartochka-2gis-google-maps",
+    "onlain-zapis-google-calendar"
+  ],
+  "is_active": true,
+  "sort": 4,
+  "faqs": [
+    {
+      "question_ru": "Можно ли показывать цены, если они меняются?",
+      "question_kk": "Бағалар өзгеріп тұрса, оларды көрсетуге бола ма?",
+      "question_en": "Can we show prices if they change often?",
+      "answer_ru": "Лучше указывать «от» и дату актуализации. Цены лежат в одном разделе, и я обновлю их по вашему сообщению, обычно в тот же день.",
+      "answer_kk": "«Бастап» және жаңарту күнін көрсеткен жөн. Бағалар бір бөлімде тұрады, мен оларды хабарламаңыз бойынша, әдетте сол күні жаңартамын.",
+      "answer_en": "It is best to show \"from\" prices with an update date. The prices live in one section and I update them on your message, usually the same day.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как защищены данные пациентов в форме записи?",
+      "question_kk": "Жазылу формасындағы науқас деректері қалай қорғалады?",
+      "question_en": "How is patient data in the booking form handled?",
+      "answer_ru": "Форма собирает только имя, телефон и пожелание по времени, без медицинских подробностей. Заявка уходит вам в Telegram или на почту, на сайте она не хранится. Согласие на обработку данных добавляется текстом рядом с кнопкой.",
+      "answer_kk": "Форма тек аты-жөнін, телефонды және уақыт тілегін жинайды, медициналық мәліметсіз. Өтінім сізге Telegram не поштаға кетеді, сайтта сақталмайды. Деректерді өңдеуге келісім батырма жанындағы мәтінмен қосылады.",
+      "answer_en": "The form collects only a name, phone number and preferred time, with no medical details. The request goes to your Telegram or email and is not stored on the site. A consent line sits next to the button.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Поможет ли сайт найти клинику в поиске по району?",
+      "question_kk": "Сайт клиниканы аудан бойынша іздеуден табуға көмектесе ме?",
+      "question_en": "Will the site help patients find the clinic when searching by district?",
+      "answer_ru": "Я оформляю страницы так, чтобы поиск понимал услуги и адрес, и советую завести карточку в 2GIS и Google Maps. Места в выдаче при этом не обещаю.",
+      "answer_kk": "Іздеу қызметтер мен мекенжайды түсінетіндей беттерді рәсімдеймін, 2GIS және Google Maps-те карточка ашуды ұсынамын. Дегенмен шығарылымдағы орынды уәде етпеймін.",
+      "answer_en": "I structure the pages so search engines can read the services and address, and I recommend adding a listing on 2GIS and Google Maps. I do not promise any ranking position.",
+      "sort": 2
+    }
+  ]
+}

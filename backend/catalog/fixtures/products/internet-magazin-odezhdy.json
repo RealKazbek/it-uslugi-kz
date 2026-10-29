@@ -1,0 +1,98 @@
+{
+  "slug": "internet-magazin-odezhdy",
+  "category": "ecommerce",
+  "title_ru": "Интернет-магазин одежды",
+  "title_kk": "Киім интернет-дүкені",
+  "title_en": "Online clothing store",
+  "short_ru": "Магазин одежды с размерами, цветами, наличием по размерам и удобным оформлением заказа.",
+  "short_kk": "Өлшемдері, түстері, өлшем бойынша болуы және ыңғайлы тапсырыс рәсімдеуі бар киім дүкені.",
+  "short_en": "A clothing store with sizes, colours, stock per size and a smooth checkout.",
+  "description_ru": "У одежды один товар существует в десятке вариантов, и магазин должен показывать наличие каждого размера и цвета. Покупатель фильтрует каталог по размеру, смотрит галерею фото и добавляет в корзину именно нужный вариант. Вы ведёте остатки по каждому варианту, поэтому нет заказов на то, чего нет.",
+  "description_kk": "Киімде бір тауар ондаған нұсқада болады, сондықтан дүкен әр өлшем мен түстің болуын көрсетуі тиіс. Сатып алушы каталогты өлшем бойынша сүзеді, фото галереяны қарайды және керекті нұсқаны ғана себетке салады. Қалдықты әр нұсқа бойынша жүргізесіз, сондықтан жоқ тауарға тапсырыс түспейді.",
+  "description_en": "One piece of clothing exists in a dozen variants, so the store has to show stock for every size and colour. The shopper filters the catalog by size, browses a photo gallery and adds the exact variant to the cart. You track stock per variant, so orders do not come in for things you do not have.",
+  "for_whom_ru": "Для бутиков, шоурумов и небольших брендов одежды, которые продают в Instagram и хотят перенести покупателей на собственный сайт. Нужен, когда в переписке уже запутались в размерах и остатках.",
+  "for_whom_kk": "Instagram-да сататын және сатып алушыларды өз сайтына көшіргісі келетін бутиктерге, шоурумдарға және шағын киім брендтеріне арналған. Хат алмасуда өлшемдер мен қалдықта шатасып қалғанда қажет.",
+  "for_whom_en": "For boutiques, showrooms and small clothing brands that sell through Instagram and want to move buyers to their own site. It is useful once you are tired of juggling sizes and stock in chat messages.",
+  "includes_ru": [
+    "Карточка товара с вариантами: размер, цвет, остаток по каждому",
+    "Галерея фото на карточке и переключение фото при выборе цвета",
+    "Фильтры по размеру, цвету, цене и категории",
+    "Таблица размеров, которую вы заполняете для каждой категории",
+    "Корзина, оформление заказа и выбор доставки",
+    "Админка с остатками по вариантам и загрузкой товаров из таблицы",
+    "Уведомления о заказах в Telegram и на почту"
+  ],
+  "includes_kk": [
+    "Нұсқалары бар тауар карточкасы: өлшем, түс, әрқайсысы бойынша қалдық",
+    "Карточкада фото галерея және түсті таңдағанда фотоны ауыстыру",
+    "Өлшем, түс, баға және санат бойынша сүзгілер",
+    "Әр санат үшін өзіңіз толтыратын өлшемдер кестесі",
+    "Себет, тапсырыс рәсімдеу және жеткізуді таңдау",
+    "Нұсқалар бойынша қалдығы бар әкімшілік панелі және кестеден тауар жүктеу",
+    "Тапсырыстар туралы Telegram-ға және поштаға хабарлама"
+  ],
+  "includes_en": [
+    "Product page with variants, meaning size, colour and stock for each",
+    "Photo gallery on the product page that switches with the chosen colour",
+    "Filters by size, colour, price and category",
+    "A size chart you fill in for each category",
+    "Cart, checkout and a choice of delivery method",
+    "Admin panel with per-variant stock and product import from a spreadsheet",
+    "Order alerts in Telegram and by email"
+  ],
+  "not_included_ru": [
+    "Фотосъёмка одежды и описания: материал предоставляете вы",
+    "Онлайн-оплата картой: подключается отдельно по договорённости через API провайдера",
+    "Обработка возвратов и обмена: правила и процесс остаются на вашей стороне"
+  ],
+  "not_included_kk": [
+    "Киімді фотоға түсіру және сипаттамалар: материалды сіз ұсынасыз",
+    "Картамен онлайн төлем: провайдердің API-і арқылы келісім бойынша бөлек қосылады",
+    "Қайтарым мен айырбасты өңдеу: ережелер мен процесс сіздің жағыңызда қалады"
+  ],
+  "not_included_en": [
+    "Clothing photography and descriptions, which you provide",
+    "Online card payment, which can be added separately through a provider API by agreement",
+    "Returns and exchange handling, as the rules and process stay on your side"
+  ],
+  "price_from_kzt": 170000,
+  "unit": "once",
+  "days_min": 15,
+  "days_max": 30,
+  "related": [
+    "internet-magazin",
+    "magazin-s-kaspi-xml",
+    "ai-opisaniya-tovarov"
+  ],
+  "is_active": true,
+  "sort": 20,
+  "faqs": [
+    {
+      "question_ru": "Как работают остатки по размерам?",
+      "question_kk": "Өлшемдер бойынша қалдықтар қалай жұмыс істейді?",
+      "question_en": "How does per-size stock work?",
+      "answer_ru": "Для каждого сочетания размера и цвета хранится своё количество. Когда размер заканчивается, он становится неактивным, а остальные варианты остаются доступными.",
+      "answer_kk": "Өлшем мен түстің әр үйлесімі үшін өз саны сақталады. Өлшем таусылғанда ол белсенді емес болады, ал қалған нұсқалар қолжетімді күйінде қалады.",
+      "answer_en": "Each combination of size and colour has its own quantity. When a size runs out it becomes inactive, while the other variants stay available.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно загрузить сразу всю коллекцию?",
+      "question_kk": "Бүкіл топтаманы бірден жүктеуге бола ма?",
+      "question_en": "Can I upload a whole collection at once?",
+      "answer_ru": "Да, товары с вариантами загружаются из таблицы по шаблону, который я подготовлю. Фото привязываются к товарам по названию файла.",
+      "answer_kk": "Иә, нұсқалары бар тауарлар мен дайындайтын үлгі бойынша кестеден жүктеледі. Фотолар файл атауы арқылы тауарға байланады.",
+      "answer_en": "Yes, products with variants are imported from a spreadsheet using a template I prepare. Photos are matched to products by file name.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Чем он отличается от обычного интернет-магазина?",
+      "question_kk": "Ол қарапайым интернет-дүкеннен несімен ерекшеленеді?",
+      "question_en": "How is it different from the general online store?",
+      "answer_ru": "Здесь вся логика строится вокруг вариантов товара: размеры, цвета, таблица размеров и остатки по каждому. Общий магазин подходит для товаров без таких вариантов.",
+      "answer_kk": "Мұнда бүкіл логика тауар нұсқаларының төңірегінде құрылған: өлшемдер, түстер, өлшем кестесі және әрқайсысының қалдығы. Жалпы дүкен мұндай нұсқалары жоқ тауарларға жарайды.",
+      "answer_en": "Here all the logic is built around product variants: sizes, colours, a size chart and stock for each. The general store suits goods without such variants.",
+      "sort": 2
+    }
+  ]
+}

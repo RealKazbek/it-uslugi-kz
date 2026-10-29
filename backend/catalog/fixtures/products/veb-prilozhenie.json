@@ -1,0 +1,98 @@
+{
+  "slug": "veb-prilozhenie",
+  "category": "websites",
+  "title_ru": "Веб-приложение и личный кабинет",
+  "title_kk": "Веб-қосымша және жеке кабинет",
+  "title_en": "Custom web app and client portal",
+  "short_ru": "Рабочий сервис в браузере: вход по логину, кабинеты клиентов и сотрудников, заявки и отчёты.",
+  "short_kk": "Браузердегі жұмыс сервисі: логинмен кіру, клиент пен қызметкер кабинеттері, өтінімдер мен есептер.",
+  "short_en": "A browser-based tool with logins, client and staff accounts, requests and reports.",
+  "description_ru": "Когда обычного сайта мало, а таблицы и переписка в мессенджерах уже не справляются, делаю веб-приложение под ваш процесс: личный кабинет клиента, учёт заказов, внутренняя система для сотрудников. Начинаем с самого нужного сценария и затем наращиваем функции. Цена зависит от объёма, поэтому точную сумму называю после разбора задачи.",
+  "description_kk": "Қарапайым сайт жетпей, кестелер мен мессенджердегі жазысу үлгермейтін кезде, процесіңізге арнап веб-қосымша жасаймын: клиенттің жеке кабинеті, тапсырыс есебі, қызметкерлерге арналған ішкі жүйе. Ең қажетті сценарийден бастап, кейін мүмкіндіктерді қосамыз. Баға көлемге байланысты, сондықтан нақты соманы тапсырманы талдағаннан кейін айтамын.",
+  "description_en": "When an ordinary website is not enough and spreadsheets and chat threads no longer cope, I build a web app around your process: a client portal, order tracking, or an internal system for staff. We start with the most important workflow and add features later. The price depends on scope, so I give an exact figure after reviewing the task.",
+  "for_whom_ru": "Бизнесу, у которого есть повторяющийся процесс (заказы, записи, отчёты), и нужен свой сервис вместо таблиц и чатов.",
+  "for_whom_kk": "Тапсырыс, жазылу, есеп сияқты қайталанатын процесі бар, кесте мен чаттың орнына өз сервисі керек бизнеске.",
+  "for_whom_en": "For businesses with a repeating process (orders, bookings, reports) that want their own tool instead of spreadsheets and chats.",
+  "includes_ru": [
+    "Разбор процесса и список функций первой версии",
+    "Регистрация и вход пользователей, роли «клиент» и «администратор»",
+    "Личный кабинет с историей заявок или заказов",
+    "Панель администратора со списками, фильтрами и экспортом в таблицу",
+    "Уведомления о событиях в Telegram или на почту",
+    "Адаптивный интерфейс, удобный и на телефоне",
+    "Развёртывание на сервере и передача исходного кода"
+  ],
+  "includes_kk": [
+    "Процесті талдау және алғашқы нұсқаның функциялар тізімі",
+    "Пайдаланушыны тіркеу және кіргізу, «клиент» және «әкімші» рөлдері",
+    "Өтінім не тапсырыс тарихы бар жеке кабинет",
+    "Тізім, сүзгі және кестеге экспорты бар әкімші панелі",
+    "Оқиғалар туралы Telegram не поштаға хабарлама",
+    "Телефонда да ыңғайлы бейімделген интерфейс",
+    "Серверге орналастыру және бастапқы кодты тапсыру"
+  ],
+  "includes_en": [
+    "Process review and a feature list for the first version",
+    "Sign-up and login with client and administrator roles",
+    "Client account with order or request history",
+    "Admin panel with lists, filters and spreadsheet export",
+    "Event notifications to Telegram or email",
+    "Responsive interface that works well on a phone",
+    "Deployment to a server and handover of the source code"
+  ],
+  "not_included_ru": [
+    "Мобильное приложение для App Store и Google Play",
+    "Серверы и хостинг оплачиваются отдельно",
+    "Приём онлайн-оплаты: возможна по договорённости через API провайдера, это отдельный этап"
+  ],
+  "not_included_kk": [
+    "App Store және Google Play-ге арналған мобильді қосымша",
+    "Сервер мен хостинг бөлек төленеді",
+    "Онлайн-төлем қабылдау: провайдер API-ы арқылы келісім бойынша мүмкін, бұл бөлек кезең"
+  ],
+  "not_included_en": [
+    "A native mobile app for the App Store or Google Play",
+    "Servers and hosting are paid separately",
+    "Online payments: possible by agreement through a provider API, as a separate stage"
+  ],
+  "price_from_kzt": 200000,
+  "unit": "once",
+  "days_min": 20,
+  "days_max": 40,
+  "related": [
+    "integraciya-api",
+    "crm-dlya-malogo-biznesa",
+    "podderzhka-saita"
+  ],
+  "is_active": true,
+  "sort": 3,
+  "faqs": [
+    {
+      "question_ru": "Как определяется цена, если задача большая?",
+      "question_kk": "Тапсырма үлкен болса, баға қалай анықталады?",
+      "question_en": "How is the price set for a large task?",
+      "answer_ru": "Цена от 200 000 ₸ относится к простой первой версии. После разбора задачи я фиксирую список функций и итоговую сумму в письменном соглашении, и она не растёт без вашего согласия.",
+      "answer_kk": "200 000 ₸-дан баға қарапайым алғашқы нұсқаға қатысты. Тапсырманы талдағаннан кейін функциялар тізімі мен түпкілікті соманы жазбаша келісімде бекітемін, ол сіздің келісіміңізсіз өспейді.",
+      "answer_en": "The price from 200,000 KZT covers a simple first version. After reviewing the task I record the feature list and final amount in a written agreement, and it does not grow without your consent.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли начать с малого и развивать дальше?",
+      "question_kk": "Кішіден бастап, кейін дамытуға бола ма?",
+      "question_en": "Can we start small and grow the app later?",
+      "answer_ru": "Да, так и рекомендую: запускаем один рабочий сценарий, смотрим, как им пользуются, и добавляем функции этапами.",
+      "answer_kk": "Иә, осылай ұсынамын: бір жұмыс сценарийін іске қосып, оны қалай қолданатынын көріп, функцияларды кезең-кезеңімен қосамыз.",
+      "answer_en": "Yes, and I recommend it: launch one working scenario, see how it is used, and add features in stages.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Кому принадлежит код?",
+      "question_kk": "Код кімге тиесілі?",
+      "question_en": "Who owns the code?",
+      "answer_ru": "После полной оплаты исходный код передаётся вам вместе с инструкцией по запуску, и вы можете показывать его другим разработчикам.",
+      "answer_kk": "Толық төлегеннен кейін бастапқы код іске қосу нұсқаулығымен бірге сізге беріледі, оны басқа бағдарламашыларға көрсете аласыз.",
+      "answer_en": "After full payment the source code is handed over to you with setup instructions, and you are free to show it to other developers.",
+      "sort": 2
+    }
+  ]
+}

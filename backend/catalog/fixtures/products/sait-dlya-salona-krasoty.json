@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-salona-krasoty",
+  "category": "websites",
+  "title_ru": "Сайт для салона красоты",
+  "title_kk": "Сұлулық салонына арналған сайт",
+  "title_en": "Website for a beauty salon",
+  "short_ru": "Каталог услуг, страницы мастеров с работами и онлайн-запись на удобное время.",
+  "short_kk": "Қызмет каталогы, жұмыстары бар шебер беттері және ыңғайлы уақытқа онлайн-жазылу.",
+  "short_en": "Service catalogue, stylist pages with work samples and online booking at a convenient time.",
+  "description_ru": "Клиенты салона хотят увидеть работы мастера, понять цену и сразу выбрать время. Сайт собирает услуги с длительностью и ценой, портфолио каждого мастера и форму записи, которая подсказывает свободные слоты. Администратор получает заявку в Telegram и подтверждает её клиенту.",
+  "description_kk": "Салон клиенттері шебердің жұмысын көріп, бағасын түсініп, бірден уақыт таңдағысы келеді. Сайт қызметтерді ұзақтығы мен бағасымен, әр шебердің портфолиосын және бос уақытты көрсететін жазылу формасын біріктіреді. Әкімші өтінімді Telegram-нан алып, клиентке растайды.",
+  "description_en": "Salon clients want to see a stylist's work, understand the price and pick a time straight away. The site brings together services with duration and price, a portfolio for each stylist, and a booking form that suggests free slots. The administrator gets the request in Telegram and confirms it with the client.",
+  "for_whom_ru": "Салонам красоты, студиям маникюра, бровистам и косметологам, которые принимают записи по телефону и в мессенджерах.",
+  "for_whom_kk": "Жазылуды телефон мен мессенджер арқылы қабылдайтын сұлулық салондарына, маникюр студияларына, қас шеберлері мен косметологтарға.",
+  "for_whom_en": "For beauty salons, nail studios, brow artists and cosmetologists who currently take bookings by phone and messenger.",
+  "includes_ru": [
+    "Каталог услуг: длительность, цена, краткое описание",
+    "Страницы мастеров с галереей работ",
+    "Онлайн-запись: выбор услуги, мастера, даты и времени",
+    "Уведомление администратору в Telegram о каждой записи",
+    "Галерея работ и блок акций и сертификатов",
+    "Контакты, карта, часы работы, ссылка на Instagram",
+    "Адаптивный дизайн в стиле вашего салона"
+  ],
+  "includes_kk": [
+    "Қызмет каталогы: ұзақтығы, бағасы, қысқаша сипаттамасы",
+    "Жұмыс галереясы бар шебер беттері",
+    "Онлайн-жазылу: қызмет, шебер, күн және уақыт таңдау",
+    "Әр жазылу туралы әкімшіге Telegram-ға хабарлама",
+    "Жұмыс галереясы, акциялар мен сертификаттар блогы",
+    "Байланыс, карта, жұмыс уақыты, Instagram сілтемесі",
+    "Салоныңыздың стиліндегі бейімделген дизайн"
+  ],
+  "includes_en": [
+    "Service catalogue with duration, price and a short description",
+    "Stylist pages with a gallery of work",
+    "Online booking: pick service, stylist, date and time",
+    "Telegram notification to the administrator for each booking",
+    "Gallery, promotions and gift-certificate block",
+    "Contacts, map, opening hours and Instagram link",
+    "Responsive design in your salon's style"
+  ],
+  "not_included_ru": [
+    "Фото работ и фотосессия мастеров: материалы даёте вы",
+    "Платные сервисы онлайн-записи (YCLIENTS и подобные) оплачиваются отдельно",
+    "Приём предоплаты на сайте, возможен по договорённости как отдельный этап"
+  ],
+  "not_included_kk": [
+    "Жұмыс суреттері мен шеберлердің фотосессиясы: материалды өзіңіз бересіз",
+    "Онлайн-жазылудың ақылы сервистері (YCLIENTS сияқты) бөлек төленеді",
+    "Сайтта алдын ала төлем қабылдау келісім бойынша бөлек кезең ретінде мүмкін"
+  ],
+  "not_included_en": [
+    "Work photos and stylist portraits come from you",
+    "Paid booking platforms (such as YCLIENTS) are billed separately",
+    "Taking deposits on the site, possible by agreement as a separate stage"
+  ],
+  "price_from_kzt": 50000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "telegram-bot-zapis",
+    "onlain-zapis-google-calendar",
+    "kartochka-2gis-google-maps"
+  ],
+  "is_active": true,
+  "sort": 5,
+  "faqs": [
+    {
+      "question_ru": "Как клиент видит свободное время мастера?",
+      "question_kk": "Клиент шебердің бос уақытын қалай көреді?",
+      "question_en": "How does a client see a stylist's free time?",
+      "answer_ru": "Время берётся из рабочего графика, который вы задаёте для каждого мастера. Занятые слоты скрываются. Если нужна связь с вашим Google Календарём, подключу её по договорённости.",
+      "answer_kk": "Уақыт әр шеберге өзіңіз белгілеген жұмыс кестесінен алынады. Бос емес слоттар жасырылады. Google Күнтізбеге байланыс керек болса, келісім бойынша қосамын.",
+      "answer_en": "Slots come from the working schedule you set for each stylist, and taken slots are hidden. If you need a link to your Google Calendar, I can connect it by agreement.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли выложить цены в тенге и с «от»?",
+      "question_kk": "Бағаларды теңгемен және «бастап» деп көрсетуге бола ма?",
+      "question_en": "Can prices be shown in tenge with a \"from\" label?",
+      "answer_ru": "Да, для каждой услуги можно указать точную цену или «от», например зависящую от длины волос. Правка цен занимает минуты, если сообщить мне.",
+      "answer_kk": "Иә, әр қызметке нақты баға немесе «бастап» деп көрсетуге болады, мысалы шаш ұзындығына байланысты. Маған хабарласаңыз, бағаны өзгерту бірнеше минутқа ғана созылады.",
+      "answer_en": "Yes, each service can have an exact price or a \"from\" price, for example depending on hair length. Changing prices takes minutes once you tell me.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужен ли Telegram-бот вместе с сайтом?",
+      "question_kk": "Сайтпен бірге Telegram-бот керек пе?",
+      "question_en": "Do I need a Telegram bot alongside the site?",
+      "answer_ru": "Не обязательно. Запись работает и без бота: заявки приходят в ваш Telegram. Бот для напоминаний клиентам можно добавить позже.",
+      "answer_kk": "Міндетті емес. Жазылу ботсыз да жұмыс істейді: өтінімдер сіздің Telegram-ға келеді. Клиенттерге еске салатын ботты кейін қосуға болады.",
+      "answer_en": "Not necessarily. Booking works without a bot, since requests land in your Telegram. A bot for client reminders can be added later.",
+      "sort": 2
+    }
+  ]
+}

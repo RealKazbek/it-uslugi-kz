@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-kafe",
+  "category": "websites",
+  "title_ru": "Сайт для кафе и ресторана",
+  "title_kk": "Кафе мен ресторанға арналған сайт",
+  "title_en": "Website for a cafe or restaurant",
+  "short_ru": "Меню с фото и ценами, бронь столов и заказ через WhatsApp.",
+  "short_kk": "Фотосы мен бағасы бар мәзір, үстел брондау және WhatsApp арқылы тапсырыс.",
+  "short_en": "Menu with photos and prices, table reservations and ordering through WhatsApp.",
+  "description_ru": "Гость хочет быстро открыть меню, увидеть цены, найти адрес и заказать. Сайт показывает меню по разделам с фото, а выбранные блюда собираются в сообщение WhatsApp, которое уходит заведению одним нажатием. Без сложной корзины и комиссий агрегаторов.",
+  "description_kk": "Қонақ мәзірді тез ашып, бағаны көріп, мекенжайды тауып, тапсырыс бергісі келеді. Сайт мәзірді бөлімдер бойынша суретімен көрсетеді, ал таңдалған тағамдар бір басумен орынға жететін WhatsApp хабарламасына жиналады. Күрделі себетсіз және агрегатор комиссиясынсыз.",
+  "description_en": "A guest wants to open the menu quickly, see prices, find the address and order. The site shows the menu by section with photos, and the chosen dishes are put together into a WhatsApp message sent to the venue with one tap. There is no complicated cart and no aggregator commission.",
+  "for_whom_ru": "Кафе, кофейням, ресторанам и службам доставки еды, которые принимают заказы в мессенджерах и хотят меню на своём сайте.",
+  "for_whom_kk": "Тапсырыстарды мессенджерде қабылдайтын және мәзірін өз сайтында қалайтын кафе, кофеханаларға, мейрамханалар мен тамақ жеткізу қызметтеріне.",
+  "for_whom_en": "For cafes, coffee shops, restaurants and food delivery businesses that take orders through messengers and want their menu on their own site.",
+  "includes_ru": [
+    "Меню по разделам с фото, составом и ценами",
+    "Заказ через WhatsApp: гость выбирает блюда, сообщение формируется само",
+    "Форма брони столика с датой, временем и числом гостей",
+    "Раздел «Доставка и самовывоз» с зонами и условиями",
+    "Страницы акций, бизнес-ланчей и банкетов",
+    "Карта, часы работы, ссылки на Instagram и 2GIS",
+    "Удобное управление меню: можно скрыть блюдо «нет в наличии»"
+  ],
+  "includes_kk": [
+    "Бөлімдерге бөлінген, суреті, құрамы және бағасы бар мәзір",
+    "WhatsApp арқылы тапсырыс: қонақ тағам таңдайды, хабарлама өздігінен құралады",
+    "Күні, уақыты және қонақ саны бар үстел брондау формасы",
+    "«Жеткізу және өзі алып кету» бөлімі: аймақ пен шарттар",
+    "Акциялар, бизнес-ланч және банкет беттері",
+    "Карта, жұмыс уақыты, Instagram және 2GIS сілтемелері",
+    "Мәзірді ыңғайлы басқару: тағамды «қалмады» деп жасыруға болады"
+  ],
+  "includes_en": [
+    "Menu by section with photos, ingredients and prices",
+    "Ordering via WhatsApp: the guest picks dishes and the message is composed automatically",
+    "Table reservation form with date, time and party size",
+    "Delivery and pickup section with zones and terms",
+    "Pages for promotions, business lunches and banquets",
+    "Map, opening hours, links to Instagram and 2GIS (a local business directory)",
+    "Easy menu control: a dish can be hidden when it is sold out"
+  ],
+  "not_included_ru": [
+    "Фото блюд и описания даёте вы",
+    "Онлайн-оплата заказа: по договорённости через API провайдера, отдельным этапом",
+    "Интеграция с кассовой системой и учётом склада"
+  ],
+  "not_included_kk": [
+    "Тағам суреттері мен сипаттамасын өзіңіз бересіз",
+    "Тапсырысты онлайн төлеу: провайдер API-ы арқылы келісім бойынша, бөлек кезеңмен",
+    "Кассалық жүйе мен қойма есебімен интеграция"
+  ],
+  "not_included_en": [
+    "Dish photos and descriptions come from you",
+    "Online payment for orders: by agreement via a provider's API, as a separate stage",
+    "Integration with your POS and stock system"
+  ],
+  "price_from_kzt": 50000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "katalog-s-zakazom-v-whatsapp",
+    "telegram-bot-dostavka",
+    "kartochka-2gis-google-maps"
+  ],
+  "is_active": true,
+  "sort": 6,
+  "faqs": [
+    {
+      "question_ru": "Как заказ попадает в заведение?",
+      "question_kk": "Тапсырыс орынға қалай жетеді?",
+      "question_en": "How does an order reach the venue?",
+      "answer_ru": "Гость отмечает блюда, нажимает кнопку, и в WhatsApp открывается чат с готовым списком, суммой и полем для адреса. Вам остаётся подтвердить заказ.",
+      "answer_kk": "Қонақ тағамдарды белгілеп, батырманы басады, сонда WhatsApp-та тізімі, сомасы және мекенжай жолы дайын чат ашылады. Сізге тапсырысты растау ғана қалады.",
+      "answer_en": "The guest ticks dishes and taps a button, and WhatsApp opens a chat with the finished list, total and a line for the address. You only need to confirm the order.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как обновлять меню и цены?",
+      "question_kk": "Мәзір мен бағаны қалай жаңартуға болады?",
+      "question_en": "How do I update the menu and prices?",
+      "answer_ru": "Меню лежит в одном простом файле или панели. Присылайте изменения мне, и я обновлю сайт в течение рабочего дня, либо могу показать, как менять самому.",
+      "answer_kk": "Мәзір бір қарапайым файлда немесе панельде тұрады. Өзгерісті маған жіберіңіз, жұмыс күні ішінде сайтты жаңартамын, не өзіңіз өзгертуді көрсетемін.",
+      "answer_en": "The menu lives in one simple file or panel. Send me the changes and I update the site within a working day, or I can show you how to edit it yourself.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Поможет ли сайт в 2GIS и на картах?",
+      "question_kk": "Сайт 2GIS пен карталарда көмектесе ме?",
+      "question_en": "Will the site help with maps listings?",
+      "answer_ru": "Ссылку на меню можно указать в карточках 2GIS и Google Maps, чтобы гости открывали актуальное меню. Это удобно, но рост посетителей я не гарантирую.",
+      "answer_kk": "Мәзір сілтемесін 2GIS және Google Maps карточкаларына қосуға болады, сонда қонақтар өзекті мәзірді ашады. Бұл ыңғайлы, бірақ келушілердің өсуіне кепілдік бермеймін.",
+      "answer_en": "You can add the menu link to your 2GIS and Google Maps listings so guests open an up-to-date menu. That is handy, but I do not guarantee more visitors.",
+      "sort": 2
+    }
+  ]
+}

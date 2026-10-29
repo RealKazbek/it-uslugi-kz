@@ -1,0 +1,95 @@
+{
+  "slug": "dorabotka-saita",
+  "category": "support",
+  "title_ru": "Доработка сайта",
+  "title_kk": "Сайтты жетілдіру",
+  "title_en": "Website improvements",
+  "short_ru": "Добавляем на готовый сайт новую страницу, форму, калькулятор или интеграцию без переделки с нуля.",
+  "short_kk": "Дайын сайтқа жаңа бет, форма, калькулятор немесе интеграцияны басынан қайта жасамай қосамыз.",
+  "short_en": "I add a new page, form, calculator or integration to an existing site without rebuilding it from scratch.",
+  "description_ru": "Бизнес растёт, и сайту нужны новые возможности: страница с услугой, форма заявки с уведомлением в Telegram, калькулятор стоимости, онлайн-запись. Я изучаю существующий код, встраиваю нужное в ваш дизайн и стараюсь не ломать то, что уже работает. Перед правками делаю копию сайта.",
+  "description_kk": "Бизнес өседі, сайтқа жаңа мүмкіндіктер керек болады: қызмет беті, Telegram-ға хабарлайтын өтінім формасы, құн калькуляторы, онлайн-жазылу. Мен бар кодты зерттеп, қажетті нәрсені сіздің дизайныңызға енгіземін және істеп тұрғанды бұзбауға тырысамын. Өзгерістерден бұрын сайттың көшірмесін жасаймын.",
+  "description_en": "Your business grows and the site needs new capabilities: a service page, a request form that notifies you in Telegram, a price calculator, online booking. I study the existing code, build the addition into your design and take care not to break what already works. I make a copy of the site before changing anything.",
+  "for_whom_ru": "Владельцам готовых сайтов, которым нужно одно конкретное улучшение, а не новый проект.",
+  "for_whom_kk": "Жаңа жоба емес, бір нақты жақсартуды қажет ететін дайын сайт иелеріне арналған.",
+  "for_whom_en": "For owners of existing sites who need one specific improvement rather than a new project.",
+  "includes_ru": [
+    "Обсуждение задачи и точная смета до начала работы",
+    "Изучение существующего кода и структуры сайта",
+    "Реализация новой страницы, формы или функции в вашем стиле",
+    "Подключение уведомлений о заявках в Telegram или на почту",
+    "Проверка на телефоне и в основных браузерах",
+    "Копия сайта до правок и инструкция, как пользоваться новой функцией"
+  ],
+  "includes_kk": [
+    "Міндетті талқылау және жұмыс басталғанға дейін нақты смета",
+    "Бар код пен сайт құрылымын зерттеу",
+    "Жаңа бетті, форманы немесе функцияны сіздің стильде жасау",
+    "Өтінімдер туралы хабарламаларды Telegram-ға немесе поштаға қосу",
+    "Телефонда және негізгі браузерлерде тексеру",
+    "Өзгерістерге дейінгі көшірме және жаңа функцияны пайдалану нұсқаулығы"
+  ],
+  "includes_en": [
+    "A discussion of the task and an exact estimate before work starts",
+    "A study of the existing code and site structure",
+    "Building the new page, form or feature in your style",
+    "Connecting request notifications to Telegram or email",
+    "Testing on a phone and in the main browsers",
+    "A copy of the site from before the changes and a short guide to the new feature"
+  ],
+  "not_included_ru": [
+    "Полная переделка дизайна: для неё есть редизайн",
+    "Сайты на закрытых конструкторах, где нельзя менять код",
+    "Платные сервисы и подписки, которые вы подключаете к сайту"
+  ],
+  "not_included_kk": [
+    "Дизайнды толық өзгерту: ол үшін редизайн бар",
+    "Кодты өзгертуге болмайтын жабық конструкторлардағы сайттар",
+    "Сіз сайтқа қосатын ақылы сервистер мен жазылымдар"
+  ],
+  "not_included_en": [
+    "A full visual overhaul, which is what the redesign service is for",
+    "Sites on closed builders where the code cannot be changed",
+    "Paid third-party services and subscriptions you connect to the site"
+  ],
+  "price_from_kzt": 15000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 5,
+  "related": [
+    "podderzhka-saita",
+    "zayavki-v-google-sheets",
+    "uvedomleniya-o-zayavkah"
+  ],
+  "is_active": true,
+  "sort": 50,
+  "faqs": [
+    {
+      "question_ru": "От чего зависит цена доработки?",
+      "question_kk": "Жетілдірудің бағасы неге байланысты?",
+      "question_en": "What determines the price?",
+      "answer_ru": "От объёма задачи и состояния кода. Простую страницу или форму можно сделать от 15 000 ₸, для интеграций и логики цену называю после просмотра сайта.",
+      "answer_kk": "Тапсырма көлемі мен код жағдайына байланысты. Қарапайым бет немесе форма 15 000 ₸-ден жасалады, интеграция мен логика үшін бағаны сайтты көргеннен кейін айтамын.",
+      "answer_en": "On the size of the task and the state of the code. A simple page or form starts at 15,000 KZT; for integrations and logic I quote after looking at the site.",
+      "sort": 0
+    },
+    {
+      "question_ru": "А если код написан плохо?",
+      "question_kk": "Код нашар жазылған болса ше?",
+      "question_en": "What if the existing code is messy?",
+      "answer_ru": "Я скажу об этом до начала и объясню, как это влияет на цену. Иногда дешевле переписать небольшой кусок, чем обходить проблему.",
+      "answer_kk": "Бұл туралы жұмыс басталғанға дейін айтып, бағаға қалай әсер ететінін түсіндіремін. Кейде мәселені айналып өткенше шағын бөлікті қайта жазған арзанырақ.",
+      "answer_en": "I will say so before we start and explain how it affects the price. Sometimes rewriting a small piece is cheaper than working around the problem.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли заказать несколько правок сразу?",
+      "question_kk": "Бірнеше өзгерісті бірден тапсыруға бола ма?",
+      "question_en": "Can I order several changes at once?",
+      "answer_ru": "Да, список задач я оцениваю целиком, и вместе обычно выходит дешевле, чем по отдельности. Сроки зависят от количества пунктов.",
+      "answer_kk": "Иә, тапсырмалар тізімін түгел бағалаймын, бірге әдетте бөлек-бөлек тапсырғаннан арзанырақ болады. Мерзім тармақтар санына байланысты.",
+      "answer_en": "Yes. I estimate the whole list, and doing them together is usually cheaper than separately. The timeline depends on the number of items.",
+      "sort": 2
+    }
+  ]
+}

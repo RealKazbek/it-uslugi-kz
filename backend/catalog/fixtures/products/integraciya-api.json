@@ -1,0 +1,98 @@
+{
+  "slug": "integraciya-api",
+  "category": "automation",
+  "title_ru": "Интеграция сервисов через API",
+  "title_kk": "Сервистерді API арқылы біріктіру",
+  "title_en": "API integration between your services",
+  "short_ru": "Соединяю ваши сайт, магазин, CRM, платежи и мессенджеры, чтобы данные передавались сами.",
+  "short_kk": "Сайтты, дүкенді, CRM-ді, төлемдер мен мессенджерлерді жалғап, деректер өздігінен берілетін етемін.",
+  "short_en": "I connect your site, shop, CRM, payments and messengers so data moves between them on its own.",
+  "description_ru": "Если вы вручную переносите заказы из одного сервиса в другой, это можно автоматизировать через API. Я пишу небольшой скрипт или сервис, который забирает данные в одном месте и передаёт в другое по понятным правилам. Перед началом проверяю, что у обоих сервисов есть нужный доступ и документация.",
+  "description_kk": "Тапсырыстарды бір сервистен екіншісіне қолмен көшіретін болсаңыз, мұны API арқылы автоматтандыруға болады. Мен деректерді бір жерден алып, екіншісіне түсінікті ережемен беретін шағын скрипт немесе сервис жазамын. Бастамас бұрын екі сервисте де қажет рұқсат пен құжаттама барын тексеремін.",
+  "description_en": "If you manually copy orders from one service to another, this can be automated through an API. I write a small script or service that picks data up in one place and passes it to another by clear rules. Before starting I check that both services provide the needed access and documentation.",
+  "for_whom_ru": "Для бизнеса, где данные вручную копируются между сайтом, CRM, таблицами и платёжными сервисами. Подойдёт и зарубежным клиентам, которым нужен разработчик для небольших интеграций.",
+  "for_whom_kk": "Деректер сайт, CRM, кестелер және төлем сервистері арасында қолмен көшірілетін бизнеске арналған. Шағын интеграцияларға әзірлеуші керек шетелдік клиенттерге де қолайлы.",
+  "for_whom_en": "For businesses that copy data by hand between a site, CRM, spreadsheets and payment services. It also suits foreign clients who need a developer for small integrations.",
+  "includes_ru": [
+    "Анализ задачи и схема: что, откуда и куда передаётся",
+    "Проверка доступа и документации API обоих сервисов",
+    "Скрипт или небольшой сервис на Python или JavaScript",
+    "Обработка ошибок и повторные попытки при сбоях",
+    "Журнал событий, чтобы видеть, что и когда передалось",
+    "Тестирование на тестовых данных и затем на рабочих",
+    "Передача кода и инструкция по запуску"
+  ],
+  "includes_kk": [
+    "Міндетті талдау және схема: не, қайдан және қайда беріледі",
+    "Екі сервистің API рұқсаты мен құжаттамасын тексеру",
+    "Python немесе JavaScript-те скрипт не шағын сервис",
+    "Қателерді өңдеу және ақау кезінде қайталау әрекеттері",
+    "Не және қашан берілгенін көру үшін оқиғалар журналы",
+    "Алдымен сынақ, содан кейін жұмыс деректерімен тестілеу",
+    "Кодты табыстау және іске қосу нұсқаулығы"
+  ],
+  "includes_en": [
+    "Task analysis and a diagram of what moves from where to where",
+    "Checking API access and documentation of both services",
+    "A script or small service in Python or JavaScript",
+    "Error handling and retries on failure",
+    "An event log so you can see what was passed and when",
+    "Testing on sample data first, then on live data",
+    "Handover of the code and a launch guide"
+  ],
+  "not_included_ru": [
+    "Платный доступ к API, если сервис берёт за него плату",
+    "Интеграция с системами, у которых нет открытого API или доступа для сторонних разработчиков",
+    "Хостинг для постоянной работы скрипта, если он не помещается в бесплатные лимиты"
+  ],
+  "not_included_kk": [
+    "Сервис ақы алатын болса, API-ге ақылы қолжетімділік",
+    "Ашық API-і жоқ немесе сыртқы әзірлеушілерге қолжетімділігі жоқ жүйелермен біріктіру",
+    "Тегін лимитке сыймаса, скриптің үнемі жұмыс істеуіне арналған хостинг"
+  ],
+  "not_included_en": [
+    "Paid API access, if a service charges for it",
+    "Integration with systems that have no open API or no access for outside developers",
+    "Hosting for continuous operation of the script if it does not fit free limits"
+  ],
+  "price_from_kzt": 40000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "parsing-dannyh",
+    "crm-dlya-malogo-biznesa",
+    "magazin-s-kaspi-xml"
+  ],
+  "is_active": true,
+  "sort": 39,
+  "faqs": [
+    {
+      "question_ru": "Как понять, возможна ли интеграция?",
+      "question_kk": "Біріктіру мүмкін екенін қалай түсінуге болады?",
+      "question_en": "How do I know whether an integration is possible?",
+      "answer_ru": "Пришлите названия сервисов и опишите, что хотите передавать. Я посмотрю документацию и скажу, реально ли это и какие ограничения есть, до начала оплаты.",
+      "answer_kk": "Сервис атауларын жіберіп, не беруді қалайтыныңызды сипаттаңыз. Құжаттаманы қарап, төлемге дейін бұл шынайы ма және қандай шектеулер бар екенін айтамын.",
+      "answer_en": "Send the names of the services and describe what you want to pass along. I will read the documentation and tell you, before any payment, whether it is realistic and what limits apply.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Где будет работать скрипт?",
+      "question_kk": "Скрипт қайда жұмыс істейді?",
+      "question_en": "Where will the script run?",
+      "answer_ru": "Либо на вашем сервере или хостинге, либо в облачной функции. Мы выберем вариант, который не потребует от вас постоянного обслуживания.",
+      "answer_kk": "Не сіздің серверде немесе хостингте, не бұлттық функцияда. Сізден үнемі қызмет көрсетуді талап етпейтін нұсқаны таңдаймыз.",
+      "answer_en": "Either on your own server or hosting, or as a cloud function. We will choose an option that does not require constant upkeep from you.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет, если сервис изменит свой API?",
+      "question_kk": "Сервис өз API-ін өзгертсе не болады?",
+      "question_en": "What if a service changes its API?",
+      "answer_ru": "Такое случается, и интеграцию придётся подправить. Небольшие правки в течение первого месяца после сдачи я делаю без доплаты, дальше по договорённости.",
+      "answer_kk": "Бұл болып тұрады, сонда интеграцияны түзету керек. Тапсырғаннан кейінгі алғашқы айда шағын түзетулерді қосымша ақысыз жасаймын, одан әрі келісім бойынша.",
+      "answer_en": "It happens, and the integration then needs adjusting. Small fixes during the first month after delivery are free, and after that we agree separately.",
+      "sort": 2
+    }
+  ]
+}

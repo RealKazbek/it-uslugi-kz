@@ -1,0 +1,98 @@
+{
+  "slug": "internet-magazin-cvetov",
+  "category": "ecommerce",
+  "title_ru": "Интернет-магазин цветов",
+  "title_kk": "Гүл интернет-дүкені",
+  "title_en": "Online flower shop",
+  "short_ru": "Магазин цветов с букетами, датой и временем доставки и открыткой к заказу.",
+  "short_kk": "Гүл шоқтары, жеткізу күні мен уақыты және тапсырысқа ашықхаты бар гүл дүкені.",
+  "short_en": "A flower shop with bouquets, delivery date and time slots, and a card message with each order.",
+  "description_ru": "Цветы покупают в спешке и к конкретной дате, поэтому главное в таком магазине — быстрый выбор букета и точное время доставки. Покупатель видит букеты по поводу и бюджету, указывает адрес, интервал доставки и текст открытки. Вы получаете заказ со всеми деталями для флориста и курьера.",
+  "description_kk": "Гүлді асығыс әрі нақты күнге алады, сондықтан мұндай дүкенде басты нәрсе — гүл шоғын тез таңдау және жеткізудің нақты уақыты. Сатып алушы гүл шоқтарын себебі мен бюджеті бойынша көреді, мекенжайды, жеткізу аралығын және ашықхат мәтінін көрсетеді. Сіз флорист пен курьерге арналған барлық мәліметі бар тапсырыс аласыз.",
+  "description_en": "Flowers are bought in a hurry and for a specific date, so what matters in such a store is picking a bouquet quickly and getting the delivery time right. The buyer filters bouquets by occasion and budget, then enters the address, a delivery window and the card message. You receive the order with every detail the florist and the courier need.",
+  "for_whom_ru": "Для цветочных салонов и флористов, которые принимают заказы по телефону и в переписке и хотят вынести витрину на сайт. Особенно удобно, когда нужно заранее фиксировать дату и интервал доставки.",
+  "for_whom_kk": "Тапсырысты телефонмен және хат алмасуда қабылдайтын және витринаны сайтқа шығарғысы келетін гүл салондарына мен флористерге арналған. Жеткізу күні мен аралығын алдын ала бекіту қажет болғанда әсіресе ыңғайлы.",
+  "for_whom_en": "For flower shops and florists who take orders by phone and chat and want to move the showcase to a website. It is especially handy when the delivery date and window must be fixed in advance.",
+  "includes_ru": [
+    "Каталог букетов с фильтрами по поводу, цене и цветам",
+    "Выбор даты и интервала доставки при оформлении заказа",
+    "Поле для текста открытки и пожеланий для курьера",
+    "Допы к букету: вазы, открытки, сладости, как отдельные позиции",
+    "Расчёт стоимости доставки по зонам города, которые вы зададите",
+    "Админка: смена наличия букетов и цен, статусы заказов",
+    "Уведомление о заказе вам и флористу в Telegram"
+  ],
+  "includes_kk": [
+    "Себебі, бағасы және гүлдері бойынша сүзгілері бар гүл шоқтарының каталогы",
+    "Тапсырыс рәсімдеу кезінде жеткізу күні мен аралығын таңдау",
+    "Ашықхат мәтіні мен курьерге тілектер өрісі",
+    "Гүл шоғына қосымшалар: вазалар, ашықхаттар, тәттілер бөлек позиция ретінде",
+    "Өзіңіз белгілейтін қала аймақтары бойынша жеткізу құнын есептеу",
+    "Әкімшілік панелі: гүл шоқтарының болуы мен бағасын өзгерту, тапсырыс мәртебелері",
+    "Тапсырыс туралы сізге және флористке Telegram-да хабарлау"
+  ],
+  "includes_en": [
+    "Bouquet catalog with filters by occasion, price and flowers",
+    "Choice of delivery date and time window at checkout",
+    "A field for the card message and notes for the courier",
+    "Add-ons such as vases, cards and sweets as separate items",
+    "Delivery cost by city zones that you define",
+    "Admin panel to change availability and prices, plus order statuses",
+    "Order alerts for you and the florist in Telegram"
+  ],
+  "not_included_ru": [
+    "Фотографии букетов: нужна качественная съёмка с вашей стороны",
+    "Курьерская служба: доставку организуете вы",
+    "Онлайн-оплата картой: подключается отдельно по договорённости через API провайдера"
+  ],
+  "not_included_kk": [
+    "Гүл шоқтарының фотосуреттері: сапалы түсірілімді өзіңіз ұсынасыз",
+    "Курьерлік қызмет: жеткізуді өзіңіз ұйымдастырасыз",
+    "Картамен онлайн төлем: провайдердің API-і арқылы келісім бойынша бөлек қосылады"
+  ],
+  "not_included_en": [
+    "Bouquet photos, since good photography has to come from your side",
+    "A courier service, as you organise the delivery yourself",
+    "Online card payment, which can be added separately through a provider API by agreement"
+  ],
+  "price_from_kzt": 150000,
+  "unit": "once",
+  "days_min": 14,
+  "days_max": 25,
+  "related": [
+    "internet-magazin",
+    "telegram-bot-dostavka",
+    "kartochka-2gis-google-maps"
+  ],
+  "is_active": true,
+  "sort": 19,
+  "faqs": [
+    {
+      "question_ru": "Можно ли ограничить срочные заказы?",
+      "question_kk": "Шұғыл тапсырыстарды шектеуге бола ма?",
+      "question_en": "Can I limit last-minute orders?",
+      "answer_ru": "Да, задаётся минимальный срок до доставки и количество слотов в интервале. Так магазин не примет больше заказов, чем успевает собрать флорист.",
+      "answer_kk": "Иә, жеткізуге дейінгі ең аз мерзім мен аралықтағы слот саны белгіленеді. Сонда дүкен флорист жинап үлгеретіннен көп тапсырыс қабылдамайды.",
+      "answer_en": "Yes, you set a minimum lead time before delivery and the number of slots per window. That way the shop never accepts more orders than the florist can prepare.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как работает доставка по зонам?",
+      "question_kk": "Аймақтар бойынша жеткізу қалай жұмыс істейді?",
+      "question_en": "How does zone-based delivery work?",
+      "answer_ru": "Вы делите город на районы и назначаете цену каждому. Покупатель выбирает район при оформлении, и стоимость доставки прибавляется к заказу автоматически.",
+      "answer_kk": "Қаланы аудандарға бөліп, әрқайсысына баға белгілейсіз. Сатып алушы рәсімдеу кезінде ауданды таңдайды, жеткізу құны тапсырысқа автоматты түрде қосылады.",
+      "answer_en": "You split the city into districts and set a price for each. The buyer picks a district at checkout and the delivery fee is added to the order automatically.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Как показывать, каких букетов нет в наличии?",
+      "question_kk": "Қандай гүл шоқтары жоқ екенін қалай көрсетуге болады?",
+      "question_en": "How do I show which bouquets are out of stock?",
+      "answer_ru": "В админке букет скрывается или помечается «под заказ» одним переключателем. На сайте такая позиция не вводит покупателя в заблуждение.",
+      "answer_kk": "Әкімшілік панелінде гүл шоғы бір ауыстырғышпен жасырылады немесе «тапсырыс бойынша» деп белгіленеді. Сайтта мұндай позиция сатып алушыны адастырмайды.",
+      "answer_en": "In the admin panel a bouquet is hidden or marked as made to order with one switch. On the site such an item does not mislead the buyer.",
+      "sort": 2
+    }
+  ]
+}

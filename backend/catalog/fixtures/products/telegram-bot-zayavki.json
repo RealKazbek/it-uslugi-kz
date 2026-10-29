@@ -1,0 +1,95 @@
+{
+  "slug": "telegram-bot-zayavki",
+  "category": "bots",
+  "title_ru": "Telegram-бот для приёма заявок",
+  "title_kk": "Өтінім қабылдайтын Telegram-бот",
+  "title_en": "Telegram lead-capture bot",
+  "short_ru": "Бот задаёт клиенту несколько вопросов и присылает вам готовую заявку.",
+  "short_kk": "Бот клиентке бірнеше сұрақ қояды да, сізге дайын өтінімді жібереді.",
+  "short_en": "A bot that asks the customer a few questions and sends you a complete enquiry.",
+  "description_ru": "Вместо длинной переписки бот сам собирает нужные данные: что нужно, когда, на какой номер перезвонить. Готовая заявка приходит вам одним сообщением, а клиент получает подтверждение. Это простое решение, если главная задача — не терять обращения и не уточнять детали заново.",
+  "description_kk": "Ұзақ хат алмасудың орнына бот қажетті деректерді өзі жинайды: не керек, қашан, қай нөмірге қоңырау шалу керек. Дайын өтінім сізге бір хабарламамен келеді, ал клиент растау алады. Басты міндет — өтінімді жоғалтпау және мәліметтерді қайта сұрамау болса, бұл қарапайым шешім.",
+  "description_en": "Instead of a long chat, the bot collects the details itself: what is needed, by when and which number to call back. The finished enquiry reaches you as a single message and the customer gets a confirmation. It is a simple fix when the main goal is not to lose enquiries or ask for the details twice.",
+  "for_whom_ru": "Для мастеров, небольших компаний и фрилансеров, которым пишут в Telegram с вопросами про цену и сроки. Подходит, когда клиентов мало на запись по слотам, а вот заявки на расчёт нужно собирать аккуратно.",
+  "for_whom_kk": "Telegram-да баға мен мерзім туралы жазатын шеберлерге, шағын компаниялар мен фрилансерлерге арналған. Слотпен жазылатын клиент аз, ал есептеуге арналған өтінімді ұқыпты жинау керек болғанда жарайды.",
+  "for_whom_en": "For tradespeople, small companies and freelancers who get messages in Telegram asking about price and timing. It fits when you do not need slot booking but do need to collect quote requests neatly.",
+  "includes_ru": [
+    "Сценарий вопросов под вашу сферу: от 3 до 6 шагов",
+    "Проверка формата телефона и обязательных полей",
+    "Отправка заявки вам в личные сообщения или в рабочий чат",
+    "Подтверждение клиенту и короткая благодарность в конце",
+    "Запись заявок в Google Таблицу, если она вам нужна",
+    "Разработка на Python и aiogram, запуск на сервере"
+  ],
+  "includes_kk": [
+    "Саланызға арналған сұрақтар сценарийі: 3-тен 6 қадамға дейін",
+    "Телефон пішімін және міндетті өрістерді тексеру",
+    "Өтінімді сізге жеке хабарламамен немесе жұмыс чатына жіберу",
+    "Клиентке растау және соңында қысқаша алғыс",
+    "Қажет болса, өтінімдерді Google кестесіне жазу",
+    "Python мен aiogram-да әзірлеу, серверде іске қосу"
+  ],
+  "includes_en": [
+    "A question flow for your field, from 3 to 6 steps",
+    "Validation of the phone format and required fields",
+    "Delivery of the enquiry to your private chat or a work group",
+    "Confirmation to the customer with a short thank-you at the end",
+    "Logging enquiries to a Google Sheet if you want it",
+    "Built with Python and aiogram and deployed on a server"
+  ],
+  "not_included_ru": [
+    "Реклама и привлечение людей в бота: это отдельная задача",
+    "Сервер для бота: оформляется на вас и оплачивается по тарифу провайдера",
+    "Обработка самих заявок: перезванивать и отвечать клиентам будете вы"
+  ],
+  "not_included_kk": [
+    "Жарнама және адамдарды ботқа тарту: бұл бөлек міндет",
+    "Бот сервері: сіздің атыңызға ресімделеді, провайдер тарифімен төленеді",
+    "Өтінімдерді өңдеудің өзі: қоңырау шалып, клиенттерге жауап беруді өзіңіз атқарасыз"
+  ],
+  "not_included_en": [
+    "Advertising and driving people to the bot, which is a separate task",
+    "The server for the bot, set up in your name and paid at the provider rate",
+    "Handling the enquiries themselves, as calling back and replying is up to you"
+  ],
+  "price_from_kzt": 30000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 5,
+  "related": [
+    "telegram-bot-zapis",
+    "zayavki-v-google-sheets",
+    "uvedomleniya-o-zayavkah"
+  ],
+  "is_active": true,
+  "sort": 22,
+  "faqs": [
+    {
+      "question_ru": "Сколько вопросов может задать бот?",
+      "question_kk": "Бот қанша сұрақ қоя алады?",
+      "question_en": "How many questions can the bot ask?",
+      "answer_ru": "Лучше уложиться в 3-6 шагов: длинная анкета отпугивает. Конкретный набор вопросов обсуждаем под вашу сферу, и его можно будет менять.",
+      "answer_kk": "3-6 қадамға сыйғызған жөн: ұзын сауалнама адамдарды үркітеді. Нақты сұрақтар жиынын саланызға қарай талқылаймыз, оны кейін өзгертуге болады.",
+      "answer_en": "It is best to keep to 3 to 6 steps, because a long form puts people off. We agree on the exact questions for your field, and they can be changed later.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Куда придёт заявка?",
+      "question_kk": "Өтінім қайда келеді?",
+      "question_en": "Where does the enquiry go?",
+      "answer_ru": "В ваш личный чат с ботом или в рабочую группу, где сидят несколько сотрудников. Можно подключить дублирование на почту.",
+      "answer_kk": "Ботпен жеке чатыңызға немесе бірнеше қызметкер отыратын жұмыс тобына келеді. Поштаға көшіруді қосуға болады.",
+      "answer_en": "To your private chat with the bot or to a work group where several staff members are present. Mirroring to email can be added.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Чем он отличается от бота для записи?",
+      "question_kk": "Ол жазылу ботынан несімен ерекшеленеді?",
+      "question_en": "How is it different from the booking bot?",
+      "answer_ru": "Здесь нет расписания и слотов: бот собирает контакты и суть запроса, а договариваетесь вы уже сами. Если нужно выбирать время, возьмите бот для записи.",
+      "answer_kk": "Мұнда кесте мен слоттар жоқ: бот байланыс пен сұраныс мәнін жинайды, ал келісімді өзіңіз жасайсыз. Уақыт таңдау керек болса, жазылу ботын алыңыз.",
+      "answer_en": "This one has no schedule or slots: the bot gathers the contact and the substance of the request and you take it from there. If clients need to pick a time, choose the booking bot.",
+      "sort": 2
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "telegram-bot-dlya-kursov",
+  "category": "bots",
+  "title_ru": "Telegram-бот для онлайн-курсов",
+  "title_kk": "Онлайн-курстарға арналған Telegram-бот",
+  "title_en": "Telegram bot for online courses",
+  "short_ru": "Бот выдаёт уроки по порядку, проверяет доступ и напоминает ученикам заниматься.",
+  "short_kk": "Бот сабақтарды ретімен береді, қолжетімділікті тексереді және оқушыларға оқуды еске салады.",
+  "short_en": "A bot that delivers lessons in order, checks access and nudges students to keep learning.",
+  "description_ru": "Ученик открывает бота и получает урок за уроком в заданном темпе, а не весь курс сразу. Бот помнит, где человек остановился, принимает ответы на задания и напоминает о занятии, если он пропал. Вы видите прогресс группы и отправляете студентам объявления.",
+  "description_kk": "Оқушы ботты ашып, бүкіл курсты емес, сабақты бірінен соң бірін белгіленген қарқынмен алады. Бот адамның қай жерде тоқтағанын есіне сақтайды, тапсырмалардың жауабын қабылдайды және ол жоғалып кетсе, сабақ туралы еске салады. Сіз топтың үлгерімін көресіз және студенттерге хабарландыру жібересіз.",
+  "description_en": "A student opens the bot and gets lesson after lesson at a set pace, not the whole course at once. The bot remembers where the person stopped, accepts answers to assignments and nudges them if they go quiet. You see the group progress and send announcements to students.",
+  "for_whom_ru": "Для авторов курсов, репетиторов, тренеров и школ, которые ведут обучение в Telegram и хотят дать порядок: уроки по расписанию вместо хаоса в общем чате.",
+  "for_whom_kk": "Telegram-да оқытатын және реттілік беруді қалайтын курс авторларына, репетиторларға, жаттықтырушыларға және мектептерге арналған: ортақ чаттағы тәртіпсіздіктің орнына кесте бойынша сабақтар.",
+  "for_whom_en": "For course authors, tutors, trainers and schools that teach in Telegram and want structure, with lessons on a schedule instead of chaos in a shared chat.",
+  "includes_ru": [
+    "Структура курса: модули и уроки с текстом, видео- или файловыми материалами",
+    "Открытие уроков по порядку или по расписанию",
+    "Список учеников с кодом доступа или ручным допуском от вас",
+    "Приём ответов на задания текстом или файлом с пересылкой вам",
+    "Напоминания тем, кто давно не заходил",
+    "Простая панель для вас: кто на каком уроке и кто прошёл курс",
+    "Объявления ученикам из бота одной командой"
+  ],
+  "includes_kk": [
+    "Курс құрылымы: мәтіні, бейне немесе файл материалдары бар модульдер мен сабақтар",
+    "Сабақтарды ретімен немесе кесте бойынша ашу",
+    "Қолжетімділік коды бар немесе сіз қолмен жіберетін оқушылар тізімі",
+    "Тапсырма жауаптарын мәтінмен немесе файлмен қабылдап, сізге жіберу",
+    "Ұзақ кірмегендерге еске салу",
+    "Сізге арналған қарапайым панель: кім қай сабақта және кім курсты аяқтады",
+    "Бот арқылы оқушыларға бір командамен хабарландыру"
+  ],
+  "includes_en": [
+    "Course structure with modules and lessons made of text, video or file materials",
+    "Unlocking lessons in order or on a schedule",
+    "A student list with an access code or manual approval from you",
+    "Receiving assignment answers as text or a file, forwarded to you",
+    "Reminders for students who have not logged in for a while",
+    "A simple panel for you showing who is on which lesson and who finished",
+    "Announcements to students from the bot with one command"
+  ],
+  "not_included_ru": [
+    "Сами материалы курса: тексты, видео и задания готовите вы",
+    "Оплата курса внутри бота: подключается отдельно по договорённости через API провайдера",
+    "Видеохостинг: файлы лежат на площадке, которую вы выбрали"
+  ],
+  "not_included_kk": [
+    "Курстың өз материалдары: мәтіндер, бейнелер мен тапсырмаларды өзіңіз дайындайсыз",
+    "Бот ішінде курс ақысын төлеу: провайдердің API-і арқылы келісім бойынша бөлек қосылады",
+    "Бейне хостинг: файлдар өзіңіз таңдаған алаңда тұрады"
+  ],
+  "not_included_en": [
+    "The course materials themselves, since you prepare the texts, videos and assignments",
+    "Paying for the course inside the bot, which can be added separately through a provider API by agreement",
+    "Video hosting, as files live on the platform you choose"
+  ],
+  "price_from_kzt": 45000,
+  "unit": "once",
+  "days_min": 7,
+  "days_max": 12,
+  "related": [
+    "sait-dlya-uchebnogo-centra",
+    "telegram-bot-rassylka",
+    "telegram-bot-faq"
+  ],
+  "is_active": true,
+  "sort": 27,
+  "faqs": [
+    {
+      "question_ru": "Как защитить курс от пересылки?",
+      "question_kk": "Курсты таратудан қалай қорғауға болады?",
+      "question_en": "Can the course be protected from being shared?",
+      "answer_ru": "Полностью защитить нельзя, но можно включить запрет пересылки и сохранения материалов. Доступ по персональному коду и ручное одобрение отсекают случайных людей.",
+      "answer_kk": "Толық қорғау мүмкін емес, бірақ материалдарды жіберу мен сақтауға тыйым қосуға болады. Жеке код бойынша қолжетімділік және қолмен бекіту кездейсоқ адамдарды қалдырмайды.",
+      "answer_en": "Full protection is not possible, but forwarding and saving of materials can be switched off in Telegram. Access by personal code and manual approval keep random people out.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько учеников выдержит бот?",
+      "question_kk": "Бот қанша оқушыға шыдайды?",
+      "question_en": "How many students can it handle?",
+      "answer_ru": "Сотни учеников одной группы бот обслуживает без проблем, это обычная нагрузка. Если планируется несколько тысяч, скажите заранее, и я подберу подходящий сервер.",
+      "answer_kk": "Бір топтың жүздеген оқушысына бот қиындықсыз қызмет көрсетеді, бұл әдеттегі жүктеме. Бірнеше мың жоспарланса, алдын ала айтыңыз, сәйкес серверді таңдаймын.",
+      "answer_en": "Hundreds of students in a group is a normal load for the bot. If you plan for several thousand, tell me in advance and I will choose a suitable server.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли выдавать сертификат?",
+      "question_kk": "Сертификат беруге бола ма?",
+      "question_en": "Can it issue a certificate?",
+      "answer_ru": "Бот может отправить файл-сертификат или картинку после прохождения всех уроков. Макет сертификата готовите вы или заказываете отдельно.",
+      "answer_kk": "Бот барлық сабақтан өткеннен кейін сертификат-файлды немесе суретті жібере алады. Сертификат макетін өзіңіз дайындайсыз немесе бөлек тапсырыс бересіз.",
+      "answer_en": "The bot can send a certificate file or image once all lessons are completed. You prepare the certificate design or order it separately.",
+      "sort": 2
+    }
+  ]
+}

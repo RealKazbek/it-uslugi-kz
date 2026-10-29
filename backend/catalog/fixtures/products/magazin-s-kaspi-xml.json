@@ -1,0 +1,98 @@
+{
+  "slug": "magazin-s-kaspi-xml",
+  "category": "ecommerce",
+  "title_ru": "Интернет-магазин с выгрузкой в Kaspi",
+  "title_kk": "Kaspi-ге жүктемесі бар интернет-дүкен",
+  "title_en": "Online store with Kaspi price feed",
+  "short_ru": "Собственный магазин и XML-прайс для Kaspi.kz, генерируемый из той же базы товаров.",
+  "short_kk": "Өз дүкеніңіз бен сол тауар базасынан жасалатын Kaspi.kz үшін XML-прайс.",
+  "short_en": "Your own store plus a Kaspi.kz XML price feed generated from the same product database.",
+  "description_ru": "Один каталог питает и ваш сайт, и прайс-лист для Kaspi.kz в формате XML. Вы меняете цену или остаток один раз в админке, и обновляются обе витрины. Так не приходится вести две таблицы вручную и сверять их.",
+  "description_kk": "Бір каталог сіздің сайтыңызды да, Kaspi.kz үшін XML пішіміндегі прайс-тізімді де қамтамасыз етеді. Бағаны немесе қалдықты әкімшілік панелінде бір рет өзгертесіз, сонда екі витрина да жаңарады. Сондықтан екі кестені қолмен жүргізіп, салыстырудың қажеті жоқ.",
+  "description_en": "One catalog drives both your own website and the XML price list for Kaspi.kz, the largest marketplace in Kazakhstan. You change a price or stock level once in the admin panel and both storefronts update. That saves you from keeping two spreadsheets in sync by hand.",
+  "for_whom_ru": "Для продавцов, которые уже торгуют или собираются торговать на Kaspi.kz и хотят параллельно иметь свой сайт с единым учётом товара. Особенно полезно при большом ассортименте, где ручная правка цен в двух местах отнимает время.",
+  "for_whom_kk": "Kaspi.kz-те сауда жасап жүрген немесе бастағалы жатқан және қатар тауар есебі біріңғай өз сайтын қалайтын сатушыларға арналған. Ассортимент көп болып, бағаны екі жерде қолмен түзету уақыт алатын жағдайда өте пайдалы.",
+  "for_whom_en": "For sellers who already trade on Kaspi.kz, or plan to, and also want their own site with one stock record. It helps most with a large range, where editing prices in two places by hand eats up time.",
+  "includes_ru": [
+    "Интернет-магазин: каталог, карточки, корзина, оформление заказа",
+    "Единая база товаров с ценами, остатками и категориями",
+    "XML-прайс для кабинета продавца Kaspi.kz по требуемой структуре",
+    "Настройка по ссылке: Kaspi сам забирает файл с вашего адреса по расписанию",
+    "Сопоставление ваших категорий и артикулов с полями прайса Kaspi",
+    "Админка для товаров и заказов, уведомления в Telegram",
+    "Проверка файла на ошибки и инструкция, как загрузить его в кабинет"
+  ],
+  "includes_kk": [
+    "Интернет-дүкен: каталог, карточкалар, себет, тапсырыс рәсімдеу",
+    "Баға, қалдық және санаттары бар бірыңғай тауар базасы",
+    "Kaspi.kz сатушы кабинеті үшін талап етілген құрылымдағы XML-прайс",
+    "Сілтеме арқылы баптау: Kaspi файлды сіздің мекенжайыңыздан кесте бойынша өзі алады",
+    "Санаттарыңыз бен артикулдарыңызды Kaspi прайсының өрістерімен сәйкестендіру",
+    "Тауар мен тапсырысқа арналған әкімшілік панелі, Telegram хабарламалары",
+    "Файлды қателікке тексеру және оны кабинетке жүктеу нұсқаулығы"
+  ],
+  "includes_en": [
+    "The store itself: catalog, product pages, cart and checkout",
+    "A single product database with prices, stock and categories",
+    "An XML price list for the Kaspi.kz merchant cabinet in the required structure",
+    "Setup by link, so Kaspi fetches the file from your address on a schedule",
+    "Mapping your categories and SKUs to the fields of the Kaspi price list",
+    "Admin panel for products and orders, with Telegram alerts",
+    "Error check of the file and instructions for uploading it to the cabinet"
+  ],
+  "not_included_ru": [
+    "Аккаунт продавца на Kaspi.kz и комиссии маркетплейса: это ваши отношения с Kaspi",
+    "Фото, описания и цены товаров: предоставляете вы",
+    "Модерация карточек на стороне Kaspi: её результат от меня не зависит"
+  ],
+  "not_included_kk": [
+    "Kaspi.kz-тегі сатушы аккаунты және маркетплейс комиссиялары: бұл сіздің Kaspi-мен қарым-қатынасыңыз",
+    "Тауар фотосуреттері, сипаттамалары және бағалары: оларды сіз ұсынасыз",
+    "Kaspi жағындағы карточкаларды модерациялау: оның нәтижесі маған байланысты емес"
+  ],
+  "not_included_en": [
+    "The Kaspi.kz seller account and marketplace commissions, which are between you and Kaspi",
+    "Product photos, descriptions and prices, which you provide",
+    "Card moderation on the Kaspi side, whose outcome I cannot control"
+  ],
+  "price_from_kzt": 220000,
+  "unit": "once",
+  "days_min": 20,
+  "days_max": 35,
+  "related": [
+    "kaspi-xml",
+    "internet-magazin",
+    "ai-opisaniya-tovarov"
+  ],
+  "is_active": true,
+  "sort": 15,
+  "faqs": [
+    {
+      "question_ru": "Что такое XML-прайс для Kaspi?",
+      "question_kk": "Kaspi үшін XML-прайс деген не?",
+      "question_en": "What is a Kaspi XML price feed?",
+      "answer_ru": "Это файл с вашими товарами, ценами и остатками в формате, который принимает кабинет продавца Kaspi.kz. Он избавляет от ручного ввода каждой позиции и обновляется автоматически.",
+      "answer_kk": "Бұл Kaspi.kz сатушы кабинеті қабылдайтын пішімдегі тауарларыңыз, бағалар мен қалдықтар жазылған файл. Ол әр позицияны қолмен енгізуден құтқарады және автоматты түрде жаңарады.",
+      "answer_en": "It is a file listing your products, prices and stock in the format the Kaspi.kz merchant cabinet accepts. It removes the need to enter each item by hand and refreshes automatically.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Нужен ли мне аккаунт продавца на Kaspi заранее?",
+      "question_kk": "Маған Kaspi-де сатушы аккаунты алдын ала керек пе?",
+      "question_en": "Do I need a Kaspi seller account beforehand?",
+      "answer_ru": "Для загрузки прайса в Kaspi аккаунт нужен, и открываете его вы сами на условиях Kaspi. Сайт и файл можно подготовить заранее, а подключить прайс, когда кабинет будет готов.",
+      "answer_kk": "Прайсты Kaspi-ге жүктеу үшін аккаунт қажет, оны Kaspi талаптарымен өзіңіз ашасыз. Сайт пен файлды алдын ала дайындап, кабинет дайын болғанда прайсты қосуға болады.",
+      "answer_en": "To load the feed into Kaspi you need an account, which you open yourself on Kaspi terms. The site and the file can be prepared in advance and the feed connected once the cabinet is ready.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Цены на сайте и в Kaspi будут одинаковыми?",
+      "question_kk": "Сайттағы және Kaspi-дегі бағалар бірдей болады ма?",
+      "question_en": "Will prices on the site and on Kaspi be the same?",
+      "answer_ru": "Необязательно. Можно задать отдельную цену для Kaspi, например с учётом комиссии маркетплейса, или поставить одну на обе витрины. Правило выбираете вы.",
+      "answer_kk": "Міндетті емес. Kaspi үшін, мысалы маркетплейс комиссиясын ескеріп, бөлек баға қоюға немесе екі витринаға бір баға белгілеуге болады. Ережені өзіңіз таңдайсыз.",
+      "answer_en": "Not necessarily. You can set a separate price for Kaspi, for example to cover the marketplace commission, or use one price on both. The rule is yours to choose.",
+      "sort": 2
+    }
+  ]
+}

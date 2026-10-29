@@ -1,0 +1,98 @@
+{
+  "slug": "ai-assistent-telegram",
+  "category": "ai",
+  "title_ru": "ИИ-ассистент в Telegram для ответов клиентам",
+  "title_kk": "Клиенттерге жауап беретін Telegram ИИ-көмекшісі",
+  "title_en": "AI assistant in Telegram that answers your customers",
+  "short_ru": "Бот на базе нейросети отвечает клиентам по вашей базе знаний и передаёт сложные вопросы вам.",
+  "short_kk": "Нейрожелі негізіндегі бот клиенттерге білім қоры бойынша жауап беріп, күрделі сұрақтарды сізге жібереді.",
+  "short_en": "A neural-network bot answers customers from your knowledge base and hands tricky questions to you.",
+  "description_ru": "Ассистент работает в Telegram, в том числе в Telegram Business, и отвечает на типовые вопросы о ценах, графике, условиях и адресе. Он опирается на материалы, которые вы мне передаёте, и помнит контекст диалога. Такой проект уже работает у меня в портфолио: Python, aiogram и модель DeepSeek, с админ-панелью и автопаузой на 60 минут, когда вам отвечает живой человек.",
+  "description_kk": "Көмекші Telegram-да, соның ішінде Telegram Business-те жұмыс істеп, баға, жұмыс кестесі, шарт және мекенжай туралы жиі қойылатын сұрақтарға жауап береді. Ол сіз берген материалдарға сүйеніп, диалог мәнмәтінін есте сақтайды. Осындай жоба портфолиомда бар: Python, aiogram және DeepSeek моделі, әкімші панелі және иесі өзі жауап бергенде 60 минутқа автоматты кідіріс.",
+  "description_en": "The assistant works in Telegram, including Telegram Business, and answers routine questions about prices, opening hours, terms and address. It relies on the material you give me and remembers the context of each conversation. A project like this is already in my portfolio: Python, aiogram and the DeepSeek model, with an admin panel and a 60-minute auto-pause when the owner replies personally.",
+  "for_whom_ru": "Для салонов, клиник, учебных центров и магазинов, где в личные сообщения приходят одни и те же вопросы. Подойдёт, если вы не успеваете отвечать вечером и в выходные.",
+  "for_whom_kk": "Жеке хабарламаларға бірдей сұрақтар түсетін салондарға, клиникаларға, оқу орталықтары мен дүкендерге арналған. Кешке және демалыс күндері жауап беруге үлгермесеңіз, қолайлы.",
+  "for_whom_en": "For salons, clinics, training centres and shops that get the same questions in private messages. It fits if you cannot keep up with replies in the evening and on weekends.",
+  "includes_ru": [
+    "Бот на Python и aiogram, подключённый к вашему аккаунту или Telegram Business",
+    "Подключение языковой модели (например, DeepSeek) и настройка тона ответов",
+    "Загрузка вашей базы знаний: прайс, условия, адрес, частые вопросы",
+    "Память диалога, чтобы бот не переспрашивал одно и то же",
+    "Автопауза на 60 минут, когда вы сами отвечаете клиенту",
+    "Простая админ-панель для правки базы знаний",
+    "Тестирование на реальных вопросах и инструкция по запуску"
+  ],
+  "includes_kk": [
+    "Python мен aiogram-да жазылған, сіздің аккаунтыңызға немесе Telegram Business-ке қосылған бот",
+    "Тілдік модельді (мысалы, DeepSeek) қосу және жауап мәнерін баптау",
+    "Білім қорын жүктеу: прайс, шарттар, мекенжай, жиі қойылатын сұрақтар",
+    "Бот бір нәрсені қайта сұрамауы үшін диалог жады",
+    "Клиентке өзіңіз жауап бергенде 60 минутқа автоматты кідіріс",
+    "Білім қорын түзетуге арналған қарапайым әкімші панелі",
+    "Нақты сұрақтармен сынау және іске қосу нұсқаулығы"
+  ],
+  "includes_en": [
+    "A bot written in Python and aiogram, connected to your account or Telegram Business",
+    "Language model integration (for example DeepSeek) and tuning of the reply tone",
+    "Loading your knowledge base: price list, terms, address, common questions",
+    "Dialog memory so the bot does not ask the same thing twice",
+    "A 60-minute auto-pause whenever you reply to a customer yourself",
+    "A simple admin panel for editing the knowledge base",
+    "Testing on real questions and a launch guide"
+  ],
+  "not_included_ru": [
+    "Оплата запросов к модели: её API оплачиваете вы по факту использования",
+    "Написание базы знаний с нуля: материалы по вашему бизнесу должны быть от вас",
+    "Гарантия безошибочных ответов: нейросеть может ошибаться, поэтому сложные вопросы лучше передавать человеку"
+  ],
+  "not_included_kk": [
+    "Модельге жасалатын сұраулардың төлемі: оның API-ін қолданысқа қарай өзіңіз төлейсіз",
+    "Білім қорын нөлден жазу: бизнесіңіз туралы материал сізден болуы керек",
+    "Қатесіз жауап кепілдігі: нейрожелі қателесуі мүмкін, сондықтан күрделі сұрақтарды адамға жіберген дұрыс"
+  ],
+  "not_included_en": [
+    "Model usage fees: you pay the model API directly, based on actual use",
+    "Writing the knowledge base from scratch: the material about your business has to come from you",
+    "A guarantee of flawless answers: a neural network can make mistakes, so hard questions are best handed to a person"
+  ],
+  "price_from_kzt": 60000,
+  "unit": "once",
+  "days_min": 7,
+  "days_max": 14,
+  "related": [
+    "ai-assistent-whatsapp",
+    "telegram-bot-faq",
+    "ai-baza-znanii-dlya-sotrudnikov"
+  ],
+  "is_active": true,
+  "sort": 29,
+  "faqs": [
+    {
+      "question_ru": "Что будет, если бот не знает ответа?",
+      "question_kk": "Бот жауабын білмесе не болады?",
+      "question_en": "What happens if the bot does not know the answer?",
+      "answer_ru": "Я настраиваю его так, чтобы он честно сообщал, что уточнит вопрос, и передавал диалог вам. Придумывать цены и условия, которых нет в базе знаний, ему запрещено инструкцией, но полностью исключить ошибки нельзя.",
+      "answer_kk": "Мен оны жауабын білмесе, мәселені нақтылайтынын ашық айтып, диалогты сізге беретіндей етіп баптаймын. Білім қорында жоқ баға мен шартты ойдан шығаруға нұсқаумен тыйым салынады, бірақ қателерді толық жоққа шығару мүмкін емес.",
+      "answer_en": "I set it up to say openly that it will check and to pass the conversation to you. The instructions forbid inventing prices or terms that are not in the knowledge base, though errors cannot be ruled out completely.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли самому отвечать клиенту, когда бот включён?",
+      "question_kk": "Бот қосулы тұрғанда клиентке өзім жауап бере аламын ба?",
+      "question_en": "Can I still reply to a customer myself while the bot is on?",
+      "answer_ru": "Да. Как только вы пишете клиенту сами, бот замолкает в этом диалоге на 60 минут, чтобы вы не мешали друг другу. Потом он снова готов отвечать.",
+      "answer_kk": "Иә. Клиентке өзіңіз жазысымен, бот сол диалогта 60 минутқа тоқтайды, сонда сіздер бір-біріңізге кедергі болмайсыздар. Содан кейін ол қайтадан жауап беруге дайын.",
+      "answer_en": "Yes. As soon as you write to a customer yourself, the bot stays silent in that dialog for 60 minutes so you do not talk over each other. After that it is ready to answer again.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Сколько стоит работа модели после запуска?",
+      "question_kk": "Іске қосқаннан кейін модельдің жұмысы қанша тұрады?",
+      "question_en": "How much does the model cost after launch?",
+      "answer_ru": "Это зависит от числа сообщений и выбранной модели. Для небольшого бизнеса расходы на API обычно невелики, точную оценку я дам после теста на ваших вопросах.",
+      "answer_kk": "Бұл хабарлама санына және таңдалған модельге байланысты. Шағын бизнеске API шығыны әдетте көп емес, нақты бағаны сіздің сұрақтарыңызбен сынағаннан кейін айтамын.",
+      "answer_en": "It depends on the number of messages and the model you pick. For a small business the API cost is usually modest, and I will give a concrete estimate after testing on your own questions.",
+      "sort": 2
+    }
+  ]
+}

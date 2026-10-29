@@ -1,0 +1,98 @@
+{
+  "slug": "seo-prodvizhenie",
+  "category": "seo-maps",
+  "title_ru": "SEO-продвижение сайта (ежемесячно)",
+  "title_kk": "Сайтты SEO арқылы жылжыту (ай сайын)",
+  "title_en": "Monthly SEO for your website",
+  "short_ru": "Ежемесячная работа над сайтом: тексты, структура, технические правки и отчёт по результатам.",
+  "short_kk": "Сайтпен ай сайынғы жұмыс: мәтіндер, құрылым, техникалық түзетулер және нәтиже есебі.",
+  "short_en": "Monthly work on your site: texts, structure, technical fixes and a results report.",
+  "description_ru": "SEO даёт результат постепенно, поэтому работа идёт помесячно: подбираем запросы, дорабатываем страницы, пишем полезные тексты и убираем технические ошибки. В конце месяца вы получаете отчёт с понятными цифрами. Позиции в поиске зависят от конкуренции и алгоритмов, поэтому гарантировать конкретные места нельзя.",
+  "description_kk": "SEO нәтижені біртіндеп береді, сондықтан жұмыс ай сайын жүреді: сұраныстарды таңдаймыз, беттерді жетілдіреміз, пайдалы мәтіндер жазамыз және техникалық қателерді жоямыз. Ай соңында түсінікті сандары бар есеп аласыз. Іздеудегі позициялар бәсеке мен алгоритмдерге байланысты, сондықтан нақты орынға кепілдік беруге болмайды.",
+  "description_en": "SEO pays off gradually, so the work runs month by month: we pick queries, improve pages, write useful texts and clear technical errors. At the end of each month you receive a report with plain figures. Search positions depend on competition and algorithms, so specific places cannot be guaranteed.",
+  "for_whom_ru": "Для компаний, которые готовы работать на результат в поиске в горизонте нескольких месяцев и имеют сайт, где можно вносить изменения.",
+  "for_whom_kk": "Іздеудегі нәтижемен бірнеше ай көлемінде жұмыс істеуге дайын және өзгеріс енгізуге болатын сайты бар компанияларға арналған.",
+  "for_whom_en": "For companies prepared to work toward search results over several months and whose site allows changes to be made.",
+  "includes_ru": [
+    "Подбор и обновление семантического ядра под ваши услуги",
+    "Доработка заголовков, описаний и структуры ключевых страниц",
+    "Написание или правка до 4 текстов для сайта в месяц",
+    "Исправление технических ошибок по результатам аудита",
+    "Внутренняя перелинковка и работа с микроразметкой",
+    "Отслеживание позиций и трафика в Search Console и аналитике",
+    "Ежемесячный отчёт и план на следующий месяц"
+  ],
+  "includes_kk": [
+    "Қызметтеріңізге сай семантикалық ядроны таңдау және жаңарту",
+    "Негізгі беттердің тақырыптарын, сипаттамаларын және құрылымын жетілдіру",
+    "Айына сайтқа 4 мәтінге дейін жазу немесе түзету",
+    "Аудит нәтижесі бойынша техникалық қателерді түзету",
+    "Ішкі сілтемелеу және микробелгілеумен жұмыс",
+    "Search Console мен аналитикада позиция мен трафикті қадағалау",
+    "Ай сайынғы есеп және келесі айға жоспар"
+  ],
+  "includes_en": [
+    "Selecting and updating the keyword set for your services",
+    "Improving titles, descriptions and structure of key pages",
+    "Writing or editing up to four site texts per month",
+    "Fixing technical errors found in the audit",
+    "Internal linking and structured-data work",
+    "Tracking positions and traffic in Search Console and analytics",
+    "A monthly report and a plan for the next month"
+  ],
+  "not_included_ru": [
+    "Гарантия мест в поиске и количества посетителей: результат зависит от конкурентов и решений поисковиков",
+    "Платная реклама, покупка ссылок и накрутка поведенческих факторов",
+    "Разработка новых разделов сайта и редизайн, которые оцениваются отдельно"
+  ],
+  "not_included_kk": [
+    "Іздеудегі орын мен келушілер санына кепіл: нәтиже бәсекелестер мен іздеу жүйелерінің шешіміне байланысты",
+    "Ақылы жарнама, сілтеме сатып алу және мінез-құлық факторларын жасанды арттыру",
+    "Сайттың жаңа бөлімдерін әзірлеу және редизайн, олар бөлек бағаланады"
+  ],
+  "not_included_en": [
+    "A guarantee of search positions or visitor numbers, since results depend on competitors and search engine decisions",
+    "Paid advertising, link buying and manipulation of behavioural signals",
+    "Building new site sections or a redesign, which are quoted separately"
+  ],
+  "price_from_kzt": 40000,
+  "unit": "month",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "seo-audit",
+    "lokalnoe-seo",
+    "uskorenie-saita"
+  ],
+  "is_active": true,
+  "sort": 44,
+  "faqs": [
+    {
+      "question_ru": "Через сколько будет виден результат?",
+      "question_kk": "Нәтиже қанша уақыттан кейін көрінеді?",
+      "question_en": "How soon will results be visible?",
+      "answer_ru": "Первые изменения в данных обычно заметны через 2-3 месяца, но срок зависит от возраста сайта и конкуренции. Я не обещаю точные сроки и позиции, чтобы не вводить вас в заблуждение.",
+      "answer_kk": "Деректердегі алғашқы өзгерістер әдетте 2-3 айдан кейін көрінеді, бірақ мерзім сайт жасына және бәсекеге байланысты. Адастырмау үшін нақты мерзім мен позицияны уәде етпеймін.",
+      "answer_en": "The first changes in the data are usually visible after 2-3 months, but the timing depends on the age of the site and the competition. I do not promise exact timing or positions so as not to mislead you.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли остановить работу в любой момент?",
+      "question_kk": "Жұмысты кез келген уақытта тоқтатуға бола ма?",
+      "question_en": "Can I stop at any time?",
+      "answer_ru": "Да, оплата идёт помесячно без долгосрочных обязательств. Все внесённые правки остаются на вашем сайте.",
+      "answer_kk": "Иә, төлем ай сайын жүреді, ұзақ мерзімді міндеттемесіз. Енгізілген барлық түзету сіздің сайтыңызда қалады.",
+      "answer_en": "Yes, payment is monthly with no long-term commitment. All the changes already made stay on your site.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Чем отличается от локального SEO?",
+      "question_kk": "Жергілікті SEO-дан немен ерекшеленеді?",
+      "question_en": "How is this different from local SEO?",
+      "answer_ru": "Здесь работа идёт над самим сайтом и его страницами. Локальное SEO делает упор на карты, карточки организации, отзывы и запросы с названием города.",
+      "answer_kk": "Мұнда жұмыс сайттың өзімен және оның беттерімен жүреді. Жергілікті SEO карталарға, ұйым карточкаларына, пікірлерге және қала атауы бар сұраныстарға баса назар аударады.",
+      "answer_en": "Here the work is on the site itself and its pages. Local SEO focuses on maps, organisation listings, reviews and queries that include a city name.",
+      "sort": 2
+    }
+  ]
+}

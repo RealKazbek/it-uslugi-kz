@@ -1,0 +1,98 @@
+{
+  "slug": "ai-opisaniya-tovarov",
+  "category": "ai",
+  "title_ru": "ИИ-описания товаров для каталога",
+  "title_kk": "Каталогқа арналған ИИ тауар сипаттамалары",
+  "title_en": "AI-generated product descriptions for your catalog",
+  "short_ru": "Пакетная генерация и ручная проверка описаний товаров по вашей таблице характеристик.",
+  "short_kk": "Сіздің сипаттама кестеңіз бойынша тауар сипаттамаларын топтап жасау және қолмен тексеру.",
+  "short_en": "Bulk generation and manual review of product descriptions from your attribute spreadsheet.",
+  "description_ru": "Вы присылаете таблицу с названиями и характеристиками, а я готовлю для каждого товара связное описание в едином стиле. Результат проверяю вручную на выборке и правлю явные ошибки. Готовые тексты возвращаются в таблице, откуда их легко загрузить в магазин или на Kaspi.",
+  "description_kk": "Сіз атаулары мен сипаттамалары бар кестені жібересіз, ал мен әр тауарға бір стильде байланысты сипаттама дайындаймын. Нәтижені үлгі бойынша қолмен тексеріп, айқын қателерін түзетемін. Дайын мәтіндер кестеде қайтарылады, одан оларды дүкенге немесе Kaspi-ге оңай жүктеуге болады.",
+  "description_en": "You send a table of names and attributes, and I prepare a coherent description for each product in one consistent style. I check a sample by hand and correct obvious errors. The finished texts come back in a spreadsheet, from which they are easy to upload to your shop or to Kaspi.",
+  "for_whom_ru": "Для магазинов с десятками и сотнями позиций, у которых карточки пустые или состоят из одного названия. Подходит и продавцам на Kaspi.",
+  "for_whom_kk": "Карточкалары бос немесе тек атаудан тұратын, ондаған және жүздеген позициясы бар дүкендерге арналған. Kaspi сатушыларына да қолайлы.",
+  "for_whom_en": "For shops with dozens or hundreds of items whose cards are empty or consist of just a name. Sellers on Kaspi can use it too.",
+  "includes_ru": [
+    "Описания для пакета товаров, объём согласуем заранее",
+    "Единый стиль и тон, подобранные под ваш магазин",
+    "Тексты на русском, по желанию на казахском",
+    "Использование только тех характеристик, что есть в вашей таблице",
+    "Ручная проверка выборки и правка ошибок",
+    "Готовый файл в формате таблицы для загрузки в магазин",
+    "Короткие SEO-заголовки к карточкам по запросу"
+  ],
+  "includes_kk": [
+    "Тауарлар пакетіне сипаттамалар, көлемін алдын ала келісеміз",
+    "Дүкеніңізге бейімделген бірыңғай стиль мен мәнер",
+    "Орыс тілінде, қалау бойынша қазақ тілінде мәтіндер",
+    "Тек сіздің кестеңізде бар сипаттамаларды пайдалану",
+    "Үлгіні қолмен тексеру және қателерді түзету",
+    "Дүкенге жүктеуге арналған кесте форматындағы дайын файл",
+    "Сұраныс бойынша карточкаларға қысқа SEO-тақырыптар"
+  ],
+  "includes_en": [
+    "Descriptions for a batch of products, with the volume agreed in advance",
+    "One consistent style and tone chosen to suit your shop",
+    "Texts in Russian and, if you wish, in Kazakh",
+    "Use of only the attributes that appear in your table",
+    "Manual check of a sample and correction of errors",
+    "A ready spreadsheet file for uploading to your shop",
+    "Short SEO titles for the product cards on request"
+  ],
+  "not_included_ru": [
+    "Фотографии товаров и их обработка",
+    "Проверка каждого описания вручную: проверяется выборка, а полный просмотр остаётся за вами",
+    "Загрузка в магазин или на Kaspi, а также гарантия роста продаж или позиций в поиске"
+  ],
+  "not_included_kk": [
+    "Тауар суреттері және оларды өңдеу",
+    "Әр сипаттаманы қолмен тексеру: үлгі тексеріледі, толық қарау сізде қалады",
+    "Дүкенге немесе Kaspi-ге жүктеу, сондай-ақ сатылым мен іздеудегі орын өседі деген кепіл"
+  ],
+  "not_included_en": [
+    "Product photography and photo editing",
+    "Manual review of every single description: a sample is checked, and a full read-through stays with you",
+    "Uploading to your shop or to Kaspi, and any promise of higher sales or search positions"
+  ],
+  "price_from_kzt": 30000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 7,
+  "related": [
+    "internet-magazin",
+    "kaspi-xml",
+    "parsing-dannyh"
+  ],
+  "is_active": true,
+  "sort": 33,
+  "faqs": [
+    {
+      "question_ru": "Что нужно прислать для работы?",
+      "question_kk": "Жұмыс үшін не жіберу керек?",
+      "question_en": "What do I need to send?",
+      "answer_ru": "Таблицу с названием, категорией и всеми известными характеристиками каждого товара. Чем точнее данные, тем точнее описания, потому что нейросеть не должна додумывать факты.",
+      "answer_kk": "Әр тауардың атауы, санаты және белгілі барлық сипаттамалары бар кесте. Деректер неғұрлым дәл болса, сипаттамалар соғұрлым дәл, өйткені нейрожелі фактіні ойдан қоспауы керек.",
+      "answer_en": "A table with the name, category and every known attribute of each product. The more accurate the data, the more accurate the descriptions, because the network should not guess facts.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько товаров входит в базовую цену?",
+      "question_kk": "Негізгі бағаға қанша тауар кіреді?",
+      "question_en": "How many products does the base price cover?",
+      "answer_ru": "Базовая цена рассчитана на небольшой пакет. Точный объём и итог я назову после того, как посмотрю вашу таблицу, и дальше цена растёт пропорционально количеству позиций.",
+      "answer_kk": "Негізгі баға шағын пакетке есептелген. Нақты көлемі мен соңғы бағаны кестеңізді көргеннен кейін айтамын, одан әрі баға позиция санына қарай пропорционалды өседі.",
+      "answer_en": "The base price covers a small batch. I will give the exact volume and final total once I have seen your table, and the price then grows in proportion to the number of items.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Описания не будут одинаковыми у всех товаров?",
+      "question_kk": "Барлық тауардың сипаттамасы бірдей болмай ма?",
+      "question_en": "Will all the descriptions sound the same?",
+      "answer_ru": "Структура одна, чтобы каталог выглядел единым, но формулировки строятся от характеристик конкретного товара. Если у позиций почти нет отличий, тексты неизбежно получатся близкими, и я скажу об этом заранее.",
+      "answer_kk": "Каталог біртұтас көрінуі үшін құрылым біреу, бірақ тұжырымдар нақты тауардың сипаттамаларынан құрылады. Позициялардың айырмасы өте аз болса, мәтіндер міндетті түрде жақын шығады, бұл туралы алдын ала айтамын.",
+      "answer_en": "The structure is shared so the catalog looks unified, but the wording is built from the attributes of each item. If items barely differ, the texts will inevitably be close, and I will say so beforehand.",
+      "sort": 2
+    }
+  ]
+}

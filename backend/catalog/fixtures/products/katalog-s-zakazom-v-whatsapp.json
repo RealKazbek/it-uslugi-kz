@@ -1,0 +1,95 @@
+{
+  "slug": "katalog-s-zakazom-v-whatsapp",
+  "category": "ecommerce",
+  "title_ru": "Каталог с заказом в WhatsApp",
+  "title_kk": "WhatsApp арқылы тапсырыс беретін каталог",
+  "title_en": "Catalog with WhatsApp ordering",
+  "short_ru": "Лёгкий сайт-каталог, где корзина превращается в готовое сообщение вам в WhatsApp.",
+  "short_kk": "Себеттегі тауарлар сізге WhatsApp-қа дайын хабарламаға айналатын жеңіл каталог-сайт.",
+  "short_en": "A lightweight catalog site where the cart turns into a ready-made WhatsApp message to you.",
+  "description_ru": "Покупатель выбирает товары на сайте, а по кнопке «Заказать» открывается WhatsApp с готовым списком позиций, количеством и суммой. Никакой регистрации и онлайн-оплаты, всё общение остаётся в привычном мессенджере. Это самый простой способ начать онлайн-продажи для небольшого магазина.",
+  "description_kk": "Сатып алушы сайтта тауарларды таңдайды, ал «Тапсырыс беру» батырмасымен позициялар тізімі, саны және сомасы дайын WhatsApp ашылады. Тіркелу де, онлайн төлем де жоқ, барлық сөйлесу әдеттегі мессенджерде қалады. Бұл шағын дүкен үшін онлайн саудаға бастаудың ең қарапайым жолы.",
+  "description_en": "The customer picks products on the site, and an Order button opens WhatsApp with a prepared list of items, quantities and the total. There is no sign-up and no online payment, so the whole conversation stays in a messenger people already use. It is the simplest way for a small shop to start selling online.",
+  "for_whom_ru": "Для небольших магазинов, мастерских и домашних производств, где заказы и так принимают в WhatsApp. Подойдёт, если нужен аккуратный каталог по ссылке вместо пересылки фото вручную.",
+  "for_whom_kk": "Тапсырыстар қазірдің өзінде WhatsApp-ta қабылданатын шағын дүкендерге, шеберханаларға және үйдегі өндірістерге арналған. Суретті қолмен жіберудің орнына сілтемемен ыңғайлы каталог керек болса, жарайды.",
+  "for_whom_en": "For small shops, workshops and home producers who already take orders in WhatsApp. It fits when you want a tidy catalog behind a link instead of forwarding photos by hand.",
+  "includes_ru": [
+    "Каталог с категориями и карточками товаров с фото и ценой",
+    "Лёгкая корзина, которая работает без регистрации",
+    "Кнопка заказа: формирует текст сообщения и открывает WhatsApp",
+    "Поле для имени, адреса и комментария перед отправкой",
+    "Файл с товарами, который вы правите сами, например таблица",
+    "Адаптивная вёрстка и быстрая загрузка на мобильном интернете"
+  ],
+  "includes_kk": [
+    "Санаттары мен фотосы және бағасы бар тауар карточкалары бар каталог",
+    "Тіркелусіз жұмыс істейтін жеңіл себет",
+    "Тапсырыс батырмасы: хабарлама мәтінін құрып, WhatsApp-ты ашады",
+    "Жіберер алдында аты, мекенжайы және пікірге арналған өріс",
+    "Өзіңіз түзететін тауар файлы, мысалы кесте",
+    "Мобильді интернетте жылдам жүктелетін, бейімделген беттер"
+  ],
+  "includes_en": [
+    "Catalog with categories and product cards showing photo and price",
+    "A light cart that works without registration",
+    "An order button that builds the message text and opens WhatsApp",
+    "Fields for name, address and a comment before sending",
+    "A product file you edit yourself, such as a spreadsheet",
+    "Responsive layout that loads fast on mobile internet"
+  ],
+  "not_included_ru": [
+    "Автоматическая обработка заказов: сообщение читаете и подтверждаете вы сами",
+    "Фото, описания и цены товаров: предоставляете вы",
+    "Онлайн-оплата и складской учёт: это уже другая, более крупная задача"
+  ],
+  "not_included_kk": [
+    "Тапсырыстарды автоматты өңдеу: хабарламаны өзіңіз оқып, растайсыз",
+    "Тауар фотосуреттері, сипаттамалары және бағалары: оларды сіз ұсынасыз",
+    "Онлайн төлем және қойма есебі: бұл басқа, неғұрлым ауқымды міндет"
+  ],
+  "not_included_en": [
+    "Automatic order processing: you read and confirm each message yourself",
+    "Product photos, descriptions and prices, which you provide",
+    "Online payment and stock accounting, which is a larger, separate task"
+  ],
+  "price_from_kzt": 80000,
+  "unit": "once",
+  "days_min": 7,
+  "days_max": 12,
+  "related": [
+    "whatsapp-bot",
+    "sait-dlya-kafe",
+    "internet-magazin"
+  ],
+  "is_active": true,
+  "sort": 17,
+  "faqs": [
+    {
+      "question_ru": "Нужен ли для этого WhatsApp Business API?",
+      "question_kk": "Ол үшін WhatsApp Business API керек пе?",
+      "question_en": "Does this need the WhatsApp Business API?",
+      "answer_ru": "Нет. Кнопка открывает обычный чат на ваш номер, подойдёт и обычное приложение, и WhatsApp Business. Никаких платежей Meta или провайдеру за это не нужно.",
+      "answer_kk": "Жоқ. Батырма сіздің нөміріңізге қарапайым чатты ашады, қарапайым қолданба да, WhatsApp Business те жарайды. Бұл үшін Meta-ға немесе провайдерге ешқандай төлем қажет емес.",
+      "answer_en": "No. The button opens a normal chat with your number, so the regular app or WhatsApp Business both work. No payment to Meta or to a provider is needed for it.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как менять цены и товары?",
+      "question_kk": "Бағаны және тауарды қалай өзгертуге болады?",
+      "question_en": "How do I change prices and products?",
+      "answer_ru": "Товары хранятся в простом файле, например в таблице, и вы правите его без программиста. После правки сайт показывает обновлённые данные, порядок я объясняю при сдаче.",
+      "answer_kk": "Тауарлар қарапайым файлда, мысалы кестеде сақталады, оны бағдарламашысыз өзіңіз түзетесіз. Түзетуден кейін сайт жаңартылған деректерді көрсетеді, ретін тапсыру кезінде түсіндіремін.",
+      "answer_en": "Products are kept in a simple file such as a spreadsheet, so you can edit them without a programmer. After an edit the site shows the updated data, and I explain the routine at handover.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Чем это отличается от интернет-магазина?",
+      "question_kk": "Бұл интернет-дүкеннен несімен ерекшеленеді?",
+      "question_en": "How is this different from a full online store?",
+      "answer_ru": "Здесь нет личных кабинетов, админки заказов и онлайн-оплаты: заказ уходит в чат, и вы ведёте его вручную. Зато и стоит заметно дешевле, и запускается быстрее. Если оборот вырастет, каталог можно развить до полноценного магазина.",
+      "answer_kk": "Мұнда жеке кабинеттер, тапсырыс әкімшілігі және онлайн төлем жоқ: тапсырыс чатқа кетеді де, оны қолмен жүргізесіз. Бірақ арзанырақ әрі тезірек іске қосылады. Айналым өссе, каталогты толыққанды дүкенге дейін дамытуға болады.",
+      "answer_en": "There are no customer accounts, order admin or online payment here: the order goes to a chat and you handle it manually. In return it costs noticeably less and launches faster. If volume grows, the catalog can be extended into a full store.",
+      "sort": 2
+    }
+  ]
+}

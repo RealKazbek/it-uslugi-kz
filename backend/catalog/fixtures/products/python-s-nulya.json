@@ -1,0 +1,98 @@
+{
+  "slug": "python-s-nulya",
+  "category": "education",
+  "title_ru": "Python с нуля",
+  "title_kk": "Python-ды нөлден бастап",
+  "title_en": "Python from scratch",
+  "short_ru": "Индивидуальные занятия по Python для взрослых и студентов: от переменных до скриптов и первого Telegram-бота.",
+  "short_kk": "Ересектер мен студенттерге арналған Python бойынша жеке сабақтар: айнымалылардан скриптер мен алғашқы Telegram-ботқа дейін.",
+  "short_en": "One-to-one Python lessons for adults and students: from variables to scripts and your first Telegram bot.",
+  "description_ru": "Курс для тех, кто никогда не писал код и хочет сразу делать практические вещи: разбирать файлы, считать данные, автоматизировать рутину. Идём по порядку: типы данных, ветвления, циклы, функции, работа с файлами и API. Заканчиваем собственным скриптом или ботом на aiogram, который вы пишете сами с моей подсказкой.",
+  "description_kk": "Ешқашан код жазбаған және бірден практикалық нәрселер жасағысы келетіндерге арналған курс: файлдарды өңдеу, деректерді санау, күнделікті жұмысты автоматтандыру. Ретімен жүреміз: деректер түрлері, тармақталу, циклдар, функциялар, файлдармен және API-мен жұмыс. Соңында өз скриптіңізді немесе aiogram-дағы ботты жасаймыз, оны менің кеңесіммен өзіңіз жазасыз.",
+  "description_en": "A course for people who have never written code and want to build practical things right away: process files, crunch data, automate routine tasks. We go in order: data types, branching, loops, functions, working with files and APIs. We finish with your own script or an aiogram bot that you write yourself with my guidance.",
+  "for_whom_ru": "Взрослым и студентам без опыта, которые хотят автоматизировать свои задачи или освоить первый язык программирования.",
+  "for_whom_kk": "Тәжірибесі жоқ, өз тапсырмаларын автоматтандырғысы немесе алғашқы бағдарламалау тілін меңгергісі келетін ересектер мен студенттерге арналған.",
+  "for_whom_en": "For adults and students with no experience who want to automate their own tasks or learn a first programming language.",
+  "includes_ru": [
+    "Занятие по видеосвязи 60 минут с демонстрацией экрана",
+    "Установка Python и редактора кода на ваш компьютер",
+    "Переменные, типы данных, условия и циклы",
+    "Функции, списки и словари на реальных задачах",
+    "Чтение и запись файлов, работа с CSV и JSON",
+    "Запросы к API и основы библиотеки aiogram",
+    "План обучения под вашу цель: работа, учёба или автоматизация"
+  ],
+  "includes_kk": [
+    "Экран көрсетілетін 60 минуттық бейнебайланыс сабағы",
+    "Компьютерге Python мен код редакторын орнату",
+    "Айнымалылар, деректер түрлері, шарттар мен циклдар",
+    "Нақты тапсырмалардағы функциялар, тізімдер және сөздіктер",
+    "Файлдарды оқу мен жазу, CSV және JSON-мен жұмыс",
+    "API-ға сұраныстар және aiogram кітапханасының негіздері",
+    "Мақсатыңызға сай оқу жоспары: жұмыс, оқу немесе автоматтандыру"
+  ],
+  "includes_en": [
+    "A 60-minute video lesson with screen sharing",
+    "Installing Python and a code editor on your computer",
+    "Variables, data types, conditions and loops",
+    "Functions, lists and dictionaries on real tasks",
+    "Reading and writing files, working with CSV and JSON",
+    "API requests and the basics of the aiogram library",
+    "A learning plan around your goal: work, study or automation"
+  ],
+  "not_included_ru": [
+    "Гарантия трудоустройства или конкретной зарплаты после курса",
+    "Выполнение за вас домашних или курсовых работ",
+    "Готовые сертификаты: это индивидуальные занятия, а не аккредитованный курс"
+  ],
+  "not_included_kk": [
+    "Курстан кейін жұмысқа орналасуға немесе нақты жалақыға кепілдік",
+    "Үй немесе курстық жұмыстарды сіздің орныңызға орындау",
+    "Дайын сертификаттар: бұл аккредиттелген курс емес, жеке сабақтар"
+  ],
+  "not_included_en": [
+    "Any guarantee of a job or a specific salary after the course",
+    "Doing your homework or coursework for you",
+    "Certificates; these are private lessons, not an accredited course"
+  ],
+  "price_from_kzt": 5000,
+  "unit": "lesson",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "repetitor-programmirovaniya",
+    "telegram-bot-faq",
+    "parsing-dannyh"
+  ],
+  "is_active": true,
+  "sort": 56,
+  "faqs": [
+    {
+      "question_ru": "Нужно ли знать математику?",
+      "question_kk": "Математиканы білу керек пе?",
+      "question_en": "Do I need to be good at maths?",
+      "answer_ru": "Для начала хватит школьной арифметики. Логика появляется на практике, а сложная математика нужна лишь в узких областях.",
+      "answer_kk": "Бастау үшін мектептегі арифметика жеткілікті. Логика практикада қалыптасады, ал күрделі математика тек тар салаларда керек.",
+      "answer_en": "School arithmetic is enough to start. Logic builds up through practice, and advanced maths matters only in narrow fields.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько занятий понадобится?",
+      "question_kk": "Қанша сабақ қажет болады?",
+      "question_en": "How many lessons will I need?",
+      "answer_ru": "Зависит от цели и частоты практики. Чтобы уверенно писать небольшие скрипты, обычно нужно несколько недель занятий раз-два в неделю. Точного числа не обещаю.",
+      "answer_kk": "Мақсатқа және практика жиілігіне байланысты. Шағын скриптерді сенімді жазу үшін әдетте аптасына бір-екі рет бірнеше апта жеткілікті. Нақты санды уәде етпеймін.",
+      "answer_en": "It depends on your goal and how often you practise. To write small scripts with confidence, a few weeks at one or two lessons a week is typical. I do not promise an exact number.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли заниматься, если я живу в другой стране?",
+      "question_kk": "Басқа елде тұрсам, сабаққа қатыса аламын ба?",
+      "question_en": "Can I take lessons from another country?",
+      "answer_ru": "Да, занятия проходят онлайн. Я работаю по времени Алматы (UTC+5) и подберу удобный слот; русский и английский для занятий подходят.",
+      "answer_kk": "Иә, сабақтар онлайн өтеді. Мен Алматы уақытымен (UTC+5) жұмыс істеймін және ыңғайлы уақыт таңдаймын; сабақты орыс және ағылшын тілінде өткізуге болады.",
+      "answer_en": "Yes, lessons are online. I work on Almaty time (UTC+5) and will find a convenient slot; lessons can be held in English or Russian.",
+      "sort": 2
+    }
+  ]
+}

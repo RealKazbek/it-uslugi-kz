@@ -1,0 +1,95 @@
+{
+  "slug": "telegram-bot-faq",
+  "category": "bots",
+  "title_ru": "Telegram-бот с ответами на частые вопросы",
+  "title_kk": "Жиі қойылатын сұрақтарға жауап беретін Telegram-бот",
+  "title_en": "Telegram FAQ bot",
+  "short_ru": "Бот отвечает на типовые вопросы по кнопкам и зовёт вас, когда ответа в нём нет.",
+  "short_kk": "Бот типтік сұрақтарға батырмалар арқылы жауап береді, жауап жоқ болса сізді шақырады.",
+  "short_en": "A bot that answers common questions through buttons and calls you in when it has no answer.",
+  "description_ru": "Цены, адрес, график работы, условия возврата: на такие вопросы вы отвечаете десятки раз. Бот выдаёт готовые ответы по кнопкам меню и мгновенно, в любое время суток. Если клиенту нужен живой человек, бот передаёт ему ваш контакт или пересылает вопрос вам.",
+  "description_kk": "Баға, мекенжай, жұмыс кестесі, қайтару шарттары: мұндай сұрақтарға ондаған рет жауап бересіз. Бот мәзір батырмалары арқылы дайын жауаптарды тәулік бойы лезде береді. Клиентке тірі адам керек болса, бот сіздің байланысыңызды береді немесе сұрақты сізге жібереді.",
+  "description_en": "Prices, address, opening hours, return policy: you answer these questions dozens of times. The bot gives ready answers from menu buttons, instantly and at any hour. If the customer needs a real person, the bot hands over your contact or forwards the question to you.",
+  "for_whom_ru": "Для бизнеса с однотипными вопросами клиентов: магазины, сервисы, клиники, учебные центры. Самый недорогой бот в линейке, его хорошо брать для первого знакомства с автоматизацией.",
+  "for_whom_kk": "Клиенттерінің сұрақтары бірдей бизнеске: дүкендер, сервистер, клиникалар, оқу орталықтары. Қатардағы ең үнемді бот, автоматтандырумен алғаш танысуға жақсы.",
+  "for_whom_en": "For businesses whose customers ask similar things, such as shops, service companies, clinics and training centres. It is the cheapest bot in the line-up and a good first step into automation.",
+  "includes_ru": [
+    "Меню с кнопками и вложенными разделами по темам вопросов",
+    "Готовые тексты ответов, которые вы утверждаете до запуска",
+    "Кнопка «Связаться с человеком» с пересылкой вопроса вам",
+    "Раздел контактов: адрес, часы работы, ссылка на карту",
+    "Статистика: какие вопросы нажимают чаще всего",
+    "Правка текстов ответов через файл без участия программиста"
+  ],
+  "includes_kk": [
+    "Сұрақ тақырыптары бойынша батырмалары мен ішкі бөлімдері бар мәзір",
+    "Іске қосар алдында сіз бекітетін жауаптардың дайын мәтіндері",
+    "Сұрақты сізге жіберетін «Адаммен байланысу» батырмасы",
+    "Байланыс бөлімі: мекенжай, жұмыс сағаттары, картаға сілтеме",
+    "Статистика: қандай сұрақтар жиірек басылады",
+    "Жауап мәтіндерін бағдарламашысыз файл арқылы түзету"
+  ],
+  "includes_en": [
+    "Button menu with nested sections by question topic",
+    "Ready-made answer texts that you approve before launch",
+    "A Contact a person button that forwards the question to you",
+    "A contacts section with address, opening hours and a map link",
+    "Statistics on which questions get tapped most often",
+    "Editing answer texts through a file with no programmer involved"
+  ],
+  "not_included_ru": [
+    "Свободный диалог: бот отвечает по заготовленным кнопкам, а не понимает любой вопрос",
+    "Написание всех ответов с нуля: содержание ответов даёте вы",
+    "Сервер для бота: оформляется на вас и оплачивается по тарифу провайдера"
+  ],
+  "not_included_kk": [
+    "Еркін диалог: бот дайын батырмалар бойынша жауап береді, кез келген сұрақты түсінбейді",
+    "Барлық жауаптарды нөлден жазу: жауаптың мазмұнын сіз бересіз",
+    "Бот сервері: сіздің атыңызға ресімделеді, провайдер тарифімен төленеді"
+  ],
+  "not_included_en": [
+    "Free-form conversation, since the bot answers from prepared buttons and does not understand any question",
+    "Writing every answer from scratch, as you provide the substance",
+    "The server for the bot, set up in your name and paid at the provider rate"
+  ],
+  "price_from_kzt": 25000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 5,
+  "related": [
+    "ai-assistent-telegram",
+    "telegram-bot-zayavki",
+    "whatsapp-bot"
+  ],
+  "is_active": true,
+  "sort": 26,
+  "faqs": [
+    {
+      "question_ru": "Бот понимает свободный текст?",
+      "question_kk": "Бот еркін мәтінді түсінеді ме?",
+      "question_en": "Does the bot understand free text?",
+      "answer_ru": "Нет, этот бот работает по кнопкам и заготовленным ответам. Если нужно отвечать на вопросы своими словами по вашей базе знаний, смотрите ИИ-ассистента в Telegram.",
+      "answer_kk": "Жоқ, бұл бот батырмалар мен дайын жауаптар бойынша жұмыс істейді. Сіздің білім қорыңыз бойынша сұрақтарға өз сөзімен жауап беру керек болса, Telegram-дағы ЖИ-көмекшіні қараңыз.",
+      "answer_en": "No, this bot works through buttons and prepared answers. If you need it to answer in its own words from your knowledge base, look at the AI assistant for Telegram.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как поменять текст ответа?",
+      "question_kk": "Жауап мәтінін қалай өзгертуге болады?",
+      "question_en": "How do I change an answer?",
+      "answer_ru": "Тексты лежат в отдельном файле, и обновить их можно без правки кода. Я покажу, как это делается, при сдаче.",
+      "answer_kk": "Мәтіндер бөлек файлда тұрады, оларды кодты түзетпей жаңартуға болады. Мұны қалай істейтінімді тапсыру кезінде көрсетемін.",
+      "answer_en": "The texts live in a separate file and can be updated without touching the code. I show how at handover.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что видит клиент, если ответа нет?",
+      "question_kk": "Жауап болмаса, клиент не көреді?",
+      "question_en": "What does the customer see if there is no answer?",
+      "answer_ru": "Бот предлагает написать вопрос, пересылает его вам и сообщает клиенту, что ответ придёт в рабочее время. Так обращение не теряется.",
+      "answer_kk": "Бот сұрақты жазуды ұсынады, оны сізге жібереді және клиентке жауап жұмыс уақытында келетінін хабарлайды. Сонда өтінім жоғалмайды.",
+      "answer_en": "The bot invites them to type the question, forwards it to you and tells the customer a reply will come in working hours. That way the enquiry is not lost.",
+      "sort": 2
+    }
+  ]
+}

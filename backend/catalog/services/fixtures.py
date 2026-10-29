@@ -14,9 +14,22 @@ class SeedError(Exception):
 
 
 def load_fixture(name: str) -> list[dict[str, Any]]:
+    """A fixture file holding a JSON list of records."""
     with (FIXTURES_DIR / name).open(encoding="utf-8") as handle:
         data: list[dict[str, Any]] = json.load(handle)
     return data
+
+
+def load_fixture_dir(name: str) -> list[dict[str, Any]]:
+    """One record per file in fixtures/<name>/, read in file-name order."""
+    records: list[dict[str, Any]] = []
+    for path in sorted((FIXTURES_DIR / name).glob("*.json")):
+        with path.open(encoding="utf-8") as handle:
+            record: Any = json.load(handle)
+        if not isinstance(record, dict):
+            raise SeedError(f"{path.name}: expected one JSON object per file")
+        records.append(record)
+    return records
 
 
 def model_fields(item: dict[str, Any], exclude: tuple[str, ...]) -> dict[str, Any]:

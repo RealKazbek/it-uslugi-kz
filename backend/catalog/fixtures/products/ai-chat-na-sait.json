@@ -1,0 +1,98 @@
+{
+  "slug": "ai-chat-na-sait",
+  "category": "ai",
+  "title_ru": "ИИ-чат на сайт",
+  "title_kk": "Сайтқа арналған ИИ-чат",
+  "title_en": "AI chat widget for your website",
+  "short_ru": "Виджет-чат, который отвечает посетителям сайта по вашим материалам и собирает контакты.",
+  "short_kk": "Сайт келушілеріне сіздің материалдарыңыз бойынша жауап беріп, байланыс деректерін жинайтын чат-виджет.",
+  "short_en": "A chat widget that answers site visitors from your content and collects their contact details.",
+  "description_ru": "Небольшое окно чата встраивается в ваш сайт и отвечает посетителям на вопросы об услугах, ценах и сроках. Если человек готов к заказу, чат просит имя и телефон и присылает заявку вам в Telegram. Ответы строятся на текстах, которые вы предоставляете, а не на выдуманных сведениях.",
+  "description_kk": "Шағын чат терезесі сайтыңызға орнатылып, келушілердің қызмет, баға және мерзім туралы сұрақтарына жауап береді. Адам тапсырыс беруге дайын болса, чат есімі мен телефонын сұрап, өтінімді сізге Telegram-ға жібереді. Жауаптар сіз беретін мәтіндерге негізделеді, ойдан шығарылған мәліметке емес.",
+  "description_en": "A small chat window is embedded in your site and answers visitors' questions about services, prices and lead times. When someone is ready to order, the chat asks for a name and phone number and sends the request to your Telegram. Answers are built on the texts you provide rather than on invented facts.",
+  "for_whom_ru": "Для владельцев сайтов с трафиком, где посетители уходят, не найдя ответ на свой вопрос. Подойдёт услугам, интернет-магазинам и учебным центрам.",
+  "for_whom_kk": "Келушілер сұрағына жауап таппай кетіп қалатын, трафигі бар сайт иелеріне арналған. Қызмет саласына, интернет-дүкендерге және оқу орталықтарына қолайлы.",
+  "for_whom_en": "For site owners whose visitors leave without finding an answer. It fits service businesses, online shops and training centres.",
+  "includes_ru": [
+    "Виджет чата, оформленный под цвета вашего сайта",
+    "Встраивание в сайт одной вставкой кода или в ваш конструктор",
+    "Подключение языковой модели и серверной части",
+    "Ответы по материалам сайта и вашему прайсу",
+    "Сбор имени и телефона с отправкой заявки в Telegram",
+    "Ограничение тем, чтобы чат не уходил в посторонние разговоры",
+    "Проверка на телефоне и компьютере"
+  ],
+  "includes_kk": [
+    "Сайтыңыздың түсіне сәйкес безендірілген чат виджеті",
+    "Сайтқа бір код қыстырмасымен немесе сіздің конструкторға орнату",
+    "Тілдік модель мен серверлік бөлікті қосу",
+    "Сайт материалдары мен прайс бойынша жауаптар",
+    "Аты мен телефонын жинап, өтінімді Telegram-ға жіберу",
+    "Чат бөгде әңгімеге кетпеуі үшін тақырыптарды шектеу",
+    "Телефон мен компьютерде тексеру"
+  ],
+  "includes_en": [
+    "A chat widget styled to match your site colours",
+    "Embedding with a single code snippet or in your site builder",
+    "Language model and back-end connection",
+    "Answers based on your site content and price list",
+    "Collecting a name and phone number and sending the request to Telegram",
+    "Topic limits so the chat does not drift into unrelated conversation",
+    "Checks on phone and desktop"
+  ],
+  "not_included_ru": [
+    "Оплата запросов к языковой модели: счёт за использование API ваш",
+    "Создание самого сайта и его текстов: чату нужны готовые материалы",
+    "Гарантия, что нейросеть никогда не ошибётся: поэтому важные условия лучше дублировать на странице"
+  ],
+  "not_included_kk": [
+    "Тілдік модельге сұраулардың төлемі: API қолданысы үшін шот сіздікі",
+    "Сайттың өзін және оның мәтіндерін жасау: чатқа дайын материал керек",
+    "Нейрожелі ешқашан қателеспейді деген кепіл: сондықтан маңызды шарттарды бетте қайталаған жөн"
+  ],
+  "not_included_en": [
+    "Language model usage fees: the API bill is yours",
+    "Building the website itself or writing its texts, since the chat needs ready material",
+    "A promise that the network will never be wrong, which is why key terms should also be stated on the page"
+  ],
+  "price_from_kzt": 50000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "lending",
+    "ai-assistent-telegram",
+    "uvedomleniya-o-zayavkah"
+  ],
+  "is_active": true,
+  "sort": 31,
+  "faqs": [
+    {
+      "question_ru": "На какой сайт можно поставить чат?",
+      "question_kk": "Чатты қандай сайтқа орнатуға болады?",
+      "question_en": "What kind of site can the chat be added to?",
+      "answer_ru": "На любой, где можно вставить фрагмент кода: свой сайт, Tilda, WordPress и многие другие. Если вставка кода недоступна, я подскажу обходной путь.",
+      "answer_kk": "Код үзіндісін қыстыруға болатын кез келген сайтқа: өз сайтыңызға, Tilda-ға, WordPress-ке және басқаларға. Код қыстыру мүмкін болмаса, айналма жолын айтамын.",
+      "answer_en": "Any site where you can paste a code snippet: a custom site, Tilda, WordPress and many others. If code insertion is not available, I will suggest a workaround.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Чат заменит форму заявки?",
+      "question_kk": "Чат өтінім формасын алмастыра ма?",
+      "question_en": "Will the chat replace the contact form?",
+      "answer_ru": "Лучше оставить обе возможности: форма удобна тем, кто хочет написать сразу, а чат помогает тем, кто сомневается. Заявки из чата приходят вам в Telegram.",
+      "answer_kk": "Екеуін де қалдырған дұрыс: форма бірден жазғысы келетіндерге ыңғайлы, ал чат күмәнданатындарға көмектеседі. Чаттан түскен өтінімдер сізге Telegram-ға келеді.",
+      "answer_en": "It is better to keep both: the form suits people who want to write straight away, while the chat helps those who are unsure. Requests from the chat arrive in your Telegram.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Будут ли данные посетителей храниться у вас?",
+      "question_kk": "Келушілердің деректері сізде сақтала ма?",
+      "question_en": "Will you store my visitors' data?",
+      "answer_ru": "Серверная часть работает на вашем аккаунте хостинга или сервера, переписка уходит только в вашу Telegram-группу. Я не веду собственную базу посетителей.",
+      "answer_kk": "Серверлік бөлік сіздің хостинг немесе сервер аккаунтыңызда жұмыс істейді, хат алмасу тек сіздің Telegram тобыңызға түседі. Мен келушілердің өз базамды жүргізбеймін.",
+      "answer_en": "The back end runs under your own hosting or server account, and conversations go only to your Telegram group. I do not keep a visitor database of my own.",
+      "sort": 2
+    }
+  ]
+}

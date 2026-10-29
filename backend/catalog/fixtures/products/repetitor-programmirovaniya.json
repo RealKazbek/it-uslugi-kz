@@ -1,0 +1,95 @@
+{
+  "slug": "repetitor-programmirovaniya",
+  "category": "education",
+  "title_ru": "Репетитор по программированию для школьников",
+  "title_kk": "Мектеп оқушыларына бағдарламалау репетиторы",
+  "title_en": "Programming tutor for school students",
+  "short_ru": "Индивидуальные онлайн-занятия для школьников: логика, основы кода и небольшие проекты в удобном темпе.",
+  "short_kk": "Оқушыларға арналған жеке онлайн-сабақтар: логика, код негіздері және ыңғайлы қарқында шағын жобалар.",
+  "short_en": "One-to-one online lessons for school students: logic, coding basics and small projects at a comfortable pace.",
+  "description_ru": "Занятия для учеников примерно с 8 по 11 класс, которые хотят понять, как устроено программирование, или подтянуть школьную информатику. Я студент 3 курса Computer Engineering в IITU, объясняю на примерах и после каждого занятия оставляю небольшое задание. Программу составляем под ребёнка: начинаем с того, что ему интересно, например с игры или бота.",
+  "description_kk": "Бағдарламалаудың қалай құрылғанын түсінгісі келетін немесе мектеп информатикасын жақсартқысы келетін шамамен 8-11 сынып оқушыларына арналған сабақтар. Мен IITU-дың Computer Engineering мамандығының 3-курс студентімін, мысалдармен түсіндіремін және әр сабақтан кейін шағын тапсырма беремін. Бағдарламаны балаға қарай құрамыз: оған қызықты нәрседен, мысалы ойыннан немесе боттан бастаймыз.",
+  "description_en": "Lessons for students from roughly grades 8 to 11 who want to understand how programming works or catch up in school computer science. I am a third-year Computer Engineering student at IITU. I explain through examples and set a small task after every lesson. We build the plan around the student and start with what interests them, such as a small game or a bot.",
+  "for_whom_ru": "Родителям школьников, которым нужен спокойный индивидуальный формат вместо большой группы, и самим старшеклассникам.",
+  "for_whom_kk": "Үлкен топтың орнына тыныш жеке форматты қалайтын оқушылардың ата-аналарына және жоғары сынып оқушыларының өздеріне арналған.",
+  "for_whom_en": "For parents of school students who prefer a calm one-to-one format to a large group, and for older students themselves.",
+  "includes_ru": [
+    "Индивидуальное занятие по видеосвязи, около часа",
+    "Первое знакомство: выясняем уровень и цель ученика",
+    "Алгоритмы и логика: условия, циклы, функции",
+    "Практика в Python с разбором ошибок на месте",
+    "Небольшой проект по интересам: игра, бот или калькулятор",
+    "Домашнее задание после занятия и разбор перед следующим"
+  ],
+  "includes_kk": [
+    "Бейнебайланыс арқылы жеке сабақ, шамамен бір сағат",
+    "Алғашқы танысу: оқушының деңгейі мен мақсатын анықтаймыз",
+    "Алгоритмдер мен логика: шарттар, циклдар, функциялар",
+    "Python-да практика және қателерді сол жерде талдау",
+    "Қызығушылыққа қарай шағын жоба: ойын, бот немесе калькулятор",
+    "Сабақтан кейін үй тапсырмасы және келесі сабақ алдында талдау"
+  ],
+  "includes_en": [
+    "A one-to-one video lesson of about an hour",
+    "An intro session to find out the student level and goal",
+    "Algorithms and logic: conditions, loops, functions",
+    "Hands-on practice in Python with mistakes reviewed on the spot",
+    "A small project based on interests: a game, a bot or a calculator",
+    "Homework after each lesson, reviewed before the next one"
+  ],
+  "not_included_ru": [
+    "Гарантия оценок, баллов на экзамене или места на олимпиаде",
+    "Подготовка к ЕНТ по всем предметам: занятия только по информатике и коду",
+    "Очные занятия: проходят онлайн, в Алматы возможна встреча по договорённости"
+  ],
+  "not_included_kk": [
+    "Бағаға, емтихандағы балға немесе олимпиададағы орынға кепілдік",
+    "Барлық пәндер бойынша ҰБТ-ға дайындық: сабақтар тек информатика мен код бойынша",
+    "Бетпе-бет сабақтар: онлайн өтеді, Алматыда келісім бойынша кездесуге болады"
+  ],
+  "not_included_en": [
+    "Any guarantee of grades, exam scores or olympiad results",
+    "Full preparation for the national entrance exam across all subjects; lessons cover computer science and coding only",
+    "In-person lessons; they run online, with a meeting in Almaty possible by agreement"
+  ],
+  "price_from_kzt": 4000,
+  "unit": "lesson",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "python-s-nulya",
+    "veb-razrabotka-dlya-nachinayushih",
+    "kompyuternaya-gramotnost"
+  ],
+  "is_active": true,
+  "sort": 55,
+  "faqs": [
+    {
+      "question_ru": "С какого возраста можно начинать?",
+      "question_kk": "Қай жастан бастауға болады?",
+      "question_en": "From what age can a child start?",
+      "answer_ru": "Лучше всего подходит возраст от 13 лет, когда уже есть школьная математика и усидчивость. Для младших я сначала провожу пробное знакомство и честно скажу, рано ли.",
+      "answer_kk": "Мектеп математикасы мен төзімділік пайда болған 13 жастан бастау жақсы. Кішілерге алдымен сынақ танысу өткіземін және әлі ерте болса, ашық айтамын.",
+      "answer_en": "Around 13 and up works best, when school maths and the ability to focus are in place. For younger children I run an intro session first and will tell you honestly if it is too early.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как проходят занятия онлайн?",
+      "question_kk": "Онлайн сабақ қалай өтеді?",
+      "question_en": "How do online lessons work?",
+      "answer_ru": "Мы заходим в видеозвонок, ученик показывает экран, и я вижу его код. Время подбираем под расписание, я живу в Алматы (UTC+5).",
+      "answer_kk": "Біз бейнеқоңырауға кіреміз, оқушы экранын көрсетеді, мен оның кодын көремін. Уақытты кестеге қарай таңдаймыз, мен Алматыда тұрамын (UTC+5).",
+      "answer_en": "We join a video call, the student shares their screen and I can see their code. We choose times around your schedule; I am based in Almaty (UTC+5).",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужно ли покупать курс или программу?",
+      "question_kk": "Курс немесе бағдарлама сатып алу керек пе?",
+      "question_en": "Do we need to buy a course or software?",
+      "answer_ru": "Нет. Мы пользуемся бесплатными инструментами: Python и редактором кода. Нужен только компьютер с интернетом.",
+      "answer_kk": "Жоқ. Тегін құралдарды пайдаланамыз: Python және код редакторы. Тек интернеті бар компьютер қажет.",
+      "answer_en": "No. We use free tools: Python and a code editor. All you need is a computer with internet access.",
+      "sort": 2
+    }
+  ]
+}

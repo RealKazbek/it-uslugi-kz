@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-stroitelnoi-kompanii",
+  "category": "websites",
+  "title_ru": "Сайт для строительной компании",
+  "title_kk": "Құрылыс компаниясына арналған сайт",
+  "title_en": "Website for a construction company",
+  "short_ru": "Портфолио объектов, этапы работ, калькулятор ориентировочной стоимости и заявка на расчёт.",
+  "short_kk": "Объект портфолиосы, жұмыс кезеңдері, шамамен құн калькуляторы және есептеуге өтінім.",
+  "short_en": "Project portfolio, work stages, an indicative cost calculator and a request-a-quote form.",
+  "description_ru": "Строительство и ремонт покупают на доверии: клиент хочет увидеть готовые объекты, понять порядок работ и примерный бюджет. Сайт показывает портфолио с описанием каждого объекта, этапы от замеров до сдачи и позволяет оставить заявку на расчёт. Калькулятор даёт ориентир, а не окончательную смету.",
+  "description_kk": "Құрылыс пен жөндеуді сенім арқылы сатып алады: клиент дайын объектілерді көріп, жұмыс тәртібі мен шамамен бюджетті түсінгісі келеді. Сайт әр объектінің сипаттамасы бар портфолионы, өлшеуден тапсыруға дейінгі кезеңдерді көрсетіп, есептеуге өтінім қалдыруға мүмкіндік береді. Калькулятор бағдар береді, түпкілікті смета емес.",
+  "description_en": "Construction and renovation are bought on trust: the client wants to see finished projects, understand the sequence of work and a rough budget. The site shows a portfolio with details of each project, the stages from measurements to handover, and a form to request an estimate. The calculator gives a guideline, not a final quote.",
+  "for_whom_ru": "Строительным бригадам и компаниям, которые делают ремонт и строительство и хотят показывать объекты вместо пересылки фото в мессенджерах.",
+  "for_whom_kk": "Жөндеу мен құрылыс жасайтын және суретті мессенджерде жібермей, объектілерін сайтта көрсеткісі келетін құрылыс бригадалары мен компанияларына.",
+  "for_whom_en": "For building crews and companies doing renovation and construction who want to show projects instead of sending photos in messengers.",
+  "includes_ru": [
+    "Портфолио объектов: фото, площадь, срок, перечень работ",
+    "Страницы направлений: ремонт квартир, дома под ключ, кровля, отделка",
+    "Блок «Этапы работы»: замер, смета, договорённость, выполнение, приёмка",
+    "Калькулятор ориентировочной стоимости по площади и типу ремонта",
+    "Форма заявки на выезд и расчёт с загрузкой плана или фото",
+    "Раздел «О компании»: команда, техника, лицензии и допуски, если они у вас есть",
+    "Карта, контакты и кнопка WhatsApp"
+  ],
+  "includes_kk": [
+    "Объект портфолиосы: сурет, ауданы, мерзімі, жұмыс тізімі",
+    "Бағыт беттері: пәтер жөндеу, үйді кілтпен тапсыру, шатыр, әрлеу",
+    "«Жұмыс кезеңдері» блогы: өлшеу, смета, келісу, орындау, қабылдау",
+    "Ауданы мен жөндеу түріне қарай шамамен құн калькуляторы",
+    "Жоспар не сурет жүктейтін шығу және есептеу өтінімі",
+    "«Компания туралы» бөлімі: команда, техника, лицензия мен рұқсат (болса)",
+    "Карта, байланыс және WhatsApp батырмасы"
+  ],
+  "includes_en": [
+    "Project portfolio with photos, area, duration and scope of work",
+    "Pages per direction: apartment renovation, turnkey houses, roofing, finishing",
+    "\"How we work\" block: measurement, estimate, agreement, works, handover",
+    "Indicative cost calculator based on area and type of renovation",
+    "Quote request form with an upload for a floor plan or photos",
+    "About section: team, equipment, licences and permits where you hold them",
+    "Map, contacts and a WhatsApp button"
+  ],
+  "not_included_ru": [
+    "Фото объектов и данные по ним даёте вы",
+    "Точная смета: калькулятор показывает только ориентир",
+    "Дизайн-проект интерьера и 3D-визуализации"
+  ],
+  "not_included_kk": [
+    "Объект суреттері мен олар туралы деректі өзіңіз бересіз",
+    "Нақты смета: калькулятор тек бағдарды көрсетеді",
+    "Интерьер дизайн-жобасы және 3D-визуализация"
+  ],
+  "not_included_en": [
+    "Project photos and data come from you",
+    "A precise quote: the calculator only shows a guideline",
+    "Interior design projects and 3D visualisations"
+  ],
+  "price_from_kzt": 70000,
+  "unit": "once",
+  "days_min": 7,
+  "days_max": 14,
+  "related": [
+    "sait-dlya-agentstva-nedvizhimosti",
+    "zayavki-v-google-sheets",
+    "kartochka-2gis-google-maps"
+  ],
+  "is_active": true,
+  "sort": 8,
+  "faqs": [
+    {
+      "question_ru": "Насколько точен калькулятор стоимости?",
+      "question_kk": "Құн калькуляторы қаншалықты дәл?",
+      "question_en": "How accurate is the cost calculator?",
+      "answer_ru": "Он считает по вашим базовым расценкам за квадратный метр и показывает диапазон. Окончательную цену вы называете после замеров, и на сайте это написано прямо.",
+      "answer_kk": "Ол сіздің шаршы метр үшін негізгі бағаңыз бойынша есептеп, ауқымды көрсетеді. Түпкілікті бағаны өлшеуден кейін өзіңіз айтасыз, мұны сайтта ашық жазамын.",
+      "answer_en": "It works from your base rates per square metre and shows a range. You give the final price after measuring, and the site says so openly.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что делать, если портфолио ещё небольшое?",
+      "question_kk": "Портфолио әлі аз болса, не істеу керек?",
+      "question_en": "What if my portfolio is still small?",
+      "answer_ru": "Начнём с 3-5 лучших объектов с честным описанием. Добавлять новые работы просто, поэтому портфолио будет расти вместе с вами.",
+      "answer_kk": "3-5 үздік объектіден адал сипаттамамен бастаймыз. Жаңа жұмыстарды қосу оңай, сондықтан портфолио сізбен бірге өсе береді.",
+      "answer_en": "We start with your 3-5 best projects and an honest description of each. New work is easy to add, so the portfolio grows with you.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли показать лицензии и допуски?",
+      "question_kk": "Лицензия мен рұқсаттарды көрсетуге бола ма?",
+      "question_en": "Can licences and permits be displayed?",
+      "answer_ru": "Да, если они у вас есть: разместим сканы или номера в разделе «О компании». Указывать то, чего нет, я не буду.",
+      "answer_kk": "Иә, болса, «Компания туралы» бөліміне скан не нөмірлерін орналастырамыз. Жоқ нәрсені көрсетпеймін.",
+      "answer_en": "Yes, if you hold them: we place scans or numbers in the About section. I will not add anything you do not actually have.",
+      "sort": 2
+    }
+  ]
+}

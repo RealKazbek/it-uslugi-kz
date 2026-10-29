@@ -1,0 +1,98 @@
+{
+  "slug": "korporativnyi-sait",
+  "category": "websites",
+  "title_ru": "Корпоративный сайт компании",
+  "title_kk": "Компанияның корпоративтік сайты",
+  "title_en": "Corporate company website",
+  "short_ru": "Многостраничный сайт с каталогом услуг, новостями и панелью, где вы сами правите контент.",
+  "short_kk": "Қызмет каталогы, жаңалықтары бар көпбетті сайт және мазмұнды өзіңіз өзгертетін панель.",
+  "short_en": "A multi-page company site with a service catalogue, news and an admin panel to edit content yourself.",
+  "description_ru": "Полноценный сайт для компании с несколькими направлениями: отдельные страницы услуг, команда, новости, документы и контакты. Мы продумываем структуру под ваши продажи и делаем так, чтобы персонал мог сам обновлять тексты и цены без программиста. Подходит компаниям, которым сайт нужен как основной канал доверия.",
+  "description_kk": "Бірнеше бағыты бар компанияға арналған толыққанды сайт: қызметтердің жеке беттері, команда, жаңалықтар, құжаттар және байланыс. Құрылымды сатылымыңызға сай ойластырып, қызметкерлер мәтін мен бағаны бағдарламашысыз өзі жаңарта алатындай етеміз. Сайт сенім берудің негізгі арнасы болатын компанияларға жарайды.",
+  "description_en": "A full website for a company with several lines of business: separate service pages, team, news, documents and contacts. We plan the structure around how you sell, and set it up so your staff can update texts and prices without a developer. It suits companies for which the website is the main way to build trust.",
+  "for_whom_ru": "Компаниям с несколькими услугами или отделами, которым нужен солидный сайт и возможность обновлять его самостоятельно.",
+  "for_whom_kk": "Бірнеше қызметі не бөлімі бар, мықты сайт пен оны өз бетінше жаңарту мүмкіндігі керек компанияларға.",
+  "for_whom_en": "For companies with several services or departments that need a credible site they can update on their own.",
+  "includes_ru": [
+    "Структура сайта на 8-15 страниц и карта разделов",
+    "Индивидуальный дизайн по вашему фирменному стилю",
+    "Отдельные страницы услуг с формой заявки",
+    "Раздел новостей или блога и страница команды",
+    "Панель управления: правка текстов, цен и фото без программиста",
+    "Версия на втором языке (русский и казахский) по договорённости",
+    "Базовая SEO-настройка: заголовки, карта сайта, скорость загрузки"
+  ],
+  "includes_kk": [
+    "8-15 беттік сайт құрылымы және бөлімдер картасы",
+    "Фирмалық стиліңізге сай жеке дизайн",
+    "Өтінім формасы бар қызметтердің жеке беттері",
+    "Жаңалықтар немесе блог бөлімі және команда беті",
+    "Басқару панелі: мәтін, баға, суретті бағдарламашысыз өзгерту",
+    "Екінші тіл нұсқасы (орыс және қазақ) келісім бойынша",
+    "Негізгі SEO баптауы: тақырыптар, сайт картасы, жүктелу жылдамдығы"
+  ],
+  "includes_en": [
+    "A 8-15 page site structure and section map",
+    "Custom design built on your brand style",
+    "Dedicated service pages, each with an enquiry form",
+    "News or blog section and a team page",
+    "Admin panel to edit texts, prices and photos without a developer",
+    "Second-language version (Russian and Kazakh) by agreement",
+    "Basic SEO setup: titles, sitemap, page speed"
+  ],
+  "not_included_ru": [
+    "Написание всех текстов и съёмка фото (материалы даёте вы)",
+    "Интернет-магазин с корзиной и оплатой",
+    "Продвижение сайта в поиске, оно оформляется отдельной услугой"
+  ],
+  "not_included_kk": [
+    "Барлық мәтінді жазу және фотоға түсіру (материалды өзіңіз бересіз)",
+    "Себеті мен төлемі бар интернет-дүкен",
+    "Сайтты іздеуде жылжыту, ол бөлек қызмет ретінде рәсімделеді"
+  ],
+  "not_included_en": [
+    "Writing all the copy and taking photos (you supply the materials)",
+    "Online shop with cart and payment",
+    "Search promotion, which is a separate service"
+  ],
+  "price_from_kzt": 120000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 20,
+  "related": [
+    "crm-dlya-malogo-biznesa",
+    "seo-prodvizhenie",
+    "podderzhka-saita"
+  ],
+  "is_active": true,
+  "sort": 2,
+  "faqs": [
+    {
+      "question_ru": "Смогут ли мои сотрудники сами менять контент?",
+      "question_kk": "Қызметкерлерім контентті өзі өзгерте ала ма?",
+      "question_en": "Can my staff edit the content themselves?",
+      "answer_ru": "Да. В панели управления правятся тексты, цены, фото и новости. После сдачи проведу короткое обучение и оставлю инструкцию.",
+      "answer_kk": "Иә. Басқару панелінде мәтін, баға, сурет және жаңалықтарды өзгертуге болады. Тапсырғаннан кейін қысқа оқыту өткізіп, нұсқаулық қалдырамын.",
+      "answer_en": "Yes. The admin panel lets you edit texts, prices, photos and news. After delivery I give a short walkthrough and leave written instructions.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Из чего складывается срок 10-20 дней?",
+      "question_kk": "10-20 күн мерзімі неден тұрады?",
+      "question_en": "Why does it take 10-20 working days?",
+      "answer_ru": "Больше всего времени уходит на согласование структуры и сбор материалов. Чем быстрее вы присылаете тексты и фото, тем ближе срок к нижней границе.",
+      "answer_kk": "Ең көп уақыт құрылымды келісуге және материал жинауға кетеді. Мәтін мен суретті қаншалықты тез жіберсеңіз, мерзім төменгі шекке соншалықты жақын болады.",
+      "answer_en": "Most of the time goes into agreeing the structure and collecting materials. The sooner you send texts and photos, the closer it gets to the lower end.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Есть ли в цене подключение заявок к CRM?",
+      "question_kk": "Бағаға өтінімдерді CRM-ге қосу кіре ме?",
+      "question_en": "Is CRM integration included?",
+      "answer_ru": "Заявки по умолчанию приходят в Telegram и на почту. Передача в CRM или Google Sheets возможна как отдельная настройка по договорённости.",
+      "answer_kk": "Өтінімдер әдепкіде Telegram мен поштаға келеді. CRM немесе Google Sheets-ке жіберу келісім бойынша бөлек баптау ретінде жасалады.",
+      "answer_en": "By default, requests go to Telegram and email. Passing them to a CRM or Google Sheets is a separate setup by agreement.",
+      "sort": 2
+    }
+  ]
+}

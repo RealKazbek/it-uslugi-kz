@@ -1,0 +1,98 @@
+{
+  "slug": "sait-vizitka",
+  "category": "websites",
+  "title_ru": "Сайт-визитка",
+  "title_kk": "Визитка-сайт",
+  "title_en": "Business-card website",
+  "short_ru": "Небольшой сайт из 3-5 страниц: кто вы, что делаете, цены и как с вами связаться.",
+  "short_kk": "Үш-бес беттік шағын сайт: сіз кімсіз, не істейсіз, бағалар және байланыс.",
+  "short_en": "A compact 3-5 page site: who you are, what you do, prices and how to reach you.",
+  "description_ru": "Сайт-визитка нужен, чтобы клиент, найдя вас в Instagram, 2GIS или Google, увидел аккуратный адрес с описанием услуг и контактами. Это недорогой первый сайт для небольшого бизнеса, мастера или специалиста. Его можно позже расширить до полноценного корпоративного сайта.",
+  "description_kk": "Визитка-сайт сізді Instagram, 2GIS немесе Google-дан тапқан клиент қызмет сипаттамасы мен байланысы бар ыңғайлы мекенжайды көруі үшін керек. Бұл шағын бизнеске, шеберге не маманға арналған арзан алғашқы сайт. Кейін оны толыққанды корпоративтік сайтқа дейін кеңейтуге болады.",
+  "description_en": "A business-card site gives a customer who finds you on Instagram, 2GIS or Google a tidy address with your services and contacts. It is an affordable first website for a small business, tradesperson or freelancer, and it can later grow into a full company site.",
+  "for_whom_ru": "Небольшому бизнесу, мастерам и специалистам, у которых пока нет сайта, а клиенты просят «скинуть ссылку».",
+  "for_whom_kk": "Сайты жоқ, клиенттері «сілтеме жіберші» деп сұрайтын шағын бизнеске, шеберлер мен мамандарға.",
+  "for_whom_en": "For small businesses and independent specialists who have no website yet and keep being asked for a link.",
+  "includes_ru": [
+    "Главная, «Услуги», «О нас» и «Контакты» (до 5 страниц)",
+    "Современный адаптивный дизайн",
+    "Карта проезда и ссылки на 2GIS, Instagram, WhatsApp",
+    "Простая форма обратной связи",
+    "Фавикон и превью для мессенджеров",
+    "Подключение вашего домена и SSL-сертификата",
+    "Короткая инструкция, как просить правки"
+  ],
+  "includes_kk": [
+    "Басты бет, «Қызметтер», «Біз туралы» және «Байланыс» (5 бетке дейін)",
+    "Заманауи бейімделген дизайн",
+    "Карта және 2GIS, Instagram, WhatsApp сілтемелері",
+    "Қарапайым кері байланыс формасы",
+    "Фавикон және мессенджерге арналған превью",
+    "Доменіңіз бен SSL-сертификатты қосу",
+    "Түзету сұрау жөніндегі қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Home, Services, About and Contacts pages (up to 5 pages)",
+    "Clean responsive design",
+    "Map plus links to 2GIS (a local business directory), Instagram and WhatsApp",
+    "Simple contact form",
+    "Favicon and link previews for messengers",
+    "Your domain connected with an SSL certificate",
+    "A short guide on how to request edits"
+  ],
+  "not_included_ru": [
+    "Тексты и фото предоставляете вы",
+    "Интернет-магазин и онлайн-оплата",
+    "Регистрация домена и оплата хостинга"
+  ],
+  "not_included_kk": [
+    "Мәтін мен суретті өзіңіз бересіз",
+    "Интернет-дүкен және онлайн-төлем",
+    "Доменді тіркеу және хостинг ақысы"
+  ],
+  "not_included_en": [
+    "Copy and photos come from you",
+    "Online shop and online payments",
+    "Domain registration and hosting fees"
+  ],
+  "price_from_kzt": 35000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 6,
+  "related": [
+    "korporativnyi-sait",
+    "kartochka-2gis-google-maps",
+    "domen-hosting-ssl"
+  ],
+  "is_active": true,
+  "sort": 1,
+  "faqs": [
+    {
+      "question_ru": "Хватит ли визитки, если я продаю только в Instagram?",
+      "question_kk": "Instagram-да ғана сатсам, визитка жеткілікті ме?",
+      "question_en": "Is a business-card site enough if I sell only through Instagram?",
+      "answer_ru": "Да, как постоянный адрес с прайсом и контактами. Instagram меняется, а сайт принадлежит вам, и его находят через поиск. Заказы по-прежнему могут приходить в WhatsApp.",
+      "answer_kk": "Иә, баға мен байланысы бар тұрақты мекенжай ретінде жеткілікті. Instagram өзгереді, ал сайт өзіңізге тиесілі және оны іздеу арқылы табады. Тапсырыстар бұрынғыдай WhatsApp-қа келе береді.",
+      "answer_en": "Yes, as a permanent address with prices and contacts. Instagram changes, while the site belongs to you and can be found through search. Orders can still arrive on WhatsApp.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли потом добавить страницы?",
+      "question_kk": "Кейін бет қосуға бола ма?",
+      "question_en": "Can pages be added later?",
+      "answer_ru": "Да. Структуру делаю так, чтобы новые разделы добавлялись без переделки. Дополнительные страницы оцениваются отдельно.",
+      "answer_kk": "Иә. Құрылымды жаңа бөлімдер қайта жасамай қосылатындай етіп жасаймын. Қосымша беттер бөлек бағаланады.",
+      "answer_en": "Yes. The structure is built so new sections can be added without a rebuild. Extra pages are quoted separately.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Кто будет держать домен?",
+      "question_kk": "Доменді кім ұстайды?",
+      "question_en": "Who owns the domain?",
+      "answer_ru": "Домен регистрируется на вас, я только помогаю с настройкой. Так сайт остаётся вашим, даже если мы перестанем работать вместе.",
+      "answer_kk": "Домен өзіңізге тіркеледі, мен тек баптауға көмектесемін. Сонда бірге жұмыс істемей қалсақ та, сайт өзіңізде қалады.",
+      "answer_en": "The domain is registered in your name and I only help with the setup. That way the site stays yours even if we stop working together.",
+      "sort": 2
+    }
+  ]
+}

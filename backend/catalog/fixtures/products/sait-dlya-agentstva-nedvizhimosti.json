@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-agentstva-nedvizhimosti",
+  "category": "websites",
+  "title_ru": "Сайт для агентства недвижимости",
+  "title_kk": "Жылжымайтын мүлік агенттігіне арналған сайт",
+  "title_en": "Website for a real estate agency",
+  "short_ru": "Каталог объектов с фильтрами по району, цене и комнатам, страницы агентов и заявка на показ.",
+  "short_kk": "Аудан, баға және бөлме бойынша сүзгісі бар объект каталогы, агент беттері және көрсетуге өтінім.",
+  "short_en": "A property catalogue with filters by district, price and rooms, agent pages and viewing requests.",
+  "description_ru": "Покупатель и арендатор приходят за конкретным объектом: район, комнаты, цена. Сайт хранит каталог с удобными фильтрами, у каждого объекта есть своя страница с фотографиями и картой, а заявка на показ приходит нужному агенту. Объекты добавляются через простую панель, без программиста.",
+  "description_kk": "Сатып алушы мен жалға алушы нақты объект үшін келеді: аудан, бөлме, баға. Сайт ыңғайлы сүзгісі бар каталогты сақтайды, әр объектінің суреттері мен картасы бар жеке беті болады, ал көрсетуге өтінім қажетті агентке келеді. Объектілер қарапайым панель арқылы, бағдарламашысыз қосылады.",
+  "description_en": "Buyers and renters come looking for a specific property: district, rooms, price. The site holds a catalogue with convenient filters, each listing has its own page with photos and a map, and a viewing request goes to the right agent. Listings are added through a simple panel with no developer needed.",
+  "for_whom_ru": "Агентствам и частным риелторам, которые хотят свой каталог объектов вместо ссылок на чужие площадки.",
+  "for_whom_kk": "Басқа алаңдарға сілтеме берудің орнына өз объект каталогын қалайтын агенттіктер мен жеке риелторларға.",
+  "for_whom_en": "For agencies and independent realtors who want their own property catalogue instead of only linking to third-party portals.",
+  "includes_ru": [
+    "Каталог объектов с фильтрами: район, цена, комнаты, тип сделки",
+    "Страница объекта: галерея, характеристики, карта, цена",
+    "Панель, где агенты сами добавляют и снимают объекты",
+    "Страницы агентов с контактами и их объектами",
+    "Заявка на показ, адресованная ответственному агенту",
+    "Разделы «Продать» и «Сдать» с формой оценки объекта",
+    "Кнопка «Написать в WhatsApp» на каждом объекте с названием и ссылкой"
+  ],
+  "includes_kk": [
+    "Сүзгілі объект каталогы: аудан, баға, бөлме, мәміле түрі",
+    "Объект беті: галерея, сипаттама, карта, баға",
+    "Агенттер объектілерді өзі қосып, алып тастайтын панель",
+    "Байланысы мен объектілері бар агент беттері",
+    "Жауапты агентке бағытталған көрсетуге өтінім",
+    "Объектіні бағалау формасы бар «Сату» және «Жалға беру» бөлімдері",
+    "Әр объектіде атауы мен сілтемесі бар «WhatsApp-қа жазу» батырмасы"
+  ],
+  "includes_en": [
+    "Property catalogue with filters: district, price, rooms, deal type",
+    "Listing page with gallery, details, map and price",
+    "Panel where agents add and remove listings themselves",
+    "Agent pages with contacts and their listings",
+    "Viewing request routed to the responsible agent",
+    "Sell and Rent sections with a property valuation request form",
+    "A WhatsApp button on every listing with its name and link"
+  ],
+  "not_included_ru": [
+    "Фото и описания объектов предоставляют агенты",
+    "Автоматическая выгрузка на Krisha.kz и другие площадки (отдельная интеграция)",
+    "Юридическое сопровождение сделок"
+  ],
+  "not_included_kk": [
+    "Объект суреттері мен сипаттамасын агенттер береді",
+    "Krisha.kz және басқа алаңдарға автоматты жүктеу (бөлек интеграция)",
+    "Мәмілелерді заңгерлік сүйемелдеу"
+  ],
+  "not_included_en": [
+    "Photos and descriptions of listings come from the agents",
+    "Automatic export to Krisha.kz and other listing portals (a separate integration)",
+    "Legal support for transactions"
+  ],
+  "price_from_kzt": 80000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 15,
+  "related": [
+    "veb-prilozhenie",
+    "parsing-dannyh",
+    "seo-prodvizhenie"
+  ],
+  "is_active": true,
+  "sort": 10,
+  "faqs": [
+    {
+      "question_ru": "Кто добавляет объекты на сайт?",
+      "question_kk": "Объектілерді сайтқа кім қосады?",
+      "question_en": "Who adds listings to the site?",
+      "answer_ru": "Агенты сами, через панель с логином: заполняют форму, загружают фото, и объект появляется в каталоге. Проданные можно скрыть одним нажатием.",
+      "answer_kk": "Агенттердің өздері логинмен панель арқылы: форманы толтырып, сурет жүктейді, сонда объект каталогта пайда болады. Сатылғанын бір басумен жасыруға болады.",
+      "answer_en": "The agents themselves, through a login panel: they fill in a form, upload photos and the listing appears in the catalogue. Sold properties can be hidden with one click.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Чем сайт лучше объявлений на Krisha.kz?",
+      "question_kk": "Сайт Krisha.kz хабарландыруларынан немен артық?",
+      "question_en": "Why have a site if I already post on Krisha.kz?",
+      "answer_ru": "Объявления на площадке видны рядом с конкурентами, а на вашем сайте клиент видит только ваши объекты, агентов и контакты. Он дополняет объявления, а не заменяет их.",
+      "answer_kk": "Алаңдағы хабарландыру бәсекелестермен қатар тұрады, ал сіздің сайтыңызда клиент тек сіздің объектілеріңіз, агенттеріңіз бен байланысыңызды көреді. Ол хабарландыруды алмастырмайды, толықтырады.",
+      "answer_en": "Listings on a portal sit next to competitors, while on your own site the client sees only your properties, agents and contacts. It complements portal ads rather than replacing them.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Сколько объектов выдержит каталог?",
+      "question_kk": "Каталог қанша объектіні көтереді?",
+      "question_en": "How many listings can the catalogue handle?",
+      "answer_ru": "Сотни объектов без проблем: фото сжимаются, страницы остаются быстрыми. Для тысяч объектов обсудим другую схему хранения.",
+      "answer_kk": "Жүздеген объект қиындықсыз: суреттер сығылады, беттер жылдам болып қалады. Мыңдаған объект үшін басқа сақтау схемасын талқылаймыз.",
+      "answer_en": "Hundreds of listings are fine: photos are compressed and pages stay fast. For thousands we would discuss a different storage setup.",
+      "sort": 2
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "telegram-bot-katalog",
+  "category": "bots",
+  "title_ru": "Telegram-бот с каталогом",
+  "title_kk": "Каталогы бар Telegram-бот",
+  "title_en": "Telegram catalog bot",
+  "short_ru": "Бот-витрина: категории, карточки товаров с фото и кнопка «Заказать».",
+  "short_kk": "Бот-витрина: санаттар, фотосы бар тауар карточкалары және «Тапсырыс беру» батырмасы.",
+  "short_en": "A storefront bot with categories, product cards with photos and an Order button.",
+  "description_ru": "Покупатель листает категории, смотрит фото, цену и описание и нажимает «Заказать». Вам приходит сообщение с названием товара и контактом клиента. Каталог берётся из таблицы, поэтому вы меняете цены в привычном Excel или Google Таблице, а не просите программиста.",
+  "description_kk": "Сатып алушы санаттарды парақтап, фотоны, бағаны және сипаттаманы қарап, «Тапсырыс беру» батырмасын басады. Сізге тауар атауы мен клиент байланысы бар хабарлама келеді. Каталог кестеден алынады, сондықтан бағаны бағдарламашыдан сұрамай, әдеттегі Excel немесе Google кестесінде өзгертесіз.",
+  "description_en": "The buyer browses categories, looks at the photo, price and description, and taps Order. You get a message with the product name and the customer contact. The catalog is read from a spreadsheet, so you change prices in the familiar Excel or Google Sheets instead of asking a programmer.",
+  "for_whom_ru": "Для небольших магазинов и продавцов, у которых ассортимент до пары сотен позиций и покупатели общаются в Telegram. Это замена бесконечным альбомам и пересылке фото в личку.",
+  "for_whom_kk": "Ассортименті екі жүздей позицияға дейінгі және сатып алушылары Telegram-да сөйлесетін шағын дүкендер мен сатушыларға арналған. Шексіз альбомдар мен суретті жеке хабарға жіберудің орнын басады.",
+  "for_whom_en": "For small shops and sellers with a range of up to a couple of hundred items whose buyers talk in Telegram. It replaces endless photo albums and forwarding pictures in private messages.",
+  "includes_ru": [
+    "Дерево категорий и карточки товаров с фото, ценой и описанием",
+    "Листание карточек кнопками и поиск по названию",
+    "Каталог из Google Таблицы, которую вы правите сами",
+    "Кнопка «Заказать» с уточнением количества и контакта",
+    "Уведомление о новом заказе вам в Telegram",
+    "Разработка на Python и aiogram, запуск на сервере"
+  ],
+  "includes_kk": [
+    "Санаттар ағашы және фотосы, бағасы мен сипаттамасы бар тауар карточкалары",
+    "Карточкаларды батырмамен парақтау және атау бойынша іздеу",
+    "Өзіңіз түзететін Google кестесінен алынатын каталог",
+    "Санын және байланысты нақтылайтын «Тапсырыс беру» батырмасы",
+    "Жаңа тапсырыс туралы сізге Telegram-да хабарлама",
+    "Python мен aiogram-да әзірлеу, серверде іске қосу"
+  ],
+  "includes_en": [
+    "Category tree and product cards with photo, price and description",
+    "Browsing by buttons and search by name",
+    "A catalog read from a Google Sheet that you edit yourself",
+    "An Order button that asks for quantity and contact",
+    "Alert about each new order in your Telegram",
+    "Built with Python and aiogram and deployed on a server"
+  ],
+  "not_included_ru": [
+    "Фото, названия и описания товаров: предоставляете вы",
+    "Корзина на много позиций и онлайн-оплата: для этого лучше Telegram Mini App",
+    "Сервер для бота: оформляется на вас и оплачивается по тарифу провайдера"
+  ],
+  "not_included_kk": [
+    "Тауар фотосуреттері, атаулары мен сипаттамалары: оларды сіз ұсынасыз",
+    "Көп позициялы себет және онлайн төлем: ол үшін Telegram Mini App дұрысырақ",
+    "Бот сервері: сіздің атыңызға ресімделеді, провайдер тарифімен төленеді"
+  ],
+  "not_included_en": [
+    "Product photos, names and descriptions, which you provide",
+    "A multi-item cart and online payment, for which a Telegram Mini App is a better fit",
+    "The server for the bot, set up in your name and paid at the provider rate"
+  ],
+  "price_from_kzt": 50000,
+  "unit": "once",
+  "days_min": 7,
+  "days_max": 12,
+  "related": [
+    "telegram-mini-app-magazin",
+    "katalog-s-zakazom-v-whatsapp",
+    "telegram-bot-dostavka"
+  ],
+  "is_active": true,
+  "sort": 23,
+  "faqs": [
+    {
+      "question_ru": "Сколько товаров можно загрузить?",
+      "question_kk": "Қанша тауар жүктеуге болады?",
+      "question_en": "How many products can it hold?",
+      "answer_ru": "Несколько сотен позиций работают без проблем. Для тысяч товаров с фильтрами удобнее Mini App или интернет-магазин, и я скажу об этом сразу.",
+      "answer_kk": "Бірнеше жүз позиция қиындықсыз жұмыс істейді. Сүзгілері бар мыңдаған тауарға Mini App немесе интернет-дүкен ыңғайлырақ, мұны бірден айтамын.",
+      "answer_en": "A few hundred items work without trouble. For thousands of products with filters a Mini App or an online store is more convenient, and I will say so up front.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как обновлять цены?",
+      "question_kk": "Бағаны қалай жаңартуға болады?",
+      "question_en": "How do I update prices?",
+      "answer_ru": "Вы правите ячейки в Google Таблице, и бот при следующем обновлении показывает новые значения. Менять код не нужно.",
+      "answer_kk": "Google кестесіндегі ұяшықтарды түзетесіз, бот келесі жаңартуда жаңа мәндерді көрсетеді. Кодты өзгертудің қажеті жоқ.",
+      "answer_en": "You edit cells in the Google Sheet and the bot shows the new values on its next refresh. No code needs changing.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Как оплачивается заказ?",
+      "question_kk": "Тапсырыс қалай төленеді?",
+      "question_en": "How is an order paid for?",
+      "answer_ru": "Бот передаёт заказ вам, а оплату вы согласуете с клиентом так же, как сейчас. Онлайн-оплату можно подключить отдельно через API выбранного провайдера.",
+      "answer_kk": "Бот тапсырысты сізге береді, ал төлемді қазіргідей клиентпен келісесіз. Онлайн төлемді таңдалған провайдердің API-і арқылы бөлек қосуға болады.",
+      "answer_en": "The bot passes the order to you and you arrange payment with the customer the way you do now. Online payment can be added separately through the API of the provider you choose.",
+      "sort": 2
+    }
+  ]
+}

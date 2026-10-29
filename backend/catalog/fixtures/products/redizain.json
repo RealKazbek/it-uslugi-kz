@@ -1,0 +1,98 @@
+{
+  "slug": "redizain",
+  "category": "support",
+  "title_ru": "Редизайн сайта",
+  "title_kk": "Сайт редизайны",
+  "title_en": "Website redesign",
+  "short_ru": "Обновляем внешний вид и структуру устаревшего сайта, сохраняя адреса страниц и важное содержимое.",
+  "short_kk": "Ескірген сайттың сыртқы түрі мен құрылымын жаңартамыз, бет мекенжайлары мен маңызды мазмұнды сақтаймыз.",
+  "short_en": "A fresh look and structure for an outdated site, keeping page addresses and the content that matters.",
+  "description_ru": "Сайт десятилетней давности плохо смотрится на телефоне и теряет клиентов ещё до первого звонка. Я перерисовываю внешний вид, упрощаю структуру и делаю адаптивную вёрстку, а тексты и страницы, которые уже приводят посетителей, оставляю. Адреса страниц сохраняю или настраиваю перенаправления, чтобы не потерять позиции в поиске.",
+  "description_kk": "Он жыл бұрынғы сайт телефонда нашар көрінеді және алғашқы қоңырауға дейін-ақ клиенттерді жоғалтады. Мен сыртқы түрін қайта сызамын, құрылымды жеңілдетемін және адаптивті беттеме жасаймын, ал келушілерді әкеліп жүрген мәтіндер мен беттерді қалдырамын. Іздеудегі орындарды жоғалтпау үшін бет мекенжайларын сақтаймын немесе бағыттауларды баптаймын.",
+  "description_en": "A site that is ten years old looks poor on a phone and loses customers before the first call. I redraw the visual design, simplify the structure and build a responsive layout, while keeping the texts and pages that already bring visitors. Page addresses stay the same, or I set up redirects, so search rankings are not lost.",
+  "for_whom_ru": "Компаниям с работающим, но устаревшим сайтом, который выглядит несовременно и неудобен на телефоне.",
+  "for_whom_kk": "Жұмыс істейтін, бірақ ескірген, заманауи көрінбейтін және телефонда ыңғайсыз сайты бар компанияларға арналған.",
+  "for_whom_en": "For businesses with a working but dated website that looks old-fashioned and is awkward to use on a phone.",
+  "includes_ru": [
+    "Разбор текущего сайта: что оставить, что убрать, что переписать",
+    "Новый дизайн главной и ключевых страниц",
+    "Адаптивная вёрстка для телефона, планшета и компьютера",
+    "Сохранение адресов страниц или настройка 301-перенаправлений",
+    "Перенос существующих текстов и фотографий в новый макет",
+    "Ускорение загрузки: сжатие картинок и чистка лишних скриптов",
+    "Проверка форм и ссылок перед запуском"
+  ],
+  "includes_kk": [
+    "Қазіргі сайтты талдау: нені қалдыру, нені алып тастау, нені қайта жазу",
+    "Басты беттің және негізгі беттердің жаңа дизайны",
+    "Телефон, планшет және компьютерге арналған адаптивті беттеме",
+    "Бет мекенжайларын сақтау немесе 301-бағыттауларды баптау",
+    "Бар мәтіндер мен фотосуреттерді жаңа макетке көшіру",
+    "Жүктелуді жылдамдату: суреттерді сығу және артық скрипттерді тазалау",
+    "Іске қосар алдында формалар мен сілтемелерді тексеру"
+  ],
+  "includes_en": [
+    "A review of the current site: what to keep, remove or rewrite",
+    "A new design for the home page and key pages",
+    "A responsive layout for phone, tablet and desktop",
+    "Keeping page addresses or setting up 301 redirects",
+    "Moving your existing texts and photos into the new layout",
+    "Faster loading through image compression and removing unused scripts",
+    "Checking forms and links before launch"
+  ],
+  "not_included_ru": [
+    "Новые тексты и фотосъёмка: используем ваши материалы",
+    "Новые функции вроде корзины или личного кабинета",
+    "Оплата хостинга и домена регистратору и хостеру"
+  ],
+  "not_included_kk": [
+    "Жаңа мәтіндер мен фотосъёмка: сіздің материалдарыңызды пайдаланамыз",
+    "Себет немесе жеке кабинет сияқты жаңа функциялар",
+    "Хостинг пен доменге тіркеушіге және хостерге төленетін төлем"
+  ],
+  "not_included_en": [
+    "New copywriting and photography; we use your existing materials",
+    "New functions such as a cart or a customer account",
+    "Hosting and domain fees paid to the registrar and host"
+  ],
+  "price_from_kzt": 60000,
+  "unit": "once",
+  "days_min": 7,
+  "days_max": 14,
+  "related": [
+    "perenos-saita",
+    "uskorenie-saita",
+    "korporativnyi-sait"
+  ],
+  "is_active": true,
+  "sort": 49,
+  "faqs": [
+    {
+      "question_ru": "Потеряю ли я позиции в Google и Яндексе?",
+      "question_kk": "Google мен Яндекстегі орнымды жоғалтамын ба?",
+      "question_en": "Will I lose my Google rankings?",
+      "answer_ru": "Риск есть при любой смене сайта, поэтому я сохраняю адреса и заголовки важных страниц и настраиваю перенаправления. Гарантировать позиции нельзя, но я снижаю риск их потери.",
+      "answer_kk": "Сайтты ауыстырған кезде тәуекел әрқашан бар, сондықтан маңызды беттердің мекенжайы мен тақырыптарын сақтап, бағыттауларды баптаймын. Орындарға кепілдік беруге болмайды, бірақ жоғалту қаупін азайтамын.",
+      "answer_en": "Any site change carries some risk, so I keep the addresses and headings of important pages and set up redirects. I cannot guarantee rankings, but I reduce the chance of losing them.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Нужно ли менять платформу?",
+      "question_kk": "Платформаны ауыстыру керек пе?",
+      "question_en": "Do we need to change platforms?",
+      "answer_ru": "Не всегда. Если нынешняя платформа справляется, я переделываю только оформление. Если она мешает, предложу перенос и объясню почему.",
+      "answer_kk": "Міндетті емес. Қазіргі платформа жарайтын болса, тек безендіруді өзгертемін. Ол кедергі болса, көшіруді ұсынып, себебін түсіндіремін.",
+      "answer_en": "Not always. If the current platform copes, I only redo the design. If it gets in the way, I will suggest a move and explain why.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Увижу ли я макет до запуска?",
+      "question_kk": "Іске қосқанға дейін макетті көремін бе?",
+      "question_en": "Will I see the design before launch?",
+      "answer_ru": "Да. Я показываю макет главной страницы до вёрстки, и мы вносим правки. Новый сайт запускаю только после вашего одобрения.",
+      "answer_kk": "Иә. Беттемеге дейін басты беттің макетін көрсетемін, өзгерістерді бірге енгіземіз. Жаңа сайтты сіз мақұлдағаннан кейін ғана іске қосамын.",
+      "answer_en": "Yes. I show the home page design before building it and we make changes. I launch the new site only after you approve it.",
+      "sort": 2
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "otchety-v-telegram",
+  "category": "automation",
+  "title_ru": "Автоматические отчёты в Telegram",
+  "title_kk": "Telegram-ға автоматты есептер",
+  "title_en": "Automatic reports sent to Telegram",
+  "short_ru": "Ежедневная или еженедельная сводка по продажам и заявкам приходит вам в Telegram без ручной работы.",
+  "short_kk": "Сату мен өтінімдер бойынша күнделікті немесе апталық шолу қолмен жұмыссыз сізге Telegram-ға келеді.",
+  "short_en": "A daily or weekly summary of sales and leads arrives in your Telegram with no manual work.",
+  "description_ru": "Вместо того чтобы открывать таблицы и считать вручную, вы получаете короткое сообщение с главными цифрами за день или неделю. Источником могут быть Google Sheets, ваша база или экспорт из магазина. Набор показателей мы выбираем вместе, чтобы отчёт читался за полминуты.",
+  "description_kk": "Кестелерді ашып, қолмен санаудың орнына күн немесе апта бойынша негізгі сандары бар қысқа хабарлама аласыз. Дерек көзі Google Sheets, сіздің база немесе дүкеннен экспорт болуы мүмкін. Есеп жарты минутта оқылуы үшін көрсеткіштер жиынтығын бірге таңдаймыз.",
+  "description_en": "Instead of opening spreadsheets and adding things up by hand, you get a short message with the key numbers for the day or week. The source can be Google Sheets, your database or an export from your shop. We choose the set of metrics together so the report can be read in thirty seconds.",
+  "for_whom_ru": "Для владельцев магазинов, студий и отделов продаж, которым нужна картина дня без ручных подсчётов.",
+  "for_whom_kk": "Күн көрінісін қолмен есептеусіз білгісі келетін дүкен, студия иелеріне және сату бөлімдеріне арналған.",
+  "for_whom_en": "For shop owners, studios and sales teams who want a picture of the day without manual counting.",
+  "includes_ru": [
+    "Согласование списка показателей: заявки, выручка, конверсия, остатки",
+    "Подключение к вашему источнику данных",
+    "Скрипт, который собирает цифры по расписанию",
+    "Сообщение в Telegram в личный чат или рабочую группу",
+    "Сравнение с предыдущим днём или неделей",
+    "Расписание отправки, удобное вам",
+    "Инструкция, как поменять набор показателей"
+  ],
+  "includes_kk": [
+    "Көрсеткіштер тізімін келісу: өтінімдер, түсім, конверсия, қалдықтар",
+    "Деректер көзіңізге қосылу",
+    "Сандарды кесте бойынша жинайтын скрипт",
+    "Жеке чатқа немесе жұмыс тобына Telegram хабарламасы",
+    "Алдыңғы күн немесе аптамен салыстыру",
+    "Өзіңізге ыңғайлы жіберу кестесі",
+    "Көрсеткіштер жиынтығын қалай өзгерту туралы нұсқаулық"
+  ],
+  "includes_en": [
+    "Agreeing the list of metrics: leads, revenue, conversion, stock",
+    "Connecting to your data source",
+    "A script that collects the figures on a schedule",
+    "A Telegram message to a private chat or a work group",
+    "Comparison with the previous day or week",
+    "A delivery schedule that suits you",
+    "A guide on how to change the set of metrics"
+  ],
+  "not_included_ru": [
+    "Наведение порядка в исходных данных: отчёт честно покажет и неполные цифры",
+    "Графики и интерактивные дашборды, это отдельная задача",
+    "Хостинг для скрипта, если вам не подойдёт бесплатный вариант"
+  ],
+  "not_included_kk": [
+    "Бастапқы деректерді ретке келтіру: есеп толымсыз сандарды да ашық көрсетеді",
+    "Графиктер мен интерактивті дашбордтар, бұл бөлек міндет",
+    "Тегін нұсқа сәйкес келмесе, скрипт үшін хостинг"
+  ],
+  "not_included_en": [
+    "Cleaning up the source data, since the report will faithfully show incomplete figures too",
+    "Charts and interactive dashboards, which are a separate task",
+    "Hosting for the script if a free option does not fit you"
+  ],
+  "price_from_kzt": 30000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 6,
+  "related": [
+    "zayavki-v-google-sheets",
+    "crm-dlya-malogo-biznesa",
+    "integraciya-api"
+  ],
+  "is_active": true,
+  "sort": 38,
+  "faqs": [
+    {
+      "question_ru": "Какие данные можно использовать?",
+      "question_kk": "Қандай деректерді қолдануға болады?",
+      "question_en": "What data can be used?",
+      "answer_ru": "Google Sheets, CSV-выгрузки, базы данных и сервисы с API. Если данные только в закрытой программе без выгрузки, придётся сначала найти способ их получить.",
+      "answer_kk": "Google Sheets, CSV шығарулары, дерекқорлар және API бар сервистер. Деректер шығарусыз жабық бағдарламада ғана болса, алдымен оларды алу жолын табу керек.",
+      "answer_en": "Google Sheets, CSV exports, databases and services with an API. If the data sits only in a closed program with no export, we first have to find a way to get at it.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли получать отчёт по запросу?",
+      "question_kk": "Есепті сұраныс бойынша алуға бола ма?",
+      "question_en": "Can I request a report on demand?",
+      "answer_ru": "Да, можно добавить команду в бота, после которой он присылает свежую сводку немедленно.",
+      "answer_kk": "Иә, ботқа команда қосуға болады, одан кейін ол жаңа шолуды бірден жібереді.",
+      "answer_en": "Yes, a command can be added to the bot so it sends a fresh summary immediately.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Увидят ли отчёт посторонние?",
+      "question_kk": "Есепті бөгде адамдар көре ме?",
+      "question_en": "Can outsiders see the report?",
+      "answer_ru": "Отчёт уходит только в указанный вами чат или группу. Бот отвечает на команды только участникам из вашего списка.",
+      "answer_kk": "Есеп тек сіз көрсеткен чатқа немесе топқа кетеді. Бот командаларға тек сіздің тізіміңіздегі қатысушыларға жауап береді.",
+      "answer_en": "The report goes only to the chat or group you specify, and the bot answers commands only from people on your list.",
+      "sort": 2
+    }
+  ]
+}

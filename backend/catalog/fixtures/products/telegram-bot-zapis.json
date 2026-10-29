@@ -1,0 +1,98 @@
+{
+  "slug": "telegram-bot-zapis",
+  "category": "bots",
+  "title_ru": "Telegram-бот для записи клиентов",
+  "title_kk": "Клиенттерді жазуға арналған Telegram-бот",
+  "title_en": "Telegram appointment booking bot",
+  "short_ru": "Бот показывает свободные слоты, записывает клиента и напоминает ему о визите.",
+  "short_kk": "Бот бос уақыттарды көрсетеді, клиентті жазады және оған келу туралы еске салады.",
+  "short_en": "A bot that shows free time slots, books the client and reminds them before the visit.",
+  "description_ru": "Клиент выбирает услугу, мастера и свободное время прямо в чате, а запись сразу попадает в ваше расписание. Бот не даёт записать двоих на одно время и присылает напоминание накануне, из-за чего реже случаются неявки. Подходит всем, кто принимает по записи и устал отвечать на одни и те же сообщения.",
+  "description_kk": "Клиент қызметті, шебері мен бос уақытты тікелей чатта таңдайды, ал жазылу бірден сіздің кестеңізге түседі. Бот екі адамды бір уақытқа жазуға жол бермейді және алдыңғы күні еске салады, сондықтан келмей қалу сирек болады. Алдын ала жазылумен қабылдайтын және бір хабарға қайта-қайта жауап беруден шаршағандарға жарайды.",
+  "description_en": "The client picks a service, a specialist and a free time right in the chat, and the booking lands in your schedule at once. The bot will not book two people into the same slot and sends a reminder the day before, which cuts down on no-shows. It suits anyone who works by appointment and is tired of answering the same messages.",
+  "for_whom_ru": "Для салонов, барбершопов, кабинетов врачей, психологов, студий и репетиторов, у которых клиенты приходят в определённое время. Лучше всего работает там, где клиенты и так сидят в Telegram.",
+  "for_whom_kk": "Клиенттері белгілі бір уақытта келетін салондарға, барбершоптарға, дәрігер мен психолог кабинеттеріне, студиялар мен репетиторларға арналған. Клиенттері Telegram-да отыратын жерде жақсы жұмыс істейді.",
+  "for_whom_en": "For salons, barbershops, doctors, psychologists, studios and tutors whose clients come at a set time. It works best where clients are already in Telegram.",
+  "includes_ru": [
+    "Диалог записи: услуга, специалист, дата и время",
+    "Расписание с рабочими часами, перерывами и выходными",
+    "Защита от двойной записи на одно и то же время",
+    "Напоминание клиенту о визите за заданное время",
+    "Уведомление вам о каждой новой записи и отмене",
+    "Отмена и перенос записи самим клиентом",
+    "Разработка на Python и aiogram, запуск на сервере"
+  ],
+  "includes_kk": [
+    "Жазылу диалогы: қызмет, маман, күн мен уақыт",
+    "Жұмыс сағаттары, үзілістері және демалыс күндері бар кесте",
+    "Бір уақытқа қос жазылудан қорғау",
+    "Клиентке белгіленген уақытта келу туралы еске салу",
+    "Әрбір жаңа жазылу мен бас тарту туралы сізге хабарлама",
+    "Клиенттің жазылуды өзі болдырмауы және ауыстыруы",
+    "Python мен aiogram-да әзірлеу, серверде іске қосу"
+  ],
+  "includes_en": [
+    "Booking dialogue covering service, specialist, date and time",
+    "Schedule with working hours, breaks and days off",
+    "Protection against double booking the same time",
+    "Reminder to the client a set time before the visit",
+    "Alert to you on every new booking and cancellation",
+    "Cancel and reschedule by the client",
+    "Built with Python and aiogram and deployed on a server"
+  ],
+  "not_included_ru": [
+    "Предоплата и онлайн-оплата визита: подключаются отдельно по договорённости через API провайдера",
+    "Сервер для бота: оформляется на вас и оплачивается по тарифу провайдера",
+    "Тексты услуг и цены: список услуг предоставляете вы"
+  ],
+  "not_included_kk": [
+    "Алдын ала төлем және визитті онлайн төлеу: провайдердің API-і арқылы келісім бойынша бөлек қосылады",
+    "Бот сервері: сіздің атыңызға ресімделеді, провайдер тарифімен төленеді",
+    "Қызмет мәтіндері мен бағалар: қызметтер тізімін өзіңіз бересіз"
+  ],
+  "not_included_en": [
+    "Prepayment or online payment for the visit, which can be added separately through a provider API by agreement",
+    "The server for the bot, set up in your name and paid at the provider rate",
+    "Service descriptions and prices, as the list of services comes from you"
+  ],
+  "price_from_kzt": 35000,
+  "unit": "once",
+  "days_min": 4,
+  "days_max": 8,
+  "related": [
+    "onlain-zapis-google-calendar",
+    "sait-dlya-salona-krasoty",
+    "telegram-bot-zayavki"
+  ],
+  "is_active": true,
+  "sort": 21,
+  "faqs": [
+    {
+      "question_ru": "Где я вижу записи?",
+      "question_kk": "Жазылуларды қайдан көремін?",
+      "question_en": "Where do I see the bookings?",
+      "answer_ru": "Каждая запись приходит вам сообщением в Telegram, а общий список доступен командой в боте. Если удобнее, записи можно дублировать в Google Календарь или таблицу, это обсуждается заранее.",
+      "answer_kk": "Әр жазылу сізге Telegram-да хабарлама болып келеді, ал жалпы тізім боттағы команда арқылы қолжетімді. Ыңғайлырақ болса, жазылуларды Google күнтізбесіне немесе кестеге көшіруге болады, бұл алдын ала келіседі.",
+      "answer_en": "Each booking reaches you as a Telegram message, and the full list is available through a command in the bot. If you prefer, bookings can also be mirrored to Google Calendar or a spreadsheet, which we agree on beforehand.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли вести несколько мастеров?",
+      "question_kk": "Бірнеше шеберді жүргізуге бола ма?",
+      "question_en": "Can it handle several specialists?",
+      "answer_ru": "Да, у каждого мастера своё расписание и свой набор услуг. Клиент выбирает конкретного человека или любого свободного.",
+      "answer_kk": "Иә, әр шебердің өз кестесі мен қызметтер жиыны болады. Клиент нақты адамды немесе кез келген бос шебері таңдайды.",
+      "answer_en": "Yes, each specialist has their own schedule and set of services. The client picks a particular person or whoever is free.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что, если клиент не пользуется Telegram?",
+      "question_kk": "Клиент Telegram қолданбаса ше?",
+      "question_en": "What if the client does not use Telegram?",
+      "answer_ru": "Тогда запись по телефону или через сайт остаётся как раньше, и вы можете добавить такую запись в бот вручную. Бот дополняет ваши каналы, а не заменяет их.",
+      "answer_kk": "Онда телефонмен немесе сайт арқылы жазылу бұрынғыдай қалады, ал мұндай жазылуды ботқа қолмен қосуға болады. Бот сіздің арналарыңызды толықтырады, ауыстырмайды.",
+      "answer_en": "Then booking by phone or through the site stays as it was, and you can add that booking to the bot by hand. The bot complements your channels instead of replacing them.",
+      "sort": 2
+    }
+  ]
+}

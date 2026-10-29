@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-avtoservisa",
+  "category": "websites",
+  "title_ru": "Сайт для автосервиса",
+  "title_kk": "Автосервиске арналған сайт",
+  "title_en": "Website for a car repair shop",
+  "short_ru": "Список работ с ценами, заявка на ремонт и вопросы по марке авто в одной форме.",
+  "short_kk": "Бағалы жұмыс тізімі, жөндеуге өтінім және көлік маркасы туралы сұрақ бір формада.",
+  "short_en": "A price list of jobs, a repair request form and car details captured in one step.",
+  "description_ru": "Водитель ищет сервис, где понятно, что делают и сколько это стоит, и хочет оставить заявку, не звоня. Сайт показывает перечень работ с ценами «от» и принимает заявку с маркой, годом и описанием проблемы. Так мастер заранее понимает, что за машина, и быстрее отвечает.",
+  "description_kk": "Жүргізуші не істейтіні мен қанша тұратыны түсінікті сервисті іздейді және қоңырау шалмай өтінім қалдырғысы келеді. Сайт «бастап» бағасымен жұмыс тізімін көрсетіп, марка, жыл және ақау сипаттамасы бар өтінімді қабылдайды. Сонда шебер көліктің қандай екенін алдын ала біліп, тезірек жауап береді.",
+  "description_en": "A driver wants a shop where it is clear what is done and what it costs, and wants to send a request without calling. The site lists jobs with \"from\" prices and takes a request with make, year and a description of the problem. The mechanic then knows the car in advance and can reply faster.",
+  "for_whom_ru": "Автосервисам, СТО, шиномонтажам и детейлинг-студиям, которым нужны заявки без бесконечных звонков.",
+  "for_whom_kk": "Қоңырау шалудан құтылып, өтінім алғысы келетін автосервистерге, СТО-ға, шина орнату орындары мен детейлинг студияларына.",
+  "for_whom_en": "For car repair shops, tyre fitters and detailing studios that want requests without endless phone calls.",
+  "includes_ru": [
+    "Прайс на работы: диагностика, ТО, ходовая, двигатель, шиномонтаж",
+    "Форма заявки: марка, модель, год, описание неисправности",
+    "Страницы по услугам, например «Замена масла» и «Диагностика ходовой»",
+    "Раздел «Марки, с которыми работаем»",
+    "Фото мастерской, подъёмников и команды",
+    "Адрес с картой проезда, график работы, кнопка WhatsApp",
+    "Раздел «Акции» и сезонные предложения (шины, ТО перед зимой)"
+  ],
+  "includes_kk": [
+    "Жұмыс бағасы: диагностика, ТҚ, жүріс бөлігі, қозғалтқыш, шина орнату",
+    "Өтінім формасы: марка, модель, жыл, ақау сипаттамасы",
+    "Қызмет беттері, мысалы «Май ауыстыру» және «Жүріс бөлігін диагностикалау»",
+    "«Қандай маркалармен жұмыс істейміз» бөлімі",
+    "Шеберхана, көтергіштер және команда суреттері",
+    "Карта мен мекенжай, жұмыс кестесі, WhatsApp батырмасы",
+    "«Акциялар» бөлімі мен маусымдық ұсыныстар (шина, қысқа дейінгі ТҚ)"
+  ],
+  "includes_en": [
+    "Price list for jobs: diagnostics, servicing, suspension, engine, tyre fitting",
+    "Request form: make, model, year and a description of the fault",
+    "Separate pages for services such as oil change and suspension diagnostics",
+    "\"Makes we work with\" section",
+    "Photos of the workshop, lifts and team",
+    "Address with map, opening hours and a WhatsApp button",
+    "Promotions section for seasonal offers such as tyres and pre-winter checks"
+  ],
+  "not_included_ru": [
+    "Фото мастерской и список марок предоставляете вы",
+    "Каталог и продажа запчастей через сайт",
+    "Программа учёта заказ-нарядов"
+  ],
+  "not_included_kk": [
+    "Шеберхана суреттері мен марка тізімін өзіңіз бересіз",
+    "Сайт арқылы бөлшек каталогы мен сату",
+    "Тапсырыс-наряд есебінің бағдарламасы"
+  ],
+  "not_included_en": [
+    "Workshop photos and the list of makes come from you",
+    "A parts catalogue and parts sales through the site",
+    "Job-card management software"
+  ],
+  "price_from_kzt": 45000,
+  "unit": "once",
+  "days_min": 4,
+  "days_max": 8,
+  "related": [
+    "zayavki-v-google-sheets",
+    "uvedomleniya-o-zayavkah",
+    "lokalnoe-seo"
+  ],
+  "is_active": true,
+  "sort": 7,
+  "faqs": [
+    {
+      "question_ru": "Можно ли указать точную цену ремонта?",
+      "question_kk": "Жөндеудің нақты бағасын көрсетуге бола ма?",
+      "question_en": "Can the site show an exact repair price?",
+      "answer_ru": "Точная цена зависит от машины, поэтому на сайте лучше писать «от» и пояснять, что итог называет мастер после диагностики. Это честнее и снижает число споров.",
+      "answer_kk": "Нақты баға көлікке байланысты, сондықтан сайтқа «бастап» деп жазып, түпкілікті соманы шебер диагностикадан кейін айтатынын түсіндірген жөн. Бұл адалырақ және дауды азайтады.",
+      "answer_en": "The exact price depends on the car, so it is better to write \"from\" and explain that the mechanic gives the final figure after diagnostics. It is more honest and prevents disputes.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Помогает ли сайт получать клиентов с карт?",
+      "question_kk": "Сайт карталардан клиент алуға көмектесе ме?",
+      "question_en": "Does the site help to get customers from maps?",
+      "answer_ru": "Многие водители ищут сервис на 2GIS и Google Maps, откуда переходят на сайт посмотреть цены. Рекомендую завести карточки там и поставить ссылку на сайт.",
+      "answer_kk": "Көптеген жүргізушілер сервисті 2GIS пен Google Maps-тен іздейді, содан бағаны көру үшін сайтқа өтеді. Сол жерде карточка ашып, сайтқа сілтеме қоюды ұсынамын.",
+      "answer_en": "Many drivers look for a shop on 2GIS or Google Maps and then open the website to check prices. I recommend creating listings there and linking to the site.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли принимать запись на конкретное время?",
+      "question_kk": "Нақты уақытқа жазылуды қабылдауға бола ма?",
+      "question_en": "Can customers book a specific time slot?",
+      "answer_ru": "Да, можно добавить выбор даты и времени с учётом числа постов. Если бокс один, достаточно желаемого времени, и вы подтверждаете его в WhatsApp.",
+      "answer_kk": "Иә, посттар санын ескеріп күн мен уақыт таңдауды қосуға болады. Бокс біреу болса, қалаулы уақыт жеткілікті, оны WhatsApp-та растайсыз.",
+      "answer_en": "Yes, a date and time picker can be added that respects the number of bays. With a single bay a preferred time is enough, and you confirm it on WhatsApp.",
+      "sort": 2
+    }
+  ]
+}

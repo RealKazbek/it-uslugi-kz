@@ -1,0 +1,98 @@
+{
+  "slug": "telegram-mini-app-magazin",
+  "category": "ecommerce",
+  "title_ru": "Магазин в Telegram Mini App",
+  "title_kk": "Telegram Mini App ішіндегі дүкен",
+  "title_en": "Store as a Telegram Mini App",
+  "short_ru": "Витрина с каталогом и корзиной, которая открывается прямо внутри Telegram.",
+  "short_kk": "Каталогы мен себеті бар, тікелей Telegram ішінде ашылатын витрина.",
+  "short_en": "A storefront with catalog and cart that opens right inside Telegram.",
+  "description_ru": "Mini App — это веб-приложение, которое открывается внутри Telegram по кнопке в боте, без скачивания и регистрации. Клиент листает каталог, собирает корзину и отправляет заказ, а бот присылает вам детали. Покупателей Telegram уже узнаёт по профилю, поэтому оформление занимает меньше шагов.",
+  "description_kk": "Mini App — бот батырмасы арқылы Telegram ішінде жүктеусіз және тіркелусіз ашылатын веб-қолданба. Клиент каталогты қарайды, себет жинайды және тапсырыс жібереді, ал бот сізге мәліметтерді жібереді. Telegram сатып алушыны профилінен танитындықтан, рәсімдеу аз қадаммен өтеді.",
+  "description_en": "A Mini App is a web application that opens inside Telegram from a button in a bot, with nothing to download and no sign-up. The customer browses the catalog, builds a cart and sends the order, and the bot delivers the details to you. Telegram already knows who the buyer is from their profile, so checkout takes fewer steps.",
+  "for_whom_ru": "Для бизнеса, чья аудитория уже сидит в Telegram: частные продавцы, кофейни, магазины с постоянными покупателями. Выбирайте, если хотите больше удобства, чем у обычного бота с кнопками.",
+  "for_whom_kk": "Аудиториясы Telegram-да отыратын бизнеске: жеке сатушылар, кофеханалар, тұрақты сатып алушылары бар дүкендер. Батырмалы қарапайым боттан гөрі жайлылық қаласаңыз, таңдаңыз.",
+  "for_whom_en": "For businesses whose audience already lives in Telegram, such as independent sellers, coffee shops and shops with regular customers. Pick it when you want more comfort than a plain bot with buttons.",
+  "includes_ru": [
+    "Mini App с каталогом, карточками, поиском и корзиной",
+    "Telegram-бот на Python и aiogram, который открывает витрину",
+    "Определение покупателя по профилю Telegram без отдельной регистрации",
+    "Отправка заказа вам и подтверждение клиенту сообщением в чат",
+    "Админка для товаров, цен и статусов заказов",
+    "Оформление в цветах Telegram с поддержкой тёмной темы клиента",
+    "Размещение на сервере и передача доступов"
+  ],
+  "includes_kk": [
+    "Каталогы, карточкалары, іздеуі және себеті бар Mini App",
+    "Витринаны ашатын Python мен aiogram-да жазылған Telegram-бот",
+    "Бөлек тіркеусіз Telegram профилі бойынша сатып алушыны анықтау",
+    "Тапсырысты сізге жіберу және клиентке чатта хабарламамен растау",
+    "Тауар, баға және тапсырыс мәртебелеріне арналған әкімшілік панелі",
+    "Клиенттің қараңғы тақырыбын қолдайтын Telegram түстеріндегі безендіру",
+    "Серверге орналастыру және қолжетімділікті беру"
+  ],
+  "includes_en": [
+    "A Mini App with catalog, product pages, search and cart",
+    "A Telegram bot in Python and aiogram that opens the storefront",
+    "Buyer identification from the Telegram profile, with no separate sign-up",
+    "Order delivery to you and a confirmation message to the customer",
+    "Admin panel for products, prices and order statuses",
+    "Styling that follows Telegram colours, including the customer dark theme",
+    "Server deployment and access handover"
+  ],
+  "not_included_ru": [
+    "Фото, описания и цены товаров: предоставляете вы",
+    "Приём платежей внутри приложения: подключается отдельно по договорённости через API провайдера",
+    "Сервер для запуска: оформляется на вас и оплачивается по тарифу провайдера"
+  ],
+  "not_included_kk": [
+    "Тауар фотосуреттері, сипаттамалары және бағалары: оларды сіз ұсынасыз",
+    "Қолданба ішінде төлем қабылдау: провайдердің API-і арқылы келісім бойынша бөлек қосылады",
+    "Іске қосуға арналған сервер: сіздің атыңызға ресімделеді, провайдер тарифімен төленеді"
+  ],
+  "not_included_en": [
+    "Product photos, descriptions and prices, which you provide",
+    "Taking payments inside the app, which can be added separately through a provider API by agreement",
+    "The server it runs on, set up in your name and paid at the provider rate"
+  ],
+  "price_from_kzt": 120000,
+  "unit": "once",
+  "days_min": 14,
+  "days_max": 25,
+  "related": [
+    "telegram-bot-katalog",
+    "internet-magazin",
+    "telegram-bot-dostavka"
+  ],
+  "is_active": true,
+  "sort": 18,
+  "faqs": [
+    {
+      "question_ru": "Чем Mini App лучше обычного бота?",
+      "question_kk": "Mini App қарапайым боттан немен артық?",
+      "question_en": "Why a Mini App rather than a regular bot?",
+      "answer_ru": "В боте всё сводится к кнопкам и сообщениям, а Mini App показывает полноценную витрину с фото, фильтрами и корзиной. Клиенту удобнее выбирать из большого каталога.",
+      "answer_kk": "Ботта бәрі батырмалар мен хабарламаларға саяды, ал Mini App фотосы, сүзгілері және себеті бар толыққанды витринаны көрсетеді. Үлкен каталогтан таңдау клиентке ыңғайлырақ.",
+      "answer_en": "A bot boils everything down to buttons and messages, while a Mini App shows a proper storefront with photos, filters and a cart. It is easier for a customer to choose from a large catalog.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Нужен ли отдельный сайт?",
+      "question_kk": "Бөлек сайт керек пе?",
+      "question_en": "Do I need a separate website too?",
+      "answer_ru": "Нет, Mini App работает сам по себе и открывается по ссылке на бота. Если позже понадобится обычный сайт, он может использовать ту же базу товаров.",
+      "answer_kk": "Жоқ, Mini App өздігінен жұмыс істейді және ботқа сілтеме арқылы ашылады. Кейін кәдімгі сайт қажет болса, ол сол тауар базасын пайдалана алады.",
+      "answer_en": "No, a Mini App works on its own and opens from a link to the bot. If you later want a regular website, it can reuse the same product database.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Подойдёт ли это тем, кто не пользуется Telegram?",
+      "question_kk": "Бұл Telegram қолданбайтындарға жарай ма?",
+      "question_en": "Will it work for people who do not use Telegram?",
+      "answer_ru": "Открыть приложение можно только из Telegram, поэтому оно рассчитано на тех, кто в нём уже есть. Для остальных лучше обычный интернет-магазин или каталог с заказом в WhatsApp.",
+      "answer_kk": "Қолданбаны тек Telegram-нан ашуға болады, сондықтан ол онда бар адамдарға арналған. Қалғандарына кәдімгі интернет-дүкен немесе WhatsApp арқылы тапсырыс беретін каталог дұрысырақ.",
+      "answer_en": "The app can only be opened from Telegram, so it is meant for people already there. For everyone else a regular online store or a catalog with WhatsApp ordering is a better fit.",
+      "sort": 2
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "telegram-bot-rassylka",
+  "category": "bots",
+  "title_ru": "Telegram-бот для рассылок",
+  "title_kk": "Тарату жүргізетін Telegram-бот",
+  "title_en": "Telegram newsletter bot",
+  "short_ru": "Бот собирает подписчиков и рассылает им акции и новости сегментам и по расписанию.",
+  "short_kk": "Бот жазылушыларды жинап, оларға акциялар мен жаңалықтарды сегменттерге және кесте бойынша таратады.",
+  "short_en": "A bot that collects subscribers and sends them offers and news by segment and on a schedule.",
+  "description_ru": "Рассылка в Telegram-канале видна всем подряд, а бот пишет подписчикам лично и только тем, кому это интересно. Люди подписываются сами, выбирают темы, а вы отправляете сообщение с текстом, фото и кнопкой на нужную группу. По отчёту видно, сколько человек получили сообщение.",
+  "description_kk": "Telegram-арнадағы жаңалық барлығына көрінеді, ал бот жазылушыларға жеке жазады және тек қызықтыратын адамдарға жібереді. Адамдар өздері жазылып, тақырыптарды таңдайды, ал сіз мәтіні, фотосы және батырмасы бар хабарламаны керекті топқа жібересіз. Есеп бойынша хабарламаны қанша адам алғаны көрінеді.",
+  "description_en": "A post in a Telegram channel is visible to everyone, whereas a bot writes to subscribers personally and only to people who care about the topic. People subscribe themselves and pick topics, and you send a message with text, a photo and a button to the chosen group. A report shows how many people received it.",
+  "for_whom_ru": "Для магазинов, студий и сообществ, которым нужно сообщать об акциях и новинках постоянной аудитории. Не годится для спама: писать можно только тем, кто сам подписался на бота.",
+  "for_whom_kk": "Тұрақты аудиторияға акциялар мен жаңалықтар туралы хабарлау керек дүкендерге, студиялар мен қауымдастықтарға арналған. Спамға жарамайды: тек ботқа өзі жазылғандарға ғана жазуға болады.",
+  "for_whom_en": "For shops, studios and communities that need to tell a regular audience about offers and new arrivals. It is not meant for spam, since you can only write to people who subscribed to the bot themselves.",
+  "includes_ru": [
+    "Подписка по команде или ссылке, отписка в один тап",
+    "Выбор тем: подписчик отмечает, что ему интересно",
+    "Рассылка текста, фото и кнопки-ссылки для всех или для выбранной темы",
+    "Отложенная отправка в заданное время",
+    "Отчёт: сколько сообщений доставлено и сколько нет",
+    "Пауза между отправками, чтобы не упереться в лимиты Telegram"
+  ],
+  "includes_kk": [
+    "Команда немесе сілтеме арқылы жазылу, бір басумен жазылымнан шығу",
+    "Тақырыптарды таңдау: жазылушы өзіне қызықтыларын белгілейді",
+    "Мәтінді, фотоны және сілтеме батырмасын барлығына немесе таңдалған тақырыпқа тарату",
+    "Белгіленген уақытқа кейінге қалдырылған жіберу",
+    "Есеп: қанша хабарлама жеткізілді, қаншасы жеткізілмеді",
+    "Telegram лимиттеріне тірелмеу үшін жіберулер арасындағы үзіліс"
+  ],
+  "includes_en": [
+    "Subscribe by command or link and unsubscribe in one tap",
+    "Topic choice, where each subscriber marks what interests them",
+    "Sending text, a photo and a link button to everyone or to one topic",
+    "Scheduled sending at a set time",
+    "A report of how many messages were delivered and how many were not",
+    "Pacing between sends so the bot stays within Telegram limits"
+  ],
+  "not_included_ru": [
+    "Тексты рассылок и картинки: готовите вы",
+    "Привлечение подписчиков: бот собирает тех, кто пришёл, но трафик не создаёт",
+    "Сервер для бота: оформляется на вас и оплачивается по тарифу провайдера"
+  ],
+  "not_included_kk": [
+    "Тарату мәтіндері мен суреттер: оларды өзіңіз дайындайсыз",
+    "Жазылушыларды тарту: бот келгендерді жинайды, бірақ трафик жасамайды",
+    "Бот сервері: сіздің атыңызға ресімделеді, провайдер тарифімен төленеді"
+  ],
+  "not_included_en": [
+    "Newsletter copy and images, which you prepare",
+    "Attracting subscribers, as the bot collects people who come but does not generate traffic",
+    "The server for the bot, set up in your name and paid at the provider rate"
+  ],
+  "price_from_kzt": 30000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 6,
+  "related": [
+    "telegram-bot-zayavki",
+    "otchety-v-telegram",
+    "ai-assistent-telegram"
+  ],
+  "is_active": true,
+  "sort": 25,
+  "faqs": [
+    {
+      "question_ru": "Могу ли я загрузить в бота готовую базу номеров?",
+      "question_kk": "Ботқа дайын нөмірлер базасын жүктей аламын ба?",
+      "question_en": "Can I load an existing phone list into the bot?",
+      "answer_ru": "Нет, Telegram не позволяет боту писать человеку, который сам не запустил бота, и по номеру телефона это сделать нельзя. Подписчиков нужно привести ссылкой на бота.",
+      "answer_kk": "Жоқ, Telegram боттың өзін іске қоспаған адамға жазуына рұқсат етпейді, телефон нөмірі бойынша мұны істеуге болмайды. Жазылушыларды ботқа сілтемемен әкелу керек.",
+      "answer_en": "No. Telegram does not let a bot message a person who has not started it, and a phone number does not change that. Subscribers have to be brought in through a link to the bot.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Есть ли лимит на количество получателей?",
+      "question_kk": "Алушылар санына лимит бар ма?",
+      "question_en": "Is there a limit on the number of recipients?",
+      "answer_ru": "Telegram ограничивает скорость отправки, поэтому бот шлёт сообщения небольшими порциями. На несколько тысяч подписчиков рассылка занимает минуты, а не секунды.",
+      "answer_kk": "Telegram жіберу жылдамдығын шектейді, сондықтан бот хабарламаларды шағын порциямен жібереді. Бірнеше мың жазылушыға тарату секундтарды емес, минуттарды алады.",
+      "answer_en": "Telegram limits the sending rate, so the bot sends in small batches. For a few thousand subscribers a mailing takes minutes rather than seconds.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет, если человек заблокирует бота?",
+      "question_kk": "Адам ботты бұғаттаса не болады?",
+      "question_en": "What happens if someone blocks the bot?",
+      "answer_ru": "Бот отмечает такого подписчика как недоступного и перестаёт пытаться ему писать. В отчёте эти случаи считаются отдельно.",
+      "answer_kk": "Бот мұндай жазылушыны қолжетімсіз деп белгілеп, оған жазуға әрекеттенуді тоқтатады. Есепте мұндай жағдайлар бөлек есептеледі.",
+      "answer_en": "The bot marks that subscriber as unreachable and stops trying to write to them. The report counts these cases separately.",
+      "sort": 2
+    }
+  ]
+}

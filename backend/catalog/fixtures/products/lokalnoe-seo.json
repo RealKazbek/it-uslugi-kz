@@ -1,0 +1,98 @@
+{
+  "slug": "lokalnoe-seo",
+  "category": "seo-maps",
+  "title_ru": "Локальное SEO для бизнеса в городе",
+  "title_kk": "Қаладағы бизнеске арналған жергілікті SEO",
+  "title_en": "Local SEO for a city-based business",
+  "short_ru": "Ежемесячная работа с картами, карточками и запросами с названием города, чтобы вас находили рядом.",
+  "short_kk": "Адамдар жақыннан тапсын деп карталармен, карточкалармен және қала атауы бар сұраныстармен ай сайынғы жұмыс.",
+  "short_en": "Monthly work on maps, listings and city-name queries so nearby customers can find you.",
+  "description_ru": "Локальное SEO для тех, кто принимает клиентов в конкретном городе: стоматологий, салонов, автосервисов, магазинов. Я слежу за карточками в 2GIS, Google и Яндексе, помогаю собирать честные отзывы и готовлю страницы под запросы вида «услуга + город». Результаты зависят от конкурентов в вашем районе.",
+  "description_kk": "Жергілікті SEO нақты қалада клиент қабылдайтындарға арналған: стоматологияларға, салондарға, автосервистерге, дүкендерге. Мен 2GIS, Google және Yandex-тегі карточкаларды қадағалаймын, шынайы пікір жинауға көмектесемін және «қызмет + қала» түріндегі сұраныстарға беттер дайындаймын. Нәтиже ауданыңыздағы бәсекелестерге байланысты.",
+  "description_en": "Local SEO is for businesses that serve customers in a particular city, such as dental clinics, salons, car services and shops. I look after your listings on 2GIS, Google and Yandex, help you collect honest reviews and prepare pages for queries like service plus city. Results depend on the competitors in your area.",
+  "for_whom_ru": "Для бизнеса с адресом в городе, где клиентов приводит поиск вида «рядом со мной» и карты. Уместно, когда карточки уже созданы.",
+  "for_whom_kk": "Клиентті «маңымдағы» іздеу мен карталар әкелетін, қалада мекенжайы бар бизнеске арналған. Карточкалар жасалған болса, орынды.",
+  "for_whom_en": "For businesses with a city address where customers come from nearby-style searches and maps. It makes sense once your listings already exist.",
+  "includes_ru": [
+    "Ведение карточек в 2GIS, Google Business Profile и Яндексе",
+    "Регулярное обновление фото, акций, графика и контактов",
+    "Шаблон просьбы об отзыве и разбор ответов на отзывы",
+    "Страницы услуг с упоминанием города и района",
+    "Единообразие названия, адреса и телефона на всех площадках",
+    "Отслеживание запросов с названием города",
+    "Ежемесячный отчёт с рекомендациями"
+  ],
+  "includes_kk": [
+    "2GIS, Google Business Profile және Yandex-тегі карточкаларды жүргізу",
+    "Фото, акциялар, кесте мен байланыстарды үнемі жаңарту",
+    "Пікір сұрау үлгісі және пікірлерге жауаптарды талдау",
+    "Қала мен ауданы аталған қызмет беттері",
+    "Барлық алаңда атау, мекенжай және телефонның бірізділігі",
+    "Қала атауы бар сұраныстарды қадағалау",
+    "Ұсыныстары бар ай сайынғы есеп"
+  ],
+  "includes_en": [
+    "Managing listings on 2GIS, Google Business Profile and Yandex",
+    "Regularly updating photos, offers, hours and contacts",
+    "A review-request template and guidance on answering reviews",
+    "Service pages that mention the city and district",
+    "Consistent name, address and phone across all platforms",
+    "Tracking queries that include the city name",
+    "A monthly report with recommendations"
+  ],
+  "not_included_ru": [
+    "Написание или накрутка отзывов: их оставляют только ваши настоящие клиенты",
+    "Решения модерации 2GIS, Google и Яндекса по карточкам, которые принимаются на их стороне",
+    "Платное размещение в картах и гарантия мест в выдаче"
+  ],
+  "not_included_kk": [
+    "Пікір жазу немесе жасанды көбейту: оларды тек нағыз клиенттеріңіз қалдырады",
+    "2GIS, Google және Yandex-тің карточкалар бойынша модерация шешімдері, олар олардың жағында қабылданады",
+    "Карталардағы ақылы орналастыру және шығарылымдағы орынға кепіл"
+  ],
+  "not_included_en": [
+    "Writing or inflating reviews, which only your genuine customers can leave",
+    "Moderation decisions of 2GIS, Google and Yandex on listings, which are made on their side",
+    "Paid placement on maps and any guarantee of positions"
+  ],
+  "price_from_kzt": 30000,
+  "unit": "month",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "kartochka-2gis-google-maps",
+    "kartochka-yandex-karty",
+    "seo-prodvizhenie"
+  ],
+  "is_active": true,
+  "sort": 45,
+  "faqs": [
+    {
+      "question_ru": "Нужно ли сначала создать карточки?",
+      "question_kk": "Алдымен карточкаларды жасау керек пе?",
+      "question_en": "Do the listings need to exist first?",
+      "answer_ru": "Желательно. Если карточек ещё нет, начните с отдельной услуги по их созданию, а затем переходите на ежемесячное сопровождение.",
+      "answer_kk": "Жөн болар еді. Карточкалар әлі жоқ болса, алдымен оларды жасау қызметінен бастаңыз, содан кейін ай сайынғы сүйемелдеуге көшіңіз.",
+      "answer_en": "Preferably yes. If there are none yet, begin with the separate listing setup service and then move to monthly support.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как собирать отзывы честно?",
+      "question_kk": "Пікірді адал қалай жинауға болады?",
+      "question_en": "How do we collect reviews honestly?",
+      "answer_ru": "Мы готовим ссылку и вежливый текст, который вы или администратор отправляете довольным клиентам после визита. Площадки блокируют накрутку, поэтому только реальные отзывы имеют смысл.",
+      "answer_kk": "Біз сілтеме мен сыпайы мәтін дайындаймыз, оны сіз немесе әкімші келуден кейін риза клиенттерге жібересіз. Алаңдар жасанды көбейтуді бұғаттайды, сондықтан тек нақты пікірлердің мәні бар.",
+      "answer_en": "We prepare a link and a polite message that you or your admin send to happy customers after a visit. Platforms block faked reviews, so only genuine ones make sense.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Подходит ли это интернет-магазину без точки?",
+      "question_kk": "Бұл нүктесі жоқ интернет-дүкенге жарай ма?",
+      "question_en": "Is this suitable for an online shop with no physical outlet?",
+      "answer_ru": "Скорее нет: локальное SEO опирается на адрес и клиентов рядом. Для интернет-магазина полезнее обычное SEO сайта.",
+      "answer_kk": "Жоқтау: жергілікті SEO мекенжайға және жақын клиенттерге сүйенеді. Интернет-дүкенге сайттың қарапайым SEO-сы пайдалырақ.",
+      "answer_en": "Probably not: local SEO relies on an address and nearby customers. For an online shop, regular site SEO is more useful.",
+      "sort": 2
+    }
+  ]
+}

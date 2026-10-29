@@ -1,0 +1,98 @@
+{
+  "slug": "seo-audit",
+  "category": "seo-maps",
+  "title_ru": "SEO-аудит сайта",
+  "title_kk": "Сайттың SEO-аудиті",
+  "title_en": "Website SEO audit",
+  "short_ru": "Разбираю технические и контентные проблемы сайта и даю список конкретных исправлений.",
+  "short_kk": "Сайттың техникалық және контенттік мәселелерін талдап, нақты түзетулер тізімін беремін.",
+  "short_en": "I review the technical and content problems of your site and give a list of concrete fixes.",
+  "description_ru": "Аудит показывает, почему сайт плохо находят: ошибки индексации, медленная загрузка, дубли страниц, слабые заголовки. Я проверяю сайт вручную и инструментами, затем составляю отчёт с приоритетами: что исправить сначала, а что можно отложить. Отчёт написан понятным языком, его можно передать любому разработчику.",
+  "description_kk": "Аудит сайттың неге нашар табылатынын көрсетеді: индекстеу қателері, баяу жүктелу, беттер көшірмесі, әлсіз тақырыптар. Мен сайтты қолмен және құралдармен тексеремін, содан кейін басымдықтары бар есеп жасаймын: алдымен нені түзету керек, нені кейінге қалдыруға болады. Есеп түсінікті тілде жазылады, оны кез келген әзірлеушіге беруге болады.",
+  "description_en": "An audit shows why a site is hard to find: indexing errors, slow loading, duplicate pages, weak headings. I check the site by hand and with tools, then write a prioritised report on what to fix first and what can wait. The report is in plain language and can be handed to any developer.",
+  "for_whom_ru": "Для владельцев сайтов, которые вложились в разработку, но не получают посетителей из поиска и не знают, с чего начать.",
+  "for_whom_kk": "Әзірлеуге қаражат салған, бірақ іздеуден келуші ала алмайтын және неден бастарын білмейтін сайт иелеріне арналған.",
+  "for_whom_en": "For site owners who invested in development but get no visitors from search and do not know where to start.",
+  "includes_ru": [
+    "Проверка индексации, robots.txt и карты сайта",
+    "Анализ скорости загрузки на телефоне и компьютере",
+    "Проверка заголовков, описаний и структуры страниц",
+    "Поиск дублей, битых ссылок и ошибок редиректов",
+    "Анализ мобильной версии и базовой доступности",
+    "Обзор текстов и подбор тем под реальные запросы",
+    "Отчёт с приоритетами и разбор по видеозвонку"
+  ],
+  "includes_kk": [
+    "Индекстеуді, robots.txt пен сайт картасын тексеру",
+    "Телефон мен компьютерде жүктелу жылдамдығын талдау",
+    "Тақырыптарды, сипаттамаларды және бет құрылымын тексеру",
+    "Көшірмелерді, бұзылған сілтемелерді және редирект қателерін іздеу",
+    "Мобильді нұсқа мен негізгі қолжетімділікті талдау",
+    "Мәтіндерді шолу және нақты сұраныстарға тақырыптар таңдау",
+    "Басымдықтары бар есеп және бейнеқоңырау арқылы талдау"
+  ],
+  "includes_en": [
+    "Checking indexing, robots.txt and the sitemap",
+    "Page speed analysis on phone and desktop",
+    "Review of titles, descriptions and page structure",
+    "Finding duplicates, broken links and redirect errors",
+    "Analysis of the mobile version and basic accessibility",
+    "A look at the texts and topic ideas based on real search queries",
+    "A prioritised report plus a walkthrough by video call"
+  ],
+  "not_included_ru": [
+    "Само внесение исправлений: аудит это диагностика, а работы по сайту оцениваются отдельно",
+    "Гарантия роста позиций или трафика после исправлений: поисковики решают сами",
+    "Покупка ссылок и платная реклама"
+  ],
+  "not_included_kk": [
+    "Түзетулерді енгізудің өзі: аудит диагностика болып табылады, ал сайттағы жұмыс бөлек бағаланады",
+    "Түзетуден кейін позиция немесе трафик өседі деген кепіл: іздеу жүйелері өздері шешеді",
+    "Сілтеме сатып алу және ақылы жарнама"
+  ],
+  "not_included_en": [
+    "Making the fixes themselves, since an audit is a diagnosis and site work is quoted separately",
+    "A guarantee of better positions or traffic after the fixes, because search engines decide that",
+    "Buying links and paid advertising"
+  ],
+  "price_from_kzt": 20000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 5,
+  "related": [
+    "seo-prodvizhenie",
+    "uskorenie-saita",
+    "ispravlenie-oshibok"
+  ],
+  "is_active": true,
+  "sort": 43,
+  "faqs": [
+    {
+      "question_ru": "Нужен ли доступ к сайту?",
+      "question_kk": "Сайтқа қолжетімділік керек пе?",
+      "question_en": "Do you need access to my site?",
+      "answer_ru": "Для основной части достаточно адреса сайта. Если вы дадите доступ к Google Search Console и аналитике, анализ станет точнее, потому что я увижу реальные запросы.",
+      "answer_kk": "Негізгі бөлікке сайт мекенжайы жеткілікті. Google Search Console мен аналитикаға қолжетімділік берсеңіз, талдау дәлірек болады, өйткені нақты сұраныстарды көремін.",
+      "answer_en": "The site address is enough for the main part. If you give access to Google Search Console and analytics, the analysis becomes more precise because I can see real queries.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что я получу в итоге?",
+      "question_kk": "Нәтижесінде не аламын?",
+      "question_en": "What exactly will I receive?",
+      "answer_ru": "Документ со списком проблем, их влиянием и порядком исправления, плюс разбор по видеозвонку. С ним можно работать самостоятельно или передать мне, или другому специалисту.",
+      "answer_kk": "Мәселелер тізімі, олардың әсері және түзету реті бар құжат, сондай-ақ бейнеқоңырау арқылы талдау. Онымен өзіңіз жұмыс істей аласыз немесе маған не басқа маманға бере аласыз.",
+      "answer_en": "A document listing the problems, their impact and the order for fixing them, plus a video call walkthrough. You can work from it yourself or hand it to me or to another specialist.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Подходит ли аудит для сайта на конструкторе?",
+      "question_kk": "Аудит конструктордағы сайтқа жарай ма?",
+      "question_en": "Does an audit work for a site on a site builder?",
+      "answer_ru": "Да, но у конструкторов есть технические ограничения, и часть пунктов вы не сможете изменить. Я отмечу, что исправимо в вашей платформе, а что потребует переноса.",
+      "answer_kk": "Иә, бірақ конструкторлардың техникалық шектеулері бар, кейбір тармақты өзгерте алмайсыз. Платформаңызда нені түзетуге болатынын, ал нені көшіру қажет ететінін белгілеймін.",
+      "answer_en": "Yes, but site builders have technical limits and you will not be able to change some items. I will mark what is fixable on your platform and what would require a move.",
+      "sort": 2
+    }
+  ]
+}

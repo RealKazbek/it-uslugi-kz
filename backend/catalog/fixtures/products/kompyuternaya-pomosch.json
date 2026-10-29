@@ -1,0 +1,95 @@
+{
+  "slug": "kompyuternaya-pomosch",
+  "category": "support",
+  "title_ru": "Компьютерная помощь удалённо",
+  "title_kk": "Компьютерге қашықтан көмек",
+  "title_en": "Remote computer help",
+  "short_ru": "Помогу по видеосвязи или через удалённый доступ: установка программ, настройка, вирусы, лишние тормоза.",
+  "short_kk": "Бейнебайланыс немесе қашықтан қолжетімділік арқылы көмектесемін: бағдарлама орнату, баптау, вирустар, баяулау.",
+  "short_en": "Help by video call or remote access: installing software, settings, malware and slow-downs.",
+  "description_ru": "Компьютер или телефон тормозит, не печатает, не пускает в аккаунт или вам нужно установить программу. Мы созвонимся, и я подключусь к вашему экрану через безопасную программу удалённого доступа только на время сеанса. Объясняю простыми словами, что делаю, чтобы в следующий раз вы справились сами.",
+  "description_kk": "Компьютер немесе телефон баяулайды, басып шығармайды, аккаунтқа кіргізбейді немесе бағдарлама орнату керек. Біз қоңыраулас боламыз, мен тек сеанс уақытына қауіпсіз қашықтан қолжетімділік бағдарламасы арқылы экраныңызға қосыламын. Келесі жолы өзіңіз қатесіз істей алуыңыз үшін не істеп жатқанымды қарапайым тілмен түсіндіремін.",
+  "description_en": "Your computer or phone is slow, will not print, locks you out of an account, or you need a program installed. We get on a call and I connect to your screen through a secure remote access tool, only for the length of the session. I explain in plain words what I am doing so that next time you can manage on your own.",
+  "for_whom_ru": "Частным лицам и семьям, которым нужна понятная помощь с компьютером или телефоном без поездки в сервис.",
+  "for_whom_kk": "Сервиске бармай, компьютер немесе телефон бойынша түсінікті көмек қажет жеке тұлғалар мен отбасыларға арналған.",
+  "for_whom_en": "For individuals and families who need clear help with a computer or phone without taking it to a repair shop.",
+  "includes_ru": [
+    "Установка и настройка программ, мессенджеров и принтера",
+    "Проверка компьютера на вирусы и лишние программы",
+    "Ускорение работы: чистка автозагрузки и места на диске",
+    "Помощь с почтой, паролями и входом в аккаунты",
+    "Настройка Wi-Fi-роутера и подключения устройств",
+    "Объяснение шагов простыми словами по ходу работы"
+  ],
+  "includes_kk": [
+    "Бағдарламаларды, мессенджерлер мен принтерді орнату және баптау",
+    "Компьютерді вирусқа және артық бағдарламаларға тексеру",
+    "Жұмысты жылдамдату: автожүктеме мен диск орнын тазалау",
+    "Пошта, құпиясөздер және аккаунттарға кіру бойынша көмек",
+    "Wi-Fi-роутерді және құрылғыларды қосуды баптау",
+    "Қадамдарды жұмыс барысында қарапайым тілмен түсіндіру"
+  ],
+  "includes_en": [
+    "Installing and configuring programs, messengers and a printer",
+    "Scanning the computer for malware and unneeded programs",
+    "Speeding things up by cleaning startup items and disk space",
+    "Help with email, passwords and signing in to accounts",
+    "Setting up a Wi-Fi router and connecting devices",
+    "Explaining each step in plain words as we go"
+  ],
+  "not_included_ru": [
+    "Ремонт техники и замена комплектующих: работаю только удалённо",
+    "Выезд на дом: в Алматы возможен по договорённости, отдельно",
+    "Восстановление данных с вышедших из строя дисков"
+  ],
+  "not_included_kk": [
+    "Техниканы жөндеу және бөлшектерін ауыстыру: тек қашықтан жұмыс істеймін",
+    "Үйге шығу: Алматыда келісім бойынша мүмкін, бөлек төленеді",
+    "Істен шыққан дисктерден деректерді қалпына келтіру"
+  ],
+  "not_included_en": [
+    "Hardware repair or replacing parts; I work remotely only",
+    "On-site visits, which in Almaty are possible by agreement and charged separately",
+    "Recovering data from failed drives"
+  ],
+  "price_from_kzt": 3000,
+  "unit": "hour",
+  "days_min": 1,
+  "days_max": 1,
+  "related": [
+    "kompyuternaya-gramotnost",
+    "pochta-na-domene",
+    "ispravlenie-oshibok"
+  ],
+  "is_active": true,
+  "sort": 54,
+  "faqs": [
+    {
+      "question_ru": "Безопасно ли давать удалённый доступ?",
+      "question_kk": "Қашықтан қолжетімділік беру қауіпсіз бе?",
+      "question_en": "Is it safe to give remote access?",
+      "answer_ru": "Вы сами запускаете программу и видите всё, что я делаю на экране. Доступ работает только во время сеанса, и вы можете прервать его в любой момент.",
+      "answer_kk": "Бағдарламаны өзіңіз іске қосасыз және экрандағы әрекеттерімнің бәрін көресіз. Қолжетімділік тек сеанс кезінде жұмыс істейді, оны кез келген сәтте тоқтата аласыз.",
+      "answer_en": "You start the program yourself and see everything I do on screen. Access works only during the session and you can end it at any moment.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как считается оплата за час?",
+      "question_kk": "Сағаттық төлем қалай есептеледі?",
+      "question_en": "How is the hourly rate counted?",
+      "answer_ru": "Платите за фактически потраченное время. Если задача простая, я скажу об этом заранее и не буду растягивать сеанс.",
+      "answer_kk": "Нақты жұмсалған уақыт үшін төлейсіз. Тапсырма қарапайым болса, алдын ала айтып, сеансты созбаймын.",
+      "answer_en": "You pay for the time actually spent. If the task is simple I will say so up front and will not stretch the session.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Работаете ли вы с Mac и телефонами?",
+      "question_kk": "Mac пен телефондармен жұмыс істейсіз бе?",
+      "question_en": "Do you work with Mac and phones?",
+      "answer_ru": "Да, с Windows, macOS, а также с Android и iPhone в части настроек и приложений. Ограничения, например по закрытым корпоративным устройствам, называю заранее.",
+      "answer_kk": "Иә, Windows, macOS және Android пен iPhone-ның баптаулары мен қосымшалары бойынша жұмыс істеймін. Шектеулерді, мысалы жабық корпоративтік құрылғылар бойынша, алдын ала айтамын.",
+      "answer_en": "Yes, with Windows and macOS, and with settings and apps on Android and iPhone. I tell you about limits in advance, for example with locked-down company devices.",
+      "sort": 2
+    }
+  ]
+}

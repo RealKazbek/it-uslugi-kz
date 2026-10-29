@@ -1,0 +1,95 @@
+{
+  "slug": "domen-hosting-ssl",
+  "category": "support",
+  "title_ru": "Домен, хостинг и SSL",
+  "title_kk": "Домен, хостинг және SSL",
+  "title_en": "Domain, hosting and SSL setup",
+  "short_ru": "Помогаю выбрать и оформить домен и хостинг, подключить его к сайту и включить защищённое соединение.",
+  "short_kk": "Домен мен хостингті таңдап, рәсімдеуге, оны сайтқа қосуға және қауіпсіз қосылымды іске қосуға көмектесемін.",
+  "short_en": "I help you choose and register a domain and hosting, connect them to your site and switch on HTTPS.",
+  "description_ru": "Домен, DNS-записи и сертификат кажутся простыми, пока сайт не перестаёт открываться. Я подберу зону и хостинг под ваш проект, помогу зарегистрировать домен на вас, настрою DNS и включу HTTPS с автоматическим продлением сертификата. Домен всегда оформляется на ваше имя, а доступы остаются у вас.",
+  "description_kk": "Домен, DNS жазбалары және сертификат сайт ашылмай қалғанша қарапайым көрінеді. Жобаңызға лайық аймақ пен хостингті таңдап, доменді сіздің атыңызға тіркеуге көмектесемін, DNS-ті баптап, сертификатты автоматты жаңартатын HTTPS-ті қосамын. Домен әрқашан сіздің атыңызға рәсімделеді, қолжетімділіктер сізде қалады.",
+  "description_en": "Domains, DNS records and certificates seem simple until a site stops opening. I help pick a domain zone and hosting that suit your project, register the domain in your name, configure DNS and switch on HTTPS with automatic certificate renewal. The domain is always registered to you and the logins stay with you.",
+  "for_whom_ru": "Тем, кто запускает первый сайт или сменил адрес и не хочет разбираться в DNS и сертификатах самостоятельно.",
+  "for_whom_kk": "Алғашқы сайтын іске қосып жатқан немесе мекенжайын өзгерткен және DNS пен сертификатқа өзі бойлағысы келмейтіндерге арналған.",
+  "for_whom_en": "For people launching a first site or changing an address who would rather not work out DNS and certificates themselves.",
+  "includes_ru": [
+    "Подбор доменного имени и зоны (.kz, .com и другие)",
+    "Помощь с регистрацией домена на ваше имя",
+    "Выбор тарифа хостинга под нагрузку сайта",
+    "Настройка DNS-записей для сайта",
+    "Подключение SSL-сертификата и автоматическое продление",
+    "Перенаправление с http на https и с www на основной адрес"
+  ],
+  "includes_kk": [
+    "Домен атауы мен аймағын таңдау (.kz, .com және басқалар)",
+    "Доменді сіздің атыңызға тіркеуге көмектесу",
+    "Сайт жүктемесіне сай хостинг тарифін таңдау",
+    "Сайтқа арналған DNS жазбаларын баптау",
+    "SSL-сертификатты қосу және автоматты жаңарту",
+    "http-тен https-ке және www-дан негізгі мекенжайға бағыттау"
+  ],
+  "includes_en": [
+    "Choosing a domain name and zone (.kz, .com and others)",
+    "Help registering the domain in your name",
+    "Picking a hosting plan that fits the site load",
+    "Configuring DNS records for the site",
+    "Installing an SSL certificate with automatic renewal",
+    "Redirects from http to https and from www to the main address"
+  ],
+  "not_included_ru": [
+    "Плата за домен и хостинг: вы платите её регистратору и хостеру напрямую",
+    "Разработка самого сайта: услуга касается только инфраструктуры",
+    "Перенос сайта с другого хостинга: он оформляется отдельно"
+  ],
+  "not_included_kk": [
+    "Домен мен хостинг ақысы: оны тіркеушіге және хостерге тікелей төлейсіз",
+    "Сайттың өзін әзірлеу: қызмет тек инфрақұрылымға қатысты",
+    "Сайтты басқа хостингтен көшіру: ол бөлек рәсімделеді"
+  ],
+  "not_included_en": [
+    "Domain and hosting fees, which you pay directly to the registrar and the host",
+    "Building the website itself; this service covers infrastructure only",
+    "Moving a site from another host, which is a separate service"
+  ],
+  "price_from_kzt": 10000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 2,
+  "related": [
+    "pochta-na-domene",
+    "perenos-saita",
+    "podderzhka-saita"
+  ],
+  "is_active": true,
+  "sort": 51,
+  "faqs": [
+    {
+      "question_ru": "На чьё имя будет оформлен домен?",
+      "question_kk": "Домен кімнің атына рәсімделеді?",
+      "question_en": "Whose name will the domain be registered to?",
+      "answer_ru": "На ваше. Вы сами создаёте аккаунт у регистратора и оплачиваете домен, а я подсказываю шаги и настраиваю DNS по вашему доступу.",
+      "answer_kk": "Сіздің атыңызға. Тіркеушіден аккаунтты өзіңіз ашып, доменді өзіңіз төлейсіз, ал мен қадамдарды айтып, сіз берген қолжетімділікпен DNS-ті баптаймын.",
+      "answer_en": "Yours. You create the registrar account and pay for the domain yourself; I guide the steps and configure DNS using access you provide.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько стоят домен и хостинг?",
+      "question_kk": "Домен мен хостинг қанша тұрады?",
+      "question_en": "How much do the domain and hosting cost?",
+      "answer_ru": "Цены зависят от зоны и тарифа выбранного провайдера и меняются, поэтому я называю актуальные варианты на момент выбора. Эти суммы не входят в стоимость моей работы.",
+      "answer_kk": "Бағалар таңдалған провайдердің аймағы мен тарифіне байланысты және өзгеріп тұрады, сондықтан таңдау сәтіндегі өзекті нұсқаларды айтамын. Бұл сомалар менің жұмысымның құнына кірмейді.",
+      "answer_en": "Prices depend on the zone and the provider plan and change over time, so I list current options when you choose. These amounts are not part of the price of my work.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что делать, если сайт показывает «Не защищено»?",
+      "question_kk": "Сайт «Қорғалмаған» деп көрсетсе не істеу керек?",
+      "question_en": "What if my browser says the site is not secure?",
+      "answer_ru": "Обычно сертификат просрочен или не подключён. Я проверю причину, установлю новый сертификат и включу автопродление, чтобы это не повторилось.",
+      "answer_kk": "Әдетте сертификаттың мерзімі өткен немесе қосылмаған. Себебін тексеріп, жаңа сертификатты орнатып, мұның қайталанбауы үшін автоматты жаңартуды қосамын.",
+      "answer_en": "Usually the certificate has expired or was never installed. I check the cause, install a new certificate and turn on auto-renewal so it does not happen again.",
+      "sort": 2
+    }
+  ]
+}

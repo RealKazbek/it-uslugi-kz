@@ -1,0 +1,98 @@
+{
+  "slug": "internet-magazin",
+  "category": "ecommerce",
+  "title_ru": "Интернет-магазин под ключ",
+  "title_kk": "Интернет-дүкен толық кешенімен",
+  "title_en": "Custom online store",
+  "short_ru": "Интернет-магазин с каталогом, корзиной и заказами на своём коде, без платы за конструктор.",
+  "short_kk": "Каталогы, себеті және тапсырыстары бар, конструкторға ақы төлеусіз жеке кодта жазылған интернет-дүкен.",
+  "short_en": "A custom-coded store with catalog, cart and orders, with no monthly platform fee.",
+  "description_ru": "Магазин пишется на Next.js или Django под ваш ассортимент, а не собирается на шаблоне конструктора. Покупатель выбирает товар в каталоге, кладёт его в корзину и оформляет заказ, а вы получаете заявку на почту и в Telegram. Товарами вы управляете сами через понятную админку.",
+  "description_kk": "Дүкен конструктор шаблонында емес, сіздің тауар түріңізге арнап Next.js немесе Django-да жазылады. Сатып алушы каталогтан тауар таңдап, себетке салады және тапсырыс береді, ал сіз өтінімді поштаға және Telegram-ға аласыз. Тауарларды түсінікті әкімшілік панелі арқылы өзіңіз басқарасыз.",
+  "description_en": "The store is written in Next.js or Django around your range of goods rather than assembled from a website-builder template. A customer browses the catalog, adds items to the cart and places an order, and you get the order by email and in Telegram. You manage products yourself through a simple admin panel.",
+  "for_whom_ru": "Подходит магазинам с собственным ассортиментом, которые хотят продавать со своего сайта, а не только в мессенджерах и на маркетплейсах. Хорош, когда конструктор уже тесен, а ежемесячная плата за платформу не устраивает.",
+  "for_whom_kk": "Өз тауар ассортименті бар және тек мессенджерлер мен маркетплейстерде емес, өз сайтынан сатқысы келетін дүкендерге сай келеді. Конструктор тарлық ете бастағанда және платформаға ай сайынғы ақы ұнамағанда ыңғайлы.",
+  "for_whom_en": "Fits shops with their own range that want to sell from their own site instead of relying only on messengers and marketplaces. A good choice once a website builder feels limiting or its monthly fee no longer makes sense.",
+  "includes_ru": [
+    "Каталог с категориями, карточками товаров, поиском и фильтрами",
+    "Корзина и оформление заказа с выбором доставки",
+    "Админка: добавление товаров, цен, остатков и статусов заказов",
+    "Уведомления о новых заказах на почту и в Telegram",
+    "Адаптивная вёрстка под телефон и быстрая загрузка",
+    "SEO-основа: метатеги, микроразметка товаров, sitemap",
+    "Запуск на вашем домене, передача доступов и короткая инструкция"
+  ],
+  "includes_kk": [
+    "Санаттары, тауар карточкалары, іздеуі және сүзгілері бар каталог",
+    "Себет және жеткізу тәсілін таңдайтын тапсырыс рәсімдеу",
+    "Әкімшілік панелі: тауар, баға, қалдық қосу және тапсырыс мәртебелері",
+    "Жаңа тапсырыстар туралы поштаға және Telegram-ға хабарлама",
+    "Телефонға бейімделген әрі жылдам жүктелетін беттер",
+    "SEO негізі: метатегтер, тауар микробелгілеуі, sitemap",
+    "Өз доменіңізде іске қосу, қолжетімділікті беру және қысқаша нұсқаулық"
+  ],
+  "includes_en": [
+    "Catalog with categories, product pages, search and filters",
+    "Cart and checkout with a choice of delivery method",
+    "Admin panel to add products, prices, stock and order statuses",
+    "New-order alerts by email and in Telegram",
+    "Mobile-first layout that loads fast",
+    "SEO basics: meta tags, product structured data, sitemap",
+    "Launch on your domain, access handover and a short how-to guide"
+  ],
+  "not_included_ru": [
+    "Фотографии, описания и цены товаров: их предоставляете вы",
+    "Онлайн-оплата картой: подключается отдельно по договорённости через API провайдера",
+    "Домен и хостинг оплачиваются по тарифам провайдера"
+  ],
+  "not_included_kk": [
+    "Тауар фотосуреттері, сипаттамалары және бағалары: оларды өзіңіз ұсынасыз",
+    "Картамен онлайн төлем: провайдердің API-і арқылы келісім бойынша бөлек қосылады",
+    "Домен мен хостинг провайдердің тарифтері бойынша төленеді"
+  ],
+  "not_included_en": [
+    "Product photos, descriptions and prices, which you provide",
+    "Online card payment, which can be added separately through a provider API by agreement",
+    "Domain and hosting, paid at the provider rates"
+  ],
+  "price_from_kzt": 180000,
+  "unit": "once",
+  "days_min": 15,
+  "days_max": 30,
+  "related": [
+    "magazin-s-kaspi-xml",
+    "telegram-bot-katalog",
+    "seo-audit"
+  ],
+  "is_active": true,
+  "sort": 14,
+  "faqs": [
+    {
+      "question_ru": "Почему не конструктор, а свой код?",
+      "question_kk": "Неге конструктор емес, жеке код?",
+      "question_en": "Why custom code instead of a website builder?",
+      "answer_ru": "Нет ежемесячной платы за платформу, а структуру и поведение магазина можно подогнать под ваши процессы. Обратная сторона: обновления и доработки делает разработчик, а не вы кнопкой в конструкторе.",
+      "answer_kk": "Платформаға ай сайынғы ақы жоқ, ал дүкеннің құрылымы мен жұмысын өз процестеріңізге бейімдеуге болады. Кері жағы: жаңартулар мен жетілдірулерді конструктордағы батырмамен сіз емес, әзірлеуші жасайды.",
+      "answer_en": "There is no monthly platform fee, and the structure and behaviour can be shaped to your own processes. The trade-off is that updates and changes are made by a developer rather than by clicking in a builder.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Смогу ли я сам добавлять товары?",
+      "question_kk": "Тауарды өзім қоса аламын ба?",
+      "question_en": "Will I be able to add products myself?",
+      "answer_ru": "Да. В админке товар добавляется формой: название, фото, цена, остаток, категория. Если товаров много, можно загрузить их таблицей, это обсуждается заранее.",
+      "answer_kk": "Иә. Әкімшілік панелінде тауар форма арқылы қосылады: атауы, фото, бағасы, қалдығы, санаты. Тауар көп болса, кестемен жүктеуге болады, бұл алдын ала келіседі.",
+      "answer_en": "Yes. In the admin panel a product is added through a form with name, photo, price, stock and category. If you have many items, a bulk upload from a spreadsheet can be arranged beforehand.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Как принимать оплату на сайте?",
+      "question_kk": "Сайтта төлемді қалай қабылдауға болады?",
+      "question_en": "How do I accept payments on the site?",
+      "answer_ru": "В базовую стоимость оплата картой не входит. Заказ приходит вам, и вы согласуете оплату с покупателем по привычной схеме. Онлайн-оплату можно подключить отдельно через API выбранного провайдера, после его подключения.",
+      "answer_kk": "Базалық құнға картамен төлем кірмейді. Тапсырыс сізге келеді, ал төлемді сатып алушымен әдеттегі тәсілмен келісесіз. Онлайн төлемді таңдалған провайдердің API-і арқылы бөлек қосуға болады.",
+      "answer_en": "Card payment is not part of the base price. The order reaches you and you settle payment with the buyer in your usual way. Online payment can be added separately through the API of the provider you choose, once you have an account with them.",
+      "sort": 2
+    }
+  ]
+}

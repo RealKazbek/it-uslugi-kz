@@ -1,0 +1,98 @@
+{
+  "slug": "zayavki-v-google-sheets",
+  "category": "automation",
+  "title_ru": "Заявки с сайта в Google Sheets",
+  "title_kk": "Сайттан түскен өтінімдерді Google Sheets-ке жіберу",
+  "title_en": "Website leads into Google Sheets",
+  "short_ru": "Каждая заявка с сайта или из бота автоматически попадает в аккуратную таблицу Google Sheets.",
+  "short_kk": "Сайттан немесе боттан түскен әр өтінім автоматты түрде ретті Google Sheets кестесіне түседі.",
+  "short_en": "Every lead from your site or bot lands automatically in a tidy Google Sheets table.",
+  "description_ru": "Я подключаю форму на сайте, Telegram-бота или рекламную форму к таблице Google, чтобы заявки не терялись в переписках. В таблице появляются дата, имя, телефон, источник и статус, а вы отмечаете, что уже обработано. Подходит как первый шаг к порядку в продажах, когда CRM ещё не нужна.",
+  "description_kk": "Өтінімдер хат алмасуда жоғалмауы үшін сайттағы форманы, Telegram-ботты немесе жарнама формасын Google кестесіне қосамын. Кестеде күні, аты, телефоны, қайдан келгені және мәртебесі пайда болады, ал өңделгенін өзіңіз белгілейсіз. CRM әлі қажет емес кезде сатудағы тәртіпке алғашқы қадам ретінде қолайлы.",
+  "description_en": "I connect your site form, Telegram bot or ad form to a Google spreadsheet so leads do not get lost in chats. The sheet gets the date, name, phone, source and status, and you mark what has already been handled. It is a good first step toward order in sales when a CRM is not needed yet.",
+  "for_whom_ru": "Для небольших компаний, где заявки приходят с сайта, из рекламы и мессенджеров, а учёт ведётся в голове или в блокноте.",
+  "for_whom_kk": "Өтінімдер сайттан, жарнамадан және мессенджерлерден келетін, ал есеп ойда немесе қолжазбада жүргізілетін шағын компанияларға арналған.",
+  "for_whom_en": "For small companies where leads arrive from the site, ads and messengers, while tracking happens in someone's head or a notebook.",
+  "includes_ru": [
+    "Таблица Google Sheets со столбцами под ваши данные",
+    "Подключение формы сайта, бота или рекламной формы",
+    "Автоматическая отметка даты, времени и источника заявки",
+    "Столбец статуса с выпадающим списком (новая, в работе, закрыта)",
+    "Защита от дублей при повторной отправке формы",
+    "Проверка на тестовых заявках",
+    "Короткая инструкция по работе с таблицей"
+  ],
+  "includes_kk": [
+    "Деректеріңізге сай бағандары бар Google Sheets кестесі",
+    "Сайт формасын, ботты немесе жарнама формасын қосу",
+    "Өтінімнің күнін, уақытын және көзін автоматты белгілеу",
+    "Ашылмалы тізімі бар мәртебе бағаны (жаңа, жұмыста, жабылған)",
+    "Форма қайта жіберілгенде көшірмеден қорғау",
+    "Сынақ өтінімдермен тексеру",
+    "Кестемен жұмыс істеудің қысқа нұсқаулығы"
+  ],
+  "includes_en": [
+    "A Google Sheets table with columns matched to your data",
+    "Connecting a site form, a bot or an ad form",
+    "Automatic stamping of date, time and lead source",
+    "A status column with a drop-down (new, in progress, closed)",
+    "Protection against duplicates when a form is submitted twice",
+    "Testing with sample leads",
+    "A short guide to working with the sheet"
+  ],
+  "not_included_ru": [
+    "Создание самого сайта или формы, если их ещё нет",
+    "Платные тарифы сервисов-посредников, если для вашей формы они понадобятся",
+    "Обзвон клиентов и работа с заявками после того, как они попали в таблицу"
+  ],
+  "not_included_kk": [
+    "Сайттың немесе форманың өзін жасау, егер олар әлі жоқ болса",
+    "Формаңызға қажет болса, делдал сервистердің ақылы тарифтері",
+    "Өтінімдер кестеге түскеннен кейін клиенттерге қоңырау шалу және онымен жұмыс"
+  ],
+  "not_included_en": [
+    "Building the site or form itself if you do not have one yet",
+    "Paid plans of third-party services, should your form need one",
+    "Calling customers and working the leads after they reach the sheet"
+  ],
+  "price_from_kzt": 25000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 4,
+  "related": [
+    "uvedomleniya-o-zayavkah",
+    "crm-dlya-malogo-biznesa",
+    "otchety-v-telegram"
+  ],
+  "is_active": true,
+  "sort": 34,
+  "faqs": [
+    {
+      "question_ru": "Нужно ли платить за Google Sheets?",
+      "question_kk": "Google Sheets үшін төлеу керек пе?",
+      "question_en": "Do I have to pay for Google Sheets?",
+      "answer_ru": "Для обычного аккаунта Google таблицы бесплатны. Таблица остаётся на вашем аккаунте, и доступ к ней вы раздаёте сами.",
+      "answer_kk": "Қарапайым Google аккаунты үшін кестелер тегін. Кесте сіздің аккаунтыңызда қалады, оған қолжетімділікті өзіңіз бересіз.",
+      "answer_en": "Sheets are free with a regular Google account. The table stays in your account, and you control who has access.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли подключить несколько источников в одну таблицу?",
+      "question_kk": "Бір кестеге бірнеше көзді қосуға бола ма?",
+      "question_en": "Can several sources feed one sheet?",
+      "answer_ru": "Да, например сайт, бот и форма из рекламы. В столбце «Источник» будет видно, откуда пришла каждая заявка.",
+      "answer_kk": "Иә, мысалы сайт, бот және жарнамадан келген форма. «Көз» бағанында әр өтінімнің қайдан келгені көрінеді.",
+      "answer_en": "Yes, for example a site, a bot and an ad form. The Source column shows where each lead came from.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что, если я захочу позже перейти на CRM?",
+      "question_kk": "Кейін CRM-ге көшкім келсе ше?",
+      "question_en": "What if I later want to move to a CRM?",
+      "answer_ru": "Таблицу легко выгрузить в CSV и загрузить в большинство систем. Если вырастете, я смогу построить CRM на тех же данных.",
+      "answer_kk": "Кестені CSV-ға оңай шығарып, көптеген жүйеге жүктеуге болады. Өссеңіз, сол деректер негізінде CRM жасай аламын.",
+      "answer_en": "The table exports easily to CSV and loads into most systems. If you outgrow it, I can build a CRM on the same data.",
+      "sort": 2
+    }
+  ]
+}

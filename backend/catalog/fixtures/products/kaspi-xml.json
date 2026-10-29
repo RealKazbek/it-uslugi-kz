@@ -1,0 +1,95 @@
+{
+  "slug": "kaspi-xml",
+  "category": "ecommerce",
+  "title_ru": "XML-прайс для Kaspi.kz",
+  "title_kk": "Kaspi.kz үшін XML-прайс",
+  "title_en": "Kaspi.kz XML price feed",
+  "short_ru": "Готовый XML-файл или автоматическая выгрузка вашего каталога в кабинет продавца Kaspi.",
+  "short_kk": "Каталогыңызды Kaspi сатушы кабинетіне жүктейтін дайын XML-файл немесе автоматты жүктеме.",
+  "short_en": "A ready XML file, or an automatic export of your existing catalog, for the Kaspi merchant cabinet.",
+  "description_ru": "Если у вас уже есть таблица, сайт или учётная база с товарами, я превращаю их в XML-прайс, который принимает Kaspi.kz. Файл можно обновлять автоматически по расписанию, и цены с остатками в кабинете будут совпадать с вашими. Это отдельная небольшая услуга, магазин для неё создавать не нужно.",
+  "description_kk": "Егер сізде тауарлары бар кесте, сайт немесе есеп базасы болса, мен оларды Kaspi.kz қабылдайтын XML-прайсқа айналдырамын. Файлды кесте бойынша автоматты жаңартуға болады, сонда кабинеттегі бағалар мен қалдықтар сіздікімен сәйкес келеді. Бұл бөлек шағын қызмет, оған дүкен жасаудың қажеті жоқ.",
+  "description_en": "If you already have a spreadsheet, a website or an inventory database with your products, I turn it into an XML price list that Kaspi.kz accepts. The file can refresh on a schedule, so prices and stock in the cabinet match yours. It is a small standalone service and you do not need to build a store for it.",
+  "for_whom_ru": "Для продавцов Kaspi.kz, у которых товары лежат в Excel, Google Таблице или на сайте, и обновлять цены в кабинете вручную надоело. Подходит и тем, кто только выходит на маркетплейс с готовым прайсом.",
+  "for_whom_kk": "Тауарлары Excel-де, Google кестесінде немесе сайтта жатқан және кабинетте бағаны қолмен жаңартудан жалыққан Kaspi.kz сатушыларына арналған. Дайын прайспен маркетплейске енді шығып жатқандарға да жарайды.",
+  "for_whom_en": "For Kaspi.kz sellers whose products live in Excel, Google Sheets or on a website and who are tired of updating prices in the cabinet by hand. It also suits newcomers entering the marketplace with a ready price list.",
+  "includes_ru": [
+    "Анализ вашего источника данных: таблица, сайт или база",
+    "Скрипт, который собирает XML по структуре прайса Kaspi",
+    "Сопоставление ваших колонок и категорий с полями Kaspi",
+    "Публикация файла по постоянной ссылке для автозагрузки",
+    "Обновление по расписанию, чтобы цены и остатки не отставали",
+    "Проверка файла на ошибки перед первой загрузкой"
+  ],
+  "includes_kk": [
+    "Деректер көзін талдау: кесте, сайт немесе база",
+    "Kaspi прайсының құрылымы бойынша XML жинайтын скрипт",
+    "Бағандарыңыз бен санаттарыңызды Kaspi өрістерімен сәйкестендіру",
+    "Файлды автожүктеу үшін тұрақты сілтеме бойынша жариялау",
+    "Баға мен қалдық артта қалмауы үшін кесте бойынша жаңарту",
+    "Алғашқы жүктеуден бұрын файлды қателікке тексеру"
+  ],
+  "includes_en": [
+    "Review of your data source, whether a spreadsheet, a site or a database",
+    "A script that builds the XML to the Kaspi price-list structure",
+    "Mapping your columns and categories to Kaspi fields",
+    "Publishing the file at a permanent link for automatic loading",
+    "Scheduled refresh so prices and stock do not fall behind",
+    "Error check of the file before the first upload"
+  ],
+  "not_included_ru": [
+    "Аккаунт продавца Kaspi и комиссии маркетплейса: это ваши отношения с Kaspi",
+    "Фото и описания товаров: предоставляете вы",
+    "Хостинг для файла, если у вас нет своего: оплачивается по тарифам провайдера"
+  ],
+  "not_included_kk": [
+    "Kaspi сатушы аккаунты мен маркетплейс комиссиялары: бұл сіздің Kaspi-мен қарым-қатынасыңыз",
+    "Тауар фотосуреттері мен сипаттамалары: оларды сіз ұсынасыз",
+    "Файлға арналған хостинг, егер өзіңізде болмаса: провайдер тарифі бойынша төленеді"
+  ],
+  "not_included_en": [
+    "The Kaspi seller account and marketplace commissions, which are between you and Kaspi",
+    "Product photos and descriptions, which you provide",
+    "Hosting for the file if you have none, paid at the provider rate"
+  ],
+  "price_from_kzt": 25000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 4,
+  "related": [
+    "magazin-s-kaspi-xml",
+    "zayavki-v-google-sheets",
+    "parsing-dannyh"
+  ],
+  "is_active": true,
+  "sort": 16,
+  "faqs": [
+    {
+      "question_ru": "Из чего можно сделать XML?",
+      "question_kk": "XML-ді неден жасауға болады?",
+      "question_en": "What can the XML be built from?",
+      "answer_ru": "Из таблицы Excel или Google, из CSV, из вашего сайта или из базы данных. Если данные лежат в другой учётной системе, выгрузку из неё обсуждаем отдельно.",
+      "answer_kk": "Excel немесе Google кестесінен, CSV-ден, сайтыңыздан немесе деректер базасынан жасауға болады. Деректер басқа есеп жүйесінде болса, одан жүктеуді бөлек талқылаймыз.",
+      "answer_en": "From an Excel or Google spreadsheet, a CSV, your website or a database. If the data sits in another accounting system, exporting from it is discussed separately.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как часто обновляется файл?",
+      "question_kk": "Файл қаншалықты жиі жаңарады?",
+      "question_en": "How often does the file update?",
+      "answer_ru": "Частоту задаём при настройке, например раз в час или раз в сутки. Как часто Kaspi забирает файл, зависит уже от настроек вашего кабинета.",
+      "answer_kk": "Жиілікті баптау кезінде белгілейміз, мысалы сағатына бір рет немесе тәулігіне бір рет. Kaspi файлды қаншалықты жиі алатыны енді кабинет баптауларына байланысты.",
+      "answer_en": "We set the frequency during setup, for example hourly or daily. How often Kaspi picks up the file then depends on your cabinet settings.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Если Kaspi не принял файл, что дальше?",
+      "question_kk": "Kaspi файлды қабылдамаса, не істеу керек?",
+      "question_en": "What if Kaspi rejects the file?",
+      "answer_ru": "Я проверяю структуру до загрузки и исправляю ошибки формата, которые показывает кабинет. Отказы по самим товарам, например по категории или модерации, решаются на стороне Kaspi.",
+      "answer_kk": "Жүктеуге дейін құрылымды тексеріп, кабинет көрсететін пішім қателерін түзетемін. Тауарлардың өздеріне қатысты бас тартулар, мысалы санат немесе модерация бойынша, Kaspi жағында шешіледі.",
+      "answer_en": "I check the structure before uploading and fix any format errors the cabinet reports. Rejections about the products themselves, such as category or moderation, are settled on the Kaspi side.",
+      "sort": 2
+    }
+  ]
+}

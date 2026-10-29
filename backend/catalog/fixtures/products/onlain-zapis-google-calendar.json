@@ -1,0 +1,98 @@
+{
+  "slug": "onlain-zapis-google-calendar",
+  "category": "automation",
+  "title_ru": "Онлайн-запись с Google Календарём",
+  "title_kk": "Google Күнтізбесімен онлайн жазылу",
+  "title_en": "Online booking synced with Google Calendar",
+  "short_ru": "Клиенты выбирают свободное время на сайте, а запись сама попадает в ваш Google Календарь.",
+  "short_kk": "Клиенттер сайтта бос уақытты таңдайды, ал жазылу өзі Google Күнтізбеңізге түседі.",
+  "short_en": "Clients pick a free slot on your site and the booking lands in your Google Calendar by itself.",
+  "description_ru": "Страница записи показывает только свободные слоты, учитывая ваш график и уже занятое время в календаре. После выбора клиент оставляет имя и телефон, а вы получаете событие в календаре и уведомление. Это избавляет от переписки «а на когда есть окошко» и двойных записей.",
+  "description_kk": "Жазылу беті сіздің кестеңіз бен күнтізбедегі бос емес уақытты ескеріп, тек бос слоттарды көрсетеді. Таңдағаннан кейін клиент есімі мен телефонын қалдырады, ал сіз күнтізбеде оқиға мен хабарлама аласыз. Бұл «қай уақытқа бос орын бар» деген хат алмасудан және қос жазылудан құтқарады.",
+  "description_en": "The booking page shows only free slots, taking into account your schedule and the time already busy in your calendar. After choosing, the client leaves a name and phone, and you get an event in your calendar plus a notification. This ends the back-and-forth of asking when you are free and prevents double bookings.",
+  "for_whom_ru": "Для мастеров, врачей, репетиторов, консультантов и студий, которые принимают по записи и устали вести её вручную.",
+  "for_whom_kk": "Жазылу бойынша қабылдайтын және оны қолмен жүргізуден шаршаған шеберлерге, дәрігерлерге, репетиторларға, кеңесшілер мен студияларға арналған.",
+  "for_whom_en": "For stylists, doctors, tutors, consultants and studios that work by appointment and are tired of managing it by hand.",
+  "includes_ru": [
+    "Страница записи, встроенная в сайт или отдельная ссылка",
+    "Настройка рабочих часов, перерывов и длительности услуг",
+    "Синхронизация с вашим Google Календарём",
+    "Защита от двойной записи на одно время",
+    "Уведомление вам в Telegram о каждой новой записи",
+    "Подтверждение клиенту и напоминание перед визитом",
+    "Возможность отмены или переноса по ссылке"
+  ],
+  "includes_kk": [
+    "Сайтқа орнатылған жазылу беті немесе бөлек сілтеме",
+    "Жұмыс сағаттарын, үзілістерді және қызмет ұзақтығын баптау",
+    "Google Күнтізбеңізбен синхрондау",
+    "Бір уақытқа қос жазылудан қорғау",
+    "Әр жаңа жазылу туралы сізге Telegram хабарламасы",
+    "Клиентке растау және келу алдында еске салу",
+    "Сілтеме арқылы бас тарту немесе ауыстыру мүмкіндігі"
+  ],
+  "includes_en": [
+    "A booking page embedded in your site or a standalone link",
+    "Setup of working hours, breaks and service durations",
+    "Synchronisation with your Google Calendar",
+    "Protection against double booking the same slot",
+    "A Telegram notification to you for each new booking",
+    "Confirmation for the client and a reminder before the visit",
+    "Cancel or reschedule through a link"
+  ],
+  "not_included_ru": [
+    "Онлайн-оплата при записи: её можно подключить отдельно",
+    "Платная подписка на сервисы, если для напоминаний потребуется SMS",
+    "Дизайн сайта, в который встраивается запись"
+  ],
+  "not_included_kk": [
+    "Жазылу кезіндегі онлайн-төлем: оны бөлек қосуға болады",
+    "Еске салуға SMS қажет болса, сервистердің ақылы жазылымы",
+    "Жазылу енгізілетін сайттың дизайны"
+  ],
+  "not_included_en": [
+    "Online payment at booking, which can be connected separately",
+    "Paid service subscriptions if reminders need SMS",
+    "The design of the site the booking is embedded into"
+  ],
+  "price_from_kzt": 30000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 6,
+  "related": [
+    "telegram-bot-zapis",
+    "sait-dlya-salona-krasoty",
+    "uvedomleniya-o-zayavkah"
+  ],
+  "is_active": true,
+  "sort": 37,
+  "faqs": [
+    {
+      "question_ru": "Чем это отличается от бота записи?",
+      "question_kk": "Бұл жазылу ботынан немен ерекшеленеді?",
+      "question_en": "How is this different from a booking bot?",
+      "answer_ru": "Здесь запись идёт через страницу на сайте и синхронизируется с календарём, а бот работает внутри Telegram. Если клиенты сидят в мессенджере, лучше бот, если приходят с сайта, то эта страница.",
+      "answer_kk": "Мұнда жазылу сайттағы бет арқылы өтіп, күнтізбемен синхрондалады, ал бот Telegram ішінде жұмыс істейді. Клиенттер мессенджерде отырса, бот жақсырақ, сайттан келсе, осы бет.",
+      "answer_en": "Here booking goes through a page on your site and syncs with the calendar, while a bot works inside Telegram. If clients live in the messenger, a bot suits better; if they come from your site, this page does.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли вести несколько мастеров?",
+      "question_kk": "Бірнеше шеберді жүргізуге бола ма?",
+      "question_en": "Can it handle several specialists?",
+      "answer_ru": "Да, у каждого мастера свой календарь и график, а клиент выбирает специалиста или любое свободное время.",
+      "answer_kk": "Иә, әр шебердің өз күнтізбесі мен кестесі болады, ал клиент маманды немесе кез келген бос уақытты таңдайды.",
+      "answer_en": "Yes, each specialist has their own calendar and schedule, and the client picks a person or any free time.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужен ли клиенту аккаунт Google?",
+      "question_kk": "Клиентке Google аккаунты керек пе?",
+      "question_en": "Does the client need a Google account?",
+      "answer_ru": "Нет. Аккаунт Google нужен только вам для календаря, клиенту достаточно имени и номера телефона.",
+      "answer_kk": "Жоқ. Google аккаунты тек сізге күнтізбе үшін керек, клиентке есімі мен телефон нөмірі жеткілікті.",
+      "answer_en": "No. A Google account is needed only on your side for the calendar; the client just provides a name and phone number.",
+      "sort": 2
+    }
+  ]
+}

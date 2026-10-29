@@ -1,0 +1,98 @@
+{
+  "slug": "ai-assistent-whatsapp",
+  "category": "ai",
+  "title_ru": "ИИ-ассистент в WhatsApp для бизнеса",
+  "title_kk": "Бизнеске арналған WhatsApp ИИ-көмекшісі",
+  "title_en": "AI assistant in WhatsApp for business",
+  "short_ru": "Автоматические ответы клиентам в WhatsApp на основе вашей базы знаний, с передачей диалога человеку.",
+  "short_kk": "WhatsApp-та клиенттерге білім қоры негізінде автоматты жауап беріп, диалогты адамға береді.",
+  "short_en": "Automatic WhatsApp replies to customers based on your knowledge base, with a handoff to a person.",
+  "description_ru": "В Казахстане многие клиенты пишут именно в WhatsApp, и ассистент берёт на себя первые ответы: цены, адрес, график, наличие. Он работает через WhatsApp Business API и языковую модель, а сложные случаи пересылает вам. Логику памяти и паузы я переношу из своего Telegram-проекта, так что подход проверен на практике.",
+  "description_kk": "Қазақстанда көп клиент дәл WhatsApp-қа жазады, ал көмекші алғашқы жауаптарды өз мойнына алады: баға, мекенжай, кесте, қолда бар-жоғы. Ол WhatsApp Business API мен тілдік модель арқылы жұмыс істейді, күрделі жағдайларды сізге жібереді. Жады мен кідіріс логикасын өзімнің Telegram жобамнан көшіремін, сондықтан тәсіл тәжірибеде сыналған.",
+  "description_en": "Many customers in Kazakhstan write on WhatsApp first, and the assistant takes over the opening replies: prices, address, hours, availability. It runs through the WhatsApp Business API and a language model, and passes complicated cases to you. I reuse the memory and pause logic from my own Telegram project, so the approach has been tried in practice.",
+  "for_whom_ru": "Для компаний, у которых основной канал связи с клиентами WhatsApp, а заявок и вопросов много. Подойдёт магазинам, студиям, клиникам и сервисным компаниям.",
+  "for_whom_kk": "Клиентпен негізгі байланыс арнасы WhatsApp болатын, өтінім мен сұрақ көп компанияларға арналған. Дүкендерге, студияларға, клиникаларға және қызмет көрсету компанияларына қолайлы.",
+  "for_whom_en": "For companies whose main contact channel is WhatsApp and that receive many requests. It suits shops, studios, clinics and service businesses.",
+  "includes_ru": [
+    "Подключение номера к WhatsApp Business API через выбранного провайдера",
+    "Серверная часть на Python, принимающая и отправляющая сообщения",
+    "Интеграция с языковой моделью и настройка стиля ответов на русском и казахском",
+    "База знаний из ваших материалов и память диалога",
+    "Передача разговора вам и пауза, пока отвечает человек",
+    "Уведомление в Telegram, когда клиенту нужен живой ответ",
+    "Тесты на реальных вопросах и краткая инструкция"
+  ],
+  "includes_kk": [
+    "Нөмірді таңдалған провайдер арқылы WhatsApp Business API-ге қосу",
+    "Хабарламаларды қабылдап, жіберетін Python серверлік бөлігі",
+    "Тілдік модельді қосу және жауап мәнерін орыс, қазақ тілдерінде баптау",
+    "Сіздің материалдарыңыздан құралған білім қоры және диалог жады",
+    "Диалогты сізге беру және адам жауап беріп жатқанда кідіріс",
+    "Клиентке тірі жауап керек болғанда Telegram-ға хабарлама",
+    "Нақты сұрақтармен сынау және қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Connecting your number to the WhatsApp Business API through a chosen provider",
+    "A Python back end that receives and sends messages",
+    "Language model integration, with reply style tuned for Russian and Kazakh",
+    "A knowledge base built from your material, plus dialog memory",
+    "Handoff to you and a pause while a person is replying",
+    "A Telegram alert when a customer needs a human answer",
+    "Testing on real questions and a short guide"
+  ],
+  "not_included_ru": [
+    "Плата провайдера WhatsApp Business API и тарифы Meta за диалоги: их вносите вы",
+    "Оплата запросов к языковой модели по факту использования",
+    "Одобрение номера и шаблонов сообщений: это решают Meta и провайдер, срок я не контролирую"
+  ],
+  "not_included_kk": [
+    "WhatsApp Business API провайдерінің төлемі мен Meta-ның диалог тарифтері: оларды өзіңіз төлейсіз",
+    "Тілдік модельге сұраулардың қолданысқа қарай төлемі",
+    "Нөмір мен хабарлама үлгілерін бекіту: мұны Meta мен провайдер шешеді, мерзімін бақыламаймын"
+  ],
+  "not_included_en": [
+    "The WhatsApp Business API provider fee and Meta conversation charges, which you pay",
+    "Language model usage fees, billed by actual use",
+    "Approval of your number and message templates, which Meta and the provider decide, so I cannot control the timing"
+  ],
+  "price_from_kzt": 80000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 15,
+  "related": [
+    "whatsapp-bot",
+    "ai-assistent-telegram",
+    "katalog-s-zakazom-v-whatsapp"
+  ],
+  "is_active": true,
+  "sort": 30,
+  "faqs": [
+    {
+      "question_ru": "Можно ли подключить мой обычный номер WhatsApp?",
+      "question_kk": "Қарапайым WhatsApp нөмірімді қосуға бола ма?",
+      "question_en": "Can I connect my regular WhatsApp number?",
+      "answer_ru": "Для автоматических ответов нужен номер, подключённый к WhatsApp Business API, и обычный личный аккаунт одновременно в приложении использовать нельзя. Я подскажу, как перенести номер или взять отдельный.",
+      "answer_kk": "Автоматты жауап үшін WhatsApp Business API-ге қосылған нөмір керек, ал қарапайым жеке аккаунтты қосымшада бір мезгілде қолдануға болмайды. Нөмірді қалай көшіруге немесе бөлек нөмір алуға болатынын айтып беремін.",
+      "answer_en": "Automatic replies need a number connected to the WhatsApp Business API, and a regular personal account cannot be used in the app at the same time. I will advise how to move the number or use a separate one.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Ассистент отвечает на казахском?",
+      "question_kk": "Көмекші қазақша жауап береді ме?",
+      "question_en": "Does the assistant reply in Kazakh?",
+      "answer_ru": "Да, он отвечает на языке клиента, включая русский и казахский. Качество казахского зависит от модели, поэтому я проверяю ответы на ваших примерах и при необходимости уточняю инструкции.",
+      "answer_kk": "Иә, ол клиент тілінде, соның ішінде орыс және қазақ тілдерінде жауап береді. Қазақша сапасы модельге байланысты, сондықтан жауаптарды сіздің мысалдарыңызбен тексеріп, қажет болса нұсқауларды нақтылаймын.",
+      "answer_en": "Yes, it answers in the customer language, including Russian and Kazakh. The quality of Kazakh depends on the model, so I check replies against your examples and refine the instructions where needed.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Как быстро можно начать?",
+      "question_kk": "Қаншалықты жылдам бастауға болады?",
+      "question_en": "How quickly can it start?",
+      "answer_ru": "Разработка занимает 10-15 рабочих дней. Дольше может пойти подключение номера к API: сроки зависят от провайдера и Meta, я заранее предупрежу о возможной задержке.",
+      "answer_kk": "Әзірлеу 10-15 жұмыс күнін алады. Нөмірді API-ге қосу ұзақтау болуы мүмкін: мерзім провайдер мен Meta-ға байланысты, мүмкін кешігу туралы алдын ала ескертемін.",
+      "answer_en": "Development takes 10-15 working days. Connecting the number to the API can take longer because it depends on the provider and Meta, and I will warn you in advance about any likely delay.",
+      "sort": 2
+    }
+  ]
+}

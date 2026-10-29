@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-fitnes-kluba",
+  "category": "websites",
+  "title_ru": "Сайт для фитнес-клуба",
+  "title_kk": "Фитнес-клубқа арналған сайт",
+  "title_en": "Website for a fitness club",
+  "short_ru": "Абонементы и цены, расписание групповых занятий, тренеры и заявка на пробную тренировку.",
+  "short_kk": "Абонемент пен баға, топтық сабақ кестесі, жаттықтырушылар және сынақ жаттығуға өтінім.",
+  "short_en": "Membership plans and prices, a class timetable, trainers and a free-trial request.",
+  "description_ru": "Новый клиент решает, идти ли в клуб, по трём вопросам: сколько стоит, во сколько занятия и как там тренеры. Сайт даёт прямые ответы: абонементы с условиями, расписание по дням и залам, страницы тренеров и запись на пробное занятие. Заявки приходят администратору в мессенджер.",
+  "description_kk": "Жаңа клиент клубқа баруды үш сұрақ бойынша шешеді: қанша тұрады, сабақ қашан және жаттықтырушылар қандай. Сайт тікелей жауап береді: шартты абонементтер, күн мен зал бойынша кесте, жаттықтырушы беттері және сынақ сабаққа жазылу. Өтінімдер әкімшіге мессенджерге келеді.",
+  "description_en": "A new client decides whether to join a club by three questions: what it costs, when classes run and what the trainers are like. The site answers them directly with membership plans and terms, a timetable by day and hall, trainer pages and a trial-session sign-up. Requests reach the front desk through a messenger.",
+  "for_whom_ru": "Фитнес-клубам, студиям йоги, танцев и единоборств, а также персональным тренерам с группами.",
+  "for_whom_kk": "Фитнес-клубтарға, йога, би және жекпе-жек студияларына, сондай-ақ топтары бар жеке жаттықтырушыларға.",
+  "for_whom_en": "For fitness clubs, yoga, dance and martial-arts studios, and personal trainers who run groups.",
+  "includes_ru": [
+    "Абонементы и разовые посещения с условиями и ценами",
+    "Расписание групповых занятий по дням, залам и уровням",
+    "Страницы тренеров: направления, опыт, фото",
+    "Форма записи на пробное занятие или экскурсию по клубу",
+    "Описание залов и оборудования с фотогалереей",
+    "Блок «Заморозка абонемента и возврат»: правила простым языком",
+    "Контакты, карта и кнопки WhatsApp, Instagram"
+  ],
+  "includes_kk": [
+    "Шарттары мен бағасы бар абонементтер және бір реттік келу",
+    "Күн, зал және деңгей бойынша топтық сабақ кестесі",
+    "Жаттықтырушы беттері: бағыт, тәжірибе, сурет",
+    "Сынақ сабаққа не клубты аралауға жазылу формасы",
+    "Фотогалереясы бар зал мен жабдық сипаттамасы",
+    "«Абонементті тоқтату және қайтару» блогы: ережелер қарапайым тілде",
+    "Байланыс, карта және WhatsApp, Instagram батырмалары"
+  ],
+  "includes_en": [
+    "Memberships and single visits with terms and prices",
+    "Class timetable by day, hall and level",
+    "Trainer pages with specialties, experience and photos",
+    "Sign-up form for a trial session or a club tour",
+    "Description of halls and equipment with a photo gallery",
+    "\"Freezing and refunds\" block with the rules in plain language",
+    "Contacts, map and WhatsApp and Instagram buttons"
+  ],
+  "not_included_ru": [
+    "Покупка абонемента онлайн: подключается по договорённости через API платёжного провайдера, отдельным этапом",
+    "Интеграция с турникетами и CRM клуба",
+    "Фото клуба и тренеров предоставляете вы"
+  ],
+  "not_included_kk": [
+    "Абонементті онлайн сатып алу: төлем провайдерінің API-ы арқылы келісім бойынша, бөлек кезеңмен қосылады",
+    "Турникет пен клуб CRM-імен интеграция",
+    "Клуб пен жаттықтырушы суреттерін өзіңіз бересіз"
+  ],
+  "not_included_en": [
+    "Buying a membership online: possible by agreement through a payment provider's API, as a separate stage",
+    "Integration with turnstiles and the club's CRM",
+    "Photos of the club and trainers come from you"
+  ],
+  "price_from_kzt": 55000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "telegram-bot-zapis",
+    "telegram-bot-rassylka",
+    "onlain-zapis-google-calendar"
+  ],
+  "is_active": true,
+  "sort": 11,
+  "faqs": [
+    {
+      "question_ru": "Можно ли показать расписание, которое часто меняется?",
+      "question_kk": "Жиі өзгеретін кестені көрсетуге бола ма?",
+      "question_en": "Can the timetable handle frequent changes?",
+      "answer_ru": "Да, расписание хранится в таблице, и изменения публикуются сразу. Отменённое занятие можно пометить, чтобы клиенты не приходили зря.",
+      "answer_kk": "Иә, кесте кестеде сақталады, өзгерістер бірден жарияланады. Тоқтатылған сабақты белгілеуге болады, сонда клиенттер босқа келмейді.",
+      "answer_en": "Yes, the timetable is stored in a table and changes publish immediately. A cancelled class can be marked so clients do not come for nothing.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как клиент попадает на пробное занятие?",
+      "question_kk": "Клиент сынақ сабаққа қалай түседі?",
+      "question_en": "How does a client get a trial session?",
+      "answer_ru": "Он оставляет имя и телефон, выбирает направление и время. Администратор получает сообщение в Telegram и перезванивает или пишет в WhatsApp.",
+      "answer_kk": "Ол аты мен телефонын қалдырып, бағыт пен уақыт таңдайды. Әкімші Telegram-нан хабарлама алып, қоңырау шалады не WhatsApp-қа жазады.",
+      "answer_en": "They leave a name and phone number and choose a class and time. The front desk gets a Telegram message and calls back or writes on WhatsApp.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужно ли показывать цены на сайте?",
+      "question_kk": "Бағаны сайтта көрсету керек пе?",
+      "question_en": "Should prices be shown on the site?",
+      "answer_ru": "Рекомендую показывать: люди чаще оставляют заявку, когда понимают порядок цен. Если цены индивидуальны, напишем «от» и условия.",
+      "answer_kk": "Көрсетуді ұсынамын: адамдар баға деңгейін түсінгенде өтінімді жиірек қалдырады. Бағалар жеке болса, «бастап» және шарттарын жазамыз.",
+      "answer_en": "I recommend showing them: people tend to enquire more when they know the price range. If pricing is individual, we write \"from\" and the conditions.",
+      "sort": 2
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "telegram-bot-dostavka",
+  "category": "bots",
+  "title_ru": "Telegram-бот для заказа с доставкой",
+  "title_kk": "Жеткізумен тапсырыс беретін Telegram-бот",
+  "title_en": "Telegram ordering and delivery bot",
+  "short_ru": "Бот для кафе, пекарен и магазинов: меню, корзина, адрес доставки и статусы заказа.",
+  "short_kk": "Кафе, наубайхана және дүкендерге арналған бот: мәзір, себет, жеткізу мекенжайы және тапсырыс мәртебелері.",
+  "short_en": "A bot for cafes, bakeries and shops with a menu, cart, delivery address and order statuses.",
+  "description_ru": "Покупатель собирает заказ из меню, указывает адрес или отправляет геолокацию и выбирает доставку либо самовывоз. Вы получаете заказ с адресом и суммой, меняете его статус кнопкой, а клиент видит, что заказ принят и выехал. Это уже полноценный сценарий заказа, а не просто витрина с кнопкой.",
+  "description_kk": "Сатып алушы мәзірден тапсырыс жинайды, мекенжайды көрсетеді немесе геолокация жібереді және жеткізуді не өзі алып кетуді таңдайды. Сіз мекенжайы мен сомасы бар тапсырысты аласыз, оның мәртебесін батырмамен өзгертесіз, ал клиент тапсырыстың қабылданғанын және жолға шыққанын көреді. Бұл витрина мен батырма емес, тапсырыс берудің толық сценарийі.",
+  "description_en": "The customer builds an order from the menu, enters an address or shares a location, and chooses delivery or pickup. You receive the order with the address and total, change its status with a button, and the customer sees that it was accepted and is on its way. This is a complete ordering flow, not just a showcase with a button.",
+  "for_whom_ru": "Для кафе, пекарен, домашней кухни, магазинов продуктов и цветов, которые доставляют по городу. Нужен, когда заказы идут десятками и вручную в переписке их уже трудно вести.",
+  "for_whom_kk": "Қала бойынша жеткізетін кафелерге, наубайханаларға, үй асханасына, азық-түлік және гүл дүкендеріне арналған. Тапсырыс ондап келіп, оны хат алмасуда қолмен жүргізу қиындағанда керек.",
+  "for_whom_en": "For cafes, bakeries, home kitchens, grocery and flower shops that deliver around town. It is needed once orders come in by the dozen and tracking them by hand in chat gets difficult.",
+  "includes_ru": [
+    "Меню с категориями, фото, ценой и вариантами блюд или товаров",
+    "Корзина с изменением количества и подсчётом суммы",
+    "Выбор доставки или самовывоза, ввод адреса или геолокация",
+    "Минимальная сумма заказа и стоимость доставки по вашим правилам",
+    "Кнопки статусов для вас: принят, готовится, передан курьеру",
+    "Сообщения клиенту при каждой смене статуса",
+    "Копия заказов в рабочий чат или таблицу"
+  ],
+  "includes_kk": [
+    "Санаттары, фотосы, бағасы және тамақ не тауар нұсқалары бар мәзір",
+    "Санын өзгертетін және соманы есептейтін себет",
+    "Жеткізу не өзі алып кетуді таңдау, мекенжай енгізу немесе геолокация",
+    "Сіздің ережеңіз бойынша тапсырыстың ең аз сомасы және жеткізу құны",
+    "Сізге арналған мәртебе батырмалары: қабылданды, дайындалуда, курьерге берілді",
+    "Әр мәртебе өзгергенде клиентке хабарлама",
+    "Тапсырыстардың көшірмесі жұмыс чатына немесе кестеге"
+  ],
+  "includes_en": [
+    "Menu with categories, photos, prices and item options",
+    "Cart with editable quantities and a running total",
+    "Choice of delivery or pickup, with address entry or location sharing",
+    "Minimum order amount and delivery fee under your own rules",
+    "Status buttons for you: accepted, preparing, handed to courier",
+    "A message to the customer on every status change",
+    "A copy of orders to a work group or a spreadsheet"
+  ],
+  "not_included_ru": [
+    "Курьеры и транспорт: доставку организуете вы",
+    "Оплата картой в боте: подключается отдельно по договорённости через API провайдера",
+    "Сервер для бота: оформляется на вас и оплачивается по тарифу провайдера"
+  ],
+  "not_included_kk": [
+    "Курьерлер мен көлік: жеткізуді өзіңіз ұйымдастырасыз",
+    "Ботта картамен төлем: провайдердің API-і арқылы келісім бойынша бөлек қосылады",
+    "Бот сервері: сіздің атыңызға ресімделеді, провайдер тарифімен төленеді"
+  ],
+  "not_included_en": [
+    "Couriers and vehicles, as you organise the delivery yourself",
+    "Card payment in the bot, which can be added separately through a provider API by agreement",
+    "The server for the bot, set up in your name and paid at the provider rate"
+  ],
+  "price_from_kzt": 60000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 15,
+  "related": [
+    "sait-dlya-kafe",
+    "telegram-mini-app-magazin",
+    "internet-magazin-cvetov"
+  ],
+  "is_active": true,
+  "sort": 24,
+  "faqs": [
+    {
+      "question_ru": "Как бот узнаёт адрес клиента?",
+      "question_kk": "Бот клиент мекенжайын қалай біледі?",
+      "question_en": "How does the bot get the customer address?",
+      "answer_ru": "Клиент вводит адрес текстом или присылает геолокацию из Telegram. Адрес приходит вам вместе с заказом, и курьер может открыть его на карте.",
+      "answer_kk": "Клиент мекенжайды мәтінмен енгізеді немесе Telegram-нан геолокация жібереді. Мекенжай сізге тапсырыспен бірге келеді, курьер оны картадан аша алады.",
+      "answer_en": "The customer types the address or sends a location from Telegram. The address reaches you with the order, and the courier can open it on a map.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли временно закрыть приём заказов?",
+      "question_kk": "Тапсырыс қабылдауды уақытша жабуға бола ма?",
+      "question_en": "Can I pause taking orders temporarily?",
+      "answer_ru": "Да, в боте задаются часы работы, а вручную приём можно приостановить командой. Вне часов клиент видит сообщение, когда магазин откроется.",
+      "answer_kk": "Иә, ботта жұмыс уақыты белгіленеді, ал қабылдауды команда арқылы қолмен тоқтатуға болады. Жұмыс уақытынан тыс клиент дүкеннің қашан ашылатыны туралы хабарды көреді.",
+      "answer_en": "Yes, working hours are set in the bot, and you can pause intake by hand with a command. Outside hours the customer sees when you open.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Чем он отличается от бота с каталогом?",
+      "question_kk": "Ол каталог ботынан несімен ерекшеленеді?",
+      "question_en": "How is it different from the catalog bot?",
+      "answer_ru": "Каталог только показывает товары и передаёт запрос. Этот бот ведёт заказ целиком: корзина, адрес, доставка, статусы и уведомления клиенту.",
+      "answer_kk": "Каталог тек тауарды көрсетіп, сұранысты жібереді. Бұл бот тапсырысты түгел жүргізеді: себет, мекенжай, жеткізу, мәртебелер және клиентке хабарламалар.",
+      "answer_en": "The catalog bot only shows products and passes on a request. This bot runs the whole order: cart, address, delivery, statuses and customer notifications.",
+      "sort": 2
+    }
+  ]
+}

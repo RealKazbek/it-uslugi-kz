@@ -1,0 +1,95 @@
+{
+  "slug": "whatsapp-bot",
+  "category": "bots",
+  "title_ru": "WhatsApp-бот для бизнеса",
+  "title_kk": "Бизнеске арналған WhatsApp-бот",
+  "title_en": "WhatsApp bot for business",
+  "short_ru": "Бот на WhatsApp Business Platform: автоответы, меню, сбор заявок и передача вам.",
+  "short_kk": "WhatsApp Business Platform-дағы бот: автожауаптар, мәзір, өтінім жинау және сізге беру.",
+  "short_en": "A bot on the WhatsApp Business Platform with auto-replies, a menu, enquiry capture and handover to you.",
+  "description_ru": "WhatsApp — основной мессенджер ваших клиентов, и бот отвечает им там же, где они привыкли писать. Он здоровается, показывает меню, собирает данные заявки и передаёт диалог вам. Работает через WhatsApp Business Platform (Cloud API) от Meta или через провайдера, и у этой платформы свои правила и тарифы.",
+  "description_kk": "WhatsApp — клиенттеріңіздің негізгі мессенджері, ал бот оларға әдетте жазатын жерінде жауап береді. Ол сәлем береді, мәзірді көрсетеді, өтінім деректерін жинайды және диалогты сізге береді. Ол Meta-ның WhatsApp Business Platform (Cloud API) платформасы немесе провайдер арқылы жұмыс істейді, бұл платформаның өз ережелері мен тарифтері бар.",
+  "description_en": "WhatsApp is where most of your customers are, and the bot replies in the place they already use to write. It greets them, shows a menu, collects the enquiry details and hands the chat over to you. It runs on the WhatsApp Business Platform (Cloud API) from Meta or through a provider, and that platform has its own rules and pricing.",
+  "for_whom_ru": "Для компаний, чьи клиенты пишут преимущественно в WhatsApp, и ответы на первые вопросы можно автоматизировать. Если заказов немного, возможно, достаточно каталога с кнопкой заказа в WhatsApp.",
+  "for_whom_kk": "Клиенттері негізінен WhatsApp-қа жазатын және алғашқы сұрақтарға жауапты автоматтандыруға болатын компанияларға арналған. Тапсырыс аз болса, WhatsApp-қа тапсырыс батырмасы бар каталог жеткілікті болуы мүмкін.",
+  "for_whom_en": "For companies whose customers mostly write on WhatsApp and where the first answers can be automated. If orders are few, a catalog with a WhatsApp order button may be enough.",
+  "includes_ru": [
+    "Подключение к WhatsApp Business Platform (Cloud API) напрямую или через провайдера",
+    "Приветствие и меню с вариантами ответа кнопками или списком",
+    "Сценарий сбора заявки: имя, запрос, удобное время для связи",
+    "Автоответ вне рабочих часов с указанием, когда вам ответят",
+    "Уведомление вам о новой заявке и передача диалога человеку",
+    "Заготовленные ответы на частые вопросы"
+  ],
+  "includes_kk": [
+    "WhatsApp Business Platform (Cloud API) платформасына тікелей немесе провайдер арқылы қосу",
+    "Сәлемдесу және батырма не тізім түріндегі жауап нұсқалары бар мәзір",
+    "Өтінім жинау сценарийі: аты, сұраныс, байланысқа ыңғайлы уақыт",
+    "Жұмыс уақытынан тыс сізге қашан жауап беретіні көрсетілген автожауап",
+    "Жаңа өтінім туралы сізге хабарлама және диалогты адамға беру",
+    "Жиі қойылатын сұрақтарға дайын жауаптар"
+  ],
+  "includes_en": [
+    "Connection to the WhatsApp Business Platform (Cloud API), directly or via a provider",
+    "Greeting and a menu with answer options as buttons or a list",
+    "A flow that collects an enquiry: name, request, preferred contact time",
+    "Out-of-hours auto-reply stating when you will answer",
+    "Alert to you about each new enquiry and handover of the chat to a person",
+    "Prepared replies to frequent questions"
+  ],
+  "not_included_ru": [
+    "Оплата Meta или провайдера: платформа берёт плату за сообщения по своим тарифам, это отдельно",
+    "Верификация бизнес-аккаунта и номера: проходится по правилам Meta, нужен отдельный номер",
+    "Рассылки по чужим базам: правила WhatsApp запрещают писать без согласия получателя"
+  ],
+  "not_included_kk": [
+    "Meta немесе провайдер төлемі: платформа хабарламаға өз тарифтері бойынша ақы алады, бұл бөлек",
+    "Бизнес-аккаунт пен нөмірді верификациялау: Meta ережелері бойынша өтеді, бөлек нөмір қажет",
+    "Бөтен базалар бойынша тарату: WhatsApp ережелері алушының келісімінсіз жазуға тыйым салады"
+  ],
+  "not_included_en": [
+    "Fees to Meta or the provider, as the platform charges for messages under its own pricing, separately",
+    "Business account and number verification, done under Meta rules and needing a dedicated number",
+    "Mass messaging to lists you did not collect, because WhatsApp rules forbid writing without the recipient consent"
+  ],
+  "price_from_kzt": 40000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "ai-assistent-whatsapp",
+    "katalog-s-zakazom-v-whatsapp",
+    "telegram-bot-faq"
+  ],
+  "is_active": true,
+  "sort": 28,
+  "faqs": [
+    {
+      "question_ru": "Подойдёт ли мой обычный номер WhatsApp?",
+      "question_kk": "Менің қарапайым WhatsApp нөмірім жарай ма?",
+      "question_en": "Can I use my regular WhatsApp number?",
+      "answer_ru": "Для Cloud API нужен номер, не привязанный к обычному приложению WhatsApp, поэтому чаще берут отдельную SIM-карту. Это требование платформы, а не моё решение.",
+      "answer_kk": "Cloud API үшін қарапайым WhatsApp қолданбасына байланбаған нөмір қажет, сондықтан жиі бөлек SIM-карта алады. Бұл платформаның талабы, менің шешімім емес.",
+      "answer_en": "The Cloud API needs a number that is not tied to the ordinary WhatsApp app, so people often take a separate SIM card. That is a platform requirement, not my decision.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько стоят сообщения бота?",
+      "question_kk": "Боттың хабарламалары қанша тұрады?",
+      "question_en": "How much do the bot messages cost?",
+      "answer_ru": "Цена в списке относится только к моей работе. Meta или провайдер взимают плату за разговоры по актуальным тарифам, и я помогу прикинуть расходы под ваш объём.",
+      "answer_kk": "Тізімдегі баға тек менің жұмысыма қатысты. Meta немесе провайдер әңгімелер үшін өзекті тарифтер бойынша ақы алады, сіздің көлеміңізге шығынды бағалауға көмектесемін.",
+      "answer_en": "The listed price covers only my work. Meta or the provider charges for conversations under their current pricing, and I will help estimate the cost for your volume.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Чем отличается от Telegram-бота?",
+      "question_kk": "Telegram-боттан несімен ерекшеленеді?",
+      "question_en": "How does it differ from a Telegram bot?",
+      "answer_ru": "У WhatsApp строже правила и есть плата за сообщения, а также ограничение на первые сообщения клиенту вне 24-часового окна. Зато там почти все ваши клиенты, а в Telegram бот проще и дешевле в работе.",
+      "answer_kk": "WhatsApp-та ережелер қатаңырақ, хабарламаға ақы бар, сондай-ақ 24 сағаттық терезеден тыс клиентке бірінші хабарлама жіберуге шектеу бар. Бірақ онда клиенттеріңіздің басым бөлігі отыр, ал Telegram-да бот қарапайымырақ әрі арзанырақ.",
+      "answer_en": "WhatsApp has stricter rules, a per-message fee and limits on first messages to a customer outside the 24-hour window. But most of your customers are there, while a Telegram bot is simpler and cheaper to run.",
+      "sort": 2
+    }
+  ]
+}

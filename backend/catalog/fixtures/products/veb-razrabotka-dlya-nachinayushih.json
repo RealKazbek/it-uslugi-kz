@@ -1,0 +1,98 @@
+{
+  "slug": "veb-razrabotka-dlya-nachinayushih",
+  "category": "education",
+  "title_ru": "Веб-разработка для начинающих",
+  "title_kk": "Бастаушыларға арналған веб-әзірлеу",
+  "title_en": "Web development for beginners",
+  "short_ru": "Занятия по HTML, CSS и JavaScript с переходом на React: вы сделаете и опубликуете собственный сайт.",
+  "short_kk": "HTML, CSS және JavaScript бойынша сабақтар, React-ке өту: өз сайтыңызды жасап, жариялайсыз.",
+  "short_en": "Lessons in HTML, CSS and JavaScript with a step into React: you build and publish your own website.",
+  "description_ru": "Курс для тех, кто хочет научиться делать сайты, а не только писать скрипты. Сначала разметка и стили, затем адаптивная вёрстка, JavaScript и работа с формами, после этого введение в React и Tailwind. Результат занятий: ваш сайт в интернете, который вы сами сверстали, выложили на хостинг и можете править.",
+  "description_kk": "Тек скрипт жазуды емес, сайт жасауды үйренгісі келетіндерге арналған курс. Алдымен белгілеу мен стильдер, содан кейін адаптивті беттеме, JavaScript және формалармен жұмыс, одан соң React пен Tailwind-ке кіріспе. Сабақтың нәтижесі: өзіңіз беттеген, хостингке орналастырған және өңдей алатын, интернеттегі сайтыңыз.",
+  "description_en": "A course for people who want to learn to make websites, not just write scripts. First markup and styling, then responsive layout, JavaScript and forms, and finally an introduction to React and Tailwind. The result is your own site online, which you laid out yourself, put on hosting and can keep editing.",
+  "for_whom_ru": "Тем, кто хочет сделать сайт для себя или своего дела, сменить профессию или поступить на IT-направление.",
+  "for_whom_kk": "Өзіне немесе ісіне сайт жасағысы келетіндерге, мамандығын ауыстырғысы немесе IT бағытына түскісі келетіндерге арналған.",
+  "for_whom_en": "For anyone who wants a site for themselves or their business, a career change or a start in IT studies.",
+  "includes_ru": [
+    "Занятие по видеосвязи 60 минут с совместной работой над кодом",
+    "HTML: структура страницы, ссылки, формы, доступность",
+    "CSS: Flexbox, Grid, адаптивная вёрстка под телефон",
+    "JavaScript: события, работа с DOM, запросы к серверу",
+    "Введение в React и Tailwind на примере небольшого проекта",
+    "Git и GitHub: хранение кода и публикация сайта",
+    "Собственный сайт в качестве итоговой работы"
+  ],
+  "includes_kk": [
+    "Код үстінде бірге жұмыс істейтін 60 минуттық бейнебайланыс сабағы",
+    "HTML: бет құрылымы, сілтемелер, формалар, қолжетімділік",
+    "CSS: Flexbox, Grid, телефонға арналған адаптивті беттеме",
+    "JavaScript: оқиғалар, DOM-мен жұмыс, серверге сұраныстар",
+    "Шағын жоба мысалында React пен Tailwind-ке кіріспе",
+    "Git және GitHub: кодты сақтау және сайтты жариялау",
+    "Қорытынды жұмыс ретінде өз сайтыңыз"
+  ],
+  "includes_en": [
+    "A 60-minute video lesson where we work on code together",
+    "HTML: page structure, links, forms, accessibility",
+    "CSS: Flexbox, Grid and responsive layout for phones",
+    "JavaScript: events, the DOM and requests to a server",
+    "An introduction to React and Tailwind through a small project",
+    "Git and GitHub: storing your code and publishing the site",
+    "Your own website as the final project"
+  ],
+  "not_included_ru": [
+    "Гарантия трудоустройства фронтенд-разработчиком",
+    "Оплата хостинга и домена для вашего сайта: платите хостеру сами",
+    "Бэкенд и базы данных: этому посвящены отдельные занятия по договорённости"
+  ],
+  "not_included_kk": [
+    "Фронтенд-әзірлеуші болып жұмысқа орналасуға кепілдік",
+    "Сайтыңызға арналған хостинг пен доменнің ақысы: хостерге өзіңіз төлейсіз",
+    "Бэкенд пен деректер қоры: бұған келісім бойынша бөлек сабақтар арналады"
+  ],
+  "not_included_en": [
+    "A guarantee of a job as a front-end developer",
+    "Hosting and domain fees for your site, which you pay to the host yourself",
+    "Back-end and databases, which can be covered in separate lessons by agreement"
+  ],
+  "price_from_kzt": 5000,
+  "unit": "lesson",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "python-s-nulya",
+    "sait-vizitka",
+    "repetitor-programmirovaniya"
+  ],
+  "is_active": true,
+  "sort": 57,
+  "faqs": [
+    {
+      "question_ru": "Чем это отличается от занятий по Python?",
+      "question_kk": "Бұл Python сабақтарынан немен ерекшеленеді?",
+      "question_en": "How is this different from the Python lessons?",
+      "answer_ru": "Здесь вы работаете с тем, что видно в браузере: страницы, стили, кнопки, формы. Python-курс посвящён скриптам и ботам, а тут результат визуальный и открывается по ссылке.",
+      "answer_kk": "Мұнда сіз браузерде көрінетінмен жұмыс істейсіз: беттер, стильдер, түймелер, формалар. Python курсы скрипттер мен боттарға арналған, ал мұнда нәтиже көрнекі және сілтеме арқылы ашылады.",
+      "answer_en": "Here you work with what shows up in the browser: pages, styles, buttons, forms. The Python course is about scripts and bots, while here the result is visual and opens from a link.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Какой компьютер нужен?",
+      "question_kk": "Қандай компьютер қажет?",
+      "question_en": "What computer do I need?",
+      "answer_ru": "Подойдёт любой ноутбук с Windows, macOS или Linux и современным браузером. Редактор кода и остальные инструменты бесплатные.",
+      "answer_kk": "Windows, macOS немесе Linux және заманауи браузері бар кез келген ноутбук жарайды. Код редакторы мен қалған құралдар тегін.",
+      "answer_en": "Any laptop running Windows, macOS or Linux with a modern browser will do. The code editor and other tools are free.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Научусь ли я делать сайты на заказ?",
+      "question_kk": "Тапсырыс бойынша сайт жасауды үйренемін бе?",
+      "question_en": "Will I be able to build client sites afterwards?",
+      "answer_ru": "Вы освоите основы и сможете делать несложные сайты. Навык растёт с практикой, и на занятиях мы разбираем реальные задачи, но сроков и доходов я не обещаю.",
+      "answer_kk": "Негіздерді меңгеріп, қарапайым сайттар жасай аласыз. Дағды практикамен өседі, сабақта нақты тапсырмаларды талдаймыз, бірақ мерзім мен табысқа уәде бермеймін.",
+      "answer_en": "You will learn the fundamentals and be able to build simple sites. Skill grows with practice, and we go through real tasks in lessons, but I make no promises about timing or income.",
+      "sort": 2
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "uskorenie-saita",
+  "category": "seo-maps",
+  "title_ru": "Ускорение загрузки сайта",
+  "title_kk": "Сайттың жүктелуін жеделдету",
+  "title_en": "Website speed optimisation",
+  "short_ru": "Нахожу причины медленной загрузки и ускоряю сайт на телефоне и компьютере.",
+  "short_kk": "Баяу жүктелу себептерін тауып, сайтты телефон мен компьютерде жеделдетемін.",
+  "short_en": "I find the causes of slow loading and speed up your site on phone and desktop.",
+  "description_ru": "Если сайт открывается дольше нескольких секунд, посетители уходят, а поисковые системы это учитывают. Я измеряю скорость до работы, нахожу тяжёлые изображения, лишние скрипты и неудачные настройки, исправляю их и показываю результат замерами до и после. Разгон зависит от платформы: на конструкторе возможности ограничены.",
+  "description_kk": "Сайт бірнеше секундтан ұзақ ашылса, келушілер кетіп қалады, ал іздеу жүйелері мұны ескереді. Мен жұмысқа дейін жылдамдықты өлшеймін, ауыр суреттерді, артық скрипттерді және сәтсіз баптауларды табамын, түзетемін және нәтижені алдыңғы және кейінгі өлшемдермен көрсетемін. Жылдамдану платформаға байланысты: конструкторда мүмкіндік шектеулі.",
+  "description_en": "If a site takes more than a few seconds to open, visitors leave, and search engines take it into account. I measure speed before the work, find heavy images, unneeded scripts and poor settings, fix them and show the result with before and after measurements. The gain depends on the platform, and a site builder limits what is possible.",
+  "for_whom_ru": "Для владельцев сайтов, которые долго загружаются на мобильном интернете, и для магазинов, теряющих покупателей на медленных карточках.",
+  "for_whom_kk": "Мобильді интернетте ұзақ жүктелетін сайт иелеріне және баяу карточкаларда сатып алушыны жоғалтатын дүкендерге арналған.",
+  "for_whom_en": "For owners of sites that load slowly on mobile internet, and for shops losing buyers on sluggish product pages.",
+  "includes_ru": [
+    "Замеры скорости до начала работы на телефоне и компьютере",
+    "Сжатие и перевод изображений в современные форматы",
+    "Отключение лишних скриптов и плагинов",
+    "Настройка кеширования и сжатия на сервере",
+    "Отложенная загрузка картинок и шрифтов",
+    "Исправление скачков вёрстки при загрузке страницы",
+    "Отчёт с замерами до и после и рекомендациями"
+  ],
+  "includes_kk": [
+    "Жұмыс басталғанға дейін телефон мен компьютерде жылдамдықты өлшеу",
+    "Суреттерді сығу және заманауи форматтарға ауыстыру",
+    "Артық скрипттер мен плагиндерді өшіру",
+    "Серверде кэштеу мен сығуды баптау",
+    "Суреттер мен қаріптерді кейін жүктеу",
+    "Бет жүктелгенде беттің секіруін түзету",
+    "Алдыңғы және кейінгі өлшемдері бар есеп пен ұсыныстар"
+  ],
+  "includes_en": [
+    "Speed measurements on phone and desktop before any work",
+    "Compressing images and converting them to modern formats",
+    "Removing unneeded scripts and plugins",
+    "Configuring caching and compression on the server",
+    "Lazy loading of images and fonts",
+    "Fixing layout shifts while the page loads",
+    "A report with before and after figures and recommendations"
+  ],
+  "not_included_ru": [
+    "Гарантия конкретных баллов в тестах скорости: они зависят от платформы и содержимого сайта",
+    "Переход на более быстрый тариф хостинга, если без него не обойтись: оплата хостинга на вас",
+    "Перепроектирование сайта и редизайн"
+  ],
+  "not_included_kk": [
+    "Жылдамдық тесттерінде нақты балл кепілі: ол платформа мен сайт мазмұнына байланысты",
+    "Онсыз болмаса, хостингтің жылдамырақ тарифіне көшу: хостинг төлемі сізде",
+    "Сайтты қайта жобалау және редизайн"
+  ],
+  "not_included_en": [
+    "A guarantee of specific scores in speed tests, since they depend on the platform and site content",
+    "Moving to a faster hosting plan if one is unavoidable; hosting fees are yours",
+    "Re-architecting the site or a redesign"
+  ],
+  "price_from_kzt": 25000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 6,
+  "related": [
+    "seo-audit",
+    "ispravlenie-oshibok",
+    "seo-prodvizhenie"
+  ],
+  "is_active": true,
+  "sort": 46,
+  "faqs": [
+    {
+      "question_ru": "Насколько можно ускорить сайт?",
+      "question_kk": "Сайтты қаншалықты жеделдетуге болады?",
+      "question_en": "How much faster can the site get?",
+      "answer_ru": "Это зависит от причин замедления. Тяжёлые изображения часто дают заметный выигрыш, а на медленном хостинге или перегруженной теме эффект скромнее. Цифры я покажу до и после.",
+      "answer_kk": "Бұл баяулау себептеріне байланысты. Ауыр суреттер көбіне айтарлықтай ұтыс береді, ал баяу хостингте немесе шамадан тыс жүктелген тақырыпта әсер қарапайым болады. Сандарды алдын ала және кейін көрсетемін.",
+      "answer_en": "It depends on what causes the slowdown. Heavy images often give a noticeable gain, while on slow hosting or an overloaded theme the effect is more modest. I will show the figures before and after.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Могу ли я сломать сайт при ускорении?",
+      "question_kk": "Жеделдету кезінде сайтты бұзып алмаймын ба?",
+      "question_en": "Could the optimisation break my site?",
+      "answer_ru": "Перед работой я делаю резервную копию, а изменения проверяю по основным страницам и формам. Если что-то работает не так, возвращаю прежнее состояние.",
+      "answer_kk": "Жұмыс алдында резервтік көшірме жасаймын, ал өзгерістерді негізгі беттер мен формалар бойынша тексеремін. Бір нәрсе дұрыс жұмыс істемесе, бұрынғы күйге қайтарамын.",
+      "answer_en": "Before starting I make a backup and check the changes across the main pages and forms. If something misbehaves, I roll back to the previous state.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Повлияет ли скорость на позиции в поиске?",
+      "question_kk": "Жылдамдық іздеудегі орынға әсер ете ме?",
+      "question_en": "Will speed affect my search rankings?",
+      "answer_ru": "Скорость один из факторов качества страницы, но не единственный. Главный эффект обычно виден в удобстве для посетителей: они реже закрывают страницу, не дождавшись загрузки.",
+      "answer_kk": "Жылдамдық бет сапасының факторларының бірі, бірақ жалғыз емес. Негізгі әсер әдетте келушілерге ыңғайлылықта көрінеді: олар жүктелуді күтпей, бетті сирек жабады.",
+      "answer_en": "Speed is one of the page quality factors but not the only one. The main effect is usually seen in visitor convenience, as people close the page less often before it loads.",
+      "sort": 2
+    }
+  ]
+}

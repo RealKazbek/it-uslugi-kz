@@ -1,0 +1,95 @@
+{
+  "slug": "uvedomleniya-o-zayavkah",
+  "category": "automation",
+  "title_ru": "Мгновенные уведомления о заявках",
+  "title_kk": "Өтінімдер туралы лезде хабарлама",
+  "title_en": "Instant lead notifications",
+  "short_ru": "Новая заявка сразу приходит вам в Telegram или на почту, чтобы вы отвечали первым.",
+  "short_kk": "Жаңа өтінім сізге бірден Telegram-ға немесе поштаға келеді, сонда сіз бірінші жауап бересіз.",
+  "short_en": "A new lead reaches your Telegram or email at once, so you can be the first to reply.",
+  "description_ru": "Клиент чаще выбирает того, кто ответил быстрее. Я настраиваю так, чтобы при каждой заявке с сайта вам приходило сообщение с именем, телефоном и текстом, а в сообщении была кнопка для звонка или ответа в WhatsApp. Можно добавить в чат нескольких сотрудников.",
+  "description_kk": "Клиент көбіне тез жауап бергенді таңдайды. Мен сайттан әр өтінім түскенде сізге аты, телефоны және мәтіні бар хабарлама келетіндей, ал хабарламада қоңырау шалуға немесе WhatsApp-та жауап беруге арналған түйме болатындай етіп баптаймын. Чатқа бірнеше қызметкерді қосуға болады.",
+  "description_en": "Customers tend to pick whoever replies first. I set things up so every site request sends you a message with the name, phone and text, plus a button to call or reply on WhatsApp. Several team members can be added to the chat.",
+  "for_whom_ru": "Для компаний, где заявки с сайта лежат в почте часами. Особенно полезно автосервисам, клиникам, строителям и всем, у кого счёт идёт на минуты.",
+  "for_whom_kk": "Сайттан түскен өтінімдер поштада сағаттап жататын компанияларға арналған. Әсіресе автосервистерге, клиникаларға, құрылысшыларға және есеп минутпен жүретіндердің бәріне пайдалы.",
+  "for_whom_en": "For companies whose site requests sit in an inbox for hours. It helps car services, clinics, builders and anyone for whom minutes count.",
+  "includes_ru": [
+    "Подключение формы на сайте к уведомлениям",
+    "Сообщение в Telegram с именем, телефоном и текстом заявки",
+    "Кнопки «Позвонить» и «Ответить в WhatsApp» в сообщении",
+    "Дублирование на электронную почту по желанию",
+    "Общий чат для нескольких сотрудников или менеджеров",
+    "Тестовые заявки, чтобы убедиться в работе"
+  ],
+  "includes_kk": [
+    "Сайттағы форманы хабарламаларға қосу",
+    "Аты, телефоны және өтінім мәтіні бар Telegram хабарламасы",
+    "Хабарламада «Қоңырау шалу» және «WhatsApp-та жауап беру» түймелері",
+    "Қалау бойынша электрондық поштаға көшірме",
+    "Бірнеше қызметкер немесе менеджерге арналған ортақ чат",
+    "Жұмысын тексеру үшін сынақ өтінімдер"
+  ],
+  "includes_en": [
+    "Connecting the form on your site to notifications",
+    "A Telegram message with the name, phone and request text",
+    "Call and reply-on-WhatsApp buttons inside the message",
+    "A duplicate to email, if you want it",
+    "A shared chat for several employees or managers",
+    "Test requests to make sure everything works"
+  ],
+  "not_included_ru": [
+    "Разработка самого сайта или формы",
+    "Сложная логика распределения заявок по менеджерам: это уже ближе к CRM",
+    "Гарантия доставки, если Telegram или почтовый сервис временно недоступны"
+  ],
+  "not_included_kk": [
+    "Сайттың немесе форманың өзін әзірлеу",
+    "Өтінімдерді менеджерлерге бөлудің күрделі логикасы: бұл CRM-ге жақынырақ",
+    "Telegram немесе пошта сервисі уақытша қолжетімсіз болса, жеткізу кепілі"
+  ],
+  "not_included_en": [
+    "Building the site or form itself",
+    "Complex logic for distributing leads across managers, which is closer to a CRM",
+    "A delivery guarantee if Telegram or the email service is temporarily unavailable"
+  ],
+  "price_from_kzt": 15000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "zayavki-v-google-sheets",
+    "telegram-bot-zayavki",
+    "lending"
+  ],
+  "is_active": true,
+  "sort": 35,
+  "faqs": [
+    {
+      "question_ru": "Работает ли это с моим текущим сайтом?",
+      "question_kk": "Бұл менің қазіргі сайтыммен жұмыс істей ме?",
+      "question_en": "Will this work with my current site?",
+      "answer_ru": "В большинстве случаев да: достаточно, чтобы форма умела отправлять данные на адрес или письмо. Если сайт сделан на конструкторе, я посмотрю его возможности перед началом.",
+      "answer_kk": "Көп жағдайда иә: форма деректерді мекенжайға немесе хатқа жібере алса жеткілікті. Сайт конструкторда жасалса, бастамас бұрын оның мүмкіндіктерін қараймын.",
+      "answer_en": "In most cases yes: it is enough that the form can send data to an address or by email. If the site is built on a constructor, I check its options before starting.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли получать уведомления в рабочую группу?",
+      "question_kk": "Хабарламаларды жұмыс тобына алуға бола ма?",
+      "question_en": "Can notifications go to a team group?",
+      "answer_ru": "Да, бота можно добавить в групповой чат. Тогда заявку увидят все участники, а вы решите, кто берёт её в работу.",
+      "answer_kk": "Иә, ботты топтық чатқа қосуға болады. Сонда өтінімді барлық қатысушы көреді, ал оны кім алатынын өзіңіз шешесіз.",
+      "answer_en": "Yes, the bot can be added to a group chat. Everyone in it sees the request, and you decide who takes it.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужно ли что-то платить после настройки?",
+      "question_kk": "Баптаудан кейін бір нәрсе төлеу керек пе?",
+      "question_en": "Is there any ongoing fee after setup?",
+      "answer_ru": "Сам бот Telegram бесплатный. Если форме потребуется платный сервис-посредник, я предупрежу об этом до начала работы.",
+      "answer_kk": "Telegram боты тегін. Формаға ақылы делдал сервис қажет болса, жұмыс басталғанға дейін ескертемін.",
+      "answer_en": "The Telegram bot itself is free. If your form needs a paid intermediary service, I will tell you before the work starts.",
+      "sort": 2
+    }
+  ]
+}

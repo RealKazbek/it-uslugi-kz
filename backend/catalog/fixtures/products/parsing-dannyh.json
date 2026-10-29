@@ -1,0 +1,98 @@
+{
+  "slug": "parsing-dannyh",
+  "category": "automation",
+  "title_ru": "Парсинг данных с сайтов в таблицу",
+  "title_kk": "Сайттардан деректерді кестеге жинау (парсинг)",
+  "title_en": "Web data scraping into a spreadsheet",
+  "short_ru": "Собираю открытые данные с сайтов в таблицу: цены, каталоги, контакты компаний, объявления.",
+  "short_kk": "Сайттардағы ашық деректерді кестеге жинаймын: бағалар, каталогтар, компания байланыстары, хабарландырулар.",
+  "short_en": "I collect publicly available data from websites into a spreadsheet: prices, catalogs, company contacts, listings.",
+  "description_ru": "Парсинг нужен, когда информацию с десятков страниц надо собрать в одном месте: например, цены конкурентов или каталог поставщика. Я пишу скрипт на Python, который обходит указанные страницы и сохраняет данные в Excel, CSV или Google Sheets. Берутся только открытые сведения, а сайты, где это запрещено, мы обсуждаем отдельно.",
+  "description_kk": "Парсинг ондаған беттегі ақпаратты бір жерге жинау керек болғанда қажет: мысалы, бәсекелестер бағасы немесе жеткізуші каталогы. Мен көрсетілген беттерді аралап, деректерді Excel, CSV немесе Google Sheets-ке сақтайтын Python скриптін жазамын. Тек ашық мәліметтер алынады, ал мұны тыйым салатын сайттарды бөлек талқылаймыз.",
+  "description_en": "Scraping helps when information from dozens of pages has to be gathered in one place, such as competitor prices or a supplier catalog. I write a Python script that walks through the pages you specify and saves the data to Excel, CSV or Google Sheets. Only public information is taken, and sites that forbid it are discussed separately.",
+  "for_whom_ru": "Для владельцев магазинов, которым нужен мониторинг цен, а также для менеджеров, собирающих списки компаний или каталог поставщика.",
+  "for_whom_kk": "Баға мониторингі керек дүкен иелеріне, сондай-ақ компаниялар тізімін немесе жеткізуші каталогын жинайтын менеджерлерге арналған.",
+  "for_whom_en": "For shop owners who need price monitoring, and for managers building lists of companies or a supplier catalog.",
+  "includes_ru": [
+    "Анализ структуры сайта-источника и согласование полей",
+    "Скрипт на Python для сбора выбранных данных",
+    "Очистка и приведение данных к единому виду",
+    "Выгрузка в Excel, CSV или Google Sheets",
+    "Возможность повторного запуска для обновления данных",
+    "Пауза между запросами, чтобы не перегружать чужой сайт",
+    "Инструкция по запуску скрипта"
+  ],
+  "includes_kk": [
+    "Дереккөз сайттың құрылымын талдау және өрістерді келісу",
+    "Таңдалған деректерді жинауға арналған Python скрипті",
+    "Деректерді тазалау және бір түрге келтіру",
+    "Excel, CSV немесе Google Sheets-ке шығару",
+    "Деректерді жаңарту үшін қайта іске қосу мүмкіндігі",
+    "Бөтен сайтты шамадан тыс жүктемеу үшін сұраулар арасындағы үзіліс",
+    "Скриптті іске қосу нұсқаулығы"
+  ],
+  "includes_en": [
+    "Analysis of the source site structure and agreement on fields",
+    "A Python script to collect the chosen data",
+    "Cleaning and normalising the data into one format",
+    "Export to Excel, CSV or Google Sheets",
+    "The ability to run it again to refresh the data",
+    "A pause between requests so the other site is not overloaded",
+    "A guide for running the script"
+  ],
+  "not_included_ru": [
+    "Сбор закрытых данных, личных сведений и всего, что запрещено правилами сайта или законом",
+    "Обход защиты от ботов и капч на сложных сайтах",
+    "Постоянная поддержка скрипта: если источник изменит вёрстку, потребуется доработка"
+  ],
+  "not_included_kk": [
+    "Жабық деректерді, жеке мәліметтерді және сайт ережесі не заң тыйым салған барлық нәрсені жинау",
+    "Күрделі сайттардағы боттан қорғауды және капчаны айналып өту",
+    "Скриптке тұрақты қолдау: дереккөз беттің құрылымын өзгертсе, жетілдіру қажет болады"
+  ],
+  "not_included_en": [
+    "Collecting restricted data, personal information, or anything forbidden by site rules or by law",
+    "Bypassing bot protection and captchas on complicated sites",
+    "Ongoing support of the script: if the source changes its layout, it needs an update"
+  ],
+  "price_from_kzt": 20000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 5,
+  "related": [
+    "integraciya-api",
+    "kaspi-xml",
+    "ai-opisaniya-tovarov"
+  ],
+  "is_active": true,
+  "sort": 40,
+  "faqs": [
+    {
+      "question_ru": "Законен ли парсинг?",
+      "question_kk": "Парсинг заңды ма?",
+      "question_en": "Is scraping legal?",
+      "answer_ru": "Сбор открытой информации обычно допустим, но у сайтов могут быть правила, запрещающие автоматический сбор. Я смотрю условия источника заранее и не работаю с персональными данными и закрытыми разделами.",
+      "answer_kk": "Ашық ақпаратты жинау әдетте рұқсат етіледі, бірақ сайттарда автоматты жинауға тыйым салатын ережелер болуы мүмкін. Мен дереккөздің шарттарын алдын ала қараймын және дербес деректермен, жабық бөлімдермен жұмыс істемеймін.",
+      "answer_en": "Collecting public information is usually acceptable, but sites may have rules against automated collection. I read the source terms in advance and do not work with personal data or restricted sections.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько данных можно собрать?",
+      "question_kk": "Қанша деректі жинауға болады?",
+      "question_en": "How much data can be collected?",
+      "answer_ru": "От сотен до десятков тысяч строк, в зависимости от сайта. Объём влияет на время работы скрипта, а в цене учитывается сложность сайта, а не число строк.",
+      "answer_kk": "Сайтқа байланысты жүздеген жолдан он мыңдаған жолға дейін. Көлем скриптің жұмыс уақытына әсер етеді, ал бағада жолдар саны емес, сайттың күрделілігі ескеріледі.",
+      "answer_en": "From hundreds to tens of thousands of rows, depending on the site. Volume affects how long the script runs, while the price reflects the complexity of the site rather than the row count.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Данные будут обновляться автоматически?",
+      "question_kk": "Деректер автоматты түрде жаңарып тұра ма?",
+      "question_en": "Will the data refresh automatically?",
+      "answer_ru": "Базовая версия запускается вручную одной командой. Запуск по расписанию с отправкой в таблицу возможен как доработка.",
+      "answer_kk": "Негізгі нұсқа бір командамен қолмен іске қосылады. Кесте бойынша іске қосып, кестеге жіберу жетілдіру ретінде мүмкін.",
+      "answer_en": "The basic version runs manually with one command. Scheduled runs that push into a sheet are possible as an extension.",
+      "sort": 2
+    }
+  ]
+}

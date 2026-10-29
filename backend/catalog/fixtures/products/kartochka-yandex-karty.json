@@ -1,0 +1,98 @@
+{
+  "slug": "kartochka-yandex-karty",
+  "category": "seo-maps",
+  "title_ru": "Карточка в Яндекс Картах",
+  "title_kk": "Yandex Maps-тағы карточка",
+  "title_en": "Business listing on Yandex Maps",
+  "short_ru": "Оформляю карточку организации в Яндекс Картах: адрес, категории, часы работы, фото, контакты.",
+  "short_kk": "Yandex Maps-тағы ұйым карточкасын рәсімдеймін: мекенжай, санаттар, жұмыс уақыты, фото, байланыстар.",
+  "short_en": "I set up your organisation listing on Yandex Maps: address, categories, hours, photos and contacts.",
+  "description_ru": "Яндекс Карты и Яндекс Бизнес по-прежнему используют многие русскоязычные пользователи, и карточка там дополняет присутствие в 2GIS и Google. Я создаю или беру под управление карточку организации, заполняю все разделы и проверяю, что адрес стоит на карте точно. Это небольшая разовая работа, которая обычно занимает один-два дня.",
+  "description_kk": "Yandex Maps пен Yandex Business-ті орысшатілді пайдаланушылардың көбі әлі де қолданады, ал онда карточка болуы 2GIS пен Google-дағы қатысуды толықтырады. Мен ұйым карточкасын жасаймын немесе басқаруға аламын, барлық бөлімді толтырып, мекенжайдың картада дәл тұрғанын тексеремін. Бұл әдетте бір-екі күн алатын шағын бір реттік жұмыс.",
+  "description_en": "Yandex Maps and Yandex Business are still used by many Russian-speaking users, and a listing there complements your presence on 2GIS and Google. I create or take over the organisation listing, fill in every section and check that the address pin is accurate. It is a small one-off job that usually takes a day or two.",
+  "for_whom_ru": "Для местных компаний, чьи клиенты пользуются Яндексом, и для тех, кто хочет быть на всех основных картах сразу.",
+  "for_whom_kk": "Клиенттері Yandex қолданатын жергілікті компанияларға және барлық негізгі карталарда бірден болғысы келетіндерге арналған.",
+  "for_whom_en": "For local companies whose customers use Yandex, and for those who want to be on all the main maps at once.",
+  "includes_ru": [
+    "Поиск существующей карточки и запрос на управление ею",
+    "Создание новой карточки, если её ещё нет",
+    "Выбор рубрик, которые соответствуют вашим услугам",
+    "Часы работы, телефоны, сайт и ссылки на соцсети",
+    "Описание организации без избыточных ключевых слов",
+    "Загрузка предоставленных вами фотографий",
+    "Проверка точности отметки на карте"
+  ],
+  "includes_kk": [
+    "Бар карточканы іздеу және оны басқаруға сұраныс",
+    "Карточка әлі жоқ болса, жаңасын жасау",
+    "Қызметіңізге сәйкес рубрикаларды таңдау",
+    "Жұмыс уақыты, телефондар, сайт және әлеуметтік желі сілтемелері",
+    "Артық кілт сөзсіз ұйым сипаттамасы",
+    "Өзіңіз берген фотоларды жүктеу",
+    "Картадағы белгінің дәлдігін тексеру"
+  ],
+  "includes_en": [
+    "Looking for an existing listing and requesting access to manage it",
+    "Creating a new listing if there is none",
+    "Choosing categories that match your services",
+    "Opening hours, phone numbers, website and social links",
+    "An organisation description without keyword overload",
+    "Uploading the photos you provide",
+    "Checking the accuracy of the map pin"
+  ],
+  "not_included_ru": [
+    "Решения модерации Яндекса о публикации и правке данных: они принимаются на стороне сервиса",
+    "Платные размещения и рекламные кампании в Яндексе",
+    "Написание отзывов: оставить их могут только ваши реальные клиенты"
+  ],
+  "not_included_kk": [
+    "Yandex модерациясының жариялау мен деректерді түзету туралы шешімдері: олар сервис жағында қабылданады",
+    "Yandex-тегі ақылы орналастырулар мен жарнама науқандары",
+    "Пікір жазу: оларды тек нақты клиенттеріңіз қалдыра алады"
+  ],
+  "not_included_en": [
+    "Yandex moderation decisions on publishing and editing data, which are made on the service side",
+    "Paid placement and advertising campaigns on Yandex",
+    "Writing reviews, which only your real customers can leave"
+  ],
+  "price_from_kzt": 8000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 2,
+  "related": [
+    "kartochka-2gis-google-maps",
+    "lokalnoe-seo",
+    "sait-vizitka"
+  ],
+  "is_active": true,
+  "sort": 42,
+  "faqs": [
+    {
+      "question_ru": "Стоит ли делать карточку в Яндексе, если есть 2GIS?",
+      "question_kk": "Yandex-те карточка жасаудың 2GIS болса да қажеті бар ма?",
+      "question_en": "Is it worth a Yandex listing if I already have 2GIS?",
+      "answer_ru": "Это зависит от вашей аудитории. Если клиенты часто ищут через Яндекс или у вас много русскоязычных посетителей, карточка пригодится. Если нет, начните с 2GIS и Google.",
+      "answer_kk": "Бұл аудиторияңызға байланысты. Клиенттер Yandex арқылы жиі іздесе немесе орысшатілді келушілер көп болса, карточка жарайды. Олай болмаса, 2GIS пен Google-дан бастаңыз.",
+      "answer_en": "It depends on your audience. If customers often search through Yandex or you have many Russian-speaking visitors, the listing is useful. If not, start with 2GIS and Google.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что мне нужно предоставить?",
+      "question_kk": "Маған не беру керек?",
+      "question_en": "What do I need to provide?",
+      "answer_ru": "Название, адрес, телефон, график работы, список услуг и несколько фотографий. Если карточка уже существует, понадобится подтверждение, что организация ваша.",
+      "answer_kk": "Атауы, мекенжайы, телефоны, жұмыс кестесі, қызметтер тізімі және бірнеше фото. Карточка бұрыннан бар болса, ұйымның өзіңізге тиесілі екенін растау керек.",
+      "answer_en": "The name, address, phone, schedule, list of services and a few photos. If a listing already exists, you will need to confirm the organisation is yours.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Гарантируете ли вы место в выдаче?",
+      "question_kk": "Шығарылымдағы орынға кепілдік бересіз бе?",
+      "question_en": "Do you guarantee a position in results?",
+      "answer_ru": "Нет. Я гарантирую аккуратное заполнение, а порядок организаций в выдаче определяет сам Яндекс и зависит от многих факторов.",
+      "answer_kk": "Жоқ. Мен ұқыпты толтыруға кепілдік беремін, ал шығарылымдағы ұйымдар тәртібін Yandex өзі анықтайды және ол көптеген факторға байланысты.",
+      "answer_en": "No. I guarantee careful setup, while the order of organisations in results is determined by Yandex itself and depends on many factors.",
+      "sort": 2
+    }
+  ]
+}

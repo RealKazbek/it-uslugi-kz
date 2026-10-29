@@ -1,0 +1,98 @@
+{
+  "slug": "crm-dlya-malogo-biznesa",
+  "category": "automation",
+  "title_ru": "Простая CRM для малого бизнеса",
+  "title_kk": "Шағын бизнеске арналған қарапайым CRM",
+  "title_en": "A simple CRM for a small business",
+  "short_ru": "Лёгкая CRM под ваш процесс: клиенты, сделки, статусы и напоминания без лишних модулей.",
+  "short_kk": "Сіздің процеске арналған жеңіл CRM: клиенттер, мәмілелер, мәртебелер және еске салғыштар, артық модульсіз.",
+  "short_en": "A lightweight CRM built around your process: clients, deals, statuses and reminders without extra modules.",
+  "description_ru": "Готовые CRM часто перегружены функциями, которыми вы не пользуетесь. Я собираю простую систему под ваши этапы работы с клиентом: от заявки до оплаты. Данные можно хранить в Google Sheets с формами и скриптами или в небольшом веб-приложении, в зависимости от размера команды.",
+  "description_kk": "Дайын CRM-дер көбіне өзіңіз қолданбайтын функциялармен шамадан тыс жүктелген. Мен клиентпен жұмыстың сіздің кезеңдеріңізге арналған қарапайым жүйені жинаймын: өтінімнен төлемге дейін. Команда мөлшеріне қарай деректерді формалар мен скрипттері бар Google Sheets-те немесе шағын веб-қосымшада сақтауға болады.",
+  "description_en": "Off-the-shelf CRMs are often loaded with features you never use. I build a simple system around your own stages of working with a client, from first request to payment. Depending on team size, the data can live in Google Sheets with forms and scripts or in a small web application.",
+  "for_whom_ru": "Для команд из 2-15 человек, которые ведут клиентов в таблицах и мессенджерах и хотят порядок без дорогой подписки на крупную CRM.",
+  "for_whom_kk": "Клиенттерді кестелер мен мессенджерлерде жүргізетін және қымбат үлкен CRM жазылымынсыз тәртіп қалайтын 2-15 адамнан тұратын командаларға арналған.",
+  "for_whom_en": "For teams of 2 to 15 people who manage clients in spreadsheets and messengers and want order without an expensive subscription to a large CRM.",
+  "includes_ru": [
+    "Разбор вашего процесса продаж и согласование этапов",
+    "Карточки клиентов с историей контактов и заметками",
+    "Воронка сделок со статусами и ответственным",
+    "Напоминания о задачах и просроченных звонках",
+    "Автоматический приём заявок с сайта и из ботов",
+    "Роли доступа для владельца и менеджеров",
+    "Выгрузка данных и обучение команды"
+  ],
+  "includes_kk": [
+    "Сату процесін талдау және кезеңдерді келісу",
+    "Байланыс тарихы мен жазбалары бар клиент карточкалары",
+    "Мәртебелері мен жауапты адамы бар мәмілелер воронкасы",
+    "Тапсырмалар мен кешіккен қоңыраулар туралы еске салғыштар",
+    "Сайттан және боттардан өтінімдерді автоматты қабылдау",
+    "Иесі мен менеджерлерге арналған қолжетімділік рөлдері",
+    "Деректерді шығару және команданы оқыту"
+  ],
+  "includes_en": [
+    "A review of your sales process and agreement on the stages",
+    "Client cards with contact history and notes",
+    "A deal pipeline with statuses and an owner for each deal",
+    "Reminders about tasks and overdue calls",
+    "Automatic intake of leads from the site and bots",
+    "Access roles for the owner and managers",
+    "Data export and training for your team"
+  ],
+  "not_included_ru": [
+    "Телефония, бухгалтерия, склад и другие модули большой CRM-системы",
+    "Перенос старых данных, если они в хаотичном виде: объём такой работы оцениваем отдельно",
+    "Оплата хостинга или платных сервисов, если решение будет их использовать"
+  ],
+  "not_included_kk": [
+    "Телефония, бухгалтерия, қойма және үлкен CRM жүйесінің басқа модульдері",
+    "Ескі деректерді көшіру, егер олар ретсіз күйде болса: мұндай жұмыстың көлемін бөлек бағалаймыз",
+    "Шешім пайдаланса, хостинг немесе ақылы сервистер төлемі"
+  ],
+  "not_included_en": [
+    "Telephony, accounting, warehouse and other modules of a large CRM system",
+    "Migrating old data if it is in a messy state, which we estimate separately",
+    "Hosting or paid-service fees, if the solution uses them"
+  ],
+  "price_from_kzt": 90000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 20,
+  "related": [
+    "zayavki-v-google-sheets",
+    "otchety-v-telegram",
+    "veb-prilozhenie"
+  ],
+  "is_active": true,
+  "sort": 36,
+  "faqs": [
+    {
+      "question_ru": "Чем это лучше готовой CRM?",
+      "question_kk": "Бұл дайын CRM-нен немен жақсы?",
+      "question_en": "How is this better than a ready-made CRM?",
+      "answer_ru": "Здесь нет ежемесячной платы за места и лишних функций, а этапы повторяют ваш реальный процесс. Минус в том, что возможности ограничены тем, что мы вместе заложим, а не готовым набором на сотни функций.",
+      "answer_kk": "Мұнда орын үшін ай сайынғы төлем мен артық функциялар жоқ, ал кезеңдер сіздің нақты процесті қайталайды. Кемшілігі: мүмкіндіктер жүздеген функциясы бар дайын жиынтықпен емес, бірге қосқанымызбен шектеледі.",
+      "answer_en": "There is no monthly fee per seat and no surplus features, and the stages follow your real process. The downside is that capabilities are limited to what we build in together, not a ready set of hundreds of functions.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Данные будут принадлежать мне?",
+      "question_kk": "Деректер маған тиесілі бола ма?",
+      "question_en": "Will the data belong to me?",
+      "answer_ru": "Да. Система разворачивается на вашем аккаунте или хостинге, а выгрузить данные в таблицу можно в любой момент.",
+      "answer_kk": "Иә. Жүйе сіздің аккаунтыңызда немесе хостингте орнатылады, ал деректерді кез келген уақытта кестеге шығаруға болады.",
+      "answer_en": "Yes. The system is deployed under your own account or hosting, and the data can be exported to a spreadsheet at any time.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли потом добавить функции?",
+      "question_kk": "Кейін функция қосуға бола ма?",
+      "question_en": "Can features be added later?",
+      "answer_ru": "Можно. Я делаю структуру так, чтобы новые поля и этапы добавлялись без переделки всего. Доработки оцениваются отдельно.",
+      "answer_kk": "Болады. Құрылымды жаңа өрістер мен кезеңдер бәрін қайта жасамай қосылатындай етіп жасаймын. Жетілдірулер бөлек бағаланады.",
+      "answer_en": "Yes. I structure the system so new fields and stages can be added without rebuilding everything. Extensions are quoted separately.",
+      "sort": 2
+    }
+  ]
+}

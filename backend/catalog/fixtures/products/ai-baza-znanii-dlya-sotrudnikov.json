@@ -1,0 +1,98 @@
+{
+  "slug": "ai-baza-znanii-dlya-sotrudnikov",
+  "category": "ai",
+  "title_ru": "ИИ-база знаний для сотрудников",
+  "title_kk": "Қызметкерлерге арналған ИИ білім қоры",
+  "title_en": "AI knowledge base for your staff",
+  "short_ru": "Внутренний бот, который отвечает сотрудникам по регламентам, инструкциям и документам компании.",
+  "short_kk": "Қызметкерлерге компанияның регламенттері, нұсқаулықтары мен құжаттары бойынша жауап беретін ішкі бот.",
+  "short_en": "An internal bot that answers staff questions from company rules, instructions and documents.",
+  "description_ru": "Новички и действующие сотрудники задают одни и те же вопросы: как оформить возврат, где лежит шаблон, какой порядок действий. Я собираю ваши документы в поисковую базу и подключаю бота, который отвечает по ним и показывает, из какого документа взят ответ. Так руководителю не приходится повторять одно и то же.",
+  "description_kk": "Жаңа және қазіргі қызметкерлер бірдей сұрақ қояды: қайтарымды қалай рәсімдеу, үлгі қайда жатыр, әрекет тәртібі қандай. Мен құжаттарыңызды іздеу қорына жинап, солар бойынша жауап беретін және жауап қай құжаттан алынғанын көрсететін ботты қосамын. Сонда басшыға бір нәрсені қайталай беру керек болмайды.",
+  "description_en": "New and current employees keep asking the same things: how to process a return, where a template is stored, what the procedure is. I turn your documents into a searchable base and connect a bot that answers from them and shows which document an answer came from. That spares the manager from repeating the same explanations.",
+  "for_whom_ru": "Для команд от 5 человек с накопленными инструкциями, где руководитель тратит время на повторяющиеся вопросы. Подходит магазинам, колл-центрам и сервисным компаниям.",
+  "for_whom_kk": "Жиналған нұсқаулықтары бар, басшы қайталанатын сұрақтарға уақыт жұмсайтын 5 адамнан басталатын командаларға арналған. Дүкендерге, колл-орталықтарға және қызмет көрсету компанияларына қолайлы.",
+  "for_whom_en": "For teams of five or more with accumulated instructions, where the manager spends time on repeated questions. It suits shops, call centres and service companies.",
+  "includes_ru": [
+    "Разбор и подготовка ваших документов: регламенты, инструкции, FAQ",
+    "Поисковая база, по которой бот находит нужные фрагменты",
+    "Бот в Telegram или веб-страница с чатом для сотрудников",
+    "Ссылка на исходный документ в каждом ответе",
+    "Доступ только для вашей команды по списку участников",
+    "Простой способ обновлять документы без моего участия",
+    "Обучающая встреча и краткая инструкция для администратора"
+  ],
+  "includes_kk": [
+    "Құжаттарыңызды талдау және дайындау: регламенттер, нұсқаулықтар, жиі қойылатын сұрақтар",
+    "Бот қажетті үзінділерді табатын іздеу қоры",
+    "Қызметкерлерге арналған Telegram-дағы бот немесе чаты бар веб-бет",
+    "Әр жауапта бастапқы құжатқа сілтеме",
+    "Қатысушылар тізімі бойынша тек сіздің командаңызға қолжетімділік",
+    "Құжаттарды менің қатысуымсыз жаңартудың қарапайым тәсілі",
+    "Оқыту кездесуі және әкімшіге арналған қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Review and preparation of your documents: rules, instructions, FAQ",
+    "A search index the bot uses to find the right passages",
+    "A Telegram bot or a web page with a chat for employees",
+    "A link to the source document in every answer",
+    "Access limited to your team through a member list",
+    "A simple way to update documents without my involvement",
+    "A walkthrough session and a short guide for the administrator"
+  ],
+  "not_included_ru": [
+    "Написание регламентов и инструкций: я работаю с тем, что у вас уже есть",
+    "Оплата запросов к языковой модели, которую вы платите по использованию",
+    "Гарантия точности: ИИ может ошибиться, поэтому юридически и финансово значимые решения стоит сверять с документом"
+  ],
+  "not_included_kk": [
+    "Регламенттер мен нұсқаулықтарды жазу: мен сізде бар материалмен жұмыс істеймін",
+    "Тілдік модельге сұраулардың қолданысқа қарай төлемі",
+    "Дәлдік кепілі: ИИ қателесуі мүмкін, сондықтан заңдық және қаржылық маңызды шешімдерді құжатпен салыстырған жөн"
+  ],
+  "not_included_en": [
+    "Writing the rules and instructions: I work with what you already have",
+    "Language model usage fees, which you pay based on use",
+    "A guarantee of accuracy: AI can be wrong, so legally or financially significant decisions should be checked against the source document"
+  ],
+  "price_from_kzt": 90000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 20,
+  "related": [
+    "ai-assistent-telegram",
+    "otchety-v-telegram",
+    "crm-dlya-malogo-biznesa"
+  ],
+  "is_active": true,
+  "sort": 32,
+  "faqs": [
+    {
+      "question_ru": "В каком виде нужны документы?",
+      "question_kk": "Құжаттар қандай түрде керек?",
+      "question_en": "In what format do you need the documents?",
+      "answer_ru": "Подойдут Word, PDF, Google Docs и обычные текстовые заметки. Если документы только на бумаге, их придётся сначала сфотографировать или отсканировать.",
+      "answer_kk": "Word, PDF, Google Docs және қарапайым мәтіндік жазбалар жарайды. Құжаттар тек қағазда болса, алдымен суретке түсіру немесе сканерлеу керек.",
+      "answer_en": "Word, PDF, Google Docs and plain text notes all work. If documents exist only on paper, they will first need to be photographed or scanned.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Конфиденциальные документы будут в безопасности?",
+      "question_kk": "Құпия құжаттар қауіпсіз бола ма?",
+      "question_en": "Will confidential documents be safe?",
+      "answer_ru": "Бот работает только для списка ваших сотрудников. Но тексты для ответа передаются выбранной языковой модели, поэтому для действительно закрытых данных мы обсудим вариант с моделью на вашем сервере.",
+      "answer_kk": "Бот тек сіздің қызметкерлер тізіміне жұмыс істейді. Бірақ жауап үшін мәтіндер таңдалған тілдік модельге беріледі, сондықтан шынымен жабық деректер үшін модель сіздің серверде тұратын нұсқаны талқылаймыз.",
+      "answer_en": "The bot works only for your employee list. However, the texts needed for an answer are passed to the chosen language model, so for truly restricted data we will discuss running a model on your own server.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что делать, когда документы меняются?",
+      "question_kk": "Құжаттар өзгергенде не істеу керек?",
+      "question_en": "What do we do when documents change?",
+      "answer_ru": "Новую версию файла вы загружаете в общую папку, и база обновляется. Я покажу порядок на обучающей встрече, чтобы вы не зависели от меня.",
+      "answer_kk": "Файлдың жаңа нұсқасын ортақ папкаға жүктейсіз, сонда қор жаңарады. Менен тәуелді болмауыңыз үшін тәртібін оқыту кездесуінде көрсетемін.",
+      "answer_en": "You upload the new file version to a shared folder and the base updates. I will show the procedure at the walkthrough so you do not depend on me.",
+      "sort": 2
+    }
+  ]
+}

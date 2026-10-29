@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-yurista",
+  "category": "websites",
+  "title_ru": "Сайт для юриста и юридической практики",
+  "title_kk": "Заңгер мен заң практикасына арналған сайт",
+  "title_en": "Website for a lawyer or legal practice",
+  "short_ru": "Сайт с областями практики, понятными ценами на консультации и безопасной заявкой на разбор вопроса.",
+  "short_kk": "Практика салалары, консультацияның түсінікті бағасы және мәселені талдауға қауіпсіз өтінімі бар сайт.",
+  "short_en": "A site with practice areas, clear consultation prices and a discreet form to describe your question.",
+  "description_ru": "Клиент юриста приходит с тревогой и хочет понять три вещи: помогаете ли вы в его случае, сколько это стоит и как проходит первая консультация. Сайт объясняет это спокойным языком, без обещаний выиграть дело. Форма принимает только краткое описание ситуации и контакт.",
+  "description_kk": "Заңгердің клиенті алаңдаумен келеді және үш нәрсені түсінгісі келеді: оның жағдайында көмектесесіз бе, қанша тұрады және алғашқы консультация қалай өтеді. Сайт мұны істі ұтамын деп уәде етпей, сабырлы тілмен түсіндіреді. Форма жағдайдың қысқаша сипаттамасы мен байланысты ғана қабылдайды.",
+  "description_en": "A lawyer's client arrives anxious and wants to know three things: do you handle my kind of case, what does it cost and how does the first consultation work. The site explains this in a calm tone without promising to win. The form takes only a short description of the situation and a way to contact the client.",
+  "for_whom_ru": "Частным юристам, адвокатам и небольшим юридическим практикам, которым нужен аккуратный сайт для первых обращений.",
+  "for_whom_kk": "Алғашқы өтініштер үшін ұқыпты сайт керек жеке заңгерлерге, адвокаттарға және шағын заң практикаларына.",
+  "for_whom_en": "For independent lawyers, advocates and small legal practices who need a neat site for first enquiries.",
+  "includes_ru": [
+    "Страницы областей практики: семейное, трудовое, договорное, недвижимость и другие ваши",
+    "Блок «Как проходит консультация» и стоимость первичного приёма",
+    "Страница юриста: образование, опыт, профессиональные членства (если есть)",
+    "Форма «Опишите ситуацию» с согласием на обработку данных",
+    "Раздел «Полезные статьи» для ответов на типовые вопросы",
+    "Контакты, адрес, запись на консультацию в WhatsApp",
+    "Сдержанный дизайн, который вызывает доверие"
+  ],
+  "includes_kk": [
+    "Практика салаларының беттері: отбасылық, еңбек, шарттық, жылжымайтын мүлік және өзге",
+    "«Консультация қалай өтеді» блогы мен алғашқы қабылдау құны",
+    "Заңгер беті: білімі, тәжірибесі, кәсіби мүшелік (болса)",
+    "Деректерді өңдеуге келісімі бар «Жағдайды сипаттаңыз» формасы",
+    "Типтік сұрақтарға жауап беретін «Пайдалы мақалалар» бөлімі",
+    "Байланыс, мекенжай, WhatsApp-та консультацияға жазылу",
+    "Сенім ұялататын сабырлы дизайн"
+  ],
+  "includes_en": [
+    "Practice-area pages: family, employment, contracts, property and your others",
+    "\"How a consultation works\" block with the cost of the first meeting",
+    "Lawyer profile: education, experience, professional memberships if any",
+    "A \"Describe your situation\" form with a data-processing consent line",
+    "Useful articles section answering typical questions",
+    "Contacts, address and WhatsApp booking for a consultation",
+    "A restrained design that builds trust"
+  ],
+  "not_included_ru": [
+    "Юридическая проверка содержания сайта: ответственность за формулировки на вас",
+    "Написание статей по праву (черновики структуры помогу сделать)",
+    "Приём платежей за консультации онлайн"
+  ],
+  "not_included_kk": [
+    "Сайт мазмұнын заңды тексеру: мәтін үшін жауапкершілік өзіңізде",
+    "Құқық бойынша мақалалар жазу (құрылым жобасына көмектесемін)",
+    "Консультация ақысын онлайн қабылдау"
+  ],
+  "not_included_en": [
+    "Legal review of the site content: responsibility for wording stays with you",
+    "Writing legal articles (I can help outline them)",
+    "Taking consultation payments online"
+  ],
+  "price_from_kzt": 40000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 7,
+  "related": [
+    "sait-vizitka",
+    "telegram-bot-faq",
+    "lokalnoe-seo"
+  ],
+  "is_active": true,
+  "sort": 12,
+  "faqs": [
+    {
+      "question_ru": "Можно ли не указывать цены на консультации?",
+      "question_kk": "Консультация бағасын көрсетпеуге бола ма?",
+      "question_en": "Can I leave consultation prices off the site?",
+      "answer_ru": "Можно, но я советую указать хотя бы стоимость первичной консультации: так приходят более осознанные обращения. Решение за вами.",
+      "answer_kk": "Болады, бірақ кем дегенде алғашқы консультация құнын көрсетуді кеңес етемін: сонда саналы өтініштер көбірек келеді. Шешім өзіңізде.",
+      "answer_en": "You can, but I suggest at least showing the first consultation fee, as it tends to bring better-prepared enquiries. The decision is yours.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Насколько конфиденциальна форма заявки?",
+      "question_kk": "Өтінім формасы қаншалықты құпия?",
+      "question_en": "How confidential is the enquiry form?",
+      "answer_ru": "Форма отправляет сообщение только вам и не сохраняет его на сайте. Я прошу клиентов писать суть коротко и без документов; детали обсуждаются на консультации.",
+      "answer_kk": "Форма хабарламаны тек сізге жібереді және сайтта сақтамайды. Клиенттерден мәнін қысқа және құжатсыз жазуын сұраймын; егжей-тегжейі консультацияда талқыланады.",
+      "answer_en": "The form sends the message only to you and does not store it on the site. Clients are asked to describe the issue briefly with no documents, and details are discussed at the consultation.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Какие формулировки нельзя использовать?",
+      "question_kk": "Қандай сөздерді қолдануға болмайды?",
+      "question_en": "What wording should be avoided?",
+      "answer_ru": "Не стоит писать «гарантируем выигрыш» и называть проценты успешных дел. Я пишу нейтрально: чем занимаетесь, как работаете и сколько стоит.",
+      "answer_kk": "«Ұтуға кепілдік береміз» деп жазбаған және сәтті істердің пайызын атамаған жөн. Бейтарап жазамын: немен айналысасыз, қалай жұмыс істейсіз және қанша тұрады.",
+      "answer_en": "It is wise not to write \"we guarantee a win\" or quote success rates. I write neutrally: what you do, how you work and what it costs.",
+      "sort": 2
+    }
+  ]
+}

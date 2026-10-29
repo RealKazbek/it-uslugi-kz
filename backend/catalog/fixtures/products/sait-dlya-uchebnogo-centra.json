@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-uchebnogo-centra",
+  "category": "websites",
+  "title_ru": "Сайт для учебного центра",
+  "title_kk": "Оқу орталығына арналған сайт",
+  "title_en": "Website for a training centre",
+  "short_ru": "Каталог курсов с расписанием и ценами, страницы преподавателей и запись на пробный урок.",
+  "short_kk": "Кестесі мен бағасы бар курс каталогы, оқытушы беттері және сынақ сабаққа жазылу.",
+  "short_en": "A course catalogue with schedules and prices, teacher pages and trial-lesson sign-up.",
+  "description_ru": "Родители и взрослые студенты сравнивают центры по программе, расписанию, преподавателям и цене. Сайт собирает курсы по направлениям с возрастом, длительностью и стоимостью, а запись на пробный урок делает вход в центр простым. Заявки сразу приходят администратору.",
+  "description_kk": "Ата-аналар мен ересек студенттер орталықтарды бағдарлама, кесте, оқытушы және баға бойынша салыстырады. Сайт курстарды жасы, ұзақтығы және құнымен бағыттар бойынша жинайды, ал сынақ сабаққа жазылу орталыққа келуді жеңілдетеді. Өтінімдер бірден әкімшіге келеді.",
+  "description_en": "Parents and adult students compare centres by programme, schedule, teachers and price. The site groups courses by subject with age, duration and cost, and trial-lesson sign-up makes the first step easy. Requests go straight to the administrator.",
+  "for_whom_ru": "Языковым школам, центрам подготовки, детским кружкам и курсам, которым нужна ясная витрина программ и поток заявок на пробные уроки.",
+  "for_whom_kk": "Бағдарламаларының айқын витринасы мен сынақ сабаққа өтінім ағыны керек тіл мектептеріне, дайындық орталықтарына, балалар үйірмелері мен курстарға.",
+  "for_whom_en": "For language schools, test-prep centres, kids' clubs and course providers who need a clear showcase of programmes and a steady flow of trial-lesson requests.",
+  "includes_ru": [
+    "Каталог курсов по направлениям: возраст, длительность, цена",
+    "Расписание групп в таблице, которую вы правите сами",
+    "Страницы преподавателей с опытом и предметами",
+    "Запись на пробный урок или консультацию",
+    "Страница каждого курса с программой и результатами обучения",
+    "Блок вопросов родителей и условий оплаты по месяцам",
+    "Контакты филиалов с картой и WhatsApp"
+  ],
+  "includes_kk": [
+    "Бағыттар бойынша курс каталогы: жасы, ұзақтығы, бағасы",
+    "Өзіңіз өзгертетін кестедегі топ кестесі",
+    "Тәжірибесі мен пәндері бар оқытушы беттері",
+    "Сынақ сабаққа не кеңеске жазылу",
+    "Бағдарламасы мен оқу нәтижесі бар әр курстың беті",
+    "Ата-ана сұрақтары және айлық төлем шарттары блогы",
+    "Филиал байланыстары: карта және WhatsApp"
+  ],
+  "includes_en": [
+    "Course catalogue by subject with age range, duration and price",
+    "Group timetable in a table you can edit yourself",
+    "Teacher pages with experience and subjects",
+    "Sign-up for a trial lesson or consultation",
+    "A page per course with the programme and learning outcomes",
+    "Block with parents' questions and monthly payment terms",
+    "Branch contacts with a map and WhatsApp"
+  ],
+  "not_included_ru": [
+    "Платформа для проведения онлайн-уроков и хранения видео",
+    "Личный кабинет ученика с оценками (это отдельное веб-приложение)",
+    "Тексты программ и фото преподавателей предоставляете вы"
+  ],
+  "not_included_kk": [
+    "Онлайн-сабақ өткізу және бейне сақтау платформасы",
+    "Оқушының бағалары бар жеке кабинеті (бұл бөлек веб-қосымша)",
+    "Бағдарлама мәтіндері мен оқытушы суреттерін өзіңіз бересіз"
+  ],
+  "not_included_en": [
+    "A platform for online lessons and video hosting",
+    "A student account with grades (that is a separate web app)",
+    "Programme texts and teacher photos come from you"
+  ],
+  "price_from_kzt": 55000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "telegram-bot-dlya-kursov",
+    "telegram-bot-zayavki",
+    "veb-prilozhenie"
+  ],
+  "is_active": true,
+  "sort": 9,
+  "faqs": [
+    {
+      "question_ru": "Как быстро менять расписание групп?",
+      "question_kk": "Топ кестесін қаншалықты тез өзгертуге болады?",
+      "question_en": "How easily can the timetable be changed?",
+      "answer_ru": "Расписание хранится в таблице, которую можно править самому или присылать мне. Изменение появляется на сайте в тот же день.",
+      "answer_kk": "Кесте өзіңіз өзгерте алатын немесе маған жіберетін кестеде сақталады. Өзгеріс сайтта сол күні пайда болады.",
+      "answer_en": "The timetable sits in a table you can edit yourself or send to me. The change appears on the site the same day.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что получает администратор при записи?",
+      "question_kk": "Жазылғанда әкімші не алады?",
+      "question_en": "What does the administrator receive when someone signs up?",
+      "answer_ru": "Сообщение в Telegram с именем, телефоном, курсом и возрастом ученика. Дальше вы связываетесь с родителем и подтверждаете время.",
+      "answer_kk": "Аты-жөні, телефоны, курсы және оқушы жасы бар Telegram хабарламасы. Кейін ата-анамен байланысып, уақытты растайсыз.",
+      "answer_en": "A Telegram message with name, phone, course and the student's age. You then contact the parent and confirm the time.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужна ли версия на казахском?",
+      "question_kk": "Қазақша нұсқа керек пе?",
+      "question_en": "Do I need a Kazakh version?",
+      "answer_ru": "Если среди ваших учеников есть казахоязычные семьи, версия на двух языках помогает. Она делается по договорённости, а тексты переведу или отредактирую вместе с вами.",
+      "answer_kk": "Оқушыларыңыздың арасында қазақ тілді отбасылар болса, екі тілді нұсқа көмектеседі. Ол келісім бойынша жасалады, мәтіндерді сізбен бірге аударамын не өңдеймін.",
+      "answer_en": "If some of your families speak Kazakh, a two-language version helps. It is done by agreement, and I translate or edit the texts together with you.",
+      "sort": 2
+    }
+  ]
+}

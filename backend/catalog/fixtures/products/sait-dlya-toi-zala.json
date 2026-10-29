@@ -1,0 +1,98 @@
+{
+  "slug": "sait-dlya-toi-zala",
+  "category": "websites",
+  "title_ru": "Сайт для банкетного зала и той-зала",
+  "title_kk": "Той залы мен банкет залына арналған сайт",
+  "title_en": "Website for a banquet or wedding hall",
+  "short_ru": "Фото и вместимость залов, примеры меню, свободные даты и заявка на бронь.",
+  "short_kk": "Залдардың суреті мен сыйымдылығы, мәзір үлгілері, бос күндер және брондауға өтінім.",
+  "short_en": "Hall photos and capacity, sample menus, free dates and a booking enquiry form.",
+  "description_ru": "Выбирая зал для свадьбы, юбилея или тоя, семья смотрит на вместимость, фото, меню и свободную дату. Сайт показывает каждый зал отдельной страницей с галереей и вместимостью, примеры банкетных меню и календарь занятых дат. Заявка на бронь приходит вам с датой и числом гостей.",
+  "description_kk": "Үйлену тойы, мерейтой немесе той үшін зал таңдағанда отбасы сыйымдылыққа, суретке, мәзірге және бос күнге қарайды. Сайт әр залды галереясы мен сыйымдылығы бар жеке бетпен, банкет мәзірінің үлгілерін және бос емес күндер күнтізбесін көрсетеді. Брондау өтінімі күні мен қонақ санымен сізге келеді.",
+  "description_en": "When choosing a hall for a wedding, anniversary or family celebration, a family looks at capacity, photos, the menu and whether the date is free. The site gives each hall its own page with a gallery and capacity, sample banquet menus and a calendar of booked dates. A booking enquiry arrives with the date and number of guests.",
+  "for_whom_ru": "Банкетным и свадебным залам, ресторанам с банкетным направлением и базам отдыха, где проводят мероприятия.",
+  "for_whom_kk": "Банкет және той залдарына, банкет бағыты бар мейрамханаларға және іс-шара өткізетін демалыс базаларына.",
+  "for_whom_en": "For banquet and wedding halls, restaurants that host events, and recreation venues that rent out space.",
+  "includes_ru": [
+    "Отдельная страница на каждый зал: фото, вместимость, планировка",
+    "Календарь занятых и свободных дат, который вы обновляете",
+    "Примеры банкетных меню с ценой за гостя «от»",
+    "Форма заявки: дата, повод, число гостей, пожелания",
+    "Блок «Что входит в аренду»: сцена, звук, декор, парковка",
+    "Фотогалерея прошедших праздников с согласия заказчиков",
+    "Карта, контакты и WhatsApp для быстрого вопроса менеджеру"
+  ],
+  "includes_kk": [
+    "Әр залға жеке бет: сурет, сыйымдылық, жоспар",
+    "Өзіңіз жаңартатын бос және бос емес күндер күнтізбесі",
+    "Бір қонаққа «бастап» бағасы көрсетілген банкет мәзірінің үлгілері",
+    "Өтінім формасы: күні, себебі, қонақ саны, тілектер",
+    "«Жалдауға не кіреді» блогы: сахна, дыбыс, декор, тұрақ",
+    "Тапсырыс берушілердің келісімімен өткен мерекелер галереясы",
+    "Карта, байланыс және менеджерге жылдам сұрақ үшін WhatsApp"
+  ],
+  "includes_en": [
+    "A separate page for each hall with photos, capacity and layout",
+    "Calendar of booked and free dates that you keep updated",
+    "Sample banquet menus with a \"from\" price per guest",
+    "Enquiry form: date, occasion, guest count and wishes",
+    "\"What is included in the hire\" block: stage, sound, decor, parking",
+    "Gallery of past events, shown with the hosts' consent",
+    "Map, contacts and WhatsApp for a quick question to a manager"
+  ],
+  "not_included_ru": [
+    "Фото залов и меню предоставляете вы",
+    "Автоматическая синхронизация календаря с внутренним учётом зала",
+    "Онлайн-оплата задатка: по договорённости, отдельным этапом"
+  ],
+  "not_included_kk": [
+    "Зал мен мәзір суреттерін өзіңіз бересіз",
+    "Күнтізбені залдың ішкі есебімен автоматты синхрондау",
+    "Кепілақыны онлайн төлеу: келісім бойынша, бөлек кезеңмен"
+  ],
+  "not_included_en": [
+    "Photos of the halls and menus come from you",
+    "Automatic calendar sync with your internal hall bookings",
+    "Online deposit payment, possible by agreement as a separate stage"
+  ],
+  "price_from_kzt": 50000,
+  "unit": "once",
+  "days_min": 4,
+  "days_max": 8,
+  "related": [
+    "sait-dlya-kafe",
+    "telegram-bot-zapis",
+    "kartochka-2gis-google-maps"
+  ],
+  "is_active": true,
+  "sort": 13,
+  "faqs": [
+    {
+      "question_ru": "Как работает календарь дат?",
+      "question_kk": "Күн күнтізбесі қалай жұмыс істейді?",
+      "question_en": "How does the date calendar work?",
+      "answer_ru": "Занятые дни отмечаются в простой таблице, и посетитель сразу видит, какая дата свободна. Бронь окончательно подтверждаете вы, сайт только предварительно принимает заявку.",
+      "answer_kk": "Бос емес күндер қарапайым кестеде белгіленеді, келуші қай күннің бос екенін бірден көреді. Броньды түпкілікті сіз растайсыз, сайт өтінімді тек алдын ала қабылдайды.",
+      "answer_en": "Booked days are marked in a simple table, so a visitor sees at once which date is free. You confirm the booking yourself, since the site only takes a preliminary enquiry.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли разместить несколько залов?",
+      "question_kk": "Бірнеше залды орналастыруға бола ма?",
+      "question_en": "Can several halls be listed?",
+      "answer_ru": "Да, у каждого зала своя страница, вместимость и свои даты. Посетитель может сравнить залы по числу гостей.",
+      "answer_kk": "Иә, әр залдың өз беті, сыйымдылығы және күндері бар. Келуші залдарды қонақ саны бойынша салыстыра алады.",
+      "answer_en": "Yes, each hall has its own page, capacity and dates, and visitors can compare halls by guest count.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Какой язык сайта лучше выбрать?",
+      "question_kk": "Сайттың қай тілін таңдаған жөн?",
+      "question_en": "Which site language should I choose?",
+      "answer_ru": "Для тоёв в Казахстане хорошо работает версия на русском и казахском: приглашают семьи с обеих сторон. Вторую версию делаю по договорённости, тексты правим вместе.",
+      "answer_kk": "Қазақстандағы тойлар үшін орыс және қазақ тіліндегі нұсқа жақсы жұмыс істейді: екі жақтың отбасы шақырылады. Екінші нұсқаны келісім бойынша жасаймын, мәтінді бірге түзейміз.",
+      "answer_en": "For weddings in Kazakhstan a Russian and Kazakh version works well, since families from both sides are invited. I build the second language by agreement and we refine the texts together.",
+      "sort": 2
+    }
+  ]
+}

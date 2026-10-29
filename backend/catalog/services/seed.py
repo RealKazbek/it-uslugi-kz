@@ -11,7 +11,13 @@ from typing import Any
 from django.db import transaction
 
 from catalog.models import Category, Product, ProductFAQ
-from catalog.services.fixtures import SeedError, load_fixture, model_fields, resolve_slugs
+from catalog.services.fixtures import (
+    SeedError,
+    load_fixture,
+    load_fixture_dir,
+    model_fields,
+    resolve_slugs,
+)
 from catalog.services.tags import all_tags
 from catalog.signals import revalidation_suppressed
 from cities.services.seed import seed_cities
@@ -32,8 +38,8 @@ def seed_all() -> SeedResult:
     """Load all fixtures. Revalidation is suppressed while writing and fired once at the end."""
     with revalidation_suppressed(), transaction.atomic():
         categories = seed_categories(load_fixture("categories.json"))
-        products, faqs = seed_products(load_fixture("products.json"))
-        cities = seed_cities(load_fixture("cities.json"))
+        products, faqs = seed_products(load_fixture_dir("products"))
+        cities = seed_cities(load_fixture_dir("cities"))
     result = SeedResult(categories=categories, products=products, faqs=faqs, cities=cities)
     post_revalidate(all_tags())
     logger.info("Seed finished: %s", result)

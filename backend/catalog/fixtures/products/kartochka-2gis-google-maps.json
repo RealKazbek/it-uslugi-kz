@@ -1,0 +1,98 @@
+{
+  "slug": "kartochka-2gis-google-maps",
+  "category": "seo-maps",
+  "title_ru": "Карточка в 2GIS и Google Maps",
+  "title_kk": "2GIS пен Google Maps-тағы карточка",
+  "title_en": "Business listing on 2GIS and Google Maps",
+  "short_ru": "Создаю и оформляю карточку компании в 2GIS и Google Maps, чтобы вас находили на карте.",
+  "short_kk": "Компания карточкасын 2GIS пен Google Maps-та жасап, рәсімдеймін, сонда сізді картадан табады.",
+  "short_en": "I create and fill in your company listing on 2GIS and Google Maps so people can find you on the map.",
+  "description_ru": "Большинство местных клиентов ищут адрес, телефон и график именно на картах. Я заполняю карточку в 2GIS, популярном справочнике и картографическом сервисе Казахстана, и в Google Maps: категории, описание, часы работы, фото и контакты. Данные на обеих площадках приводятся к одному виду, чтобы клиент не путался.",
+  "description_kk": "Жергілікті клиенттердің көбі мекенжайды, телефонды және кестені дәл карталардан іздейді. Мен 2GIS-те, Қазақстандағы танымал анықтамалық әрі карта сервисінде, және Google Maps-та карточканы толтырамын: санаттар, сипаттама, жұмыс уақыты, фото және байланыстар. Клиент шатаспауы үшін екі алаңдағы деректерді бір түрге келтіремін.",
+  "description_en": "Most local customers look up an address, phone and opening hours on a map. I fill in your listing on 2GIS, a popular map and business directory in Kazakhstan, and on Google Maps: categories, description, hours, photos and contacts. The details on both platforms are made consistent so customers are not confused.",
+  "for_whom_ru": "Для кафе, салонов, клиник, магазинов и сервисов с физическим адресом, которых пока нет на картах или данные там устарели.",
+  "for_whom_kk": "Физикалық мекенжайы бар, бірақ әлі картада жоқ немесе деректері ескірген кафелерге, салондарға, клиникаларға, дүкендер мен сервистерге арналған.",
+  "for_whom_en": "For cafes, salons, clinics, shops and services with a physical address that are not on the maps yet or whose details are outdated.",
+  "includes_ru": [
+    "Проверка, есть ли уже карточка, и объединение дублей",
+    "Создание или заявка на получение прав на карточку в 2GIS",
+    "Создание или подтверждение карточки в Google Business Profile",
+    "Подбор категорий и написание описания без спама ключевых слов",
+    "Заполнение часов работы, телефонов, сайта и ссылок на мессенджеры",
+    "Загрузка до 10 фотографий, которые вы предоставите",
+    "Краткая инструкция, как отвечать на отзывы и обновлять данные"
+  ],
+  "includes_kk": [
+    "Карточканың бар-жоғын тексеру және көшірмелерді біріктіру",
+    "2GIS-те карточканы жасау немесе оған құқық алуға өтінім",
+    "Google Business Profile-да карточканы жасау немесе растау",
+    "Санаттарды таңдау және кілт сөздермен спамсыз сипаттама жазу",
+    "Жұмыс уақытын, телефондарды, сайтты және мессенджер сілтемелерін толтыру",
+    "Өзіңіз беретін 10 фотоға дейін жүктеу",
+    "Пікірлерге жауап беру және деректерді жаңарту туралы қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Checking whether a listing already exists and merging duplicates",
+    "Creating the listing on 2GIS or claiming ownership of an existing one",
+    "Creating or verifying the listing in Google Business Profile",
+    "Choosing categories and writing a description without keyword stuffing",
+    "Filling in hours, phone numbers, website and messenger links",
+    "Uploading up to 10 photos that you provide",
+    "A short guide to replying to reviews and updating details"
+  ],
+  "not_included_ru": [
+    "Решение о публикации: модерация 2GIS и Google проходит на их стороне, и сроки с исходом я не контролирую",
+    "Платное размещение и реклама в 2GIS или Google",
+    "Отзывы: я не пишу и не накручиваю их, их оставляют ваши реальные клиенты"
+  ],
+  "not_included_kk": [
+    "Жариялау туралы шешім: 2GIS пен Google модерациясы олардың жағында өтеді, мерзімі мен нәтижесін бақыламаймын",
+    "2GIS немесе Google-дағы ақылы орналастыру және жарнама",
+    "Пікірлер: мен оларды жазбаймын және жасанды көбейтпеймін, оларды нақты клиенттеріңіз қалдырады"
+  ],
+  "not_included_en": [
+    "The publication decision: moderation on 2GIS and Google happens on their side, and I do not control the timing or outcome",
+    "Paid placement and advertising on 2GIS or Google",
+    "Reviews, which I neither write nor inflate; they are left by your real customers"
+  ],
+  "price_from_kzt": 10000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "kartochka-yandex-karty",
+    "lokalnoe-seo",
+    "sait-vizitka"
+  ],
+  "is_active": true,
+  "sort": 41,
+  "faqs": [
+    {
+      "question_ru": "Сколько ждать появления карточки?",
+      "question_kk": "Карточканың пайда болуын қанша күту керек?",
+      "question_en": "How long until the listing appears?",
+      "answer_ru": "Заполнение занимает 1-3 рабочих дня. Проверка в Google часто требует подтверждения адреса письмом, звонком или видео, а 2GIS проверяет данные по своим правилам, поэтому публикация может занять больше.",
+      "answer_kk": "Толтыру 1-3 жұмыс күнін алады. Google-дағы тексеру көбіне мекенжайды хатпен, қоңыраумен немесе бейнемен растауды талап етеді, ал 2GIS деректерді өз ережесімен тексереді, сондықтан жариялау ұзағырақ болуы мүмкін.",
+      "answer_en": "Filling it in takes 1-3 working days. Google often asks to confirm the address by mail, phone or video, and 2GIS checks details by its own rules, so actual publication may take longer.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Нужен ли физический адрес?",
+      "question_kk": "Физикалық мекенжай керек пе?",
+      "question_en": "Do I need a physical address?",
+      "answer_ru": "Для обычной карточки нужен адрес, где вы принимаете клиентов. Если вы выезжаете к клиентам, можно оформить зону обслуживания, но правила здесь у каждой площадки свои.",
+      "answer_kk": "Қарапайым карточка үшін клиентті қабылдайтын мекенжай керек. Клиентке барсаңыз, қызмет көрсету аймағын рәсімдеуге болады, бірақ әр алаңның ережесі өзінше.",
+      "answer_en": "A regular listing needs an address where you receive customers. If you travel to clients, a service area can be set up, though each platform has its own rules.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Улучшит ли это мои позиции на карте?",
+      "question_kk": "Бұл картадағы орнымды жақсарта ма?",
+      "question_en": "Will this improve my ranking on the map?",
+      "answer_ru": "Полная и точная карточка помогает вас находить, но порядок выдачи определяют алгоритмы сервисов, отзывы и расстояние до клиента. Обещать конкретное место я не могу.",
+      "answer_kk": "Толық әрі дәл карточка сізді табуға көмектеседі, бірақ шығарылым тәртібін сервис алгоритмдері, пікірлер және клиентке дейінгі арақашықтық анықтайды. Нақты орынға уәде бере алмаймын.",
+      "answer_en": "A complete and accurate listing helps people find you, but result order is set by the services' algorithms, reviews and distance to the customer. I cannot promise a specific position.",
+      "sort": 2
+    }
+  ]
+}

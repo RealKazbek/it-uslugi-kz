@@ -1,0 +1,95 @@
+{
+  "slug": "perenos-saita",
+  "category": "support",
+  "title_ru": "Перенос сайта на другой хостинг",
+  "title_kk": "Сайтты басқа хостингке көшіру",
+  "title_en": "Website migration to a new host",
+  "short_ru": "Переношу сайт и базу данных на новый хостинг без потери данных и с минимальным простоем.",
+  "short_kk": "Сайт пен деректер қорын жаңа хостингке деректерді жоғалтпай және минималды тоқтаумен көшіремін.",
+  "short_en": "I move your site and database to a new host without losing data and with minimal downtime.",
+  "description_ru": "Хостинг подорожал, работает нестабильно или старый тариф закрывают, и сайт нужно перевезти. Я копирую файлы и базу данных, поднимаю сайт на новом сервере, проверяю его по временному адресу и только потом переключаю домен. Старый хостинг остаётся включённым, пока вы не убедитесь, что всё работает.",
+  "description_kk": "Хостинг қымбаттады, тұрақсыз істейді немесе ескі тариф жабылады, сондықтан сайтты көшіру керек. Мен файлдар мен деректер қорын көшіріп, сайтты жаңа серверде көтеремін, уақытша мекенжай бойынша тексеремін, содан кейін ғана доменді ауыстырамын. Барлығы жұмыс істейтініне көз жеткізгенше ескі хостинг қосулы қалады.",
+  "description_en": "Your hosting got more expensive, runs unreliably or the old plan is being shut down, so the site has to move. I copy the files and database, set the site up on the new server, test it at a temporary address and only then switch the domain. The old host stays active until you confirm everything works.",
+  "for_whom_ru": "Владельцам сайтов, которые меняют хостинг и боятся потерять данные, заявки или доступность сайта.",
+  "for_whom_kk": "Хостингті ауыстырып жатқан және деректерді, өтінімдерді немесе сайттың қолжетімділігін жоғалтудан қорқатын сайт иелеріне арналған.",
+  "for_whom_en": "For site owners changing hosts who worry about losing data, enquiries or uptime.",
+  "includes_ru": [
+    "Полная копия файлов и базы данных перед переносом",
+    "Развёртывание сайта на новом хостинге или VPS",
+    "Проверка сайта по временному адресу до переключения",
+    "Переключение домена и DNS в удобное для вас время",
+    "Установка SSL-сертификата на новом месте",
+    "Перенос почтовых ящиков на домене, если они есть"
+  ],
+  "includes_kk": [
+    "Көшіруге дейін файлдар мен деректер қорының толық көшірмесі",
+    "Сайтты жаңа хостингте немесе VPS-те орналастыру",
+    "Ауыстырғанға дейін сайтты уақытша мекенжай бойынша тексеру",
+    "Доменді және DNS-ті өзіңізге ыңғайлы уақытта ауыстыру",
+    "Жаңа орында SSL-сертификатты орнату",
+    "Доменде пошта жәшіктері болса, оларды көшіру"
+  ],
+  "includes_en": [
+    "A full copy of files and database before the move",
+    "Deploying the site on the new host or VPS",
+    "Testing the site at a temporary address before switching",
+    "Switching the domain and DNS at a time that suits you",
+    "Installing the SSL certificate at the new location",
+    "Moving mailboxes on your domain, if there are any"
+  ],
+  "not_included_ru": [
+    "Оплата нового хостинга: вы платите её хостеру напрямую",
+    "Исправление ошибок, которые были на сайте до переноса",
+    "Перенос с конструкторов, которые не дают выгрузить сайт"
+  ],
+  "not_included_kk": [
+    "Жаңа хостингтің ақысы: оны хостерге тікелей төлейсіз",
+    "Көшіруге дейін сайтта болған қателерді түзету",
+    "Сайтты экспорттауға рұқсат бермейтін конструкторлардан көшіру"
+  ],
+  "not_included_en": [
+    "Fees for the new hosting, which you pay directly to the host",
+    "Fixing bugs that existed on the site before the move",
+    "Moves from site builders that do not allow exporting the site"
+  ],
+  "price_from_kzt": 15000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "domen-hosting-ssl",
+    "pochta-na-domene",
+    "podderzhka-saita"
+  ],
+  "is_active": true,
+  "sort": 52,
+  "faqs": [
+    {
+      "question_ru": "Будет ли сайт недоступен во время переноса?",
+      "question_kk": "Көшіру кезінде сайт қолжетімсіз болады ма?",
+      "question_en": "Will the site go offline during the move?",
+      "answer_ru": "Сайт продолжает работать на старом месте, пока новое проверяется. Обновление DNS занимает от минут до нескольких часов, но сайт в это время открывается либо там, либо там.",
+      "answer_kk": "Жаңа орын тексерілгенше сайт ескі жерінде жұмыс істей береді. DNS жаңаруы бірнеше минуттан бірнеше сағатқа дейін созылады, бірақ осы уақытта сайт не бұл жерде, не ол жерде ашылады.",
+      "answer_en": "The site keeps running at the old host while the new one is tested. DNS updates take from minutes to a few hours, but during that time the site opens from one place or the other.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Какие данные мне нужны для переноса?",
+      "question_kk": "Көшіру үшін маған қандай деректер керек?",
+      "question_en": "What information do you need from me?",
+      "answer_ru": "Доступ к старому хостингу или панели, доступ к управлению доменом и аккаунт на новом хостинге. Всё это можно закрыть паролями и сменить после переноса.",
+      "answer_kk": "Ескі хостингке немесе панельге қолжетімділік, доменді басқаруға қолжетімділік және жаңа хостингтегі аккаунт. Мұның бәрін құпиясөзбен қорғап, көшіруден кейін ауыстыруға болады.",
+      "answer_en": "Access to the old hosting or panel, access to domain management and an account at the new host. You can change all those passwords after the move.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Подойдёт ли это для сайта на WordPress?",
+      "question_kk": "Бұл WordPress сайтына жарай ма?",
+      "question_en": "Does this work for a WordPress site?",
+      "answer_ru": "Да, если есть доступ к файлам и базе данных. Для закрытых конструкторов, откуда нельзя выгрузить сайт, перенос невозможен, и я скажу об этом сразу.",
+      "answer_kk": "Иә, файлдар мен деректер қорына қолжетімділік болса. Сайтты экспорттау мүмкін емес жабық конструкторлар үшін көшіру мүмкін емес, мұны бірден айтамын.",
+      "answer_en": "Yes, as long as I can reach the files and the database. For closed builders that cannot export a site, a move is not possible and I will tell you that straight away.",
+      "sort": 2
+    }
+  ]
+}
