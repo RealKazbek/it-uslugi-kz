@@ -137,3 +137,22 @@ def test_notify_builds_message_and_hands_off_to_thread(monkeypatch: pytest.Monke
     assert lead_id == lead.pk
     assert "Новая заявка" in text
     assert markup["inline_keyboard"][0][0]["callback_data"] == f"lead:{lead.pk}:in_progress"
+
+
+@override_settings(**CONFIGURED)
+def test_success_logs_telegram_message_id_without_token(
+    monkeypatch: pytest.MonkeyPatch, caplog: pytest.LogCaptureFixture
+) -> None:
+    body = {"ok": True, "result": {"message_id": 4321}}
+
+    def ok_post(url: str, **kwargs: Any) -> httpx.Response:
+        return httpx.Response(200, json=body, request=httpx.Request("POST", url))
+
+    monkeypatch.setattr(httpx, "post", ok_post)
+    _, sleep = _sleeps()
+
+    with caplog.at_level(logging.INFO, logger="leads.services.notifications"):
+        assert send_with_retries(9, "text", MARKUP, sleep=sleep) is True
+
+    assert "Telegram notification sent for lead 9 (message_id 4321)" in caplog.text
+    assert TOKEN not in caplog.text

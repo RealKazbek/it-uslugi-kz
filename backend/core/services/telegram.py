@@ -18,8 +18,10 @@ class TelegramError(Exception):
         self.description = description
 
 
-def send_message(chat_id: str, text: str, reply_markup: dict[str, Any] | None = None) -> None:
-    """Send an HTML message via sendMessage. Raises TelegramError or httpx transport errors."""
+def send_message(chat_id: str, text: str, reply_markup: dict[str, Any] | None = None) -> int | None:
+    """Send an HTML message via sendMessage and return its message_id.
+
+    Raises TelegramError or httpx transport errors."""
     url = f"{TELEGRAM_API_BASE}/bot{settings.TELEGRAM_BOT_TOKEN}/sendMessage"
     payload: dict[str, Any] = {
         "chat_id": chat_id,
@@ -32,6 +34,17 @@ def send_message(chat_id: str, text: str, reply_markup: dict[str, Any] | None = 
     response = httpx.post(url, json=payload, timeout=TELEGRAM_TIMEOUT_SECONDS)
     if response.status_code >= 400:
         raise TelegramError(response.status_code, _description(response))
+    return _message_id(response)
+
+
+def _message_id(response: httpx.Response) -> int | None:
+    try:
+        result = response.json().get("result")
+    except (ValueError, AttributeError):
+        return None
+    if isinstance(result, dict) and isinstance(result.get("message_id"), int):
+        return int(result["message_id"])
+    return None
 
 
 def _description(response: httpx.Response) -> str | None:

@@ -39,7 +39,7 @@ def send_with_retries(
         return False
     for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
-            send_message(chat_id, text, reply_markup)
+            message_id = send_message(chat_id, text, reply_markup)
         except Exception as exc:
             logger.warning(
                 "Telegram notification for lead %s failed (attempt %d/%d): %s",
@@ -51,7 +51,7 @@ def send_with_retries(
             if attempt < MAX_ATTEMPTS:
                 sleep(BACKOFF_SECONDS[attempt - 1])
             continue
-        logger.info("Telegram notification sent for lead %s", lead_id)
+        logger.info("Telegram notification sent for lead %s (message_id %s)", lead_id, message_id)
         return True
     logger.error(
         "Telegram notification for lead %s gave up after %d attempts", lead_id, MAX_ATTEMPTS
