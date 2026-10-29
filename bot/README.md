@@ -6,8 +6,8 @@ and admin commands for the admin chat (`/leads`, `/stats`, status buttons on lea
 ## Layout
 
 - `app/config.py` is the only module that reads environment variables.
-- `app/main.py` long polling with MemoryStorage, SIGTERM stops polling, closes the httpx client.
-- `app/handlers/` one module per feature (start, catalog, order, admin, errors). Handlers only validate, call a service and reply.
+- `app/main.py` long polling with MemoryStorage (aiogram handles SIGTERM), closes the httpx client.
+- `app/handlers/` one module per feature (start, catalog, order, admin, errors, fallback). Handlers only validate, call a service and reply. Router order: start, catalog, admin, order, errors, fallback (catch-alls last).
 - `app/services/` backend client (`backend.py`, `BackendError` on any failure), validation, callback parsing, FSM helpers.
 - `app/formatting/` pure text builders. `app/keyboards/` inline and reply keyboards.
 - `app/texts/` ru, kk, en tables with the same keys; `t(lang, key, **params)` looks them up.
@@ -21,9 +21,11 @@ Values come from `.env` through docker compose; they are never written to code o
 
 ## Healthcheck
 
-The bot serves no HTTP. A background task writes the current time to `/tmp/bot-heartbeat` every
-30 seconds. The container healthcheck runs `python -m app.healthcheck`, which exits 0 while that file
-is at most 90 seconds old and 1 otherwise. A blocked or dead event loop therefore turns the container unhealthy.
+The bot serves no HTTP. Every 30 seconds it calls `getMe` and, only if that succeeds, writes the current
+time to `/tmp/bot-heartbeat`. A failed `getMe` (Telegram unreachable, bad token) is logged as a warning
+and leaves the file stale. The container healthcheck (defined once, in the Dockerfile) runs
+`python -m app.healthcheck`, which exits 0 while the file is at most 90 seconds old and 1 otherwise.
+So the container is healthy only while Telegram answers and the event loop runs.
 
 ## Tests
 

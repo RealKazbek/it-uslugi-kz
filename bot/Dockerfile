@@ -16,8 +16,9 @@ COPY app ./app
 
 USER app
 
-# No HTTP endpoint: the healthcheck verifies that the polling loop still writes its heartbeat file
-# (app/heartbeat.py writes /tmp/bot-heartbeat every 30 s; app/healthcheck.py fails after 90 s).
+# No HTTP endpoint. The bot writes /tmp/bot-heartbeat only after a successful getMe call every 30 s
+# (app/heartbeat.py), so this check fails when Telegram is unreachable or the event loop is blocked.
+# It is the only healthcheck: docker-compose.yml does not repeat it.
 HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
     CMD ["python", "-m", "app.healthcheck"]
 

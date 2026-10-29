@@ -1,8 +1,7 @@
-"""Entry point: long polling with MemoryStorage, graceful shutdown, heartbeat."""
+"""Entry point: long polling with MemoryStorage, graceful shutdown, getMe-backed heartbeat."""
 
 import asyncio
 import logging
-import signal
 from contextlib import suppress
 
 from aiogram import Bot, Dispatcher
@@ -20,10 +19,11 @@ logger = logging.getLogger(__name__)
 
 
 def build_dispatcher(settings: Settings, backend: BackendClient) -> Dispatcher:
-    dispatcher = Dispatcher(storage=MemoryStorage())
+    storage = MemoryStorage()
+    dispatcher = Dispatcher(storage=storage)
     dispatcher["backend"] = backend
     dispatcher["settings"] = settings
-    dispatcher.include_router(build_router())
+    dispatcher.include_router(build_router(storage))
     return dispatcher
 
 
@@ -36,12 +36,7 @@ async def run() -> None:
         default=DefaultBotProperties(parse_mode=ParseMode.HTML),
     )
     dispatcher = build_dispatcher(settings, backend)
-    loop = asyncio.get_running_loop()
-    with suppress(NotImplementedError):  # signal handlers are unavailable on some platforms
-        loop.add_signal_handler(
-            signal.SIGTERM, lambda: asyncio.ensure_future(dispatcher.stop_polling())
-        )
-    heartbeat = asyncio.create_task(run_heartbeat(HEARTBEAT_PATH))
+    heartbeat = asyncio.create_task(run_heartbeat(bot, HEARTBEAT_PATH))
     logger.info("Bot starting: backend=%s", settings.backend_url)
     try:
         await dispatcher.start_polling(bot, allowed_updates=dispatcher.resolve_used_update_types())
