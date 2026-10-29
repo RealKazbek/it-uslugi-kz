@@ -33,6 +33,9 @@ def build_lead_message(lead: Lead) -> str:
         f"Сообщение: {escape(lead.message) or '—'}",
         f"Страница: {escape(lead.page_url) or '—'}",
     ]
+    if lead.telegram_user_id is not None:
+        profile = f'<a href="tg://user?id={int(lead.telegram_user_id)}">Telegram</a>'
+        rows.insert(3, f"Профиль: {profile}")
     return "\n".join(rows)
 
 

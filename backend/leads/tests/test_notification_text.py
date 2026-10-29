@@ -47,3 +47,19 @@ def test_keyboard_has_three_buttons_with_status_callbacks() -> None:
         "lead:12:won",
         "lead:12:lost",
     ]
+
+
+@pytest.mark.django_db
+def test_telegram_profile_link_is_added_for_bot_leads() -> None:
+    lead = Lead.objects.create(name="Айгерим", contact="+77011234567", telegram_user_id=123456)
+
+    text = build_lead_message(lead)
+
+    assert 'Профиль: <a href="tg://user?id=123456">Telegram</a>' in text
+
+
+@pytest.mark.django_db
+def test_no_profile_link_without_telegram_user_id() -> None:
+    lead = Lead.objects.create(name="Айгерим", contact="+77011234567")
+
+    assert "tg://user" not in build_lead_message(lead)

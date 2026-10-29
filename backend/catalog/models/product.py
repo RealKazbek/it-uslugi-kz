@@ -2,6 +2,7 @@ from django.db import models
 from django.db.models import F, Q
 
 from catalog.models.category import Category
+from catalog.validators import slug_format
 
 
 class Product(models.Model):
@@ -11,7 +12,7 @@ class Product(models.Model):
         LESSON = "lesson", "за урок"
         HOUR = "hour", "за час"
 
-    slug = models.SlugField("slug", max_length=120, unique=True)
+    slug = models.SlugField("slug", max_length=120, unique=True, validators=[slug_format])
     category = models.ForeignKey(
         Category,
         on_delete=models.PROTECT,

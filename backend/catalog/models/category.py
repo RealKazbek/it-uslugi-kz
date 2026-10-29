@@ -1,8 +1,10 @@
 from django.db import models
 
+from catalog.validators import slug_format
+
 
 class Category(models.Model):
-    slug = models.SlugField("slug", max_length=80, unique=True)
+    slug = models.SlugField("slug", max_length=80, unique=True, validators=[slug_format])
     name_ru = models.CharField("название (ru)", max_length=120)
     name_kk = models.CharField("название (kk)", max_length=120)
     name_en = models.CharField("название (en)", max_length=120)
