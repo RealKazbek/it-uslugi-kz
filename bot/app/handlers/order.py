@@ -7,16 +7,23 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery, Message, ReplyKeyboardRemove
 
-from app.formatting.contacts import contacts_block
+from app.formatting.contacts import contacts_block, unavailable_text
 from app.formatting.order import order_summary
 from app.handlers.common import reply_to_callback
 from app.keyboards.order import confirm_keyboard, share_contact_keyboard, skip_keyboard
 from app.services.backend import BackendClient
 from app.services.backend_errors import BackendError
 from app.services.callbacks import parse_action
-from app.services.order_draft import OrderDraft, build_lead_payload
+from app.services.order_draft import CHANNEL_PHONE, CHANNEL_TELEGRAM, OrderDraft, build_lead_payload
 from app.services.session import get_lang, reset_flow
-from app.services.validation import clean_contact, clean_message, clean_name, phone_to_contact
+from app.services.validation import (
+    clean_contact,
+    clean_message,
+    clean_name,
+    is_command_like,
+    phone_to_contact,
+    with_username,
+)
 from app.states import OrderStates
 from app.texts.lookup import Lang, t
 
@@ -47,9 +54,10 @@ async def order_from_product(
         return
     try:
         detail = await backend.get_product(action.value, lang)
-    except BackendError:
+    except BackendError as exc:
         await callback.answer()
-        await reply_to_callback(callback, t(lang, "product.not_found"))
+        text = t(lang, "product.not_found") if exc.status_code == 404 else unavailable_text(lang)
+        await reply_to_callback(callback, text)
         return
     await _begin(callback, state, slug=detail["slug"], title=detail["title"])
 
@@ -65,12 +73,21 @@ async def _begin(
     await reply_to_callback(callback, t(lang, "order.name_prompt"))
 
 
+def _reject_reason(message: Message, lang: Lang, invalid_key: str) -> str:
+    """Pick the reason shown for a rejected reply: non-text, a command, or a bad value."""
+    if message.text is None:
+        return t(lang, "order.text_only")
+    if is_command_like(message.text):
+        return t(lang, "order.command_like")
+    return t(lang, invalid_key)
+
+
 @router.message(OrderStates.name)
 async def got_name(message: Message, state: FSMContext) -> None:
     lang = await get_lang(state)
     name = clean_name(message.text)
     if name is None:
-        await message.answer(t(lang, "order.name_invalid"))
+        await message.answer(_reject_reason(message, lang, "order.name_invalid"))
         return
     await state.update_data(name=name)
     await state.set_state(OrderStates.contact)
@@ -78,20 +95,23 @@ async def got_name(message: Message, state: FSMContext) -> None:
     await message.answer(prompt, reply_markup=share_contact_keyboard(lang))
 
 
-def _contact_from_message(message: Message) -> str | None:
+def _contact_and_channel(message: Message) -> tuple[str | None, str]:
+    """A shared phone is stored as a phone; typed text is a handle or number to reply to."""
     if message.contact is not None:
-        return clean_contact(phone_to_contact(message.contact.phone_number))
-    return clean_contact(message.text)
+        phone = phone_to_contact(message.contact.phone_number)
+        return clean_contact(phone), CHANNEL_PHONE
+    return clean_contact(message.text), CHANNEL_TELEGRAM
 
 
 @router.message(OrderStates.contact)
 async def got_contact(message: Message, state: FSMContext) -> None:
     lang = await get_lang(state)
-    contact = _contact_from_message(message)
+    contact, channel = _contact_and_channel(message)
     if contact is None:
-        await message.answer(t(lang, "order.contact_invalid"))
+        await message.answer(_reject_reason(message, lang, "order.contact_invalid"))
         return
-    await state.update_data(contact=contact)
+    username = message.from_user.username if message.from_user else None
+    await state.update_data(contact=with_username(contact, username), channel=channel)
     await state.set_state(OrderStates.message)
     prompt = t(lang, "order.message_prompt", skip=t(lang, "order.skip_button"))
     await message.answer(prompt, reply_markup=skip_keyboard(lang))
@@ -102,7 +122,7 @@ async def got_message(message: Message, state: FSMContext) -> None:
     lang = await get_lang(state)
     value = _message_value(message.text, lang)
     if value is None:
-        await message.answer(t(lang, "order.message_invalid"))
+        await message.answer(_reject_reason(message, lang, "order.message_invalid"))
         return
     await state.update_data(message=value)
     await state.set_state(OrderStates.confirm)

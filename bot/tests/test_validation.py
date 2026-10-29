@@ -5,6 +5,7 @@ from app.services.validation import (
     clean_message,
     clean_name,
     phone_to_contact,
+    with_username,
 )
 
 
@@ -40,3 +41,20 @@ def test_clean_message_allows_empty_and_rejects_long() -> None:
 def test_phone_to_contact_adds_plus() -> None:
     assert phone_to_contact("77066620060") == "+77066620060"
     assert phone_to_contact("+7 706 662 00 60") == "+77066620060"
+
+
+@pytest.mark.parametrize("raw", ["/start", "  /cancel", "/leads now"])
+def test_command_like_text_is_rejected_for_name_contact_and_message(raw: str) -> None:
+    assert clean_name(raw) is None
+    assert clean_contact(raw) is None
+    assert clean_message(raw) is None
+
+
+def test_with_username_appends_when_it_fits() -> None:
+    assert with_username("+77011234567", "ai_ger") == "+77011234567 (@ai_ger)"
+    assert with_username("+77011234567", None) == "+77011234567"
+
+
+def test_with_username_keeps_contact_when_suffix_would_exceed_limit() -> None:
+    contact = "x" * 95
+    assert with_username(contact, "abcdefgh") == contact

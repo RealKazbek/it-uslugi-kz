@@ -14,3 +14,8 @@ _CONTACT_KEYS: Final = (
 
 def contacts_block(lang: Lang) -> str:
     return "\n".join(t(lang, key) for key in _CONTACT_KEYS)
+
+
+def unavailable_text(lang: Lang) -> str:
+    """Friendly 'service unavailable' message with the direct contacts."""
+    return t(lang, "catalog.unavailable", contacts=contacts_block(lang))

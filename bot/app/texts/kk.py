@@ -34,11 +34,15 @@ TEXTS: Final[dict[str, str]] = {
     "order.name_prompt": "Атыңыз кім? (2-ден 80 таңбаға дейін)",
     "order.name_invalid": "Аты 2-ден 80 таңбаға дейін болуы керек. Қайтадан көріңіз.",
     "order.contact_prompt": (
-        "Сізбен қалай байланысуға болады? Телефон немесе Telegram/WhatsApp бүркеншік атыңызды "
+        "Сізбен қалай байланысуға болады? Телефон нөмірін немесе Telegram атауыңызды (username) "
         "жазыңыз (3-тен 100 таңбаға дейін) немесе «{share}» түймесін басыңыз."
     ),
     "order.share_button": "Нөмірмен бөлісу",
     "order.contact_invalid": "Байланыс 3-тен 100 таңбаға дейін болуы керек. Қайтадан көріңіз.",
+    "order.text_only": "Мәтіндік хабарлама жіберіңіз.",
+    "order.command_like": (
+        "Бұл жерде командалар жұмыс істемейді. Мәтін жазыңыз немесе /cancel жіберіңіз."
+    ),
     "order.message_prompt": (
         "Тапсырманы сипаттаңыз (2000 таңбаға дейін) немесе «{skip}» түймесін басыңыз."
     ),
@@ -56,8 +60,10 @@ TEXTS: Final[dict[str, str]] = {
     "contacts.title": "Байланыс:",
     "contacts.whatsapp": 'WhatsApp: <a href="https://wa.me/77066620060">+7 706 662 00 60</a>',
     "contacts.telegram": 'Telegram: <a href="https://t.me/RealKazbek">@RealKazbek</a>',
-    "contacts.phone": "Телефон: +77066620060",
+    "contacts.phone": "Телефон: 8 706 662 00 60",
     "contacts.email": "Email: 37765@iitu.edu.kz",
+    "error.short": "Бір нәрсе дұрыс болмады. Кейінірек көріңіз.",
+    "hint.start": "Бастау үшін мәзірді /start командасымен ашыңыз.",
     "error.generic": (
         "Бір нәрсе дұрыс болмады. Кейінірек көріңіз немесе бізге тікелей жазыңыз:\n{contacts}"
     ),

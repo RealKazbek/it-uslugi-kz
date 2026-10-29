@@ -7,6 +7,7 @@ from typing import Any
 from app.services.backend_models import LeadPayload
 
 CHANNEL_TELEGRAM = "telegram"
+CHANNEL_PHONE = "phone"
 
 
 @dataclass(frozen=True)
@@ -16,6 +17,7 @@ class OrderDraft:
     message: str
     product_slug: str | None
     product_title: str | None
+    channel: str = CHANNEL_TELEGRAM
 
     @classmethod
     def from_data(cls, data: Mapping[str, Any]) -> "OrderDraft | None":
@@ -26,12 +28,14 @@ class OrderDraft:
         message = data.get("message")
         slug = data.get("product_slug")
         title = data.get("product_title")
+        channel = data.get("channel")
         return cls(
             name=name,
             contact=contact,
             message=message if isinstance(message, str) else "",
             product_slug=slug if isinstance(slug, str) else None,
             product_title=title if isinstance(title, str) else None,
+            channel=channel if channel == CHANNEL_PHONE else CHANNEL_TELEGRAM,
         )
 
 
@@ -39,7 +43,7 @@ def build_lead_payload(draft: OrderDraft, lang: str, telegram_user_id: int | Non
     return LeadPayload(
         name=draft.name,
         contact=draft.contact,
-        channel=CHANNEL_TELEGRAM,
+        channel=draft.channel,
         product=draft.product_slug,
         message=draft.message,
         page_url="",

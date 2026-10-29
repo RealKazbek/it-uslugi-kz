@@ -41,6 +41,8 @@ TEXTS: Final[dict[str, str]] = {
     ),
     "order.share_button": "Share phone number",
     "order.contact_invalid": "The contact must be 3 to 100 characters. Please try again.",
+    "order.text_only": "Please send a text message.",
+    "order.command_like": "Commands do not work here. Type your text or send /cancel.",
     "order.message_prompt": "Describe the task (up to 2000 characters) or tap “{skip}”.",
     "order.skip_button": "Skip",
     "order.message_invalid": "The message must be at most 2000 characters.",
@@ -56,8 +58,10 @@ TEXTS: Final[dict[str, str]] = {
     "contacts.title": "Contacts:",
     "contacts.whatsapp": 'WhatsApp: <a href="https://wa.me/77066620060">+7 706 662 00 60</a>',
     "contacts.telegram": 'Telegram: <a href="https://t.me/RealKazbek">@RealKazbek</a>',
-    "contacts.phone": "Phone: +77066620060",
+    "contacts.phone": "Phone: +7 706 662 00 60",
     "contacts.email": "Email: 37765@iitu.edu.kz",
+    "error.short": "Something went wrong. Please try again later.",
+    "hint.start": "To begin, open the menu with /start.",
     "error.generic": (
         "Something went wrong. Please try again later or contact us directly:\n{contacts}"
     ),

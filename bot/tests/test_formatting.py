@@ -52,7 +52,7 @@ def test_contacts_block_lists_all_channels() -> None:
     block = contacts_block("ru")
     assert "https://wa.me/77066620060" in block
     assert "https://t.me/RealKazbek" in block
-    assert "+77066620060" in block
+    assert "8 706 662 00 60" in block
     assert "37765@iitu.edu.kz" in block
 
 

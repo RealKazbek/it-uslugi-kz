@@ -140,3 +140,68 @@ async def test_confirm_after_session_loss_is_expired(state: FSMContext, backend:
     await confirm_order(callback, state, backend)
     backend.create_lead.assert_not_awaited()
     assert callback.message.answer.await_args.args[0] == t("ru", "order.expired")
+
+
+async def test_shared_phone_is_stored_as_phone_channel_with_username(
+    state: FSMContext, backend: AsyncMock
+) -> None:
+    backend.create_lead.return_value = 1
+    await order_from_menu(make_callback("menu:order"), state)
+    await got_name(make_message("Айгерим"), state)
+    shared = make_message(phone_number="77011234567", username="ai_ger")
+    await got_contact(shared, state)
+    await got_message(make_message("-"), state)
+    await confirm_order(make_callback("order:confirm"), state, backend)
+    payload = backend.create_lead.await_args.args[0]
+    assert payload["channel"] == "phone"
+    assert payload["contact"] == "+77011234567 (@ai_ger)"
+
+
+async def test_typed_contact_keeps_telegram_channel(state: FSMContext) -> None:
+    await order_from_menu(make_callback("menu:order"), state)
+    await got_name(make_message("Айгерим"), state)
+    await got_contact(make_message("@ai_ger"), state)
+    data = await state.get_data()
+    assert data["channel"] == "telegram"
+
+
+async def test_non_text_at_name_step_gives_text_only_reason(state: FSMContext) -> None:
+    await order_from_menu(make_callback("menu:order"), state)
+    sticker = make_message(None)
+    await got_name(sticker, state)
+    assert sticker.answer.await_args.args[0] == t("ru", "order.text_only")
+
+
+async def test_command_at_message_step_is_rejected_and_reprompted(state: FSMContext) -> None:
+    await order_from_menu(make_callback("menu:order"), state)
+    await got_name(make_message("Айгерим"), state)
+    await got_contact(make_message("+77011234567"), state)
+    command = make_message("/leads")
+    await got_message(command, state)
+    assert command.answer.await_args.args[0] == t("ru", "order.command_like")
+    assert await state.get_state() == OrderStates.message.state
+
+
+async def test_command_at_name_step_is_rejected(state: FSMContext) -> None:
+    await order_from_menu(make_callback("menu:order"), state)
+    command = make_message("/help")
+    await got_name(command, state)
+    assert command.answer.await_args.args[0] == t("ru", "order.command_like")
+    assert await state.get_state() == OrderStates.name.state
+
+
+async def test_product_backend_failure_uses_unavailable_text(
+    state: FSMContext, backend: AsyncMock
+) -> None:
+    backend.get_product.side_effect = BackendError("HTTP 500", 500)
+    callback = make_callback("buy:lending")
+    await order_from_product(callback, state, backend)
+    assert "wa.me/77066620060" in callback.message.answer.await_args.args[0]
+    assert await state.get_state() is None
+
+
+async def test_product_404_uses_not_found_text(state: FSMContext, backend: AsyncMock) -> None:
+    backend.get_product.side_effect = BackendError("HTTP 404", 404)
+    callback = make_callback("buy:missing")
+    await order_from_product(callback, state, backend)
+    assert callback.message.answer.await_args.args[0] == t("ru", "product.not_found")

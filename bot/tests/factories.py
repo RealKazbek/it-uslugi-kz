@@ -11,6 +11,7 @@ from app.services.backend_models import CategoryDict, LeadDict, ProductCardDict,
 ADMIN_CHAT_ID = -1001234567890
 CLIENT_CHAT_ID = 555
 USER_ID = 555
+BOT_ID = 42
 
 
 def make_message(
@@ -18,6 +19,7 @@ def make_message(
     *,
     chat_id: int = CLIENT_CHAT_ID,
     user_id: int = USER_ID,
+    username: str | None = None,
     phone_number: str | None = None,
     html_text: str = "",
     reply_markup: Any = None,
@@ -27,7 +29,8 @@ def make_message(
     message.html_text = html_text
     message.reply_markup = reply_markup
     message.chat = SimpleNamespace(id=chat_id)
-    message.from_user = SimpleNamespace(id=user_id)
+    message.from_user = SimpleNamespace(id=user_id, username=username)
+    message.bot = SimpleNamespace(id=BOT_ID)
     message.contact = (
         SimpleNamespace(phone_number=phone_number) if phone_number is not None else None
     )
@@ -45,7 +48,7 @@ def make_callback(
 ) -> AsyncMock:
     callback = AsyncMock(spec=CallbackQuery)
     callback.data = data
-    callback.from_user = SimpleNamespace(id=user_id)
+    callback.from_user = SimpleNamespace(id=user_id, username=None)
     callback.message = message if message is not None else make_message()
     callback.answer = AsyncMock()
     return callback

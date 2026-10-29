@@ -8,21 +8,17 @@ from aiogram.types import CallbackQuery
 
 from app.config import Settings
 from app.formatting.catalog import product_card_text
-from app.formatting.contacts import contacts_block
+from app.formatting.contacts import unavailable_text
 from app.handlers.common import reply_to_callback
 from app.keyboards.catalog import categories_keyboard, product_card_keyboard, products_keyboard
 from app.services.backend import BackendClient
 from app.services.backend_errors import BackendError
 from app.services.callbacks import parse_action
 from app.services.session import get_lang
-from app.texts.lookup import Lang, t
+from app.texts.lookup import t
 
 logger = logging.getLogger(__name__)
 router = Router(name="catalog")
-
-
-def _unavailable(lang: Lang) -> str:
-    return t(lang, "catalog.unavailable", contacts=contacts_block(lang))
 
 
 @router.callback_query(F.data == "menu:catalog")
@@ -34,7 +30,7 @@ async def show_categories(
     try:
         categories = await backend.list_categories()
     except BackendError:
-        await reply_to_callback(callback, _unavailable(lang))
+        await reply_to_callback(callback, unavailable_text(lang))
         return
     visible = [category for category in categories if category["product_count"] > 0]
     if not visible:
@@ -53,7 +49,7 @@ async def show_products(callback: CallbackQuery, state: FSMContext, backend: Bac
     try:
         products = await backend.list_products(action.value, lang)
     except BackendError:
-        await reply_to_callback(callback, _unavailable(lang))
+        await reply_to_callback(callback, unavailable_text(lang))
         return
     if not products:
         await reply_to_callback(callback, t(lang, "catalog.products_empty"))
@@ -75,7 +71,7 @@ async def show_product(
     try:
         detail = await backend.get_product(action.value, lang)
     except BackendError as exc:
-        text = t(lang, "product.not_found") if exc.status_code == 404 else _unavailable(lang)
+        text = t(lang, "product.not_found") if exc.status_code == 404 else unavailable_text(lang)
         await reply_to_callback(callback, text)
         return
     await reply_to_callback(
