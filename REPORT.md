@@ -10,10 +10,10 @@ RK Dev (uslugi.realkazbek.site) rebuilt from a static generator into a full-stac
 | `docker compose up` | db, backend, frontend, bot all healthy |
 | Seed | 8 categories, 59 products (177 FAQs), 25 cities; ru/kk/en (cities ru/kk) |
 | Pages | 266 sitemap URLs: 72 pages × 3 languages + 25 cities × 2 |
-| Lint / types / tests | `make lint` clean (ruff, mypy strict, eslint, tsc); `make test`: backend 148, bot 160, frontend 115 passed |
+| Lint / types / tests | `make lint` clean (ruff, mypy strict, eslint, tsc); `make test`: backend 149, bot 171, frontend 115 passed |
 | CI (GitHub Actions) | backend, frontend (incl. `next build` + 404 check), bot (incl. image build): green on `main` |
 | Lighthouse (mobile) | 100 / 100 / 100 / 100 on home, product and city pages |
-| End-to-end leads | Site lead #14 → Telegram message 15; bot lead #15 → Telegram message 16 (see [docs/e2e-results.md](docs/e2e-results.md)) |
+| End-to-end leads | Two `make e2e` runs: site leads #14 and #16 → Telegram messages 15 and 17; bot leads #15 and #17 → messages 16 and 18 (see [docs/e2e-results.md](docs/e2e-results.md)) |
 | File size | No source/doc file over 300 lines (fixtures split per product and per city) |
 | Secrets | `git grep` for Telegram token patterns: no matches in tree or history; `.env.example` values empty |
 
@@ -40,7 +40,7 @@ RK Dev (uslugi.realkazbek.site) rebuilt from a static generator into a full-stac
 | M2 API, leads, notifications | 2 | per-worker throttle, Basic auth as password oracle, XFF spoofing, webhook per save, honeypot distinguishable |
 | M3 frontend + SEO | 5 | stale prices after edits, near-duplicate city pages (0.74 → 0.58), 404 not server-rendered, slug-check request amplification, function size limits |
 | M4 bot | 2 | error handler failing on callbacks, double status press, healthcheck not reflecting polling, commands taken as input |
-| M5 end-to-end, docs | see DECISIONS.md | |
+| M5 end-to-end, docs | 2 | e2e checks could match an old lead, unsafe restore command, backup cron hiding failures, USD_RATE not overridable |
 
 ## Known limitations and owner actions
 
@@ -49,4 +49,4 @@ RK Dev (uslugi.realkazbek.site) rebuilt from a static generator into a full-stac
 - Kazakh copy (UI strings and city reasons) was written by agents and needs a native-speaker pass; reasons are editable in admin.
 - A deleted product shows Next's blank 404 (status 404) for up to 60 s; during a backend outage, unknown slugs may return 500.
 - Deploy is documented but not performed: DNS A record, `make init` on the VPS, nginx + certbot (see docs/DEPLOY.md).
-- Test leads #7–#15 exist in the local development database volume only.
+- Test leads #7–#17 exist in the local development database volume only.
