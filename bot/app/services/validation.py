@@ -1,5 +1,6 @@
 """Input validation for the order flow. Each function returns the cleaned value or None."""
 
+import re
 from typing import Final
 
 NAME_MIN: Final = 2
@@ -42,10 +43,15 @@ def phone_to_contact(phone_number: str) -> str:
 
 def with_username(contact: str, username: str | None) -> str:
     """Append ' (@username)' when it fits the contact limit and the handle is not already there."""
-    if not username or f"@{username}".lower() in contact.lower():
+    if not username or _has_handle(contact, username):
         return contact
     candidate = f"{contact} (@{username})"
     return candidate if len(candidate) <= CONTACT_MAX else contact
+
+
+def _has_handle(contact: str, username: str) -> bool:
+    """True when `@username` is a whole handle ('@ai_ger2' does not match 'ai_ger')."""
+    return re.search(rf"@{re.escape(username)}\b", contact, re.IGNORECASE) is not None
 
 
 def _bounded(raw: str | None, low: int, high: int) -> str | None:
