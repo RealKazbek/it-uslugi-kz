@@ -58,3 +58,8 @@ def test_with_username_appends_when_it_fits() -> None:
 def test_with_username_keeps_contact_when_suffix_would_exceed_limit() -> None:
     contact = "x" * 95
     assert with_username(contact, "abcdefgh") == contact
+
+
+def test_with_username_does_not_duplicate_existing_handle() -> None:
+    assert with_username("@ai_ger", "ai_ger") == "@ai_ger"
+    assert with_username("Ai @AI_ger", "ai_ger") == "Ai @AI_ger"

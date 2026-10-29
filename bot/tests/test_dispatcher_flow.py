@@ -1,11 +1,13 @@
 """Drives the real dispatcher (routers, FSM, filters) with a mocked backend and a recorder."""
 
+import datetime as dt
 from unittest.mock import AsyncMock
 
 from aiogram import Bot
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.methods import EditMessageText
+from aiogram.types import Chat, Message, Update, User
 
 from app.config import Settings
 from app.main import build_dispatcher
@@ -129,3 +131,29 @@ async def test_backend_error_on_product_card_shows_contacts(
         bot, callback_update("prod:lending", chat_id=CLIENT, user_id=CLIENT)
     )
     assert "wa.me/77066620060" in sent_texts(session)[-1]
+
+
+async def test_start_hint_uses_fsm_language(settings: Settings, backend: AsyncMock) -> None:
+    session = RecordingSession()
+    bot = _bot(session)
+    dispatcher = build_dispatcher(settings, backend)
+    await dispatcher.feed_update(bot, callback_update("lang:kk", chat_id=CLIENT, user_id=CLIENT))
+    await dispatcher.feed_update(bot, message_update("hello", chat_id=CLIENT, user_id=CLIENT))
+    assert sent_texts(session)[-1] == t("kk", "hint.start")
+
+
+async def test_stray_message_in_group_chat_is_ignored(
+    settings: Settings, backend: AsyncMock
+) -> None:
+    session = RecordingSession()
+    bot = _bot(session)
+    dispatcher = build_dispatcher(settings, backend)
+    group_message = Message(
+        message_id=1,
+        date=dt.datetime(2026, 10, 29, 10, 0, tzinfo=dt.UTC),
+        chat=Chat(id=-100123, type="supergroup"),
+        from_user=User(id=CLIENT, is_bot=False, first_name="Tester"),
+        text="hello",
+    )
+    await dispatcher.feed_update(bot, Update(update_id=1, message=group_message))
+    assert sent_texts(session) == []

@@ -41,8 +41,8 @@ def phone_to_contact(phone_number: str) -> str:
 
 
 def with_username(contact: str, username: str | None) -> str:
-    """Append ' (@username)' when it fits the contact limit; otherwise keep the contact as is."""
-    if not username:
+    """Append ' (@username)' when it fits the contact limit and the handle is not already there."""
+    if not username or f"@{username}".lower() in contact.lower():
         return contact
     candidate = f"{contact} (@{username})"
     return candidate if len(candidate) <= CONTACT_MAX else contact

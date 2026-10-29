@@ -27,6 +27,8 @@ and leaves the file stale. The container healthcheck (defined once, in the Docke
 `python -m app.healthcheck`, which exits 0 while the file is at most 90 seconds old and 1 otherwise.
 So the container is healthy only while Telegram answers and the event loop runs.
 
+Limitation: the check does not detect a `409 Conflict` from a second poller running with the same token. `getMe` still succeeds, so the container stays healthy while the other poller takes updates. Run exactly one bot instance per token.
+
 ## Tests
 
 ```
