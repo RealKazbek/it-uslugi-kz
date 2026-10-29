@@ -22,8 +22,11 @@ def load_fixture(name: str) -> list[dict[str, Any]]:
 
 def load_fixture_dir(name: str) -> list[dict[str, Any]]:
     """One record per file in fixtures/<name>/, read in file-name order."""
+    paths = sorted((FIXTURES_DIR / name).glob("*.json"))
+    if not paths:
+        raise SeedError(f"no fixture files in {name}/")
     records: list[dict[str, Any]] = []
-    for path in sorted((FIXTURES_DIR / name).glob("*.json")):
+    for path in paths:
         with path.open(encoding="utf-8") as handle:
             record: Any = json.load(handle)
         if not isinstance(record, dict):
