@@ -55,7 +55,7 @@
     "Running user tests with real people, if needed: this is a separate stage",
     "Endless redesigns of whole screens after approval: extra rounds are priced separately"
   ],
-  "price_from_kzt": 80000,
+  "price_from_kzt": 130000,
   "unit": "once",
   "days_min": 10,
   "days_max": 25,

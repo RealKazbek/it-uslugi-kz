@@ -261,3 +261,21 @@ Changed in this pass:
 | `amocrm-nastroika` | 60 000 | 130 000 |
 | `bitrix24-nastroika` | 70 000 | 260 000 |
 | `logotip` | 25 000 | 50 000 |
+
+### Price evidence, last round (extended search, 2026-10-30)
+- **SEO per month** ([4web.kz](https://4web.kz/services/seo/pricing), [lead.media](https://lead.media/kz/almaty/prodvizhenie-sajtov-v-google/)): from 150 000 ₸ (small services site), 250–280 000 (business site), 450 000 (shop); 50–70 000 offers exist but carry no guarantees.
+- **Ads set-up** ([g-ads.kz](https://g-ads.kz/), [applications.kz](https://applications.kz/nastroyka-yandex-direct/)): Google Ads ~70 000 ₸ one-off; Yandex Direct audit + set-up from 120 000, search + RSY from 150 000.
+- **UI/UX** (studio pages): landing design from 150 000 ₸, multi-page from 300 000; freelance exchanges from ~18 000 for small tasks.
+- **Mobile apps** ([osn.kz](https://osn.kz/blog/mobile-app-cost-kazakhstan-2025), [hyperlab.kz](https://hyperlab.kz/blog/skolko-stoit-prilozhenie/)): from 500 000 up to 25 M ₸; simple Flutter app ~2.5 M, standard with account and Kaspi ~6 M.
+
+| product | old ₸ | new ₸ |
+|---|---|---|
+| `seo-prodvizhenie` | 40 000 | 130 000 |
+| `google-ads-nastroika` | 40 000 | 60 000 |
+| `yandex-direct-nastroika` | 35 000 | 100 000 |
+| `ui-ux-dizain` | 80 000 | 130 000 |
+| `mobilnoe-prilozhenie-ios-android` | 450 000 | 2 100 000 |
+
+Final status of the price criterion: sourced and set ~10–20% under list prices for sites, shops, bots, AI, CRM, CCTV/access control, logo, tutoring, SEO, ads set-up, UI/UX and mobile apps. Still unsourced guesses (no tenge data found after three search rounds): PWA, Telegram Mini Apps, GA4/Metrica, DevOps items, Kaspi Pay/Halyk, 1С/МойСклад sync, 1С and Kaspi API integrations, n8n/Make, banners, presentations, support, maps cards, local SEO, SEO audit. Owner to confirm these.
+
+Blocked, skipped per the rules: `/screenshots` (read-only root filesystem, tried `mkdir` and `ln -s`) and the Kazakh native-speaker pass (needs a human).
