@@ -19,3 +19,14 @@ describe('buildLeadPayload', () => {
     });
   });
 });
+
+describe('buildLeadPayload without a product', () => {
+  it('keeps an empty product slug when no service is chosen', () => {
+    const payload = buildLeadPayload(
+      { name: 'Айгерим', contact: '+7 (707) 123-45-67', channel: 'whatsapp', message: '', website: '' },
+      { product: '', pageUrl: 'https://uslugi.realkazbek.site/contacts', lang: 'ru' },
+    );
+    expect(payload.product).toBe('');
+    expect(payload.contact).toBe('+7 (707) 123-45-67');
+  });
+});

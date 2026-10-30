@@ -27,10 +27,11 @@ export const commonKk: CommonDict = {
   legalHeading: 'Мәртебе және төлем',
   footerContacts: 'Байланыс және жұмыс шарттары',
   breadcrumbHome: 'Басты бет',
-  cta: { whatsapp: 'WhatsApp-қа жазу', telegram: 'Telegram', call: 'Қоңырау шалу', order: 'Тапсырыс беру', details: 'Толығырақ', allProducts: 'Бүкіл каталог' },
+  cta: { whatsapp: 'WhatsApp-қа жазу', telegram: 'Telegram', call: 'Қоңырау шалу', order: 'Тапсырыс беру', details: 'Толығырақ', allProducts: 'Бүкіл каталог', request: 'Өтініш қалдыру' },
   menuOpen: 'Мәзірді ашу',
   menuClose: 'Мәзірді жабу',
   floatingWa: 'WhatsApp-қа жазу',
+  speedDial: { open: 'Байланысу', close: 'Жабу', whatsapp: 'WhatsApp', telegram: 'Telegram', instagram: 'Instagram', tiktok: 'TikTok', call: 'Қоңырау шалу', email: 'Email-ге жазу' },
   timeline: 'Мерзімі',
   social: 'Байланыс',
 };

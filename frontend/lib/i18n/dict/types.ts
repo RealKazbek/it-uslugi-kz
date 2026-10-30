@@ -35,10 +35,11 @@ export interface CommonDict {
   legalHeading: string;
   breadcrumbHome: string;
   /** Button labels; every CTA also carries an icon. */
-  cta: { whatsapp: string; telegram: string; call: string; order: string; details: string; allProducts: string };
+  cta: { whatsapp: string; telegram: string; call: string; order: string; details: string; allProducts: string; request: string };
   menuOpen: string;
   menuClose: string;
   floatingWa: string;
+  speedDial: { open: string; close: string; whatsapp: string; telegram: string; instagram: string; tiktok: string; call: string; email: string };
   timeline: string;
   social: string;
 }
@@ -128,9 +129,10 @@ export interface ProductDict {
 }
 
 export interface LeadDict {
-  labels: { name: string; contact: string; channel: string; message: string };
+  labels: { name: string; contact: string; channel: string; message: string; service: string };
   channels: Record<Channel, string>;
   placeholders: { name: string; contact: string; message: string };
+  notSelected: string;
   submit: string;
   sending: string;
   success: string;
@@ -138,6 +140,10 @@ export interface LeadDict {
   throttled: string;
   invalid: string;
   errors: { name: string; contact: string; message: string; channel: string };
+  modalTitle: string;
+  modalSubtitle: string;
+  close: string;
+  done: string;
 }
 
 /** City name forms: `loc` ("в Алматы" / "Алматыда"), `gen` (ru genitive), `attr` (kk "Алматыдағы"). */

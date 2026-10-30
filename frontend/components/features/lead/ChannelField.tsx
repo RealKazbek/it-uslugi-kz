@@ -1,22 +1,32 @@
-import { FieldShell, INPUT_CLASS } from './FieldShell';
-import { CHANNELS } from '@/types/lead';
+import { FORM_CHANNELS, type Channel } from '@/types/lead';
 
 interface ChannelFieldProps {
-  id: string;
   label: string;
-  channelNames: Record<(typeof CHANNELS)[number], string>;
+  channelNames: Record<Channel, string>;
 }
 
-export function ChannelField({ id, label, channelNames }: ChannelFieldProps) {
+const OPTION_CLASS =
+  'flex min-h-11 flex-1 cursor-pointer items-center justify-center rounded-lg border border-line bg-surface-100 px-3 text-base font-semibold text-ink hover:bg-surface-200 peer-checked:border-brand peer-checked:bg-brand-soft peer-focus-visible:ring-2 peer-focus-visible:ring-ring';
+
+/** Segmented radio group for the reply channel. WhatsApp is pre-selected. */
+export function ChannelField({ label, channelNames }: ChannelFieldProps) {
   return (
-    <FieldShell id={id} label={label}>
-      <select id={id} name="channel" defaultValue="whatsapp" className={INPUT_CLASS}>
-        {CHANNELS.map((channel) => (
-          <option key={channel} value={channel}>
-            {channelNames[channel]}
-          </option>
+    <fieldset className="min-w-0">
+      <legend className="block text-sm font-semibold">{label}</legend>
+      <div className="mt-1.5 flex gap-2">
+        {FORM_CHANNELS.map((channel) => (
+          <label key={channel} className="flex flex-1">
+            <input
+              type="radio"
+              name="channel"
+              value={channel}
+              defaultChecked={channel === 'whatsapp'}
+              className="peer sr-only"
+            />
+            <span className={OPTION_CLASS}>{channelNames[channel]}</span>
+          </label>
         ))}
-      </select>
-    </FieldShell>
+      </div>
+    </fieldset>
   );
 }
