@@ -1,5 +1,6 @@
-import { Phone } from 'lucide-react';
+import { ClipboardList, Phone } from 'lucide-react';
 import { SiTelegram, SiWhatsapp } from 'react-icons/si';
+import { OpenLeadButton } from '@/components/features/lead/OpenLeadButton';
 import { ButtonLink } from '@/components/ui/Button';
 import { callLink, telegramLink, whatsappProductLink } from '@/lib/format/links';
 import { getDict } from '@/lib/i18n/dict';
@@ -11,10 +12,12 @@ interface ProductCtasProps {
   absoluteUrl: string;
   /** Include the phone button (order card yes, bottom CTA block optional). */
   withCall?: boolean;
+  /** Product slug preselected in the lead modal. */
+  product?: string;
 }
 
 /** WhatsApp is the primary CTA; the message carries the product name and the absolute page URL. */
-export function ProductCtas({ lang, title, absoluteUrl, withCall = true }: ProductCtasProps) {
+export function ProductCtas({ lang, title, absoluteUrl, withCall = true, product }: ProductCtasProps) {
   const cta = getDict(lang).common.cta;
   return (
     <div className="flex flex-col gap-2.5">
@@ -34,6 +37,10 @@ export function ProductCtas({ lang, title, absoluteUrl, withCall = true }: Produ
           </ButtonLink>
         )}
       </div>
+      <OpenLeadButton product={product} variant="outline" size="lg" className="w-full">
+        <ClipboardList aria-hidden="true" className="size-5" />
+        {cta.request}
+      </OpenLeadButton>
     </div>
   );
 }

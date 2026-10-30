@@ -15,6 +15,7 @@ export interface ProductLeadProps {
   cta: { heading: string; text: string };
   form: { heading: string; text: string };
   labels: LeadDict;
+  /** Products for the form's service select; empty hides it. */
 }
 
 /** Bottom of the page: messenger CTA next to the lead form for people who prefer a form. */
@@ -27,7 +28,7 @@ export function ProductLeadSection({ lang, title, absoluteUrl, product, cta, for
             <div className="space-y-4">
               <h2 className="text-h3">{cta.heading}</h2>
               <p className="text-muted-foreground">{cta.text}</p>
-              <ProductCtas lang={lang} title={title} absoluteUrl={absoluteUrl} />
+              <ProductCtas lang={lang} title={title} absoluteUrl={absoluteUrl} product={product} />
             </div>
             <div className="space-y-4">
               <h2 id="lead-title" className="text-h3">{form.heading}</h2>

@@ -66,14 +66,13 @@ export default async function HomePage({ params }: PageProps) {
   const stats = [
     { value: catalog.cards.length, label: h.stats.products },
     { value: categories.length, label: h.stats.categories },
-    { value: LANGS.length, label: h.stats.languages },
     { value: cities.length, label: h.stats.cities },
   ].filter((item) => item.value > 0);
 
   return (
     <>
       <JsonLd data={[professionalServiceLd(config.siteUrl), faqPageLd(faq)]} />
-      <Hero lang={lang} stats={{ products: catalog.cards.length, categories: categories.length, languages: LANGS.length, cities: cities.length }} />
+      <Hero lang={lang} stats={{ products: catalog.cards.length, categories: categories.length, cities: cities.length }} />
       <PopularSection
         title={h.popularHeading}
         lead={h.popularLead}

@@ -26,7 +26,7 @@ interface CatalogToolbarProps {
 export function CatalogToolbar(props: CatalogToolbarProps) {
   const { labels } = props;
   return (
-    <div className="sticky top-16 z-20 lg:static -mx-4 space-y-3 border-b border-border bg-background px-4 py-3 sm:mx-0 sm:rounded-xl sm:border sm:px-4">
+    <div className="sticky top-16 min-[900px]:top-20 z-20 lg:static -mx-4 space-y-3 border-b border-border bg-background px-4 py-3 sm:mx-0 sm:rounded-xl sm:border sm:px-4">
       <div className="flex flex-col gap-3 sm:flex-row">
         <CatalogSearch label={labels.searchLabel} placeholder={labels.searchPlaceholder} value={props.query} onChange={props.onQuery} />
         <CatalogSort label={labels.sortLabel} options={labels.sorts} value={props.sort} onChange={props.onSort} />

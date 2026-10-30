@@ -8,7 +8,7 @@ import { cn } from '@/lib/ui/cn';
  * Sizes: sm, default, lg, icon. Every size keeps a 44px touch target except `sm` (40px, use in dense UI only).
  */
 export const buttonVariants = cva(
-  'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg font-semibold no-underline transition-colors duration-base ease-out disabled:pointer-events-none disabled:opacity-60 [&_svg]:size-5 [&_svg]:shrink-0',
+  'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg font-semibold no-underline transition-[color,background-color,transform] duration-base ease-out active:scale-[0.97] motion-reduce:transform-none motion-reduce:transition-none disabled:pointer-events-none disabled:opacity-60 [&_svg]:size-5 [&_svg]:shrink-0',
   {
     variants: {
       variant: {

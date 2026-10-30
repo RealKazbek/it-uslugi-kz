@@ -73,6 +73,7 @@
 @layer base {
   html {
     -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
   }
   body {
     font-size: 1rem;
@@ -133,5 +134,38 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* Hero entrance: CSS only, so the text is in the server HTML and visible without JS. Reduced motion is handled by the global rule above. */
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+.hero-rise {
+  animation: hero-rise 400ms var(--ease-out) both;
+  animation-delay: calc(var(--i, 0) * 60ms);
+}
+
+/* Lead success check mark: the circle and tick are drawn in turn. Static under reduced motion. */
+.check-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation: check-draw 600ms var(--ease-out) both;
+}
+.check-draw-late {
+  animation-delay: 300ms;
+}
+@keyframes check-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .check-draw {
+    animation: none;
   }
 }

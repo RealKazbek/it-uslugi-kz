@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { SiTelegram, SiWhatsapp } from 'react-icons/si';
 import { LeadForm } from '@/components/features/lead/LeadForm';
+import { OpenLeadButton } from '@/components/features/lead/OpenLeadButton';
 import { ContactList, type ContactItem } from '@/components/features/contacts/ContactList';
 import { HowBlock } from '@/components/features/contacts/HowBlock';
 import { PersonBlock } from '@/components/features/contacts/PersonBlock';
@@ -73,6 +74,7 @@ export default async function ContactsPage({ params }: PageProps) {
             <SiTelegram aria-hidden="true" />
             {d.common.tg}
           </ButtonLink>
+          <OpenLeadButton variant="outline">{d.common.cta.request}</OpenLeadButton>
         </div>
       </PageHeader>
       <Section labelledBy="where" className="bg-muted">

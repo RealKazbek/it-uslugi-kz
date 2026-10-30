@@ -6,9 +6,11 @@ import '../globals.css';
 import { MotionProvider } from '@/components/motion/MotionProvider';
 import { Footer } from '@/components/features/layout/Footer';
 import { Header } from '@/components/features/layout/Header';
-import { FloatingWhatsApp } from '@/components/features/layout/FloatingWhatsApp';
+import { ContactSpeedDial } from '@/components/features/layout/ContactSpeedDial';
+import { LeadModalProvider } from '@/components/features/lead/LeadModalProvider';
 import { MobileCtaBar } from '@/components/features/layout/MobileCtaBar';
 import { callLink, telegramLink, whatsappGeneralLink } from '@/lib/format/links';
+import { getProducts } from '@/lib/api/products';
 import { getReviewsSafe } from '@/lib/api/reviews';
 import { getDict } from '@/lib/i18n/dict';
 import { HTML_LANG, LANGS, isLang } from '@/lib/i18n/locales';
@@ -39,6 +41,8 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
   const { lang } = await params;
   if (!isLang(lang)) notFound();
   const d = getDict(lang).common;
+  const lead = getDict(lang).lead;
+  const products = (await getProducts(lang).catch(() => [])).map((p) => ({ slug: p.slug, title: p.title }));
   const hasReviews = (await getReviewsSafe()).results.length > 0;
 
   return (
@@ -48,8 +52,14 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
           {d.skip}
         </a>
         <MotionProvider>
+          <LeadModalProvider
+            lang={lang}
+            products={products}
+            labels={lead}
+            titles={{ title: lead.modalTitle, subtitle: lead.modalSubtitle, close: lead.close }}
+          >
           <Header lang={lang} hasReviews={hasReviews} />
-          <main id="main">{children}</main>
+          <main id="main" className="pt-16 min-[900px]:pt-20">{children}</main>
           <Footer lang={lang} hasReviews={hasReviews} />
           <MobileCtaBar
             whatsappHref={whatsappGeneralLink(lang)}
@@ -57,7 +67,8 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
             callHref={callLink()}
             labels={{ whatsapp: d.wa, telegram: d.tg, call: d.cta.call }}
           />
-          <FloatingWhatsApp href={whatsappGeneralLink(lang)} label={d.floatingWa} />
+          <ContactSpeedDial lang={lang} labels={d.speedDial} />
+          </LeadModalProvider>
         </MotionProvider>
       </body>
     </html>
