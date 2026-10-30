@@ -207,3 +207,26 @@ No market data in tenge could be found by web search (see above), so the 10–20
 Sources: [iprod.kz](https://iprod.kz/razrabotka-sajta-pod-klyuch-chto-vhodit-i-kak-vybrat-studiyu/) (landing/visitka from 150 000 ₸, corporate ~350–406 000, shop from 500 000; below 50 000 usually means a template), [lead.media](https://lead.media/kz/almaty/sozdanie-sajtov/tseny/) (landing from 320–400 000 ₸ by city, corporate 720–905 000, shop 1.2–1.5 M), [eldarcci.studio](https://eldarcci.studio/blog/tpost/ymx988p0m1-skolko-stoit-sait-pod-klyuch-v-kazahstan). These are studio list prices (advertising pages).
 - The four new website products were re-priced to about 15% under the lower studio figures: catalog site 250 000, multilingual 300 000, WordPress 200 000 ₸; the Tilda site (90 000 ₸) has no direct source and stays a guess.
 - **Existing products are far below this range** (landing 45 000, visitka 35 000, corporate 120 000, shop 180 000 ₸), i.e. 70–90% under studio prices, not 10–20%. They were not changed because they were priced before this task; the owner should decide whether to raise them. Prices for the other categories (bots, CRM, SEO, DevOps, CCTV, design, tutoring) still have no source and remain guesses.
+
+### Existing site and shop products re-priced (evidence-based part only)
+The goal says prices should sit ~10–20% under the KZ market, so the existing site/shop products were raised using the studio list prices above (landing/visitka floor 150 000 ₸ × ~0.87, corporate 350 000 × ~0.85, shop 500 000 × ~0.85; industry sites sold as landing-class). These are the only prices with a source; everything else stays a guess. The owner may prefer the old low prices as a freelance positioning: revert by `git revert` of this commit.
+
+| product | old ₸ | new ₸ |
+|---|---|---|
+| `lending` | 45 000 | 130 000 |
+| `sait-vizitka` | 35 000 | 130 000 |
+| `korporativnyi-sait` | 120 000 | 300 000 |
+| `internet-magazin` | 180 000 | 420 000 |
+| `internet-magazin-odezhdy` | 170 000 | 400 000 |
+| `internet-magazin-cvetov` | 150 000 | 380 000 |
+| `magazin-s-kaspi-xml` | 220 000 | 450 000 |
+| `sait-dlya-kafe` | 50 000 | 130 000 |
+| `sait-dlya-salona-krasoty` | 50 000 | 130 000 |
+| `sait-dlya-stomatologii` | 60 000 | 150 000 |
+| `sait-dlya-stroitelnoi-kompanii` | 70 000 | 150 000 |
+| `sait-dlya-uchebnogo-centra` | 55 000 | 140 000 |
+| `sait-dlya-avtoservisa` | 45 000 | 130 000 |
+| `sait-dlya-fitnes-kluba` | 55 000 | 140 000 |
+| `sait-dlya-toi-zala` | 50 000 | 130 000 |
+| `sait-dlya-yurista` | 40 000 | 130 000 |
+| `sait-dlya-agentstva-nedvizhimosti` | 80 000 | 160 000 |

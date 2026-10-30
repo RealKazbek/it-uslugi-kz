@@ -55,7 +55,7 @@
     "Online card payment, which can be added separately through a provider API by agreement",
     "Returns and exchange handling, as the rules and process stay on your side"
   ],
-  "price_from_kzt": 170000,
+  "price_from_kzt": 400000,
   "unit": "once",
   "days_min": 15,
   "days_max": 30,

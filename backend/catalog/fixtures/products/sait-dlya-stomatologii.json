@@ -55,7 +55,7 @@
     "Integration with the clinic's medical information system",
     "Paid online-booking services, if you want one, are billed separately"
   ],
-  "price_from_kzt": 60000,
+  "price_from_kzt": 150000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,

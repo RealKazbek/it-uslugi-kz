@@ -55,7 +55,7 @@
     "Paid booking platforms (such as YCLIENTS) are billed separately",
     "Taking deposits on the site, possible by agreement as a separate stage"
   ],
-  "price_from_kzt": 50000,
+  "price_from_kzt": 130000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,
