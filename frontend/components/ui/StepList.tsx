@@ -5,9 +5,9 @@ export function StepList({ steps }: { steps: Step[] }) {
   return (
     <ol className="space-y-4">
       {steps.map((step) => (
-        <li key={step.t} className="border-l-2 border-line pl-4">
+        <li key={step.t} className="border-l-2 border-border pl-4">
           <p className="font-bold">{step.t}</p>
-          <p className="text-muted">{step.d}</p>
+          <p className="text-muted-foreground">{step.d}</p>
         </li>
       ))}
     </ol>

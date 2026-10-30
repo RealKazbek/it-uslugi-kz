@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { Onest } from 'next/font/google';
 import type { ReactNode } from 'react';
 import '../globals.css';
 import { Footer } from '@/components/features/layout/Footer';
@@ -7,6 +8,13 @@ import { Header } from '@/components/features/layout/Header';
 import { MobileCtaBar } from '@/components/features/layout/MobileCtaBar';
 import { getDict } from '@/lib/i18n/dict';
 import { HTML_LANG, LANGS, isLang } from '@/lib/i18n/locales';
+
+/** Onest: Latin + Cyrillic + cyrillic-ext (Kazakh ә ғ қ ң ө ұ ү һ і). */
+const fontSans = Onest({
+  subsets: ['latin', 'cyrillic', 'cyrillic-ext'],
+  display: 'swap',
+  variable: '--font-sans',
+});
 
 export const metadata: Metadata = {
   icons: { icon: '/favicon.svg' },
@@ -28,8 +36,8 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
   const skip = getDict(lang).common.skip;
 
   return (
-    <html lang={HTML_LANG[lang]}>
-      <body>
+    <html lang={HTML_LANG[lang]} className={fontSans.variable}>
+      <body className="bg-background font-sans text-foreground antialiased">
         <a href="#main" className="skip-link">
           {skip}
         </a>

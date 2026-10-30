@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 
-export const INPUT_CLASS = 'mt-1 min-h-11 w-full rounded-lg border border-line bg-paper px-3 text-ink';
+export const INPUT_CLASS = 'mt-1 min-h-11 w-full rounded-lg border border-border bg-background px-3 text-foreground';
 
 interface FieldShellProps {
   id: string;
@@ -18,7 +18,7 @@ export function FieldShell({ id, label, error, children }: FieldShellProps) {
       </label>
       {children}
       {error && (
-        <p id={`${id}-error`} className="mt-1 text-sm text-ink">
+        <p id={`${id}-error`} className="mt-1 text-sm text-foreground">
           {error}
         </p>
       )}

@@ -6,11 +6,11 @@ export interface FaqItem {
 /** Native disclosure list: works without JavaScript. */
 export function FaqList({ items }: { items: FaqItem[] }) {
   return (
-    <div className="divide-y divide-line border-y border-line">
+    <div className="divide-y divide-border border-y border-border">
       {items.map((item) => (
         <details key={item.q} className="group py-4">
           <summary className="cursor-pointer list-none font-semibold">{item.q}</summary>
-          <p className="mt-2 max-w-prose text-muted">{item.a}</p>
+          <p className="mt-2 max-w-prose text-muted-foreground">{item.a}</p>
         </details>
       ))}
     </div>

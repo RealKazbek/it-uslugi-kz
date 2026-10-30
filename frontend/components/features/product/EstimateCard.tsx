@@ -12,7 +12,7 @@ export interface EstimateCardProps {
 /** Receipt-style estimate: included items with dotted leaders, the total line, then the timeline. */
 export function EstimateCard({ title, items, totalLabel, totalText, timelineText, footer }: EstimateCardProps) {
   return (
-    <section aria-labelledby="estimate-title" className="border-y-2 border-dashed border-line py-5">
+    <section aria-labelledby="estimate-title" className="border-y-2 border-dashed border-border py-5">
       <h2 id="estimate-title" className="text-xl">
         {title}
       </h2>
@@ -23,11 +23,11 @@ export function EstimateCard({ title, items, totalLabel, totalText, timelineText
           </li>
         ))}
       </ul>
-      <div className="receipt-row mt-5 border-t border-line pt-4 text-lg font-bold">
+      <div className="receipt-row mt-5 border-t border-border pt-4 text-lg font-bold">
         <span>{totalLabel}</span>
         <span className="tabular-nums">{totalText}</span>
       </div>
-      <p className="mt-2 text-muted">{timelineText}</p>
+      <p className="mt-2 text-muted-foreground">{timelineText}</p>
       {footer}
     </section>
   );

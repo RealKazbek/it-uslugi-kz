@@ -11,11 +11,11 @@ export function Footer({ lang }: { lang: Lang }) {
   const phone = lang === 'en' ? contacts.phoneDisplayIntl : contacts.phoneDisplay;
 
   return (
-    <footer className="mt-16 border-t border-line pb-24 md:pb-10">
+    <footer className="mt-16 border-t border-border pb-24 md:pb-10">
       <Container className="grid gap-8 py-10 md:grid-cols-2">
         <div>
           <p className="font-bold">{contacts.brand}</p>
-          <p className="text-muted">{d.footerTagline}</p>
+          <p className="text-muted-foreground">{d.footerTagline}</p>
         </div>
         <ul className="space-y-1">
           <li>
@@ -31,8 +31,8 @@ export function Footer({ lang }: { lang: Lang }) {
             <a href={`mailto:${contacts.email}`}>{contacts.email}</a>
           </li>
         </ul>
-        <div className="space-y-2 text-sm text-muted md:col-span-2">
-          <Link href={localePath(lang, '/contacts')} className="font-semibold text-ink">
+        <div className="space-y-2 text-sm text-muted-foreground md:col-span-2">
+          <Link href={localePath(lang, '/contacts')} className="font-semibold text-foreground">
             {d.footerContacts}
           </Link>
         </div>

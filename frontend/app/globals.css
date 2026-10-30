@@ -2,43 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Colour tokens: light by default, dark when the system asks for it or data-theme="dark". */
+/*
+ * Design tokens: the single source of truth (see DESIGN_NOTES.md).
+ * Colours are space-separated RGB channels so Tailwind can apply alpha (bg-primary/10).
+ * Light theme only.
+ */
 :root {
-  --ink: 20 33 61; /* #14213D deep navy text */
-  --paper: 255 255 255;
-  --mist: 238 242 246;
-  --line: 201 211 222;
-  --tg: 22 112 168; /* #1670A8 Telegram action blue, CTAs only */
-  --tg-text: 255 255 255;
-  --ok: 46 125 91;
-  --muted: 84 98 118;
+  --background: 255 255 255; /* #FFFFFF */
+  --foreground: 17 24 39; /* #111827 */
+  --card: 255 255 255;
+  --card-foreground: 17 24 39;
+  --muted: 245 246 248; /* #F5F6F8 soft surface */
+  --muted-foreground: 91 100 114; /* #5B6472, 5.98:1 on white */
+  --border: 229 231 235; /* #E5E7EB hairlines */
+  --input: 134 142 155; /* #868E9B form-field outline, >= 3:1 */
+  --ring: 217 45 32;
+  --primary: 217 45 32; /* #D92D20 warm red, 4.83:1 with white text */
+  --primary-foreground: 255 255 255;
+  --primary-hover: 180 35 24; /* #B42318 */
+  --secondary: 241 242 244; /* #F1F2F4 */
+  --secondary-foreground: 17 24 39;
+  --accent: 254 241 239; /* #FEF1EF tint of primary */
+  --accent-foreground: 180 35 24;
+  --success: 31 122 77; /* #1F7A4D */
+  --whatsapp: 15 122 65; /* #0F7A41, 5.41:1 with white text */
+  --whatsapp-foreground: 255 255 255;
+  --telegram: 22 112 168; /* #1670A8, 5.36:1 with white text */
+  --telegram-foreground: 255 255 255;
+  --radius: 0.75rem;
+  --shadow-card: 0 1px 2px rgb(17 24 39 / 0.05), 0 1px 3px rgb(17 24 39 / 0.06);
+  --shadow-card-hover: 0 4px 8px rgb(17 24 39 / 0.06), 0 12px 28px rgb(17 24 39 / 0.1);
+  --shadow-pop: 0 8px 24px rgb(17 24 39 / 0.14);
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-slow: 300ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) {
-    --ink: 232 237 243;
-    --paper: 15 26 46;
-    --mist: 23 36 60;
-    --line: 42 58 85;
-    --tg: 77 179 238;
-    --tg-text: 15 26 46;
-    --ok: 111 201 160;
-    --muted: 154 168 188;
-    color-scheme: dark;
-  }
-}
-
-:root[data-theme='dark'] {
-  --ink: 232 237 243;
-  --paper: 15 26 46;
-  --mist: 23 36 60;
-  --line: 42 58 85;
-  --tg: 77 179 238;
-  --tg-text: 15 26 46;
-  --ok: 111 201 160;
-  --muted: 154 168 188;
-  color-scheme: dark;
 }
 
 @layer base {
@@ -46,10 +45,7 @@
     -webkit-text-size-adjust: 100%;
   }
   body {
-    background-color: rgb(var(--paper));
-    color: rgb(var(--ink));
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    font-size: 1.0625rem;
+    font-size: 1rem;
     line-height: 1.6;
   }
   h1,
@@ -58,12 +54,13 @@
     font-weight: 800;
     letter-spacing: -0.02em;
     line-height: 1.2;
+    text-wrap: balance;
   }
   a {
     text-underline-offset: 0.2em;
   }
   :focus-visible {
-    outline: 3px solid rgb(var(--tg));
+    outline: 3px solid rgb(var(--ring));
     outline-offset: 2px;
   }
 }
@@ -80,7 +77,7 @@
     order: 1;
     flex: 1 1 auto;
     min-width: 1.5rem;
-    border-bottom: 1px dotted rgb(var(--muted));
+    border-bottom: 1px dotted rgb(var(--muted-foreground));
     transform: translateY(-0.3em);
   }
   .skip-link {
@@ -88,12 +85,23 @@
     left: 1rem;
     top: -4rem;
     z-index: 60;
-    background: rgb(var(--tg));
-    color: rgb(var(--tg-text));
+    background: rgb(var(--primary));
+    color: rgb(var(--primary-foreground));
     padding: 0.5rem 0.75rem;
-    border-radius: 0.5rem;
+    border-radius: var(--radius);
   }
   .skip-link:focus {
     top: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

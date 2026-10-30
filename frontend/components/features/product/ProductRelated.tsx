@@ -6,7 +6,7 @@ import type { CardView } from '@/lib/catalog/cards';
 export function ProductRelated({ title, cards }: { title: string; cards: CardView[] }) {
   if (cards.length === 0) return null;
   return (
-    <Section labelledBy="related" className="bg-mist">
+    <Section labelledBy="related" className="bg-muted">
       <Container className="space-y-6">
         <h2 id="related" className="text-2xl">
           {title}

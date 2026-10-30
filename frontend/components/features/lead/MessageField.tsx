@@ -18,7 +18,7 @@ export function MessageField({ id, label, placeholder, error }: MessageFieldProp
         placeholder={placeholder}
         aria-invalid={Boolean(error)}
         aria-describedby={describedBy(id, error)}
-        className="mt-1 w-full rounded-lg border border-line bg-paper px-3 py-2 text-ink"
+        className="mt-1 w-full rounded-lg border border-border bg-background px-3 py-2 text-foreground"
       />
     </FieldShell>
   );

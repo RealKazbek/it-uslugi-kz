@@ -13,7 +13,7 @@ interface CategoryChipsProps {
 }
 
 function chipClass(isActive: boolean): string {
-  const state = isActive ? 'border-tg bg-tg text-tgtext' : 'border-line text-ink';
+  const state = isActive ? 'border-primary bg-primary text-primary-foreground' : 'border-border text-foreground';
   return `min-h-11 rounded-full border px-4 text-sm font-semibold ${state}`;
 }
 

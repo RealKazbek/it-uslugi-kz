@@ -37,7 +37,7 @@ interface FeaturedSectionProps {
 
 export function FeaturedSection({ title, allLabel, allHref, cards }: FeaturedSectionProps) {
   return (
-    <Section labelledBy="popular" className="bg-mist">
+    <Section labelledBy="popular" className="bg-muted">
       <Container className="space-y-6">
         <div className="flex flex-wrap items-baseline justify-between gap-4">
           <h2 id="popular" className="text-2xl">{title}</h2>
@@ -98,12 +98,12 @@ export function CitiesSection({ title, lead, cities }: { title: string; lead: st
     <Section labelledBy="cities">
       <Container className="space-y-6">
         <h2 id="cities" className="text-2xl">{title}</h2>
-        <p className="max-w-prose text-muted">{lead}</p>
+        <p className="max-w-prose text-muted-foreground">{lead}</p>
         {cities.length > 0 && (
           <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-3 md:grid-cols-4">
             {cities.map((city) => (
               <li key={city.href}>
-                <Link href={city.href} className="text-ink">{city.name}</Link>
+                <Link href={city.href} className="text-foreground">{city.name}</Link>
               </li>
             ))}
           </ul>
@@ -118,7 +118,7 @@ export function CtaSection({ title, text, label, href }: { title: string; text: 
     <Section labelledBy="cta" className="pb-24 md:pb-14">
       <Container className="space-y-4">
         <h2 id="cta" className="text-2xl">{title}</h2>
-        <p className="max-w-prose text-muted">{text}</p>
+        <p className="max-w-prose text-muted-foreground">{text}</p>
         <ButtonLink href={href}>{label}</ButtonLink>
       </Container>
     </Section>

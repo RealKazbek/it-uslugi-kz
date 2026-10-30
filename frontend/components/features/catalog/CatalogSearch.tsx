@@ -22,7 +22,7 @@ export function CatalogSearch({ label, placeholder, value, onChange }: CatalogSe
         value={value}
         onChange={(event) => onChange(event.target.value)}
         placeholder={placeholder}
-        className="min-h-11 w-full max-w-md rounded-lg border border-line bg-paper px-3 text-ink"
+        className="min-h-11 w-full max-w-md rounded-lg border border-border bg-background px-3 text-foreground"
       />
     </div>
   );

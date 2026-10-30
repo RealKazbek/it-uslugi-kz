@@ -7,9 +7,9 @@ import { telegramLink, whatsappGeneralLink } from '@/lib/format/links';
 export function MobileCtaBar({ lang }: { lang: Lang }) {
   const d = getDict(lang).common;
   return (
-    <aside className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-paper p-3 md:hidden">
+    <aside className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background p-3 md:hidden">
       <div className="mx-auto flex max-w-5xl gap-2">
-        <ButtonLink href={whatsappGeneralLink(lang)} className="flex-1">
+        <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp" className="flex-1">
           {d.mobileBar.whatsapp}
         </ButtonLink>
         <ButtonLink href={telegramLink()} variant="outline" className="flex-1">

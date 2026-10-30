@@ -34,7 +34,7 @@ export function LangSwitcher({ lang, names, switchLabel }: LangSwitcherProps) {
           hrefLang={HTML_LANG[target]}
           lang={HTML_LANG[target]}
           aria-current={target === lang ? 'true' : undefined}
-          className={target === lang ? 'font-bold text-ink no-underline' : 'text-muted'}
+          className={target === lang ? 'font-bold text-foreground no-underline' : 'text-muted-foreground'}
         >
           {names[target]}
         </Link>

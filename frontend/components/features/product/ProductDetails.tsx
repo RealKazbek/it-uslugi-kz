@@ -31,7 +31,7 @@ export function ProductDetails(props: ProductDetailsProps) {
           </div>
           <div className="space-y-2">
             <h2 className="text-xl">{props.notIncludedTitle}</h2>
-            <p className="text-muted">{props.notIncludedLead}</p>
+            <p className="text-muted-foreground">{props.notIncludedLead}</p>
             <ul className="list-disc space-y-1 pl-5">
               {props.notIncluded.map((item) => (
                 <li key={item}>{item}</li>
@@ -45,7 +45,7 @@ export function ProductDetails(props: ProductDetailsProps) {
           totalLabel={estimate.totalLabel}
           totalText={estimate.totalText}
           timelineText={estimate.timelineText}
-          footer={<p className="mt-4 text-sm text-muted">{estimate.priceNote}</p>}
+          footer={<p className="mt-4 text-sm text-muted-foreground">{estimate.priceNote}</p>}
         />
       </Container>
     </Section>

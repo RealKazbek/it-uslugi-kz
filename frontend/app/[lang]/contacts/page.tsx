@@ -63,9 +63,9 @@ export default async function ContactsPage({ params }: PageProps) {
         <Container className="space-y-5">
           <Breadcrumbs label={d.common.menu} items={[{ name: home.name, href: localePath(lang, '/') }, { name: here.name, href: localePath(lang, '/contacts') }]} />
           <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.contacts.h1}</h1>
-          <p className="max-w-prose text-lg text-muted">{d.contacts.lead}</p>
+          <p className="max-w-prose text-lg text-muted-foreground">{d.contacts.lead}</p>
           <div className="flex flex-wrap gap-3">
-            <ButtonLink href={whatsappGeneralLink(lang)}>{d.common.wa}</ButtonLink>
+            <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp">{d.common.wa}</ButtonLink>
             <ButtonLink href={telegramLink()} variant="outline">{d.common.tg}</ButtonLink>
           </div>
         </Container>
@@ -81,7 +81,7 @@ export default async function ContactsPage({ params }: PageProps) {
       <Section labelledBy="form" className="pb-24 md:pb-14">
         <Container className="space-y-5">
           <h2 id="form" className="text-2xl">{d.contacts.formTitle}</h2>
-          <p className="max-w-prose text-muted">{d.contacts.formText}</p>
+          <p className="max-w-prose text-muted-foreground">{d.contacts.formText}</p>
           <LeadForm lang={lang} product="" pageUrl={pageUrl} labels={d.lead} />
         </Container>
       </Section>

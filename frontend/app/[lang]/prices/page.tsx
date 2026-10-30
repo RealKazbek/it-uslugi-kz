@@ -57,7 +57,7 @@ export default async function PricesPage({ params }: PageProps) {
         <Container className="space-y-5">
           <Breadcrumbs label={d.common.menu} items={[{ name: crumbs[0]!.name, href: localePath(lang, '/') }, { name: crumbs[1]!.name, href: localePath(lang, '/prices') }]} />
           <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.prices.h1(data.minText)}</h1>
-          <p className="max-w-prose text-lg text-muted">{d.prices.lead}</p>
+          <p className="max-w-prose text-lg text-muted-foreground">{d.prices.lead}</p>
         </Container>
       </Section>
       <Section>
@@ -74,8 +74,8 @@ export default async function PricesPage({ params }: PageProps) {
       <Section labelledBy="cta" className="pb-24 md:pb-14">
         <Container className="space-y-4">
           <h2 id="cta" className="text-2xl">{d.prices.ctaTitle}</h2>
-          <p className="max-w-prose text-muted">{d.prices.ctaText}</p>
-          <ButtonLink href={whatsappGeneralLink(lang)}>{d.common.wa}</ButtonLink>
+          <p className="max-w-prose text-muted-foreground">{d.prices.ctaText}</p>
+          <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp">{d.common.wa}</ButtonLink>
         </Container>
       </Section>
     </>

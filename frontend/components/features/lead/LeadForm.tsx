@@ -38,7 +38,7 @@ export function LeadForm({ lang, product, pageUrl, labels }: LeadFormProps) {
       <ChannelField id={ids.channel} label={labels.labels.channel} channelNames={labels.channels} />
       <MessageField id={ids.message} label={labels.labels.message} placeholder={labels.placeholders.message} error={errors.message} />
       <Honeypot />
-      <button type="submit" disabled={sending} className="min-h-11 rounded-lg bg-tg px-5 font-semibold text-tgtext disabled:opacity-60">
+      <button type="submit" disabled={sending} className="min-h-11 rounded-lg bg-primary px-5 font-semibold text-primary-foreground disabled:opacity-60">
         {sending ? labels.sending : labels.submit}
       </button>
       <LeadStatus outcome={outcome} text={messageFor(outcome, labels)} />

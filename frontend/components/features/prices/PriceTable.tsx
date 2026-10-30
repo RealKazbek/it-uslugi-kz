@@ -11,7 +11,7 @@ export function PriceTable({ groups, cols }: { groups: PriceGroup[]; cols: strin
           <div className="-mx-4 overflow-x-auto px-4">
             <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
               <thead>
-                <tr className="border-b border-line">
+                <tr className="border-b border-border">
                   {cols.map((col) => (
                     <th key={col} scope="col" className="py-2 pr-4 font-semibold">{col}</th>
                   ))}
@@ -19,9 +19,9 @@ export function PriceTable({ groups, cols }: { groups: PriceGroup[]; cols: strin
               </thead>
               <tbody>
                 {group.rows.map((row) => (
-                  <tr key={row.href} className="border-b border-line align-top">
+                  <tr key={row.href} className="border-b border-border align-top">
                     <th scope="row" className="py-2 pr-4 font-semibold">
-                      <Link href={row.href} className="text-ink">{row.title}</Link>
+                      <Link href={row.href} className="text-foreground">{row.title}</Link>
                     </th>
                     <td className="py-2 pr-4 tabular-nums">{row.price}</td>
                     <td className="py-2 pr-4">{row.format}</td>

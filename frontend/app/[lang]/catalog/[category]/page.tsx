@@ -84,7 +84,7 @@ export default async function CategoryPage({ params }: PageProps) {
       <Section>
         <Container className="space-y-4">
           <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.hubH1(current.name)}</h1>
-          <p className="max-w-prose text-lg text-muted">{current.intro}</p>
+          <p className="max-w-prose text-lg text-muted-foreground">{current.intro}</p>
         </Container>
       </Section>
       <Section labelledBy="list">

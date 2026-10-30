@@ -47,7 +47,7 @@ export default async function PortfolioPage({ params }: PageProps) {
         <Container className="space-y-5">
           <Breadcrumbs label={d.common.menu} items={[{ name: home.name, href: localePath(lang, '/') }, { name: here.name, href: localePath(lang, '/portfolio') }]} />
           <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.portfolio.h1}</h1>
-          <p className="max-w-prose text-lg text-muted">{d.portfolio.lead}</p>
+          <p className="max-w-prose text-lg text-muted-foreground">{d.portfolio.lead}</p>
         </Container>
       </Section>
       <Section>
@@ -60,8 +60,8 @@ export default async function PortfolioPage({ params }: PageProps) {
       <Section labelledBy="cta" className="pb-24 md:pb-14">
         <Container className="space-y-4">
           <h2 id="cta" className="text-2xl">{d.portfolio.ctaTitle}</h2>
-          <p className="max-w-prose text-muted">{d.portfolio.ctaText}</p>
-          <ButtonLink href={whatsappGeneralLink(lang)}>{d.common.wa}</ButtonLink>
+          <p className="max-w-prose text-muted-foreground">{d.portfolio.ctaText}</p>
+          <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp">{d.common.wa}</ButtonLink>
         </Container>
       </Section>
     </>

@@ -11,8 +11,8 @@ export function CityCatalogLinks({ groups }: { groups: CatalogLinkGroup[] }) {
           <ul className="space-y-1 text-sm">
             {group.items.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-ink">{item.title}</Link>{' '}
-                <span className="tabular-nums text-muted">{item.priceText}</span>
+                <Link href={item.href} className="text-foreground">{item.title}</Link>{' '}
+                <span className="tabular-nums text-muted-foreground">{item.priceText}</span>
               </li>
             ))}
           </ul>

@@ -15,7 +15,7 @@ export function CityIntro(props: { menuLabel: string; crumbs: Crumb[]; h1: strin
         <Breadcrumbs label={props.menuLabel} items={props.crumbs} />
         <h1 className="text-[1.9rem] leading-tight md:text-[2.4rem]">{props.h1}</h1>
         <p className="max-w-prose text-lg">{props.intro}</p>
-        <p className="max-w-prose text-muted">{props.remote}</p>
+        <p className="max-w-prose text-muted-foreground">{props.remote}</p>
         <ButtonLink href={props.ctaHref}>{props.ctaLabel}</ButtonLink>
       </Container>
     </Section>
@@ -28,7 +28,7 @@ export function CityFocusSection({ heading, lead, items }: { heading: string; le
       <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
         <div className="space-y-2">
           <h2 id="focus" className="text-2xl">{heading}</h2>
-          <p className="text-muted">{lead}</p>
+          <p className="text-muted-foreground">{lead}</p>
         </div>
         <CityFocus items={items} />
       </Container>

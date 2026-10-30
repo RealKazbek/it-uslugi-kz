@@ -47,7 +47,7 @@ export default async function CatalogPage({ params }: PageProps) {
     <Section>
       <Container className="space-y-6">
         <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.h1}</h1>
-        <p className="max-w-prose text-lg text-muted">{d.lead}</p>
+        <p className="max-w-prose text-lg text-muted-foreground">{d.lead}</p>
         <CatalogBrowser labels={labels} groups={catalog.groups} />
       </Container>
     </Section>

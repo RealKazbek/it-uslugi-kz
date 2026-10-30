@@ -22,14 +22,14 @@ export function ProductLeadSection({ lang, title, absoluteUrl, product, cta, for
       <Section labelledBy="cta-title">
         <Container className="space-y-4">
           <h2 id="cta-title" className="text-2xl">{cta.heading}</h2>
-          <p className="max-w-prose text-muted">{cta.text}</p>
+          <p className="max-w-prose text-muted-foreground">{cta.text}</p>
           <ProductCtas lang={lang} title={title} absoluteUrl={absoluteUrl} />
         </Container>
       </Section>
       <Section labelledBy="lead-title" className="pb-24 md:pb-14">
         <Container className="space-y-5">
           <h2 id="lead-title" className="text-2xl">{form.heading}</h2>
-          <p className="max-w-prose text-muted">{form.text}</p>
+          <p className="max-w-prose text-muted-foreground">{form.text}</p>
           <LeadForm lang={lang} product={product} pageUrl={absoluteUrl} labels={labels} />
         </Container>
       </Section>

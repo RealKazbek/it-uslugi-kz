@@ -14,7 +14,7 @@ export function Monogram({ size = 32, className }: MonogramProps) {
       focusable="false"
       className={className}
     >
-      <rect width="32" height="32" rx="8" style={{ fill: 'rgb(var(--tg))' }} />
+      <rect width="32" height="32" rx="8" className="fill-primary" />
       <text
         x="16"
         y="21.5"
@@ -23,7 +23,7 @@ export function Monogram({ size = 32, className }: MonogramProps) {
         fontSize="14"
         fontWeight="800"
         letterSpacing="-0.5"
-        style={{ fill: 'rgb(var(--tg-text))' }}
+        className="fill-primary-foreground"
       >
         RK
       </text>

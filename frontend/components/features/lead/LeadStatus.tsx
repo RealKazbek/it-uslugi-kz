@@ -5,13 +5,13 @@ export function LeadStatus({ outcome, text }: { outcome: LeadOutcome; text: stri
   if (outcome === 'idle' || outcome === 'sending') return null;
   if (outcome === 'success') {
     return (
-      <p role="status" className="font-semibold text-ok">
+      <p role="status" className="font-semibold text-success">
         {text}
       </p>
     );
   }
   return (
-    <p role="alert" className="text-ink">
+    <p role="alert" className="text-foreground">
       {text}
     </p>
   );

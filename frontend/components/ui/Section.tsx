@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { cn } from '@/lib/ui/cn';
 
 interface SectionProps {
   id?: string;
@@ -7,10 +8,10 @@ interface SectionProps {
   children: ReactNode;
 }
 
-/** Vertical rhythm for a page block. Spacing is set here only, never by child margins. */
-export function Section({ id, labelledBy, className = '', children }: SectionProps) {
+/** Vertical rhythm for a page block (py-12, py-20 from md). Spacing is set here only, never by child margins. */
+export function Section({ id, labelledBy, className, children }: SectionProps) {
   return (
-    <section id={id} aria-labelledby={labelledBy} className={`py-10 md:py-14 ${className}`.trim()}>
+    <section id={id} aria-labelledby={labelledBy} className={cn('py-12 md:py-20', className)}>
       {children}
     </section>
   );

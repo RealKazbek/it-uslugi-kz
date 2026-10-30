@@ -13,7 +13,7 @@ interface PortfolioCardProps {
 /** Honest card: description, stack and links. Screenshot only when the file exists. */
 export function PortfolioCard({ item, lang, hasImage, labels }: PortfolioCardProps) {
   return (
-    <article className="space-y-3 border-t border-line pt-6">
+    <article className="space-y-3 border-t border-border pt-6">
       <h2 className="text-xl">{item.title}</h2>
       {hasImage && (
         <Image
@@ -27,7 +27,7 @@ export function PortfolioCard({ item, lang, hasImage, labels }: PortfolioCardPro
       )}
       <p className="max-w-prose">{item.description[lang]}</p>
       {item.stack.length > 0 && (
-        <p className="text-sm text-muted">
+        <p className="text-sm text-muted-foreground">
           {labels.stack}: {item.stack.join(', ')}
         </p>
       )}

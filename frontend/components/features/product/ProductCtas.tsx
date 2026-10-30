@@ -14,7 +14,7 @@ export function ProductCtas({ lang, title, absoluteUrl }: ProductCtasProps) {
   const d = getDict(lang).common;
   return (
     <div className="flex flex-wrap gap-3">
-      <ButtonLink href={whatsappProductLink(lang, title, absoluteUrl)}>{d.wa}</ButtonLink>
+      <ButtonLink href={whatsappProductLink(lang, title, absoluteUrl)} variant="whatsapp">{d.wa}</ButtonLink>
       <ButtonLink href={telegramLink()} variant="outline">
         {d.tg}
       </ButtonLink>
