@@ -28,6 +28,6 @@ export const reviewsRu: ReviewsDict = {
   },
   gisLabel: 'Отзывы на 2GIS',
   emptyText: 'Отзывов пока нет. Будьте первым: оставьте отзыв ниже.',
-  ratingLabel: (rating) => `Оценка ${rating} из 5`,
+  ratingLabel: 'Оценка {n} из 5',
   all: 'Все отзывы',
 };

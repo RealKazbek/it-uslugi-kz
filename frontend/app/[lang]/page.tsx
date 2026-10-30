@@ -1,3 +1,4 @@
+import { ratingText } from '@/lib/reviews/rating';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/features/home/Hero';
@@ -91,7 +92,7 @@ export default async function HomePage({ params }: PageProps) {
           reviews={reviews.results}
           allLabel={d.reviews.all}
           allHref={localePath(lang, '/reviews')}
-          ratingLabel={d.reviews.ratingLabel}
+          ratingLabel={(rating) => ratingText(d.reviews.ratingLabel, rating)}
         />
       )}
       <PricesSection

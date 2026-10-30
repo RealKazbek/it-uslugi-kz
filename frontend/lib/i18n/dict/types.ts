@@ -213,7 +213,8 @@ export interface ReviewsDict {
   errors: { name: string; company: string; city: string; rating: string; text: string };
   gisLabel: string;
   emptyText: string;
-  ratingLabel: (rating: number) => string;
+  /** Template with an {n} placeholder (see lib/reviews/rating.ts). */
+  ratingLabel: string;
   all: string;
 }
 

@@ -1,3 +1,4 @@
+import { ratingText } from '@/lib/reviews/rating';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ReviewForm } from '@/components/features/reviews/ReviewForm';
@@ -59,7 +60,7 @@ export default async function ReviewsPage({ params }: PageProps) {
       <Section className="pt-0">
         <Container className="space-y-8">
           {data.results.length > 0 ? (
-            <ReviewsList reviews={data.results} ratingLabel={d.reviews.ratingLabel} />
+            <ReviewsList reviews={data.results} ratingLabel={(rating) => ratingText(d.reviews.ratingLabel, rating)} />
           ) : (
             <p className="text-lg text-muted-foreground">{d.reviews.emptyText}</p>
           )}

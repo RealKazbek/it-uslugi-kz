@@ -28,6 +28,6 @@ export const reviewsEn: ReviewsDict = {
   },
   gisLabel: 'Reviews on 2GIS',
   emptyText: 'No reviews yet. Be the first to leave one below.',
-  ratingLabel: (rating) => `Rated ${rating} out of 5`,
+  ratingLabel: 'Rated {n} out of 5',
   all: 'All reviews',
 };

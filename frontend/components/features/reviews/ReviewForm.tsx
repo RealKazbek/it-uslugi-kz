@@ -1,5 +1,6 @@
 'use client';
 
+import { ratingText } from '@/lib/reviews/rating';
 import { Loader2, Send } from 'lucide-react';
 import { useId } from 'react';
 import { FieldShell, INPUT_CLASS, describedBy } from '@/components/features/lead/FieldShell';
@@ -73,7 +74,7 @@ export function ReviewForm({ lang, labels }: ReviewFormProps) {
         idPrefix={ids.rating}
         legend={labels.labels.rating}
         error={errors.rating}
-        ratingLabel={labels.ratingLabel}
+        ratingLabel={(rating) => ratingText(labels.ratingLabel, rating)}
       />
       <FieldShell id={ids.text} label={labels.labels.text} error={errors.text}>
         <textarea

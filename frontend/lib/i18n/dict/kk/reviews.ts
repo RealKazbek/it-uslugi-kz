@@ -28,6 +28,6 @@ export const reviewsKk: ReviewsDict = {
   },
   gisLabel: 'Пікірлер 2GIS-те',
   emptyText: 'Пікірлер әлі жоқ. Алғашқы болыңыз: төменде пікір қалдырыңыз.',
-  ratingLabel: (rating) => `5-тен ${rating} баға`,
+  ratingLabel: '5-тен {n} баға',
   all: 'Барлық пікірлер',
 };
