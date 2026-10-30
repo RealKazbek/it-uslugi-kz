@@ -1,8 +1,8 @@
 from rest_framework.throttling import AnonRateThrottle
 
 
-class LeadBurstThrottle(AnonRateThrottle):
-    """5 public lead submissions per minute per client IP."""
+class LeadHourlyThrottle(AnonRateThrottle):
+    """5 public lead submissions per hour per client IP."""
 
     scope = "leads"
 
