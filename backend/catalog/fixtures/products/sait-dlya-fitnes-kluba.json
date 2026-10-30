@@ -90,7 +90,7 @@
       "question_kk": "Бағаны сайтта көрсету керек пе?",
       "question_en": "Should prices be shown on the site?",
       "answer_ru": "Рекомендуем показывать: люди чаще оставляют заявку, когда понимают порядок цен. Если цены индивидуальны, напишем «от» и условия.",
-      "answer_kk": "Көрсетуді ұсынамын: адамдар баға деңгейін түсінгенде өтінімді жиірек қалдырады. Бағалар жеке болса, «бастап» және шарттарын жазамыз.",
+      "answer_kk": "Көрсетуді ұсынамыз: адамдар баға деңгейін түсінгенде өтінімді жиірек қалдырады. Бағалар жеке болса, «бастап» және шарттарын жазамыз.",
       "answer_en": "We recommend showing them: people tend to enquire more when they know the price range. If pricing is individual, we write \"from\" and the conditions.",
       "sort": 2
     }

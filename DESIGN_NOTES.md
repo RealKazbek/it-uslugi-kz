@@ -192,3 +192,13 @@ Kazakh copy was model-written and needs a native-speaker pass.
 - On-site products: `/city/almaty` lists them, `/city/astana` does not; product pages show "Выезд: Алматы".
 - Screenshots (Playwright, ru): `screenshots/{home,catalog,product}-{375,1280}.png` at the repo root (`/screenshots` at filesystem root is read-only on macOS; folder is git-ignored). Product sample: `/products/ustanovka-videonablyudeniya`.
 - Open items for the owner: review all guessed prices above, native-speaker pass on Kazakh copy, dedicated photos for new categories/products, set `REVIEWS_2GIS_URL` and moderate reviews in the Django admin, decide on `legal.ts`/`person.ts` wording.
+
+### Price check (evidence for "10–20% below market")
+No market data in tenge could be found by web search (see above), so the 10–20% target is **not evidenced**: the new prices follow my estimate of KZ small-studio/freelance ranges (e.g. landing/Tilda site 30–45k vs. typical studio quotes of 50–150k ₸; CRM setup 60–70k; Kaspi API 70k; CCTV install from 45k; tutoring 3.5–5k per lesson). Treat every price as a placeholder until the owner confirms it.
+
+### Review round 2 (2026-10-30)
+- `frontend/scripts/check-products.mjs` renders every product in ru/kk/en and checks for-whom, includes, FAQ count (3–5 from API and rendered), "₸" price and a WhatsApp link prefilled with the product title: 297 pages, all OK.
+- Fixture files are ≤108 lines each (limit 250).
+- Contacts "Кто мы" block, legal text and `person.ts` moved to team voice; the personal portfolio and GitHub contact links were removed. Remaining first-person hits in fixtures are customer-voice quotes («у меня работает», "my kind of case").
+- Type scale: all headings, stats and prices use `text-display|h2|h3|stat`; resting card shadows removed (shadows only on hover, plus popovers/sheets).
+- `/screenshots` literally cannot exist (read-only root on macOS); screenshots are in `screenshots/` in the repo.
