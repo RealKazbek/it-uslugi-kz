@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { CategoryList } from '@/components/features/catalog/CategoryList';
-import { ProductCard } from '@/components/features/catalog/ProductCard';
+import { CategoryBanner } from '@/components/features/catalog/CategoryBanner';
+import { CategoryTiles } from '@/components/features/catalog/CategoryTiles';
+import { GRID_CLASS } from '@/components/features/catalog/gridClass';
+import { ProductCard, cardLabels } from '@/components/features/catalog/ProductCard';
+import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { getCategories } from '@/lib/api/categories';
@@ -68,7 +71,8 @@ export default async function CategoryPage({ params }: PageProps) {
   const catalog = await loadCatalog(lang);
   const current = catalog.categories.find((c) => c.slug === category);
   if (!current || current.productCount === 0) notFound();
-  const d = getDict(lang).catalog;
+  const dict = getDict(lang);
+  const d = dict.catalog;
   const products = await getProducts(lang, category);
   const cards = products.map((p) => cardView(p, lang, config.usdRate));
   const others = catalog.categories.filter((c) => c.slug !== category && c.productCount > 0);
@@ -81,26 +85,33 @@ export default async function CategoryPage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={breadcrumbLd(crumbs)} />
-      <Section>
+      <Section className="py-8 md:py-12">
         <Container className="space-y-4">
-          <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.hubH1(current.name)}</h1>
-          <p className="max-w-prose text-lg text-muted-foreground">{current.intro}</p>
+          <Breadcrumbs
+            label={dict.common.menu}
+            items={[
+              { name: dict.common.breadcrumbHome, href: localePath(lang, '/') },
+              { name: d.h1, href: localePath(lang, '/catalog') },
+              { name: current.name, href: localePath(lang, `/catalog/${category}`) },
+            ]}
+          />
+          <CategoryBanner slug={category} title={d.hubH1(current.name)} intro={current.intro} />
         </Container>
       </Section>
-      <Section labelledBy="list">
+      <Section labelledBy="list" className="pt-0 md:pt-0">
         <Container className="space-y-6">
-          <h2 id="list" className="text-2xl">{d.hubList}</h2>
-          <div className="grid gap-6 md:grid-cols-2">
+          <h2 id="list" className="text-2xl font-bold">{d.hubList}</h2>
+          <div className={GRID_CLASS}>
             {cards.map((card) => (
-              <ProductCard key={card.slug} card={card} />
+              <ProductCard key={card.slug} card={card} labels={cardLabels(dict)} />
             ))}
           </div>
         </Container>
       </Section>
-      <Section labelledBy="others">
+      <Section labelledBy="others" className="pt-0 md:pt-0">
         <Container className="space-y-6">
-          <h2 id="others" className="text-2xl">{d.hubOthers}</h2>
-          <CategoryList
+          <h2 id="others" className="text-2xl font-bold">{d.hubOthers}</h2>
+          <CategoryTiles
             categories={others}
             hrefFor={(slug) => localePath(lang, `/catalog/${slug}`)}
             countLabel={d.countLabel}
