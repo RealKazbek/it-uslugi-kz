@@ -41,21 +41,21 @@
     "Publishing on your own domain"
   ],
   "not_included_ru": [
-    "Тексты и фотографии предоставляете вы (помогу с правкой формулировок)",
+    "Тексты и фотографии предоставляете вы (поможем с правкой формулировок)",
     "Домен и хостинг оплачиваются отдельно",
     "Настройка и ведение рекламных кампаний"
   ],
   "not_included_kk": [
-    "Мәтін мен фотосуретті өзіңіз бересіз (сөздерді түзетуге көмектесемін)",
+    "Мәтін мен фотосуретті өзіңіз бересіз (сөздерді түзетуге көмектесеміз)",
     "Домен мен хостинг бөлек төленеді",
     "Жарнама кампанияларын баптау және жүргізу"
   ],
   "not_included_en": [
-    "Copy and photos come from you (I can help polish the wording)",
+    "Copy and photos come from you (we can help polish the wording)",
     "Domain and hosting are paid separately",
     "Setting up and running ad campaigns"
   ],
-  "price_from_kzt": 45000,
+  "price_from_kzt": 40000,
   "unit": "once",
   "days_min": 3,
   "days_max": 7,
@@ -80,19 +80,55 @@
       "question_ru": "Можно ли подключить рекламу к лендингу?",
       "question_kk": "Лендингке жарнаманы қосуға бола ма?",
       "question_en": "Can I run ads to the landing page?",
-      "answer_ru": "Да, ссылку на страницу можно использовать в любой рекламе. По договорённости добавлю счётчики Яндекс Метрики или Google Analytics, чтобы вы видели, сколько заходов и заявок приходит.",
-      "answer_kk": "Иә, бет сілтемесін кез келген жарнамада қолдануға болады. Келісім бойынша Яндекс Метрика не Google Analytics санауыштарын қосамын, сонда кіру мен өтінім санын көресіз.",
-      "answer_en": "Yes, the page link works in any ad. By agreement I add Yandex Metrica or Google Analytics counters so you can see how many visits and requests come in.",
+      "answer_ru": "Да, ссылку на страницу можно использовать в любой рекламе. По договорённости добавим счётчики Яндекс Метрики или Google Analytics, чтобы вы видели, сколько заходов и заявок приходит.",
+      "answer_kk": "Иә, бет сілтемесін кез келген жарнамада қолдануға болады. Келісім бойынша Яндекс Метрика не Google Analytics санауыштарын қосамыз, сонда кіру мен өтінім санын көресіз.",
+      "answer_en": "Yes, the page link works in any ad. By agreement we add Yandex Metrica or Google Analytics counters so you can see how many visits and requests come in.",
       "sort": 1
     },
     {
       "question_ru": "Как быстро можно поменять текст или цену?",
       "question_kk": "Мәтін мен бағаны қаншалықты тез өзгертуге болады?",
       "question_en": "How quickly can text or prices be changed later?",
-      "answer_ru": "Мелкие правки текста и цен делаю в течение рабочего дня после вашего сообщения. Крупные изменения структуры обсуждаем отдельно.",
-      "answer_kk": "Мәтін мен бағаның шағын өзгерістерін хабарламаңыздан кейін жұмыс күні ішінде жасаймын. Құрылымдағы үлкен өзгерістерді бөлек талқылаймыз.",
+      "answer_ru": "Мелкие правки текста и цен делаем в течение рабочего дня после вашего сообщения. Крупные изменения структуры обсуждаем отдельно.",
+      "answer_kk": "Мәтін мен бағаның шағын өзгерістерін хабарламаңыздан кейін жұмыс күні ішінде жасаймыз. Құрылымдағы үлкен өзгерістерді бөлек талқылаймыз.",
       "answer_en": "Small edits to text and prices are done within a working day of your message. Bigger structural changes are discussed separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли отдельный лендинг на каждую услугу?",
+      "question_kk": "Әр қызметке жеке лендинг керек пе?",
+      "question_en": "Do I need a separate landing page for each service?",
+      "answer_ru": "Лучше делать отдельную страницу на каждую услугу или акцию, потому что оффер и заявка должны совпадать с рекламой. Для нескольких услуг структуру обсудим заранее.",
+      "answer_kk": "Әр қызмет немесе акция үшін жеке бет жасаған дұрыс, себебі ұсыныс пен өтінім жарнамамен сәйкес болуы керек. Бірнеше қызмет болса, құрылымды алдын ала талқылаймыз.",
+      "answer_en": "It is better to make a separate page for each service or promotion, because the offer and the request form must match the ad. For several services we discuss the structure in advance.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как убедиться, что заявки приходят?",
+      "question_kk": "Өтінімдер келіп жатқанын қалай тексеруге болады?",
+      "question_en": "How do I make sure requests come through?",
+      "answer_ru": "Перед запуском отправляем тестовую заявку, и вы проверяете, что она дошла до вас в Telegram или на почту.",
+      "answer_kk": "Іске қосар алдында сынақ өтінімін жібереміз, және ол Telegram-ға немесе поштаға жеткенін өзіңіз тексересіз.",
+      "answer_en": "Before launch we send a test request, and you check that it reached you on Telegram or by email.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли подключить счётчики аналитики?",
+      "question_kk": "Аналитика санағыштарын қосуға бола ма?",
+      "question_en": "Can analytics counters be connected?",
+      "answer_ru": "Да, подключаем их по вашим идентификаторам, если хотите отслеживать посещения. Сам сервис аналитики и его настройки остаются за вами.",
+      "answer_kk": "Иә, егер кіруді бақылағыңыз келсе, оларды сіздің идентификаторлар бойынша қосамыз. Аналитика қызметі және оның баптаулары сізде қалады.",
+      "answer_en": "Yes, we connect them using your identifiers if you want to track visits. The analytics service itself and its settings stay with you.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто владеет страницей и доменом после запуска?",
+      "question_kk": "Іске қосқаннан кейін бетке және доменге кім ие болады?",
+      "question_en": "Who owns the page and domain after launch?",
+      "answer_ru": "Код страницы и доступы передаются вам, а домен остаётся на вашем аккаунте. Страницу на свой сервер без вашего решения не переносим.",
+      "answer_kk": "Беттің коды мен қолжетімділік сізге беріледі, ал домен сіздің аккаунтыңызда қалады. Бетті сіздің шешіміңізсіз өз серверімізге көшірмейміз.",
+      "answer_en": "The page code and access are handed over to you, and the domain stays on your account. We do not move the page to our own server without your decision.",
+      "sort": 6
     }
   ]
 }

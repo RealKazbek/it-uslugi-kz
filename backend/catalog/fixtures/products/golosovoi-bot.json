@@ -1,0 +1,135 @@
+{
+  "slug": "golosovoi-bot",
+  "category": "ai",
+  "title_ru": "Голосовой бот для звонков и голосовых сообщений",
+  "title_kk": "Қоңыраулар мен дауыстық хабарламаларға арналған бот",
+  "title_en": "Voice bot for calls and voice messages",
+  "short_ru": "Бот понимает речь, отвечает голосом на звонки и голосовые сообщения и передаёт сложные случаи оператору. Подходит для записи, консультаций и приёма заявок.",
+  "short_kk": "Сөйлеуді түсініп, қоңырауларға және дауыстық хабарламаларға дауыспен жауап беретін бот. Күрделі жағдайларды операторға береді. Жазылуға, кеңес беруге және өтінім қабылдауға жарайды.",
+  "short_en": "A bot that understands speech, answers calls and voice messages with a voice, and passes hard cases to an operator. Suits bookings, consultations and request intake.",
+  "description_ru": "Мы настраиваем голосового ассистента, который распознаёт речь клиента, понимает вопрос и отвечает синтезированным голосом. Он работает с голосовыми сообщениями в Telegram или WhatsApp и, при подключении телефонии, с входящими звонками. Сложные случаи уходят оператору с расшифровкой разговора. Качество распознавания зависит от шума и качества связи, поэтому тестируем на записях ваших клиентов.",
+  "description_kk": "Біз клиенттің сөзін танитын, сұрақты түсініп, синтезделген дауыспен жауап беретін дауыстық көмекшіні баптаймыз. Ол Telegram немесе WhatsApp-тағы дауыстық хабарламалармен жұмыс істейді, ал телефония қосылған болса, кіріс қоңыраулармен де жұмыс істейді. Күрделі жағдайлар әңгіменің жазбасымен операторға жіберіледі. Тану сапасы шуға және байланыс сапасына байланысты, сондықтан клиенттеріңіздің жазбаларында сынаймыз.",
+  "description_en": "We set up a voice assistant that recognises the customer's speech, understands the question and answers with synthesised voice. It works with voice messages in Telegram or WhatsApp and, when telephony is connected, with incoming calls. Hard cases go to an operator with a transcript of the conversation. Recognition quality depends on noise and line quality, so we test on recordings of your own customers.",
+  "for_whom_ru": "Для клиник, салонов, автосервисов, курьерских служб и школ, где много звонков и голосовых сообщений, а принять всё вручную нельзя. Подойдёт, если клиенты привыкли писать голосом.",
+  "for_whom_kk": "Қоңыраулар мен дауыстық хабарламалар көп, бәрін қолмен қабылдау мүмкін емес клиникаларға, салондарға, автосервистерге, курьерлік қызметтерге және мектептерге арналған. Клиенттеріңіз дауыспен жазуға үйренген болса, жарайды.",
+  "for_whom_en": "For clinics, salons, car services, courier companies and schools with many calls and voice messages that cannot all be handled by hand. It fits if your customers are used to sending voice notes.",
+  "includes_ru": [
+    "Распознавание речи и понимание вопроса клиента",
+    "Ответ синтезированным голосом на голосовые сообщения",
+    "Запись на услугу или приём заявки голосом",
+    "Передача звонка или диалога оператору с расшифровкой",
+    "Подключение к Telegram или WhatsApp, а при необходимости к телефонии",
+    "База знаний: услуги, цены, график и адрес",
+    "Тестирование на записях ваших клиентов и инструкция по запуску"
+  ],
+  "includes_kk": [
+    "Сөйлеуді тану және клиент сұрағын түсіну",
+    "Дауыстық хабарламаларға синтезделген дауыспен жауап беру",
+    "Дауыспен қызметке жазылу немесе өтінімді қабылдау",
+    "Қоңырауды немесе диалогты жазбасымен операторға беру",
+    "Telegram немесе WhatsApp-қа, қажет болса телефонияға қосылу",
+    "Білім қоры: қызметтер, бағалар, кесте және мекенжай",
+    "Клиенттеріңіздің жазбаларында тестілеу және іске қосу нұсқаулығы"
+  ],
+  "includes_en": [
+    "Speech recognition and understanding of the customer's question",
+    "Replies in synthesised voice to voice messages",
+    "Booking a service or taking a request by voice",
+    "Handover of the call or chat to an operator with a transcript",
+    "Connection to Telegram or WhatsApp and, if needed, telephony",
+    "Knowledge base: services, prices, schedule and address",
+    "Testing on recordings of your own customers and a launch guide"
+  ],
+  "not_included_ru": [
+    "Оплата телефонии и сервисов распознавания и синтеза речи: их тарифы зависят от объёма и выбранного провайдера",
+    "Гарантия точности распознавания: шум, плохая связь и редкие слова снижают качество, поэтому сложные случаи передаются оператору",
+    "Запись и хранение разговоров: это нужно согласовать с клиентом и соблюсти требования закона о персональных данных"
+  ],
+  "not_included_kk": [
+    "Телефония мен сөйлеуді тану және синтездеу сервистеріне төлем: олардың тарифтері көлемге және таңдалған провайдерге байланысты",
+    "Тану дәлдігіне кепілдік: шу, нашар байланыс және сирек сөздер сапаны төмендетеді, сондықтан күрделі жағдайлар операторға беріледі",
+    "Қоңыраулар мен жазбаларды сақтау: оны клиентпен бірге келісіп, жеке деректер туралы заң талаптарына сай жасау керек"
+  ],
+  "not_included_en": [
+    "Fees for telephony and speech recognition and synthesis services: their rates depend on volume and the provider you choose",
+    "A guarantee of recognition accuracy: noise, weak connections and rare words lower quality, so hard cases go to an operator",
+    "Recording and storing calls: this must be agreed with the client and meet personal data law requirements"
+  ],
+  "price_from_kzt": 85000,
+  "unit": "once",
+  "days_min": 21,
+  "days_max": 40,
+  "related": [
+    "ai-assistent-telegram",
+    "ai-assistent-whatsapp",
+    "telegram-bot-zapis"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 115,
+  "faqs": [
+    {
+      "question_ru": "Бот поймёт акцент или диалект?",
+      "question_kk": "Бот акцентті немесе диалектті түсіне ме?",
+      "question_en": "Will the bot understand accents or dialects?",
+      "answer_ru": "Распознавание хорошо работает со стандартной речью, но точность ниже при шуме, плохой связи или редких словах. Поэтому мы тестируем бота на записях ваших клиентов до запуска и настраиваем передачу оператору, если бот не уверен.",
+      "answer_kk": "Тану стандартты сөйлеуде жақсы жұмыс істейді, бірақ шу, нашар байланыс немесе сирек сөздерде дәлдік төмендейді. Сондықтан іске қосар алдында ботты сіздің клиенттеріңіздің жазбаларында сынаймыз және бот сенімсіз болса, операторға беруді баптаймыз.",
+      "answer_en": "Recognition works well with standard speech, but accuracy drops with noise, poor connections or rare words. That is why we test the bot on recordings of your customers before launch and set it to pass the call to an operator when unsure.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Нужна ли телефония, чтобы бот отвечал на звонки?",
+      "question_kk": "Бот қоңырауларға жауап беру үшін телефония керек пе?",
+      "question_en": "Is telephony needed for the bot to answer calls?",
+      "answer_ru": "Да, для входящих звонков нужна телефонная линия или сервис виртуальной АТС, который передаёт звонок боту. Без них бот работает только с голосовыми сообщениями в мессенджерах. Оплату линии и сервиса мы в стоимость не включаем.",
+      "answer_kk": "Иә, кіріс қоңыраулар үшін телефон желісі немесе қоңырауды ботқа беретін виртуалды АТС қызметі керек. Олар болмаса, бот тек мессенджерлердегі дауыстық хабарламалармен жұмыс істейді. Желі мен қызметтің төлемі бағаға кірмейді.",
+      "answer_en": "Yes, incoming calls need a phone line or a virtual PBX service that passes the call to the bot. Without them, the bot works only with voice messages in messengers. The line and service fees are not included in the price.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет, если клиент попросит живого человека?",
+      "question_kk": "Клиент тірі адам сұраса не болады?",
+      "question_en": "What happens if the customer asks for a live person?",
+      "answer_ru": "Бот должен сразу передать звонок или диалог оператору и не спорить. Мы настраиваем эту фразу и правила передачи заранее, а оператор получает краткую расшифровку, чтобы не переспрашивать клиента.",
+      "answer_kk": "Бот қоңырауды немесе диалогты бірден операторға беруі керек және таластырмауы керек. Осы сөйлемді және беру ережелерін алдын ала баптаймыз, ал оператор клиенттен қайтадан сұрамауы үшін қысқа жазбаны алады.",
+      "answer_en": "The bot must pass the call or chat to an operator at once and not argue. We set this phrase and the handover rules in advance, and the operator gets a short transcript so they do not have to ask the customer again.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Сколько времени занимает запуск и что после него?",
+      "question_kk": "Іске қосуға қанша уақыт кетеді және одан кейін не болады?",
+      "question_en": "How long does launch take and what comes after?",
+      "answer_ru": "Срок зависит от каналов и количества услуг, ориентир указан в карточке. После запуска мы передаём доступы и инструкцию и показываем, как менять услуги и цены в базе знаний. Новые языки и сценарии оцениваются отдельно.",
+      "answer_kk": "Мерзім арналар мен қызметтер санына байланысты, шамасы карточкада көрсетілген. Іске қосқаннан кейін қолжетімділікті және нұсқаулықты береміз, қызметтер мен бағаларды білім қорында қалай өзгерту керектігін көрсетеміз. Жаңа тілдер мен сценарийлер бөлек бағаланады.",
+      "answer_en": "The timing depends on channels and the number of services; the range is on the card. After launch we hand over access and a guide, and show how to change services and prices in the knowledge base. New languages and scenarios are estimated separately.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли клиенту тестировать бота?",
+      "question_kk": "Клиент ботты тестілеуі керек пе?",
+      "question_en": "Does the client need to test the bot?",
+      "answer_ru": "Да, несколько сессий тестирования на ваших записях, где вы отмечаете ошибки. Это ускоряет точную настройку.",
+      "answer_kk": "Иә, сіздің жазбаларыңызда бірнеше тест сессиясы өтеді, онда қателерді белгілейсіз. Бұл дәл баптауды жеделдетеді.",
+      "answer_en": "Yes, a few testing sessions on your own recordings, where you mark the mistakes. This speeds up the precise tuning.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли изменить голос бота?",
+      "question_kk": "Бот дауысын өзгертуге бола ма?",
+      "question_en": "Can the bot's voice be changed?",
+      "answer_ru": "Да, для синтеза выбираем голос из доступных у провайдера. Смена голоса может повлиять на стоимость сервиса.",
+      "answer_kk": "Иә, синтез үшін провайдерде бар дауыстардың біреуін таңдаймыз. Дауысты ауыстыру қызмет құнына әсер етуі мүмкін.",
+      "answer_en": "Yes, for speech synthesis we pick a voice available from the provider. Changing the voice may affect the service cost.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как бот справляется с шумом на линии?",
+      "question_kk": "Бот желідегі шуды қалай өңдейді?",
+      "question_en": "How does the bot handle line noise?",
+      "answer_ru": "Качество распознавания падает при сильном шуме. Поэтому в тестах смотрим на реальные записи и при необходимости настраиваем порог передачи оператору.",
+      "answer_kk": "Қатты шу болғанда тану сапасы төмендейді. Сондықтан тестте нақты жазбаларға қараймыз және қажет болса операторға беру шегін баптаймыз.",
+      "answer_en": "Recognition quality drops with heavy noise. So in testing we look at real recordings and, if needed, tune the threshold for handing over to an operator.",
+      "sort": 6
+    }
+  ]
+}

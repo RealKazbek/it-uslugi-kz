@@ -1,0 +1,135 @@
+{
+  "slug": "logotip",
+  "category": "design",
+  "title_ru": "Логотип и мини-брендбук",
+  "title_kk": "Логотип және шағын брендбук",
+  "title_en": "Logo and mini brandbook",
+  "short_ru": "Разрабатываем логотип для вашего бизнеса и короткий брендбук с цветами, шрифтами и правилами использования знака.",
+  "short_kk": "Бизнесіңізге логотип және түстері, қаріптері мен белгіні қолдану ережелері бар қысқа брендбук жасаймыз.",
+  "short_en": "We design a logo for your business and a short brandbook with colours, fonts and rules for using the mark.",
+  "description_ru": "Наша команда сначала разбирается в вашем бизнесе, аудитории и конкурентах, затем предлагает несколько направлений логотипа. После выбора доводим знак до финальной версии и собираем мини-брендбук, чтобы любой макет выглядел узнаваемо. Все файлы передаём в форматах для сайта, печати и соцсетей.",
+  "description_kk": "Біздің команда алдымен сіздің бизнесіңізді, аудиториясын және бәсекелестерін зерттейді, содан кейін логотиптің бірнеше бағытын ұсынады. Таңдалғаннан кейін белгіні соңғы нұсқаға дейін жеткіземіз және шағын брендбук жасаймыз, сонда кез келген макет танылатын болады. Барлық файлдарды сайтқа, баспаға және әлеуметтік желілерге арналған форматта береміз.",
+  "description_en": "Our team first studies your business, audience and competitors, then proposes several logo directions. Once one is chosen, we bring the mark to its final version and assemble a mini brandbook, so any layout looks recognisable. All files are delivered in formats for web, print and social media.",
+  "for_whom_ru": "Для новых бизнесов, которым нужен первый узнаваемый знак, и для компаний, которые хотят привести визуал в порядок.",
+  "for_whom_kk": "Танылатын алғашқы белгі керек жаңа бизнестерге және визуалын реттегісі келетін компанияларға арналған.",
+  "for_whom_en": "For new businesses that need a first recognisable mark, and for companies that want to tidy up their visual identity.",
+  "includes_ru": [
+    "Короткий бриф и разбор вашего бизнеса и конкурентов",
+    "Несколько концепций логотипа на выбор",
+    "Доработка выбранной концепции до 2 раундов правок",
+    "Цветовая палитра и подбор шрифтов",
+    "Мини-брендбук: правила использования знака, цвета и шрифтов",
+    "Файлы логотипа в векторе, PNG и вариантах для тёмного и светлого фона",
+    "Передача исходников и файлов для сайта, печати и соцсетей"
+  ],
+  "includes_kk": [
+    "Қысқа бриф және сіздің бизнесіңіз бен бәсекелестеріңізді талдау",
+    "Таңдауға арналған бірнеше логотип тұжырымдамасы",
+    "Таңдалған тұжырымдаманы 2 түзету айналымына дейін жетілдіру",
+    "Түстер палитрасы және қаріптерді таңдау",
+    "Шағын брендбук: белгіні, түстер мен қаріптерді қолдану ережелері",
+    "Логотип файлдары: векторлық, PNG және қараңғы мен ашық фонға арналған нұсқалар",
+    "Көзі файлдарды және сайтқа, баспаға, әлеуметтік желілерге арналған файлдарды беру"
+  ],
+  "includes_en": [
+    "A short brief and an analysis of your business and competitors",
+    "Several logo concepts to choose from",
+    "Refining the chosen concept with up to 2 rounds of edits",
+    "A colour palette and font selection",
+    "A mini brandbook: rules for using the mark, colours and fonts",
+    "Logo files in vector, PNG and versions for dark and light backgrounds",
+    "Handover of source files and files for web, print and social media"
+  ],
+  "not_included_ru": [
+    "Регистрация товарного знака и юридическая проверка названия",
+    "Полноценный фирменный стиль с носителями, например вывесками и униформой: это отдельная работа",
+    "Дополнительные раунды правок сверх двух, если они не связаны с изменением брифа"
+  ],
+  "not_included_kk": [
+    "Тауар белгісін тіркеу және атауды заңдық тексеру",
+    "Вывеска мен униформа сияқты тасымалдағыштары бар толық фирмалық стиль: бұл бөлек жұмыс",
+    "Брифті өзгертпейтін, екі айналымнан артық қосымша түзету"
+  ],
+  "not_included_en": [
+    "Trademark registration and legal checking of the name",
+    "A full corporate identity with applications such as signage and uniforms: this is separate work",
+    "Extra edit rounds beyond two, unless they come from a change to the brief"
+  ],
+  "price_from_kzt": 25000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "ui-ux-dizain",
+    "bannery-dlya-reklamy",
+    "prezentaciya"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 138,
+  "faqs": [
+    {
+      "question_ru": "Какие файлы выдаются в конце?",
+      "question_kk": "Соңында қандай файлдар аламын?",
+      "question_en": "What files will I get at the end?",
+      "answer_ru": "Логотип в векторе (SVG, PDF, AI или EPS), растровые PNG в нескольких размерах, варианты для тёмного и светлого фона и мини-брендбук в PDF. По запросу добавим файлы для favicon и шаблоны для соцсетей.",
+      "answer_kk": "Логотип векторлық түрде (SVG, PDF, AI немесе EPS), бірнеше өлшемдегі растрлық PNG, қараңғы және ашық фонға арналған нұсқалар және PDF түріндегі брендбук. Сұраса, favicon файлдарын және әлеуметтік желілерге арналған шаблондарды қосамыз.",
+      "answer_en": "The logo as vector files (SVG, PDF, AI or EPS), PNG rasters in several sizes, versions for dark and light backgrounds, and the mini brandbook as a PDF. On request we add favicon files and templates for social media.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что нужно от меня для старта?",
+      "question_kk": "Бастау үшін сізден не керек?",
+      "question_en": "What do you need from me to start?",
+      "answer_ru": "Название бизнеса, сфера деятельности, кто ваши клиенты и 2-3 компании, стиль которых вам нравится или не нравится. Чем подробнее бриф, тем быстрее получится точный результат.",
+      "answer_kk": "Бизнес атауы, қызмет саласы, клиенттеріңіз кім және ұнайтын не ұнамайтын 2-3 компания. Брифтің толығы неғұрлым көп болса, нәтиже соғұрлым тез дәл шығады.",
+      "answer_en": "The business name, the field you work in, who your customers are, and 2-3 companies whose style you like or dislike. The more detailed the brief, the faster we reach an accurate result.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли зарегистрировать логотип как товарный знак?",
+      "question_kk": "Логотипті тауар белгісі ретінде тіркеуге бола ма?",
+      "question_en": "Can the logo be registered as a trademark?",
+      "answer_ru": "Мы делаем дизайн, но регистрацию товарного знака не ведём. Перед финальным утверждением рекомендуем проверить, что название и знак не заняты похожими. Эту проверку и регистрацию делает юрист или патентный специалист.",
+      "answer_kk": "Біз дизайн жасаймыз, бірақ тауар белгісін тіркеуді жүргізбейміз. Соңғы бекітер алдында атау мен белгінің ұқсас белгілер арасында жоқ екенін тексеруді ұсынамыз. Бұл тексеру мен тіркеуді заңгер немесе патент маманы жасайды.",
+      "answer_en": "We design the logo but do not handle trademark registration. Before final approval we recommend checking that the name and mark are not taken by similar ones. That check and the registration are done by a lawyer or a patent specialist.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Сколько концепций я увижу?",
+      "question_kk": "Неше концепция көремін?",
+      "question_en": "How many concepts will I see?",
+      "answer_ru": "Несколько концепций на выбор, а направления обсуждаем в начале работы. Важнее выбрать верное направление, а не получить много вариантов.",
+      "answer_kk": "Таңдау үшін бірнеше концепция, ал бағыттарды жұмыстың басында талқылаймыз. Көп нұсқа алудан гөрі дұрыс бағытты таңдау маңыздырақ.",
+      "answer_en": "Several concepts to choose from, and we discuss directions at the start. Choosing the right direction matters more than getting many variants.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли поменять название, если логотип уже готов?",
+      "question_kk": "Логотип дайын болған соң атауды өзгертуге бола ма?",
+      "question_en": "Can the name be changed once the logo is ready?",
+      "answer_ru": "Если название меняется, знак придётся переделывать, поэтому название лучше согласовать до начала работы.",
+      "answer_kk": "Атау өзгерсе, белгіні қайта жасауға тура келеді, сондықтан атауды жұмыс басталғанға дейін келісу жөн.",
+      "answer_en": "If the name changes, the mark has to be redone, so it is better to agree the name before work starts.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто владеет правами на логотип после оплаты?",
+      "question_kk": "Төлемнен кейін логотипке құқық кімде болады?",
+      "question_en": "Who holds the rights to the logo after payment?",
+      "answer_ru": "Исходники и файлы передаём вам. Юридические права на знак, включая регистрацию, оформляются отдельно, и мы их не гарантируем.",
+      "answer_kk": "Бастапқы файлдар мен файлдарды сізге береміз. Белгіге заңды құқықтар, соның ішінде тіркеу, бөлек рәсімделеді, және біз оларға кепілдік бермейміз.",
+      "answer_en": "We hand over the source files and the files themselves. Legal rights to the mark, including registration, are arranged separately, and we do not guarantee them.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли сделать логотип для русского и казахского названия?",
+      "question_kk": "Логотипті орыс және қазақ атауы үшін жасауға бола ма?",
+      "question_en": "Can the logo work for both a Russian and a Kazakh name?",
+      "answer_ru": "Да, двуязычный вариант делаем в одной концепции с учётом шрифтов для кириллицы. Отдельные варианты записываем в брендбук.",
+      "answer_kk": "Иә, екі тілдік нұсқаны бір концепцияда кириллица шрифттерін ескеріп жасаймыз. Жеке нұсқаларды брендбукке жазамыз.",
+      "answer_en": "Yes, we make the bilingual version within one concept, considering Cyrillic fonts. Separate variants are recorded in the brand book.",
+      "sort": 6
+    }
+  ]
+}

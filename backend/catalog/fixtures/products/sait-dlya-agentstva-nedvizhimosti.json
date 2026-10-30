@@ -93,6 +93,42 @@
       "answer_kk": "Жүздеген объект қиындықсыз: суреттер сығылады, беттер жылдам болып қалады. Мыңдаған объект үшін басқа сақтау схемасын талқылаймыз.",
       "answer_en": "Hundreds of listings are fine: photos are compressed and pages stay fast. For thousands we would discuss a different storage setup.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли загрузить базу объектов из таблицы сразу?",
+      "question_kk": "Объектілер базасын кестеден бірден жүктеуге бола ма?",
+      "question_en": "Can we upload the property base from a spreadsheet at once?",
+      "answer_ru": "Массовая загрузка из таблицы не входит в базовую работу: объекты добавляются через панель. Если база большая, обсудим перенос отдельно, объём зависит от количества объектов.",
+      "answer_kk": "Кестеден жаппай жүктеу негізгі жұмысқа кірмейді: объектілер панель арқылы қосылады. Базасы үлкен болса, көшіруді бөлек талқылаймыз, көлемі объектілер санына байланысты.",
+      "answer_en": "Bulk upload from a spreadsheet is not part of the base scope: properties are added through the panel. If your base is large, we will discuss the transfer separately, and the scope depends on the number of properties.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно передать агентству для запуска?",
+      "question_kk": "Іске қосу үшін агенттікке не беру керек?",
+      "question_en": "What does the agency need to hand over for launch?",
+      "answer_ru": "Список агентов с контактами, фирменный стиль, тексты о компании и первые объекты с фото. Дальше каталог агенты наполняют сами через панель.",
+      "answer_kk": "Агенттердің байланыс тізімі, фирмалық стиль, компания туралы мәтіндер және фотосы бар алғашқы объектілер. Одан кейін каталогты агенттер панель арқылы өздері толтырады.",
+      "answer_en": "A list of agents with contacts, your brand style, texts about the company and the first properties with photos. After that, agents fill the catalogue themselves through the panel.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто получает заявку на показ?",
+      "question_kk": "Көрсету өтінімін кім алады?",
+      "question_en": "Who receives a viewing request?",
+      "answer_ru": "Заявка уходит ответственному агенту, указанному в карточке объекта. Так клиент сразу попадает к тому, кто знает объект.",
+      "answer_kk": "Өтінім объект карточкасында көрсетілген жауапты агентке жіберіледі. Осылайша клиент объектіні жақсы білетін адамға бірден жетеді.",
+      "answer_en": "The request goes to the responsible agent listed on the property card, so the client reaches the person who knows the property.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто отвечает за права на фото и описания объектов?",
+      "question_kk": "Объект фотолары мен сипаттамаларының құқығына кім жауап береді?",
+      "question_en": "Who is responsible for the rights to property photos and descriptions?",
+      "answer_ru": "Фото и описания загружают сами агенты, поэтому права на материалы остаются за агентством. Данные собственников мы не публикуем без отдельной договорённости.",
+      "answer_kk": "Фотоларды және сипаттамаларды агенттер өздері жүктейді, сондықтан материалдар құқығы агенттікте қалады. Меншік иелерінің деректерін бөлек келісімсіз жарияламаймыз.",
+      "answer_en": "Agents upload the photos and descriptions themselves, so the rights to the materials stay with the agency. We do not publish owners' personal data without a separate agreement.",
+      "sort": 6
     }
   ]
 }

@@ -55,7 +55,7 @@
     "Online shop with cart and payment",
     "Search promotion, which is a separate service"
   ],
-  "price_from_kzt": 120000,
+  "price_from_kzt": 150000,
   "unit": "once",
   "days_min": 10,
   "days_max": 20,
@@ -71,9 +71,9 @@
       "question_ru": "Смогут ли мои сотрудники сами менять контент?",
       "question_kk": "Қызметкерлерім контентті өзі өзгерте ала ма?",
       "question_en": "Can my staff edit the content themselves?",
-      "answer_ru": "Да. В панели управления правятся тексты, цены, фото и новости. После сдачи проведу короткое обучение и оставлю инструкцию.",
-      "answer_kk": "Иә. Басқару панелінде мәтін, баға, сурет және жаңалықтарды өзгертуге болады. Тапсырғаннан кейін қысқа оқыту өткізіп, нұсқаулық қалдырамын.",
-      "answer_en": "Yes. The admin panel lets you edit texts, prices, photos and news. After delivery I give a short walkthrough and leave written instructions.",
+      "answer_ru": "Да. В панели управления правятся тексты, цены, фото и новости. После сдачи проведём короткое обучение и оставляем инструкцию.",
+      "answer_kk": "Иә. Басқару панелінде мәтін, баға, сурет және жаңалықтарды өзгертуге болады. Тапсырғаннан кейін қысқа оқыту өткізіп, нұсқаулық қалдырамыз.",
+      "answer_en": "Yes. The admin panel lets you edit texts, prices, photos and news. After delivery we give a short walkthrough and leave written instructions.",
       "sort": 0
     },
     {
@@ -93,6 +93,42 @@
       "answer_kk": "Өтінімдер әдепкіде Telegram мен поштаға келеді. CRM немесе Google Sheets-ке жіберу келісім бойынша бөлек баптау ретінде жасалады.",
       "answer_en": "By default, requests go to Telegram and email. Passing them to a CRM or Google Sheets is a separate setup by agreement.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно подготовить до старта?",
+      "question_kk": "Басталғанға дейін не дайындау керек?",
+      "question_en": "What should be prepared before we start?",
+      "answer_ru": "Логотип и брендбук, тексты по разделам и фото команды, а также список услуг, с которого начнём структуру. Тексты лучше начать готовить заранее.",
+      "answer_kk": "Логотип пен брендбук, бөлімдер бойынша мәтіндер және команданың фотолары, сондай-ақ құрылымды бастайтын қызметтер тізімі. Мәтіндерді алдын ала дайындауды бастаған дұрыс.",
+      "answer_en": "The logo and brand book, texts for each section, team photos, and the list of services we will build the structure from. It is best to start preparing the texts early.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли сделать сайт сначала на одном языке, а второй добавить позже?",
+      "question_kk": "Сайтты алдымен бір тілде жасап, екінші тілді кейінірек қосуға бола ма?",
+      "question_en": "Can the site launch in one language and add a second later?",
+      "answer_ru": "Да, версию на второй язык можно добавить отдельно. Структуру и переводы лучше учесть заранее, а объём дополнения обсуждаем после согласования.",
+      "answer_kk": "Иә, екінші тілдегі нұсқаны бөлек қосуға болады. Құрылымды және аудармаларды алдын ала ескерген дұрыс, ал қосымшаның көлемін келіскеннен кейін талқылаймыз.",
+      "answer_en": "Yes, a second-language version can be added separately. It is best to plan the structure and translations in advance, and we discuss the scope of the addition after agreement.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто будет вести новости и раздел команды?",
+      "question_kk": "Жаңалықтар мен команда бөлімін кім жүргізеді?",
+      "question_en": "Who will manage the news and the team section?",
+      "answer_ru": "Новости и карточки команды добавляете вы через панель управления, так же, как тексты. Инструкцию даём при сдаче.",
+      "answer_kk": "Жаңалықтар мен команда карточкаларын басқару панелі арқылы сіз қосасыз, мәтіндермен бірдей. Нұсқауды тапсыру кезінде береміз.",
+      "answer_en": "You add news and team cards through the control panel, the same way as texts. We provide instructions at handover.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто владеет сайтом и доступами после сдачи?",
+      "question_kk": "Тапсырғаннан кейін сайтқа және қолжетімділікке кім ие болады?",
+      "question_en": "Who owns the site and the access after handover?",
+      "answer_ru": "Код, доступы к панели и домену передаются вам, и вы остаётесь владельцем. Ключи мы не храним на своих аккаунтах.",
+      "answer_kk": "Код, басқару панеліне және доменге қолжетімділік сізге беріледі, және сіз иеленушісіз. Кілттерді өз аккаунттарымызда сақтамаймыз.",
+      "answer_en": "The code and access to the panel and domain are handed over to you, and you remain the owner. We do not keep keys on our own accounts.",
+      "sort": 6
     }
   ]
 }

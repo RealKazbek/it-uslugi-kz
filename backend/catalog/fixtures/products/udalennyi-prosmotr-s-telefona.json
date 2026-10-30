@@ -1,0 +1,135 @@
+{
+  "slug": "udalennyi-prosmotr-s-telefona",
+  "category": "onsite",
+  "title_ru": "Удалённый просмотр камер с телефона",
+  "title_kk": "Камераларды телефоннан қашықтан қарау",
+  "title_en": "Remote camera viewing from your phone",
+  "short_ru": "Настраиваем доступ к камерам с телефона, чтобы смотреть изображение в любое время. Работа выполняется удалённо.",
+  "short_kk": "Камераларға телефоннан қатынауды баптаймыз, сонда бейнені кез келген уақытта көресіз. Жұмыс қашықтан орындалады.",
+  "short_en": "We set up access to your cameras from your phone so you can check the picture at any time. The work is done remotely.",
+  "description_ru": "Наша команда подключает ваши камеры к приложению на телефоне, создаёт безопасный доступ и проверяет, что изображение загружается и по мобильной сети, и через Wi-Fi. Если камеры это поддерживают, мы также настраиваем уведомления о движении. Услуга выполняется удалённо и доступна в любом городе Казахстана, выезд не нужен. Для настройки нужны уже установленные камеры и доступ к регистратору.",
+  "description_kk": "Командамыз камераларыңызды телефондағы қосымшаға қосады, қауіпсіз қатынау жасайды және бейненің мобильді интернеттен де, Wi-Fi арқылы да түсетінін тексереді. Камералар қолдайтын болса, қозғалыс туралы хабарламаларды да баптаймыз. Қызмет қашықтан орындалады және Қазақстанның кез келген қаласында қолжетімді, шығу қажет емес. Баптау үшін камералар орнатылған және тіркегішке қатынау болуы керек.",
+  "description_en": "Our team connects your cameras to a phone app, sets up secure access and checks that the picture loads over mobile data and over Wi-Fi. If the cameras support it, we also set up motion alerts. The service is done remotely and is available in any city in Kazakhstan, so no visit is needed. Setup requires cameras that are already installed and access to the recorder.",
+  "for_whom_ru": "Для владельцев магазинов, офисов и квартир, у которых камеры уже установлены, в том числе другим подрядчиком, и которые хотят видеть их с телефона.",
+  "for_whom_kk": "Камерасы орнатылған немесе оны басқа мердігер орнатқан және телефоннан көргісі келетін дүкен, кеңсе және пәтер иелеріне арналған.",
+  "for_whom_en": "For shop, office and flat owners who already have cameras, or had them installed by another contractor, and want to see them on a phone.",
+  "includes_ru": [
+    "Установка и настройка приложения для просмотра на телефоне",
+    "Подключение камер через ваш аккаунт в сервисе",
+    "Безопасный доступ: пароли и настройки, которые не пускают посторонних",
+    "Проверка просмотра по мобильной сети и через Wi-Fi",
+    "Настройка уведомлений о движении, если камеры это поддерживают",
+    "Просмотр нескольких камер в одном списке",
+    "Короткая инструкция, как открыть запись и сохранить кадр"
+  ],
+  "includes_kk": [
+    "Телефондағы қаралым қосымшасын орнату және баптау",
+    "Камераларды сервистегі өз аккаунтыңыз арқылы қосу",
+    "Қауіпсіз қатынау: бөтен адамдарды кіргізбейтін құпия сөздер мен баптаулар",
+    "Мобильді интернет пен Wi-Fi арқылы қаралымды тексеру",
+    "Камералар қолдаса, қозғалыс туралы хабарламаларды баптау",
+    "Бірнеше камераны бір тізімде қарау",
+    "Жазбаны ашу және кадрды сақтау туралы қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Installing and setting up the viewing app on your phone",
+    "Connecting the cameras through your own account in the service",
+    "Secure access: passwords and settings that keep strangers out",
+    "Checking viewing over mobile data and over Wi-Fi",
+    "Motion alerts, if the cameras support them",
+    "Several cameras in one list",
+    "A short guide to opening recordings and saving a frame"
+  ],
+  "not_included_ru": [
+    "Камеры, регистратор и интернет-тариф: они остаются вашими и оплачиваются отдельно",
+    "Платная подписка облачного сервиса, если вы решите им пользоваться: тарифы задаёт поставщик сервиса",
+    "Физический монтаж камер и кабелей: в эту услугу он не входит, если камер ещё нет, смотрите услугу установки видеонаблюдения"
+  ],
+  "not_included_kk": [
+    "Камералар, тіркегіш және интернет тарифі: олар сізде қалады және бөлек төленеді",
+    "Бұлттық сервистің ақылы жазылымы, егер соны пайдалансаңыз: тарифті сервис провайдері белгілейді",
+    "Камераларды физикалық орнату және кабельдерді тарту: бұл қызметке кірмейді, камералар әлі жоқ болса, бейнебақылауды орнату қызметін қараңыз"
+  ],
+  "not_included_en": [
+    "Cameras, recorder and internet plan: they stay yours and are paid separately",
+    "A paid cloud subscription, if you choose to use one: the service provider sets the prices",
+    "Physical mounting of cameras and cables: not part of this remote service; if you do not have cameras yet, see the CCTV installation service"
+  ],
+  "price_from_kzt": 6500,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 2,
+  "related": [
+    "ustanovka-videonablyudeniya",
+    "wifi-i-lokalnaya-set",
+    "kompyuternaya-pomosch"
+  ],
+  "is_active": true,
+  "is_onsite": true,
+  "sort": 151,
+  "faqs": [
+    {
+      "question_ru": "Нужен ли выезд мастера для этой услуги?",
+      "question_kk": "Бұл қызмет үшін шебердің шығуы керек пе?",
+      "question_en": "Is a visit needed for this service?",
+      "answer_ru": "Нет. Доступ мы настраиваем удалённо, поэтому выезд не нужен. Физический монтаж камер в эту услугу не входит.",
+      "answer_kk": "Жоқ. Қатынауды қашықтан баптаймыз, сондықтан шығу қажет емес. Камераларды физикалық орнату бұл қызметке кірмейді.",
+      "answer_en": "No. We set up access remotely, so no visit is needed. Physical installation of cameras is not part of this service.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Будет ли видна запись, если пропадёт интернет?",
+      "question_kk": "Интернет жоқ болса, жазба көрінеді ме?",
+      "question_en": "Will I see the recording if the internet goes down?",
+      "answer_ru": "Просмотр в реальном времени зависит от интернета на объекте. Если связь пропадёт и в системе есть регистратор, камера продолжит запись на него, а вы увидите её, когда связь вернётся. Это зависит от настроек записи, которые мы проверим вместе.",
+      "answer_kk": "Нақты уақыттағы қаралым объектідегі интернетке байланысты. Байланыс үзілсе және жүйеде тіркегіш болса, камера соған жазуды жалғастырады, ал байланыс қайта келгенде жазбаны көресіз. Бұл жазба баптауларына байланысты, оларды бірге тексереміз.",
+      "answer_en": "Live viewing depends on the internet at the site. If the connection drops and the system has a recorder, the camera keeps recording to it, and you can see the footage once the connection is back. This depends on the recording settings, which we will check together.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужно ли платить за облачное хранение?",
+      "question_kk": "Бұлтта сақтау үшін төлем керек пе?",
+      "question_en": "Do I have to pay for cloud storage?",
+      "answer_ru": "Это зависит от сервиса, который вы выберете. Одни сервисы хранят запись в облаке по подписке, другие работают только с локальной записью. Мы объясним разницу и поможем выбрать, но стоимость подписки оплачивается отдельно.",
+      "answer_kk": "Бұл сіз таңдаған сервиске байланысты. Кейбір сервистер жазбаны жазылыммен бұлтта сақтайды, басқалары тек жергілікті жазбамен жұмыс істейді. Айырмашылықты түсіндіреміз және таңдауға көмектесеміз, бірақ жазылым ақысы бөлек төленеді.",
+      "answer_en": "It depends on the service you choose. Some services keep recordings in the cloud on a subscription, others work only with local recording. We will explain the difference and help you choose, but the subscription fee is paid separately.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Можно ли смотреть камеры с компьютера, а не только с телефона?",
+      "question_kk": "Камераларды телефоннан ғана емес, компьютерден де көруге бола ма?",
+      "question_en": "Can I watch the cameras on a computer, not only on a phone?",
+      "answer_ru": "Да, если регистратор поддерживает веб-доступ или программу для компьютера, настраиваем и этот вариант. Какие способы доступны, зависит от модели вашей системы.",
+      "answer_kk": "Иә, тіркеуші веб-кіруді немесе компьютерге арналған бағдарламаны қолдаса, бұл нұсқаны да баптаймыз. Қандай тәсілдер қолжетімді болатыны жүйеңіздің моделіне байланысты.",
+      "answer_en": "Yes, if your recorder supports web access or a computer program, we set up that option too. Which methods are available depends on your system's model.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Кто, кроме меня, сможет видеть мои камеры?",
+      "question_kk": "Менен басқа камераларымды кім көре алады?",
+      "question_en": "Who else can see my cameras besides me?",
+      "answer_ru": "Доступ получают только те учётные записи, которые вы сами укажете. Пароли меняем на новые и передаём вам, а лишних пользователей можно удалить в любой момент.",
+      "answer_kk": "Қолжетімділікті тек сіз көрсеткен аккаунттар алады. Құпия сөздерді жаңаға ауыстырып, сізге береміз, ал артық пайдаланушыларды кез келген уақытта өшіруге болады.",
+      "answer_en": "Only the accounts you specify get access. We change the passwords to new ones and hand them to you, and extra users can be removed at any time.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что делать, если камеры перестанут открываться после настройки?",
+      "question_kk": "Баптаудан кейін камералар ашылмай қалса, не істеу керек?",
+      "question_en": "What should I do if the cameras stop opening after setup?",
+      "answer_ru": "Срок гарантии на настройку обсуждаем при согласовании работ. Частые причины — смена интернета или пароля, их можно проверить по инструкции, которую мы передаём.",
+      "answer_kk": "Баптау бойынша кепілдік мерзімін жұмысты келісу кезінде талқылаймыз. Жиі себептері — интернеттің немесе құпия сөздің өзгеруі, оны біз берген нұсқаулық бойынша тексеруге болады.",
+      "answer_en": "We discuss the warranty period for the setup when agreeing the work. Common causes are a changed internet connection or password, which you can check with the instructions we hand over.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить камеры позже, если понадобятся новые?",
+      "question_kk": "Кейін жаңа камералар керек болса, қосуға бола ма?",
+      "question_en": "Can I add new cameras later if I need them?",
+      "answer_ru": "Да, новые камеры подключаются так же, если в регистраторе есть свободные каналы. Если каналов не хватает, понадобится другой регистратор, и это оценивается отдельно.",
+      "answer_kk": "Иә, тіркеушіде бос арна болса, жаңа камералар дәл осылай қосылады. Арна жетпесе, басқа тіркеуші керек болады және ол бөлек бағаланады.",
+      "answer_en": "Yes, new cameras connect the same way if the recorder has free channels. If there are not enough channels, a different recorder is needed, which is assessed separately.",
+      "sort": 6
+    }
+  ]
+}

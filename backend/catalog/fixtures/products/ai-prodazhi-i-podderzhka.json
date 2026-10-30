@@ -1,0 +1,135 @@
+{
+  "slug": "ai-prodazhi-i-podderzhka",
+  "category": "ai",
+  "title_ru": "ИИ для продаж и поддержки клиентов",
+  "title_kk": "Сатылым мен қолдауға арналған жасанды интеллект",
+  "title_en": "AI for sales and customer support",
+  "short_ru": "ИИ-ассистент консультирует покупателей, отвечает на вопросы о заказах и передаёт горячих клиентов менеджеру. Работает на сайте и в мессенджерах.",
+  "short_kk": "Жасанды интеллект-көмекші тұтынушыларға кеңес беріп, тапсырыстар туралы сұрақтарға жауап береді және қызығушы клиенттерді менеджерге береді. Сайтта және мессенджерлерде жұмыс істейді.",
+  "short_en": "An AI assistant advises buyers, answers questions about orders and passes warm leads to your manager. It works on your website and in messengers.",
+  "description_ru": "Мы настраиваем ИИ-ассистента, который знает ваш ассортимент, цены и условия, и отвечает клиентам в нужном тоне. Он помогает выбрать товар или услугу, собирает контакты и передаёт заинтересованных клиентов менеджеру с историей диалога. Ответы строятся только на материалах, которые вы нам передали, поэтому информацию нужно проверить перед запуском.",
+  "description_kk": "Біз сіздің ассортиментіңізді, бағаны және шарттарды білетін, клиенттерге қажетті үнмен жауап беретін жасанды интеллект-көмекшіні баптаймыз. Ол тауарды немесе қызметті таңдауға көмектеседі, байланысты жинап, қызығушылық танытқан клиенттерді диалог тарихымен менеджерге береді. Жауаптар тек сіз берген материалдарға сүйенеді, сондықтан ақпаратты іске қосар алдында тексеру керек.",
+  "description_en": "We set up an AI assistant that knows your range, prices and terms, and answers customers in the tone you choose. It helps pick a product or service, collects contacts and passes interested customers to your manager with the chat history. Answers are based only on the material you give us, so please check the information before launch.",
+  "for_whom_ru": "Для интернет-магазинов, салонов, застройщиков и сервисов, где много одинаковых вопросов о наличии, ценах и заказе, а менеджеры не успевают отвечать сразу. Подойдёт, если продажи идут через сайт или мессенджеры.",
+  "for_whom_kk": "Наличие, баға және тапсырыс туралы бірдей сұрақтар көп, ал менеджерлер бірден жауап беруге үлгермейтін интернет-дүкендерге, салондарға, құрылыс компанияларына және қызметтерге арналған. Сатылым сайт немесе мессенджерлер арқылы жүретін болса, жарайды.",
+  "for_whom_en": "For online shops, salons, developers and services that get many repeated questions about stock, prices and orders, while managers cannot reply at once. It fits if your sales go through the website or messengers.",
+  "includes_ru": [
+    "Ассистент с базой знаний: ассортимент, цены, условия доставки и оплаты",
+    "Подбор товара или услуги по вопросам клиента",
+    "Сбор контактов и заявок с пометкой горячего клиента",
+    "Передача диалога менеджеру с историей переписки",
+    "Встраивание на сайт и подключение к Telegram или WhatsApp",
+    "Настройка тона ответов и правил, когда ассистент передаёт вопрос человеку",
+    "Тестирование на реальных вопросах клиентов и сводка результатов"
+  ],
+  "includes_kk": [
+    "Білім қоры бар көмекші: ассортимент, баға, жеткізу және төлем шарттары",
+    "Клиент сұрағы бойынша тауар немесе қызмет таңдауға көмек",
+    "Байланыс пен өтінімді жинау, қызығушылық танытқан клиентті белгілеу",
+    "Жазысу тарихымен бірге диалогты менеджерге беру",
+    "Сайтқа орнату және Telegram немесе WhatsApp-қа қосу",
+    "Жауап мәнерін және көмекшінің сұрақты адамға беру ережелерін баптау",
+    "Клиенттердің нақты сұрақтарында тестілеу және нәтиже бойынша қорытынды"
+  ],
+  "includes_en": [
+    "An assistant with a knowledge base: range, prices, delivery and payment terms",
+    "Product or service selection based on the customer's questions",
+    "Contact and request collection, with warm leads marked",
+    "Handover of the chat to a manager with the conversation history",
+    "Website embedding and connection to Telegram or WhatsApp",
+    "Tuning of the reply tone and rules for when the assistant passes a question to a person",
+    "Testing on real customer questions and a summary of the results"
+  ],
+  "not_included_ru": [
+    "Оплата моделей ИИ и серверов: эти расходы идут напрямую от поставщиков и зависят от объёма",
+    "Наполнение базы знаний: ассортимент, цены и условия предоставляет клиент",
+    "Гарантия продаж и роста конверсии: результат зависит от предложения, трафика и работы менеджеров"
+  ],
+  "not_included_kk": [
+    "Жасанды интеллект моделдері мен серверлерге төлем: бұл шығын жеткізушілерден тікелей келеді және көлемге байланысты",
+    "Білім қорын толтыру: ассортимент, баға және шарттарды клиент береді",
+    "Сатылымның кепілдігі және конверсияның өсуі: нәтиже ұсынысқа, трафикке және менеджерлердің жұмысына байланысты"
+  ],
+  "not_included_en": [
+    "AI model and server fees: they are billed directly by the providers and depend on volume",
+    "Filling the knowledge base: the range, prices and terms are provided by the client",
+    "A guarantee of sales or conversion growth: results depend on the offer, traffic and manager work"
+  ],
+  "price_from_kzt": 165000,
+  "unit": "once",
+  "days_min": 14,
+  "days_max": 30,
+  "related": [
+    "ai-assistent-telegram",
+    "ai-assistent-whatsapp",
+    "ai-chat-na-sait"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 114,
+  "faqs": [
+    {
+      "question_ru": "Не будет ли ассистент выдумывать цены и условия?",
+      "question_kk": "Ассистент баға мен шарттарды ойдан шығармай ма?",
+      "question_en": "Could the assistant invent prices and terms?",
+      "answer_ru": "Мы настраиваем его так, чтобы он отвечал только по вашей базе и передавал вопрос менеджеру, если ответа там нет. Полностью исключить ошибки модели нельзя, поэтому важные условия лучше держать в базе знаний в точной формулировке и проверять ответы на тесте.",
+      "answer_kk": "Оны тек сіздің білім қорыңыз бойынша жауап беретіндей етіп баптаймыз, ал жауап болмаса сұрақты менеджерге береді. Модельдің қателерін толық жоққа шығару мүмкін емес, сондықтан маңызды шарттарды білім қорында дәл тұжырыммен сақтап, тестте жауаптарды тексеру керек.",
+      "answer_en": "We set it up to answer only from your knowledge base and to pass the question to a manager if the answer is not there. Model errors cannot be ruled out completely, so keep key terms in the knowledge base worded precisely and check the answers in testing.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Как клиент поймёт, что отвечает ИИ, а не человек?",
+      "question_kk": "Клиент жауапты адам емес, ЖИ берді деп қалай түсінеді?",
+      "question_en": "How will the customer know it is AI and not a person?",
+      "answer_ru": "Мы рекомендуем открыто указывать в приветствии, что это ассистент. Это честнее по отношению к клиенту и сохраняет доверие. Формулировку согласуем с вами.",
+      "answer_kk": "Сәлемдесуде бұл көмекші екенін ашық жазуды ұсынамыз. Бұл клиентке адалырақ және сенімді сақтайды. Тұжырымды сізбен бірге келісеміз.",
+      "answer_en": "We recommend stating openly in the greeting that this is an assistant. It is more honest towards the customer and keeps trust. We agree the wording with you.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Сколько времени нужно, чтобы ассистент начал работать?",
+      "question_kk": "Ассистент жұмыс істей бастауға қанша уақыт кетеді?",
+      "question_en": "How long does it take for the assistant to start working?",
+      "answer_ru": "Срок зависит от числа каналов и объёма базы знаний, ориентир указан в карточке. Дольше всего обычно занимает подготовка материалов. Если они готовы заранее, запуск идёт быстрее.",
+      "answer_kk": "Мерзім арналар санына және білім қорының көлеміне байланысты, шамасы карточкада көрсетілген. Ең ұзағы әдетте материалдарды дайындау. Егер олар алдын ала дайын болса, іске қосу тезірек өтеді.",
+      "answer_en": "The timing depends on the number of channels and the size of the knowledge base; the range is on the card. Preparing the material is usually the longest part. If it is ready in advance, the launch is faster.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Мы показываем, как обновлять базу знаний и просматривать диалоги, переданные менеджеру, и передаём доступы. Расширение на новые каналы, интеграции с вашей CRM и доработка сценариев оцениваются отдельно.",
+      "answer_kk": "Білім қорын қалай жаңартуға және менеджерге берілген диалогтарды қалай қарауға болатынын көрсетіп, қолжетімділікті тапсырамыз. Жаңа арналарға кеңейту, CRM-мен интеграция және сценарийлерді түзету бөлек бағаланады.",
+      "answer_en": "We show how to update the knowledge base and review chats handed to managers, and transfer the access. Extension to new channels, CRM integrations and scenario changes are estimated separately.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как передаётся диалог менеджеру?",
+      "question_kk": "Диалог менеджерге қалай беріледі?",
+      "question_en": "How is the conversation passed to a manager?",
+      "answer_ru": "Менеджер видит всю историю переписки и собранные контакты, поэтому клиенту не придётся повторять свои вопросы.",
+      "answer_kk": "Менеджер барлық жазысқан тарихын және жиналған контактілерді көреді, сондықтан клиент сұрақтарын қайталап жазбайды.",
+      "answer_en": "The manager sees the full chat history and the collected contacts, so the customer does not have to repeat their questions.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли подключить ассистента к CRM?",
+      "question_kk": "Көмекшіні CRM-ге қосуға бола ма?",
+      "question_en": "Can the assistant be connected to a CRM?",
+      "answer_ru": "Да, если у вашей CRM есть открытый API или готовая интеграция. Сложные связки обсуждаем отдельно после проверки.",
+      "answer_kk": "Иә, егер сіздің CRM-іңізде ашық API немесе дайын интеграция болса. Күрделі байланыстарды тексеруден кейін бөлек талқылаймыз.",
+      "answer_en": "Yes, if your CRM has an open API or a ready-made integration. Complex links are discussed separately after a check.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто отвечает за актуальность цен и условий?",
+      "question_kk": "Бағалар мен шарттардың өзектілігіне кім жауапты?",
+      "question_en": "Who keeps prices and terms up to date?",
+      "answer_ru": "Вы. Ассистент опирается на переданные вами материалы, поэтому при изменении цен или условий базу знаний нужно обновить.",
+      "answer_kk": "Сіз. Көмекші сіз берген материалдарға сүйенеді, сондықтан баға немесе шарттар өзгергенде білім қорын жаңарту керек.",
+      "answer_en": "You do. The assistant relies on the material you provide, so the knowledge base must be updated when prices or terms change.",
+      "sort": 6
+    }
+  ]
+}

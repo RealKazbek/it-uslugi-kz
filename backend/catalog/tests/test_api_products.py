@@ -44,6 +44,7 @@ def test_list_with_lang_returns_flat_localized_fields(client: Client) -> None:
         "unit",
         "days_min",
         "days_max",
+        "is_onsite",
         "faqs",
         "related",
         "updated_at",

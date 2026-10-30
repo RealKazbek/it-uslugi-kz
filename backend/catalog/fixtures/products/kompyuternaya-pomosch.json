@@ -4,12 +4,12 @@
   "title_ru": "Компьютерная помощь удалённо",
   "title_kk": "Компьютерге қашықтан көмек",
   "title_en": "Remote computer help",
-  "short_ru": "Помогу по видеосвязи или через удалённый доступ: установка программ, настройка, вирусы, лишние тормоза.",
-  "short_kk": "Бейнебайланыс немесе қашықтан қолжетімділік арқылы көмектесемін: бағдарлама орнату, баптау, вирустар, баяулау.",
+  "short_ru": "Помогаем по видеосвязи или через удалённый доступ: установка программ, настройка, вирусы, лишние тормоза.",
+  "short_kk": "Бейнебайланыс немесе қашықтан қолжетімділік арқылы көмектесеміз: бағдарлама орнату, баптау, вирустар, баяулау.",
   "short_en": "Help by video call or remote access: installing software, settings, malware and slow-downs.",
-  "description_ru": "Компьютер или телефон тормозит, не печатает, не пускает в аккаунт или вам нужно установить программу. Мы созвонимся, и я подключусь к вашему экрану через безопасную программу удалённого доступа только на время сеанса. Объясняю простыми словами, что делаю, чтобы в следующий раз вы справились сами.",
-  "description_kk": "Компьютер немесе телефон баяулайды, басып шығармайды, аккаунтқа кіргізбейді немесе бағдарлама орнату керек. Біз қоңыраулас боламыз, мен тек сеанс уақытына қауіпсіз қашықтан қолжетімділік бағдарламасы арқылы экраныңызға қосыламын. Келесі жолы өзіңіз қатесіз істей алуыңыз үшін не істеп жатқанымды қарапайым тілмен түсіндіремін.",
-  "description_en": "Your computer or phone is slow, will not print, locks you out of an account, or you need a program installed. We get on a call and I connect to your screen through a secure remote access tool, only for the length of the session. I explain in plain words what I am doing so that next time you can manage on your own.",
+  "description_ru": "Компьютер или телефон тормозит, не печатает, не пускает в аккаунт или вам нужно установить программу. Мы созвонимся, и мы подключимся к вашему экрану через безопасную программу удалённого доступа только на время сеанса. Мы объясняем простыми словами, что делаем, чтобы в следующий раз вы справились сами.",
+  "description_kk": "Компьютер немесе телефон баяулайды, басып шығармайды, аккаунтқа кіргізбейді немесе бағдарлама орнату керек. Біз қоңыраулас боламыз, біз тек сеанс уақытына қауіпсіз қашықтан қолжетімділік бағдарламасы арқылы экраныңызға қосыламыз. Келесі жолы өзіңіз қатесіз істей алуыңыз үшін не істеп жатқанымызды қарапайым тілмен түсіндіреміз.",
+  "description_en": "Your computer or phone is slow, will not print, locks you out of an account, or you need a program installed. We get on a call and we connect to your screen through a secure remote access tool, only for the length of the session. We explain in plain words what we are doing so that next time you can manage on your own.",
   "for_whom_ru": "Частным лицам и семьям, которым нужна понятная помощь с компьютером или телефоном без поездки в сервис.",
   "for_whom_kk": "Сервиске бармай, компьютер немесе телефон бойынша түсінікті көмек қажет жеке тұлғалар мен отбасыларға арналған.",
   "for_whom_en": "For individuals and families who need clear help with a computer or phone without taking it to a repair shop.",
@@ -38,21 +38,21 @@
     "Explaining each step in plain words as we go"
   ],
   "not_included_ru": [
-    "Ремонт техники и замена комплектующих: работаю только удалённо",
+    "Ремонт техники и замена комплектующих: работаем только удалённо",
     "Выезд на дом: в Алматы возможен по договорённости, отдельно",
     "Восстановление данных с вышедших из строя дисков"
   ],
   "not_included_kk": [
-    "Техниканы жөндеу және бөлшектерін ауыстыру: тек қашықтан жұмыс істеймін",
+    "Техниканы жөндеу және бөлшектерін ауыстыру: тек қашықтан жұмыс істейміз",
     "Үйге шығу: Алматыда келісім бойынша мүмкін, бөлек төленеді",
     "Істен шыққан дисктерден деректерді қалпына келтіру"
   ],
   "not_included_en": [
-    "Hardware repair or replacing parts; I work remotely only",
+    "Hardware repair or replacing parts; We work remotely only",
     "On-site visits, which in Almaty are possible by agreement and charged separately",
     "Recovering data from failed drives"
   ],
-  "price_from_kzt": 3000,
+  "price_from_kzt": 2000,
   "unit": "hour",
   "days_min": 1,
   "days_max": 1,
@@ -68,28 +68,64 @@
       "question_ru": "Безопасно ли давать удалённый доступ?",
       "question_kk": "Қашықтан қолжетімділік беру қауіпсіз бе?",
       "question_en": "Is it safe to give remote access?",
-      "answer_ru": "Вы сами запускаете программу и видите всё, что я делаю на экране. Доступ работает только во время сеанса, и вы можете прервать его в любой момент.",
+      "answer_ru": "Вы сами запускаете программу и видите всё, что мы делаем на экране. Доступ работает только во время сеанса, и вы можете прервать его в любой момент.",
       "answer_kk": "Бағдарламаны өзіңіз іске қосасыз және экрандағы әрекеттерімнің бәрін көресіз. Қолжетімділік тек сеанс кезінде жұмыс істейді, оны кез келген сәтте тоқтата аласыз.",
-      "answer_en": "You start the program yourself and see everything I do on screen. Access works only during the session and you can end it at any moment.",
+      "answer_en": "You start the program yourself and see everything we do on screen. Access works only during the session and you can end it at any moment.",
       "sort": 0
     },
     {
       "question_ru": "Как считается оплата за час?",
       "question_kk": "Сағаттық төлем қалай есептеледі?",
       "question_en": "How is the hourly rate counted?",
-      "answer_ru": "Платите за фактически потраченное время. Если задача простая, я скажу об этом заранее и не буду растягивать сеанс.",
-      "answer_kk": "Нақты жұмсалған уақыт үшін төлейсіз. Тапсырма қарапайым болса, алдын ала айтып, сеансты созбаймын.",
-      "answer_en": "You pay for the time actually spent. If the task is simple I will say so up front and will not stretch the session.",
+      "answer_ru": "Платите за фактически потраченное время. Если задача простая, мы скажем об этом заранее и не будем растягивать сеанс.",
+      "answer_kk": "Нақты жұмсалған уақыт үшін төлейсіз. Тапсырма қарапайым болса, алдын ала айтып, сеансты созбаймыз.",
+      "answer_en": "You pay for the time actually spent. If the task is simple we will say so up front and will not stretch the session.",
       "sort": 1
     },
     {
       "question_ru": "Работаете ли вы с Mac и телефонами?",
       "question_kk": "Mac пен телефондармен жұмыс істейсіз бе?",
       "question_en": "Do you work with Mac and phones?",
-      "answer_ru": "Да, с Windows, macOS, а также с Android и iPhone в части настроек и приложений. Ограничения, например по закрытым корпоративным устройствам, называю заранее.",
-      "answer_kk": "Иә, Windows, macOS және Android пен iPhone-ның баптаулары мен қосымшалары бойынша жұмыс істеймін. Шектеулерді, мысалы жабық корпоративтік құрылғылар бойынша, алдын ала айтамын.",
-      "answer_en": "Yes, with Windows and macOS, and with settings and apps on Android and iPhone. I tell you about limits in advance, for example with locked-down company devices.",
+      "answer_ru": "Да, с Windows, macOS, а также с Android и iPhone в части настроек и приложений. Ограничения, например по закрытым корпоративным устройствам, называем заранее.",
+      "answer_kk": "Иә, Windows, macOS және Android пен iPhone-ның баптаулары мен қосымшалары бойынша жұмыс істейміз. Шектеулерді, мысалы жабық корпоративтік құрылғылар бойынша, алдын ала айтамыз.",
+      "answer_en": "Yes, with Windows and macOS, and with settings and apps on Android and iPhone. we tell you about limits in advance, for example with locked-down company devices.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно, чтобы начать сеанс?",
+      "question_kk": "Сеансты бастау үшін не керек?",
+      "question_en": "What is needed to start a session?",
+      "answer_ru": "Компьютер или телефон с интернетом и возможность запустить программу удалённого доступа по нашей ссылке. Перед сеансом проговорим, что именно сделаем.",
+      "answer_kk": "Интернеті бар компьютер немесе телефон және біздің сілтеме арқылы қашықтан қосылу бағдарламасын іске қосу мүмкіндігі керек. Сеанс алдында нені істейтінімізді талқылаймыз.",
+      "answer_en": "A computer or phone with internet, and the ability to run the remote access program via our link. Before the session we agree exactly what we will do.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Вижу ли я, что вы делаете на экране?",
+      "question_kk": "Экранда не істейтініңізді көре аламын ба?",
+      "question_en": "Can I see what you are doing on my screen?",
+      "answer_ru": "Да, вы видите экран и можете в любой момент остановить сеанс. Пароли вводите сами, а не диктуете нам.",
+      "answer_kk": "Иә, сіз экранды көресіз және кез келген уақытта сеансты тоқтата аласыз. Парольді өзіңіз енгізіңіз, бізге айтпаңыз.",
+      "answer_en": "Yes, you can see the screen and stop the session at any time. Enter passwords yourself rather than dictating them to us.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что если проблема не решается за один сеанс?",
+      "question_kk": "Мәселе бір сеанста шешілмесе не болады?",
+      "question_en": "What if the problem is not solved in one session?",
+      "answer_ru": "Договариваемся о следующем сеансе и фиксируем, что уже сделано, чтобы не начинать заново. Вы получаете краткую запись шагов.",
+      "answer_kk": "Келесі сеансқа келісеміз және не істелгенін жазамыз, сонда қайтадан басынан бастамаймыз. Сіз қадамдардың қысқа жазбасын аласыз.",
+      "answer_en": "We agree the next session and record what has been done so we do not start over. You receive a short record of the steps.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что будет с моими личными файлами во время помощи?",
+      "question_kk": "Көмек кезінде менің жеке файлдарыма не болады?",
+      "question_en": "What happens to my personal files during the help?",
+      "answer_ru": "Работаем только с тем, что нужно для задачи, и не копируем личные файлы без разрешения. Перед любым удалением спрашиваем вас.",
+      "answer_kk": "Тек тапсырма үшін қажетті нәрсемен жұмыс істейміз, жеке файлдарды рұқсатсыз көшірмейміз. Кез келген жоймас бұрын сізден сұраймыз.",
+      "answer_en": "We only work with what the task needs and do not copy personal files without permission. We ask you before any deletion.",
+      "sort": 6
     }
   ]
 }

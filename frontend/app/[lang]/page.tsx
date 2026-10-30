@@ -1,28 +1,32 @@
+import { ratingText } from '@/lib/reviews/rating';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/features/home/Hero';
-import {
-  AboutSection,
-  CitiesSection,
-  CtaSection,
-  CategoriesSection,
-  FaqSection,
-  FeaturedSection,
-  HowSection,
-} from '@/components/features/home/HomeSections';
+import { CategoriesSection } from '@/components/features/home/CategoriesSection';
+import { ChannelsStrip } from '@/components/features/home/ChannelsStrip';
+import { CitiesSection } from '@/components/features/home/CitiesSection';
+import { CtaSection } from '@/components/features/home/CtaSection';
+import { FaqSection } from '@/components/features/home/FaqSection';
+import { HowSection } from '@/components/features/home/HowSection';
+import { ReviewsSection } from '@/components/features/home/ReviewsSection';
+import { PopularSection } from '@/components/features/home/PopularSection';
+import { PricesSection } from '@/components/features/home/PricesSection';
+import { TrustSection } from '@/components/features/home/TrustSection';
 import { JsonLd } from '@/components/features/seo/JsonLd';
-import { Container } from '@/components/ui/Container';
+import { getReviewsSafe } from '@/lib/api/reviews';
+import { cardLabels } from '@/components/features/catalog/ProductCard';
 import { getCities } from '@/lib/api/cities';
 import { loadCatalog } from '@/lib/catalog/load';
+import { priceRows } from '@/lib/catalog/minPrices';
 import { parseLang } from '@/lib/catalog/params';
 import { isCityLang } from '@/lib/city/types';
 import { config } from '@/lib/config';
 import { priceText } from '@/lib/format/price';
-import { whatsappGeneralLink } from '@/lib/format/links';
+import { telegramLink, whatsappGeneralLink } from '@/lib/format/links';
 import { getDict } from '@/lib/i18n/dict';
 import { LANGS, type Lang } from '@/lib/i18n/locales';
 import { localePath } from '@/lib/i18n/paths';
-import { legal } from '@/lib/site/legal';
+import { getSiteFaq, HOME_FAQ_IDS, pickFaqItems } from '@/lib/faq/site';
 import { buildPageMetadata } from '@/lib/seo/metadata';
 import { faqPageLd, professionalServiceLd } from '@/lib/seo/jsonld';
 
@@ -51,29 +55,65 @@ export default async function HomePage({ params }: PageProps) {
   const lang = parseLang((await params).lang);
   if (lang === null) notFound();
   const d = getDict(lang);
+  const h = d.home;
   const catalog = await loadCatalog(lang);
+  const categories = catalog.categories.filter((c) => c.productCount > 0);
   const featured = catalog.groups.flatMap((group) => (group.cards[0] ? [group.cards[0]] : []));
-  const faq = [...d.home.faq, { q: d.home.legalQuestion, a: legal[lang] }];
+  const faq = pickFaqItems(getSiteFaq(lang), HOME_FAQ_IDS);
   const cities = await citiesFor(lang);
+  const reviews = await getReviewsSafe();
+  const hrefFor = (slug: string) => localePath(lang, `/catalog/${slug}`);
+  const stats = [
+    { value: catalog.cards.length, label: h.stats.products },
+    { value: categories.length, label: h.stats.categories },
+    { value: cities.length, label: h.stats.cities },
+  ].filter((item) => item.value > 0);
 
   return (
     <>
       <JsonLd data={[professionalServiceLd(config.siteUrl), faqPageLd(faq)]} />
-      <Container>
-        <Hero lang={lang} />
-      </Container>
-      <CategoriesSection
-        title={d.home.catsHeading}
-        categories={catalog.categories.filter((c) => c.productCount > 0)}
-        hrefFor={(slug) => localePath(lang, `/catalog/${slug}`)}
+      <Hero lang={lang} stats={{ products: catalog.cards.length, categories: categories.length, cities: cities.length }} />
+      <PopularSection
+        title={h.popularHeading}
+        lead={h.popularLead}
+        allLabel={h.allCatalog}
+        allHref={localePath(lang, '/catalog')}
+        cards={featured}
+        labels={cardLabels(d, lang)}
+      />
+      <CategoriesSection title={h.catsHeading} lead={h.catsLead} categories={categories} hrefFor={hrefFor} countLabel={d.catalog.countLabel} />
+      <ChannelsStrip title={h.channelsTitle} />
+      <HowSection title={h.howHeading} lead={h.howLead} steps={h.howSteps} />
+      {reviews.results.length > 0 && (
+        <ReviewsSection
+          title={d.reviews.title}
+          lead={d.reviews.lead}
+          reviews={reviews.results}
+          allLabel={d.reviews.all}
+          allHref={localePath(lang, '/reviews')}
+          ratingLabel={(rating) => ratingText(d.reviews.ratingLabel, rating)}
+        />
+      )}
+      <PricesSection
+        title={h.pricesHeading}
+        lead={h.pricesLead}
+        allLabel={h.pricesAll}
+        allHref={localePath(lang, '/prices')}
+        rows={priceRows(catalog.categories, catalog.cards, lang, config.usdRate)}
+        hrefFor={hrefFor}
         countLabel={d.catalog.countLabel}
       />
-      <FeaturedSection title={d.home.popularHeading} allLabel={d.home.allCatalog} allHref={localePath(lang, '/catalog')} cards={featured} />
-      <HowSection title={d.home.howHeading} steps={d.home.howSteps} />
-      <AboutSection title={d.home.aboutHeading} facts={d.home.aboutFacts} />
-      <FaqSection title={d.home.faqHeading} items={faq} />
-      <CitiesSection title={d.home.citiesHeading} lead={d.home.citiesLead} cities={cities} />
-      <CtaSection title={d.home.ctaTitle} text={d.home.ctaText} label={d.home.ctaWhatsapp} href={whatsappGeneralLink(lang)} />
+      <TrustSection title={h.trustHeading} lead={h.trustLead} items={h.trustItems} stats={stats} />
+      <FaqSection title={h.faqHeading} items={faq} allLabel={d.faq.allQuestions} allHref={localePath(lang, '/faq')} />
+      {cities.length > 0 && <CitiesSection title={h.citiesHeading} lead={h.citiesLead} cities={cities} />}
+      <CtaSection
+        title={h.ctaTitle}
+        text={h.ctaText}
+        whatsappLabel={h.ctaWhatsapp}
+        whatsappHref={whatsappGeneralLink(lang)}
+        telegramLabel={d.common.tg}
+        telegramHref={telegramLink()}
+      />
     </>
   );
 }

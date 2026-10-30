@@ -117,6 +117,24 @@ jobs:
           USD_RATE: "500"
         working-directory: frontend
         run: sh scripts/check-404.sh
+      - name: Start the production server in the background (same env)
+        env:
+          API_INTERNAL_URL: http://127.0.0.1:8000
+          SITE_URL: https://uslugi.realkazbek.site
+          USD_RATE: "500"
+          NEXT_TELEMETRY_DISABLED: "1"
+        run: |
+          nohup npm start > next.log 2>&1 &
+          for i in $(seq 1 60); do
+            curl -sf http://127.0.0.1:3000/ru -o /dev/null && exit 0
+            sleep 1
+          done
+          cat next.log
+          exit 1
+      - name: Link check (crawls the running site)
+        env:
+          BASE_URL: http://127.0.0.1:3000
+        run: npm run check-links
 
   bot:
     name: Bot (ruff, mypy, pytest, docker build)

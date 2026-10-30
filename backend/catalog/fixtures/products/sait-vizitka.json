@@ -55,7 +55,7 @@
     "Online shop and online payments",
     "Domain registration and hosting fees"
   ],
-  "price_from_kzt": 35000,
+  "price_from_kzt": 65000,
   "unit": "once",
   "days_min": 3,
   "days_max": 6,
@@ -80,8 +80,8 @@
       "question_ru": "Можно ли потом добавить страницы?",
       "question_kk": "Кейін бет қосуға бола ма?",
       "question_en": "Can pages be added later?",
-      "answer_ru": "Да. Структуру делаю так, чтобы новые разделы добавлялись без переделки. Дополнительные страницы оцениваются отдельно.",
-      "answer_kk": "Иә. Құрылымды жаңа бөлімдер қайта жасамай қосылатындай етіп жасаймын. Қосымша беттер бөлек бағаланады.",
+      "answer_ru": "Да. Структуру делаем так, чтобы новые разделы добавлялись без переделки. Дополнительные страницы оцениваются отдельно.",
+      "answer_kk": "Иә. Құрылымды жаңа бөлімдер қайта жасамай қосылатындай етіп жасаймыз. Қосымша беттер бөлек бағаланады.",
       "answer_en": "Yes. The structure is built so new sections can be added without a rebuild. Extra pages are quoted separately.",
       "sort": 1
     },
@@ -89,10 +89,46 @@
       "question_ru": "Кто будет держать домен?",
       "question_kk": "Доменді кім ұстайды?",
       "question_en": "Who owns the domain?",
-      "answer_ru": "Домен регистрируется на вас, я только помогаю с настройкой. Так сайт остаётся вашим, даже если мы перестанем работать вместе.",
-      "answer_kk": "Домен өзіңізге тіркеледі, мен тек баптауға көмектесемін. Сонда бірге жұмыс істемей қалсақ та, сайт өзіңізде қалады.",
-      "answer_en": "The domain is registered in your name and I only help with the setup. That way the site stays yours even if we stop working together.",
+      "answer_ru": "Домен регистрируется на вас, мы только помогаем с настройкой. Так сайт остаётся вашим, даже если мы перестанем работать вместе.",
+      "answer_kk": "Домен өзіңізге тіркеледі, біз тек баптауға көмектесеміз. Сонда бірге жұмыс істемей қалсақ та, сайт өзіңізде қалады.",
+      "answer_en": "The domain is registered in your name and we only help with the setup. That way the site stays yours even if we stop working together.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что делать, если понадобится запись с выбором времени?",
+      "question_kk": "Уақытты таңдаумен жазылу қажет болса, не істеу керек?",
+      "question_en": "What if I need booking with a time choice?",
+      "answer_ru": "Простая форма обратной связи входит в визитку, а запись с выбором времени подключается как отдельная доработка. Это несложно, но меняет объём работ.",
+      "answer_kk": "Қарапайым кері байланыс формасы визиткаға кіреді, ал уақытты таңдап жазылу бөлек түзету ретінде қосылады. Бұл қиын емес, бірақ жұмыс көлемін өзгертеді.",
+      "answer_en": "A simple feedback form is included in the card site, while booking with a time choice is added as a separate change. It is not hard, but it changes the scope.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли мне заводить карточку в Google или 2GIS?",
+      "question_kk": "Google немесе 2GIS-те карточка ашу керек пе?",
+      "question_en": "Do I need to set up a Google or 2GIS listing?",
+      "answer_ru": "Карточку в Google Business и 2GIS оформляете вы сами, а мы добавляем на сайт адрес, ссылку и карту. Так сайт и карточка будут указывать на одно и то же.",
+      "answer_kk": "Google Business пен 2GIS-тегі карточканы сіз өзіңіз рәсімдейсіз, ал біз сайтқа мекенжай, сілтеме және карта қосамыз. Осылайша сайт пен карточка бір мәлімет көрсетеді.",
+      "answer_en": "You set up the Google Business and 2GIS listings yourself, and we add the address, link and map to the site. This way the site and the listing point to the same details.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько времени занимает запуск?",
+      "question_kk": "Іске қосу қанша уақытқа созылады?",
+      "question_en": "How long does launch take?",
+      "answer_ru": "Срок зависит от того, как быстро вы передадите тексты и фото. Сроки согласуем в договоре, чтобы обе стороны понимали план.",
+      "answer_kk": "Мерзім мәтіндер мен фотоларды қаншалықты тез бергеніңізге байланысты. Мерзімді шартта келісеміз, сонда екі тарап жоспарды түсінеді.",
+      "answer_en": "The timeline depends on how quickly you provide the texts and photos. We agree the timing in the contract so both sides understand the plan.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как сайт выглядит на телефоне?",
+      "question_kk": "Сайт телефонда қалай көрінеді?",
+      "question_en": "How does the site look on a phone?",
+      "answer_ru": "Все страницы адаптированы под телефон, а кнопка WhatsApp доступна сразу. Клиенту удобно написать, пока он смотрит ваш Instagram.",
+      "answer_kk": "Барлық беттер телефонға бейімделген, ал WhatsApp түймесі бірден қолжетімді. Клиентке Instagram-ды қарап жатып жазу ыңғайлы.",
+      "answer_en": "All pages are adapted for phones, and the WhatsApp button is available straight away. It is easy for a client to write while looking at your Instagram.",
+      "sort": 6
     }
   ]
 }

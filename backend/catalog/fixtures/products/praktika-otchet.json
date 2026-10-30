@@ -1,0 +1,71 @@
+{
+  "slug": "praktika-otchet",
+  "category": "education",
+  "title_ru": "Практика и отчёт по практике",
+  "title_kk": "Практика және практика бойынша есеп",
+  "title_en": "Internship and internship report",
+  "short_ru": "Помогаем собрать отчёт по практике и объясняем, что вы делали и почему, чтобы вы могли рассказать об этом сами.",
+  "short_kk": "Практика бойынша есепті құрастыруға көмектесеміз және не істегеніңізді, неге солай істегеніңізді түсіндіреміз, сонда оны өзіңіз айта аласыз.",
+  "short_en": "We help you put together the internship report and explain what you did and why, so you can talk about it yourself.",
+  "description_ru": "Вы проходите практику, а мы помогаем собрать отчёт: структуру, описание задач, технические решения и оформление. Описываем только то, что вы реально делали, и разбираем каждую часть, чтобы вы могли рассказать о ней сами. Как это работает: 1) выполняем работу; 2) объясняем код и решения на созвоне или разборе; 3) передаём проект, исходники и пояснения; 4) помогаем подготовиться к защите. Оплата 50 на 50: половина до начала работы, половина после передачи результата.",
+  "description_kk": "Практикадан өтесіз, біз есепті құрастыруға көмектесеміз: құрылымын, тапсырмалар сипаттамасын, техникалық шешімдерді және рәсімдеуді. Тек шынымен орындағаныңызды сипаттаймыз және әр бөлікті талдаймыз, сонда оны өзіңіз айта аласыз. Жұмыс қалай өтеді: 1) жұмысты орындаймыз; 2) онлайн-кездесуде немесе талдауда кодты және шешімдерді түсіндіреміз; 3) жобаны, бастапқы кодты және түсініктемелерді тапсырамыз; 4) қорғауға дайындалуға көмектесеміз. Төлем 50/50: жұмыс басталғанға дейін жартысы, нәтиже тапсырылғаннан кейін жартысы.",
+  "description_en": "You do the internship, and we help you put the report together: structure, task descriptions, technical decisions and layout. We describe only what you actually did and go through each part so you can talk about it yourself. How it works: 1) we do the work; 2) we explain the code and decisions on a call or review; 3) we hand over the project, source code and notes; 4) we help you prepare for the defence. Payment 50/50: half before we start, half after we hand over the result.",
+  "for_whom_ru": "Для студентов, которые проходят практику и хотят оформить отчёт понятно и честно, чтобы рассказать о проделанной работе на защите.",
+  "for_whom_kk": "Практикадан өтіп жатқан және есепті түсінікті, адал рәсімдеп, қорғауда орындалған жұмыс туралы айтқысы келетін студенттерге арналған.",
+  "for_whom_en": "For students doing an internship who want a clear, honest report and can talk about their work at the defence.",
+  "includes_ru": [
+    "Уточнение требований к отчёту и сроков по вашему заданию",
+    "Выполнение отчёта: структура, описание задач и оформление",
+    "Созвон или разбор, где объясняем технические решения по шагам",
+    "Передача документа, исходников и пояснений к каждой части",
+    "Разбор теории, которая нужна для описания работы",
+    "Подготовка к защите отчёта: вероятные вопросы и ответы",
+    "Советы по оформлению и работе с кодом или схемами"
+  ],
+  "includes_kk": [
+    "Есеп талаптарын және мерзімді тапсырмаңыз бойынша нақтылау",
+    "Есепті орындау: құрылым, тапсырмалар сипаттамасы және рәсімдеу",
+    "Онлайн-кездесу немесе талдау, онда техникалық шешімдерді қадамдап түсіндіреміз",
+    "Құжатты, бастапқы кодты және әр бөлікке түсініктемені тапсыру",
+    "Жұмысты сипаттау үшін қажет теорияны талдау",
+    "Есепті қорғауға дайындық: мүмкін сұрақтар және жауаптар",
+    "Код немесе сызбалармен жұмыс және рәсімдеу бойынша кеңестер"
+  ],
+  "includes_en": [
+    "Clarifying the report requirements and deadline from your brief",
+    "Doing the report: structure, task descriptions and layout",
+    "A call or review where we explain the technical decisions step by step",
+    "Handing over the document, source code and notes on each part",
+    "Explaining the theory needed to describe the work",
+    "Report defence preparation: likely questions and answers",
+    "Tips on layout and working with code or diagrams"
+  ],
+  "not_included_ru": [
+    "Прохождение практики вместо вас и выдуманные сведения о работе: описываем только то, что вы реально делали",
+    "Гарантию зачёта или оценки: решение принимает ваше учебное заведение и руководитель практики",
+    "Выдачу работы за свою, если это запрещено правилами вашего учебного заведения: соблюдение правил вуза или колледжа остаётся на вас"
+  ],
+  "not_included_kk": [
+    "Сіздің орныңызға практикадан өту және жұмыс туралы ойдан шығарылған мәліметтер: тек шынымен орындағаныңызды сипаттаймыз",
+    "Сынаққа немесе бағаға кепілдік: шешімді оқу орныңыз және практика жетекшісі қабылдайды",
+    "Оқу орныңыздың ережесіне қайшы жұмысты өзіңіздікі ретінде тапсыру: ережелерді сақтау жауапкершілігі сізде қалады"
+  ],
+  "not_included_en": [
+    "Doing the internship in your place or inventing facts about the work: we describe only what you actually did",
+    "A guaranteed pass or grade: your institution and internship supervisor decide",
+    "Handing in work as your own where your institution's rules prohibit it: following those rules is your responsibility"
+  ],
+  "price_from_kzt": 8000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 7,
+  "related": [
+    "diplomnye-proekty",
+    "kursovye-proekty",
+    "razbor-laboratornyh"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 157,
+  "faqs": []
+}

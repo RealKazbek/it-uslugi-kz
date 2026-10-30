@@ -13,6 +13,7 @@ from django.db import transaction
 from catalog.models import Category, Product, ProductFAQ
 from catalog.services.fixtures import (
     SeedError,
+    load_faq_overrides,
     load_fixture,
     load_fixture_dir,
     model_fields,
@@ -38,7 +39,9 @@ def seed_all() -> SeedResult:
     """Load all fixtures. Revalidation is suppressed while writing and fired once at the end."""
     with revalidation_suppressed(), transaction.atomic():
         categories = seed_categories(load_fixture("categories.json"))
-        products, faqs = seed_products(load_fixture_dir("products"))
+        products, faqs = seed_products(
+            load_fixture_dir("products"), faq_overrides=load_faq_overrides("study_faqs.json")
+        )
         cities = seed_cities(load_fixture_dir("cities"))
     result = SeedResult(categories=categories, products=products, faqs=faqs, cities=cities)
     post_revalidate(all_tags())
@@ -55,7 +58,12 @@ def seed_categories(items: list[dict[str, Any]]) -> int:
     return len(items)
 
 
-def seed_products(items: list[dict[str, Any]]) -> tuple[int, int]:
+def seed_products(
+    items: list[dict[str, Any]],
+    faq_overrides: dict[str, list[dict[str, Any]]] | None = None,
+) -> tuple[int, int]:
+    """Load products; a slug in `faq_overrides` gets those FAQs instead of its own."""
+    overrides = faq_overrides or {}
     categories = {category.slug: category for category in Category.objects.all()}
     products: dict[str, Product] = {}
     faq_count = 0
@@ -70,11 +78,25 @@ def seed_products(items: list[dict[str, Any]]) -> tuple[int, int]:
             defaults={**defaults, "category": category},
         )
         products[slug] = product
-        faq_count += _replace_faqs(product, item["faqs"])
+        faq_count += _replace_faqs(product, overrides.get(slug, item["faqs"]))
+    unknown = sorted(set(overrides) - set(products))
+    if unknown:
+        raise SeedError(f"study_faqs.json: no product fixture for slugs {', '.join(unknown)}")
     for item in items:
         related = resolve_slugs(Product.objects.all(), item["related"], f"product {item['slug']}")
         products[item["slug"]].related.set(related)
+    _prune_stale_products(set(products))
     return len(items), faq_count
+
+
+def _prune_stale_products(slugs: set[str]) -> int:
+    """Delete products whose slug is no longer in the fixtures (renamed or removed)."""
+    stale = Product.objects.exclude(slug__in=slugs)
+    removed = list(stale.values_list("slug", flat=True))
+    if removed:
+        stale.delete()
+        logger.info("Pruned products missing from fixtures: %s", ", ".join(sorted(removed)))
+    return len(removed)
 
 
 def _replace_faqs(product: Product, faqs: list[dict[str, Any]]) -> int:

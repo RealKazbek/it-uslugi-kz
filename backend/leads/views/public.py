@@ -9,14 +9,14 @@ from rest_framework.views import APIView
 from leads.models import Lead
 from leads.serializers.lead import LeadOkSerializer, LeadPublicSerializer
 from leads.services.create_lead import create_lead
-from leads.throttles import LeadBurstThrottle, LeadDailyThrottle
+from leads.throttles import LeadDailyThrottle, LeadHourlyThrottle
 
 logger = logging.getLogger(__name__)
 
 
 class PublicLeadView(APIView):
     authentication_classes = []
-    throttle_classes = [LeadBurstThrottle, LeadDailyThrottle]
+    throttle_classes = [LeadHourlyThrottle, LeadDailyThrottle]
 
     @extend_schema(request=LeadPublicSerializer, responses={201: LeadOkSerializer})
     def post(self, request: Request) -> Response:

@@ -1,0 +1,132 @@
+{
+  "slug": "deploy-proekta",
+  "category": "devops",
+  "title_ru": "Деплой проекта на сервер",
+  "title_kk": "Жобаны серверге орналастыру",
+  "title_en": "Deploying your project to a server",
+  "short_ru": "Переносим сайт или приложение на сервер и настраиваем окружение и запуск. Проект работает стабильно, а вы получаете понятную инструкцию по обновлению.",
+  "short_kk": "Сайтты немесе қосымшаны серверге көшіреміз, ортаны және іске қосуды баптаймыз. Жоба тұрақты жұмыс істейді, ал сіз жаңарту нұсқаулығын аласыз.",
+  "short_en": "We move your website or app to a server and set up the environment and startup. The project runs reliably and you get a clear guide for updates.",
+  "description_ru": "Наша команда переносит проект с локального компьютера или тестового окружения на рабочий сервер. Мы настраиваем зависимости, переменные окружения, базу данных и запуск процессов, чтобы проект работал даже после перезагрузки сервера. В конце проверяем страницы и формы и передаём доступы и инструкцию.",
+  "description_kk": "Біздің команда жобаны жергілікті компьютерден немесе тестілік ортадан жұмыс серверіне көшіреді. Тәуелділіктерді, орта айнымалыларын, дерекқорды және процестерді іске қосуды баптаймыз, сонда сервер қайта қосылғаннан кейін де жоба жұмыс істейді. Соңында беттерді, формаларды тексеріп, қолжетімділік пен нұсқаулықты береміз.",
+  "description_en": "Our team moves your project from a local machine or test environment to a working server. We configure dependencies, environment variables, the database and process startup, so the project keeps running after a server reboot. At the end we check pages and forms, then hand over access and a guide.",
+  "for_whom_ru": "Для компаний и предпринимателей, у которых сайт или приложение готовы, но работают только на компьютере разработчика или на бесплатном хостинге.",
+  "for_whom_kk": "Сайты немесе қосымшасы дайын, бірақ әзірге тек әзірлеушінің компьютерінде немесе тегін хостингте жұмыс істейтін компаниялар мен кәсіпкерлерге арналған.",
+  "for_whom_en": "For companies and founders whose site or app is ready but still runs only on a developer's laptop or on free hosting.",
+  "includes_ru": [
+    "Подготовка сервера: установка нужных пакетов и версий окружения",
+    "Перенос кода, файлов и базы данных без потери данных",
+    "Настройка переменных окружения и секретов в отдельном файле",
+    "Запуск проекта через менеджер процессов или Docker с автозапуском после перезагрузки",
+    "Проверка всех страниц, форм и интеграций на сервере",
+    "Инструкция по обновлению проекта и список доступов"
+  ],
+  "includes_kk": [
+    "Серверді дайындау: қажетті пакеттер мен орта нұсқаларын орнату",
+    "Кодты, файлдарды және дерекқорды деректерді жоғалтпай көшіру",
+    "Орта айнымалылары мен құпияларын бөлек файлда баптау",
+    "Жобаны процесс менеджері немесе Docker арқылы іске қосу, қайта қосылғанда автоматты іске қосылуы",
+    "Серверде барлық беттердің, формалардың және интеграциялардың жұмысын тексеру",
+    "Жобаны жаңарту нұсқаулығы және қолжетімділіктер тізімі"
+  ],
+  "includes_en": [
+    "Server preparation: installing the packages and runtime versions the project needs",
+    "Moving code, files and the database without losing data",
+    "Setting environment variables and secrets in a separate file",
+    "Running the project under a process manager or Docker, with autostart after a reboot",
+    "Checking all pages, forms and integrations on the server",
+    "A guide for updating the project and a list of access details"
+  ],
+  "not_included_ru": [
+    "Аренда сервера и оплата хостинга: сервер арендуете вы, а мы подскажем, какой нужен",
+    "Доработка функций и исправление ошибок, найденных при переносе: это оценивается отдельно",
+    "Гарантия отсутствия сбоев в будущем: стабильный запуск мы настраиваем, но сбои на стороне хостинга от нас не зависят"
+  ],
+  "not_included_kk": [
+    "Серверді сатып алу және хостинг төлемі: серверді сіз жалға аласыз, ал қандайы керегін біз айтамыз",
+    "Көшіру кезінде табылған қателерді түзету және жаңа функциялар: бұл бөлек бағаланады",
+    "Болашақта ақау болмауына кепілдік: тұрақты іске қосуды баптаймыз, бірақ хостингтегі сыртқы ақаулар бізге тәуелсіз"
+  ],
+  "not_included_en": [
+    "Buying the server and paying for hosting: you rent the server, and we advise which one you need",
+    "Fixing bugs or adding features found during the move: these are priced separately",
+    "A guarantee of no failures in future: we set up a stable launch, but outages on the hosting side are outside our control"
+  ],
+  "price_from_kzt": 24000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 5,
+  "related": [
+    "domen-hosting-ssl",
+    "vps-nastroika",
+    "ci-cd-avtodeploi"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 130,
+  "faqs": [
+    {
+      "question_ru": "Что нужно предоставить, чтобы начать?",
+      "question_kk": "Бастау үшін нені беру керек?",
+      "question_en": "What do you need from me to start?",
+      "answer_ru": "Исходный код в репозитории или архиве, список переменных окружения без значений и доступ к серверу или данные для его создания. Если есть база данных, понадобится её копия. Пароли и ключи передавайте через защищённый канал, а не в открытом чате.",
+      "answer_kk": "Репозиторий немесе мұрағаттағы бастапқы код, мәндерсіз орта айнымалыларының тізімі және серверге қолжетімділік немесе оны құруға деректер. Дерекқор болса, оның көшірмесі керек. Құпия сөздер мен кілттерді ашық чатта емес, қорғалған арна арқылы беріңіз.",
+      "answer_en": "The source code in a repository or archive, a list of environment variables without their values, and access to a server or the details needed to create one. If there is a database, we need a copy of it. Send passwords and keys through a secure channel, not in an open chat.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что происходит после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after the launch?",
+      "answer_ru": "Вы получаете доступы, инструкцию по обновлению и список того, что настроено. Если после запуска всплывут ошибки, связанные с переносом, мы исправим их в рамках этой работы. Новые функции в этот пункт не входят.",
+      "answer_kk": "Сіз қолжетімділікті, жаңарту нұсқаулығын және не баптанғанының тізімін аласыз. Іске қосқаннан кейін көшіруге байланысты қателер шықса, оларды осы жұмыс аясында түзетеміз. Жаңа функциялар бұған кірмейді.",
+      "answer_en": "You receive access, an update guide and a list of what has been configured. If errors related to the move appear after launch, we fix them within this work. New features are not part of this item.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что оплачивается отдельно?",
+      "question_kk": "Не бөлек төленеді?",
+      "question_en": "What is paid separately?",
+      "answer_ru": "Аренда сервера, домен, платные лицензии сервисов и новые функции оплачиваются отдельно. Стоимость переноса не меняется, если проект соответствует описанию и не требует переписывания кода.",
+      "answer_kk": "Серверді жалға алу, домен, қызметтердің ақылы лицензиялары және жаңа функциялар бөлек төленеді. Жоба сипаттамаға сәйкес келсе және кодты қайта жазу керек болмаса, көшіру бағасы өзгермейді.",
+      "answer_en": "Server rental, the domain, paid service licences and new features are paid separately. The price of the move stays the same if the project matches this description and does not need its code rewritten.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли мне отдельный домен для проекта?",
+      "question_kk": "Жобаға бөлек домен керек пе?",
+      "question_en": "Do I need a separate domain for the project?",
+      "answer_ru": "Домен не обязателен для запуска, сайт работает и по IP. Но для удобства и HTTPS советуем подключить домен, это отдельная услуга.",
+      "answer_kk": "Іске қосу үшін домен міндетті емес, сайт IP арқылы да жұмыс істейді. Бірақ ыңғайлы болу және HTTPS үшін доменді қосуды ұсынамыз, бұл бөлек қызмет.",
+      "answer_en": "A domain is not required to launch, since the site also works by IP. For convenience and HTTPS we recommend connecting a domain, which is a separate service.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно, если сервер у меня уже есть?",
+      "question_kk": "Серверім бар болса, не керек?",
+      "question_en": "What is needed if I already have a server?",
+      "answer_ru": "Достаточно SSH-доступа с правами пользователя и списка переменных окружения. Мы также проверим, хватает ли ресурсов под проект.",
+      "answer_kk": "Пайдаланушы құқығы бар SSH қолжетімділігі және орта айнымалыларының тізімі жеткілікті. Жоба үшін ресурс жеткілікті ме, соны да тексереміз.",
+      "answer_en": "SSH access with user rights and the list of environment variables is enough. We will also check that the server has enough resources for the project.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как обновлять проект после сдачи?",
+      "question_kk": "Тапсырғаннан кейін жобаны қалай жаңартуға болады?",
+      "question_en": "How do I update the project after handover?",
+      "answer_ru": "В инструкции описано, как выкатить новую версию: обычно это загрузка кода и перезапуск процесса. Сложные обновления можно заказать отдельно.",
+      "answer_kk": "Нұсқаулықта жаңа нұсқаны қалай шығару керектігі жазылған: әдетте бұл кодты жүктеу және процесті қайта іске қосу. Күрделі жаңартуларға бөлек тапсырыс беруге болады.",
+      "answer_en": "The instructions describe how to roll out a new version, usually by uploading the code and restarting the process. Complex updates can be ordered separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Будет ли резервная копия перед переносом?",
+      "question_kk": "Көшіру алдында резервтік көшірме жасалады ма?",
+      "question_en": "Will there be a backup before the move?",
+      "answer_ru": "Да. Перед переносом делаем копию базы и файлов на текущем месте, чтобы при ошибке можно было вернуть рабочую версию.",
+      "answer_kk": "Иә. Көшірмес бұрын ағымдағы орында базаның және файлдардың көшірмесін жасаймыз, қате болса жұмыс нұсқасын қайтаруға болады.",
+      "answer_en": "Yes. Before the move we copy the database and files from the current location so a working version can be restored if something goes wrong.",
+      "sort": 6
+    }
+  ]
+}

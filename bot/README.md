@@ -1,6 +1,6 @@
 # bot (aiogram 3)
 
-Telegram bot for RK Dev: language picker, catalog browsing, order intake (POST /api/internal/leads)
+Telegram bot for Perne: language picker, catalog browsing, order intake (POST /api/internal/leads)
 and admin commands for the admin chat (`/leads`, `/stats`, status buttons on lead notifications).
 
 ## Layout

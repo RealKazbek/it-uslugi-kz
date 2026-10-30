@@ -55,7 +55,7 @@
     "A student account with grades (that is a separate web app)",
     "Programme texts and teacher photos come from you"
   ],
-  "price_from_kzt": 55000,
+  "price_from_kzt": 70000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,
@@ -71,9 +71,9 @@
       "question_ru": "Как быстро менять расписание групп?",
       "question_kk": "Топ кестесін қаншалықты тез өзгертуге болады?",
       "question_en": "How easily can the timetable be changed?",
-      "answer_ru": "Расписание хранится в таблице, которую можно править самому или присылать мне. Изменение появляется на сайте в тот же день.",
-      "answer_kk": "Кесте өзіңіз өзгерте алатын немесе маған жіберетін кестеде сақталады. Өзгеріс сайтта сол күні пайда болады.",
-      "answer_en": "The timetable sits in a table you can edit yourself or send to me. The change appears on the site the same day.",
+      "answer_ru": "Расписание хранится в таблице, которую можно править самому или присылать нам. Изменение появляется на сайте в тот же день.",
+      "answer_kk": "Кесте өзіңіз өзгерте алатын немесе бізге жіберетін кестеде сақталады. Өзгеріс сайтта сол күні пайда болады.",
+      "answer_en": "The timetable sits in a table you can edit yourself or send to us. The change appears on the site the same day.",
       "sort": 0
     },
     {
@@ -89,10 +89,46 @@
       "question_ru": "Нужна ли версия на казахском?",
       "question_kk": "Қазақша нұсқа керек пе?",
       "question_en": "Do I need a Kazakh version?",
-      "answer_ru": "Если среди ваших учеников есть казахоязычные семьи, версия на двух языках помогает. Она делается по договорённости, а тексты переведу или отредактирую вместе с вами.",
-      "answer_kk": "Оқушыларыңыздың арасында қазақ тілді отбасылар болса, екі тілді нұсқа көмектеседі. Ол келісім бойынша жасалады, мәтіндерді сізбен бірге аударамын не өңдеймін.",
-      "answer_en": "If some of your families speak Kazakh, a two-language version helps. It is done by agreement, and I translate or edit the texts together with you.",
+      "answer_ru": "Если среди ваших учеников есть казахоязычные семьи, версия на двух языках помогает. Она делается по договорённости, а тексты переведём или отредактируем вместе с вами.",
+      "answer_kk": "Оқушыларыңыздың арасында қазақ тілді отбасылар болса, екі тілді нұсқа көмектеседі. Ол келісім бойынша жасалады, мәтіндерді сізбен бірге аударамыз не өңдейміз.",
+      "answer_en": "If some of your families speak Kazakh, a two-language version helps. It is done by agreement, and we translate or edit the texts together with you.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли принимать оплату за курсы прямо на сайте?",
+      "question_kk": "Курстар үшін төлемді тікелей сайтта қабылдауға бола ма?",
+      "question_en": "Can course payments be taken directly on the site?",
+      "answer_ru": "Сайт показывает условия оплаты по месяцам, а онлайн-оплата подключается отдельно по договорённости. До этого клиент записывается через форму, а оплату принимает администратор.",
+      "answer_kk": "Сайт айлық төлем шарттарын көрсетеді, ал онлайн төлем келісім бойынша бөлек қосылады. Осыған дейін клиент формада жазылады, төлемді әкімші қабылдайды.",
+      "answer_en": "The site shows monthly payment terms, and online payment is connected separately by agreement. Until then clients sign up through the form and the administrator takes payment.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли снимать видео преподавателей?",
+      "question_kk": "Оқытушылардың бейнесін түсіру керек пе?",
+      "question_en": "Do we need to film the teachers?",
+      "answer_ru": "Не обязательно: для страницы преподавателя достаточно фото и описания опыта. Видео можно добавить позже, если у вас есть материалы.",
+      "answer_kk": "Міндетті емес: оқытушы бетіне фото мен тәжірибе сипаттамасы жеткілікті. Материалдарыңыз болса, бейнені кейін қосуға болады.",
+      "answer_en": "It is not required: a photo and a description of experience are enough for a teacher page. You can add video later if you have material.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как добавить новый курс?",
+      "question_kk": "Жаңа курсты қалай қосуға болады?",
+      "question_en": "How do we add a new course?",
+      "answer_ru": "Курс добавляется отдельной страницей по единому шаблону: программа, возраст, длительность, стоимость. Мы объясним, какие поля заполнять, чтобы сайт выглядел одинаково.",
+      "answer_kk": "Курс бірыңғай үлгі бойынша жеке бетте қосылады: бағдарлама, жас, ұзақтығы, құны. Сайт бірдей көрінуі үшін қай өрістерді толтыру керектігін түсіндіреміз.",
+      "answer_en": "A course is added as a separate page using one template: programme, age, duration, cost. We will explain which fields to fill so the site looks consistent.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто отвечает за заявки, если администратор занят?",
+      "question_kk": "Әкімші бос болмаса, өтінімдерге кім жауап береді?",
+      "question_en": "Who handles requests if the administrator is busy?",
+      "answer_ru": "Заявки приходят в уведомления, но ответ клиенту зависит от вашей команды. Лучше закрепить регламент: кто и в какой срок отвечает.",
+      "answer_kk": "Өтінімдер хабарламаға келеді, бірақ клиентке жауап сіздің командаңызға байланысты. Кім және қанша уақытта жауап беретінін регламентте бекіткен дұрыс.",
+      "answer_en": "Requests arrive as notifications, but replying to clients depends on your team. It is worth setting a rule for who answers and how quickly.",
+      "sort": 6
     }
   ]
 }

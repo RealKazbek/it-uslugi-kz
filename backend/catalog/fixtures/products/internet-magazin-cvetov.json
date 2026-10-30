@@ -55,7 +55,7 @@
     "A courier service, as you organise the delivery yourself",
     "Online card payment, which can be added separately through a provider API by agreement"
   ],
-  "price_from_kzt": 150000,
+  "price_from_kzt": 190000,
   "unit": "once",
   "days_min": 14,
   "days_max": 25,
@@ -93,6 +93,42 @@
       "answer_kk": "Әкімшілік панелінде гүл шоғы бір ауыстырғышпен жасырылады немесе «тапсырыс бойынша» деп белгіленеді. Сайтта мұндай позиция сатып алушыны адастырмайды.",
       "answer_en": "In the admin panel a bouquet is hidden or marked as made to order with one switch. On the site such an item does not mislead the buyer.",
       "sort": 2
+    },
+    {
+      "question_ru": "Как клиент выбирает время доставки, если букет нужен сегодня?",
+      "question_kk": "Клиент гүл бүгін керек болса, жеткізу уақытын қалай таңдайды?",
+      "question_en": "How does a customer choose a delivery time if the bouquet is needed today?",
+      "answer_ru": "В форме показываются только ближайшие интервалы, которые вы открыли для заказа, поэтому прошедшее время не выбрать. Интервалы и лимит заказов на день задаёте вы.",
+      "answer_kk": "Формада тек сіз тапсырысқа ашқан жақын аралықтар көрсетіледі, сондықтан өткен уақытты таңдау мүмкін емес. Аралықтарды және күндік тапсырыс лимитін сіз белгілейсіз.",
+      "answer_en": "The form shows only the nearest intervals you have opened for orders, so past times cannot be chosen. You set the intervals and the daily order limit.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Получит ли флорист все детали заказа?",
+      "question_kk": "Гүлші тапсырыстың барлық мәліметін ала ма?",
+      "question_en": "Will the florist receive all the order details?",
+      "answer_ru": "Да, в уведомлении в Telegram есть состав букета, допы, текст открытки, адрес и интервал. Всё это видно и в админке.",
+      "answer_kk": "Иә, Telegram хабарламасында гүл құрамы, қосымша заттар, открытка мәтіні, мекенжай және аралық бар. Мұның бәрін әкімшілік панельден де көресіз.",
+      "answer_en": "Yes, the Telegram alert includes the bouquet, extras, card text, address and time slot. You can also see all of it in the admin panel.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли принимать предзаказы на праздники?",
+      "question_kk": "Мерекелерге алдын ала тапсырыс қабылдауға бола ма?",
+      "question_en": "Can I take pre-orders for holidays?",
+      "answer_ru": "Да, даты можно открыть заранее, например на 8 марта. Что доступно в эти дни, вы меняете в админке до праздника.",
+      "answer_kk": "Иә, күндерді алдын ала аша аласыз, мысалы 8 наурызға. Сол күндері не қолжетімді екенін мерекеге дейін әкімшілік панельде өзгертесіз.",
+      "answer_en": "Yes, dates can be opened in advance, for example for March 8. You change what is available on those days in the admin before the holiday.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что делать, если клиент ошибся адресом?",
+      "question_kk": "Клиент мекенжайды қате жазса не істеу керек?",
+      "question_en": "What if a customer enters the wrong address?",
+      "answer_ru": "Заказ можно поправить в админке, а связь с клиентом остаётся у вашего персонала по телефону.",
+      "answer_kk": "Тапсырысты әкімшілік панельде түзетуге болады, ал клиентпен телефон арқылы байланыс сіздің қызметкерлеріңізде қалады.",
+      "answer_en": "The order can be corrected in the admin, while contacting the customer by phone stays with your staff.",
+      "sort": 6
     }
   ]
 }

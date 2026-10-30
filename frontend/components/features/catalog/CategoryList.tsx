@@ -9,12 +9,12 @@ export function CategoryList({ categories, hrefFor, countLabel }: {
   return (
     <ul className="grid gap-x-8 gap-y-6 sm:grid-cols-2">
       {categories.map((category) => (
-        <li key={category.slug} className="border-t border-line pt-4">
-          <Link href={hrefFor(category.slug)} className="text-lg font-bold text-ink no-underline hover:underline">
+        <li key={category.slug} className="border-t border-border pt-4">
+          <Link href={hrefFor(category.slug)} className="text-lg font-bold text-foreground no-underline hover:underline">
             {category.name}
           </Link>
-          <p className="text-muted">{category.short}</p>
-          <p className="text-sm text-muted">{countLabel(category.productCount)}</p>
+          <p className="text-muted-foreground">{category.short}</p>
+          <p className="text-sm text-muted-foreground">{countLabel(category.productCount)}</p>
         </li>
       ))}
     </ul>

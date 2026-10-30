@@ -52,7 +52,7 @@
     "The server for the bot, set up in your name and paid at the provider rate",
     "Handling the enquiries themselves, as calling back and replying is up to you"
   ],
-  "price_from_kzt": 30000,
+  "price_from_kzt": 25000,
   "unit": "once",
   "days_min": 3,
   "days_max": 5,
@@ -90,6 +90,42 @@
       "answer_kk": "Мұнда кесте мен слоттар жоқ: бот байланыс пен сұраныс мәнін жинайды, ал келісімді өзіңіз жасайсыз. Уақыт таңдау керек болса, жазылу ботын алыңыз.",
       "answer_en": "This one has no schedule or slots: the bot gathers the contact and the substance of the request and you take it from there. If clients need to pick a time, choose the booking bot.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли клиенту регистрироваться или знать ваш сайт?",
+      "question_kk": "Клиент тіркелуі немесе сайтты білуі керек пе?",
+      "question_en": "Does the client need to register or know your website?",
+      "answer_ru": "Нет, бот работает прямо в Telegram: клиенту достаточно нажать «Старт» и ответить на вопросы. Сайт для этого не нужен.",
+      "answer_kk": "Жоқ, бот тікелей Telegram ішінде жұмыс істейді: клиент «Старт» басып, сұрақтарға жауап берсе жеткілікті. Бұған сайт керек емес.",
+      "answer_en": "No, the bot works right inside Telegram: the client only needs to press Start and answer the questions. No website is needed for this.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли поменять вопросы после запуска?",
+      "question_kk": "Іске қосқаннан кейін сұрақтарды өзгертуге бола ма?",
+      "question_en": "Can the questions be changed after launch?",
+      "answer_ru": "Да, текст вопросов и их порядок можно поменять, если изменения согласованы. Если нужен новый тип данных, например файл, может потребоваться небольшая доработка.",
+      "answer_kk": "Иә, сұрақтардың мәтіні мен ретін келісілген болса өзгертуге болады. Жаңа деректер түрін, мысалы файлды қосу керек болса, аздап түзету қажет болуы мүмкін.",
+      "answer_en": "Yes, the question text and their order can be changed if the changes are agreed. Adding a new data type, such as a file, may need a small adjustment.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет, если клиент ответит не на все вопросы?",
+      "question_kk": "Клиент барлық сұраққа жауап бермесе, не болады?",
+      "question_en": "What if the client does not answer every question?",
+      "answer_ru": "Бот не отправит заявку, пока не получит обязательные поля, и напомнит, что осталось заполнить. Необязательные вопросы можно пропустить, и тогда в заявке будет пометка «не указано».",
+      "answer_kk": "Бот міндетті өрістер толтырылмай өтінімді жібермейді және не толтыру керек екенін ескертеді. Міндетті емес сұрақтарды өткізіп жіберуге болады, сонда өтінімде «көрсетілмеген» деп белгіленеді.",
+      "answer_en": "The bot will not send the request until it gets the required fields, and reminds the client what is still missing. Optional questions can be skipped, and the request will show 'not specified' for them.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли получать заявки в несколько чатов?",
+      "question_kk": "Өтінімдерді бірнеше чатқа алуға бола ма?",
+      "question_en": "Can requests go to several chats?",
+      "answer_ru": "Да, заявку можно отправить нескольким сотрудникам в личные сообщения или в общий рабочий чат. Распределение заявок по менеджерам требует отдельной логики, которую обсуждаем заранее.",
+      "answer_kk": "Иә, өтінімді бірнеше қызметкерге жеке хабарламаға немесе ортақ жұмыс чатына жіберуге болады. Өтінімдерді менеджерлер арасында бөлу бөлек логиканы талап етеді, оны алдын ала талқылаймыз.",
+      "answer_en": "Yes, a request can go to several employees in direct messages or to a shared work chat. Splitting requests between managers needs separate logic, which we discuss in advance.",
+      "sort": 6
     }
   ]
 }

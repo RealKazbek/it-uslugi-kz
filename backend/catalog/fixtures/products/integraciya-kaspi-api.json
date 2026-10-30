@@ -1,0 +1,132 @@
+{
+  "slug": "integraciya-kaspi-api",
+  "category": "automation",
+  "title_ru": "Интеграция с Kaspi API: заказы и остатки",
+  "title_kk": "Kaspi API интеграциясы: тапсырыстар мен қалдықтар",
+  "title_en": "Kaspi API integration: orders and stock levels",
+  "short_ru": "Подключаем ваш магазин к Kaspi API, чтобы заказы попадали в учёт, а остатки обновлялись без ручной работы.",
+  "short_kk": "Дүкеніңізді Kaspi API-ге қосамыз, сонда тапсырыстар есепке түседі, ал қалдықтар қолсыз жаңарады.",
+  "short_en": "We connect your shop to the Kaspi API so orders reach your books and stock levels update without manual work.",
+  "description_ru": "Проверяем, какие заказы и остатки нужно передавать и как они связаны с товарами в вашей системе. Настраиваем получение заказов, отправку остатков и статусов, а также обработку ошибок, чтобы не было двойных заказов и расхождений. Работаем удалённо по всему Казахстану и проверяем обмен на тестовых данных до подключения к рабочему магазину.",
+  "description_kk": "Қандай тапсырыстар мен қалдықтарды беру керек және олар сіздің жүйедегі тауарлармен қалай байланысатынын тексереміз. Тапсырыстарды алуды, қалдықтар мен статустарды жіберуді және қателерді өңдеуді баптаймыз, сонда қос тапсырыс пен сәйкессіздік болмайды. Біз Қазақстан бойынша қашықтан жұмыс істейміз және обменді нақты дүкенге қоспас бұрын тест деректерінде тексереміз.",
+  "description_en": "We check which orders and stock levels need to flow and how they match the products in your system. We set up order retrieval, stock and status updates, and error handling, so there are no duplicate orders or mismatches. We work remotely across Kazakhstan and test the exchange on sample data before connecting it to your live shop.",
+  "for_whom_ru": "Для продавцов на Kaspi, которые ведут товары в нескольких местах или сверяют остатки вручную. Подойдёт, если заказов уже стало достаточно, чтобы ручной учёт начал мешать.",
+  "for_whom_kk": "Kaspi-де сататын, тауарларын бірнеше жерде жүргізетін немесе қалдықтарды қолмен салыстыратын сатушыларға арналған. Тапсырыстар көбейіп, қолмен есеп кедергі келтіре бастаса, қолайлы.",
+  "for_whom_en": "For sellers on Kaspi who manage products in several places, or who check stock by hand and keep running into mismatches. It fits when order volume has grown enough that manual bookkeeping is getting in the way.",
+  "includes_ru": [
+    "Проверка доступа к Kaspi API и списка товаров для обмена",
+    "Получение заказов и передача их в вашу систему или учёт",
+    "Автоматическая отправка остатков по каждому товару",
+    "Сопоставление товаров по артикулам и защита от дублей заказов",
+    "Журнал операций и уведомление о сбоях",
+    "Тестирование на реальных заказах и инструкция по работе"
+  ],
+  "includes_kk": [
+    "Kaspi API қолжетімділігін және обмен үшін тауарлар тізімін тексеру",
+    "Тапсырыстарды алу және оларды жүйеңізге немесе есепке беру",
+    "Әр тауар бойынша қалдықтарды автоматты түрде жіберу",
+    "Артикулдар бойынша тауарларды салыстыру және қос тапсырыстан қорғау",
+    "Операциялар журналы және ақаулар туралы хабарлама",
+    "Нақты тапсырыстарда сынау және жұмыс бойынша нұсқаулық"
+  ],
+  "includes_en": [
+    "Checking Kaspi API access and the list of products to exchange",
+    "Retrieving orders and passing them to your system or bookkeeping",
+    "Automatic sending of stock levels for each product",
+    "Matching products by SKU and protection against duplicate orders",
+    "An operations log and alerts when something fails",
+    "Testing on real orders and a guide for daily work"
+  ],
+  "not_included_ru": [
+    "Подписка Kaspi, комиссии площадки и плата за ваш магазин на ней",
+    "Изменения правил площадки, которые могут повлиять на работу API (обновление делаем отдельно)",
+    "Ведение магазина, карточек товаров и ответы покупателям: интеграция не заменяет работу продавца"
+  ],
+  "not_included_kk": [
+    "Kaspi жазылымы, алаңның комиссиялары және дүкеніңіз үшін төлем",
+    "Алаң ережелерінің өзгеруі API жұмысына әсер етуі мүмкін (жаңартуды бөлек орындаймыз)",
+    "Дүкенді жүргізу, тауар карточкалары және сатып алушыларға жауап беру: интеграция сатушының жұмысын алмастырмайды"
+  ],
+  "not_included_en": [
+    "Your Kaspi subscription and commissions, plus the fee for your shop on the platform",
+    "Platform rule changes that may affect the API (we update the integration separately)",
+    "Running the shop, product cards and buyer replies: the integration does not replace the seller's work"
+  ],
+  "price_from_kzt": 39000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 20,
+  "related": [
+    "kaspi-xml",
+    "magazin-s-kaspi-xml",
+    "integraciya-api"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 123,
+  "faqs": [
+    {
+      "question_ru": "Что нужно для подключения?",
+      "question_kk": "Қосу үшін не керек?",
+      "question_en": "What do you need to connect?",
+      "answer_ru": "Доступ к личному кабинету продавца и API-доступ, который вы оформляете в кабинете. Также нужен список товаров с артикулами, чтобы мы сопоставили его с вашей системой.",
+      "answer_kk": "Сатушының жеке кабинетіне қолжетімділік және кабинетте рәсімделетін API-қолжетімділік керек. Сондай-ақ артикулдары бар тауарлар тізімі қажет, сонда біз оны жүйеңізбен салыстырамыз.",
+      "answer_en": "Access to your seller account and the API access you set up there. We also need a product list with SKUs so we can match it to your system.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что оплачивается отдельно?",
+      "question_kk": "Бөлек не төленеді?",
+      "question_en": "What is paid separately?",
+      "answer_ru": "Подписка Kaspi и комиссии площадки. Дополнительные отчёты, связки с другими сервисами или сложная логика учёта считаются отдельно и согласуются заранее.",
+      "answer_kk": "Kaspi жазылымы және алаңның комиссиялары. Қосымша есептер, басқа сервистермен байланыстар немесе күрделі есеп логикасы бөлек есептеледі және алдын ала келісіледі.",
+      "answer_en": "The Kaspi subscription and platform commissions. Extra reports, links to other services or complex accounting logic are priced separately and agreed in advance.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Вы получаете журнал операций и инструкцию. В первые недели мы проверяем, что заказы и остатки совпадают, и исправляем расхождения, если они найдутся.",
+      "answer_kk": "Сіз операциялар журналын және нұсқаулықты аласыз. Алғашқы аптада тапсырыстар мен қалдықтардың сәйкес келетінін тексеріп, табылған сәйкессіздікті түзетеміз.",
+      "answer_en": "You receive an operations log and a guide. In the first weeks we check that orders and stock levels match, and fix any mismatches we find.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Как не допустить двойных заказов при обрыве связи?",
+      "question_kk": "Байланыс үзілгенде қос тапсырыстың алдын қалай аламыз?",
+      "question_en": "How do you prevent duplicate orders when the connection drops?",
+      "answer_ru": "Каждый заказ сохраняется по уникальному номеру Kaspi, поэтому повторная загрузка того же номера не создаёт копию. Обмен можно безопасно перезапустить.",
+      "answer_kk": "Әр тапсырыс Kaspi-дің бірегей нөмірімен сақталады, сондықтан сол нөмір қайта жүктелсе, көшірме пайда болмайды. Алмасуды қауіпсіз қайта іске қосуға болады.",
+      "answer_en": "Each order is stored under its unique Kaspi number, so reloading the same number creates no copy. The exchange can be safely restarted.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как связываются товары и остатки?",
+      "question_kk": "Тауарлар мен қалдықтар қалай байланысады?",
+      "question_en": "How are products and stock levels matched?",
+      "answer_ru": "Остатки привязываются по артикулам, которые должны совпадать в вашей системе и в кабинете Kaspi. Товары без совпадения попадают в отчёт, чтобы вы их поправили.",
+      "answer_kk": "Қалдықтар сіздің жүйеңізде және Kaspi кабинетінде бірдей болатын артикулдар бойынша байланысады. Сәйкес келмейтін тауарлар есепке шығады, сонда оларды өзіңіз түзетесіз.",
+      "answer_en": "Stock is matched by SKU codes that must be identical in your system and the Kaspi cabinet. Unmatched products go into a report for you to fix.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет, если кабинет Kaspi временно недоступен?",
+      "question_kk": "Kaspi кабинеті уақытша қолжетімсіз болса не болады?",
+      "question_en": "What happens if the Kaspi cabinet is temporarily unavailable?",
+      "answer_ru": "Обмен повторяет попытку с паузой, а ошибка попадает в журнал и уведомление. Заказы, которые не передались, догружаются после восстановления связи.",
+      "answer_kk": "Алмасу үзіліспен қайталап көреді, ал қате журналға және хабарламаға түседі. Берілмеген тапсырыстар байланыс қалпына келгеннен кейін жүктеледі.",
+      "answer_en": "The exchange retries after a pause, and the error goes to the log and an alert. Orders that did not transfer are loaded after the connection recovers.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можем ли мы сами видеть журнал обмена?",
+      "question_kk": "Алмасу журналын өзіміз көре аламыз ба?",
+      "question_en": "Can we see the exchange log ourselves?",
+      "answer_ru": "Да, журнал остаётся у вас. По нему видно, какие заказы и остатки передались и где возникла ошибка. Как его читать, объясняем при передаче.",
+      "answer_kk": "Иә, журнал сізде қалады. Онан қандай тапсырыс пен қалдық берілгенін және қате қай жерде шыққанын көресіз. Оны қалай оқу керектігін тапсыру кезінде түсіндіреміз.",
+      "answer_en": "Yes, the log stays with you. It shows which orders and stock levels were sent and where an error happened. We explain how to read it at handover.",
+      "sort": 6
+    }
+  ]
+}

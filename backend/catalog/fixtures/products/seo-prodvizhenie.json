@@ -55,7 +55,7 @@
     "Paid advertising, link buying and manipulation of behavioural signals",
     "Building new site sections or a redesign, which are quoted separately"
   ],
-  "price_from_kzt": 40000,
+  "price_from_kzt": 70000,
   "unit": "month",
   "days_min": 1,
   "days_max": 3,
@@ -71,9 +71,9 @@
       "question_ru": "Через сколько будет виден результат?",
       "question_kk": "Нәтиже қанша уақыттан кейін көрінеді?",
       "question_en": "How soon will results be visible?",
-      "answer_ru": "Первые изменения в данных обычно заметны через 2-3 месяца, но срок зависит от возраста сайта и конкуренции. Я не обещаю точные сроки и позиции, чтобы не вводить вас в заблуждение.",
-      "answer_kk": "Деректердегі алғашқы өзгерістер әдетте 2-3 айдан кейін көрінеді, бірақ мерзім сайт жасына және бәсекеге байланысты. Адастырмау үшін нақты мерзім мен позицияны уәде етпеймін.",
-      "answer_en": "The first changes in the data are usually visible after 2-3 months, but the timing depends on the age of the site and the competition. I do not promise exact timing or positions so as not to mislead you.",
+      "answer_ru": "Первые изменения в данных обычно заметны через 2-3 месяца, но срок зависит от возраста сайта и конкуренции. Мы не обещаем точные сроки и позиции, чтобы не вводить вас в заблуждение.",
+      "answer_kk": "Деректердегі алғашқы өзгерістер әдетте 2-3 айдан кейін көрінеді, бірақ мерзім сайт жасына және бәсекеге байланысты. Адастырмау үшін нақты мерзім мен позицияны уәде етпейміз.",
+      "answer_en": "The first changes in the data are usually visible after 2-3 months, but the timing depends on the age of the site and the competition. We do not promise exact timing or positions so as not to mislead you.",
       "sort": 0
     },
     {
@@ -93,6 +93,42 @@
       "answer_kk": "Мұнда жұмыс сайттың өзімен және оның беттерімен жүреді. Жергілікті SEO карталарға, ұйым карточкаларына, пікірлерге және қала атауы бар сұраныстарға баса назар аударады.",
       "answer_en": "Here the work is on the site itself and its pages. Local SEO focuses on maps, organisation listings, reviews and queries that include a city name.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если текстов нужно больше четырёх в месяц?",
+      "question_kk": "Айына төрттен көп мәтін керек болса, не болады?",
+      "question_en": "What if we need more than four texts a month?",
+      "answer_ru": "Тексты сверх четырёх обсуждаем отдельно, а остальная работа остаётся в пределах месячного объёма. Так вы заранее знаете, что входит в месяц.",
+      "answer_kk": "Төрттен асатын мәтіндерді бөлек талқылаймыз, ал қалған жұмыс айлық көлем шегінде қалады. Осылайша айға не кіретінін алдын ала білесіз.",
+      "answer_en": "Texts beyond four are discussed separately, and the rest of the work stays within the monthly scope. This way you know in advance what a month includes.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно от бизнеса, чтобы тексты были точными?",
+      "question_kk": "Мәтіндер дәл болуы үшін бизнестен не керек?",
+      "question_en": "What do we need from the business so the texts are accurate?",
+      "answer_ru": "Опишите услуги, их особенности и частые вопросы клиентов, а также дайте отзывы, если они есть. Так тексты будут конкретными, а не общими.",
+      "answer_kk": "Қызметтерді, олардың ерекшеліктерін және клиенттердің жиі сұрақтарын сипаттаңыз, бар болса пікірлерін беріңіз. Осылайша мәтіндер жалпы емес, нақты болады.",
+      "answer_en": "Describe your services, their features and the questions clients often ask, and share reviews if you have them. This keeps the texts specific rather than generic.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кому принадлежит доступ к Search Console и аналитике?",
+      "question_kk": "Search Console және аналитикаға қолжетімділік кімге тиесілі?",
+      "question_en": "Who owns access to Search Console and analytics?",
+      "answer_ru": "Счётчики и аккаунты остаются в вашей собственности, а нам вы даёте доступ на время работы. При желании доступ можно закрыть в любой момент.",
+      "answer_kk": "Есепшоттар мен аккаунттар сізде қалады, ал жұмыс уақытына бізге қолжетімділік бересіз. Қаласаңыз, қолжетімділікті кез келген уақытта жабуға болады.",
+      "answer_en": "Counters and accounts stay yours, and you give us access for the duration of the work. If you wish, access can be closed at any time.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что если в первые месяцы движения почти нет?",
+      "question_kk": "Алғашқы айларда қозғалыс аз болса, не істеледі?",
+      "question_en": "What if there is little movement in the first months?",
+      "answer_ru": "Мы разбираем отчёт вместе и корректируем план, но гарантировать сроки или места не можем. Минимальный срок работы оговорим в договоре заранее.",
+      "answer_kk": "Біз есепті бірге талдап, жоспарды түзетеміз, бірақ мерзім немесе орын кепілдей алмаймыз. Жұмыстың ең аз мерзімін шартта алдын ала келісеміз.",
+      "answer_en": "We review the report together and adjust the plan, but we cannot guarantee timing or positions. We set the minimum working period in the contract in advance.",
+      "sort": 6
     }
   ]
 }

@@ -5,16 +5,16 @@ describe('fitPriceTitle', () => {
   it('keeps the suffix when everything fits', () => {
     expect(
       fitPriceTitle({ head: 'Лендинг', priceWithUsd: 'от 45 000 ₸', priceWithoutUsd: 'от 45 000 ₸' }),
-    ).toBe('Лендинг — от 45 000 ₸ | RK Dev');
+    ).toBe('Лендинг — от 45 000 ₸ | Perne');
   });
 
-  it('drops " | RK Dev" first', () => {
+  it('drops " | Perne" first', () => {
     const result = fitPriceTitle({
       head: 'Сайт для стоматологии и косметологии в Алматы с онлайн-записью',
       priceWithUsd: 'от 60 000 ₸',
       priceWithoutUsd: 'от 60 000 ₸',
     });
-    expect(result.endsWith(' | RK Dev')).toBe(false);
+    expect(result.endsWith(' | Perne')).toBe(false);
     expect(result.endsWith('— от 60 000 ₸')).toBe(true);
   });
 

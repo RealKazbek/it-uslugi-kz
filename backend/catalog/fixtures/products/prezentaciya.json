@@ -1,0 +1,135 @@
+{
+  "slug": "prezentaciya",
+  "category": "design",
+  "title_ru": "Презентация для бизнеса или инвесторов",
+  "title_kk": "Бизнес немесе инвесторларға арналған презентация",
+  "title_en": "Presentation for a business or investors",
+  "short_ru": "Собираем презентацию с понятной структурой, сильными слайдами и подачей, которая помогает донести главную мысль до партнёров и инвесторов.",
+  "short_kk": "Түсінікті құрылымы, күшті слайдтары бар презентация жасаймыз. Ол серіктестер мен инвесторларға негізгі ойды жеткізуге көмектеседі.",
+  "short_en": "We build a presentation with a clear structure and strong slides that get your main point across to partners and investors.",
+  "description_ru": "Наша команда помогает выстроить логику презентации: проблема, решение, рынок, модель заработка и просьба к аудитории. Затем оформляем слайды в едином стиле, с понятными графиками и текстом без перегруза. Вы получаете файл, который можно показать на встрече или отправить перед ней.",
+  "description_kk": "Біздің команда презентацияның логикасын құруға көмектеседі: проблема, шешім, нарық, табыс моделі және аудиторияға сұраныс. Содан кейін слайдтарды бірыңғай стильде, түсінікті графиктермен және артық мәтінсіз безендіреміз. Кездесуде көрсетуге немесе алдын ала жіберуге болатын файлды аласыз.",
+  "description_en": "Our team helps you build the logic of the presentation: the problem, the solution, the market, the business model and the ask for the audience. Then we design the slides in one style, with clear charts and text without clutter. You get a file you can show at a meeting or send ahead of it.",
+  "for_whom_ru": "Для предпринимателей, которые готовят выступление перед партнёрами, банками, инвесторами или на конференции, и для компаний с коммерческим предложением.",
+  "for_whom_kk": "Серіктестер, банктер, инвесторлар алдында немесе конференцияда сөз сөйлеуге дайындалып жүрген кәсіпкерлерге және коммерциялық ұсынысы бар компанияларға арналған.",
+  "for_whom_en": "For founders preparing a talk for partners, banks, investors or a conference, and for companies with a commercial offer.",
+  "includes_ru": [
+    "Разбор цели презентации и аудитории",
+    "Структура из 10-15 слайдов с логикой переходов",
+    "Оформление слайдов в едином стиле с вашим брендом",
+    "Понятные графики и схемы вместо таблиц с мелким текстом",
+    "Сжатые тексты на слайдах и заметки для докладчика",
+    "Два раунда правок по содержанию и оформлению",
+    "Файл в формате PPTX и PDF"
+  ],
+  "includes_kk": [
+    "Презентацияның мақсаты мен аудиториясын талдау",
+    "Ауысу логикасы бар 10-15 слайдтан тұратын құрылым",
+    "Слайдтарды сіздің брендіңізбен бірыңғай стильде безендіру",
+    "Ұсақ мәтінді кестелердің орнына түсінікті графиктер мен схемалар",
+    "Слайдтардағы қысқа мәтін және баяндаушыға арналған жазбалар",
+    "Мазмұны мен безендіру бойынша екі түзету айналымы",
+    "PPTX және PDF форматындағы файл"
+  ],
+  "includes_en": [
+    "A review of the presentation goal and audience",
+    "A structure of 10-15 slides with a clear flow between them",
+    "Slide design in one style with your brand",
+    "Clear charts and diagrams instead of small-print tables",
+    "Concise slide text and speaker notes",
+    "Two rounds of edits to content and design",
+    "A file in PPTX and PDF formats"
+  ],
+  "not_included_ru": [
+    "Исследование рынка и сбор цифр для презентации: цифры и источники предоставляете вы",
+    "Выступление и тренировка докладчика: это отдельная услуга",
+    "Инвестиционная модель и финансовые расчёты: их готовит финансовый специалист, а мы оформляем результат"
+  ],
+  "not_included_kk": [
+    "Нарықты зерттеу және презентацияға сандарды жинау: сандар мен дереккөздерді сіз бересіз",
+    "Баяндаушының сөйлеуі мен жаттығуы: бұл бөлек қызмет",
+    "Инвестициялық модель мен қаржылық есептеу: мұны қаржы маманы жасайды, біз нәтижені безендіреміз"
+  ],
+  "not_included_en": [
+    "Market research and gathering numbers for the deck: you provide the figures and sources",
+    "Delivering the talk and coaching the speaker: this is a separate service",
+    "An investment model and financial calculations: a finance specialist prepares them and we design the result"
+  ],
+  "price_from_kzt": 13000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 7,
+  "related": [
+    "logotip",
+    "bannery-dlya-reklamy",
+    "ui-ux-dizain"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 141,
+  "faqs": [
+    {
+      "question_ru": "В каком формате будет презентация?",
+      "question_kk": "Презентация қандай форматта болады?",
+      "question_en": "What format will the presentation be in?",
+      "answer_ru": "Основной файл в PPTX, чтобы вы могли вносить правки в PowerPoint или Google Slides, и PDF для отправки. Если у вас есть свой шаблон, оформим презентацию в нём.",
+      "answer_kk": "Негізгі файл PPTX форматында, сонда PowerPoint немесе Google Slides-та түзету жасай аласыз, сондай-ақ жіберуге PDF. Өзіңіздің шаблоныңыз болса, презентацияны соның ішінде безендіреміз.",
+      "answer_en": "The main file is in PPTX, so you can make changes in PowerPoint or Google Slides, plus a PDF for sending. If you have your own template, we will design the presentation in it.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что нужно предоставить для презентации?",
+      "question_kk": "Презентация үшін нені беру керек?",
+      "question_en": "What do you need from me for the presentation?",
+      "answer_ru": "Описание бизнеса, цель выступления, аудиторию, ключевые цифры с источниками, фирменные материалы и логотип. Чем точнее вы опишете, что хотите получить от аудитории, тем сильнее будет итоговый слайд.",
+      "answer_kk": "Бизнес сипаттамасы, сөз сөйлеудің мақсаты, аудитория, дереккөздері бар негізгі сандар, фирмалық материалдар және логотип. Аудиториядан не күтетініңізді неғұрлым нақты сипаттасаңыз, соңғы слайд соғұрлым күшті болады.",
+      "answer_en": "A description of the business, the goal of the talk, the audience, key figures with sources, brand materials and the logo. The more precisely you describe what you want from the audience, the stronger the final slide will be.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Вы проверяете цифры в презентации?",
+      "question_kk": "Презентациядағы сандарды тексересіз бе?",
+      "question_en": "Do you check the figures in the presentation?",
+      "answer_ru": "Мы оформляем цифры, которые вы предоставили, и проверяем, что графики соответствуют данным. Достоверность самих расчётов и источников остаётся на вас, поэтому перед показом инвесторам их лучше сверить с финансовым специалистом.",
+      "answer_kk": "Біз сіз берген сандарды безендіреміз және графиктердің деректерге сәйкестігін тексереміз. Есептеулер мен дереккөздердің дұрыстығы сізде қалады, сондықтан инвесторларға көрсетер алдында оларды қаржы маманымен салыстырған жөн.",
+      "answer_en": "We design the figures you provide and check that the charts match the data. The accuracy of the calculations and sources remains your responsibility, so it is better to verify them with a finance specialist before showing investors.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Сколько раундов правок входит?",
+      "question_kk": "Қанша түзету айналымы кіреді?",
+      "question_en": "How many rounds of revisions are included?",
+      "answer_ru": "Включены два раунда правок по содержанию и оформлению. Дополнительные круги обсуждаем отдельно, например если появились новые данные или изменился сценарий встречи.",
+      "answer_kk": "Мазмұн мен безендіру бойынша екі түзету айналымы кіреді. Қосымша айналымдарды бөлек талқылаймыз, мысалы жаңа деректер пайда болса немесе кездесу сценарийі өзгерсе.",
+      "answer_en": "Two rounds of revisions on content and design are included. Extra rounds are discussed separately, for example if new data appears or the meeting plan changes.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли использовать свой шаблон или фирменный стиль?",
+      "question_kk": "Өз үлгіңізді немесе фирмалық стильді пайдалануға бола ма?",
+      "question_en": "Can I use my own template or brand style?",
+      "answer_ru": "Да, если вы присылаете брендбук или файл-шаблон, работаем в этих рамках. Без брендбука подбираем стиль по логотипу и цветам, которые вы укажете.",
+      "answer_kk": "Иә, брендбук немесе үлгі файлын жіберсеңіз, сол шеңберде жұмыс істейміз. Брендбук болмаса, көрсеткен логотип пен түстер бойынша стиль таңдаймыз.",
+      "answer_en": "Yes, if you send a brand book or template file, we work within it. Without a brand book, we choose the style from the logo and colours you provide.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли, чтобы вы писали речь докладчика?",
+      "question_kk": "Баяндамашының сөзін сіз жазуыңыз керек пе?",
+      "question_en": "Will you write the speech for me?",
+      "answer_ru": "Мы добавляем заметки для докладчика к слайдам, но текст речи и её тренировку ведёте вы. Тренировка выступления — отдельная услуга.",
+      "answer_kk": "Слайдтарға баяндамашыға арналған ескертпелер қосамыз, бірақ сөйлеу мәтінін және оны жаттықтыруды өзіңіз жүргізесіз. Баяндама жаттығуы — бөлек қызмет.",
+      "answer_en": "We add speaker notes to the slides, but you write the speech text and lead the rehearsal. Rehearsing the talk is a separate service.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как передать материалы, если их много?",
+      "question_kk": "Материалдар көп болса, оларды қалай беру керек?",
+      "question_en": "How should I send materials if there are many?",
+      "answer_ru": "Соберите тезисы, цифры со ссылками на источники, логотип и фотографии в одной папке. Что войдёт в презентацию, а что останется за её рамками, решаем вместе, чтобы не перегружать слайды.",
+      "answer_kk": "Тезистерді, дереккөздерге сілтемелері бар сандарды, логотип пен фотосуреттерді бір қалтаға жинаңыз. Презентацияға не кіретінін және нені сыртта қалдыратынын бірге шешеміз, слайдтарды асыра жүктемеу үшін.",
+      "answer_en": "Gather the key points, figures with links to their sources, the logo and photos in one folder. We decide together what goes into the deck and what stays out, so the slides are not overloaded.",
+      "sort": 6
+    }
+  ]
+}

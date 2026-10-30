@@ -1,5 +1,9 @@
 import type { Channel } from '@/types/lead';
+import type { SortKey } from '@/lib/catalog/browse';
 import type { Unit } from '@/types/api';
+import type { FaqDict, FooterDict, SearchDict } from './types-site';
+
+export type { FaqDict, FooterDict, SearchDict } from './types-site';
 
 export interface Step {
   t: string;
@@ -16,7 +20,7 @@ export interface CommonDict {
   switchLabel: string;
   skip: string;
   menu: string;
-  nav: { catalog: string; prices: string; portfolio: string; contacts: string };
+  nav: { catalog: string; prices: string; reviews: string; contacts: string };
   wa: string;
   tg: string;
   faq: string;
@@ -33,6 +37,14 @@ export interface CommonDict {
   notFound: { title: string; text: string; home: string; catalog: string };
   legalHeading: string;
   breadcrumbHome: string;
+  /** Button labels; every CTA also carries an icon. */
+  cta: { whatsapp: string; telegram: string; call: string; order: string; details: string; allProducts: string; request: string };
+  menuOpen: string;
+  menuClose: string;
+  floatingWa: string;
+  speedDial: { open: string; close: string; whatsapp: string; telegram: string; instagram: string; tiktok: string; call: string; email: string };
+  timeline: string;
+  social: string;
 }
 
 export interface HomeDict {
@@ -56,6 +68,20 @@ export interface HomeDict {
   remoteNote: string;
   citiesHeading: string;
   citiesLead: string;
+  heroBadge: string;
+  heroPoints: string[];
+  heroChips: { first: string; second: string };
+  stats: { products: string; categories: string; languages: string; cities: string };
+  catsLead: string;
+  popularLead: string;
+  howLead: string;
+  pricesHeading: string;
+  pricesLead: string;
+  pricesAll: string;
+  trustHeading: string;
+  trustLead: string;
+  trustItems: Step[];
+  channelsTitle: string;
 }
 
 export interface CatalogDict {
@@ -75,6 +101,11 @@ export interface CatalogDict {
   hubH1: (name: string) => string;
   hubList: string;
   hubOthers: string;
+  sortLabel: string;
+  sorts: Record<SortKey, string>;
+  results: (n: number) => string;
+  reset: string;
+  listHeading: string;
 }
 
 export interface ProductDict {
@@ -94,12 +125,18 @@ export interface ProductDict {
   payNote: string;
   leadTitle: string;
   leadText: string;
+  galleryLabel: string;
+  photoAlt: (title: string, n: number) => string;
+  orderTitle: string;
+  orderHint: string;
 }
 
 export interface LeadDict {
-  labels: { name: string; contact: string; channel: string; message: string };
+  labels: { name: string; contact: string; channel: string; message: string; service: string };
   channels: Record<Channel, string>;
   placeholders: { name: string; contact: string; message: string };
+  /** Service combobox texts. */
+  combobox: { consultation: string; other: string; search: string; noResults: string };
   submit: string;
   sending: string;
   success: string;
@@ -107,6 +144,10 @@ export interface LeadDict {
   throttled: string;
   invalid: string;
   errors: { name: string; contact: string; message: string; channel: string };
+  modalTitle: string;
+  modalSubtitle: string;
+  close: string;
+  done: string;
 }
 
 /** City name forms: `loc` ("в Алматы" / "Алматыда"), `gen` (ru genitive), `attr` (kk "Алматыдағы"). */
@@ -149,25 +190,13 @@ export interface PricesDict {
   ctaText: string;
 }
 
-export interface PortfolioDict {
-  title: string;
-  description: string;
-  h1: string;
-  lead: string;
-  stack: string;
-  demo: string;
-  imageAlt: (title: string) => string;
-  ctaTitle: string;
-  ctaText: string;
-}
-
 export interface ContactsDict {
   title: string;
   description: string;
   h1: string;
   lead: string;
   where: string;
-  labels: { wa: string; tg: string; phone: string; email: string; site: string; gh: string };
+  labels: { wa: string; tg: string; phone: string; email: string };
   who: string;
   legal: string;
   how: string;
@@ -177,7 +206,30 @@ export interface ContactsDict {
   nextTitle: string;
 }
 
+export interface ReviewsDict {
+  title: string;
+  description: string;
+  h1: string;
+  lead: string;
+  formTitle: string;
+  labels: { name: string; company: string; city: string; rating: string; text: string };
+  placeholders: { name: string; company: string; city: string; text: string };
+  submit: string;
+  sending: string;
+  success: string;
+  error: string;
+  throttled: string;
+  invalid: string;
+  errors: { name: string; company: string; city: string; rating: string; text: string };
+  gisLabel: string;
+  emptyText: string;
+  /** Template with an {n} placeholder (see lib/reviews/rating.ts). */
+  ratingLabel: string;
+  all: string;
+}
+
 export interface Dict {
+  faq: FaqDict;
   common: CommonDict;
   home: HomeDict;
   catalog: CatalogDict;
@@ -185,6 +237,8 @@ export interface Dict {
   lead: LeadDict;
   city: CityDict;
   prices: PricesDict;
-  portfolio: PortfolioDict;
   contacts: ContactsDict;
+  reviews: ReviewsDict;
+  footer: FooterDict;
+  search: SearchDict;
 }

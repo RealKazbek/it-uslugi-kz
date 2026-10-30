@@ -55,7 +55,7 @@
     "Online card payment, which can be added separately through a provider API by agreement",
     "Domain and hosting, paid at the provider rates"
   ],
-  "price_from_kzt": 180000,
+  "price_from_kzt": 210000,
   "unit": "once",
   "days_min": 15,
   "days_max": 30,
@@ -93,6 +93,42 @@
       "answer_kk": "Базалық құнға картамен төлем кірмейді. Тапсырыс сізге келеді, ал төлемді сатып алушымен әдеттегі тәсілмен келісесіз. Онлайн төлемді таңдалған провайдердің API-і арқылы бөлек қосуға болады.",
       "answer_en": "Card payment is not part of the base price. The order reaches you and you settle payment with the buyer in your usual way. Online payment can be added separately through the API of the provider you choose, once you have an account with them.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько времени занимает запуск магазина?",
+      "question_kk": "Дүкенді іске қосуға қанша уақыт кетеді?",
+      "question_en": "How long does it take to launch the store?",
+      "answer_ru": "Срок зависит от числа товаров и интеграций. Точную дату называем после брифа, а этапы фиксируем в письменном договоре.",
+      "answer_kk": "Мерзім тауар санына және интеграцияларға байланысты. Нақты күнін брифтен кейін айтамыз, ал кезеңдерді жазбаша шартта бекітеміз.",
+      "answer_en": "The timeline depends on the number of products and integrations. We name an exact date after the brief, and fix the stages in a written agreement.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно подготовить до старта?",
+      "question_kk": "Басталғанға дейін не дайындау керек?",
+      "question_en": "What should I prepare before we start?",
+      "answer_ru": "Список категорий, товары с фото и описаниями, цены и остатки в таблице, а также домен и доступ к хостингу. Без товаров запуск не начнётся.",
+      "answer_kk": "Санаттар тізімі, фото мен сипаттамасы бар тауарлар, кестедегі бағалар мен қалдықтар, сондай-ақ домен және хостингке қолжетімділік. Тауарсыз іске қосу басталмайды.",
+      "answer_en": "A list of categories, products with photos and descriptions, prices and stock in a table, plus the domain and hosting access. The launch cannot start without products.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто владеет кодом и базой магазина?",
+      "question_kk": "Дүкеннің коды мен базасына кім ие?",
+      "question_en": "Who owns the store's code and database?",
+      "answer_ru": "Код, база и доступы передаются вам при запуске. Домен и хостинг остаются на ваших аккаунтах, а не на наших.",
+      "answer_kk": "Код, база және қолжетімділік іске қосу кезінде сізге беріледі. Домен мен хостинг сіздің есептік жазбаңызда қалады, біздікінде емес.",
+      "answer_en": "The code, database and access are handed over to you at launch. The domain and hosting stay on your accounts, not ours.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как проходит оплата за работу?",
+      "question_kk": "Жұмысқа төлем қалай жүреді?",
+      "question_en": "How does payment for the work work?",
+      "answer_ru": "Работа ведётся по письменному договору. Оплата делится пополам: часть до старта и часть после сдачи.",
+      "answer_kk": "Жұмыс жазбаша шарт бойынша жүргізіледі. Төлем тең бөлінеді: бірі басталғанға дейін, екіншісі тапсырғаннан кейін.",
+      "answer_en": "Work is done under a written agreement. Payment is split 50/50: one half before the start and the other after handover.",
+      "sort": 6
     }
   ]
 }

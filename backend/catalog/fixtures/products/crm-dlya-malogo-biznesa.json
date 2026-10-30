@@ -7,9 +7,9 @@
   "short_ru": "Лёгкая CRM под ваш процесс: клиенты, сделки, статусы и напоминания без лишних модулей.",
   "short_kk": "Сіздің процеске арналған жеңіл CRM: клиенттер, мәмілелер, мәртебелер және еске салғыштар, артық модульсіз.",
   "short_en": "A lightweight CRM built around your process: clients, deals, statuses and reminders without extra modules.",
-  "description_ru": "Готовые CRM часто перегружены функциями, которыми вы не пользуетесь. Я собираю простую систему под ваши этапы работы с клиентом: от заявки до оплаты. Данные можно хранить в Google Sheets с формами и скриптами или в небольшом веб-приложении, в зависимости от размера команды.",
-  "description_kk": "Дайын CRM-дер көбіне өзіңіз қолданбайтын функциялармен шамадан тыс жүктелген. Мен клиентпен жұмыстың сіздің кезеңдеріңізге арналған қарапайым жүйені жинаймын: өтінімнен төлемге дейін. Команда мөлшеріне қарай деректерді формалар мен скрипттері бар Google Sheets-те немесе шағын веб-қосымшада сақтауға болады.",
-  "description_en": "Off-the-shelf CRMs are often loaded with features you never use. I build a simple system around your own stages of working with a client, from first request to payment. Depending on team size, the data can live in Google Sheets with forms and scripts or in a small web application.",
+  "description_ru": "Готовые CRM часто перегружены функциями, которыми вы не пользуетесь. Мы собираем простую систему под ваши этапы работы с клиентом: от заявки до оплаты. Данные можно хранить в Google Sheets с формами и скриптами или в небольшом веб-приложении, в зависимости от размера команды.",
+  "description_kk": "Дайын CRM-дер көбіне өзіңіз қолданбайтын функциялармен шамадан тыс жүктелген. Біз клиентпен жұмыстың сіздің кезеңдеріңізге арналған қарапайым жүйені жинаймыз: өтінімнен төлемге дейін. Команда мөлшеріне қарай деректерді формалар мен скрипттері бар Google Sheets-те немесе шағын веб-қосымшада сақтауға болады.",
+  "description_en": "Off-the-shelf CRMs are often loaded with features you never use. We build a simple system around your own stages of working with a client, from first request to payment. Depending on team size, the data can live in Google Sheets with forms and scripts or in a small web application.",
   "for_whom_ru": "Для команд из 2-15 человек, которые ведут клиентов в таблицах и мессенджерах и хотят порядок без дорогой подписки на крупную CRM.",
   "for_whom_kk": "Клиенттерді кестелер мен мессенджерлерде жүргізетін және қымбат үлкен CRM жазылымынсыз тәртіп қалайтын 2-15 адамнан тұратын командаларға арналған.",
   "for_whom_en": "For teams of 2 to 15 people who manage clients in spreadsheets and messengers and want order without an expensive subscription to a large CRM.",
@@ -55,7 +55,7 @@
     "Migrating old data if it is in a messy state, which we estimate separately",
     "Hosting or paid-service fees, if the solution uses them"
   ],
-  "price_from_kzt": 90000,
+  "price_from_kzt": 50000,
   "unit": "once",
   "days_min": 10,
   "days_max": 20,
@@ -89,10 +89,46 @@
       "question_ru": "Можно ли потом добавить функции?",
       "question_kk": "Кейін функция қосуға бола ма?",
       "question_en": "Can features be added later?",
-      "answer_ru": "Можно. Я делаю структуру так, чтобы новые поля и этапы добавлялись без переделки всего. Доработки оцениваются отдельно.",
-      "answer_kk": "Болады. Құрылымды жаңа өрістер мен кезеңдер бәрін қайта жасамай қосылатындай етіп жасаймын. Жетілдірулер бөлек бағаланады.",
-      "answer_en": "Yes. I structure the system so new fields and stages can be added without rebuilding everything. Extensions are quoted separately.",
+      "answer_ru": "Можно. Мы делаем структуру так, чтобы новые поля и этапы добавлялись без переделки всего. Доработки оцениваются отдельно.",
+      "answer_kk": "Болады. Құрылымды жаңа өрістер мен кезеңдер бәрін қайта жасамай қосылатындай етіп жасаймыз. Жетілдірулер бөлек бағаланады.",
+      "answer_en": "Yes. We structure the system so new fields and stages can be added without rebuilding everything. Extensions are quoted separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сможет ли команда менять поля и этапы без программиста?",
+      "question_kk": "Команда өрістер мен кезеңдерді программистсіз өзгерте ала ма?",
+      "question_en": "Can the team change fields and stages without a developer?",
+      "answer_ru": "В Google Sheets поля и этапы меняются вручную. В веб-версии это делается через админку. Обучим, как вносить правки, не сломав систему.",
+      "answer_kk": "Google Sheets-те өрістер мен кезеңдер қолмен өзгереді. Веб-нұсқада бұл әкімші панелі арқылы жасалады. Жүйені бұзбай түзету жолын үйретеміз.",
+      "answer_en": "In Google Sheets, fields and stages are changed by hand. In the web version this is done in the admin panel. We will show you how to make changes without breaking the system.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли перенести данные из текущей таблицы?",
+      "question_kk": "Қазіргі кестедегі деректерді көшіруге бола ма?",
+      "question_en": "Can I move the data from my current spreadsheet?",
+      "answer_ru": "Да, если таблица в порядке. Если данные разрозненные, оценим их очистку отдельно до начала работы.",
+      "answer_kk": "Иә, кесте реттелген болса. Деректер шашыраңқы болса, жұмыс басталар алдында тазалауды бөлек бағалаймыз.",
+      "answer_en": "Yes, if the spreadsheet is in order. If the data is scattered, we assess the cleanup separately before work starts.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как защищены данные клиентов?",
+      "question_kk": "Клиенттердің деректері қалай қорғалған?",
+      "question_en": "How is client data protected?",
+      "answer_ru": "Доступ разделяется по ролям. В веб-версии используем защищённое соединение и не храним пароли в открытом виде.",
+      "answer_kk": "Қолжетімділік рөлдер бойынша бөлінеді. Веб-нұсқада қорғалған байланысты қолданамыз және құпия сөздерді ашық түрде сақтамаймыз.",
+      "answer_en": "Access is split by role. The web version uses a secure connection and does not store passwords in plain text.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Будет ли работать мобильный доступ?",
+      "question_kk": "Мобильді қолжетімділік жұмыс істей ме?",
+      "question_en": "Will mobile access work?",
+      "answer_ru": "Для Google Sheets подходит мобильное приложение. Для веб-версии адаптируем интерфейс под телефон, если это входит в согласованный объём.",
+      "answer_kk": "Google Sheets үшін мобильді қолданба жарайды. Веб-нұсқа үшін интерфейсті телефонға бейімдейміз, егер ол келісілген көлемге кірсе.",
+      "answer_en": "The mobile app works for Google Sheets. For the web version we adapt the interface to phones if that is part of the agreed scope.",
+      "sort": 6
     }
   ]
 }

@@ -43,19 +43,19 @@
   "not_included_ru": [
     "Аккаунт продавца на Kaspi.kz и комиссии маркетплейса: это ваши отношения с Kaspi",
     "Фото, описания и цены товаров: предоставляете вы",
-    "Модерация карточек на стороне Kaspi: её результат от меня не зависит"
+    "Модерация карточек на стороне Kaspi: её результат от нас не зависит"
   ],
   "not_included_kk": [
     "Kaspi.kz-тегі сатушы аккаунты және маркетплейс комиссиялары: бұл сіздің Kaspi-мен қарым-қатынасыңыз",
     "Тауар фотосуреттері, сипаттамалары және бағалары: оларды сіз ұсынасыз",
-    "Kaspi жағындағы карточкаларды модерациялау: оның нәтижесі маған байланысты емес"
+    "Kaspi жағындағы карточкаларды модерациялау: оның нәтижесі бізге байланысты емес"
   ],
   "not_included_en": [
     "The Kaspi.kz seller account and marketplace commissions, which are between you and Kaspi",
     "Product photos, descriptions and prices, which you provide",
-    "Card moderation on the Kaspi side, whose outcome I cannot control"
+    "Card moderation on the Kaspi side, whose outcome we cannot control"
   ],
-  "price_from_kzt": 220000,
+  "price_from_kzt": 230000,
   "unit": "once",
   "days_min": 20,
   "days_max": 35,
@@ -93,6 +93,42 @@
       "answer_kk": "Міндетті емес. Kaspi үшін, мысалы маркетплейс комиссиясын ескеріп, бөлек баға қоюға немесе екі витринаға бір баға белгілеуге болады. Ережені өзіңіз таңдайсыз.",
       "answer_en": "Not necessarily. You can set a separate price for Kaspi, for example to cover the marketplace commission, or use one price on both. The rule is yours to choose.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если Kaspi изменит требования к файлу?",
+      "question_kk": "Kaspi файлға қойылатын талапты өзгертсе не болады?",
+      "question_en": "What happens if Kaspi changes the file requirements?",
+      "answer_ru": "XML мы настраиваем по текущей структуре из кабинета продавца. Если Kaspi её изменит, доработку согласуем отдельно: вы сообщаете нам, а мы оцениваем объём работ до начала.",
+      "answer_kk": "XML-ді Kaspi сатушы кабинетіндегі қазіргі құрылым бойынша баптаймыз. Егер Kaspi оны өзгертсе, түзетуді бөлек келісеміз: сіз бізге хабарлайсыз, біз жұмыс көлемін алдын ала бағалаймыз.",
+      "answer_en": "We build the XML to the current structure in the seller cabinet. If Kaspi changes it, the adjustment is agreed separately: you tell us and we estimate the work before starting.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как часто обновляется прайс в Kaspi?",
+      "question_kk": "Kaspi-дегі прайс қанша уақытта жаңарады?",
+      "question_en": "How often does the price feed update on Kaspi?",
+      "answer_ru": "Kaspi забирает файл по расписанию, которое вы задаёте по ссылке, поэтому изменения попадают в кабинет без ручной загрузки. Сам Kaspi может обработать обновление с задержкой, и на это мы повлиять не можем.",
+      "answer_kk": "Kaspi файлды сіз сілтеме арқылы берген кесте бойынша алады, сондықтан өзгерістер қолмен жүктеусіз кабинетке түседі. Kaspi жаңартуды кешігіп өңдеуі мүмкін, бұған біз әсер ете алмаймыз.",
+      "answer_en": "Kaspi pulls the file on the schedule you set through the link, so changes reach the cabinet without a manual upload. Kaspi itself may process an update with a delay, which we cannot control.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли продолжать вести Excel-таблицу с товарами?",
+      "question_kk": "Excel-кестеде тауарларды жүргізуді жалғастыру керек пе?",
+      "question_en": "Do I still need to keep an Excel sheet of products?",
+      "answer_ru": "Нет: после переноса каталога в единую базу таблица не нужна. Текущий список можно выгрузить из Excel один раз, и мы загрузим его в админку.",
+      "answer_kk": "Жоқ, каталог бірыңғай базаға көшкеннен кейін кесте қажет емес. Қазіргі тізімді Excel-ден бір рет шығарсаңыз жеткілікті, біз оны әкімшілікке жүктейміз.",
+      "answer_en": "No, once the catalogue moves into one database the sheet is no longer needed. You can export your current list from Excel once and we will load it into the admin panel.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто отвечает, если Kaspi отклонил файл?",
+      "question_kk": "Kaspi файлды қабылдамаса, кім жауап береді?",
+      "question_en": "Who is responsible if Kaspi rejects the file?",
+      "answer_ru": "Перед передачей мы проверяем файл на типичные ошибки, но решение о приёме принимает Kaspi по своим правилам. Если причина в структуре нашего файла, исправим её в рамках настройки.",
+      "answer_kk": "Тапсырар алдында файлды жиі кездесетін қателерге тексереміз, бірақ қабылдау туралы шешімді Kaspi өз ережелері бойынша қабылдайды. Себебі біздің файл құрылымында болса, оны баптау аясында түзетеміз.",
+      "answer_en": "Before handover we check the file for common errors, but Kaspi decides whether to accept it under its own rules. If the cause lies in our file structure, we fix it as part of the setup.",
+      "sort": 6
     }
   ]
 }

@@ -7,9 +7,9 @@
   "short_ru": "Бот на базе нейросети отвечает клиентам по вашей базе знаний и передаёт сложные вопросы вам.",
   "short_kk": "Нейрожелі негізіндегі бот клиенттерге білім қоры бойынша жауап беріп, күрделі сұрақтарды сізге жібереді.",
   "short_en": "A neural-network bot answers customers from your knowledge base and hands tricky questions to you.",
-  "description_ru": "Ассистент работает в Telegram, в том числе в Telegram Business, и отвечает на типовые вопросы о ценах, графике, условиях и адресе. Он опирается на материалы, которые вы мне передаёте, и помнит контекст диалога. Такой проект уже работает у меня в портфолио: Python, aiogram и модель DeepSeek, с админ-панелью и автопаузой на 60 минут, когда вам отвечает живой человек.",
-  "description_kk": "Көмекші Telegram-да, соның ішінде Telegram Business-те жұмыс істеп, баға, жұмыс кестесі, шарт және мекенжай туралы жиі қойылатын сұрақтарға жауап береді. Ол сіз берген материалдарға сүйеніп, диалог мәнмәтінін есте сақтайды. Осындай жоба портфолиомда бар: Python, aiogram және DeepSeek моделі, әкімші панелі және иесі өзі жауап бергенде 60 минутқа автоматты кідіріс.",
-  "description_en": "The assistant works in Telegram, including Telegram Business, and answers routine questions about prices, opening hours, terms and address. It relies on the material you give me and remembers the context of each conversation. A project like this is already in my portfolio: Python, aiogram and the DeepSeek model, with an admin panel and a 60-minute auto-pause when the owner replies personally.",
+  "description_ru": "Ассистент работает в Telegram, в том числе в Telegram Business, и отвечает на типовые вопросы о ценах, графике, условиях и адресе. Он опирается на материалы, которые вы передаёте нам, и помнит контекст диалога. Стек: Python, aiogram и модель DeepSeek. В комплекте админ-панель и автопауза на 60 минут, когда вам отвечает живой человек.",
+  "description_kk": "Көмекші Telegram-да, соның ішінде Telegram Business-те жұмыс істеп, баға, жұмыс кестесі, шарт және мекенжай туралы жиі қойылатын сұрақтарға жауап береді. Ол сіз берген материалдарға сүйеніп, диалог мәнмәтінін есте сақтайды. Стек: Python, aiogram және DeepSeek моделі. Комплектте әкімші панелі және иесі өзі жауап бергенде 60 минутқа автоматты кідіріс бар.",
+  "description_en": "The assistant works in Telegram, including Telegram Business, and answers routine questions about prices, opening hours, terms and address. It relies on the material you provide and remembers the context of each conversation. Stack: Python, aiogram and the DeepSeek model. Included are an admin panel and a 60-minute auto-pause when the owner replies personally.",
   "for_whom_ru": "Для салонов, клиник, учебных центров и магазинов, где в личные сообщения приходят одни и те же вопросы. Подойдёт, если вы не успеваете отвечать вечером и в выходные.",
   "for_whom_kk": "Жеке хабарламаларға бірдей сұрақтар түсетін салондарға, клиникаларға, оқу орталықтары мен дүкендерге арналған. Кешке және демалыс күндері жауап беруге үлгермесеңіз, қолайлы.",
   "for_whom_en": "For salons, clinics, training centres and shops that get the same questions in private messages. It fits if you cannot keep up with replies in the evening and on weekends.",
@@ -55,7 +55,7 @@
     "Writing the knowledge base from scratch: the material about your business has to come from you",
     "A guarantee of flawless answers: a neural network can make mistakes, so hard questions are best handed to a person"
   ],
-  "price_from_kzt": 60000,
+  "price_from_kzt": 70000,
   "unit": "once",
   "days_min": 7,
   "days_max": 14,
@@ -71,9 +71,9 @@
       "question_ru": "Что будет, если бот не знает ответа?",
       "question_kk": "Бот жауабын білмесе не болады?",
       "question_en": "What happens if the bot does not know the answer?",
-      "answer_ru": "Я настраиваю его так, чтобы он честно сообщал, что уточнит вопрос, и передавал диалог вам. Придумывать цены и условия, которых нет в базе знаний, ему запрещено инструкцией, но полностью исключить ошибки нельзя.",
-      "answer_kk": "Мен оны жауабын білмесе, мәселені нақтылайтынын ашық айтып, диалогты сізге беретіндей етіп баптаймын. Білім қорында жоқ баға мен шартты ойдан шығаруға нұсқаумен тыйым салынады, бірақ қателерді толық жоққа шығару мүмкін емес.",
-      "answer_en": "I set it up to say openly that it will check and to pass the conversation to you. The instructions forbid inventing prices or terms that are not in the knowledge base, though errors cannot be ruled out completely.",
+      "answer_ru": "Мы настраиваем его так, чтобы он честно сообщал, что уточнит вопрос, и передавал диалог вам. Придумывать цены и условия, которых нет в базе знаний, ему запрещено инструкцией, но полностью исключить ошибки нельзя.",
+      "answer_kk": "Біз оны жауабын білмесе, мәселені нақтылайтынын ашық айтып, диалогты сізге беретіндей етіп баптаймыз. Білім қорында жоқ баға мен шартты ойдан шығаруға нұсқаумен тыйым салынады, бірақ қателерді толық жоққа шығару мүмкін емес.",
+      "answer_en": "We set it up to say openly that it will check and to pass the conversation to you. The instructions forbid inventing prices or terms that are not in the knowledge base, though errors cannot be ruled out completely.",
       "sort": 0
     },
     {
@@ -89,10 +89,46 @@
       "question_ru": "Сколько стоит работа модели после запуска?",
       "question_kk": "Іске қосқаннан кейін модельдің жұмысы қанша тұрады?",
       "question_en": "How much does the model cost after launch?",
-      "answer_ru": "Это зависит от числа сообщений и выбранной модели. Для небольшого бизнеса расходы на API обычно невелики, точную оценку я дам после теста на ваших вопросах.",
-      "answer_kk": "Бұл хабарлама санына және таңдалған модельге байланысты. Шағын бизнеске API шығыны әдетте көп емес, нақты бағаны сіздің сұрақтарыңызбен сынағаннан кейін айтамын.",
-      "answer_en": "It depends on the number of messages and the model you pick. For a small business the API cost is usually modest, and I will give a concrete estimate after testing on your own questions.",
+      "answer_ru": "Это зависит от числа сообщений и выбранной модели. Для небольшого бизнеса расходы на API обычно невелики, точную оценку дадим после теста на ваших вопросах.",
+      "answer_kk": "Бұл хабарлама санына және таңдалған модельге байланысты. Шағын бизнеске API шығыны әдетте көп емес, нақты бағаны сіздің сұрақтарыңызбен сынағаннан кейін айтамыз.",
+      "answer_en": "It depends on the number of messages and the model you pick. For a small business the API cost is usually modest, and we will give a concrete estimate after testing on your own questions.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужны ли мне знания программирования, чтобы пользоваться ботом?",
+      "question_kk": "Ботпен жұмыс істеу үшін бағдарламалау білімі керек пе?",
+      "question_en": "Do I need programming skills to use the bot?",
+      "answer_ru": "Нет. Базу знаний вы правите в простой админ-панели, а технические настройки делаем мы.",
+      "answer_kk": "Жоқ. Білім қорын қарапайым әкімші панелінде өзгертесіз, ал техникалық баптауды біз жасаймыз.",
+      "answer_en": "No. You edit the knowledge base in a simple admin panel, and we handle the technical setup.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Какие материалы нужны, чтобы бот начал отвечать?",
+      "question_kk": "Бот жауап бере бастауы үшін қандай материалдар керек?",
+      "question_en": "Which materials does the bot need before it can answer?",
+      "answer_ru": "Прайс, условия, график, адрес и типовые вопросы в текстовом виде. Чем конкретнее материал, тем меньше ответов придётся передавать вам.",
+      "answer_kk": "Прайс, шарттар, жұмыс кестесі, мекенжай және жиі қойылатын сұрақтар мәтін түрінде. Материал неғұрлым нақты болса, соғұрлым аз сұрақты сізге беретін боламыз.",
+      "answer_en": "The price list, terms, opening hours, address and common questions as text. The more specific the material, the fewer questions get passed to you.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Работает ли бот в групповых чатах Telegram?",
+      "question_kk": "Бот Telegram топтық чаттарда жұмыс істей ме?",
+      "question_en": "Does the bot work in Telegram group chats?",
+      "answer_ru": "По умолчанию нет: он отвечает клиентам в личных диалогах. Работу в группах можно обсудить отдельно, если это нужно вашему бизнесу.",
+      "answer_kk": "Әдепкі бойынша жоқ: ол клиенттерге жеке диалогта жауап береді. Топтарда жұмыс істеу қажет болса, оны бөлек талқылаймыз.",
+      "answer_en": "By default, no: it answers customers in private chats. Group work can be discussed separately if your business needs it.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто владеет аккаунтом бота и кодом?",
+      "question_kk": "Бот аккаунтына және кодқа кім ие?",
+      "question_en": "Who owns the bot account and the code?",
+      "answer_ru": "Бот создаётся на вашем аккаунте Telegram. Код и доступы мы передаём вам полностью, а токены и ключи хранятся у вас.",
+      "answer_kk": "Бот сіздің Telegram аккаунтыңызда жасалады. Кодты және қолжетімділікті толығымен сізге береміз, ал токендер мен кілттер сізде сақталады.",
+      "answer_en": "The bot is created on your Telegram account. We hand over the code and all access in full, and the tokens and keys stay with you.",
+      "sort": 6
     }
   ]
 }

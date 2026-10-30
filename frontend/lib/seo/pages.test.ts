@@ -11,7 +11,7 @@ import { getProducts } from '@/lib/api/products';
 import { listPages } from './pages';
 
 const cat = (slug: string, count: number): CategoryDto => ({ slug, product_count: count, sort: 0, name_ru: '', name_kk: '', name_en: '', short_ru: '', short_kk: '', short_en: '', intro_ru: '', intro_kk: '', intro_en: '' });
-const prod = (slug: string): ProductCardDto => ({ slug, category: 'websites', title: '', short: '', price_from_kzt: 1, unit: 'once', days_min: 1, days_max: 1 });
+const prod = (slug: string): ProductCardDto => ({ slug, category: 'websites', title: '', short: '', price_from_kzt: 1, unit: 'once', days_min: 1, days_max: 1, is_onsite: false });
 const city = (slug: string): CityDto => ({ slug, name: slug } as unknown as CityDto);
 
 beforeEach(() => {
@@ -25,7 +25,7 @@ describe('listPages', () => {
     const pages = await listPages();
     const paths = pages.map((p) => p.path);
     expect(paths).toEqual(
-      expect.arrayContaining(['/', '/catalog', '/prices', '/portfolio', '/contacts', '/catalog/websites', '/products/lending', '/city/almaty']),
+      expect.arrayContaining(['/', '/catalog', '/prices', '/reviews', '/faq', '/contacts', '/catalog/websites', '/products/lending', '/city/almaty']),
     );
     expect(paths).not.toContain('/catalog/empty');
     const city = pages.find((p) => p.path === '/city/almaty');

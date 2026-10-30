@@ -1,0 +1,135 @@
+{
+  "slug": "mobilnoe-prilozhenie-ios-android",
+  "category": "apps",
+  "title_ru": "Мобильное приложение для iOS и Android",
+  "title_kk": "iOS және Android үшін мобильді қосымша",
+  "title_en": "Mobile app for iOS and Android",
+  "short_ru": "Одно приложение для iPhone и Android с вашими экранами, входом и push-уведомлениями. Мы разрабатываем его командой и помогаем опубликовать в магазинах.",
+  "short_kk": "iPhone және Android үшін бір қосымша: сіздің экрандарыңыз, кіру жүйесі және push-хабарламалар. Командамыз әзірлеп, дүкендерге жариялауға көмектеседі.",
+  "short_en": "One app for iPhone and Android with your screens, sign-in and push notifications. Our team builds it and helps you publish it in the stores.",
+  "description_ru": "Мы делаем мобильное приложение для iOS и Android по одной кодовой базе на React Native или Flutter. Сначала согласуем список экранов и сценарии, затем собираем прототип и рабочую версию. После тестирования помогаем подготовить и отправить приложение в App Store и Google Play. Бэкенд и API можем подключить к вашему сайту или существующей системе.",
+  "description_kk": "Біз iOS және Android үшін мобильді қосымшаны бір кодтық базада React Native немесе Flutter арқылы жасаймыз. Алдымен экрандар тізімін және сценарийлерді келісеміз, содан кейін прототип пен жұмыс нұсқасын жинаймыз. Тестілеуден кейін қосымшаны App Store мен Google Play-ге дайындап жіберуге көмектесеміз. Бэкендті және API-ді сіздің сайтыңызға немесе бар жүйеге қосуға болады.",
+  "description_en": "We build a mobile app for iOS and Android from one codebase, using React Native or Flutter. First we agree on the list of screens and user flows, then we build a prototype and a working version. After testing, we help prepare and submit the app to the App Store and Google Play. We can connect the backend and API to your website or an existing system.",
+  "for_whom_ru": "Для компаний, у которых клиенты заказывают, записываются или покупают через телефон и хотят быстрый доступ с экрана смартфона. Подойдёт сервисам с личным кабинетом, доставке, обучению и клубам с картой лояльности.",
+  "for_whom_kk": "Клиенттері телефон арқылы тапсырыс беретін, жазылатын немесе сатып алатын, смартфон экранынан жылдам қатынас керек компанияларға арналған. Жеке кабинеті бар қызметтерге, жеткізуге, оқуға және лояльдік картасы бар клубтарға жарайды.",
+  "for_whom_en": "For companies whose customers order, book or buy and want quick access from their phone home screen. Suits services with a personal account, delivery, training and clubs with a loyalty card.",
+  "includes_ru": [
+    "Приложение для iOS и Android из одной кодовой базы",
+    "Список экранов, навигация и дизайн в духе вашего бренда",
+    "Регистрация и вход, личный кабинет клиента",
+    "Push-уведомления о заказах, записях или акциях",
+    "Подключение к вашему API или серверной части",
+    "Подготовка сборок и публикация в App Store и Google Play",
+    "Тестирование на реальных устройствах и передача исходного кода"
+  ],
+  "includes_kk": [
+    "Бір кодтық базадан iOS және Android қосымшасы",
+    "Экрандар тізімі, навигация және сіздің брендіңізге сай дизайн",
+    "Тіркелу және кіру, клиенттің жеке кабинеті",
+    "Тапсырыс, жазылу немесе акция туралы push-хабарламалар",
+    "Сіздің API-ге немесе серверлік бөлікке қосылу",
+    "Құрастыруды дайындау және App Store мен Google Play-ге жариялау",
+    "Нақты құрылғыларда тестілеу және бастапқы кодты тапсыру"
+  ],
+  "includes_en": [
+    "An app for iOS and Android from one codebase",
+    "Screen list, navigation and design in line with your brand",
+    "Sign-up and sign-in, plus a customer personal account",
+    "Push notifications about orders, bookings or promotions",
+    "Connection to your API or server side",
+    "Build preparation and publishing to the App Store and Google Play",
+    "Testing on real devices and handover of the source code"
+  ],
+  "not_included_ru": [
+    "Взносы магазинов: Apple Developer Program стоит $99 в год, Google Play — $25 один раз. Их платит клиент со своих аккаунтов разработчика",
+    "Наполнение контентом и фото: тексты, товары и изображения предоставляет клиент",
+    "Продвижение приложения и покупка установок через рекламу"
+  ],
+  "not_included_kk": [
+    "Дүкен жарналары: Apple Developer Program жылына $99, Google Play бір рет $25 тұрады. Оларды клиент өз әзірлеуші аккаунттарынан төлейді",
+    "Контентті және фотоны толтыру: мәтіндер, тауарлар мен суреттерді клиент береді",
+    "Қосымшаны жарнамалау және жарнама арқылы орнатулар сатып алу"
+  ],
+  "not_included_en": [
+    "Store fees: Apple Developer Program costs $99 a year and Google Play $25 once. The client pays them from their own developer accounts",
+    "Content and photos: texts, products and images are supplied by the client",
+    "Promoting the app and buying installs through advertising"
+  ],
+  "price_from_kzt": 1050000,
+  "unit": "once",
+  "days_min": 45,
+  "days_max": 90,
+  "related": [
+    "pwa-prilozhenie",
+    "telegram-mini-app-magazin",
+    "veb-prilozhenie"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 110,
+  "faqs": [
+    {
+      "question_ru": "Нужен ли нам аккаунт разработчика и сколько он стоит?",
+      "question_kk": "Бізге әзірлеуші аккаунты керек пе және ол қанша тұрады?",
+      "question_en": "Do we need developer accounts and how much do they cost?",
+      "answer_ru": "Да, для публикации нужны аккаунты разработчика: Apple Developer Program стоит $99 в год, Google Play — $25 один раз. Оформить их должен клиент, чтобы приложение и данные остались у вас. Мы поможем с настройкой и отправкой на проверку.",
+      "answer_kk": "Иә, жариялау үшін әзірлеушінің аккаунттары керек: Apple Developer Program жылына $99, Google Play бір рет $25 тұрады. Оларды клиент өзі ашуы керек, сонда қосымша мен деректер сізде қалады. Баптауға және тексеруге жіберуге көмектесеміз.",
+      "answer_en": "Yes, publishing needs developer accounts: Apple Developer Program costs $99 a year and Google Play $25 once. The client should open them, so the app and its data stay with you. We help with setup and submission for review.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли сделать приложение только для Android или только для iPhone?",
+      "question_kk": "Қосымшаны тек Android үшін немесе тек iPhone үшін жасауға бола ма?",
+      "question_en": "Can the app be built for Android only or for iPhone only?",
+      "answer_ru": "Можно, но мы советуем сразу делать для обеих платформ: код общий, поэтому вторая версия обходится заметно дешевле. Если бюджет ограничен, начнём с одной платформы и добавим вторую позже.",
+      "answer_kk": "Болады, бірақ екі платформаға бірден жасауды ұсынамыз: код ортақ, сондықтан екінші нұсқасы едәуір арзан түседі. Бюджет шектеулі болса, біреуінен бастап, екіншісін кейін қосамыз.",
+      "answer_en": "Yes, but we recommend building for both platforms at once: the code is shared, so the second version costs much less. If the budget is tight, we start with one platform and add the other later.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что нам нужно подготовить до начала работы?",
+      "question_kk": "Жұмыс басталар алдында не дайындау керек?",
+      "question_en": "What do we need to prepare before we start?",
+      "answer_ru": "Список того, что должно быть в приложении, и примеры экранов, которые вам нравятся. Также нужны логотип, фирменные цвета, тексты и доступ к вашей системе, если приложение с ней связано. Остальное согласуем вместе на первом созвоне.",
+      "answer_kk": "Қосымшада не болуы керек екенінің тізімін және ұнайтын экран үлгілерін дайындаңыз. Логотип, брендтік түстер, мәтіндер және қосымша байланысатын жүйеге қолжетімділік керек. Қалғанын алғашқы қоңырауда бірге келісеміз.",
+      "answer_en": "A list of what the app should do, and examples of screens you like. We also need the logo, brand colours, texts and access to your system if the app connects to it. We agree on the rest together during the first call.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Мы передаём исходный код и инструкцию, показываем, как выпускать обновления. Если нужна поддержка, обновления требований App Store и Google Play или новые функции, это оформляется отдельно по договорённости.",
+      "answer_kk": "Бастапқы кодты және нұсқаулықты тапсырамыз, жаңартуларды қалай шығаруды көрсетеміз. Қолдау, App Store мен Google Play талаптарына байланысты жаңартулар немесе жаңа функциялар керек болса, оны бөлек келісеміз.",
+      "answer_en": "We hand over the source code and a guide, and show how to release updates. Support, updates required by App Store or Google Play rules, or new features are agreed separately.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Сколько занимает проверка приложения в магазинах?",
+      "question_kk": "Қолданбаны дүкендерде тексеру қанша уақыт алады?",
+      "question_en": "How long does store review take?",
+      "answer_ru": "Проверку проводят Apple и Google, и их сроки от нас не зависят. Иногда магазин просит поправить описание или запрос доступа, поэтому в план работ мы закладываем запас на этот этап.",
+      "answer_kk": "Тексеруді Apple мен Google жүргізеді, олардың мерзімі бізге тәуелсіз. Кейде дүкен сипаттаманы немесе рұқсат сұрауын түзетуді сұрайды, сондықтан жұмыс жоспарына осы кезеңге қор уақыт қосамыз.",
+      "answer_en": "Apple and Google run the review, and their timing does not depend on us. Sometimes a store asks to fix the description or permission requests, so we build a time buffer for this stage into the plan.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кому будет принадлежать исходный код?",
+      "question_kk": "Бастапқы код кімге тиесілі болады?",
+      "question_en": "Who owns the source code?",
+      "answer_ru": "Исходный код передаём вам полностью вместе с инструкцией по сборке, поэтому его можно поручить и другой команде. Публикация идёт от ваших аккаунтов в магазинах.",
+      "answer_kk": "Бастапқы кодты құрастыру нұсқаулығымен бірге толық тапсырамыз, сондықтан оны басқа командаға да беруге болады. Жариялау дүкендегі сіздің аккаунттарыңыздан жүреді.",
+      "answer_en": "We hand over the full source code with build instructions, so another team can take it over too. Publishing goes out from your own store accounts.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли подключить приложение к уже работающему сайту?",
+      "question_kk": "Қолданбаны қазірдің өзінде жұмыс істеп тұрған сайтқа қосуға бола ма?",
+      "question_en": "Can the app connect to a website that is already running?",
+      "answer_ru": "Да, если у сайта есть API или серверная часть, приложение использует те же данные. Если API нет, сначала согласуем, какие разделы можно открыть без доработки сервера.",
+      "answer_kk": "Иә, сайтта API немесе серверлік бөлік болса, қолданба сол деректерді пайдаланады. API жоқ болса, алдымен серверді түзетпей қай бөлімдерді ашуға болатынын келісеміз.",
+      "answer_en": "Yes, if the site has an API or server side, the app uses the same data. If there is no API, we first agree which sections can open without changing the server.",
+      "sort": 6
+    }
+  ]
+}

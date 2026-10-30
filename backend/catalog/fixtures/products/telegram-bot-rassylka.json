@@ -52,7 +52,7 @@
     "Attracting subscribers, as the bot collects people who come but does not generate traffic",
     "The server for the bot, set up in your name and paid at the provider rate"
   ],
-  "price_from_kzt": 30000,
+  "price_from_kzt": 28000,
   "unit": "once",
   "days_min": 3,
   "days_max": 6,
@@ -90,6 +90,42 @@
       "answer_kk": "Бот мұндай жазылушыны қолжетімсіз деп белгілеп, оған жазуға әрекеттенуді тоқтатады. Есепте мұндай жағдайлар бөлек есептеледі.",
       "answer_en": "The bot marks that subscriber as unreachable and stops trying to write to them. The report counts these cases separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Кто отвечает за согласие получателей?",
+      "question_kk": "Алушылардың келісімі үшін кім жауап береді?",
+      "question_en": "Who is responsible for recipients' consent?",
+      "answer_ru": "Бот пишет только тем, кто сам подписался, а за тексты рассылок отвечаете вы. Бот не предназначен для рассылки людям без их согласия, и мы такую задачу не делаем.",
+      "answer_kk": "Бот тек өз бетінше жазылған адамдарға жазады, ал жіберілетін мәтіндерге сіз жауап бересіз. Бот адамдардың келісімінсіз хабар жіберуге арналмаған, мұндай тапсырманы орындамаймыз.",
+      "answer_en": "The bot only writes to people who subscribed themselves, and you are responsible for the texts you send. The bot is not meant for messaging people without consent, and we do not take on such tasks.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Сколько тем можно сделать для подписки?",
+      "question_kk": "Жазылу үшін неше тақырып жасауға болады?",
+      "question_en": "How many topics can subscribers choose from?",
+      "answer_ru": "Обычно хватает от трёх до семи тем, чтобы рассылки были точными, а не общими. Список тем и их названия согласуем до разработки.",
+      "answer_kk": "Әдетте рассылка нақты болуы үшін үш-жеті тақырып жеткілікті. Тақырыптар тізімі мен олардың атауларын әзірлеу алдында келісеміз.",
+      "answer_en": "Usually three to seven topics are enough to keep mailings specific rather than generic. We agree the list of topics and their names before development.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли увидеть, кто отписался после рассылки?",
+      "question_kk": "Рассылкадан кейін кім бас тартқанын көруге бола ма?",
+      "question_en": "Can I see who unsubscribed after a mailing?",
+      "answer_ru": "В отчёте видно количество отписок и доставленных сообщений по каждой рассылке. Имена и номера в отчёт мы не выводим, чтобы не раскрывать лишние данные.",
+      "answer_kk": "Есепте әр рассылка бойынша бас тартулар мен жеткізілген хабарламалар саны көрінеді. Артық деректерді ашпау үшін есепке аты-жөнді немесе нөмірлерді шығармаймыз.",
+      "answer_en": "The report shows the number of unsubscribes and delivered messages for each mailing. We do not put names or numbers in the report, to avoid exposing extra data.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как часто можно отправлять рассылки?",
+      "question_kk": "Рассылкаларды қанша жиі жіберуге болады?",
+      "question_en": "How often can I send mailings?",
+      "answer_ru": "Частоту ограничивают правила Telegram, поэтому бот отправляет сообщения с паузами. Слишком частые рассылки лучше не делать, иначе люди начнут отписываться.",
+      "answer_kk": "Жиілікті Telegram ережелері шектейді, сондықтан бот хабарламаларды үзілістермен жібереді. Тым жиі рассылка жасамаған жөн, әйтпесе адамдар бас тартады.",
+      "answer_en": "Telegram's rules limit frequency, so the bot sends messages with pauses. Very frequent mailings are best avoided, or people will start to unsubscribe.",
+      "sort": 6
     }
   ]
 }

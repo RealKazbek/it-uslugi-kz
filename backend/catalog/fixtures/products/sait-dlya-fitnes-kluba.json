@@ -55,7 +55,7 @@
     "Integration with turnstiles and the club's CRM",
     "Photos of the club and trainers come from you"
   ],
-  "price_from_kzt": 55000,
+  "price_from_kzt": 70000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,
@@ -89,10 +89,46 @@
       "question_ru": "Нужно ли показывать цены на сайте?",
       "question_kk": "Бағаны сайтта көрсету керек пе?",
       "question_en": "Should prices be shown on the site?",
-      "answer_ru": "Рекомендую показывать: люди чаще оставляют заявку, когда понимают порядок цен. Если цены индивидуальны, напишем «от» и условия.",
-      "answer_kk": "Көрсетуді ұсынамын: адамдар баға деңгейін түсінгенде өтінімді жиірек қалдырады. Бағалар жеке болса, «бастап» және шарттарын жазамыз.",
-      "answer_en": "I recommend showing them: people tend to enquire more when they know the price range. If pricing is individual, we write \"from\" and the conditions.",
+      "answer_ru": "Рекомендуем показывать: люди чаще оставляют заявку, когда понимают порядок цен. Если цены индивидуальны, напишем «от» и условия.",
+      "answer_kk": "Көрсетуді ұсынамыз: адамдар баға деңгейін түсінгенде өтінімді жиірек қалдырады. Бағалар жеке болса, «бастап» және шарттарын жазамыз.",
+      "answer_en": "We recommend showing them: people tend to enquire more when they know the price range. If pricing is individual, we write \"from\" and the conditions.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли продавать абонементы онлайн сразу?",
+      "question_kk": "Абонементтерді бірден онлайн сатуға бола ма?",
+      "question_en": "Can memberships be sold online right away?",
+      "answer_ru": "Онлайн-покупка подключается отдельным этапом через API платёжного провайдера. До этого клиент оставляет заявку, а администратор подтверждает абонемент.",
+      "answer_kk": "Онлайн сатып алу төлем провайдерінің API арқылы бөлек кезеңде қосылады. Дейін клиент өтінім қалдырады, ал әкімші абонементті растайды.",
+      "answer_en": "Online purchase is connected as a separate stage through the payment provider's API. Until then the client leaves a request and the administrator confirms the membership.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли подключать турникеты или CRM клуба?",
+      "question_kk": "Турникеттер мен клубтың CRM-ін қосу қажет пе?",
+      "question_en": "Do we need to connect turnstiles or the club's CRM?",
+      "answer_ru": "Это отдельная интеграция, которую оцениваем после запуска: нужны доступы и описание системы. Сам сайт работает и без неё.",
+      "answer_kk": "Бұл бөлек интеграция, оны іске қосқаннан кейін бағалаймыз: жүйеге қолжетімділік пен сипаттама керек. Сайт одансыз да жұмыс істейді.",
+      "answer_en": "This is a separate integration that we assess after launch, as it needs access and a description of the system. The site works without it.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как показать детские группы?",
+      "question_kk": "Балалар топтарын қалай көрсетуге болады?",
+      "question_en": "How do we show children's groups?",
+      "answer_ru": "Детские направления можно выделить в расписании и на отдельной странице, с возрастом и уровнем. Программу и тренеров для детей указываете вы.",
+      "answer_kk": "Балаларға арналған бағыттарды кестеде және жеке бетте жасы мен деңгейімен бөлуге болады. Балаларға арналған бағдарламаны және жаттықтырушыларды сіз көрсетесіз.",
+      "answer_en": "Children's classes can be highlighted in the timetable and on a separate page, with age and level. You provide the programme and trainers for children.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что нужно от клуба для запуска?",
+      "question_kk": "Іске қосу үшін клубтан не керек?",
+      "question_en": "What do we need from the club for launch?",
+      "answer_ru": "Условия абонементов, расписание, фото залов и тренеров, контакты и правила заморозки. Всё это вы передаёте в согласованном виде, а мы переносим на сайт.",
+      "answer_kk": "Абонемент шарттары, кесте, зал мен жаттықтырушылардың фотосы, байланыс деректері және мүшелікті тоқтату ережелері. Мұның бәрін келісілген түрде бересіз, біз сайтқа көшіреміз.",
+      "answer_en": "Membership terms, the timetable, photos of the halls and trainers, contacts and freeze rules. You provide all of this in agreed form and we move it to the site.",
+      "sort": 6
     }
   ]
 }

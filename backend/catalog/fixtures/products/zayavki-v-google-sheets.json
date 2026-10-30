@@ -7,9 +7,9 @@
   "short_ru": "Каждая заявка с сайта или из бота автоматически попадает в аккуратную таблицу Google Sheets.",
   "short_kk": "Сайттан немесе боттан түскен әр өтінім автоматты түрде ретті Google Sheets кестесіне түседі.",
   "short_en": "Every lead from your site or bot lands automatically in a tidy Google Sheets table.",
-  "description_ru": "Я подключаю форму на сайте, Telegram-бота или рекламную форму к таблице Google, чтобы заявки не терялись в переписках. В таблице появляются дата, имя, телефон, источник и статус, а вы отмечаете, что уже обработано. Подходит как первый шаг к порядку в продажах, когда CRM ещё не нужна.",
-  "description_kk": "Өтінімдер хат алмасуда жоғалмауы үшін сайттағы форманы, Telegram-ботты немесе жарнама формасын Google кестесіне қосамын. Кестеде күні, аты, телефоны, қайдан келгені және мәртебесі пайда болады, ал өңделгенін өзіңіз белгілейсіз. CRM әлі қажет емес кезде сатудағы тәртіпке алғашқы қадам ретінде қолайлы.",
-  "description_en": "I connect your site form, Telegram bot or ad form to a Google spreadsheet so leads do not get lost in chats. The sheet gets the date, name, phone, source and status, and you mark what has already been handled. It is a good first step toward order in sales when a CRM is not needed yet.",
+  "description_ru": "Мы подключаем форму на сайте, Telegram-бота или рекламную форму к таблице Google, чтобы заявки не терялись в переписках. В таблице появляются дата, имя, телефон, источник и статус, а вы отмечаете, что уже обработано. Подходит как первый шаг к порядку в продажах, когда CRM ещё не нужна.",
+  "description_kk": "Өтінімдер хат алмасуда жоғалмауы үшін сайттағы форманы, Telegram-ботты немесе жарнама формасын Google кестесіне қосамыз. Кестеде күні, аты, телефоны, қайдан келгені және мәртебесі пайда болады, ал өңделгенін өзіңіз белгілейсіз. CRM әлі қажет емес кезде сатудағы тәртіпке алғашқы қадам ретінде қолайлы.",
+  "description_en": "We connect your site form, Telegram bot or ad form to a Google spreadsheet so leads do not get lost in chats. The sheet gets the date, name, phone, source and status, and you mark what has already been handled. It is a good first step toward order in sales when a CRM is not needed yet.",
   "for_whom_ru": "Для небольших компаний, где заявки приходят с сайта, из рекламы и мессенджеров, а учёт ведётся в голове или в блокноте.",
   "for_whom_kk": "Өтінімдер сайттан, жарнамадан және мессенджерлерден келетін, ал есеп ойда немесе қолжазбада жүргізілетін шағын компанияларға арналған.",
   "for_whom_en": "For small companies where leads arrive from the site, ads and messengers, while tracking happens in someone's head or a notebook.",
@@ -55,7 +55,7 @@
     "Paid plans of third-party services, should your form need one",
     "Calling customers and working the leads after they reach the sheet"
   ],
-  "price_from_kzt": 25000,
+  "price_from_kzt": 14000,
   "unit": "once",
   "days_min": 2,
   "days_max": 4,
@@ -89,10 +89,46 @@
       "question_ru": "Что, если я захочу позже перейти на CRM?",
       "question_kk": "Кейін CRM-ге көшкім келсе ше?",
       "question_en": "What if I later want to move to a CRM?",
-      "answer_ru": "Таблицу легко выгрузить в CSV и загрузить в большинство систем. Если вырастете, я смогу построить CRM на тех же данных.",
-      "answer_kk": "Кестені CSV-ға оңай шығарып, көптеген жүйеге жүктеуге болады. Өссеңіз, сол деректер негізінде CRM жасай аламын.",
-      "answer_en": "The table exports easily to CSV and loads into most systems. If you outgrow it, I can build a CRM on the same data.",
+      "answer_ru": "Таблицу легко выгрузить в CSV и загрузить в большинство систем. Если вырастете, мы сможем построить CRM на тех же данных.",
+      "answer_kk": "Кестені CSV-ға оңай шығарып, көптеген жүйеге жүктеуге болады. Өссеңіз, сол деректер негізінде CRM жасай аламыз.",
+      "answer_en": "The table exports easily to CSV and loads into most systems. If you outgrow it, we can build a CRM on the same data.",
       "sort": 2
+    },
+    {
+      "question_ru": "Кто будет иметь доступ к таблице?",
+      "question_kk": "Кестеге кім қолжетімді болады?",
+      "question_en": "Who will have access to the spreadsheet?",
+      "answer_ru": "Таблица создаётся на ваш аккаунт Google, и доступ выдаёте вы: права можно дать сотрудникам по отдельности. Доступ для нас открываем только на время настройки, если вы этого хотите.",
+      "answer_kk": "Кесте сіздің Google аккаунтыңызда жасалады, қолжетімділікті сіз бересіз: құқықты қызметкерлерге жеке-жеке беруге болады. Қаласаңыз, бізге тек баптау кезіндегі қолжетімділікті ашамыз.",
+      "answer_en": "The spreadsheet is created on your Google account and you grant access: rights can be given to employees individually. We open access for us only for the duration of setup, if you prefer.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли менять статусы заявок в таблице вручную?",
+      "question_kk": "Өтініштердің мәртебесін кестеде қолмен өзгертуге бола ма?",
+      "question_en": "Can I change request statuses in the sheet manually?",
+      "answer_ru": "Да, статус выбирается из выпадающего списка, и вместо предложенных можно добавить свои значения. Изменение статуса в таблице автоматически клиенту не отправляется.",
+      "answer_kk": "Иә, мәртебе ашылмалы тізімнен таңдалады, ал ұсынылғанның орнына өз мәндеріңізді қосуға болады. Кестедегі мәртебе өзгерісі клиентке автоматты түрде жіберілмейді.",
+      "answer_en": "Yes, the status is chosen from a dropdown, and you can add your own values in place of the suggested ones. A status change in the sheet is not sent to the client automatically.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет, если таблица станет слишком большой?",
+      "question_kk": "Кесте тым үлкен болып кетсе, не болады?",
+      "question_en": "What if the spreadsheet becomes too large?",
+      "answer_ru": "Google Таблицы выдерживают большое количество строк, но при тысячах заявок в месяц стоит заранее продумать архив старых записей. Архивирование по дате настраиваем по вашему запросу.",
+      "answer_kk": "Google Кестелері жолдардың үлкен санын көтереді, бірақ айына мыңдаған өтінім болса, ескі жазбалар архивін алдын ала ойластырған дұрыс. Күн бойынша архивтеуді сіздің сұрауыңыз бойынша баптаймыз.",
+      "answer_en": "Google Sheets handles a large number of rows, but with thousands of requests a month it is better to plan an archive of old records in advance. We set up archiving by date on your request.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Где хранятся данные клиентов, если таблица — это вся база?",
+      "question_kk": "Кесте — бүкіл база болса, клиент деректері қайда сақталады?",
+      "question_en": "Where is client data kept if the sheet is the whole database?",
+      "answer_ru": "Данные находятся в вашей таблице Google, которой владеете вы, и мы не копируем их на свой сервер. Доступ к таблице ограничивайте сами, ведь это персональные данные клиентов.",
+      "answer_kk": "Деректер сіз иеленетін Google кестесінде тұрады, және біз оларды өз серверімізге көшірмейміз. Бұл клиенттердің жеке деректері болғандықтан, кестеге қолжетімділікті өзіңіз шектеңіз.",
+      "answer_en": "The data lives in your Google spreadsheet, which you own, and we do not copy it to our server. Restrict access to the sheet yourself, as it contains clients' personal data.",
+      "sort": 6
     }
   ]
 }

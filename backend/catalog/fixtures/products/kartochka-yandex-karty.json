@@ -4,12 +4,12 @@
   "title_ru": "Карточка в Яндекс Картах",
   "title_kk": "Yandex Maps-тағы карточка",
   "title_en": "Business listing on Yandex Maps",
-  "short_ru": "Оформляю карточку организации в Яндекс Картах: адрес, категории, часы работы, фото, контакты.",
-  "short_kk": "Yandex Maps-тағы ұйым карточкасын рәсімдеймін: мекенжай, санаттар, жұмыс уақыты, фото, байланыстар.",
-  "short_en": "I set up your organisation listing on Yandex Maps: address, categories, hours, photos and contacts.",
-  "description_ru": "Яндекс Карты и Яндекс Бизнес по-прежнему используют многие русскоязычные пользователи, и карточка там дополняет присутствие в 2GIS и Google. Я создаю или беру под управление карточку организации, заполняю все разделы и проверяю, что адрес стоит на карте точно. Это небольшая разовая работа, которая обычно занимает один-два дня.",
-  "description_kk": "Yandex Maps пен Yandex Business-ті орысшатілді пайдаланушылардың көбі әлі де қолданады, ал онда карточка болуы 2GIS пен Google-дағы қатысуды толықтырады. Мен ұйым карточкасын жасаймын немесе басқаруға аламын, барлық бөлімді толтырып, мекенжайдың картада дәл тұрғанын тексеремін. Бұл әдетте бір-екі күн алатын шағын бір реттік жұмыс.",
-  "description_en": "Yandex Maps and Yandex Business are still used by many Russian-speaking users, and a listing there complements your presence on 2GIS and Google. I create or take over the organisation listing, fill in every section and check that the address pin is accurate. It is a small one-off job that usually takes a day or two.",
+  "short_ru": "Оформляем карточку организации в Яндекс Картах: адрес, категории, часы работы, фото, контакты.",
+  "short_kk": "Yandex Maps-тағы ұйым карточкасын рәсімдейміз: мекенжай, санаттар, жұмыс уақыты, фото, байланыстар.",
+  "short_en": "We set up your organisation listing on Yandex Maps: address, categories, hours, photos and contacts.",
+  "description_ru": "Яндекс Карты и Яндекс Бизнес по-прежнему используют многие русскоязычные пользователи, и карточка там дополняет присутствие в 2GIS и Google. Мы создаём или берём под управление карточку организации, заполняем все разделы и проверяем, что адрес стоит на карте точно. Это небольшая разовая работа, которая обычно занимает один-два дня.",
+  "description_kk": "Yandex Maps пен Yandex Business-ті орысшатілді пайдаланушылардың көбі әлі де қолданады, ал онда карточка болуы 2GIS пен Google-дағы қатысуды толықтырады. Біз ұйым карточкасын жасаймыз немесе басқаруға аламыз, барлық бөлімді толтырып, мекенжайдың картада дәл тұрғанын тексереміз. Бұл әдетте бір-екі күн алатын шағын бір реттік жұмыс.",
+  "description_en": "Yandex Maps and Yandex Business are still used by many Russian-speaking users, and a listing there complements your presence on 2GIS and Google. We create or take over the organisation listing, fill in every section and check that the address pin is accurate. It is a small one-off job that usually takes a day or two.",
   "for_whom_ru": "Для местных компаний, чьи клиенты пользуются Яндексом, и для тех, кто хочет быть на всех основных картах сразу.",
   "for_whom_kk": "Клиенттері Yandex қолданатын жергілікті компанияларға және барлық негізгі карталарда бірден болғысы келетіндерге арналған.",
   "for_whom_en": "For local companies whose customers use Yandex, and for those who want to be on all the main maps at once.",
@@ -55,7 +55,7 @@
     "Paid placement and advertising campaigns on Yandex",
     "Writing reviews, which only your real customers can leave"
   ],
-  "price_from_kzt": 8000,
+  "price_from_kzt": 4500,
   "unit": "once",
   "days_min": 1,
   "days_max": 2,
@@ -89,10 +89,46 @@
       "question_ru": "Гарантируете ли вы место в выдаче?",
       "question_kk": "Шығарылымдағы орынға кепілдік бересіз бе?",
       "question_en": "Do you guarantee a position in results?",
-      "answer_ru": "Нет. Я гарантирую аккуратное заполнение, а порядок организаций в выдаче определяет сам Яндекс и зависит от многих факторов.",
-      "answer_kk": "Жоқ. Мен ұқыпты толтыруға кепілдік беремін, ал шығарылымдағы ұйымдар тәртібін Yandex өзі анықтайды және ол көптеген факторға байланысты.",
-      "answer_en": "No. I guarantee careful setup, while the order of organisations in results is determined by Yandex itself and depends on many factors.",
+      "answer_ru": "Нет. Мы гарантируем аккуратное заполнение, а порядок организаций в выдаче определяет сам Яндекс и зависит от многих факторов.",
+      "answer_kk": "Жоқ. Біз ұқыпты толтыруға кепілдік береміз, ал шығарылымдағы ұйымдар тәртібін Yandex өзі анықтайды және ол көптеген факторға байланысты.",
+      "answer_en": "No. We guarantee careful setup, while the order of organisations in results is determined by Yandex itself and depends on many factors.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли подтверждать карточку каждый раз при правках?",
+      "question_kk": "Әр өзгерісте карточканы қайта растау керек пе?",
+      "question_en": "Do I need to confirm the listing again for every edit?",
+      "answer_ru": "Нет, после подтверждения прав обычные правки вносятся сразу. Изменения адреса и названия проходят модерацию Яндекса, и её сроки мы не контролируем.",
+      "answer_kk": "Жоқ, құқық расталғаннан кейін әдеттегі өзгерістер бірден енгізіледі. Мекенжай мен атау өзгерісі Яндекс модерациясынан өтеді, ал оның мерзімін біз бақыла алмаймыз.",
+      "answer_en": "No, once rights are confirmed, ordinary edits go live right away. Changes to the address and name go through Yandex moderation, whose timing we do not control.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что делать, если карточка уже есть в Яндекс Бизнес?",
+      "question_kk": "Яндекс Бизнесте карточка бұрыннан бар болса не істеу керек?",
+      "question_en": "What if a listing already exists in Yandex Business?",
+      "answer_ru": "Запрашиваем управление карточкой у владельца или через подтверждение. Пока доступа нет, ничего в ней не трогаем.",
+      "answer_kk": "Карточканы басқаруды иесінен немесе растау арқылы сұраймыз. Қолжетімділік болмаса, онда ештеңеге тиіспейміз.",
+      "answer_en": "We request management of the listing from the owner or through confirmation. Until access is granted, we do not touch anything in it.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто будет владеть карточкой после сдачи?",
+      "question_kk": "Тапсырғаннан кейін карточканың иесі кім болады?",
+      "question_en": "Who will own the listing after handover?",
+      "answer_ru": "Карточка привязывается к вашему аккаунту Яндекс Бизнес, и доступ к управлению остаётся у вас. Мы не оставляем себя единственными администраторами.",
+      "answer_kk": "Карточка сіздің Яндекс Бизнес аккаунтыңызға байланады, ал басқару қолжетімділігі сізде қалады. Біз өзімізді жалғыз әкімші етіп қалдырмаймыз.",
+      "answer_en": "The listing is linked to your Yandex Business account, and management access stays with you. We do not keep ourselves as the only administrators.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить несколько филиалов?",
+      "question_kk": "Бірнеше филиалды қосуға бола ма?",
+      "question_en": "Can I add several branches?",
+      "answer_ru": "Да, каждый филиал оформляется отдельной карточкой со своим адресом и часами работы. Число адресов влияет на объём, поэтому уточняем его заранее.",
+      "answer_kk": "Иә, әр филиал өз мекенжайы және жұмыс уақыты бар жеке карточкамен рәсімделеді. Мекенжай саны көлемге әсер етеді, сондықтан оны алдын ала нақтылаймыз.",
+      "answer_en": "Yes, each branch gets a separate listing with its own address and opening hours. The number of addresses affects the scope, so we confirm it in advance.",
+      "sort": 6
     }
   ]
 }

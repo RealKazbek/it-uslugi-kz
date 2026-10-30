@@ -1,0 +1,135 @@
+{
+  "slug": "podgotovka-k-zashite",
+  "category": "education",
+  "title_ru": "Подготовка к защите",
+  "title_kk": "Қорғауға дайындық",
+  "title_en": "Defence preparation",
+  "short_ru": "Готовим вас к защите проекта: разбираем каждую часть работы, репетируем ответы и объясняем решения, чтобы вы защитили его сами.",
+  "short_kk": "Жобаны қорғауға дайындаймыз: жұмыстың әр бөлігін талдаймыз, жауаптарды жаттықтырамыз және шешімдерді түсіндіреміз, сонда оны өзіңіз қорғайсыз.",
+  "short_en": "We get you ready to defend your project: we go through each part of the work, rehearse answers and explain the decisions, so you defend it yourself.",
+  "description_ru": "Если проект уже готов, а защита близко, разбираем его вместе с вами: структуру, код, выводы и презентацию. Разбираем каждую часть, чтобы вы могли защитить проект сами. Как это работает: 1) разбираем вашу готовую работу; 2) объясняем непонятные части кода и решения на созвоне; 3) передаём заметки, вероятные вопросы и правки к слайдам; 4) проводим репетицию защиты. Оплата 50 на 50: половина до начала работы, половина после передачи результата.",
+  "description_kk": "Жоба дайын болып, қорғау жақындаса, оны сізбен бірге талдаймыз: құрылымын, кодты, қорытындыларды және презентацияны. Әр бөлікті талдаймыз, сонда жобаны өзіңіз қорғай аласыз. Жұмыс қалай өтеді: 1) дайын жұмысыңызды талдаймыз; 2) кодтың және шешімдердің түсініксіз бөліктерін онлайн-кездесуде түсіндіреміз; 3) жазбаларды, ықтимал сұрақтарды және слайдтарға түзетулерді береміз; 4) қорғау жаттығуын өткіземіз. Төлем 50/50: жұмыс басталғанға дейін жартысы, нәтиже тапсырылғаннан кейін жартысы.",
+  "description_en": "If the project is ready and the defence is close, we go through it with you: structure, code, conclusions and slides. We go through each part so you can defend the project yourself. How it works: 1) we go through your finished work; 2) we explain the unclear parts of the code and decisions on a call; 3) we hand over notes, likely questions and slide edits; 4) we run a defence rehearsal. Payment 50/50: half before we start, half after we hand over the result.",
+  "for_whom_ru": "Для студентов, у которых проект почти готов, но нужно понять каждую часть и уверенно ответить на вопросы комиссии.",
+  "for_whom_kk": "Жобасы дайын, бірақ әр бөлікті түсініп, комиссия сұрақтарына сенімді жауап беру керек студенттерге арналған.",
+  "for_whom_en": "For students whose project is nearly done but who need to understand every part and answer the committee's questions with confidence.",
+  "includes_ru": [
+    "Разбор структуры проекта и логики защиты",
+    "Созвон или разбор, где объясняем код и решения по шагам",
+    "Проверка презентации: что оставить, что сократить и как говорить",
+    "Список вероятных вопросов и ответы на них",
+    "Репетиция защиты с вопросами и разбором ответов",
+    "Передача пояснений и материалов для презентации",
+    "Ответы на вопросы до защиты"
+  ],
+  "includes_kk": [
+    "Жоба құрылымын және қорғау логикасын талдау",
+    "Онлайн-кездесу немесе талдау, онда кодты және шешімдерді қадамдап түсіндіреміз",
+    "Презентацияны тексеру: нені қалдыру, нені қысқарту және қалай айту керек",
+    "Мүмкін сұрақтар тізімі және оларға жауаптар",
+    "Сұрақтармен қорғауды жаттықтыру және жауаптарды талдау",
+    "Түсініктемелер мен презентация материалдарын тапсыру",
+    "Қорғаудан бұрын сұрақтарға жауап"
+  ],
+  "includes_en": [
+    "Going through the project structure and the logic of the defence",
+    "A call or review where we explain the code and decisions step by step",
+    "Checking the slides: what to keep, what to cut and how to present",
+    "A list of likely questions and answers",
+    "A rehearsal of the defence with questions and feedback on answers",
+    "Handing over the notes and slide materials",
+    "Answers to your questions before the defence"
+  ],
+  "not_included_ru": [
+    "Защиту вместо вас и выступление от вашего имени",
+    "Гарантию оценки или зачёта: результат зависит от вашей работы и решения комиссии",
+    "Выдачу чужой работы за свою: проект должен быть вашим, а соблюдение правил вашего учебного заведения остаётся на вас"
+  ],
+  "not_included_kk": [
+    "Сіздің орныңызға қорғаудан өту немесе сіздің атыңыздан сөйлеу",
+    "Баға немесе сынаққа кепілдік: нәтиже сіздің жұмысыңызға және комиссия шешіміне байланысты",
+    "Басқаның жұмысын өзіңіздікі ретінде көрсету: жоба сіздікі болуы керек, оқу орныңыздың ережелерін сақтау жауапкершілігі сізде қалады"
+  ],
+  "not_included_en": [
+    "Defending in your place or speaking on your behalf",
+    "A guaranteed grade or pass: the result depends on your work and the committee's decision",
+    "Presenting someone else's work as your own: the project must be yours, and following your institution's rules is your responsibility"
+  ],
+  "price_from_kzt": 5000,
+  "unit": "lesson",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "diplomnye-proekty",
+    "kursovye-proekty",
+    "praktika-otchet"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 158,
+  "faqs": [
+    {
+      "question_ru": "Когда лучше начинать подготовку?",
+      "question_kk": "Дайындықты қашан бастаған дұрыс?",
+      "question_en": "When is the best time to start preparing?",
+      "answer_ru": "Желательно за несколько недель до защиты, когда проект уже готов или почти готов. Если защита через пару дней, мы тоже поможем, но времени на тренировку будет меньше, поэтому сосредоточимся на главном.",
+      "answer_kk": "Қорғауға бірнеше апта қалғанда, жоба дайын немесе дерлік дайын болған кезде. Қорғауға бірнеше күн қалса да көмектесеміз, бірақ жаттығуға уақыт аз болады, сондықтан басты нәрсеге назар аударамыз.",
+      "answer_en": "Ideally a few weeks before the defence, once the project is ready or nearly ready. If the defence is only a couple of days away we can still help, but there is less time to rehearse, so we focus on the essentials.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Будете ли вы отвечать на вопросы комиссии сами?",
+      "question_kk": "Комиссияның сұрақтарына өзіңіз жауап бересіз бе?",
+      "question_en": "Will the student answer the committee's questions personally?",
+      "answer_ru": "Да, на вопросы комиссии отвечает сам студент. Мы помогаем понять, какие вопросы возможны, и проверяем, понятно ли сформулированы ответы. Мы не пишем ответы за студента и не выступаем вместо него.",
+      "answer_kk": "Иә, комиссияның сұрақтарына студенттің өзі жауап береді. Қандай сұрақтар болуы мүмкін екенін түсінуге көмектесеміз және жауаптардың түсінікті екенін тексереміз. Студент орнына жауап жазбаймыз және оның орнына сөйлемейміз.",
+      "answer_en": "Yes, the student answers the committee's questions personally. We help them understand which questions are possible and check that the answers are clear. We do not write answers for the student or speak in their place.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет, если комиссия найдёт ошибки в проекте?",
+      "question_kk": "Комиссия жобада қате тапса не болады?",
+      "question_en": "What if the committee finds mistakes in the project?",
+      "answer_ru": "Это обычная часть защиты. Мы помогаем заранее найти слабые места и объяснить их честно: что уже сделано, что можно было бы улучшить и почему. Исправлять проект и отвечать за его итог будет студент.",
+      "answer_kk": "Бұл қорғаудың қалыпты бөлігі. Алдын ала осал жерлерді табуға және оларды адал түсіндіруге көмектесеміз: не жасалды, нені жақсартуға болатыны және неге. Жобаны түзетіп, оның нәтижесі үшін жауапты студент болады.",
+      "answer_en": "This is a normal part of a defence. We help find weak spots in advance and explain them honestly: what has been done, what could be better and why. The student corrects the project and answers for its outcome.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что делать, если в проекте есть спорное решение?",
+      "question_kk": "Жобада дау туғызатын шешім болса, не істеу керек?",
+      "question_en": "What if my project contains a debatable decision?",
+      "answer_ru": "Разбираем, почему выбрано именно это решение, и тренируем объяснить его аргументами, а не оправдываться. Формулировки и выводы вы подбираете сами.",
+      "answer_kk": "Неге дәл осы шешім таңдалғанын талдаймыз және оны ақтаудан гөрі дәлелдермен түсіндіруді жаттықтырамыз. Тұжырымдар мен сөздерді өзіңіз таңдайсыз.",
+      "answer_en": "We go through why this decision was chosen and practise explaining it with arguments rather than apologising. You choose the wording and conclusions yourself.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли прислать презентацию заранее?",
+      "question_kk": "Презентацияны алдын ала жіберуге бола ма?",
+      "question_en": "Can I send my slides in advance?",
+      "answer_ru": "Да, пришлите слайды и текст до занятия, и мы заранее отметим места, где логика не сходится. Исправлять слайды вы будете сами.",
+      "answer_kk": "Иә, сабаққа дейін слайдтар мен мәтінді жіберіңіз, сонда логика үйлеспейтін жерлерді алдын ала белгілейміз. Слайдтарды өзіңіз түзетесіз.",
+      "answer_en": "Yes, send the slides and text before the session and we will mark where the logic does not flow. You make the changes to the slides yourself.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как готовиться к вопросу, на который я не знаю ответа?",
+      "question_kk": "Жауабын білмейтін сұраққа қалай дайындалу керек?",
+      "question_en": "How do I prepare for a question I cannot answer?",
+      "answer_ru": "Тренируем честный ответ: что уже известно, как бы вы проверили остальное и на что это опирается. Придумывать ответ не нужно, и мы помогаем это проговорить.",
+      "answer_kk": "Адал жауапты жаттықтырамыз: не белгілі, қалғанын қалай тексерер едіңіз және бұл нені негізге алады. Жауапты ойлап табудың қажеті жоқ, біз мұны айтуға көмектесеміз.",
+      "answer_en": "We practise an honest answer: what is already known, how you would check the rest and what it rests on. You do not need to invent an answer, and we help you say this clearly.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Какие правила защиты действуют в моём вузе?",
+      "question_kk": "Менің жоғары оқу орнымда қорғау ережелері қандай?",
+      "question_en": "What defence rules apply at my university?",
+      "answer_ru": "Порядок защиты отличается у вузов и кафедр, поэтому уточните у руководителя время выступления и формат вопросов. Тренировку подстраиваем под эти рамки.",
+      "answer_kk": "Қорғау тәртібі жоғары оқу орындары мен кафедраларда әртүрлі, сондықтан жетекшіңізден сөз уақыты мен сұрақтар форматын нақтылаңыз. Жаттығуды осы шеңберге бейімдейміз.",
+      "answer_en": "The defence procedure differs between universities and departments, so confirm the speaking time and question format with your supervisor. We adapt the practice to those limits.",
+      "sort": 6
+    }
+  ]
+}

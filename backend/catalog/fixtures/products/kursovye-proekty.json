@@ -1,0 +1,72 @@
+{
+  "slug": "kursovye-proekty",
+  "category": "education",
+  "title_ru": "Курсовые проекты",
+  "title_kk": "Курстық жобалар",
+  "title_en": "Coursework projects",
+  "short_ru": "Выполняем курсовой проект по программированию и объясняем, как он устроен, чтобы вы могли его защитить.",
+  "short_kk": "Бағдарламалау бойынша курстық жобаны орындаймыз және оның қалай құрылғанын түсіндіреміз, сонда оны қорғай аласыз.",
+  "short_en": "We build your programming coursework and explain how it works, so you can defend it.",
+  "description_ru": "Берёте тему курсового проекта, а мы выполняем его по вашему заданию и объясняем каждое решение: архитектуру, код, базу данных и интерфейс. Разбираем каждую часть, чтобы вы могли защитить проект сами. Как это работает: 1) выполняем работу; 2) объясняем код и решения на созвоне или разборе; 3) передаём проект, исходники и пояснения; 4) помогаем подготовиться к защите. Оплата 50 на 50: половина до начала работы, половина после передачи результата.",
+  "description_kk": "Курстық жобаның тақырыбын аласыз, біз оны тапсырмаңыз бойынша орындаймыз және әр шешімді түсіндіреміз: архитектураны, кодты, дерекқорды және интерфейсті. Жобаның әр бөлігін талдаймыз, сонда оны өзіңіз қорғай аласыз. Жұмыс қалай өтеді: 1) жұмысты орындаймыз; 2) онлайн-кездесуде немесе талдауда кодты және шешімдерді түсіндіреміз; 3) жобаны, бастапқы кодты және түсініктемелерді тапсырамыз; 4) қорғауға дайындалуға көмектесеміз. Төлем 50/50: жұмыс басталғанға дейін жартысы, нәтиже тапсырылғаннан кейін жартысы.",
+  "description_en": "You bring the coursework topic, and we build it to your brief and explain every decision: the architecture, code, database and interface. We go through each part so you can defend the project yourself. How it works: 1) we do the work; 2) we explain the code and decisions on a call or review; 3) we hand over the project, source code and notes; 4) we help you prepare for the defence. Payment 50/50: half before we start, half after we hand over the result.",
+  "for_whom_ru": "Для студентов, которым нужен работающий курсовой проект и понимание того, как он устроен, чтобы уверенно отвечать на вопросы на защите.",
+  "for_whom_kk": "Жұмыс істейтін курстық жоба қажет және қорғауда сұрақтарға сенімді жауап беру үшін оның құрылымын түсінгісі келетін студенттерге арналған.",
+  "for_whom_en": "For students who need a working coursework project and an understanding of how it is built, so they can answer questions confidently at the defence.",
+  "includes_ru": [
+    "Уточнение темы, требований и сроков по вашему заданию",
+    "Выполнение курсового проекта: код, структура и оформление",
+    "Созвон или разбор, где объясняем архитектуру и решения по шагам",
+    "Передача проекта, исходников и пояснений к каждой части",
+    "Разбор теории, которая нужна для работы",
+    "Подготовка к защите: вероятные вопросы и ответы на них",
+    "Ответы на вопросы в ходе работы"
+  ],
+  "includes_kk": [
+    "Тақырыпты, талаптар мен мерзімді тапсырмаңыз бойынша нақтылау",
+    "Курстық жобаны орындау: код, құрылым және рәсімдеу",
+    "Онлайн-кездесу немесе талдау, онда архитектураны және шешімдерді қадамдап түсіндіреміз",
+    "Жобаны, бастапқы кодты және әр бөлікке түсініктемені тапсыру",
+    "Жұмыс үшін қажет теорияны талдау",
+    "Қорғауға дайындық: мүмкін сұрақтар және оларға жауаптар",
+    "Жұмыс барысындағы сұрақтарға жауап"
+  ],
+  "includes_en": [
+    "Clarifying the topic, requirements and deadline with your brief",
+    "Doing the coursework: code, structure and layout",
+    "A call or review where we explain the architecture and decisions step by step",
+    "Handing over the project, source code and notes on each part",
+    "Explaining the theory the work relies on",
+    "Defence preparation: likely questions and answers",
+    "Answers to your questions during the work"
+  ],
+  "not_included_ru": [
+    "Сдачу экзаменов и прохождение тестов вместо вас",
+    "Гарантию оценки или зачёта: результат зависит от вашего знания материала и требований преподавателя",
+    "Выдачу работы за свою, если это запрещено правилами вашего учебного заведения: соблюдение правил вуза или колледжа остаётся на вас"
+  ],
+  "not_included_kk": [
+    "Сіздің орныңызға емтихан тапсыру немесе тест тапсыру",
+    "Баға немесе сынаққа кепілдік: нәтиже сіздің біліміңізге және оқытушы талаптарына байланысты",
+    "Оқу орныңыздың ережесіне қайшы жұмысты өзіңіздікі ретінде тапсыру: ережелерді сақтау жауапкершілігі сізде қалады"
+  ],
+  "not_included_en": [
+    "Taking exams or tests in your place",
+    "A guaranteed grade or pass: the result depends on your knowledge and your instructor's requirements",
+    "Handing in work as your own where your institution's rules prohibit it: following those rules is your responsibility"
+  ],
+  "price_from_kzt": 15000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 14,
+  "related": [
+    "razbor-laboratornyh",
+    "praktika-otchet",
+    "diplomnye-proekty",
+    "veb-razrabotka-dlya-nachinayushih"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 155,
+  "faqs": []
+}

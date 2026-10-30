@@ -1,0 +1,135 @@
+{
+  "slug": "sinhronizaciya-1s-moysklad",
+  "category": "ecommerce",
+  "title_ru": "Синхронизация магазина с 1С и МойСклад",
+  "title_kk": "Дүкенді 1С және МойСклад-пен синхрондау",
+  "title_en": "Syncing your shop with 1C and MoySklad",
+  "short_ru": "Остатки, цены и заказы между сайтом, 1С и МойСклад обновляются автоматически, без ручного переноса.",
+  "short_kk": "Сайт, 1С және МойСклад арасындағы қалдық, баға және тапсырыстар қолмен көшірусіз автоматты түрде жаңарады.",
+  "short_en": "Stock, prices and orders stay in sync between your site, 1C and MoySklad without manual copying.",
+  "description_ru": "Мы связываем интернет-магазин с учётными системами, чтобы остатки и цены совпадали с тем, что вы видите в 1С или МойСклад. Заказы с сайта попадают в учётную систему, и менеджеру не нужно переносить их вручную. Перед запуском проверяем обмен на копии ваших данных, чтобы убедиться, что он работает корректно и без дублей.",
+  "description_kk": "Біз интернет-дүкенді есеп жүйелерімен байланыстырамыз, сонда қалдық пен баға 1С немесе МойСклад-та көрінгенмен сәйкес келеді. Сайттан келген тапсырыстар есеп жүйесіне түседі, менеджер оларды қолмен көшірмейді. Іске қосар алдында деректердің көшірмесінде алмасудың дұрыс және қайталанбай жұмыс істейтінін тексереміз.",
+  "description_en": "We link your online shop with your accounting systems so stock and prices match what you see in 1C or MoySklad. Orders from the site flow into the accounting system, so managers do not copy them by hand. Before launch we check the exchange on a copy of your data to make sure it works correctly and without duplicates.",
+  "for_whom_ru": "Для магазинов, которые ведут учёт в 1С или МойСклад и устали сверять остатки и заказы вручную.",
+  "for_whom_kk": "Есепті 1С немесе МойСклад-та жүргізетін және қалдық пен тапсырысты қолмен салыстырудан шаршаған дүкендерге арналған.",
+  "for_whom_en": "For shops that keep their records in 1C or MoySklad and are tired of checking stock and orders by hand.",
+  "includes_ru": [
+    "Обмен остатков и цен между сайтом и учётной системой",
+    "Передача заказов с сайта в 1С или МойСклад",
+    "Обновление статусов заказов на сайте после изменения в учётной системе",
+    "Настройка сопоставления товаров по артикулам или кодам",
+    "Журнал обмена с ошибками, чтобы видеть проблемы без догадок",
+    "Проверка на копии данных и тестовых заказах",
+    "Инструкция по работе обмена и разбор первых ошибок при запуске"
+  ],
+  "includes_kk": [
+    "Сайт пен есеп жүйесі арасындағы қалдық пен бағаны алмасу",
+    "Сайттан тапсырыстарды 1С немесе МойСклад-қа жіберу",
+    "Есеп жүйесінде өзгерген соң сайттағы тапсырыс мәртебесін жаңарту",
+    "Тауарларды артикул немесе код бойынша сәйкестендіруді баптау",
+    "Қателері бар алмасу журналы, мәселені болжамсыз көру үшін",
+    "Деректер көшірмесінде және сынақ тапсырыстарында тексеру",
+    "Алмасу жұмысына нұсқаулық және іске қосу кезінде алғашқы қателерді талдау"
+  ],
+  "includes_en": [
+    "Exchange of stock and prices between the site and the accounting system",
+    "Sending orders from the site to 1C or MoySklad",
+    "Updating order statuses on the site after changes in the accounting system",
+    "Matching products by SKU or code",
+    "An exchange log with errors, so problems are visible without guessing",
+    "Checks on a copy of your data and on test orders",
+    "A guide to the exchange and review of the first errors at launch"
+  ],
+  "not_included_ru": [
+    "Настройка самой 1С или МойСклад, их лицензии и тарифы: это оплачивается вашей учётной системе отдельно",
+    "Перенос всей истории заказов и товаров из старых систем: это отдельный объём работ",
+    "Изменение логики учёта, налогов и бухгалтерских проводок: это зона вашего бухгалтера"
+  ],
+  "not_included_kk": [
+    "1С немесе МойСклад-тың өзін баптау, олардың лицензиясы мен тарифтері: бұлар есеп жүйесіне бөлек төленеді",
+    "Ескі жүйелерден барлық тапсырыс пен тауар тарихын көшіру: бөлек жұмыс көлемі",
+    "Есеп логикасын, салықтар мен бухгалтерлік жазбаларды өзгерту: бұл бухгалтердің аймағы"
+  ],
+  "not_included_en": [
+    "Setting up 1C or MoySklad itself, and their licences and tariffs: these are paid to your accounting system separately",
+    "Moving the full order and product history from old systems: a separate volume of work",
+    "Changing accounting logic, taxes and journal entries: this is your accountant's area"
+  ],
+  "price_from_kzt": 30000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 20,
+  "related": [
+    "kaspi-xml",
+    "internet-magazin",
+    "integraciya-api"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 105,
+  "faqs": [
+    {
+      "question_ru": "Какая версия 1С подходит для обмена?",
+      "question_kk": "Алмасу үшін 1С-ның қай нұсқасы жарайды?",
+      "question_en": "Which 1C version works for the exchange?",
+      "answer_ru": "Это зависит от конфигурации и способа доступа. Перед стартом мы смотрим вашу базу и согласуем, как подключиться: через стандартный сервис или HTTP-интерфейс. Если доступа пока нет, его нужно организовать заранее.",
+      "answer_kk": "Бұл конфигурацияға және қол жеткізу тәсіліне байланысты. Бастамас бұрын базаңызды қараймыз және қосылу жолын келісеміз: стандартты сервис немесе HTTP-интерфейс арқылы. Қолжетімділік әзір болмаса, оны алдын ала ұйымдастыру керек.",
+      "answer_en": "It depends on the configuration and the way access is set up. Before we start we look at your database and agree how to connect, either through a standard service or an HTTP interface. If access is not available yet, it must be arranged in advance.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что будет, если у товара нет артикула?",
+      "question_kk": "Тауарда артикул болмаса не болады?",
+      "question_en": "What if a product has no SKU?",
+      "answer_ru": "Такой товар не сопоставится автоматически и попадёт в журнал ошибок. Мы показываем список таких позиций, чтобы их можно было исправить в учётной системе.",
+      "answer_kk": "Мұндай тауар автоматты түрде сәйкестенбейді және қателер журналына түседі. Оларды есеп жүйесінде түзету үшін тізімін көрсетеміз.",
+      "answer_en": "Such an item will not match automatically and will appear in the error log. We show the list of these items so you can fix them in your accounting system.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что проверяется перед запуском?",
+      "question_kk": "Іске қосар алдында не тексеріледі?",
+      "question_en": "What is checked before launch?",
+      "answer_ru": "Мы сверяем остатки и цены на копии данных, отправляем тестовые заказы и проверяем, что дублей нет. Только после этого подключаем реальный обмен.",
+      "answer_kk": "Деректер көшірмесінде қалдық пен бағаны салыстырамыз, сынақ тапсырыстарын жіберіп, қайталанулар жоқ екенін тексереміз. Тек осыдан кейін нақты алмасуды қосамыз.",
+      "answer_en": "We compare stock and prices on a copy of your data, send test orders and confirm there are no duplicates. Only after that do we switch on the live exchange.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Как часто обмениваются данные?",
+      "question_kk": "Деректер қанша жиілікпен алмасады?",
+      "question_en": "How often does the data sync?",
+      "answer_ru": "Обмен можно настроить по расписанию или по событию. Частоту выбираем на старте, исходя из количества товаров и заказов.",
+      "answer_kk": "Алмасуды кесте бойынша немесе оқиға бойынша баптауға болады. Жиілікті бастапқыда тауар мен тапсырыс санына қарай таңдаймыз.",
+      "answer_en": "The exchange can be set on a schedule or triggered by events. We choose the frequency at the start, based on the number of products and orders.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если цену в 1С поменяли вручную?",
+      "question_kk": "1С-те бағаны қолмен өзгерсе, не болады?",
+      "question_en": "What happens if someone changes a price in 1C by hand?",
+      "answer_ru": "Новая цена придёт на сайт при следующем обмене. Поэтому правило приоритета, то есть учётная система или сайт, фиксируем заранее.",
+      "answer_kk": "Жаңа баға келесі алмасуда сайтқа жетеді. Сондықтан басымдық ережесін, яғни есепке алу жүйесі ме әлде сайт па, алдын ала бекитеміз.",
+      "answer_en": "The new price reaches the site at the next exchange. That is why we fix in advance the priority rule: accounting system or website.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужен ли доступ к 1С или МойСклад для настройки?",
+      "question_kk": "Баптау үшін 1С немесе МойСклад-қа қолжетімділік керек пе?",
+      "question_en": "Do you need access to 1C or MoySklad to set it up?",
+      "answer_ru": "Да, нужен временный доступ к учётной системе и тестовой базе. После запуска доступ можно закрыть, а все логины остаются у вас.",
+      "answer_kk": "Иә, есепке алу жүйесіне және тесттік базаға уақытша қолжетімділік керек. Іске қосқаннан кейін қолжетімділікті жабуға болады, ал барлық логин сізде қалады.",
+      "answer_en": "Yes, temporary access to the accounting system and a test database is needed. After launch access can be closed, and you keep all logins.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто отвечает за работу обмена после запуска?",
+      "question_kk": "Іске қосқаннан кейін алмасудың жұмысына кім жауап береді?",
+      "question_en": "Who is responsible for the exchange after launch?",
+      "answer_ru": "Мы передаём инструкцию и журнал ошибок, чтобы проблемы были видны. Если обмен сломается из-за изменений в 1С или МойСклад, исправление оцениваем отдельно.",
+      "answer_kk": "Біз нұсқаулық пен қателер журналын береміз, сонда мәселелер көрінеді. 1С немесе МойСклад өзгерісінен алмасу бұзылса, түзетуді бөлек бағалаймыз.",
+      "answer_en": "We hand over the instructions and the error log so issues are visible. If the exchange breaks because of changes in 1C or MoySklad, the fix is assessed separately.",
+      "sort": 6
+    }
+  ]
+}

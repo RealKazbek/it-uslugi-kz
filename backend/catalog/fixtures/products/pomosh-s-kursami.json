@@ -1,0 +1,138 @@
+{
+  "slug": "pomosh-s-kursami",
+  "category": "education",
+  "title_ru": "Помощь с онлайн-курсами",
+  "title_kk": "Онлайн-курстарға көмек",
+  "title_en": "Help with online courses",
+  "short_ru": "Разбираем материалы онлайн-курса вместе с вами: объясняем непонятные темы, код и задания, чтобы вы справлялись сами.",
+  "short_kk": "Онлайн-курс материалдарын сізбен бірге талдаймыз: түсінбеген тақырыптарды, кодты және тапсырмаларды түсіндіреміз, сонда өзіңіз жеңесіз.",
+  "short_en": "We go through online course materials with you: we explain the topics, code and tasks you find hard, so you can manage on your own.",
+  "description_ru": "Вы проходите онлайн-курс, но какие-то темы, код или задания даются трудно. Разбираем с вами материалы: объясняем теорию, показываем ход решения и проверяем, поняли ли вы. Разбираем каждую часть, чтобы вы могли справляться сами. Как это работает: 1) разбираем материалы вашего курса; 2) объясняем теорию, код и решения на созвоне; 3) передаём конспекты и примеры кода (задания вы выполняете сами); 4) помогаем подготовиться к проверке. Оплата 50 на 50: половина до начала занятий, половина после последнего.",
+  "description_kk": "Онлайн-курсқа жазылдыңыз, бірақ кейбір тақырыптар, код немесе тапсырмалар қиын. Материалдарды сізбен бірге талдаймыз: теорияны түсіндіреміз, шешім барысын көрсетеміз және түсінгеніңізді тексереміз. Жұмыс қалай өтеді: 1) курс материалдарын талдаймыз; 2) теорияны, кодты және шешімдерді онлайн-кездесуде түсіндіреміз; 3) конспектілер мен код мысалдарын береміз (тапсырмаларды өзіңіз орындайсыз); 4) тексеруге дайындалуға көмектесеміз. Төлем 50/50: сабақтар басталғанға дейін жартысы, соңғы сабақтан кейін жартысы.",
+  "description_en": "You are taking an online course, but some topics, code or tasks are hard. We go through the materials with you: we explain the theory, show how solutions are built and check your understanding. How it works: 1) we go through your course materials; 2) we explain the theory, code and decisions on a call; 3) we hand over notes and code examples (you do the tasks yourself); 4) we help you prepare for the review. Payment 50/50: half before the sessions start, half after the last one.",
+  "for_whom_ru": "Для тех, кто учится по онлайн-курсу, но застревает на отдельных темах, коде или заданиях и хочет разобраться без спешки.",
+  "for_whom_kk": "Онлайн-курспен оқып жүрген, бірақ жекелеген тақырыптарда, кодта немесе тапсырмаларда тоқтап қалатын және асықпай түсінгісі келетін адамдарға арналған.",
+  "for_whom_en": "For people studying an online course who get stuck on particular topics, code or tasks and want to understand them without rushing.",
+  "includes_ru": [
+    "Разбор вопросов по материалам курса и непонятным темам",
+    "Созвон или разбор, где объясняем код и решения по шагам",
+    "Объяснение теории простым языком с примерами",
+    "Разбор ваших ошибок: почему они возникли и как их найти",
+    "Конспект и список тем, которые стоит повторить",
+    "Передача исходников примеров и пояснений",
+    "Помощь с подготовкой к итоговой работе, если она есть в курсе"
+  ],
+  "includes_kk": [
+    "Курс материалдары және түсініксіз тақырыптар бойынша сұрақтарды талдау",
+    "Онлайн-кездесу немесе талдау, онда кодты және шешімдерді қадамдап түсіндіреміз",
+    "Теорияны мысалдармен қарапайым тілмен түсіндіру",
+    "Қателеріңізді талдау: олар неге шықты және оларды қалай табуға болады",
+    "Конспект және қайталауға тұрарлық тақырыптар тізімі",
+    "Мысалдардың бастапқы коды мен түсініктемелерін тапсыру",
+    "Курста болса, қорытынды жұмысқа дайындыққа көмек"
+  ],
+  "includes_en": [
+    "Going through questions on course materials and hard topics",
+    "A call or review where we explain the code and decisions step by step",
+    "Explaining the theory in plain language with examples",
+    "Reviewing your mistakes: why they happened and how to find them",
+    "Notes and a list of topics to revise",
+    "Handing over example source code and explanations",
+    "Help with the final project, if the course has one"
+  ],
+  "not_included_ru": [
+    "Выполнение заданий курса и итоговых работ вместо вас",
+    "Сдачу тестов и экзаменов в курсе вместо вас",
+    "Гарантию сертификата или результата курса: это зависит от вашей работы и правил платформы",
+    "Соблюдение правил курса и учебного заведения: уточняйте их до помощи, мы помогаем понять материал"
+  ],
+  "not_included_kk": [
+    "Курс тапсырмалары мен қорытынды жұмыстарды сіздің орныңызға орындау",
+    "Сіздің орныңызға курстағы тесттер мен емтиханды тапсыру",
+    "Сертификат немесе курс нәтижесіне кепілдік: бұл сіздің жұмысыңызға және платформа ережелеріне байланысты",
+    "Курс пен оқу орнының ережелерін сақтау: оларды көмек алмас бұрын нақтылаңыз, біз материалды түсінуге көмектесеміз"
+  ],
+  "not_included_en": [
+    "Doing course assignments and final projects in your place",
+    "Taking tests and exams in the course in your place",
+    "A guaranteed certificate or course result: this depends on your work and the platform's rules",
+    "Following the rules of your course and institution: check them before getting help; we help you understand the material"
+  ],
+  "price_from_kzt": 5000,
+  "unit": "lesson",
+  "days_min": 1,
+  "days_max": 1,
+  "related": [
+    "razbor-laboratornyh",
+    "repetitor-programmirovaniya",
+    "python-s-nulya"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 159,
+  "faqs": [
+    {
+      "question_ru": "С какими курсами вы работаете?",
+      "question_kk": "Қандай курстармен жұмыс істейсіздер?",
+      "question_en": "Which courses do you help with?",
+      "answer_ru": "Помогаем с разными онлайн-курсами, если материал на русском, казахском или английском языке. Перед занятием уточните название курса, модуль и тему, которая вызывает вопросы.",
+      "answer_kk": "Материал орыс, қазақ немесе ағылшын тілінде болса, әр түрлі онлайн-курстарға көмектесеміз. Сабақ алдында курс атауын, модульді және қиындық туғызатын тақырыпты нақтылаңыз.",
+      "answer_en": "We help with a range of online courses if the material is in Russian, Kazakh or English. Before the lesson, tell us the course name, the module and the topic that is hard.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Вы поможете сдать курс или экзамен?",
+      "question_kk": "Курсты немесе емтиханды тапсыруға көмектесесіздер ме?",
+      "question_en": "Will you help the student pass the course or an exam?",
+      "answer_ru": "Нет. Мы не сдаём экзамены и не выполняем тесты вместо студента. Мы объясняем материал, чтобы студент понимал задания и мог выполнить их сам. Правила сдачи курса определяет его организатор.",
+      "answer_kk": "Жоқ. Біз емтихан тапсырмаймыз және тесттерді студент орнына орындамаймыз. Материалды түсіндіреміз, сонда студент тапсырмаларды түсініп, өзі орындай алады. Курсты тапсыру ережелерін оны ұйымдастырушы белгілейді.",
+      "answer_en": "No. We do not take exams or do quizzes in the student's place. We explain the material so the student understands the tasks and can complete them alone. The rules for passing the course are set by its organiser.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Сколько занятий обычно нужно?",
+      "question_kk": "Әдетте қанша сабақ керек?",
+      "question_en": "How many lessons are usually needed?",
+      "answer_ru": "Это зависит от темы и того, насколько материал опирается на предыдущие уроки. Часто одного-двух занятий хватает, чтобы разобрать сложный фрагмент. Точнее скажем после первого разговора.",
+      "answer_kk": "Бұл тақырыпқа және материалдың алдыңғы сабақтарға неге тәуелді екеніне байланысты. Күрделі бөлікті талдау үшін көбіне бір-екі сабақ жеткілікті. Нақтысын алғашқы әңгімеден кейін айтамыз.",
+      "answer_en": "It depends on the topic and how much the material builds on earlier lessons. One or two sessions are often enough to go through a difficult part. We will be more precise after the first conversation.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Можно ли разобрать конкретный урок, который я не понял?",
+      "question_kk": "Түсінбеген нақты сабақты талдауға бола ма?",
+      "question_en": "Can we go through a specific lesson I did not understand?",
+      "answer_ru": "Да, вы описываете урок или присылаете конспект, и мы разбираем его по ключевым моментам. Сами материалы курса остаются вашими.",
+      "answer_kk": "Иә, сіз сабақты сипаттайсыз немесе конспектіні жібересіз, ал біз оны негізгі тұстары бойынша талдаймыз. Курс материалдары өзіңізде қалады.",
+      "answer_en": "Yes, you describe the lesson or send your notes, and we go through it point by point. The course materials stay yours.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что делать, если курс на английском языке?",
+      "question_kk": "Курс ағылшын тілінде болса, не істеу керек?",
+      "question_en": "What if the course is in English?",
+      "answer_ru": "Занятие можно провести на русском или казахском языке, а ключевые термины объясняем в оригинале, чтобы вы узнавали их в курсе.",
+      "answer_kk": "Сабақты орысша немесе қазақша өткізуге болады, ал негізгі терминдерді түпнұсқада түсіндіреміз, сонда курста оларды бірден танисыз.",
+      "answer_en": "The session can be held in Russian or Kazakh, and we explain key terms in the original so you recognise them in the course.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как понять, что я действительно разобрался с темой?",
+      "question_kk": "Тақырыпты шынымен түсінгенімді қалай білуге болады?",
+      "question_en": "How do I know I really understood the topic?",
+      "answer_ru": "В конце мы задаём два-три вопроса по теме, и вы отвечаете своими словами. Если ответ не сходится, возвращаемся к месту, где возникла путаница.",
+      "answer_kk": "Соңында тақырып бойынша екі-үш сұрақ қоямыз, сіз оларға өз сөзіңізбен жауап бересіз. Жауап сәйкес келмесе, шатасқан жерге қайта ораламыз.",
+      "answer_en": "At the end we ask two or three questions on the topic and you answer in your own words. If the answer does not add up, we go back to where the confusion started.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что нужно сделать после занятия?",
+      "question_kk": "Сабақтан кейін не істеу керек?",
+      "question_en": "What should I do after the session?",
+      "answer_ru": "Мы предлагаем короткий план повторения и список вопросов, которые стоит решить самостоятельно. Задания курса вы выполняете сами.",
+      "answer_kk": "Қысқа қайталау жоспарын және өз бетіңізше шешетін сұрақтар тізімін ұсынамыз. Курс тапсырмаларын өзіңіз орындайсыз.",
+      "answer_en": "We suggest a short review plan and a list of questions worth solving on your own. You complete the course assignments yourself.",
+      "sort": 6
+    }
+  ]
+}

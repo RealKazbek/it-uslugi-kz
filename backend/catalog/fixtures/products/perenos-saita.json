@@ -4,12 +4,12 @@
   "title_ru": "Перенос сайта на другой хостинг",
   "title_kk": "Сайтты басқа хостингке көшіру",
   "title_en": "Website migration to a new host",
-  "short_ru": "Переношу сайт и базу данных на новый хостинг без потери данных и с минимальным простоем.",
-  "short_kk": "Сайт пен деректер қорын жаңа хостингке деректерді жоғалтпай және минималды тоқтаумен көшіремін.",
-  "short_en": "I move your site and database to a new host without losing data and with minimal downtime.",
-  "description_ru": "Хостинг подорожал, работает нестабильно или старый тариф закрывают, и сайт нужно перевезти. Я копирую файлы и базу данных, поднимаю сайт на новом сервере, проверяю его по временному адресу и только потом переключаю домен. Старый хостинг остаётся включённым, пока вы не убедитесь, что всё работает.",
-  "description_kk": "Хостинг қымбаттады, тұрақсыз істейді немесе ескі тариф жабылады, сондықтан сайтты көшіру керек. Мен файлдар мен деректер қорын көшіріп, сайтты жаңа серверде көтеремін, уақытша мекенжай бойынша тексеремін, содан кейін ғана доменді ауыстырамын. Барлығы жұмыс істейтініне көз жеткізгенше ескі хостинг қосулы қалады.",
-  "description_en": "Your hosting got more expensive, runs unreliably or the old plan is being shut down, so the site has to move. I copy the files and database, set the site up on the new server, test it at a temporary address and only then switch the domain. The old host stays active until you confirm everything works.",
+  "short_ru": "Переносим сайт и базу данных на новый хостинг без потери данных и с минимальным простоем.",
+  "short_kk": "Сайт пен деректер қорын жаңа хостингке деректерді жоғалтпай және минималды тоқтаумен көшіреміз.",
+  "short_en": "We move your site and database to a new host without losing data and with minimal downtime.",
+  "description_ru": "Хостинг подорожал, работает нестабильно или старый тариф закрывают, и сайт нужно перевезти. Мы копируем файлы и базу данных, поднимаем сайт на новом сервере, проверяем его по временному адресу и только потом переключаем домен. Старый хостинг остаётся включённым, пока вы не убедитесь, что всё работает.",
+  "description_kk": "Хостинг қымбаттады, тұрақсыз істейді немесе ескі тариф жабылады, сондықтан сайтты көшіру керек. Біз файлдар мен деректер қорын көшіріп, сайтты жаңа серверде көтереміз, уақытша мекенжай бойынша тексереміз, содан кейін ғана доменді ауыстырамыз. Барлығы жұмыс істейтініне көз жеткізгенше ескі хостинг қосулы қалады.",
+  "description_en": "Your hosting got more expensive, runs unreliably or the old plan is being shut down, so the site has to move. We copy the files and database, set the site up on the new server, test it at a temporary address and only then switch the domain. The old host stays active until you confirm everything works.",
   "for_whom_ru": "Владельцам сайтов, которые меняют хостинг и боятся потерять данные, заявки или доступность сайта.",
   "for_whom_kk": "Хостингті ауыстырып жатқан және деректерді, өтінімдерді немесе сайттың қолжетімділігін жоғалтудан қорқатын сайт иелеріне арналған.",
   "for_whom_en": "For site owners changing hosts who worry about losing data, enquiries or uptime.",
@@ -52,7 +52,7 @@
     "Fixing bugs that existed on the site before the move",
     "Moves from site builders that do not allow exporting the site"
   ],
-  "price_from_kzt": 15000,
+  "price_from_kzt": 9000,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,
@@ -86,10 +86,46 @@
       "question_ru": "Подойдёт ли это для сайта на WordPress?",
       "question_kk": "Бұл WordPress сайтына жарай ма?",
       "question_en": "Does this work for a WordPress site?",
-      "answer_ru": "Да, если есть доступ к файлам и базе данных. Для закрытых конструкторов, откуда нельзя выгрузить сайт, перенос невозможен, и я скажу об этом сразу.",
-      "answer_kk": "Иә, файлдар мен деректер қорына қолжетімділік болса. Сайтты экспорттау мүмкін емес жабық конструкторлар үшін көшіру мүмкін емес, мұны бірден айтамын.",
-      "answer_en": "Yes, as long as I can reach the files and the database. For closed builders that cannot export a site, a move is not possible and I will tell you that straight away.",
+      "answer_ru": "Да, если есть доступ к файлам и базе данных. Для закрытых конструкторов, откуда нельзя выгрузить сайт, перенос невозможен, и мы скажем об этом сразу.",
+      "answer_kk": "Иә, файлдар мен деректер қорына қолжетімділік болса. Сайтты экспорттау мүмкін емес жабық конструкторлар үшін көшіру мүмкін емес, мұны бірден айтамыз.",
+      "answer_en": "Yes, as long as we can reach the files and the database. For closed builders that cannot export a site, a move is not possible and we will tell you that straight away.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько длится перенос?",
+      "question_kk": "Көшіру қанша уақыт алады?",
+      "question_en": "How long does the migration take?",
+      "answer_ru": "Обычно от одного до трёх дней, включая проверку по временному адресу. Большой архив или сложная база могут занять больше времени.",
+      "answer_kk": "Әдетте бір-үш күн, уақытша мекенжай бойынша тексеру қоса. Үлкен архив немесе күрделі база көбірек уақыт алуы мүмкін.",
+      "answer_en": "Usually one to three days, including checking on the temporary address. A large archive or a complex database can take longer.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет с заказами и заявками, пришедшими во время переноса?",
+      "question_kk": "Көшіру кезінде келген тапсырыстар мен өтініштерге не болады?",
+      "question_en": "What happens to orders and requests that arrive during the migration?",
+      "answer_ru": "Перед переключением домена делаем финальную копию базы, чтобы заявки, пришедшие во время работ, не потерялись. Поэтому старый хостинг стоит держать включённым до конца переноса.",
+      "answer_kk": "Домен ауыстырар алдында дерекқордың соңғы көшірмесін жасаймыз, сондықтан жұмыс кезінде келген өтініштер жоғалмайды. Сондықтан ескі хостингті көшіру аяқталғанға дейін қосулы ұстаған дұрыс.",
+      "answer_en": "Before switching the domain we make a final copy of the database so requests that come in during the work are not lost. That is why it is best to keep the old hosting on until the migration is complete.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что делать, если нет доступа к панели старого хостинга?",
+      "question_kk": "Ескі хостинг панеліне қолжетімділік болмаса не істеу керек?",
+      "question_en": "What if I have no access to the old hosting panel?",
+      "answer_ru": "Без доступа к файлам и базе перенести сайт сложно, поэтому сначала нужно вернуть доступ через владельца аккаунта или поддержку провайдера. Чужие аккаунты мы не обходим.",
+      "answer_kk": "Файлдар мен базаға қолжетімділіксіз сайтты көшіру қиын, сондықтан алдымен аккаунт иесі немесе провайдер қолдауы арқылы қолжетімділікті қайтару керек. Басқа адамның аккаунтын айналып өтпейміз.",
+      "answer_en": "Without access to the files and database, moving the site is hard, so first access must be restored through the account owner or the provider's support. We do not get around other people's accounts.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Поменяется ли адрес сайта после переноса?",
+      "question_kk": "Көшіруден кейін сайттың мекенжайы өзгере ме?",
+      "question_en": "Will the site address change after the migration?",
+      "answer_ru": "Нет, адрес домена остаётся тем же: меняется только сервер, на котором работает сайт. Переключение идёт через DNS, и иногда оно занимает несколько часов.",
+      "answer_kk": "Жоқ, домен мекенжайы бірдей қалады: өзгеретін тек сайт жұмыс істейтін сервер. Ауысу DNS арқылы жүреді, ол кейде бірнеше сағатқа созылады.",
+      "answer_en": "No, the domain address stays the same: only the server the site runs on changes. The switch happens through DNS, which can take a few hours at times.",
+      "sort": 6
     }
   ]
 }

@@ -1,40 +1,57 @@
+import type { ReactNode } from 'react';
+import { OpenLeadButton } from '@/components/features/lead/OpenLeadButton';
 import { Container } from '@/components/ui/Container';
 import { getDict } from '@/lib/i18n/dict';
 import type { Lang } from '@/lib/i18n/locales';
-import { contacts } from '@/lib/site/contacts';
-import { whatsappGeneralLink } from '@/lib/format/links';
 import { localePath } from '@/lib/i18n/paths';
-import Link from 'next/link';
+import { FooterBottom } from './FooterBottom';
+import { FooterBrand } from './FooterBrand';
+import { FooterColumn } from './FooterColumn';
+import { loadFooterLinks } from './footerData';
+import { FooterNav, type FooterLink } from './FooterNav';
 
-export function Footer({ lang }: { lang: Lang }) {
-  const d = getDict(lang).common;
-  const phone = lang === 'en' ? contacts.phoneDisplayIntl : contacts.phoneDisplay;
+function Column({ title, links, extra, label, twoColumns }: { title: string; links: FooterLink[]; extra?: ReactNode; label: string; twoColumns?: boolean }) {
+  if (links.length === 0 && !extra) return null;
+  return (
+    <FooterColumn title={title}>
+      <FooterNav label={label} links={links} extra={extra} twoColumns={twoColumns} />
+    </FooterColumn>
+  );
+}
+
+/** Site footer: brand, four link columns (accordion on mobile) and a bottom bar. Bottom padding clears the mobile CTA bar. */
+export async function Footer({ lang, hasReviews }: { lang: Lang; hasReviews: boolean }) {
+  const d = getDict(lang);
+  const sets = await loadFooterLinks(lang);
+  const info: FooterLink[] = [
+    { href: localePath(lang, '/prices'), label: d.common.nav.prices },
+    { href: localePath(lang, '/faq'), label: d.common.faq },
+    ...(hasReviews ? [{ href: localePath(lang, '/reviews'), label: d.common.nav.reviews }] : []),
+    { href: localePath(lang, '/contacts'), label: d.common.nav.contacts },
+  ];
+  const lbl = d.footer.navLabel;
 
   return (
-    <footer className="mt-16 border-t border-line pb-24 md:pb-10">
-      <Container className="grid gap-8 py-10 md:grid-cols-2">
-        <div>
-          <p className="font-bold">{contacts.brand}</p>
-          <p className="text-muted">{d.footerTagline}</p>
+    <footer className="mt-16 border-t border-line bg-surface-200 pb-24 pt-12 md:pb-12 lg:py-20">
+      <Container>
+        <div className="grid gap-x-10 gap-y-8 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.6fr_1fr]">
+          <FooterBrand lang={lang} />
+          <Column title={d.footer.services} links={sets.services} label={lbl(d.footer.services)} />
+          <Column title={d.footer.popular} links={sets.popular} label={lbl(d.footer.popular)} />
+          <Column title={d.footer.cities} links={sets.cities} label={lbl(d.footer.cities)} twoColumns />
+          <Column
+            title={d.footer.info}
+            links={info}
+            label={lbl(d.footer.info)}
+            extra={
+              <OpenLeadButton size="sm" variant="outline">
+                {d.footer.request}
+              </OpenLeadButton>
+            }
+          />
         </div>
-        <ul className="space-y-1">
-          <li>
-            <a href={whatsappGeneralLink(lang)} rel="noopener noreferrer" target="_blank">{d.wa}</a>
-          </li>
-          <li>
-            <a href={contacts.telegramUrl} rel="noopener noreferrer" target="_blank">{d.tg}</a>
-          </li>
-          <li>
-            <a href={`tel:${contacts.phone}`}>{phone}</a>
-          </li>
-          <li>
-            <a href={`mailto:${contacts.email}`}>{contacts.email}</a>
-          </li>
-        </ul>
-        <div className="space-y-2 text-sm text-muted md:col-span-2">
-          <Link href={localePath(lang, '/contacts')} className="font-semibold text-ink">
-            {d.footerContacts}
-          </Link>
+        <div className="mt-10 border-t border-line">
+          <FooterBottom lang={lang} />
         </div>
       </Container>
     </footer>

@@ -1,0 +1,135 @@
+{
+  "slug": "bekapy-sait-baza",
+  "category": "devops",
+  "title_ru": "Автоматические бэкапы сайта и базы",
+  "title_kk": "Сайт пен базаның автоматты резервтік көшірмелері",
+  "title_en": "Automatic backups of your site and database",
+  "short_ru": "Настраиваем регулярное копирование файлов сайта и базы данных в отдельное хранилище. Если что-то пойдёт не так, данные можно восстановить.",
+  "short_kk": "Сайт файлдары мен дерекқорды бөлек қоймаға үнемі көшіруді баптаймыз. Бірдеңе дұрыс болмаса, деректерді қалпына келтіруге болады.",
+  "short_en": "We set up regular copies of your site files and database to a separate storage. If something goes wrong, the data can be restored.",
+  "description_ru": "Наша команда настраивает автоматическое резервное копирование по расписанию: файлы сайта и база данных сохраняются в отдельное место, а не только на том же сервере. Старые копии удаляются по правилам, чтобы хранилище не переполнялось. Мы также проверяем, что копия действительно восстанавливается, и показываем вам, как это сделать.",
+  "description_kk": "Біздің команда кестеге сай автоматты резервтік көшіруді баптайды: сайт файлдары мен дерекқор бөлек орынға сақталады, тек сол серверде ғана емес. Ескі көшірмелер ережеге сай жойылады, сонда қойма толмайды. Көшірменің нақты қалпына келетінін тексереміз және оны қалай қалпына келтіру керек екенін көрсетеміз.",
+  "description_en": "Our team sets up scheduled automatic backups: site files and the database are saved to a separate location, not only on the same server. Old copies are removed by rules, so storage does not fill up. We also check that a copy really restores and show you how to do it.",
+  "for_whom_ru": "Для владельцев сайтов и интернет-магазинов, у которых есть заказы, клиенты и данные, которые нельзя потерять.",
+  "for_whom_kk": "Тапсырыстары, клиенттері және жоғалтуға болмайтын деректері бар сайт және интернет-дүкен иелеріне арналған.",
+  "for_whom_en": "For owners of websites and online shops with orders, customers and data that cannot be lost.",
+  "includes_ru": [
+    "Настройка резервного копирования файлов сайта по расписанию",
+    "Регулярная выгрузка базы данных с проверкой, что дамп не пустой",
+    "Хранение копий в отдельном месте, например в облачном хранилище",
+    "Правило хранения: сколько копий хранить и когда старые удаляются",
+    "Шифрование копий и хранение ключа отдельно от них",
+    "Тестовое восстановление копии на отдельной машине",
+    "Инструкция, как восстановить сайт и базу из копии"
+  ],
+  "includes_kk": [
+    "Сайт файлдарын кестемен резервтік көшіруді баптау",
+    "Дерекқорды үнемі шығару және дампының бос емес екенін тексеру",
+    "Көшірмелерді бөлек орында сақтау, мысалы бұлттық қоймада",
+    "Сақтау ережесі: қанша көшірме сақтау керек және ескілері қашан жойылады",
+    "Көшірмелерді шифрлау және кілтті олардан бөлек сақтау",
+    "Көшірменi бөлек машинада сынақ түрде қалпына келтіру",
+    "Сайт пен дерекқорды көшірмеден қалпына келтіру нұсқаулығы"
+  ],
+  "includes_en": [
+    "Setting up scheduled backups of the site files",
+    "Regular database export with a check that the dump is not empty",
+    "Storing copies in a separate place, for example in cloud storage",
+    "Retention rule: how many copies are kept and when old ones are deleted",
+    "Encrypting copies and keeping the key apart from them",
+    "A test restore of a copy on a separate machine",
+    "A guide on how to restore the site and database from a copy"
+  ],
+  "not_included_ru": [
+    "Оплата облачного хранилища: объём и тариф выбираете и оплачиваете вы",
+    "Восстановление сайта после взлома или серьёзной поломки: это отдельная работа",
+    "Копирование данных, которые хранятся в сторонних сервисах, например в CRM"
+  ],
+  "not_included_kk": [
+    "Бұлттық қойманың төлемі: көлемі мен тарифті сіз таңдап, төлейсіз",
+    "Сайт бұзылған немесе қатты зақымданған соң қалпына келтіру: бұл бөлек жұмыс",
+    "Үшінші тарап қызметтерінде, мысалы CRM-де сақталатын деректерді көшіру"
+  ],
+  "not_included_en": [
+    "Paying for cloud storage: you choose the size and plan and pay for it",
+    "Restoring the site after a hack or a serious failure: this is separate work",
+    "Copying data kept in third-party services, for example in a CRM"
+  ],
+  "price_from_kzt": 12000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "vps-nastroika",
+    "monitoring-dostupnosti",
+    "podderzhka-saita"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 134,
+  "faqs": [
+    {
+      "question_ru": "Как часто делаются копии?",
+      "question_kk": "Көшірмелер қанша жиі жасалады?",
+      "question_en": "How often are the copies made?",
+      "answer_ru": "Частоту мы выбираем вместе с вами. Для сайта, где заказы приходят каждый день, обычно достаточно ежедневной копии базы и еженедельной копии файлов. Для более частых изменений частоту можно увеличить.",
+      "answer_kk": "Жиілігін сізбен бірге таңдаймыз. Тапсырыстар күн сайын келетін сайтқа әдетте дерекқордың күнделікті және файлдардың апта сайынғы көшірмесі жеткілікті. Өзгерістер жиі болса, жиілігін арттыруға болады.",
+      "answer_en": "We choose the frequency together with you. For a site that gets orders every day, a daily database copy and a weekly files copy are usually enough. If changes are frequent, the frequency can be increased.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Проверяете ли вы, что копии работают?",
+      "question_kk": "Көшірмелердің жұмыс істейтінін тексересіз бе?",
+      "question_en": "Do you check that the copies actually work?",
+      "answer_ru": "Да, при настройке мы восстанавливаем копию на отдельной машине и смотрим, открывается ли сайт и есть ли в базе все данные. Копия, которую не проверяли, считается непроверенной, поэтому мы не обходим этот шаг.",
+      "answer_kk": "Иә, баптау кезінде көшірмені бөлек машинада қалпына келтіріп, сайттың ашылатынын және базада барлық деректің бар екенін тексереміз. Тексерілмеген көшірме сенімді саналмайды, сондықтан бұл қадамды өткізбейміз.",
+      "answer_en": "Yes, during setup we restore a copy on a separate machine and check that the site opens and the database holds all the data. A copy that has never been tested is not reliable, so we do not skip this step.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что нужно предоставить для настройки?",
+      "question_kk": "Баптау үшін нені беру керек?",
+      "question_en": "What do you need from me for the setup?",
+      "answer_ru": "Доступ к серверу или хостингу, данные для подключения к базе данных и аккаунт облачного хранилища, который вы будете использовать. Пароли передавайте через защищённый канал.",
+      "answer_kk": "Серверге немесе хостингке қолжетімділік, дерекқорға қосылу деректері және сіз пайдаланатын бұлттық қойма аккаунты. Құпия сөздерді қорғалған арна арқылы беріңіз.",
+      "answer_en": "Access to the server or hosting, the details for connecting to the database, and the cloud storage account you will use. Send passwords through a secure channel.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Можно ли хранить копии на том же сервере?",
+      "question_kk": "Көшірмелерді сол серверде сақтауға бола ма?",
+      "question_en": "Can the copies be kept on the same server?",
+      "answer_ru": "Можно, но копия на том же сервере не защищает от его поломки. Поэтому советуем отдельное хранилище, даже если это другой сервер.",
+      "answer_kk": "Болады, бірақ сол серверде тұрған көшірме оның бұзылуынан қорғамайды. Сондықтан бөлек сақтау орнын ұсынамыз, тіпті бұл басқа сервер болса да.",
+      "answer_en": "You can, but a copy on the same server does not protect against that server failing. So we recommend separate storage, even if it is another server.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Кто получит доступ к копиям?",
+      "question_kk": "Көшірмелерге кім қол жеткізеді?",
+      "question_en": "Who gets access to the copies?",
+      "answer_ru": "Доступ к хранилищу и ключу шифрования получаете вы. Ключ хранится отдельно от копий.",
+      "answer_kk": "Сақтау орнына және шифрлеу кілтіне қолжетімділікті сіз аласыз. Кілт көшірмелерден бөлек сақталады.",
+      "answer_en": "You get access to the storage and the encryption key. The key is kept separately from the copies.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько времени хранятся старые копии?",
+      "question_kk": "Ескі көшірмелер қанша уақыт сақталады?",
+      "question_en": "How long are old copies kept?",
+      "answer_ru": "По правилу, которое согласуем при настройке, например, ежедневные копии за несколько последних дней и месячные снимки. Срок можно изменить.",
+      "answer_kk": "Баптау кезінде келісетін ереже бойынша, мысалы, соңғы бірнеше күннің күнделікті көшірмелері және айлық суреттер. Мерзімді өзгертуге болады.",
+      "answer_en": "By a rule we agree on during setup, for example daily copies for the last few days and monthly snapshots. The period can be changed.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что делать, если копия не восстанавливается?",
+      "question_kk": "Көшірме қалпына келмесе не істеу керек?",
+      "question_en": "What if a copy does not restore?",
+      "answer_ru": "Восстановление мы проверяем при сдаче. Если позже копия окажется неисправной, сообщите нам, и мы разберёмся. Дальнейшая поддержка оформляется отдельно.",
+      "answer_kk": "Қалпына келтіруді тапсыру кезінде тексереміз. Кейін көшірме жарамсыз болып шықса, бізге хабарлаңыз, біз анықтаймыз. Одан кейінгі қолдау бөлек рәсімделеді.",
+      "answer_en": "We check restoring at handover. If a copy later turns out to be faulty, tell us and we will look into it. Further support is arranged separately.",
+      "sort": 6
+    }
+  ]
+}

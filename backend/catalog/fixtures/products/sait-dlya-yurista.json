@@ -42,20 +42,20 @@
   ],
   "not_included_ru": [
     "Юридическая проверка содержания сайта: ответственность за формулировки на вас",
-    "Написание статей по праву (черновики структуры помогу сделать)",
+    "Написание статей по праву (черновики структуры поможем сделать)",
     "Приём платежей за консультации онлайн"
   ],
   "not_included_kk": [
     "Сайт мазмұнын заңды тексеру: мәтін үшін жауапкершілік өзіңізде",
-    "Құқық бойынша мақалалар жазу (құрылым жобасына көмектесемін)",
+    "Құқық бойынша мақалалар жазу (құрылым жобасына көмектесеміз)",
     "Консультация ақысын онлайн қабылдау"
   ],
   "not_included_en": [
     "Legal review of the site content: responsibility for wording stays with you",
-    "Writing legal articles (I can help outline them)",
+    "Writing legal articles (we can help outline them)",
     "Taking consultation payments online"
   ],
-  "price_from_kzt": 40000,
+  "price_from_kzt": 65000,
   "unit": "once",
   "days_min": 3,
   "days_max": 7,
@@ -71,17 +71,17 @@
       "question_ru": "Можно ли не указывать цены на консультации?",
       "question_kk": "Консультация бағасын көрсетпеуге бола ма?",
       "question_en": "Can I leave consultation prices off the site?",
-      "answer_ru": "Можно, но я советую указать хотя бы стоимость первичной консультации: так приходят более осознанные обращения. Решение за вами.",
-      "answer_kk": "Болады, бірақ кем дегенде алғашқы консультация құнын көрсетуді кеңес етемін: сонда саналы өтініштер көбірек келеді. Шешім өзіңізде.",
-      "answer_en": "You can, but I suggest at least showing the first consultation fee, as it tends to bring better-prepared enquiries. The decision is yours.",
+      "answer_ru": "Можно, но мы советуем указать хотя бы стоимость первичной консультации: так приходят более осознанные обращения. Решение за вами.",
+      "answer_kk": "Болады, бірақ кем дегенде алғашқы консультация құнын көрсетуді кеңес береміз: сонда саналы өтініштер көбірек келеді. Шешім өзіңізде.",
+      "answer_en": "You can, but we suggest at least showing the first consultation fee, as it tends to bring better-prepared enquiries. The decision is yours.",
       "sort": 0
     },
     {
       "question_ru": "Насколько конфиденциальна форма заявки?",
       "question_kk": "Өтінім формасы қаншалықты құпия?",
       "question_en": "How confidential is the enquiry form?",
-      "answer_ru": "Форма отправляет сообщение только вам и не сохраняет его на сайте. Я прошу клиентов писать суть коротко и без документов; детали обсуждаются на консультации.",
-      "answer_kk": "Форма хабарламаны тек сізге жібереді және сайтта сақтамайды. Клиенттерден мәнін қысқа және құжатсыз жазуын сұраймын; егжей-тегжейі консультацияда талқыланады.",
+      "answer_ru": "Форма отправляет сообщение только вам и не сохраняет его на сайте. Мы просим клиентов писать суть коротко и без документов; детали обсуждаются на консультации.",
+      "answer_kk": "Форма хабарламаны тек сізге жібереді және сайтта сақтамайды. Клиенттерден мәнін қысқа және құжатсыз жазуын сұраймыз; егжей-тегжейі консультацияда талқыланады.",
       "answer_en": "The form sends the message only to you and does not store it on the site. Clients are asked to describe the issue briefly with no documents, and details are discussed at the consultation.",
       "sort": 1
     },
@@ -89,10 +89,46 @@
       "question_ru": "Какие формулировки нельзя использовать?",
       "question_kk": "Қандай сөздерді қолдануға болмайды?",
       "question_en": "What wording should be avoided?",
-      "answer_ru": "Не стоит писать «гарантируем выигрыш» и называть проценты успешных дел. Я пишу нейтрально: чем занимаетесь, как работаете и сколько стоит.",
-      "answer_kk": "«Ұтуға кепілдік береміз» деп жазбаған және сәтті істердің пайызын атамаған жөн. Бейтарап жазамын: немен айналысасыз, қалай жұмыс істейсіз және қанша тұрады.",
-      "answer_en": "It is wise not to write \"we guarantee a win\" or quote success rates. I write neutrally: what you do, how you work and what it costs.",
+      "answer_ru": "Не стоит писать «гарантируем выигрыш» и называть проценты успешных дел. Мы пишем нейтрально: чем занимаетесь, как работаете и сколько стоит.",
+      "answer_kk": "«Ұтуға кепілдік береміз» деп жазбаған және сәтті істердің пайызын атамаған жөн. Бейтарап жазамыз: немен айналысасыз, қалай жұмыс істейсіз және қанша тұрады.",
+      "answer_en": "It is wise not to write \"we guarantee a win\" or quote success rates. We write neutrally: what you do, how you work and what it costs.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли публиковать отзывы клиентов?",
+      "question_kk": "Клиенттердің пікірлерін жариялауға бола ма?",
+      "question_en": "Can we publish client reviews?",
+      "answer_ru": "Для юриста это зона риска, поэтому отзывы публикуем только с письменного согласия клиента и после проверки формулировок. Без согласия отзыв не размещаем.",
+      "answer_kk": "Заңгер үшін бұл тәуекелді аймақ, сондықтан пікірлерді клиенттің жазбаша келісімімен және тұжырымдарды тексергеннен кейін ғана жариялаймыз. Келісімсіз пікір қойылмайды.",
+      "answer_en": "For a lawyer this is a risk area, so we publish reviews only with the client's written consent and after checking the wording. Without consent, a review is not posted.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно от юриста для запуска?",
+      "question_kk": "Іске қосу үшін заңгерден не керек?",
+      "question_en": "What do we need from the lawyer for launch?",
+      "answer_ru": "Области практики, образование и опыт, ориентир стоимости первичного приёма, контакты и фото. Всё это вы передаёте, а страницы оформляем мы.",
+      "answer_kk": "Практика бағыттары, білімі мен тәжірибесі, алғашқы қабылдау құнының бағдары, байланыс деректері және фото. Мұның бәрін сіз бересіз, ал беттерді біз рәсімдейміз.",
+      "answer_en": "Practice areas, education and experience, an indicative cost of the first consultation, contacts and photos. You provide all of it, and we format the pages.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли добавить онлайн-чат или калькулятор?",
+      "question_kk": "Онлайн-чат немесе калькулятор қосуға бола ма?",
+      "question_en": "Can we add an online chat or a calculator?",
+      "answer_ru": "В базовый объём это не входит. Если понадобится, обсудим отдельно и оценим, как это будет работать на сайте юриста.",
+      "answer_kk": "Бұл негізгі көлемге кірмейді. Қажет болса, бөлек талқылап, заңгер сайтында қалай жұмыс істейтінін бағалаймыз.",
+      "answer_en": "This is not part of the base scope. If you need it, we will discuss it separately and assess how it would work on a lawyer's site.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто обновляет страницы при изменении законов?",
+      "question_kk": "Заңдар өзгергенде беттерді кім жаңартады?",
+      "question_en": "Who updates pages when the laws change?",
+      "answer_ru": "Правовые изменения проверяете вы, а мы обновляем страницы по вашим указаниям. Ответственность за актуальность текстов остаётся за юристом.",
+      "answer_kk": "Құқықтық өзгерістерді сіз тексересіз, ал беттерді біз сіздің нұсқауыңыз бойынша жаңартамыз. Мәтіндердің өзектілігіне жауапкершілік заңгерде қалады.",
+      "answer_en": "You check legal changes, and we update the pages on your instructions. Responsibility for the texts staying current remains with the lawyer.",
+      "sort": 6
     }
   ]
 }

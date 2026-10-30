@@ -1,0 +1,135 @@
+{
+  "slug": "telegram-mini-app",
+  "category": "apps",
+  "title_ru": "Telegram Mini App под вашу задачу",
+  "title_kk": "Сіздің міндетіңізге арналған Telegram Mini App",
+  "title_en": "A Telegram Mini App built for your task",
+  "short_ru": "Мини-приложение внутри Telegram с каталогом, записью, заказом или формой заявки. Открывается в один клик из вашего бота или канала.",
+  "short_kk": "Telegram ішіндегі шағын қосымша: каталог, жазылу, тапсырыс немесе өтінім формасы. Сіздің боттан немесе арнадан бір басумен ашылады.",
+  "short_en": "A small app inside Telegram with a catalogue, booking, order or request form. It opens in one tap from your bot or channel.",
+  "description_ru": "Мы делаем Mini App на веб-технологиях, которое работает внутри Telegram и использует его возможности: данные профиля, тему оформления и уведомления. Сначала согласуем сценарий, затем делаем интерфейс и подключаем бота и вашу базу. Приложение адаптируется под экран телефона и открывается без установки.",
+  "description_kk": "Біз Telegram ішінде жұмыс істейтін және оның мүмкіндіктерін пайдаланатын веб-технологиялық Mini App жасаймыз: профиль деректері, безендіру тақырыбы және хабарламалар. Алдымен сценарийді келісеміз, содан кейін интерфейсті жасап, ботты және сіздің базаны қосамыз. Қосымша телефон экранына бейімделеді және орнатусыз ашылады.",
+  "description_en": "We build a Mini App with web technologies that runs inside Telegram and uses its features: profile data, theme and notifications. First we agree on the scenario, then build the interface and connect your bot and database. The app fits the phone screen and opens without installation.",
+  "for_whom_ru": "Для магазинов, салонов, школ и сервисов, которые хотят каталог, запись или заявку прямо в Telegram, без отдельного сайта. Подойдёт, если ваши клиенты уже общаются с вами в Telegram.",
+  "for_whom_kk": "Telegram ішінде бөлек сайтсыз каталог, жазылу немесе өтінім керек дүкендерге, салондарға, мектептер мен қызметтерге арналған. Клиенттеріңіз сізбен Telegram-да сөйлесетін болса, жарайды.",
+  "for_whom_en": "For shops, salons, schools and services that want a catalogue, booking or request form right in Telegram, without a separate website. It fits if your customers already talk to you in Telegram.",
+  "includes_ru": [
+    "Mini App на веб-технологиях с адаптацией под телефон",
+    "Каталог, форма записи или заявки в зависимости от задачи",
+    "Подключение к вашему боту или каналу Telegram",
+    "Сохранение данных в вашей базе или таблице",
+    "Уведомления администратору о каждой новой заявке",
+    "Тестирование в Telegram на iPhone и Android",
+    "Инструкция по запуску и обновлению"
+  ],
+  "includes_kk": [
+    "Телефонға бейімделген веб-технологиялық Mini App",
+    "Міндетке қарай каталог, жазылу формасы немесе өтінім",
+    "Сіздің Telegram боты немесе арнаңызға қосылу",
+    "Деректерді сіздің базаңызда немесе кестеде сақтау",
+    "Әр жаңа өтінім туралы әкімшіге хабарлама",
+    "iPhone және Android-та Telegram ішінде тестілеу",
+    "Іске қосу және жаңарту нұсқаулығы"
+  ],
+  "includes_en": [
+    "A web-technology Mini App adapted to phones",
+    "A catalogue, booking form or request form, depending on your task",
+    "Connection to your Telegram bot or channel",
+    "Data saved to your database or spreadsheet",
+    "Notifications to the admin about each new request",
+    "Testing inside Telegram on iPhone and Android",
+    "A launch and update guide"
+  ],
+  "not_included_ru": [
+    "Оплата товаров и услуг через внешний эквайринг: подключение платёжного провайдера и его комиссии оплачивает клиент",
+    "Наполнение каталога: фото, описания и цены предоставляет клиент",
+    "Продвижение в Telegram и реклама"
+  ],
+  "not_included_kk": [
+    "Сыртқы эквайринг арқылы тауар мен қызметке төлем: төлем провайдерін қосу және оның комиссиясын клиент төлейді",
+    "Каталогты толтыру: фото, сипаттама және бағаны клиент береді",
+    "Telegram-да жарнамалау және реклама"
+  ],
+  "not_included_en": [
+    "Payments for goods and services through an external acquirer: the client pays the provider connection and its fees",
+    "Filling the catalogue: photos, descriptions and prices are supplied by the client",
+    "Promotion in Telegram and advertising"
+  ],
+  "price_from_kzt": 45000,
+  "unit": "once",
+  "days_min": 14,
+  "days_max": 30,
+  "related": [
+    "telegram-mini-app-magazin",
+    "telegram-bot-zapis",
+    "telegram-bot-katalog"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 112,
+  "faqs": [
+    {
+      "question_ru": "Нужно ли клиенту что-то устанавливать?",
+      "question_kk": "Клиентке ештеңе орнатудың қажеті бар ма?",
+      "question_en": "Does the customer need to install anything?",
+      "answer_ru": "Нет, Mini App открывается внутри Telegram по кнопке в боте или канале. Клиенту достаточно аккаунта Telegram, ничего дополнительно скачивать не нужно.",
+      "answer_kk": "Жоқ, Mini App Telegram ішінде боттағы немесе арнадағы түйме арқылы ашылады. Клиентке Telegram аккаунты жеткілікті, ештеңе жүктеудің қажеті жоқ.",
+      "answer_en": "No, the Mini App opens inside Telegram from a button in your bot or channel. The customer only needs a Telegram account and nothing else to download.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Где будут храниться данные клиентов?",
+      "question_kk": "Клиенттердің деректері қайда сақталады?",
+      "question_en": "Where will customer data be stored?",
+      "answer_ru": "В базе или таблице, которую выберете вы, а не у нас. Доступы передаются вам, а на сервере хранится только то, что нужно для работы приложения. Персональные данные обрабатываем по согласованным правилам.",
+      "answer_kk": "Сіз таңдаған базада немесе кестеде, бізде емес. Қолжетімділікті сізге береміз, ал серверде тек қосымшаға қажет нәрсе сақталады. Жеке деректерді келісілген ережелер бойынша өңдейміз.",
+      "answer_en": "In the database or spreadsheet you choose, not with us. Access is handed over to you, and the server keeps only what the app needs to work. Personal data is handled under agreed rules.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что нужно подготовить до начала?",
+      "question_kk": "Басталар алдында не дайындау керек?",
+      "question_en": "What should we prepare before we start?",
+      "answer_ru": "Описание задачи, список товаров или услуг, если они есть, и доступ к боту или каналу. Если бота ещё нет, мы создадим его вместе с приложением.",
+      "answer_kk": "Міндеттің сипаттамасын, бар болса тауарлар немесе қызметтер тізімін және ботқа немесе арнаға қолжетімділікті дайындаңыз. Бот әлі болмаса, оны қосымшамен бірге жасаймыз.",
+      "answer_en": "A short description of the task, your list of goods or services if you have one, and access to the bot or channel. If there is no bot yet, we create it together with the app.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Мы передаём доступы и инструкцию, показываем, как менять каталог без нас. Новые разделы и доработки оцениваем отдельно, по объёму работ.",
+      "answer_kk": "Қолжетімділікті және нұсқаулықты тапсырамыз, каталогты бізсіз қалай өзгерту керектігін көрсетеміз. Жаңа бөлімдер мен түзетулерді көлеміне қарай бөлек бағалаймыз.",
+      "answer_en": "We hand over access and a guide, and show how to change the catalogue without us. New sections and changes are estimated separately, based on the volume of work.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Работает ли приложение на iPhone и Android без установки?",
+      "question_kk": "Қолданба iPhone мен Android-та орнатусыз жұмыс істей ма?",
+      "question_en": "Does the app work on iPhone and Android without installing?",
+      "answer_ru": "Да, приложение открывается внутри Telegram по кнопке в боте на обеих платформах. Перед сдачей тестируем его на устройствах обоих типов.",
+      "answer_kk": "Иә, қолданба екі платформада да ботағы батырма арқылы Telegram ішінде ашылады. Тапсыру алдында екі құрылғы түрінде де тексереміз.",
+      "answer_en": "Yes, the app opens inside Telegram from a bot button on both platforms. We test it on both device types before handover.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли сделать несколько экранов и разделов?",
+      "question_kk": "Бірнеше экран мен бөлім жасауға бола ма?",
+      "question_en": "Can it have several screens and sections?",
+      "answer_ru": "Да, число экранов зависит от задачи и согласуется до начала работы. Чем больше разделов, тем больше времени уходит на тестирование и дизайн.",
+      "answer_kk": "Иә, экрандар саны тапсырмаға байланысты және жұмыс басталар алдында келісіледі. Бөлім көп болған сайын тестілеу мен дизайнға уақыт көбірек кетеді.",
+      "answer_en": "Yes, the number of screens depends on the task and is agreed before work starts. The more sections, the more time goes into testing and design.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что будет, если Telegram изменит правила работы Mini App?",
+      "question_kk": "Telegram Mini App жұмыс ережелерін өзгертсе, не болады?",
+      "question_en": "What if Telegram changes the Mini App rules?",
+      "answer_ru": "Платформа иногда меняет свои возможности, поэтому после запуска проверяем приложение на совместимость. Исправление, связанное с изменением самой платформы, согласуем отдельно.",
+      "answer_kk": "Платформа кейде мүмкіндіктерін өзгертеді, сондықтан іске қосқаннан кейін қолданбаны үйлесімділікке тексереміз. Платформаның өзгеруіне байланысты түзету бөлек келісіледі.",
+      "answer_en": "The platform sometimes changes its features, so after launch we check the app for compatibility. A fix caused by a change in the platform itself is agreed separately.",
+      "sort": 6
+    }
+  ]
+}

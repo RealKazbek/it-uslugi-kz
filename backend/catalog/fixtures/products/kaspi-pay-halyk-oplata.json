@@ -1,0 +1,135 @@
+{
+  "slug": "kaspi-pay-halyk-oplata",
+  "category": "ecommerce",
+  "title_ru": "Приём оплаты Kaspi Pay и Halyk на сайте",
+  "title_kk": "Сайтта Kaspi Pay және Halyk арқылы төлем қабылдау",
+  "title_en": "Accepting Kaspi Pay and Halyk payments on your site",
+  "short_ru": "Подключаем кнопки оплаты Kaspi Pay и Halyk к вашему сайту, чтобы клиенты оплачивали заказы онлайн.",
+  "short_kk": "Kaspi Pay және Halyk төлем түймелерін сайтыңызға жалғаймыз, сонда клиенттер тапсырысты онлайн төлейді.",
+  "short_en": "We connect Kaspi Pay and Halyk payment buttons to your site so customers can pay for orders online.",
+  "description_ru": "Мы настраиваем приём оплаты на сайте через Kaspi Pay и Halyk, проверяем, что платёж проходит и статус заказа обновляется. Подключение к банку и договор с платёжной системой оформляете вы, а техническую часть делаем мы. Перед открытием сайта для клиентов тестируем работу на тестовых платежах.",
+  "description_kk": "Біз сайтта Kaspi Pay және Halyk арқылы төлем қабылдауды баптаймыз, төлемнің өтетінін және тапсырыс мәртебесінің жаңаратынын тексереміз. Банкпен қосылуды және төлем жүйесімен шартты сіз рәсімдейсіз, техникалық бөлігін біз жасаймыз. Клиенттерге сайт ашылмас бұрын сынақ төлемдерінде тексереміз.",
+  "description_en": "We set up payment acceptance on your site through Kaspi Pay and Halyk, and check that payments go through and the order status updates. You arrange the bank connection and the agreement with the payment provider, and we handle the technical part. We test with trial payments before the site opens to customers.",
+  "for_whom_ru": "Для интернет-магазинов, сервисов с предоплатой и компаний, которые хотят принимать оплату картой и через Kaspi прямо на сайте.",
+  "for_whom_kk": "Интернет-дүкендерге, алдын ала төлемді талап ететін сервистерге және сайтта картамен және Kaspi арқылы төлем қабылдағысы келетін компанияларға арналған.",
+  "for_whom_en": "For online shops, prepayment services and companies that want to take card and Kaspi payments directly on their site.",
+  "includes_ru": [
+    "Подключение кнопок оплаты Kaspi Pay и Halyk на сайте",
+    "Передача заказа в платёжную систему и получение статуса оплаты",
+    "Страницы успешной и неуспешной оплаты с понятными сообщениями",
+    "Уведомление о завершённом платеже на почту или в Telegram",
+    "Проверка работы на тестовых платежах",
+    "Проверка, что один заказ не оплачивается дважды",
+    "Короткая инструкция по сверке платежей"
+  ],
+  "includes_kk": [
+    "Сайтқа Kaspi Pay және Halyk төлем түймелерін жалғау",
+    "Тапсырысты төлем жүйесіне жіберу және төлем мәртебесін алу",
+    "Түсінікті хабарламалары бар сәтті және сәтсіз төлем беттері",
+    "Аяқталған төлем туралы хабарлама поштаға немесе Telegram-ға",
+    "Сынақ төлемдерінде жұмысты тексеру",
+    "Бір тапсырыс екі рет төленбеуін тексеру",
+    "Төлемдерді салыстыру бойынша қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Connecting Kaspi Pay and Halyk payment buttons on your site",
+    "Passing the order to the payment system and receiving the payment status",
+    "Successful and failed payment pages with clear messages",
+    "A notification of a completed payment to email or Telegram",
+    "Testing with trial payments",
+    "A check that one order cannot be paid twice",
+    "A short guide to reconciling payments"
+  ],
+  "not_included_ru": [
+    "Договор и подключение к банку или платёжной системе: их оформляете вы, это занимает время и требует документов",
+    "Комиссия банка и платёжной системы: её условия задаёт банк, а не мы",
+    "Бухгалтерский учёт и фискальные чеки: если нужна интеграция с кассой, это отдельная работа"
+  ],
+  "not_included_kk": [
+    "Банкпен және төлем жүйесімен шарт пен қосылу: оны сіз рәсімдейсіз, бұл уақыт пен құжатты талап етеді",
+    "Банк пен төлем жүйесінің комиссиясы: шартты банк белгілейді, біз емес",
+    "Бухгалтерлік есеп және фискалды чектер: кассамен интеграция керек болса, бөлек жұмыс"
+  ],
+  "not_included_en": [
+    "The agreement and connection with the bank or payment provider: you arrange them, which takes time and paperwork",
+    "Bank and payment provider commission: its terms are set by the bank, not by us",
+    "Accounting and fiscal receipts: if you need integration with a cash register, that is separate work"
+  ],
+  "price_from_kzt": 18000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "kaspi-xml",
+    "internet-magazin",
+    "magazin-s-kaspi-xml"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 104,
+  "faqs": [
+    {
+      "question_ru": "Нужен ли договор с банком до начала работ?",
+      "question_kk": "Жұмыс басталғанға дейін банкпен шарт керек пе?",
+      "question_en": "Is a bank agreement needed before we start?",
+      "answer_ru": "Да, для приёма оплаты нужен договор с Kaspi или Halyk, и подписываете его вы. Перед стартом уточните, оформлен ли он на юрлицо или на ИП, потому что от этого зависят данные для подключения.",
+      "answer_kk": "Иә, төлем қабылдау үшін Kaspi немесе Halyk-пен шарт керек, оны сіз қол қоясыз. Бастамас бұрын шарт заңды тұлға немесе ЖК-ға рәсімделгенін нақтылаңыз, өйткені қосылу деректері соған байланысты.",
+      "answer_en": "Yes, accepting payments requires an agreement with Kaspi or Halyk, which you sign. Before we begin, confirm whether it is issued to a legal entity or a sole proprietor, because the connection details depend on it.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что будет, если платёж не прошёл?",
+      "question_kk": "Төлем өтпесе не болады?",
+      "question_en": "What happens if a payment fails?",
+      "answer_ru": "Клиент видит понятное сообщение и может повторить оплату, а заказ остаётся в статусе ожидания. Такие сценарии мы проверяем на тестах, но окончательный статус всегда подтверждает платёжная система.",
+      "answer_kk": "Клиент түсінікті хабарлама көреді және төлемді қайталай алады, ал тапсырыс күту мәртебесінде қалады. Мұндай жағдайларды сынақта тексереміз, бірақ соңғы мәртебені әрқашан төлем жүйесі растайды.",
+      "answer_en": "The customer sees a clear message and can try again, while the order stays in a pending status. We test these cases, but the final status is always confirmed by the payment provider.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужно ли что-то делать после запуска?",
+      "question_kk": "Іске қосқаннан кейін бір нәрсе істеу керек пе?",
+      "question_en": "Is anything needed after launch?",
+      "answer_ru": "Время от времени стоит сверять платежи с выпиской банка, это простая проверка. Инструкцию по сверке мы передаём при запуске. Изменения в логике оплаты обсуждаем отдельно.",
+      "answer_kk": "Уақыт өткен сайын төлемдерді банк үзіндісімен салыстырған дұрыс, бұл қарапайым тексеру. Салыстыру нұсқаулығын іске қосқанда береміз. Төлем логикасындағы өзгерістерді бөлек талқылаймыз.",
+      "answer_en": "It is worth checking payments against your bank statement from time to time, a simple check. We hand over the reconciliation guide at launch. Changes to the payment logic are discussed separately.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Какие данные нужны, чтобы подключить оплату?",
+      "question_kk": "Төлемді қосу үшін қандай деректер керек?",
+      "question_en": "What details are needed to connect payments?",
+      "answer_ru": "Реквизиты и тестовые ключи от банка или платёжной системы, а также доступ к хостингу сайта. Ключи храним в настройках сервера, а не в коде.",
+      "answer_kk": "Банк немесе төлем жүйесінен реквизиттер мен сынақ кілттері, сондай-ақ сайттың хостингіне қолжетімділік керек. Кілттерді кодта емес, сервер баптауларында сақтаймыз.",
+      "answer_en": "Bank or payment system details and test keys, plus access to the site's hosting. We keep the keys in server settings, not in the code.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли принимать и Kaspi Pay, и Halyk одновременно?",
+      "question_kk": "Kaspi Pay және Halyk-ті бір уақытта қабылдауға бола ма?",
+      "question_en": "Can I accept both Kaspi Pay and Halyk at the same time?",
+      "answer_ru": "Да, оба способа подключаются на одном сайте, и клиент выбирает удобный. Набор способов согласуете вы с банками.",
+      "answer_kk": "Иә, екі тәсілді де бір сайтқа қосуға болады, ал клиент ыңғайлысын таңдайды. Тәсілдер тізімін банктермен сіз келісесіз.",
+      "answer_en": "Yes, both methods connect to one site, and the customer chooses the one they prefer. You agree the list of methods with the banks.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто хранит данные карт клиентов?",
+      "question_kk": "Клиенттердің карта деректерін кім сақтайды?",
+      "question_en": "Who stores customers' card details?",
+      "answer_ru": "Данные карты клиент вводит на странице платёжной системы, на сайте они не хранятся. Мы сохраняем только номер заказа и статус оплаты.",
+      "answer_kk": "Карта деректерін клиент төлем жүйесінің бетінде енгізеді, сайтта олар сақталмайды. Біз тек тапсырыс нөмірін және төлем мәртебесін сақтаймыз.",
+      "answer_en": "The customer enters card details on the payment system's page, and they are not stored on the site. We only keep the order number and payment status.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что если клиент закрыл страницу оплаты до конца?",
+      "question_kk": "Клиент төлем бетін соңына дейін жаппай жапса не болады?",
+      "question_en": "What if a customer closes the payment page before finishing?",
+      "answer_ru": "Заказ остаётся в статусе «ожидает оплаты», и клиент может вернуться и оплатить. Если деньги списались, а сайт не получил подтверждение, сверяем статус по журналу платежей.",
+      "answer_kk": "Тапсырыс «төлем күтілуде» мәртебесінде қалады, ал клиент қайтып келіп төлей алады. Ақша шегерілсе, бірақ сайт растауды алмаса, төлем журналы бойынша мәртебені тексереміз.",
+      "answer_en": "The order stays in 'awaiting payment' and the customer can come back and pay. If money was debited but the site got no confirmation, we check the status against the payment log.",
+      "sort": 6
+    }
+  ]
+}

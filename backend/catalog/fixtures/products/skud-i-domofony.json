@@ -1,0 +1,134 @@
+{
+  "slug": "skud-i-domofony",
+  "category": "onsite",
+  "title_ru": "СКУД и домофоны (с выездом)",
+  "title_kk": "СКУД және домофондар (объектіге барып)",
+  "title_en": "Access control and intercoms (on site)",
+  "short_ru": "Устанавливаем системы контроля доступа и домофоны, настраиваем карты или коды и проверяем открывание дверей. Выезд сейчас только в Алматы.",
+  "short_kk": "Қатынауды бақылау жүйелері мен домофондарды орнатып, карталарды немесе кодтарды баптаймыз және есіктердің дұрыс ашылуын тексереміз. Шығу қазір тек Алматыда.",
+  "short_en": "We install access control systems and intercoms, set up cards or codes and test that doors open correctly. Visits are currently made only to Almaty.",
+  "description_ru": "Наша команда выезжает на объект, проверяет двери, питание и место для считывателей, затем монтирует контроллеры, замки и домофонные панели. Мы настраиваем карты или коды доступа, добавляем первых пользователей и проверяем открывание каждой двери. Работы выполняются при выезде в Алматы; на объектах в других городах мы их не делаем.",
+  "description_kk": "Командамыз объектіге шығып, есіктерді, қуатты және оқырмандарға орынды тексереді, содан кейін контроллерлерді, құлыптарды және домофон панельдерін орнатады. Қатынау карталарын немесе кодтарын баптаймыз, алғашқы пайдаланушыларды қосамыз және әр есіктің ашылуын тексереміз. Жұмыс Алматыға шыққанда орындалады, басқа қалалардағы объектіде жұмыс жасамаймыз.",
+  "description_en": "Our team visits the site, checks the doors, power supply and the spot for each reader, then mounts the controllers, locks and intercom panels. We set up access cards or codes, add the first users and test that every door opens correctly. Work is done on visits to Almaty; we do not do on-site work in other cities.",
+  "for_whom_ru": "Для офисов, жилых комплексов, складов и бизнес-центров, где нужно ограничить вход, вести учёт проходов или подключить домофон к каждой двери.",
+  "for_whom_kk": "Кіруді шектеу, өтуді есепке алу немесе әр есікке домофон қосу керек кеңселерге, тұрғын кешендерге, қоймаларға және бизнес-орталықтарға арналған.",
+  "for_whom_en": "For offices, residential complexes, warehouses and business centres that need to limit entry, keep records of passes or connect an intercom to each door.",
+  "includes_ru": [
+    "Выезд на объект и проверка дверей, замков и питания",
+    "Монтаж контроллера, считывателей и электромеханических или электромагнитных замков",
+    "Установка домофонной или вызывной панели",
+    "Настройка карт, брелоков или кодов доступа",
+    "Добавление первых пользователей и инструкция по их управлению",
+    "Проверка открывания каждой двери и связи домофона",
+    "Схема подключения и короткая инструкция для администратора"
+  ],
+  "includes_kk": [
+    "Объектке шығып, есіктерді, құлыптар мен қуатты тексеру",
+    "Контроллерді, оқырмандарды және электромеханикалық немесе электромагниттік құлыптарды орнату",
+    "Домофон немесе шақыру панелін орнату",
+    "Қатынау карталарын, брелоктарды немесе кодтарды баптау",
+    "Алғашқы пайдаланушыларды қосу және оларды басқару нұсқаулығы",
+    "Әр есіктің ашылуын және домофон байланысын тексеру",
+    "Қосу сызбасы және әкімші үшін қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "A site visit to check the doors, locks and power supply",
+    "Installation of the controller, readers and electric or electromagnetic locks",
+    "Installation of an intercom or call panel",
+    "Setup of access cards, key fobs or codes",
+    "Adding the first users and a guide to managing them",
+    "Testing that each door opens and that the intercom connects",
+    "A wiring diagram and a short guide for the administrator"
+  ],
+  "not_included_ru": [
+    "Двери, замки, считыватели, карты, брелоки и кабели: покупаются отдельно, по себестоимости или вашими силами",
+    "Работы на объекте вне Алматы: сейчас выезд доступен только в этот город",
+    "Штукатурка, сверление и электромонтаж в здании сверх схемы: если они нужны, их делаете вы или ваш подрядчик"
+  ],
+  "not_included_kk": [
+    "Есіктер, құлыптар, оқырмандар, карталар, брелоктар және кабельдер: олар бөлек сатып алынады, өзіндік құнымен немесе өз күшіңізбен",
+    "Алматыдан тыс жердегі объектіде жұмыс: қазір шығу тек осы қалаға қолжетімді",
+    "Схемадан тыс ғимараттағы сылау, бұрғылау және электр жұмыстары: қажет болса, оны сіз немесе мердігеріңіз орындайды"
+  ],
+  "not_included_en": [
+    "Doors, locks, readers, cards, key fobs and cables: bought separately, at cost or by you",
+    "On-site work outside Almaty: visits are currently made only to this city",
+    "Plastering, drilling and electrical work in the building beyond the plan: if needed, you or your contractor do it"
+  ],
+  "price_from_kzt": 46000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 7,
+  "related": [
+    "ustanovka-videonablyudeniya",
+    "wifi-i-lokalnaya-set"
+  ],
+  "is_active": true,
+  "is_onsite": true,
+  "sort": 153,
+  "faqs": [
+    {
+      "question_ru": "Какие двери подходят для СКУД?",
+      "question_kk": "СКУД үшін қандай есіктер жарайды?",
+      "question_en": "Which doors suit access control?",
+      "answer_ru": "Подходят распашные и другие двери, на которые можно поставить замок, совместимый с выбранной системой. Перед выездом мы просим фото двери и описание: тип, открывание внутрь или наружу, есть ли пожарный выход. По этим данным подбираем замок.",
+      "answer_kk": "Таңдалған жүйеге үйлесетін құлып орнатуға болатын, соның ішінде ашылмалы есіктер жарайды. Шығар алдында есіктің фотосын және сипаттамасын сұраймыз: түрі, ішке немесе сыртқа ашылатыны, өрт шығуы бар-жоғы. Құлыпты осы деректер бойынша таңдаймыз.",
+      "answer_en": "Swing doors and other doors where a lock compatible with the chosen system can be fitted. Before the visit we ask for a photo of the door and a description: type, whether it opens inward or outward, and whether there is a fire exit. We choose the lock based on these details.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что будет, если пропадёт свет?",
+      "question_kk": "Жарық өшсе не болады?",
+      "question_en": "What happens if the power goes out?",
+      "answer_ru": "Для стабильной работы нужен резервный источник питания, например аккумулятор с блоком питания. Его стоимость не входит в смету и покупается отдельно. Мы подскажем, какая мощность нужна для вашего набора замков и контроллера.",
+      "answer_kk": "Тұрақты жұмыс үшін резервтік қуат көзі керек, мысалы, қуат блогы бар аккумулятор. Оның құны сметаға кірмейді және бөлек сатып алынады. Құлыптар мен контроллер жиынына қандай қуат керек екенін айтамыз.",
+      "answer_en": "Stable operation needs a backup power source, for example a battery with a power supply unit. Its cost is not in the estimate and is bought separately. We will tell you what capacity your locks and controller need.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Кто управляет картами и кодами после запуска?",
+      "question_kk": "Іске қосқаннан кейін карталар мен кодтарды кім басқарады?",
+      "question_en": "Who manages cards and codes after launch?",
+      "answer_ru": "Администратор, которого назначаете вы. Мы показываем, как добавить или удалить карту и сменить код, и передаём доступ к настройкам. Если хотите, чтобы мы делали это регулярно, это выходит за рамки услуги и оплачивается отдельно по договорённости.",
+      "answer_kk": "Сіз тағайындаған әкімші. Картаны қосу немесе өшіру, кодты ауыстыру жолын көрсетеміз және баптауларға қатынауды береміз. Оны біздің тұрақты түрде орындауымызды қаласаңыз, бұл қызметтен тыс, келісім бойынша бөлек төленеді.",
+      "answer_en": "The administrator you appoint. We show how to add or remove a card and change a code, and give access to the settings. If you want us to do this regularly, it is outside this service and is paid separately by agreement.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Кто протягивает кабели до дверей?",
+      "question_kk": "Кабельдерді есіктерге кім тартады?",
+      "question_en": "Who runs the cables to the doors?",
+      "answer_ru": "Перед выездом проверяем трассу, а кабели покупаете вы. Протяжка по зданию идёт по согласованному плану, без штроб и сверления сверх схемы.",
+      "answer_kk": "Шығар алдында трассаны тексереміз, ал кабельді сіз сатып аласыз. Ғимарат бойынша тарту келісілген жоспар бойынша жүреді, сызбадан тыс ойық пен бұрғылау жасалмайды.",
+      "answer_en": "We check the route before the visit, and you buy the cables. Running cable through the building follows the agreed plan, with no grooves or drilling beyond the diagram.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли управлять СКУД удалённо, с телефона или через облако?",
+      "question_kk": "СКУД-ді телефоннан немесе бұлт арқылы қашықтан басқаруға бола ма?",
+      "question_en": "Can the access system be managed remotely, from a phone or the cloud?",
+      "answer_ru": "Удалённое управление через приложение или облако не входит в базовый выезд. Его обсуждаем отдельно, когда станет понятна конфигурация объекта.",
+      "answer_kk": "Қосымша немесе бұлт арқылы қашықтан басқару негізгі шығуға кірмейді. Оны объект конфигурациясы түсінікті болғаннан кейін бөлек талқылаймыз.",
+      "answer_en": "Remote management through an app or the cloud is not part of the base visit. We discuss it separately once the site's setup is clear.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько карт или брелоков нужно на старте?",
+      "question_kk": "Бастапқыда қанша карта немесе брелок керек?",
+      "question_en": "How many cards or fobs do we need at the start?",
+      "answer_ru": "Количество зависит от числа дверей и пользователей. Первых пользователей мы добавляем прямо на выезде, остальных вы добавляете по инструкции.",
+      "answer_kk": "Саны есік пен пайдаланушылар санына байланысты. Алғашқы пайдаланушыларды шығу кезінде өзіміз қосамыз, қалғанын нұсқаулық бойынша өзіңіз қосасыз.",
+      "answer_en": "The number depends on the doors and users. We add the first users during the visit, and you add the rest following the instructions.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что если позже понадобится добавить новую дверь?",
+      "question_kk": "Кейін жаңа есік қосу керек болса, не істеу керек?",
+      "question_en": "What if a new door needs to be added later?",
+      "answer_ru": "Новой двери нужен повторный выезд, проверка и подключение. Объём и сроки оцениваем на месте, так как каждая дверь отличается.",
+      "answer_kk": "Жаңа есікке қайта шығу, тексеру және қосу керек. Көлемі мен мерзімін жерінде бағалаймыз, себебі әр есік әртүрлі болады.",
+      "answer_en": "A new door needs another visit, a check and connection. We assess the scope and timing on site, since each door is different.",
+      "sort": 6
+    }
+  ]
+}

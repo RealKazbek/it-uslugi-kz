@@ -7,9 +7,9 @@
   "short_ru": "Обновляем внешний вид и структуру устаревшего сайта, сохраняя адреса страниц и важное содержимое.",
   "short_kk": "Ескірген сайттың сыртқы түрі мен құрылымын жаңартамыз, бет мекенжайлары мен маңызды мазмұнды сақтаймыз.",
   "short_en": "A fresh look and structure for an outdated site, keeping page addresses and the content that matters.",
-  "description_ru": "Сайт десятилетней давности плохо смотрится на телефоне и теряет клиентов ещё до первого звонка. Я перерисовываю внешний вид, упрощаю структуру и делаю адаптивную вёрстку, а тексты и страницы, которые уже приводят посетителей, оставляю. Адреса страниц сохраняю или настраиваю перенаправления, чтобы не потерять позиции в поиске.",
-  "description_kk": "Он жыл бұрынғы сайт телефонда нашар көрінеді және алғашқы қоңырауға дейін-ақ клиенттерді жоғалтады. Мен сыртқы түрін қайта сызамын, құрылымды жеңілдетемін және адаптивті беттеме жасаймын, ал келушілерді әкеліп жүрген мәтіндер мен беттерді қалдырамын. Іздеудегі орындарды жоғалтпау үшін бет мекенжайларын сақтаймын немесе бағыттауларды баптаймын.",
-  "description_en": "A site that is ten years old looks poor on a phone and loses customers before the first call. I redraw the visual design, simplify the structure and build a responsive layout, while keeping the texts and pages that already bring visitors. Page addresses stay the same, or I set up redirects, so search rankings are not lost.",
+  "description_ru": "Сайт десятилетней давности плохо смотрится на телефоне и теряет клиентов ещё до первого звонка. Мы перерисовываем внешний вид, упрощаем структуру и делаем адаптивную вёрстку, а тексты и страницы, которые уже приводят посетителей, оставляем. Адреса страниц сохраняем или настраиваю перенаправления, чтобы не потерять позиции в поиске.",
+  "description_kk": "Он жыл бұрынғы сайт телефонда нашар көрінеді және алғашқы қоңырауға дейін-ақ клиенттерді жоғалтады. Біз сыртқы түрін қайта сызамыз, құрылымды жеңілдетеміз және адаптивті беттеме жасаймыз, ал келушілерді әкеліп жүрген мәтіндер мен беттерді қалдырамыз. Іздеудегі орындарды жоғалтпау үшін бет мекенжайларын сақтаймыз немесе бағыттауларды баптаймыз.",
+  "description_en": "A site that is ten years old looks poor on a phone and loses customers before the first call. We redraw the visual design, simplify the structure and build a responsive layout, while keeping the texts and pages that already bring visitors. Page addresses stay the same, or we set up redirects, so search rankings are not lost.",
   "for_whom_ru": "Компаниям с работающим, но устаревшим сайтом, который выглядит несовременно и неудобен на телефоне.",
   "for_whom_kk": "Жұмыс істейтін, бірақ ескірген, заманауи көрінбейтін және телефонда ыңғайсыз сайты бар компанияларға арналған.",
   "for_whom_en": "For businesses with a working but dated website that looks old-fashioned and is awkward to use on a phone.",
@@ -55,7 +55,7 @@
     "New functions such as a cart or a customer account",
     "Hosting and domain fees paid to the registrar and host"
   ],
-  "price_from_kzt": 60000,
+  "price_from_kzt": 36000,
   "unit": "once",
   "days_min": 7,
   "days_max": 14,
@@ -71,28 +71,64 @@
       "question_ru": "Потеряю ли я позиции в Google и Яндексе?",
       "question_kk": "Google мен Яндекстегі орнымды жоғалтамын ба?",
       "question_en": "Will I lose my Google rankings?",
-      "answer_ru": "Риск есть при любой смене сайта, поэтому я сохраняю адреса и заголовки важных страниц и настраиваю перенаправления. Гарантировать позиции нельзя, но я снижаю риск их потери.",
-      "answer_kk": "Сайтты ауыстырған кезде тәуекел әрқашан бар, сондықтан маңызды беттердің мекенжайы мен тақырыптарын сақтап, бағыттауларды баптаймын. Орындарға кепілдік беруге болмайды, бірақ жоғалту қаупін азайтамын.",
-      "answer_en": "Any site change carries some risk, so I keep the addresses and headings of important pages and set up redirects. I cannot guarantee rankings, but I reduce the chance of losing them.",
+      "answer_ru": "Риск есть при любой смене сайта, поэтому мы сохраняем адреса и заголовки важных страниц и настраиваем перенаправления. Гарантировать позиции нельзя, но мы снижаем риск их потери.",
+      "answer_kk": "Сайтты ауыстырған кезде тәуекел әрқашан бар, сондықтан маңызды беттердің мекенжайы мен тақырыптарын сақтап, бағыттауларды баптаймыз. Орындарға кепілдік беруге болмайды, бірақ жоғалту қаупін азайтамыз.",
+      "answer_en": "Any site change carries some risk, so we keep the addresses and headings of important pages and set up redirects. We cannot guarantee rankings, but we reduce the chance of losing them.",
       "sort": 0
     },
     {
       "question_ru": "Нужно ли менять платформу?",
       "question_kk": "Платформаны ауыстыру керек пе?",
       "question_en": "Do we need to change platforms?",
-      "answer_ru": "Не всегда. Если нынешняя платформа справляется, я переделываю только оформление. Если она мешает, предложу перенос и объясню почему.",
-      "answer_kk": "Міндетті емес. Қазіргі платформа жарайтын болса, тек безендіруді өзгертемін. Ол кедергі болса, көшіруді ұсынып, себебін түсіндіремін.",
-      "answer_en": "Not always. If the current platform copes, I only redo the design. If it gets in the way, I will suggest a move and explain why.",
+      "answer_ru": "Не всегда. Если нынешняя платформа справляется, мы переделываем только оформление. Если она мешает, предложим перенос и объясним почему.",
+      "answer_kk": "Міндетті емес. Қазіргі платформа жарайтын болса, тек безендіруді өзгертеміз. Ол кедергі болса, көшіруді ұсынып, себебін түсіндіреміз.",
+      "answer_en": "Not always. If the current platform copes, we only redo the design. If it gets in the way, we will suggest a move and explain why.",
       "sort": 1
     },
     {
       "question_ru": "Увижу ли я макет до запуска?",
       "question_kk": "Іске қосқанға дейін макетті көремін бе?",
       "question_en": "Will I see the design before launch?",
-      "answer_ru": "Да. Я показываю макет главной страницы до вёрстки, и мы вносим правки. Новый сайт запускаю только после вашего одобрения.",
-      "answer_kk": "Иә. Беттемеге дейін басты беттің макетін көрсетемін, өзгерістерді бірге енгіземіз. Жаңа сайтты сіз мақұлдағаннан кейін ғана іске қосамын.",
-      "answer_en": "Yes. I show the home page design before building it and we make changes. I launch the new site only after you approve it.",
+      "answer_ru": "Да. Мы показываем макет главной страницы до вёрстки, и мы вносим правки. Новый сайт запускаем только после вашего одобрения.",
+      "answer_kk": "Иә. Беттемеге дейін басты беттің макетін көрсетеміз, өзгерістерді бірге енгіземіз. Жаңа сайтты сіз мақұлдағаннан кейін ғана іске қосамыз.",
+      "answer_en": "Yes. We show the home page design before building it and we make changes. We launch the new site only after you approve it.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько времени занимает редизайн?",
+      "question_kk": "Редизайн қанша уақыт алады?",
+      "question_en": "How long does a redesign take?",
+      "answer_ru": "Обычно от семи до четырнадцати дней, если тексты и фото уже готовы. Срок растёт, если появляются новые материалы или много правок.",
+      "answer_kk": "Әдетте мәтіндер мен фотосуреттер дайын болса, жеті-он төрт күн. Жаңа материалдар немесе көп түзету пайда болса, мерзім ұзарады.",
+      "answer_en": "Usually seven to fourteen days if the texts and photos are ready. The timing grows if new materials appear or there are many revisions.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет со страницами, которых не останется в новой структуре?",
+      "question_kk": "Жаңа құрылымда болмайтын беттерге не болады?",
+      "question_en": "What happens to pages that will not exist in the new structure?",
+      "answer_ru": "Для таких страниц настраиваем перенаправления на ближайший подходящий раздел, чтобы посетители не попадали на ошибку. Список таких адресов согласуем с вами заранее.",
+      "answer_kk": "Мұндай беттер үшін келушілер қатеге түспеуі үшін ең жақын сәйкес бөлімге бағыттау баптаймыз. Мұндай мекенжайлар тізімін алдын ала сізбен келісеміз.",
+      "answer_en": "For such pages we set up redirects to the closest suitable section so visitors do not land on an error. We agree the list of these addresses with you in advance.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли сохранить текущий фирменный цвет и логотип?",
+      "question_kk": "Қазіргі фирмалық түс пен логотипті сақтауға бола ма?",
+      "question_en": "Can I keep my current brand colour and logo?",
+      "answer_ru": "Да, фирменные цвета и логотип остаются, если вы не хотите их менять. Вокруг них мы перерабатываем композицию и структуру страниц.",
+      "answer_kk": "Иә, фирмалық түс пен логотипті өзгерткіңіз келмесе, олар сақталады. Олардың айналасында беттердің композициясы мен құрылымын қайта жасаймыз.",
+      "answer_en": "Yes, the brand colours and logo stay if you do not want them changed. We rework the layout and page structure around them.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Работает ли сайт во время редизайна?",
+      "question_kk": "Редизайн кезінде сайт жұмыс істей ме?",
+      "question_en": "Does the site stay online during the redesign?",
+      "answer_ru": "Да, обычно сайт остаётся открытым. Новый дизайн выкатываем только после проверки по временному адресу, поэтому посетители увидят готовую версию.",
+      "answer_kk": "Иә, әдетте сайт ашық қалады. Жаңа дизайнды уақытша мекенжай бойынша тексергеннен кейін ғана шығарамыз, сондықтан келушілер дайын нұсқаны көреді.",
+      "answer_en": "Yes, usually the site stays open. We roll out the new design only after checking it on a temporary address, so visitors see a finished version.",
+      "sort": 6
     }
   ]
 }

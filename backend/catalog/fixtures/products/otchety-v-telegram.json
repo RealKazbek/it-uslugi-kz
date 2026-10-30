@@ -55,7 +55,7 @@
     "Charts and interactive dashboards, which are a separate task",
     "Hosting for the script if a free option does not fit you"
   ],
-  "price_from_kzt": 30000,
+  "price_from_kzt": 17000,
   "unit": "once",
   "days_min": 3,
   "days_max": 6,
@@ -93,6 +93,42 @@
       "answer_kk": "Есеп тек сіз көрсеткен чатқа немесе топқа кетеді. Бот командаларға тек сіздің тізіміңіздегі қатысушыларға жауап береді.",
       "answer_en": "The report goes only to the chat or group you specify, and the bot answers commands only from people on your list.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если в исходных данных ошибка или пропуск?",
+      "question_kk": "Бастапқы деректерде қате немесе өткізіп кету болса не болады?",
+      "question_en": "What happens if the source data has an error or a gap?",
+      "answer_ru": "Отчёт всё равно уйдёт по расписанию, а неполная цифра будет отмечена, а не скрыта. Найти источник ошибки мы поможем, но исправлять сами данные придётся вам или вашей системе.",
+      "answer_kk": "Есеп жоспар бойынша бара береді, ал толық емес сан жасырылмай, белгіленеді. Қатенің көзін табуға көмектесеміз, бірақ деректердің өзін түзету сізге немесе жүйеңізге байланысты.",
+      "answer_en": "The report still goes out on schedule, and an incomplete figure is marked rather than hidden. We will help find the source of the error, but fixing the data itself is up to you or your system.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли отправлять отчёт в несколько чатов?",
+      "question_kk": "Есепті бірнеше чатқа жіберуге бола ма?",
+      "question_en": "Can the report go to several chats?",
+      "answer_ru": "Да, например в личный чат руководителя и в общий чат команды. Набор показателей для каждого получателя можно сделать своим.",
+      "answer_kk": "Иә, мысалы, басшының жеке чатына және команданың ортақ чатына. Әр алушы үшін көрсеткіштер жиынтығын өз бетінше жасауға болады.",
+      "answer_en": "Yes, for example to a manager's private chat and a team group chat. The set of metrics can be different for each recipient.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли держать компьютер включённым?",
+      "question_kk": "Компьютерді қосулы ұстау керек пе?",
+      "question_en": "Does my computer need to stay on?",
+      "answer_ru": "Нет, скрипт работает по расписанию на выбранной площадке. Обычно подходит бесплатный вариант, а если понадобится платный хостинг, его оплачиваете вы.",
+      "answer_kk": "Жоқ, скрипт таңдалған платформада кесте бойынша жұмыс істейді. Әдетте тегін нұсқа жарайды, ал ақылы хостинг қажет болса, оны сіз төлейсіз.",
+      "answer_en": "No, the script runs on a schedule on the platform we choose. The free option usually works, and if paid hosting is needed, you pay for it.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить новый показатель позже?",
+      "question_kk": "Кейін жаңа көрсеткішті қосуға бола ма?",
+      "question_en": "Can a new metric be added later?",
+      "answer_ru": "Да, если данные уже есть в вашем источнике, показатель добавляется в скрипт. Если их нужно собирать из другого места, сначала оценим объём работ.",
+      "answer_kk": "Иә, егер деректер сіздің көзіңізде бар болса, көрсеткіш скриптке қосылады. Егер оларды басқа жерден жинау қажет болса, алдымен жұмыс көлемін бағалаймыз.",
+      "answer_en": "Yes, if the data already exists in your source, the metric is added to the script. If it must be collected from somewhere else, we first estimate the work.",
+      "sort": 6
     }
   ]
 }

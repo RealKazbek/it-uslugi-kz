@@ -1,0 +1,135 @@
+{
+  "slug": "ustanovka-videonablyudeniya",
+  "category": "onsite",
+  "title_ru": "Установка видеонаблюдения с выездом",
+  "title_kk": "Бейнебақылауды объектіге барып орнату",
+  "title_en": "CCTV installation on site",
+  "short_ru": "Монтируем камеры, прокладываем кабели, настраиваем запись и проверяем картинку на объекте. Выезд сейчас доступен только в Алматы.",
+  "short_kk": "Камераларды орнатамыз, кабельдерін тартамыз, жазбаны баптаймыз және объектіде суретті тексереміз. Объектіге шығу қазір тек Алматыда.",
+  "short_en": "We mount the cameras, run the cables, set up recording and check the picture on site. On-site work is currently available in Almaty only.",
+  "description_ru": "Наша команда приезжает на объект, выбирает места для камер с учётом углов обзора и освещения, прокладывает кабели и монтирует регистратор. Затем мы настраиваем запись, доступ с телефона и проверяем каждую камеру. В конце вы получаете короткую инструкцию по работе с системой. Выезды мы делаем в городах, где работаем на месте; сейчас это Алматы.",
+  "description_kk": "Командамыз объектіге барып, камералар үшін бақылау бұрышы мен жарықтандыруды ескеріп орын таңдайды, кабельдерін тартып, тіркегішті орнатады. Содан кейін жазбаны, телефоннан қатынауды баптап, әр камераны тексереміз. Соңында жүйемен жұмыс бойынша қысқа нұсқаулық аласыз. Объектіге шығу біз жергілікті жерде жұмыс істейтін қалаларда жасалады; қазір бұл Алматы.",
+  "description_en": "Our team visits the site, picks camera positions with the field of view and lighting in mind, runs the cables and installs the recorder. Then we set up recording and access from your phone and test every camera. At the end you get a short guide to working with the system. Visits are made in the cities where we work on site; at the moment that is Almaty.",
+  "for_whom_ru": "Для магазинов, офисов, складов, кафе и квартир, где нужна запись по всему объекту. Подойдёт, если вы хотите видеть территорию с телефона в любой момент, а не только во время проверки.",
+  "for_whom_kk": "Бүкіл объект бойынша жазба қажет дүкендерге, кеңселерге, қоймаларға, кафелерге және пәтерлерге арналған. Аумақты тек тексеру кезінде емес, телефоннан кез келген уақытта көргіңіз келсе, қолайлы.",
+  "for_whom_en": "For shops, offices, warehouses, cafés and flats that need recording across the whole premises. It fits if you want to see the territory on your phone at any time, not only during a check.",
+  "includes_ru": [
+    "Выезд специалиста на объект и осмотр для выбора точек установки",
+    "Монтаж камер и прокладка кабелей по согласованной схеме",
+    "Установка и настройка видеорегистратора или сервера записи",
+    "Настройка хранения записи и проверка каждой камеры",
+    "Доступ к изображению с телефона и компьютера",
+    "Совместная проверка работы системы с вами перед сдачей",
+    "Короткая инструкция по работе с системой"
+  ],
+  "includes_kk": [
+    "Орнату орындарын таңдау үшін маманның объектіге барып тексеруі",
+    "Келісілген сызба бойынша камераларды орнату және кабельдерді тарту",
+    "Бейнетіркегішті немесе жазба серверін орнату және баптау",
+    "Жазбаны сақтауды баптау және әр камераны тексеру",
+    "Телефон мен компьютерден бейнеге қатынау",
+    "Тапсырар алдында сізбен бірге жүйенің жұмысын тексеру",
+    "Жүйемен жұмыс бойынша қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "A visit to the site to choose the mounting points",
+    "Camera mounting and cable routing to the agreed plan",
+    "Installation and setup of the video recorder or recording server",
+    "Recording storage settings and a check of every camera",
+    "Access to the picture from your phone and computer",
+    "A joint check of the system with you before handover",
+    "A short guide to working with the system"
+  ],
+  "not_included_ru": [
+    "Камеры, кабели, блоки питания, жёсткий диск и другое оборудование: оно покупается отдельно, по себестоимости или вашими силами",
+    "Работы на объекте вне Алматы: сейчас выезд доступен только в этот город",
+    "Ремонт стен, сверление и отделка: если они нужны, их делаете вы или ваш подрядчик"
+  ],
+  "not_included_kk": [
+    "Камералар, кабельдер, қуат блоктары, қатты диск және басқа жабдық: олар бөлек сатып алынады, өзіндік құнымен немесе өз күшіңізбен",
+    "Алматыдан тыс жердегі объектіде жұмыс: қазір шығу тек осы қалаға қолжетімді",
+    "Қабырғаны бұзу, бұрғылау және әрлеу жұмыстары: қажет болса, оны сіз немесе мердігеріңіз орындайды"
+  ],
+  "not_included_en": [
+    "Cameras, cables, power supplies, hard drive and other equipment: bought separately, at cost or by you",
+    "On-site work outside Almaty: visits are currently made only to this city",
+    "Wall repairs, drilling and finishing: if they are needed, you or your contractor do them"
+  ],
+  "price_from_kzt": 29000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "udalennyi-prosmotr-s-telefona",
+    "wifi-i-lokalnaya-set",
+    "skud-i-domofony"
+  ],
+  "is_active": true,
+  "is_onsite": true,
+  "sort": 150,
+  "faqs": [
+    {
+      "question_ru": "Что нужно подготовить до приезда мастера?",
+      "question_kk": "Шебер келмей тұрып не дайындау керек?",
+      "question_en": "What should you prepare before the visit?",
+      "answer_ru": "Определите, какие зоны нужно снимать, и где есть электричество и интернет. Лучше заранее сообщить, есть ли у вас уже камеры или кабели. Если объект находится в другом городе, сначала уточните, работаем ли мы там: сейчас выезды только в Алматы.",
+      "answer_kk": "Қай аймақтарды бақылау керектігін белгілеңіз, электр мен интернет қай жерде бар екенін айтыңыз. Камералар немесе кабельдер бар-жоғын алдын ала хабарлаған жөн. Егер объект басқа қалада болса, алдымен ол жерде жұмыс істейтінімізді нақтылаңыз: қазір шығу тек Алматыға.",
+      "answer_en": "Decide which areas to cover and where power and internet are available. Tell us in advance if you already have cameras or cables. If the site is in another city, check with us first: at the moment visits are only made to Almaty.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что будет, если оборудование купить самостоятельно?",
+      "question_kk": "Жабдықты өзім сатып алсам не болады?",
+      "question_en": "What if I buy the equipment myself?",
+      "answer_ru": "Камеры и кабели можно купить самостоятельно. До покупки мы подскажем модели, которые подходят для вашей задачи, и проверим их совместимость с регистратором. Гарантию на оборудование даёт магазин, в котором его купили.",
+      "answer_kk": "Камералар мен кабельдерді өзіңіз сатып ала аласыз. Сатып алар алдында біз міндеттеріңізге сай модельдерді айтып, тіркегішпен үйлесетінін тексереміз. Жабдыққа кепілдікті оны сатқан дүкен береді.",
+      "answer_en": "You can buy the cameras and cables yourself. Before you buy, we will suggest models that suit your task and check that they work with the recorder. The warranty on the equipment is given by the shop where it was bought.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что происходит после установки?",
+      "question_kk": "Орнатудан кейін не болады?",
+      "question_en": "What happens after the installation?",
+      "answer_ru": "Мы показываем, как открыть запись на телефоне и компьютере, и помогаем сделать первый просмотр вместе. Если позже понадобится изменить схему или добавить камеру, это оценивается отдельно, как новый выезд.",
+      "answer_kk": "Телефон мен компьютерде жазбаны қалай ашу керектігін көрсетеміз және алғашқы қаралымды бірге жасауға көмектесеміз. Кейін схеманы өзгерту немесе камера қосу керек болса, ол жаңа шығу ретінде бөлек бағаланады.",
+      "answer_en": "We show you how to open the recording on your phone and computer and help you make the first viewing together. If you later need to change the layout or add a camera, it is priced separately as a new visit.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Работаете ли вы в других городах Казахстана?",
+      "question_kk": "Қазақстанның басқа қалаларында жұмыс істейсіздер ме?",
+      "question_en": "Do you work in other cities in Kazakhstan?",
+      "answer_ru": "Выезд на объект сейчас доступен только в Алматы, и установку на месте в других городах мы не делаем. Удалённая помощь с настройкой возможна только в тех случаях, которые прямо указаны в описании услуги.",
+      "answer_kk": "Объектіге шығу қазір тек Алматыда қолжетімді, басқа қалаларда орнатуды орнында орындамаймыз. Қашықтан баптауға көмек тек қызмет сипаттамасында тікелей көрсетілген жағдайларда ғана мүмкін.",
+      "answer_en": "On-site visits are available only in Almaty at the moment, and we do not do on-site installation in other cities. Remote help with setup is possible only in the cases stated directly in the service description.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Кто гарантирует работу оборудования, которое вы не покупали?",
+      "question_kk": "Біз сатып алмаған жабдықтың жұмысына кім кепілдік береді?",
+      "question_en": "Who guarantees equipment that we did not buy?",
+      "answer_ru": "Гарантию на оборудование даёт производитель или продавец, а мы отвечаем за качество монтажа и настройки. Если оборудование выйдет из строя, поможем с диагностикой, но ремонт оплачивается отдельно.",
+      "answer_kk": "Жабдыққа кепілдікті оның өндірушісі немесе сатушысы береді, ал монтаж пен баптаудың сапасына біз жауап береміз. Жабдық бұзылса, диагностикаға көмектесеміз, бірақ жөндеу бөлек төленеді.",
+      "answer_en": "The equipment warranty is given by its manufacturer or seller, while we are responsible for the quality of installation and setup. If equipment fails, we help with diagnostics, but repairs are paid separately.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько дней занимает установка на объекте?",
+      "question_kk": "Объектіде орнату неше күнге созылады?",
+      "question_en": "How many days does on-site installation take?",
+      "answer_ru": "Срок зависит от количества камер и сложности прокладки кабелей, поэтому точную длительность называем после осмотра. Обычно работа укладывается в один-два выезда.",
+      "answer_kk": "Мерзім камералардың санына және кабель төсеудің күрделілігіне байланысты, сондықтан дәл уақытты тексерген соң айтамыз. Әдетте жұмыс бір-екі шығуға сыяды.",
+      "answer_en": "The timing depends on the number of cameras and the complexity of cable routing, so we give the exact duration after the site survey. Usually the work fits into one or two visits.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить камеры к установленной системе позже?",
+      "question_kk": "Орнатылған жүйеге кейін камералар қосуға бола ма?",
+      "question_en": "Can I add cameras to the installed system later?",
+      "answer_ru": "Да, если в регистраторе есть свободные каналы и место для записи. Если их не хватает, понадобится расширение или новый регистратор, и мы оценим это до начала работ.",
+      "answer_kk": "Иә, тіркеушіде бос арна мен жазу орны болса. Жетпесе, кеңейту немесе жаңа тіркеуші керек болады, оны жұмыс басталар алдында бағалаймыз.",
+      "answer_en": "Yes, if the recorder has free channels and storage space. If not, an expansion or a new recorder is needed, and we will assess this before the work.",
+      "sort": 6
+    }
+  ]
+}

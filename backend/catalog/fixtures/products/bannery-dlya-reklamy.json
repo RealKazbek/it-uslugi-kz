@@ -1,0 +1,135 @@
+{
+  "slug": "bannery-dlya-reklamy",
+  "category": "design",
+  "title_ru": "Баннеры для рекламы и соцсетей (набор)",
+  "title_kk": "Жарнама және әлеуметтік желі баннерлері (жиынтық)",
+  "title_en": "Banners for ads and social media (set)",
+  "short_ru": "Делаем набор баннеров для рекламы и соцсетей в нужных размерах, в едином стиле с вашим брендом.",
+  "short_kk": "Жарнама мен әлеуметтік желілерге арналған баннерлер жиынтығын қажетті өлшемдерде, брендіңізбен бірыңғай стильде жасаймыз.",
+  "short_en": "We create a set of banners for ads and social media in the sizes you need, in a style that matches your brand.",
+  "description_ru": "Наша команда делает набор баннеров под вашу рекламную кампанию: для баннерной сети, Instagram, Telegram и других площадок. Все макеты выполняем в одном стиле, с понятным текстом и призывом к действию. Файлы выдаём в готовых размерах, а для рекламы в сети при необходимости — в форматах с ограничением по весу.",
+  "description_kk": "Біздің команда сіздің жарнама науқаныңызға арналған баннерлер жиынтығын жасайды: баннерлік желіге, Instagram-ға, Telegram-ға және басқа алаңдарға. Барлық макеттерді бір стильде, түсінікті мәтінмен және әрекетке шақырумен орындаймыз. Файлдарды дайын өлшемде береміз, қажет болса желідегі жарнамаға салмақ шегі бар форматта.",
+  "description_en": "Our team makes a set of banners for your ad campaign: for ad networks, Instagram, Telegram and other platforms. All layouts follow one style, with clear text and a call to action. Files are delivered in ready sizes, and for online ads in formats that meet file size limits when needed.",
+  "for_whom_ru": "Для бизнесов, которые запускают рекламу или ведут соцсети и хотят единый визуал без поиска дизайнера под каждую задачу.",
+  "for_whom_kk": "Жарнама жүргізетін немесе әлеуметтік желіні жүргізетін, әр тапсырма үшін дизайнер іздемей, бірыңғай визуал керек бизнестерге арналған.",
+  "for_whom_en": "For businesses running ads or social media that want one consistent look without hiring a designer for every task.",
+  "includes_ru": [
+    "Разбор целей кампании и ключевого сообщения",
+    "Набор из нескольких баннеров в нужных размерах",
+    "Варианты для соцсетей: лента, истории и обложка",
+    "Единый стиль с вашими цветами и логотипом",
+    "Один раунд правок по текстам и цветам на каждом макете",
+    "Исходные файлы и экспорт в PNG и JPG",
+    "Короткие рекомендации по тексту и расположению элементов"
+  ],
+  "includes_kk": [
+    "Науқанның мақсаттары мен негізгі хабарламасын талдау",
+    "Қажетті өлшемдердегі бірнеше баннерден тұратын жиынтық",
+    "Әлеуметтік желілерге арналған нұсқалар: лента, истории және мұқаба",
+    "Сіздің түстеріңіз бен логотипіңізбен бірыңғай стиль",
+    "Әр макетте мәтін мен түстер бойынша бір түзету айналымы",
+    "Бастапқы файлдар және PNG мен JPG-ға экспорт",
+    "Мәтін мен элементтерді орналастыру бойынша қысқа ұсыныстар"
+  ],
+  "includes_en": [
+    "A review of the campaign goals and the key message",
+    "A set of several banners in the sizes you need",
+    "Versions for social media: feed, stories and cover",
+    "One consistent style with your colours and logo",
+    "One round of edits for text and colours on each layout",
+    "Source files and exports to PNG and JPG",
+    "Short recommendations on text and element placement"
+  ],
+  "not_included_ru": [
+    "Закупка рекламы и настройка рекламного кабинета: это делает ваш маркетолог или подрядчик",
+    "Съёмка фотографий и видео для баннеров, если их нет: это отдельная работа",
+    "Анимированные баннеры и видеоролики, если они не согласованы заранее"
+  ],
+  "not_included_kk": [
+    "Жарнаманы сатып алу және жарнама кабинетін баптау: мұны сіздің маркетолог немесе мердігер жасайды",
+    "Баннерлерге арналған фото мен видео түсіру, егер олар болмаса: бұл бөлек жұмыс",
+    "Алдын ала келісілмеген анимациялық баннерлер мен бейнероликтер"
+  ],
+  "not_included_en": [
+    "Buying ad space and setting up the ad account: your marketer or contractor does this",
+    "Photo or video shoots for the banners, if you do not have them: this is separate work",
+    "Animated banners and video clips unless agreed in advance"
+  ],
+  "price_from_kzt": 4000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 4,
+  "related": [
+    "logotip",
+    "prezentaciya",
+    "ui-ux-dizain"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 140,
+  "faqs": [
+    {
+      "question_ru": "Какие размеры вы делаете?",
+      "question_kk": "Қандай өлшемдерде жасайсыздар?",
+      "question_en": "Which sizes do you make?",
+      "answer_ru": "Набор подбираем под площадки, где вы будете размещать рекламу. Перед началом уточняем список, например для Instagram, Telegram, баннерной сети. Если площадка требует определённый размер или вес файла, учитываем это заранее.",
+      "answer_kk": "Жиынтықты жарнама орналастыратын алаңдарға қарай таңдаймыз. Басталар алдында тізімді нақтылаймыз, мысалы Instagram, Telegram, баннерлік желі үшін. Алаң белгілі бір өлшемді немесе файл салмағын талап етсе, оны алдын ала ескереміз.",
+      "answer_en": "We pick the set for the platforms where you will run ads. Before starting we confirm the list, for example for Instagram, Telegram or an ad network. If a platform requires a specific size or file weight, we take that into account in advance.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что нужно предоставить для баннеров?",
+      "question_kk": "Баннерлер үшін нені беру керек?",
+      "question_en": "What do you need from me for the banners?",
+      "answer_ru": "Логотип, фирменные цвета, текст предложения и фотографии товаров или услуг, если они есть. Также укажите цель: привлечь заявки, продать конкретный товар или рассказать о мероприятии.",
+      "answer_kk": "Логотип, фирмалық түстер, ұсыныс мәтіні және бар болса, тауарлар мен қызметтердің фотолары. Сондай-ақ мақсатты көрсетіңіз: өтінім жинау, нақты тауарды сату немесе іс-шара туралы айту.",
+      "answer_en": "Your logo, brand colours, the offer text, and photos of products or services if you have them. Also tell us the goal: collecting leads, selling a specific product, or promoting an event.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Нужна ли дополнительная оплата за правки?",
+      "question_kk": "Түзетулер үшін қосымша төлем керек пе?",
+      "question_en": "Is there an extra charge for edits?",
+      "answer_ru": "Один раунд правок по тексту и цветам входит в стоимость. Если нужны новые макеты или смена концепции, это оценивается отдельно, и мы сообщаем сумму до начала работы.",
+      "answer_kk": "Мәтін мен түстер бойынша бір түзету айналымы бағаға кіреді. Жаңа макеттер немесе тұжырымдаманы ауыстыру керек болса, ол бөлек бағаланады, ал сомасын жұмыс басталар алдында хабарлаймыз.",
+      "answer_en": "One round of edits for text and colours is included in the price. If you need new layouts or a change of concept, it is priced separately, and we tell you the amount before the work starts.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Какие форматы файлов я получу?",
+      "question_kk": "Қандай файл форматтарын аламын?",
+      "question_en": "Which file formats will I receive?",
+      "answer_ru": "PNG и JPG в нужных размерах, а также исходники, которые можно редактировать в вашем редакторе.",
+      "answer_kk": "Қажетті өлшемдегі PNG және JPG, сондай-ақ өз редакторыңызда өңдеуге болатын бастапқы файлдар.",
+      "answer_en": "PNG and JPG in the sizes you need, plus source files that you can edit in your own editor.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Подойдут ли баннеры для любой рекламной сети?",
+      "question_kk": "Баннерлер кез келген жарнама желісіне жарай ма?",
+      "question_en": "Will the banners work for any ad network?",
+      "answer_ru": "Мы делаем макеты по требованиям размеров и текста. Правила модерации каждой площадки проверяете вы перед запуском.",
+      "answer_kk": "Біз макеттерді өлшем мен мәтін талаптарына сай жасаймыз. Әр алаңның модерация ережелерін іске қосар алдында сіз тексересіз.",
+      "answer_en": "We make layouts to the size and text requirements. You check each platform's moderation rules before launch.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Гарантирует ли баннер заявки?",
+      "question_kk": "Баннер өтінімдерге кепілдік бере ме?",
+      "question_en": "Does a banner guarantee leads?",
+      "answer_ru": "Нет. Баннер — один из элементов кампании. Результат зависит от предложения, таргетинга и бюджета, которыми управляете вы.",
+      "answer_kk": "Жоқ. Баннер — науқанның бір элементі. Нәтиже ұсыныстан, таргетингтен және сіз басқаратын бюджеттен тәуелді.",
+      "answer_en": "No. A banner is one element of a campaign. The result depends on the offer, targeting and budget, which you control.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что если понадобятся новые размеры позже?",
+      "question_kk": "Кейінірек жаңа өлшемдер керек болса не істеймін?",
+      "question_en": "What if I need new sizes later?",
+      "answer_ru": "Исходники остаются у вас. Адаптация под новые размеры оформляется как отдельная небольшая задача.",
+      "answer_kk": "Бастапқы файлдар сізде қалады. Жаңа өлшемдерге бейімдеу бөлек шағын тапсырма ретінде рәсімделеді.",
+      "answer_en": "The source files stay with you. Adapting to new sizes is handled as a separate small task.",
+      "sort": 6
+    }
+  ]
+}

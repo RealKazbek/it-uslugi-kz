@@ -1,0 +1,135 @@
+{
+  "slug": "katalog-sait",
+  "category": "websites",
+  "title_ru": "Сайт-каталог с товарами и заявкой",
+  "title_kk": "Тауарлары және өтінімі бар каталог-сайт",
+  "title_en": "Product catalogue website with a request form",
+  "short_ru": "Сайт с каталогом товаров, карточками, фильтрами и формой заявки, которая приходит вам на почту или в Telegram.",
+  "short_kk": "Тауар каталогы, карточкалар, сүзгілер және өтінім формасы бар сайт. Өтініш поштаңызға немесе Telegram-ға келеді.",
+  "short_en": "A website with a product catalogue, item cards, filters and a request form that reaches you by email or Telegram.",
+  "description_ru": "Мы делаем сайт, где клиенты быстро находят нужный товар: разделы, карточки с фото и описанием, поиск и фильтры. Каждая заявка из формы сразу приходит вам на почту или в Telegram. Структуру каталога и тексты мы согласуем вместе, чтобы сайт отражал ваш ассортимент.",
+  "description_kk": "Біз клиенттер қажетті тауарды тез табатын сайт жасаймыз: бөлімдер, фотосы мен сипаттамасы бар карточкалар, іздеу және сүзгілер. Формадан келген әрбір өтініш бірден поштаңызға немесе Telegram-ға түседі. Каталог құрылымы мен мәтіндерді бірге келісеміз, сонда сайт сіздің ассортиментіңізді дұрыс көрсетеді.",
+  "description_en": "We build a site where customers find the item they need quickly: sections, item cards with photos and descriptions, search and filters. Every request from the form reaches you by email or Telegram straight away. We agree the catalogue structure and texts together so the site reflects your range.",
+  "for_whom_ru": "Для магазинов, поставщиков и производителей, у которых много позиций и которым нужны заявки, а не корзина и онлайн-оплата.",
+  "for_whom_kk": "Көп позициясы бар, себетсіз және онлайн төлемсіз, тек өтінім қажет дүкендерге, жеткізушілер мен өндірушілерге арналған.",
+  "for_whom_en": "For shops, suppliers and manufacturers with many items who need requests rather than a cart and online payment.",
+  "includes_ru": [
+    "Адаптивный дизайн для телефона, планшета и компьютера",
+    "Разделы и карточки товаров с фото, описанием и характеристиками",
+    "Поиск и фильтры по категориям и параметрам",
+    "Форма заявки с защитой от спама и отправкой на почту или в Telegram",
+    "Базовая настройка SEO: заголовки, описания и адреса страниц",
+    "Подключение к домену и установка SSL-сертификата",
+    "Инструкция по добавлению и редактированию товаров"
+  ],
+  "includes_kk": [
+    "Телефонға, планшетке және компьютерге бейімделген дизайн",
+    "Фотосы, сипаттамасы және сипаттамалары бар тауар бөлімдері мен карточкалары",
+    "Санат пен параметр бойынша іздеу және сүзгілер",
+    "Спамнан қорғалған өтініш формасы, поштаға немесе Telegram-ға жіберу",
+    "Негізгі SEO баптауы: тақырыптар, сипаттамалар және бет мекенжайлары",
+    "Доменге қосу және SSL сертификатын орнату",
+    "Тауарларды қосу және өңдеу нұсқаулығы"
+  ],
+  "includes_en": [
+    "Responsive design for phones, tablets and computers",
+    "Sections and product cards with photos, descriptions and specifications",
+    "Search and filters by category and parameters",
+    "Request form with spam protection, sending to email or Telegram",
+    "Basic SEO setup: titles, descriptions and page addresses",
+    "Domain connection and SSL certificate installation",
+    "A guide to adding and editing products"
+  ],
+  "not_included_ru": [
+    "Фотосъёмка товаров и написание описаний: материалы для каталога готовит заказчик или они оплачиваются отдельно",
+    "Приём онлайн-оплаты и корзина: это отдельная услуга, если она вам понадобится",
+    "Гарантия первых мест в поиске: продвижение зависит от конкуренции и ваших усилий, и мы его отдельно не обещаем"
+  ],
+  "not_included_kk": [
+    "Тауарларды суретке түсіру және сипаттама жазу: каталог материалын тапсырыс беруші дайындайды немесе бөлек төленеді",
+    "Онлайн төлем және себет: қажет болса, бөлек қызмет",
+    "Іздеудегі бірінші орынға кепілдік: жарнама конкуренцияға және сіздің жұмысыңызға байланысты, оны бөлек уәде етпейміз"
+  ],
+  "not_included_en": [
+    "Product photography and writing descriptions: the catalogue material is prepared by the client or charged separately",
+    "Online payment and a shopping cart: a separate service if you need it",
+    "A guarantee of top search positions: ranking depends on competition and your own efforts, and we do not promise it separately"
+  ],
+  "price_from_kzt": 125000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 20,
+  "related": [
+    "internet-magazin",
+    "sait-vizitka",
+    "korporativnyi-sait"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 100,
+  "faqs": [
+    {
+      "question_ru": "Что нужно подготовить до начала работ?",
+      "question_kk": "Жұмыс басталар алдында не дайындау керек?",
+      "question_en": "What do you need to prepare before we start?",
+      "answer_ru": "Список категорий, таблицу товаров с ценами и фото, реквизиты и контакты для заявок. Если материалов пока нет, мы поможем составить структуру, но тексты и фото должны быть от вас.",
+      "answer_kk": "Санаттар тізімін, бағасы мен фотосы бар тауарлар кестесін, реквизиттер мен өтініш үшін байланыс деректерін. Материалдар болмаса, құрылымды құруға көмектесеміз, бірақ мәтіндер мен фотолар сізден болуы керек.",
+      "answer_en": "A list of categories, a table of items with prices and photos, and the contacts for requests. If you do not have the material yet, we can help you structure it, but the texts and photos should come from you.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Куда приходят заявки и что будет, если их много?",
+      "question_kk": "Өтініштер қайда келеді және олар көп болса не болады?",
+      "question_en": "Where do requests arrive, and what if there are many of them?",
+      "answer_ru": "Заявки приходят на указанную почту и в Telegram-чат. Если вы не ответили сразу, письмо остаётся в почте, и вы можете вернуться к нему позже.",
+      "answer_kk": "Өтініштер көрсетілген поштаға және Telegram-чатқа келеді. Бірден жауап бермесеңіз, хат поштада қалады, оған кейін қайта оралуға болады.",
+      "answer_en": "Requests arrive at the email address and Telegram chat you specify. If you do not reply straight away, the email stays in your inbox and you can come back to it later.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Мы передаём доступ к админке, показываем, как добавлять товары, и вместе проверяем первые заявки. Небольшие правки после запуска обсуждаем отдельно.",
+      "answer_kk": "Әкімші панеліне қолжетімділікті береміз, тауар қалай қосылатынын көрсетеміз және алғашқы өтініштерді бірге тексереміз. Іске қосқаннан кейінгі шағын түзетулерді бөлек талқылаймыз.",
+      "answer_en": "We hand over access to the admin panel, show you how to add products, and check the first requests together. Small changes after launch are discussed separately.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Можно ли добавлять товары без программиста?",
+      "question_kk": "Тауарды бағдарламашысыз қосуға бола ма?",
+      "question_en": "Can I add products without a programmer?",
+      "answer_ru": "Да, в инструкции описано, как добавлять и редактировать товары. Большой ассортимент можно загрузить сразу, и с этим поможем при запуске.",
+      "answer_kk": "Иә, нұсқауда тауарларды қосу және өңдеу жазылған. Үлкен ассортиментті бірден жүктеуге болады, бұған іске қосу кезінде көмектесеміз.",
+      "answer_en": "Yes, the instructions explain how to add and edit products. A large range can be uploaded at once, and we help with that at launch.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Какие домен и хостинг нужны?",
+      "question_kk": "Қандай домен мен хостинг керек?",
+      "question_en": "What domain and hosting are needed?",
+      "answer_ru": "Домен регистрируете на себя, мы подключаем его к сайту и ставим SSL-сертификат. Оплата домена и хостинга идёт по тарифам провайдера, а доступы остаются у вас.",
+      "answer_kk": "Доменді өзіңіз тіркейсіз, біз оны сайтқа қосамыз және SSL сертификатын орнатамыз. Домен мен хостинг төлемі провайдер тарифі бойынша жүреді, ал қолжетімділік сізде қалады.",
+      "answer_en": "You register the domain in your name, and we connect it to the site and install an SSL certificate. Domain and hosting fees follow the provider's rates, and access stays with you.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что делать, если поисковики пока не видят новые товары?",
+      "question_kk": "Іздеу жүйелері жаңа тауарларды әлі көрмесе не істеу керек?",
+      "question_en": "What if search engines do not see new products yet?",
+      "answer_ru": "Поисковики индексируют сайт постепенно. Мы настраиваем карту сайта и заголовки, а ускорить индексацию можно через кабинеты вебмастеров.",
+      "answer_kk": "Іздеу жүйелері сайтты біртіндеп индекстейді. Біз сайт картасын және тақырыптарды баптаймыз, ал индекстеуді веб-шебер кабинеттері арқылы жеделдетуге болады.",
+      "answer_en": "Search engines index a site gradually. We set up the sitemap and headings, and indexing can be sped up through the webmaster tools.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто владеет сайтом и кодом после сдачи?",
+      "question_kk": "Тапсырғаннан кейін сайт пен кодқа кім ие?",
+      "question_en": "Who owns the site and code after handover?",
+      "answer_ru": "Код, тексты и доступы передаются вам. Домен и хостинг оформлены на вашем аккаунте, а не на нашем.",
+      "answer_kk": "Код, мәтіндер және қолжетімділік сізге беріледі. Домен мен хостинг сіздің аккаунтыңызда рәсімделеді, біздікінде емес.",
+      "answer_en": "The code, texts and access are handed over to you. The domain and hosting are set up on your account, not ours.",
+      "sort": 6
+    }
+  ]
+}

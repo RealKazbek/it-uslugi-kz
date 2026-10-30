@@ -1,0 +1,132 @@
+{
+  "slug": "yandex-direct-nastroika",
+  "category": "seo-maps",
+  "title_ru": "Настройка Яндекс Директ",
+  "title_kk": "Яндекс Директ баптау",
+  "title_en": "Yandex Direct setup",
+  "short_ru": "Настраиваем рекламу в Яндекс Директе: кампании на поиске и в сетях, ключевые слова и отслеживание заявок с сайта.",
+  "short_kk": "Яндекс Директ-те жарнаманы баптаймыз: іздеудегі және желідегі науқандар, кілт сөздер және сайттан өтініштерді бақылау.",
+  "short_en": "We set up Yandex Direct advertising: search and display campaigns, keywords and tracking of enquiries from your website.",
+  "description_ru": "Выясняем, какие услуги вы продаёте, в каких регионах находятся клиенты и что они вводят в поиск Яндекса. Создаём кампании, подбираем запросы и минус-слова, пишем объявления и настраиваем цели в Яндекс Метрике для заявок и звонков. Работаем удалённо по всему Казахстану и передаём аккаунт вам, чтобы бюджет и управление оставались у вас.",
+  "description_kk": "Қандай қызмет сататыныңызды, клиенттер қай аймақта және Яндекс іздеуіне не енгізетінін анықтаймыз. Науқандарды жасап, сұраныстар мен минус-сөздерді таңдаймыз, жарнама мәтіндерін жазып, өтініштер мен қоңыраулар үшін Яндекс Метрика мақсаттарын баптаймыз. Біз Қазақстан бойынша қашықтан жұмыс істейміз және аккаунтты сізге тапсырамыз, сонда бюджет пен басқару сізде қалады.",
+  "description_en": "We find out which services you sell, which regions your customers are in and what they type into Yandex search. We build the campaigns, choose queries and negative keywords, write the ads and set up Yandex Metrica goals for enquiries and calls. We work remotely across Kazakhstan and hand the account over to you, so the budget and management stay with you.",
+  "for_whom_ru": "Для компаний, которые ориентируются на аудиторию Яндекса и хотят получать заявки из поиска. Подойдёт, если кампании уже запущены, но работают без понятных целей или не отслеживаются.",
+  "for_whom_kk": "Яндекс аудиториясына бағыт ұстайтын және іздеуден өтініш алғысы келетін компанияларға арналған. Науқандар іске қосылған, бірақ нақты мақсатсыз жұмыс істесе немесе бақыланбаса, қолайлы.",
+  "for_whom_en": "For businesses that target Yandex audiences and want enquiries from search. It fits when campaigns are already running without clear goals or without tracking.",
+  "includes_ru": [
+    "Аудит текущего аккаунта или создание нового с нуля",
+    "Кампании на поиске и, при необходимости, в Рекламной сети Яндекса (РСЯ)",
+    "Подбор ключевых слов, минус-слов и регионов показа",
+    "Написание объявлений и ссылки на нужные страницы сайта",
+    "Цели в Яндекс Метрике для заявок, звонков и форм",
+    "Краткая инструкция по бюджету и отчётам"
+  ],
+  "includes_kk": [
+    "Ағымдағы аккаунтты тексеру немесе нөлден жаңасын жасау",
+    "Іздеудегі науқандар және қажет болса, Яндекс жарнама желісіндегі (РСЖ) науқандар",
+    "Кілт сөздерді, минус-сөздерді және жарнама аймақтарын таңдау",
+    "Жарнама мәтіндерін жазу және сайттың тиісті беттеріне сілтеме",
+    "Өтініштер, қоңыраулар және формалар үшін Яндекс Метрика мақсаттары",
+    "Бюджет пен есептер бойынша қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "An audit of your current account or a new account set up from scratch",
+    "Search campaigns and, if needed, campaigns in the Yandex Advertising Network",
+    "Keyword selection, negative keywords and ad regions",
+    "Ad copy and links to the right pages of your website",
+    "Yandex Metrica goals for enquiries, calls and forms",
+    "A short guide on budget and reports"
+  ],
+  "not_included_ru": [
+    "Рекламный бюджет: его вы оплачиваете Яндексу напрямую, мы его не получаем",
+    "Ведение кампаний после запуска: регулярная оптимизация оплачивается отдельно",
+    "Гарантия количества заявок, позиций или продаж: результат зависит от спроса, конкуренции и вашего предложения"
+  ],
+  "not_included_kk": [
+    "Жарнама бюджеті: оны Яндекске өзіңіз тікелей төлейсіз, біз оны алмаймыз",
+    "Іске қосқаннан кейінгі науқандарды жүргізу: тұрақты оңтайландыру бөлек төленеді",
+    "Өтініштер, позициялар немесе сатылым санына кепілдік: нәтиже сұраныс, бәсеке және ұсынысқа байланысты"
+  ],
+  "not_included_en": [
+    "The ad budget: you pay Yandex directly, and we do not receive it",
+    "Running campaigns after launch: ongoing optimisation is paid separately",
+    "A guarantee of lead numbers, rankings or sales: results depend on demand, competition and your offer"
+  ],
+  "price_from_kzt": 55000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 7,
+  "related": [
+    "google-ads-nastroika",
+    "analitika-ga4-metrika",
+    "lokalnoe-seo"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 126,
+  "faqs": [
+    {
+      "question_ru": "Что нужно подготовить до начала?",
+      "question_kk": "Басталғанға дейін не дайындау керек?",
+      "question_en": "What should you prepare before we start?",
+      "answer_ru": "Доступ к аккаунту Яндекс Директа или право его создать, доступ к Яндекс Метрике и сайту, а также список услуг с ценами или диапазонами.",
+      "answer_kk": "Яндекс Директ аккаунтына қолжетімділік немесе оны ашу құқығы, Яндекс Метрика мен сайтқа қолжетімділік және бағасы немесе диапазоны бар қызметтер тізімі.",
+      "answer_en": "Access to a Yandex Direct account or the right to create one, access to Yandex Metrica and your website, and a list of services with prices or price ranges.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько будет стоить реклама?",
+      "question_kk": "Жарнама қанша тұрады?",
+      "question_en": "How much will the ads cost?",
+      "answer_ru": "Бюджет на показы вы платите Яндексу напрямую. Вместе выбираем стартовый бюджет, исходя из целей и спроса в вашем регионе. Точные цифры видны в аккаунте.",
+      "answer_kk": "Жарнамаға арналған бюджетті Яндекске өзіңіз тікелей төлейсіз. Мақсат пен аймақтағы сұраныс негізінде бірге бастапқы бюджетті таңдаймыз, нақты сандар аккаунтта көрінеді.",
+      "answer_en": "You pay Yandex directly for ad spend. We choose a starting budget together based on your goals and local demand, and the exact figures show in the account.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Вы получаете аккаунт, где сохраняете права владельца доступа, список кампаний, цели в Метрике и инструкцию по отчётам. Ведение и оптимизацию обсудим отдельно.",
+      "answer_kk": "Сіз доступтың иесі болып қалатын аккаунтты, науқандар тізімін, Метрикадағы мақсаттарды және есептер бойынша нұсқаулықты аласыз. Жүргізу мен оңтайландыру бөлек талқыланады.",
+      "answer_en": "You get an account where you keep ownership of the access, a list of campaigns, the goals set up in Metrica and a guide to the reports. Ongoing management and optimisation are discussed separately.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли мне аккаунт Яндекс Директ или его создадите вы?",
+      "question_kk": "Яндекс Директ аккаунті маған керек пе, әлде оны сіздер жасайсыздар ма?",
+      "question_en": "Do I need a Yandex Direct account, or will you create it?",
+      "answer_ru": "Можно и так и так: аккаунт может быть вашим, с доступом для нас, или новым, зарегистрированным на вашу почту. Аккаунт и бюджет остаются за вами, а доступы проверяем вместе.",
+      "answer_kk": "Екеуі де мүмкін: аккаунт сіздікі болуы, бізге қолжетімділігі бар болуы немесе сіздің поштаңызға жаңадан ашылуы мүмкін. Аккаунт пен бюджет сізде қалады, ал қолжетімділікті бірге тексереміз.",
+      "answer_en": "Either works: the account can be yours with access for us, or a new one registered to your email. The account and budget stay with you, and we check access together.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли ограничить показы только моим городом?",
+      "question_kk": "Көрсетілімді тек менің қаламмен ғана шектеуге бола ма?",
+      "question_en": "Can I limit ads to my city only?",
+      "answer_ru": "Да, регионы показа задаются при создании кампании, можно выбрать один город или несколько. Для Казахстана регионы сверяем с тем, где находятся клиенты, чтобы не тратить бюджет впустую.",
+      "answer_kk": "Иә, көрсету аймақтары науқан құрылған кезде беріледі, бір немесе бірнеше қала таңдауға болады. Қазақстан үшін аймақтарды клиенттердің орналасуымен салыстырамыз, бюджет босқа кетпеуі үшін.",
+      "answer_en": "Yes, display regions are set when creating a campaign, and you can choose one city or several. For Kazakhstan we match regions against where the clients are, so the budget is not wasted.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что такое минус-слова и зачем они нужны?",
+      "question_kk": "Минус-сөздер дегеніміз не және олар не үшін керек?",
+      "question_en": "What are negative keywords and why are they needed?",
+      "answer_ru": "Минус-слова — это запросы, по которым объявление не должно показываться, например «бесплатно» или «вакансии». Список пополняем по первым запросам, чтобы не платить за нецелевые клики.",
+      "answer_kk": "Минус-сөздер — объявленияның көрсетілмеуі керек сұраныстар, мысалы «тегін» немесе «вакансия». Тізімді алғашқы сұраныстар бойынша толықтырамыз, мақсатсыз басуларға ақша кетпеуі үшін.",
+      "answer_en": "Negative keywords are queries for which the ad should not show, for example 'free' or 'jobs'. We expand the list based on the first queries so you do not pay for untargeted clicks.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Почему нельзя обещать конкретное число заявок?",
+      "question_kk": "Нақты өтінім санын неге уәде етуге болмайды?",
+      "question_en": "Why can't you promise a specific number of leads?",
+      "answer_ru": "Количество заявок зависит от спроса в вашей нише, конкуренции и цены предложения, а не только от настроек. Честно говорим, какие данные отслеживаем, и показываем статистику по кампаниям.",
+      "answer_kk": "Өтінім саны тек баптауларға ғана емес, сіздің нишаңыздағы сұранысқа, бәсекеге және ұсыныстың бағасына байланысты. Қандай деректерді бақылайтынымызды ашық айтамыз және науқандар бойынша статистиканы көрсетеміз.",
+      "answer_en": "The number of leads depends on demand in your niche, competition and the price of your offer, not only on settings. We are open about the data we track and show campaign statistics.",
+      "sort": 6
+    }
+  ]
+}

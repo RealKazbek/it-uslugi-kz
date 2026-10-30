@@ -19,3 +19,7 @@ export function whatsappGeneralLink(lang: Lang): string {
 export function telegramLink(): string {
   return contacts.telegramUrl;
 }
+
+export function callLink(): string {
+  return `tel:${contacts.phone}`;
+}

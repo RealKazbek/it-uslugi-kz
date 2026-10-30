@@ -6,10 +6,10 @@
   "title_en": "Website bug fixing",
   "short_ru": "Находим причину сбоя на сайте и чиним: форму, вёрстку, медленную загрузку или ошибку после обновления.",
   "short_kk": "Сайттағы ақаудың себебін тауып, түзетеміз: форма, беттеу, баяу жүктелу немесе жаңартудан кейінгі қате.",
-  "short_en": "I find what broke your site and fix it: a form, a layout, slow loading or an error after an update.",
-  "description_ru": "Если форма не отправляется, страница «поехала» на телефоне или сайт выдаёт ошибку после обновления, нужна точечная диагностика, а не новый сайт. Сначала я воспроизвожу проблему и называю причину, затем исправляю её и проверяю результат в разных браузерах и на телефоне. Работаю с сайтами на React, Next.js, Django и обычным HTML.",
-  "description_kk": "Форма жіберілмесе, бет телефонда бұзылып көрінсе немесе сайт жаңартудан кейін қате шығарса, жаңа сайт емес, нақты диагностика керек. Алдымен мәселені қайталап, себебін айтамын, содан кейін түзетіп, нәтижені әртүрлі браузерде және телефонда тексеремін. React, Next.js, Django және қарапайым HTML сайттарымен жұмыс істеймін.",
-  "description_en": "When a form stops sending, a page breaks on phones or the site throws an error after an update, you need targeted diagnosis rather than a new website. I reproduce the problem, tell you the cause, fix it and check the result in several browsers and on a phone. I work with sites built on React, Next.js, Django or plain HTML.",
+  "short_en": "We find what broke your site and fix it: a form, a layout, slow loading or an error after an update.",
+  "description_ru": "Если форма не отправляется, страница «поехала» на телефоне или сайт выдаёт ошибку после обновления, нужна точечная диагностика, а не новый сайт. Сначала мы воспроизводим проблему и называем причину, затем исправляем её и проверяем результат в разных браузерах и на телефоне. Работаем с сайтами на React, Next.js, Django и обычным HTML.",
+  "description_kk": "Форма жіберілмесе, бет телефонда бұзылып көрінсе немесе сайт жаңартудан кейін қате шығарса, жаңа сайт емес, нақты диагностика керек. Алдымен мәселені қайталап, себебін айтамыз, содан кейін түзетіп, нәтижені әртүрлі браузерде және телефонда тексереміз. React, Next.js, Django және қарапайым HTML сайттарымен жұмыс істейміз.",
+  "description_en": "When a form stops sending, a page breaks on phones or the site throws an error after an update, you need targeted diagnosis rather than a new website. We reproduce the problem, tell you the cause, fix it and check the result in several browsers and on a phone. We work with sites built on React, Next.js, Django or plain HTML.",
   "for_whom_ru": "Владельцам сайтов, у которых что-то перестало работать, а разработчик недоступен или сайт достался от подрядчика без документации.",
   "for_whom_kk": "Сайты бір жерінен істемей қалған, әзірлеушісі қол жетпейтін немесе сайт құжатсыз келіп түскен иелеріне арналған.",
   "for_whom_en": "For site owners whose website stopped working when the original developer is unavailable, or who inherited a site with no documentation.",
@@ -50,9 +50,9 @@
   "not_included_en": [
     "New features and sections, which count as separate development",
     "Errors caused by an outage on the hosting provider side",
-    "Sites on closed builders where I cannot access the code"
+    "Sites on closed builders where we cannot access the code"
   ],
-  "price_from_kzt": 5000,
+  "price_from_kzt": 3000,
   "unit": "once",
   "days_min": 1,
   "days_max": 2,
@@ -68,28 +68,64 @@
       "question_ru": "Сколько стоит исправление, если ошибка сложная?",
       "question_kk": "Қате күрделі болса, түзету қанша тұрады?",
       "question_en": "What if the bug turns out to be complicated?",
-      "answer_ru": "Цена от 5 000 ₸ относится к простым правкам. После диагностики я называю итоговую сумму и сроки, и работу начинаю только после вашего согласия.",
-      "answer_kk": "Бағасы 5 000 ₸-ден қарапайым түзетулерге қатысты. Диагностикадан кейін қорытынды соманы мен мерзімді айтамын, жұмысты тек сіз келіскен соң бастаймын.",
-      "answer_en": "The 5,000 KZT starting price covers simple fixes. After diagnosis I give you the final amount and timeline, and I start only after you agree.",
+      "answer_ru": "Цена от 5 000 ₸ относится к простым правкам. После диагностики называем итоговую сумму и сроки, и работу начинаем только после вашего согласия.",
+      "answer_kk": "Бағасы 5 000 ₸-ден қарапайым түзетулерге қатысты. Диагностикадан кейін қорытынды соманы мен мерзімді айтамыз, жұмысты тек сіз келіскен соң бастаймыз.",
+      "answer_en": "The 5,000 KZT starting price covers simple fixes. After diagnosis we give you the final amount and timeline, and we start only after you agree.",
       "sort": 0
     },
     {
       "question_ru": "Какой доступ мне нужно дать?",
       "question_kk": "Маған қандай қолжетімділік беру керек?",
       "question_en": "What access do I need to give you?",
-      "answer_ru": "Обычно достаточно доступа к хостингу или репозиторию. Перед работой я делаю копию сайта, чтобы любую правку можно было отменить.",
-      "answer_kk": "Әдетте хостингке немесе репозиторийге қолжетімділік жеткілікті. Жұмыс алдында сайттың көшірмесін жасаймын, сонда кез келген түзетуді кері қайтаруға болады.",
-      "answer_en": "Hosting or repository access is usually enough. Before I touch anything I make a copy of the site so any change can be undone.",
+      "answer_ru": "Обычно достаточно доступа к хостингу или репозиторию. Перед работой мы делаем копию сайта, чтобы любую правку можно было отменить.",
+      "answer_kk": "Әдетте хостингке немесе репозиторийге қолжетімділік жеткілікті. Жұмыс алдында сайттың көшірмесін жасаймыз, сонда кез келген түзетуді кері қайтаруға болады.",
+      "answer_en": "Hosting or repository access is usually enough. Before we touch anything we make a copy of the site so any change can be undone.",
       "sort": 1
     },
     {
       "question_ru": "Можно ли потом заказать регулярный присмотр?",
       "question_kk": "Кейін тұрақты қарауды тапсыруға бола ма?",
       "question_en": "Can I have someone keep an eye on the site afterwards?",
-      "answer_ru": "Да, для этого есть ежемесячная поддержка. Если ошибки повторяются, я подскажу, стоит ли переходить на неё или достаточно разовой правки.",
-      "answer_kk": "Иә, ол үшін айлық қолдау бар. Қателер қайталанса, соған көшкен жөн бе, әлде бір реттік түзету жеткілікті ме, соны айтамын.",
-      "answer_en": "Yes, monthly support exists for that. If errors keep coming back, I will tell you whether it is worth switching to it or whether a one-off fix is enough.",
+      "answer_ru": "Да, для этого есть ежемесячная поддержка. Если ошибки повторяются, мы подскажем, стоит ли переходить на неё или достаточно разовой правки.",
+      "answer_kk": "Иә, ол үшін айлық қолдау бар. Қателер қайталанса, соған көшкен жөн бе, әлде бір реттік түзету жеткілікті ме, соны айтамыз.",
+      "answer_en": "Yes, monthly support exists for that. If errors keep coming back, we will tell you whether it is worth switching to it or whether a one-off fix is enough.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно от меня, чтобы вы воспроизвели ошибку?",
+      "question_kk": "Қатені қайталау үшін менен не керек?",
+      "question_en": "What do you need from me to reproduce the bug?",
+      "answer_ru": "Опишите браузер, устройство и что делали до ошибки. Скриншот или видео помогают, но если их нет, попробуем воспроизвести сами.",
+      "answer_kk": "Браузерді, құрылғыны және қатеге дейін не істегеніңізді жазыңыз. Скриншот немесе бейне көмектеседі, бірақ болмаса, өзіміз қайталап көреміз.",
+      "answer_en": "Describe the browser, the device and what you did before the error. A screenshot or video helps, but if you have none we will try to reproduce it ourselves.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если правка сломает другую часть сайта?",
+      "question_kk": "Түзету сайттың басқа бөлігін бұзып алса не болады?",
+      "question_en": "What if a fix breaks another part of the site?",
+      "answer_ru": "После правки проверяем сайт в основных браузерах и на телефоне. При необходимости откатываем изменения и пишем, что было задето.",
+      "answer_kk": "Түзеткеннен кейін сайтты негізгі браузерлерде және телефонда тексереміз. Қажет болса өзгерісті қайтарамыз және нені зардап шеккенін жазамыз.",
+      "answer_en": "After a fix we check the site in the main browsers and on a phone. If needed we roll back the change and report what was affected.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что, если ошибка вызвана сбоем на стороне хостинга?",
+      "question_kk": "Қате хостингтегі ақаудан туындаса не істейміз?",
+      "question_en": "What if the error is caused by a hosting problem?",
+      "answer_ru": "Тогда показываем доказательства и подсказываем, что написать в поддержку провайдера. Саму инфраструктуру хостинга мы не чиним.",
+      "answer_kk": "Онда дәлелдерді көрсетеміз және провайдердің қолдауына не жазу керектігін түсіндіреміз. Хостингтің инфрақұрылымын өзімізде жөндей алмаймыз.",
+      "answer_en": "Then we show the evidence and suggest what to write to the provider's support. We cannot repair the hosting infrastructure ourselves.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что делать, если сайт сделан на закрытом конструкторе?",
+      "question_kk": "Сайт жабық конструкторда жасалған болса не істеу керек?",
+      "question_en": "What if the site is built on a closed website builder?",
+      "answer_ru": "Работаем только с кодом, к которому у нас есть доступ. Сначала честно скажем, что реально исправить, чтобы вы не платили за то, что не сработает.",
+      "answer_kk": "Тек бізде қолжетімділігі бар кодпен жұмыс істейміз. Алдымен нені шын мәнінде түзетуге болатынын айтамыз, сонда іске аспайтын нәрсеге төлемейсіз.",
+      "answer_en": "We only work with code we can access. We first say honestly what can really be fixed, so you do not pay for something that will not work.",
+      "sort": 6
     }
   ]
 }

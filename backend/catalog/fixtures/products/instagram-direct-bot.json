@@ -1,0 +1,135 @@
+{
+  "slug": "instagram-direct-bot",
+  "category": "bots",
+  "title_ru": "Бот для Instagram Direct",
+  "title_kk": "Instagram Direct үшін бот",
+  "title_en": "Bot for Instagram Direct",
+  "short_ru": "Бот отвечает на сообщения в Instagram Direct по заранее заданным сценариям и передаёт сложные вопросы вам. Работает через официальный API Meta.",
+  "short_kk": "Бот Instagram Direct-тегі хабарламаларға алдын ала белгіленген сценарий бойынша жауап береді және күрделі сұрақтарды сізге береді. Meta-ның ресми API-і арқылы жұмыс істейді.",
+  "short_en": "The bot answers Instagram Direct messages using pre-set scenarios and hands harder questions to you. It works through Meta's official API.",
+  "description_ru": "Мы настраиваем ответы на частые вопросы, приветствие, сбор заявки и передачу диалога менеджеру в Instagram Direct. Подключение идёт через официальный API Meta и бизнес-аккаунт Instagram, связанный со страницей Facebook. Meta меняет правила и условия доступа, поэтому часть возможностей зависит от её политики, которую мы проверяем перед запуском.",
+  "description_kk": "Біз Instagram Direct-те жиі қойылатын сұрақтарға жауапты, сәлемдесуді, өтінімді жинауды және диалогты менеджерге беруді баптаймыз. Қосылу Meta-ның ресми API-і және Facebook бетімен байланысқан Instagram бизнес-аккаунты арқылы жүреді. Meta ережелері мен қолжетімділік шарттарын өзгертуі мүмкін, сондықтан кейбір мүмкіндіктер оның саясатына байланысты, оны іске қосар алдында тексереміз.",
+  "description_en": "We set up answers to common questions, a greeting, lead collection and handover of the chat to a manager in Instagram Direct. Connection goes through Meta's official API and an Instagram business account linked to a Facebook page. Meta changes its rules and access terms, so some features depend on its policies, which we check before launch.",
+  "for_whom_ru": "Для магазинов, салонов, кафе и мастеров, у которых заявки приходят в Direct и часто повторяются. Подойдёт, если у вас есть бизнес-аккаунт Instagram и вы можете отвечать клиентам в течение рабочего дня.",
+  "for_whom_kk": "Өтінімдері Direct-ке келетін және жиі қайталанатын дүкендерге, салондарға, кафелерге және шеберлерге арналған. Instagram бизнес-аккаунтыңыз бар болса және клиенттерге жұмыс күні ішінде жауап бере алсаңыз, жарайды.",
+  "for_whom_en": "For shops, salons, cafés and craftspeople who get requests in Direct and see the same questions again and again. It fits if you have an Instagram business account and can answer clients during working hours.",
+  "includes_ru": [
+    "Бот, подключённый к вашему Instagram-аккаунту через официальный API",
+    "Приветствие и меню частых вопросов",
+    "Сбор заявки: имя, контакт и то, что нужно клиенту",
+    "Передача диалога менеджеру с сохранением истории",
+    "Ответы по вашей базе: цены, график, адрес",
+    "Проверка условий Meta перед запуском и инструкция по подключению",
+    "Тестирование на тестовом аккаунте"
+  ],
+  "includes_kk": [
+    "Сіздің Instagram аккаунтыңызға ресми API арқылы қосылған бот",
+    "Сәлемдесу және жиі сұрақтар мәзірі",
+    "Өтінімді жинау: аты, байланыс және клиентке керегі",
+    "Диалогты тарихымен бірге менеджерге беру",
+    "Сіздің базаңыз бойынша жауаптар: баға, кесте, мекенжай",
+    "Іске қосар алдында Meta шарттарын тексеру және қосылу нұсқаулығы",
+    "Сынақ аккаунтында тестілеу"
+  ],
+  "includes_en": [
+    "A bot connected to your Instagram account through the official API",
+    "A greeting and a menu of common questions",
+    "Lead collection: name, contact and what the client needs",
+    "Handover of the chat to a manager with the history kept",
+    "Answers from your knowledge base: prices, hours, address",
+    "A check of Meta's conditions before launch and a connection guide",
+    "Testing on a test account"
+  ],
+  "not_included_ru": [
+    "Instagram-бизнес-аккаунт и страница Facebook: их создаёт и подтверждает клиент",
+    "Гарантия работы функций Direct: Meta может изменить правила API или ограничить автоматические ответы в любой момент",
+    "Реклама и продвижение аккаунта"
+  ],
+  "not_included_kk": [
+    "Instagram бизнес-аккаунты және Facebook беті: оларды клиент ашып, растайды",
+    "Direct функцияларына кепілдік: Meta API ережелерін немесе автоматты жауаптарға шектеуді кез келген уақытта өзгерте алады",
+    "Аккаунтты жарнамалау және ілгерілету"
+  ],
+  "not_included_en": [
+    "An Instagram business account and a Facebook page: the client creates and verifies them",
+    "A guarantee of Direct features: Meta can change the API rules or limit automatic replies at any time",
+    "Advertising and account promotion"
+  ],
+  "price_from_kzt": 33000,
+  "unit": "once",
+  "days_min": 7,
+  "days_max": 14,
+  "related": [
+    "telegram-bot-zapis",
+    "ai-assistent-telegram",
+    "whatsapp-bot"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 113,
+  "faqs": [
+    {
+      "question_ru": "Может ли бот работать с личным аккаунтом Instagram?",
+      "question_kk": "Бот жеке Instagram аккаунтымен жұмыс істей ала ма?",
+      "question_en": "Can the bot work with a personal Instagram account?",
+      "answer_ru": "Нет, для официального API нужен бизнес-аккаунт или аккаунт автора, связанный со страницей Facebook. Личные аккаунты через официальный API не подключаются, а неофициальные способы мы не используем: они нарушают правила и могут привести к блокировке.",
+      "answer_kk": "Жоқ, ресми API үшін Facebook бетімен байланысқан бизнес-аккаунт немесе автор аккаунты керек. Жеке аккаунттар ресми API арқылы қосылмайды, ал ресми емес тәсілдерді қолданбаймыз: олар ережені бұзып, бұғаттауға әкелуі мүмкін.",
+      "answer_en": "No, the official API needs a business account or creator account linked to a Facebook page. Personal accounts cannot be connected through the official API, and we do not use unofficial methods because they break the rules and can lead to a ban.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что будет, если Meta изменит правила?",
+      "question_kk": "Meta ережелерін өзгертсе не болады?",
+      "question_en": "What happens if Meta changes its rules?",
+      "answer_ru": "Бот может перестать работать в части функций, и это не зависит от нас. Поэтому перед запуском мы проверяем текущие условия, а при изменениях сообщаем вам и предлагаем, как адаптировать сценарии.",
+      "answer_kk": "Бот кейбір функцияларда жұмыс істемей қалуы мүмкін, бұл бізге тәуелсіз. Сондықтан іске қосар алдында ағымдағы шарттарды тексереміз, өзгерістер болса сізге хабарлап, сценарийді қалай бейімдеуге болатынын ұсынамыз.",
+      "answer_en": "The bot may stop working for some features, and this is outside our control. That is why we check the current terms before launch, and if they change we tell you and suggest how to adapt the scenarios.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Какой объём сообщений выдерживает бот и есть ли ограничения?",
+      "question_kk": "Бот қанша хабарламаны өңдей алады және шектеу бар ма?",
+      "question_en": "How many messages can the bot handle, and are there limits?",
+      "answer_ru": "Объём и скорость ответов зависят от лимитов Meta и выбранного тарифа хостинга. Мы настраиваем бот под обычный поток заявок небольшого и среднего бизнеса, а для больших объёмов оцениваем отдельно.",
+      "answer_kk": "Хабарлама көлемі мен жауап жылдамдығы Meta шектеулеріне және хостинг тарифіне байланысты. Ботты шағын және орта бизнестің қалыпты өтінім ағынына бейімдейміз, үлкен көлемді бөлек бағалаймыз.",
+      "answer_en": "Volume and reply speed depend on Meta's limits and the hosting plan you choose. We set the bot up for the usual flow of requests of a small or mid-sized business, and estimate large volumes separately.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что нужно, чтобы запустить бота?",
+      "question_kk": "Ботты іске қосу үшін не керек?",
+      "question_en": "What do we need to launch the bot?",
+      "answer_ru": "Доступ к бизнес-аккаунту Instagram и связанной странице Facebook, список частых вопросов и тексты приветствия. Мы поможем с подключением и проверкой прав, а сами права выдаёт Meta.",
+      "answer_kk": "Instagram бизнес-аккаунтына және байланысқан Facebook бетіне қолжетімділік, жиі сұрақтар тізімі және сәлемдесу мәтіні керек. Қосылу мен құқықтарды тексеруге көмектесеміз, ал құқықтарды Meta береді.",
+      "answer_en": "Access to your Instagram business account and linked Facebook page, a list of common questions and a greeting text. We help with the connection and permission checks, while Meta itself grants the permissions.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли подключить бота к нескольким аккаунтам или страницам?",
+      "question_kk": "Ботты бірнеше аккаунтқа немесе бетке қосуға бола ма?",
+      "question_en": "Can the bot be connected to several accounts or pages?",
+      "answer_ru": "Да, но каждый аккаунт подключается отдельно через официальный API и требует своих разрешений.",
+      "answer_kk": "Иә, бірақ әр аккаунт ресми API арқылы жеке қосылады және өз рұқсаттарын талап етеді.",
+      "answer_en": "Yes, but each account is connected separately through the official API and needs its own permissions.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Будет ли бот отвечать на комментарии?",
+      "question_kk": "Бот пікірлерге жауап бере ме?",
+      "question_en": "Will the bot reply to comments?",
+      "answer_ru": "Через этого бота комментарии не обрабатываются. Для них нужны отдельные правила, которые мы обсуждаем отдельно.",
+      "answer_kk": "Бұл бот пікірлерді өңдемейді. Оларға бөлек ережелер керек, оларды бөлек талқылаймыз.",
+      "answer_en": "Comments are not handled by this bot. They need separate rules, which we discuss separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Сохраняется ли история переписки?",
+      "question_kk": "Жазысу тарихы сақтала ма?",
+      "question_en": "Is the conversation history kept?",
+      "answer_ru": "История диалога передаётся менеджеру при переводе. Хранение на нашей стороне согласуем с вами, без лишних личных данных.",
+      "answer_kk": "Диалог тарихы менеджерге ауысқанда беріледі. Біздің тарапта сақтауды сізбен келісеміз, артық жеке деректерсіз.",
+      "answer_en": "The dialog history is passed to the manager on handover. Storage on our side is agreed with you, without unnecessary personal data.",
+      "sort": 6
+    }
+  ]
+}

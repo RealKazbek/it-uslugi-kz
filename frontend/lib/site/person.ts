@@ -1,16 +1,17 @@
-// Source: docs/content-config.json (person). Only facts from the content config.
+// The "who we are" block on the contacts page. Team voice; only facts we can stand behind (no headcount, years or client claims).
 import type { Lang } from '@/lib/i18n/locales';
+import { SITE_NAME } from './brand';
 
 export const person: { name: Record<Lang, string>; role: Record<Lang, string>; facts: Record<Lang, string[]> } = {
-  name: { ru: 'Казбек Асанбек', kk: 'Қазбек Асанбек', en: 'Kazbek Assanbek' },
+  name: { ru: SITE_NAME, kk: SITE_NAME, en: SITE_NAME },
   role: {
-    ru: 'фриланс full-stack разработчик из Алматы',
-    kk: 'Алматыдағы фриланс full-stack әзірлеуші',
-    en: 'freelance full-stack developer based in Almaty, Kazakhstan',
+    ru: 'команда разработчиков из Алматы',
+    kk: 'Алматыдағы әзірлеушілер командасы',
+    en: 'a team of developers based in Almaty, Kazakhstan',
   },
   facts: {
-    ru: ['Живу и работаю в Алматы.', 'Студент 3 курса, специальность Computer Engineering, IITU.', 'Работаю как фрилансер: общаюсь с заказчиком напрямую, без менеджеров и посредников.'],
-    kk: ['Алматыда тұрамын және жұмыс істеймін.', 'IITU-дың Computer Engineering мамандығының 3-курс студентімін.', 'Фрилансер ретінде жұмыс істеймін: тапсырыс берушімен делдалсыз, тікелей сөйлесемін.'],
-    en: ['I live and work in Almaty.', 'Third-year student of Computer Engineering at IITU.', 'I work as a freelancer: you talk to me directly, with no managers or middlemen.'],
+    ru: ['Базируемся в Алматы, работаем удалённо по всему Казахстану.', 'Работаем командой: дизайн, разработка и запуск под одной задачей.', 'Общаемся с заказчиком напрямую, без посредников.'],
+    kk: ['Алматыда орналасқанбыз, бүкіл Қазақстан бойынша қашықтан жұмыс істейміз.', 'Команда болып жұмыс істейміз: дизайн, әзірлеу және іске қосу бір тапсырма аясында.', 'Тапсырыс берушімен делдалсыз, тікелей сөйлесеміз.'],
+    en: ['We are based in Almaty and work remotely across Kazakhstan.', 'We work as a team: design, development and launch under one task.', 'You talk to us directly, with no middlemen.'],
   },
 };

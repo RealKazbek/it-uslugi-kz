@@ -1,6 +1,6 @@
-# RK Dev: IT services site (v3)
+# Perne: IT services site (v3)
 
-Website and order flow for a freelance IT services offer ("RK Dev"). Products (websites, Telegram bots,
+Website and order flow for a freelance IT services offer ("Perne"). Products (websites, Telegram bots,
 automation, e-commerce, AI, education, and more) live in a database. Adding a product in the Django admin
 creates its pages in Russian, Kazakh and English. Each lead from the site or the bot is stored and sent to
 the owner's Telegram chat, where the owner can change its status with inline buttons.
@@ -21,6 +21,66 @@ Data flow: the browser calls the Next route `/api/lead`, which forwards to the b
 backend internal API with `X-Internal-Token`. The backend notifies the admin chat after the lead commits,
 and asks the frontend to revalidate changed pages. Only the backend talks to Telegram's Bot API and only
 the bot receives updates from it.
+
+## Run locally (macOS)
+
+Prerequisites: Docker Desktop running (`open -a Docker`), GNU make (ships with Xcode Command Line Tools:
+`xcode-select --install`), and python3 (for generating secrets). Nothing else: Node and Python dependencies
+are installed inside the images.
+
+```
+cp .env.example .env
+```
+
+Fill the values in `.env` (table below), then:
+
+```
+make dev
+docker compose exec backend python manage.py createsuperuser    # once
+```
+
+| Variable | Value |
+| --- | --- |
+| `POSTGRES_DB`, `POSTGRES_USER`, `POSTGRES_PASSWORD` | Required. Any values locally, e.g. `uslugi` / `uslugi` / a random password |
+| `DJANGO_SECRET_KEY`, `INTERNAL_API_TOKEN` | Required. Generate with `python3 -c "import secrets;print(secrets.token_urlsafe(50))"` |
+| `TELEGRAM_BOT_TOKEN`, `ADMIN_CHAT_ID` | Optional. Bot and lead notifications. Without them the bot is not started and the backend logs a warning instead of notifying |
+| `DJANGO_ALLOWED_HOSTS`, `SITE_URL`, `USD_RATE` | Optional. Compose sets defaults |
+
+Leave `DJANGO_DEBUG`, `POSTGRES_HOST`, `POSTGRES_PORT`, `FRONTEND_INTERNAL_URL`, `API_INTERNAL_URL` and
+`BACKEND_URL` empty: compose sets them.
+
+Then open:
+
+- Site: http://127.0.0.1:3000 (ru), `/kk`, `/en`
+- Admin: http://127.0.0.1:8000/admin/
+- Health: http://127.0.0.1:8000/api/health
+
+The database is only reachable inside the compose network:
+`docker compose exec db sh -c 'psql -U "$POSTGRES_USER" "$POSTGRES_DB"'`.
+
+Migrations run on every backend start (`entrypoint.sh`). To run them by hand:
+`docker compose exec backend python manage.py migrate`. `make dev` seeds only an empty catalog;
+`make dev SEED=1` or `make seed` reloads the fixtures and overwrites admin edits to seeded items.
+
+After the first `make dev`, a plain `docker compose up -d --wait` also works (db, backend, frontend; add
+`--profile bot` for the bot). Stop with `make down`. Logs: `docker compose logs -f backend frontend`.
+
+Common errors:
+
+- "Cannot connect to the Docker daemon": start Docker Desktop.
+- "X is empty in .env": fill that value.
+- Port 3000 or 8000 already in use: stop the other process (`lsof -i :3000`).
+- The first `make dev` takes a few minutes: the frontend runs `next build` at container start. Wait for healthy.
+- `Revalidation failed for N tags: ConnectError` during the first seed: harmless, the frontend is not running yet
+  and builds its pages from the seeded data right after.
+- Frontend shows an empty catalog: the database was empty when it built. Run `make seed`, then
+  `docker compose restart frontend`.
+- Bot exits with 409 Conflict: the same token is polling elsewhere (e.g. production). Use a separate test
+  bot token locally.
+- Admin login loops over http in Safari: the backend runs with production settings (secure cookies). Use
+  Chrome or Firefox on http://127.0.0.1:8000, which accept secure cookies on localhost.
+- Changed `POSTGRES_PASSWORD` after the first start: the existing `pgdata` volume keeps the old one. Run
+  `docker compose down -v` (deletes local data) and start again.
 
 ## Quick start
 
@@ -52,7 +112,8 @@ first. Later starts use `make up`.
 
 | Target | What it does |
 | --- | --- |
-| `make up` | Build and start db, backend, frontend, bot; wait until healthy |
+| `make dev` | Local one-command start (see Run locally); seeds an empty catalog |
+| `make up` | Build and start db, backend, frontend, bot (bot only when its token is set); wait until healthy |
 | `make down` | Stop the stack (volumes are kept) |
 | `make init` | First start: db + backend, seed, then frontend and bot |
 | `make seed` | Load catalog and city fixtures (idempotent) |

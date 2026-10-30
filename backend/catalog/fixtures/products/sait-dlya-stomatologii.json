@@ -55,7 +55,7 @@
     "Integration with the clinic's medical information system",
     "Paid online-booking services, if you want one, are billed separately"
   ],
-  "price_from_kzt": 60000,
+  "price_from_kzt": 75000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,
@@ -71,9 +71,9 @@
       "question_ru": "Можно ли показывать цены, если они меняются?",
       "question_kk": "Бағалар өзгеріп тұрса, оларды көрсетуге бола ма?",
       "question_en": "Can we show prices if they change often?",
-      "answer_ru": "Лучше указывать «от» и дату актуализации. Цены лежат в одном разделе, и я обновлю их по вашему сообщению, обычно в тот же день.",
-      "answer_kk": "«Бастап» және жаңарту күнін көрсеткен жөн. Бағалар бір бөлімде тұрады, мен оларды хабарламаңыз бойынша, әдетте сол күні жаңартамын.",
-      "answer_en": "It is best to show \"from\" prices with an update date. The prices live in one section and I update them on your message, usually the same day.",
+      "answer_ru": "Лучше указывать «от» и дату актуализации. Цены лежат в одном разделе, и мы обновим их по вашему сообщению, обычно в тот же день.",
+      "answer_kk": "«Бастап» және жаңарту күнін көрсеткен жөн. Бағалар бір бөлімде тұрады, біз оларды хабарламаңыз бойынша, әдетте сол күні жаңартамыз.",
+      "answer_en": "It is best to show \"from\" prices with an update date. The prices live in one section and we update them on your message, usually the same day.",
       "sort": 0
     },
     {
@@ -89,10 +89,46 @@
       "question_ru": "Поможет ли сайт найти клинику в поиске по району?",
       "question_kk": "Сайт клиниканы аудан бойынша іздеуден табуға көмектесе ме?",
       "question_en": "Will the site help patients find the clinic when searching by district?",
-      "answer_ru": "Я оформляю страницы так, чтобы поиск понимал услуги и адрес, и советую завести карточку в 2GIS и Google Maps. Места в выдаче при этом не обещаю.",
-      "answer_kk": "Іздеу қызметтер мен мекенжайды түсінетіндей беттерді рәсімдеймін, 2GIS және Google Maps-те карточка ашуды ұсынамын. Дегенмен шығарылымдағы орынды уәде етпеймін.",
-      "answer_en": "I structure the pages so search engines can read the services and address, and I recommend adding a listing on 2GIS and Google Maps. I do not promise any ranking position.",
+      "answer_ru": "Мы оформляем страницы так, чтобы поиск понимал услуги и адрес, и советуем завести карточку в 2GIS и Google Maps. Места в выдаче при этом не обещаем.",
+      "answer_kk": "Іздеу қызметтер мен мекенжайды түсінетіндей беттерді рәсімдейміз, 2GIS және Google Maps-те карточка ашуды ұсынамыз. Дегенмен шығарылымдағы орынды уәде етпейміз.",
+      "answer_en": "We structure the pages so search engines can read the services and address, and we recommend adding a listing on 2GIS and Google Maps. We do not promise any ranking position.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли в форме оставить только имя и телефон?",
+      "question_kk": "Формада тек аты мен телефонын қалдыруға бола ма?",
+      "question_en": "Can the form ask only for a name and phone?",
+      "answer_ru": "Да, минимальный вариант — имя и телефон, остальные поля необязательны. Так пациенту проще оставить заявку, а лишних данных мы не запрашиваем.",
+      "answer_kk": "Иә, ең аз нұсқа — аты мен телефоны, қалған өрістер міндетті емес. Пациентке өтінім қалдыру оңай, ал артық деректер сұралмайды.",
+      "answer_en": "Yes, the minimum version is name and phone, with other fields optional. This makes it easier for patients to leave a request, and we do not ask for extra data.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли записаться на конкретного врача по его расписанию?",
+      "question_kk": "Нақты дәрігерге оның кестесі бойынша жазылуға бола ма?",
+      "question_en": "Can patients book a specific doctor against their live schedule?",
+      "answer_ru": "Сейчас форма передаёт заявку администратору, который подтверждает время. Подключение живого расписания врачей — отдельная задача, которую согласуем заранее.",
+      "answer_kk": "Қазір форма өтінімді әкімшіге жібереді, ол уақытты растайды. Дәрігерлердің тікелей кестесін қосу — алдын ала келісетін бөлек міндет.",
+      "answer_en": "Right now the form sends the request to the administrator, who confirms the time. Connecting doctors' live schedules is a separate task that we agree on in advance.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как тексты о лечении связаны с медицинскими требованиями?",
+      "question_kk": "Емдеу туралы мәтіндер медициналық талаптарға қалай байланысты?",
+      "question_en": "How do treatment texts relate to medical requirements?",
+      "answer_ru": "Тексты о врачах и процедурах должны проверить вы или ваш юрист, а мы оформляем то, что вы передали. Ответственность за формулировки остаётся за клиникой.",
+      "answer_kk": "Дәрігерлер мен процедуралар туралы мәтіндерді сіз немесе заңгеріңіз тексеруі керек, ал біз сіз берген материалды рәсімдейміз. Тұжырымға жауапкершілік клиникада қалады.",
+      "answer_en": "You or your lawyer should check the texts about doctors and procedures, and we format what you provide. Responsibility for the wording stays with the clinic.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что нужно для запуска сайта стоматологии?",
+      "question_kk": "Стоматология сайтын іске қосу үшін не керек?",
+      "question_en": "What is needed to launch a dental clinic site?",
+      "answer_ru": "Список врачей с образованием и графиком, прайс по процедурам, адрес, лицензия и фото клиники. Всё это передаёте вы, а страницы и форму собираем мы.",
+      "answer_kk": "Дәрігерлер тізімі, білімі мен кестесі, процедуралар бағасы, мекенжай, лицензия және клиника фотосы. Мұның бәрін сіз бересіз, ал беттер мен форманы біз жинаймыз.",
+      "answer_en": "A list of doctors with education and schedules, the procedure price list, address, licence and clinic photos. You provide all of it, and we build the pages and the form.",
+      "sort": 6
     }
   ]
 }

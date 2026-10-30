@@ -1,0 +1,135 @@
+{
+  "slug": "vps-nastroika",
+  "category": "devops",
+  "title_ru": "Настройка и защита VPS",
+  "title_kk": "VPS серверін баптау және қорғау",
+  "title_en": "VPS setup and hardening",
+  "short_ru": "Настраиваем чистый VPS: пользователи, доступ по ключу, файрвол и обновления. Сервер готов к сайту и защищён от типовых атак.",
+  "short_kk": "Таза VPS серверін баптаймыз: пайдаланушылар, кілт арқылы кіру, брандмауэр және жаңартулар. Сервер сайтқа дайын және типтік шабуылдардан қорғалған.",
+  "short_en": "We configure a fresh VPS: users, key-based login, a firewall and updates. The server is ready for your site and protected from common attacks.",
+  "description_ru": "Наша команда подготавливает новый сервер под ваш проект. Мы создаём отдельного пользователя, отключаем вход по паролю, настраиваем файрвол и автоматические обновления безопасности. Также ставим базовые инструменты для контроля нагрузки и журналов, чтобы вы видели, что происходит на сервере.",
+  "description_kk": "Біздің команда жобаңызға арналған жаңа серверді дайындайды. Жеке пайдаланушы жасаймыз, құпия сөзбен кіруді өшіреміз, брандмауэр мен қауіпсіздік жаңартуларын баптаймыз. Сонымен қатар жүктеме мен журналдарды бақылауға арналған негізгі құралдарды орнатамыз.",
+  "description_en": "Our team prepares a new server for your project. We create a separate user, turn off password login, and set up a firewall and automatic security updates. We also install basic tools for monitoring load and logs, so you can see what is happening on the server.",
+  "for_whom_ru": "Для владельцев сайтов и интернет-магазинов, которые арендовали VPS, но не хотят сами разбираться с настройкой и защитой.",
+  "for_whom_kk": "VPS жалға алып, баптау мен қорғауды өздері шешкісі келмейтін сайт және интернет-дүкен иелеріне арналған.",
+  "for_whom_en": "For owners of websites and online shops who rented a VPS but do not want to handle its setup and security themselves.",
+  "includes_ru": [
+    "Создание отдельного пользователя с правами sudo и отключение входа под root",
+    "Вход по SSH-ключу и отключение входа по паролю",
+    "Настройка файрвола: открыты только нужные порты",
+    "Автоматические обновления безопасности системы",
+    "Защита от перебора паролей, например fail2ban",
+    "Базовая настройка журналов и проверка нагрузки на сервер",
+    "Короткая памятка с доступами и правилами работы с сервером"
+  ],
+  "includes_kk": [
+    "sudo құқығы бар жеке пайдаланушы жасау және root арқылы кіруді өшіру",
+    "SSH кілті арқылы кіру және құпия сөзбен кіруді өшіру",
+    "Брандмауэрді баптау: тек қажетті порттар ашық",
+    "Жүйенің автоматты қауіпсіздік жаңартулары",
+    "Құпия сөзді таңдап алудан қорғау, мысалы fail2ban",
+    "Журналдарды негізгі баптау және серверге жүктемені тексеру",
+    "Қолжетімділіктер мен сервермен жұмыс ережелері бар қысқа жадынама"
+  ],
+  "includes_en": [
+    "A separate user with sudo rights and root login disabled",
+    "SSH key login and password login turned off",
+    "Firewall setup with only the ports you need open",
+    "Automatic security updates for the system",
+    "Protection against password guessing, for example fail2ban",
+    "Basic log configuration and a check of server load",
+    "A short memo with access details and rules for working with the server"
+  ],
+  "not_included_ru": [
+    "Аренда самого VPS и оплата хостинга: сервер выбираете и оплачиваете вы",
+    "Перенос сайта и его запуск на сервере: это отдельная работа",
+    "Защита от всех возможных атак: настройка снижает риски, но полностью их не устраняет"
+  ],
+  "not_included_kk": [
+    "VPS-тің өзін жалға алу және хостинг төлемі: серверді сіз таңдап, төлейсіз",
+    "Сайтты көшіру және серверде іске қосу: бұл бөлек жұмыс",
+    "Барлық мүмкін шабуылдан қорғау: баптау қауіпті азайтады, бірақ оларды толық жоймайды"
+  ],
+  "not_included_en": [
+    "Renting the VPS itself and paying for hosting: you choose and pay for the server",
+    "Moving the site and launching it on the server: this is separate work",
+    "Protection from every possible attack: the setup lowers risks but does not remove them completely"
+  ],
+  "price_from_kzt": 18000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "deploy-proekta",
+    "bekapy-sait-baza",
+    "monitoring-dostupnosti"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 131,
+  "faqs": [
+    {
+      "question_ru": "Какой сервер нужен и кто его покупает?",
+      "question_kk": "Қандай сервер керек және оны кім сатып алады?",
+      "question_en": "What kind of server do I need, and who buys it?",
+      "answer_ru": "Сервер арендуете вы у любого провайдера. Мы подскажем, какой объём памяти и процессора подойдёт под ваш сайт, и настроим уже существующий VPS с Ubuntu или Debian.",
+      "answer_kk": "Серверді кез келген провайдерден сіз жалға аласыз. Сайтыңызға қандай жады мен процессор жеткілікті екенін айтамыз және Ubuntu немесе Debian жүйесі бар VPS-ті баптаймыз.",
+      "answer_en": "You rent the server from any provider. We will advise how much memory and CPU your site needs, and we configure an existing VPS running Ubuntu or Debian.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Не потеряется ли доступ к серверу после настройки?",
+      "question_kk": "Баптаудан кейін серверге қолжетімділікті жоғалтып алмаймын ба?",
+      "question_en": "Could I lose access to the server after the setup?",
+      "answer_ru": "Нет, но перед отключением входа по паролю мы проверяем вход по ключу. Ключ и имя пользователя вы получаете в памятке. Старый вход закрываем только после того, как вы подтвердили, что новый работает.",
+      "answer_kk": "Жоқ, бірақ құпия сөзбен кіруді өшірер алдында кілтпен кіруді тексереміз. Кілт пен пайдаланушы атын жадынамадан аласыз. Ескі кіруді сіз жаңасы жұмыс істейтінін растағаннан кейін ғана жабамыз.",
+      "answer_en": "No, but before turning off password login we check that key login works. You get the key and the username in the memo. We close the old login only after you confirm the new one works.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что делать, если нужно открыть новый порт?",
+      "question_kk": "Жаңа портты ашу керек болса, не істеу керек?",
+      "question_en": "What if I need to open a new port later?",
+      "answer_ru": "Напишите нам, какой порт и для чего нужен. Мы добавим правило в файрвол и проверим, что открыт только он. Такая работа выполняется как небольшая правка и оценивается отдельно, если займёт больше получаса.",
+      "answer_kk": "Қандай порт және не үшін керек екенін бізге жазыңыз. Брандмауэрге ереже қосып, тек сол порттың ашық екенін тексереміз. Мұндай жұмыс шағын түзету ретінде орындалады, ал жарты сағаттан көп уақыт алса, бөлек бағаланады.",
+      "answer_en": "Tell us which port you need and why. We add a rule to the firewall and check that only that port is open. This is a small change, and it is priced separately if it takes more than half an hour.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Можно ли оставить вход по паролю для удобства?",
+      "question_kk": "Ыңғайлы болу үшін құпия сөзбен кіруді қалдыруға бола ма?",
+      "question_en": "Can I keep password login for convenience?",
+      "answer_ru": "Вход по паролю отключаем, так как он уязвимее ключа. Если нужен доступ с устройства без ключа, обсуждаем это заранее, а риски снижаем другими мерами, например ограничением по IP.",
+      "answer_kk": "Құпия сөзбен кіруді кілтке қарағанда осал болғандықтан өшіреміз. Кілтсіз құрылғыдан кіру керек болса, оны алдын ала талқылаймыз, ал тәуекелді IP бойынша шектеу сияқты басқа шаралармен азайтамыз.",
+      "answer_en": "We turn off password login because it is weaker than a key. If you need access from a device without a key, we discuss it in advance and reduce the risks with other measures, such as restricting by IP.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если сервер окажется под нагрузкой после настройки?",
+      "question_kk": "Баптаудан кейін сервер жүктемеде болса, не болады?",
+      "question_en": "What if the server is under load after setup?",
+      "answer_ru": "Мы ставим базовые инструменты для просмотра нагрузки и журналов, чтобы вы видели проблему. Масштабирование и выбор мощности сервера — отдельная задача, которая решается по вашему проекту.",
+      "answer_kk": "Жүктемені және журналдарды көру үшін негізгі құралдар орнатамыз, сонда мәселені көресіз. Серверді масштабтау және қуатты таңдау — жобаңызға байланысты бөлек шешілетін тапсырма.",
+      "answer_en": "We install basic tools to view load and logs, so you can see the problem. Scaling the server and choosing its capacity is a separate task that depends on your project.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужны ли мне знания Linux, чтобы пользоваться сервером?",
+      "question_kk": "Серверді пайдалану үшін Linux білімі керек пе?",
+      "question_en": "Do I need Linux knowledge to use the server?",
+      "answer_ru": "Базовые команды для повседневной работы вам пригодятся, и памятка включает самые частые из них. Сложные задачи по-прежнему проще передать специалисту.",
+      "answer_kk": "Күнделікті жұмыс үшін негізгі командалар пайдалы болады, ал жадынамада ең жиі қолданылатындары бар. Күрделі тапсырмаларды әлі де маманға беру оңайырақ.",
+      "answer_en": "Basic commands for daily work will be useful, and the memo includes the most common ones. Complex tasks are still easier to hand to a specialist.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли обновлять систему самому вручную?",
+      "question_kk": "Жүйені өзім қолмен жаңарта аламын ба?",
+      "question_en": "Can I update the system manually myself?",
+      "answer_ru": "Да, автоматические обновления безопасности мы настраиваем, но ручное обновление всей системы остаётся возможным. Перед обновлением версий сервера лучше сделать резервную копию.",
+      "answer_kk": "Иә, қауіпсіздік жаңартуларын автоматты түрде баптаймыз, бірақ жүйені қолмен жаңарту да мүмкін. Сервер нұсқаларын жаңартар алдында резервтік көшірме жасаған дұрыс.",
+      "answer_en": "Yes, we set up automatic security updates, but a manual update of the whole system remains possible. Before upgrading server versions, it is better to make a backup.",
+      "sort": 6
+    }
+  ]
+}

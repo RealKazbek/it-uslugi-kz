@@ -1,0 +1,132 @@
+{
+  "slug": "analitika-ga4-metrika",
+  "category": "seo-maps",
+  "title_ru": "Аналитика: Google Analytics 4 и Яндекс Метрика",
+  "title_kk": "Аналитика: Google Analytics 4 және Яндекс Метрика",
+  "title_en": "Analytics: Google Analytics 4 and Yandex Metrica",
+  "short_ru": "Настраиваем GA4 и Яндекс Метрику, чтобы видеть, откуда приходят посетители и какие действия на сайте приводят к заявкам.",
+  "short_kk": "GA4 және Яндекс Метриканы баптаймыз, сонда сайтқа қай жерден келушілер келетінін және қандай әрекеттер өтініштерге әкелетінін көресіз.",
+  "short_en": "We set up GA4 and Yandex Metrica so you can see where visitors come from and which actions on the site lead to enquiries.",
+  "description_ru": "Проверяем, что уже установлено на сайте, и добавляем счётчики без дублей и потери данных. Настраиваем цели и события: отправку формы, нажатия на телефон, заявки из мессенджеров. Работаем удалённо по всему Казахстану и показываем, какие отчёты читать, чтобы решения опирались на реальные цифры.",
+  "description_kk": "Сайтқа не орнатылғанын тексеріп, санағыштарды қайталаусыз және деректерді жоғалтпай қосамыз. Мақсаттар мен оқиғаларды баптаймыз: форманы жіберу, телефон батырмасын басу, мессенджерлерден өтініштер. Біз Қазақстан бойынша қашықтан жұмыс істейміз және шешімдерді нақты сандарға сүйену үшін қандай есептерді оқу керектігін көрсетеміз.",
+  "description_en": "We check what is already installed on your site and add the counters without duplicates or data gaps. We configure goals and events: form submissions, phone taps and enquiries from messengers. We work remotely across Kazakhstan and show you which reports to read, so decisions rest on real numbers.",
+  "for_whom_ru": "Для компаний, которые тратят деньги на рекламу или продвижение, но не понимают, что приносит заявки. Подойдёт, если счётчики стоят, но цели не настроены или данные расходятся.",
+  "for_whom_kk": "Жарнамаға немесе жылжытуға ақша жұмсайтын, бірақ не өтініш әкелетінін түсінбейтін компанияларға арналған. Санағыштар тұрса, бірақ мақсаттар баптанбаса немесе деректер сәйкес келмесе, қолайлы.",
+  "for_whom_en": "For businesses that spend money on ads or promotion but cannot tell what brings in enquiries. It fits when counters are installed but goals are missing or the numbers do not match.",
+  "includes_ru": [
+    "Проверка текущих счётчиков и устранение дублей",
+    "Установка GA4 и Яндекс Метрики на сайт",
+    "Цели и события: формы, звонки, нажатия на кнопки мессенджеров",
+    "Подключение к рекламным кабинетам, если они у вас есть",
+    "Проверка корректной передачи данных на тестовых действиях",
+    "Краткое описание ключевых отчётов"
+  ],
+  "includes_kk": [
+    "Ағымдағы санағыштарды тексеру және қайталануын жою",
+    "Сайтқа GA4 және Яндекс Метриканы орнату",
+    "Мақсаттар мен оқиғаларды баптау: формалар, қоңыраулар, мессенджер батырмалары",
+    "Бар болса, жарнама кабинеттерін қосу",
+    "Тестілік әрекеттермен деректердің дұрыс келетінін тексеру",
+    "Негізгі есептердің қысқаша сипаттамасы"
+  ],
+  "includes_en": [
+    "Review of the current counters and removal of duplicates",
+    "Installation of GA4 and Yandex Metrica on your website",
+    "Goals and events: forms, calls, messenger button clicks",
+    "Connection to your ad accounts, if you have them",
+    "Checking that data arrives correctly using test actions",
+    "A short description of the key reports"
+  ],
+  "not_included_ru": [
+    "Оплата сервисов аналитики и тарифов, если понадобятся платные функции",
+    "Сложные воронки и BI-дашборды: оцениваются отдельно",
+    "Гарантия роста продаж: аналитика показывает картину, а решения принимаете вы"
+  ],
+  "not_included_kk": [
+    "Аналитика қызметтерінің төлемі және ақылы функциялар қажет болса, тарифтері",
+    "Күрделі воронкалар және BI-дашбордтар: бөлек бағаланады",
+    "Сатылымның өсуіне кепілдік: аналитика суретті көрсетеді, ал шешімді сіз қабылдайсыз"
+  ],
+  "not_included_en": [
+    "Analytics service fees, if paid features are needed",
+    "Complex funnels and BI dashboards: quoted separately",
+    "A guarantee of sales growth: analytics shows the picture, while you make the decisions"
+  ],
+  "price_from_kzt": 14000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 5,
+  "related": [
+    "google-ads-nastroika",
+    "yandex-direct-nastroika",
+    "seo-audit"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 127,
+  "faqs": [
+    {
+      "question_ru": "Что нужно для установки?",
+      "question_kk": "Орнату үшін не керек?",
+      "question_en": "What do you need for the setup?",
+      "answer_ru": "Доступ к сайту или его админ-панели, доступ к аккаунтам Google и Яндекс, которые будут владельцами счётчиков, и список действий, важных для вас, например заявки и звонки.",
+      "answer_kk": "Сайтқа немесе оның әкімші панеліне қолжетімділік, санағыштардың иесі болатын Google және Яндекс аккаунттарына қолжетімділік және сіз үшін маңызды әрекеттер тізімі, мысалы, өтініштер мен қоңыраулар.",
+      "answer_en": "Access to the website or its admin panel, access to the Google and Yandex accounts that will own the counters, and a list of the actions that matter to you, such as enquiries and calls.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что оплачивается отдельно?",
+      "question_kk": "Бөлек не төленеді?",
+      "question_en": "What is paid separately?",
+      "answer_ru": "Тарифы сервисов, если понадобятся платные функции, и разработка сложных отчётов или дашбордов. Объём и стоимость согласуем заранее.",
+      "answer_kk": "Қызметтердің тарифтері, егер ақылы функциялар керек болса, және күрделі есептер мен дашбордтарды жасау. Көлемі мен құнын алдын ала келісеміз.",
+      "answer_en": "Service fees if paid features are needed, and building complex reports or dashboards. We agree the scope and the cost in advance.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после настройки?",
+      "question_kk": "Баптаудан кейін не болады?",
+      "question_en": "What happens after the setup?",
+      "answer_ru": "Вы получаете список установленных счётчиков, целей и событий, а также короткое описание отчётов. Если данные когда-нибудь перестанут совпадать, поможем найти причину.",
+      "answer_kk": "Орнатылған санағыштардың, мақсаттар мен оқиғалардың тізімін және есептердің қысқаша сипаттамасын аласыз. Деректер бір кезде сәйкес келмей қалса, себебін табуға көмектесеміз.",
+      "answer_en": "You receive a list of the counters, goals and events we installed, plus a short description of the reports. If the data ever stops matching, we help find the cause.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли переделывать сайт, чтобы добавить счётчики?",
+      "question_kk": "Счётчиктерді қосу үшін сайтты қайта жасау керек пе?",
+      "question_en": "Does the site need to be rebuilt to add the counters?",
+      "answer_ru": "Обычно нет. Счётчики добавляются через код или тег-менеджер на действующем сайте, без переделки страниц.",
+      "answer_kk": "Әдетте жоқ. Счётчиктер жұмыс істеп тұрған сайтқа код немесе тег-менеджер арқылы қосылады, беттерді қайта жасау қажет емес.",
+      "answer_en": "Usually not. The counters are added through code or a tag manager on the live site, without rebuilding the pages.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Появятся ли данные за период до установки?",
+      "question_kk": "Орнатқанға дейінгі кезеңнің деректері пайда бола ма?",
+      "question_en": "Will data from before the setup appear?",
+      "answer_ru": "Нет. GA4 и Метрика не восстанавливают прошлые периоды, поэтому данные начнут копиться с момента установки.",
+      "answer_kk": "Жоқ. GA4 және Метрика өткен кезеңдерді қалпына келтірмейді, сондықтан деректер орнатылған сәттен бастап жиналады.",
+      "answer_en": "No. GA4 and Metrica do not restore past periods, so data starts collecting from the moment of installation.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Соблюдается ли защита персональных данных?",
+      "question_kk": "Жеке деректерді қорғау сақтала ма?",
+      "question_en": "Is personal data protected?",
+      "answer_ru": "Мы не передаём в события имена и телефоны клиентов. Баннер cookies и политику конфиденциальности согласуете вы со своим юристом.",
+      "answer_kk": "Оқиғаларға клиенттердің аты мен телефон нөмірін бермейміз. Cookies баннерін және құпиялылық саясатын сіз өз заңгеріңізбен келісесіз.",
+      "answer_en": "We do not pass client names or phone numbers into events. You agree the cookie banner and privacy policy with your own lawyer.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли отслеживать звонки с сайта?",
+      "question_kk": "Сайттан қоңыраулармен бақылауға бола ма?",
+      "question_en": "Can calls from the site be tracked?",
+      "answer_ru": "Клики по номеру телефона отслеживаем как цель. Сам разговор и его результат в счётчике не видны, для этого нужна телефония.",
+      "answer_kk": "Телефон нөміріне басуды мақсат ретінде бақылаймыз. Сөйлесудің өзі мен нәтижесі счётчикте көрінбейді, ол үшін телефония керек.",
+      "answer_en": "We track taps on the phone number as a goal. The call itself and its outcome are not visible in the counter; that requires telephony.",
+      "sort": 6
+    }
+  ]
+}

@@ -11,6 +11,7 @@ const product = (slug: string, category: string, title: string): ProductCardDto 
   unit: 'once',
   days_min: 3,
   days_max: 7,
+  is_onsite: false,
 });
 
 const dto: CityDto = {
@@ -35,11 +36,11 @@ const dto: CityDto = {
 };
 
 describe('buildCityView', () => {
-  const view = buildCityView({ dto, lang: 'ru', rate: 500, catalog: [], minPriceKzt: 3000 });
+  const view = buildCityView({ dto, lang: 'ru', rate: 500, catalog: [], minPriceKzt: 3000, onsiteAllowed: true });
 
   it('uses the Russian forms and states the in-person note only in the FAQ', () => {
     expect(view.h1).toBe('IT-услуги в Алматы');
-    expect(view.remote).toBe('Работаю удалённо по всему Казахстану, личная встреча возможна в Алматы.');
+    expect(view.remote).toBe('Работаем удалённо по всему Казахстану, личная встреча возможна в Алматы.');
     expect(view.faq[0]?.a).toContain('В Алматы можно встретиться лично');
     expect(view.remote).not.toContain('можно встретиться лично.');
     expect(view.title.length).toBeLessThanOrEqual(70);
@@ -64,10 +65,25 @@ describe('buildCityView', () => {
       rate: 500,
       catalog: [],
       minPriceKzt: null,
+      onsiteAllowed: true,
     });
     expect(kk.h1).toBe('Тараздағы IT-қызметтер');
     expect(kk.nearby[0]?.name).toBe('Қонаев');
     expect(kk.faq[0]?.a).not.toContain('Алматыда жеке кездесуге болады');
     expect(kk.focus[0]?.reason).toBe('');
+  });
+
+  it('hides on-site services when the city is not on the visit list', () => {
+    const card = (slug: string, onsite: boolean) => ({
+      slug, category: 'onsite', title: slug, short: '', priceText: '1', href: `/${slug}`, image: '', priceKzt: 1,
+      daysMin: 1, daysMax: 2, timelineText: '', onsite,
+    });
+    const catalog = [{ slug: 'onsite', name: 'Выезд', cards: [card('cctv', true)] }, { slug: 'web', name: 'Сайты', cards: [card('site', false), card('wifi', true)] }];
+    const base = { dto: { ...dto, product_focus: [{ ...product('cctv', 'onsite', 'CCTV'), is_onsite: true }] }, lang: 'ru' as const, rate: 500, catalog, minPriceKzt: 1 };
+    const other = buildCityView({ ...base, onsiteAllowed: false });
+    expect(other.catalogGroups.map((g) => g.name)).toEqual(['Сайты']);
+    expect(other.catalogGroups[0]?.items).toHaveLength(1);
+    expect(other.focus).toHaveLength(0);
+    expect(buildCityView({ ...base, onsiteAllowed: true }).catalogGroups).toHaveLength(2);
   });
 });

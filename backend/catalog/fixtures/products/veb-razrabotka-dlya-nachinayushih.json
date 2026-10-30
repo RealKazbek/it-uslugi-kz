@@ -55,7 +55,7 @@
     "Hosting and domain fees for your site, which you pay to the host yourself",
     "Back-end and databases, which can be covered in separate lessons by agreement"
   ],
-  "price_from_kzt": 5000,
+  "price_from_kzt": 3500,
   "unit": "lesson",
   "days_min": 1,
   "days_max": 3,
@@ -89,10 +89,46 @@
       "question_ru": "Научусь ли я делать сайты на заказ?",
       "question_kk": "Тапсырыс бойынша сайт жасауды үйренемін бе?",
       "question_en": "Will I be able to build client sites afterwards?",
-      "answer_ru": "Вы освоите основы и сможете делать несложные сайты. Навык растёт с практикой, и на занятиях мы разбираем реальные задачи, но сроков и доходов я не обещаю.",
-      "answer_kk": "Негіздерді меңгеріп, қарапайым сайттар жасай аласыз. Дағды практикамен өседі, сабақта нақты тапсырмаларды талдаймыз, бірақ мерзім мен табысқа уәде бермеймін.",
-      "answer_en": "You will learn the fundamentals and be able to build simple sites. Skill grows with practice, and we go through real tasks in lessons, but I make no promises about timing or income.",
+      "answer_ru": "Вы освоите основы и сможете делать несложные сайты. Навык растёт с практикой, и на занятиях мы разбираем реальные задачи, но сроков и доходов мы не обещаем.",
+      "answer_kk": "Негіздерді меңгеріп, қарапайым сайттар жасай аласыз. Дағды практикамен өседі, сабақта нақты тапсырмаларды талдаймыз, бірақ мерзім мен табысқа уәде бермейміз.",
+      "answer_en": "You will learn the fundamentals and be able to build simple sites. Skill grows with practice, and we go through real tasks in lessons, but we make no promises about timing or income.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли опыт программирования, чтобы начать?",
+      "question_kk": "Бастау үшін бағдарламалау тәжірибесі керек пе?",
+      "question_en": "Do I need programming experience to start?",
+      "answer_ru": "Нет, курс рассчитан на тех, кто начинает с нуля. Объясняем базовые понятия, разбираем вместе первые примеры, а затем вы проверяете себя на небольших заданиях.",
+      "answer_kk": "Жоқ, курс нольден бастайтындарға арналған. Негізгі ұғымдарды түсіндіреміз, алғашқы мысалдарды бірге талдаймыз, сосын шағын тапсырмалар арқылы өзіңізді тексересіз.",
+      "answer_en": "No, the course is for those starting from zero. We explain the basic concepts, go through the first examples together, and then you check yourself with small tasks.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что делать, если я не успеваю за группой?",
+      "question_kk": "Топпен қатар жүре алмасам, не істеу керек?",
+      "question_en": "What should I do if I cannot keep up with the group?",
+      "answer_ru": "Задайте вопрос на занятии или между темами: мы вместе разберём непонятное и проверим, как вы усвоили материал. Возвращаться к сложной теме можно и на следующих занятиях.",
+      "answer_kk": "Сабақта немесе тақырыптар арасында сұрақ қойыңыз: түсініксіз жерді бірге талдап, материалды қаншалықты меңгергеніңізді тексереміз. Күрделі тақырыпқа келесі сабақтарда да оралуға болады.",
+      "answer_en": "Ask a question during class or between topics: we go through what is unclear together and check how well you have grasped the material. You can also return to a difficult topic in later classes.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько времени в неделю нужно уделять занятиям?",
+      "question_kk": "Сабаққа аптасына қанша уақыт бөлу керек?",
+      "question_en": "How much time per week should I set aside for classes?",
+      "answer_ru": "Для стабильного прогресса обычно достаточно нескольких часов в неделю на практику между занятиями. Точный график и объём домашних заданий согласуем в начале курса.",
+      "answer_kk": "Тұрақты прогресс үшін сабақтар арасындағы практикаға аптасына бірнеше сағат жеткілікті. Нақты кесте мен үй тапсырмасының көлемін курс басында келісеміз.",
+      "answer_en": "For steady progress, a few hours per week of practice between classes is usually enough. We agree the exact schedule and amount of homework at the start of the course.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Будет ли сертификат после курса?",
+      "question_kk": "Курстан кейін сертификат беріле ме?",
+      "question_en": "Will there be a certificate after the course?",
+      "answer_ru": "Мы подтверждаем, что вы посещали занятия и выполнили итоговую работу, но это не официальный документ государственного образца. Если нужен документ определённой формы, уточните это до записи.",
+      "answer_kk": "Сабаққа қатысқаныңызды және қорытынды жұмысты орындағаныңызды растаймыз, бірақ бұл мемлекеттік үлгідегі ресми құжат емес. Белгілі нысандағы құжат керек болса, жазылмас бұрын нақтылаңыз.",
+      "answer_en": "We confirm that you attended the classes and completed the final work, but this is not an official document of a state form. If you need a document in a specific form, clarify it before enrolling.",
+      "sort": 6
     }
   ]
 }

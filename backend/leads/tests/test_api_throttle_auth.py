@@ -3,7 +3,7 @@ from django.test import Client
 
 from core.tests.factories import make_category
 from leads.models import Lead
-from leads.throttles import LeadBurstThrottle
+from leads.throttles import LeadHourlyThrottle
 
 pytestmark = pytest.mark.django_db
 
@@ -30,8 +30,8 @@ def test_spoofed_forwarded_for_shares_bucket_keyed_on_last_hop(client: Client) -
 def test_daily_limit_applies_after_thirty_submissions(
     client: Client, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    # Lift the per-minute limit so only the daily one can trigger.
-    monkeypatch.setitem(LeadBurstThrottle.THROTTLE_RATES, "leads", "1000/min")
+    # Lift the hourly limit so only the daily one can trigger.
+    monkeypatch.setitem(LeadHourlyThrottle.THROTTLE_RATES, "leads", "1000/hour")
 
     statuses = [_post(client) for _ in range(31)]
 

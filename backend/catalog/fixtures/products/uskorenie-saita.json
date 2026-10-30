@@ -4,12 +4,12 @@
   "title_ru": "Ускорение загрузки сайта",
   "title_kk": "Сайттың жүктелуін жеделдету",
   "title_en": "Website speed optimisation",
-  "short_ru": "Нахожу причины медленной загрузки и ускоряю сайт на телефоне и компьютере.",
-  "short_kk": "Баяу жүктелу себептерін тауып, сайтты телефон мен компьютерде жеделдетемін.",
-  "short_en": "I find the causes of slow loading and speed up your site on phone and desktop.",
-  "description_ru": "Если сайт открывается дольше нескольких секунд, посетители уходят, а поисковые системы это учитывают. Я измеряю скорость до работы, нахожу тяжёлые изображения, лишние скрипты и неудачные настройки, исправляю их и показываю результат замерами до и после. Разгон зависит от платформы: на конструкторе возможности ограничены.",
-  "description_kk": "Сайт бірнеше секундтан ұзақ ашылса, келушілер кетіп қалады, ал іздеу жүйелері мұны ескереді. Мен жұмысқа дейін жылдамдықты өлшеймін, ауыр суреттерді, артық скрипттерді және сәтсіз баптауларды табамын, түзетемін және нәтижені алдыңғы және кейінгі өлшемдермен көрсетемін. Жылдамдану платформаға байланысты: конструкторда мүмкіндік шектеулі.",
-  "description_en": "If a site takes more than a few seconds to open, visitors leave, and search engines take it into account. I measure speed before the work, find heavy images, unneeded scripts and poor settings, fix them and show the result with before and after measurements. The gain depends on the platform, and a site builder limits what is possible.",
+  "short_ru": "Находим причины медленной загрузки и ускоряем сайт на телефоне и компьютере.",
+  "short_kk": "Баяу жүктелу себептерін тауып, сайтты телефон мен компьютерде жеделдетеміз.",
+  "short_en": "We find the causes of slow loading and speed up your site on phone and desktop.",
+  "description_ru": "Если сайт открывается дольше нескольких секунд, посетители уходят, а поисковые системы это учитывают. Мы измеряем скорость до работы, находим тяжёлые изображения, лишние скрипты и неудачные настройки, исправляем их и показываем результат замерами до и после. Разгон зависит от платформы: на конструкторе возможности ограничены.",
+  "description_kk": "Сайт бірнеше секундтан ұзақ ашылса, келушілер кетіп қалады, ал іздеу жүйелері мұны ескереді. Біз жұмысқа дейін жылдамдықты өлшейміз, ауыр суреттерді, артық скрипттерді және сәтсіз баптауларды табамыз, түзетеміз және нәтижені алдыңғы және кейінгі өлшемдермен көрсетеміз. Жылдамдану платформаға байланысты: конструкторда мүмкіндік шектеулі.",
+  "description_en": "If a site takes more than a few seconds to open, visitors leave, and search engines take it into account. We measure speed before the work, find heavy images, unneeded scripts and poor settings, fix them and show the result with before and after measurements. The gain depends on the platform, and a site builder limits what is possible.",
   "for_whom_ru": "Для владельцев сайтов, которые долго загружаются на мобильном интернете, и для магазинов, теряющих покупателей на медленных карточках.",
   "for_whom_kk": "Мобильді интернетте ұзақ жүктелетін сайт иелеріне және баяу карточкаларда сатып алушыны жоғалтатын дүкендерге арналған.",
   "for_whom_en": "For owners of sites that load slowly on mobile internet, and for shops losing buyers on sluggish product pages.",
@@ -55,7 +55,7 @@
     "Moving to a faster hosting plan if one is unavoidable; hosting fees are yours",
     "Re-architecting the site or a redesign"
   ],
-  "price_from_kzt": 25000,
+  "price_from_kzt": 14000,
   "unit": "once",
   "days_min": 3,
   "days_max": 6,
@@ -71,18 +71,18 @@
       "question_ru": "Насколько можно ускорить сайт?",
       "question_kk": "Сайтты қаншалықты жеделдетуге болады?",
       "question_en": "How much faster can the site get?",
-      "answer_ru": "Это зависит от причин замедления. Тяжёлые изображения часто дают заметный выигрыш, а на медленном хостинге или перегруженной теме эффект скромнее. Цифры я покажу до и после.",
-      "answer_kk": "Бұл баяулау себептеріне байланысты. Ауыр суреттер көбіне айтарлықтай ұтыс береді, ал баяу хостингте немесе шамадан тыс жүктелген тақырыпта әсер қарапайым болады. Сандарды алдын ала және кейін көрсетемін.",
-      "answer_en": "It depends on what causes the slowdown. Heavy images often give a noticeable gain, while on slow hosting or an overloaded theme the effect is more modest. I will show the figures before and after.",
+      "answer_ru": "Это зависит от причин замедления. Тяжёлые изображения часто дают заметный выигрыш, а на медленном хостинге или перегруженной теме эффект скромнее. Цифры покажем до и после.",
+      "answer_kk": "Бұл баяулау себептеріне байланысты. Ауыр суреттер көбіне айтарлықтай ұтыс береді, ал баяу хостингте немесе шамадан тыс жүктелген тақырыпта әсер қарапайым болады. Сандарды алдын ала және кейін көрсетеміз.",
+      "answer_en": "It depends on what causes the slowdown. Heavy images often give a noticeable gain, while on slow hosting or an overloaded theme the effect is more modest. We will show the figures before and after.",
       "sort": 0
     },
     {
       "question_ru": "Могу ли я сломать сайт при ускорении?",
       "question_kk": "Жеделдету кезінде сайтты бұзып алмаймын ба?",
       "question_en": "Could the optimisation break my site?",
-      "answer_ru": "Перед работой я делаю резервную копию, а изменения проверяю по основным страницам и формам. Если что-то работает не так, возвращаю прежнее состояние.",
-      "answer_kk": "Жұмыс алдында резервтік көшірме жасаймын, ал өзгерістерді негізгі беттер мен формалар бойынша тексеремін. Бір нәрсе дұрыс жұмыс істемесе, бұрынғы күйге қайтарамын.",
-      "answer_en": "Before starting I make a backup and check the changes across the main pages and forms. If something misbehaves, I roll back to the previous state.",
+      "answer_ru": "Перед работой мы делаем резервную копию, а изменения проверяем по основным страницам и формам. Если что-то работает не так, возвращаем прежнее состояние.",
+      "answer_kk": "Жұмыс алдында резервтік көшірме жасаймыз, ал өзгерістерді негізгі беттер мен формалар бойынша тексереміз. Бір нәрсе дұрыс жұмыс істемесе, бұрынғы күйге қайтарамыз.",
+      "answer_en": "Before starting we make a backup and check the changes across the main pages and forms. If something misbehaves, we roll back to the previous state.",
       "sort": 1
     },
     {
@@ -93,6 +93,42 @@
       "answer_kk": "Жылдамдық бет сапасының факторларының бірі, бірақ жалғыз емес. Негізгі әсер әдетте келушілерге ыңғайлылықта көрінеді: олар жүктелуді күтпей, бетті сирек жабады.",
       "answer_en": "Speed is one of the page quality factors but not the only one. The main effect is usually seen in visitor convenience, as people close the page less often before it loads.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли доступ к админке сайта и хостингу?",
+      "question_kk": "Сайт әкімші панеліне және хостингке қолжетімділік керек пе?",
+      "question_en": "Do you need access to the site admin and hosting?",
+      "answer_ru": "Да, для настройки кеширования и сжатия нужен доступ к панели сайта или хостинга. Доступ используем только для согласованных работ, а список внесённых изменений передаём вам.",
+      "answer_kk": "Иә, кэштеу мен сығуды баптау үшін сайт немесе хостинг панеліне қолжетімділік керек. Қолжетімділікті тек келісілген жұмыстар үшін пайдаланамыз, ал өзгертілген нәрселердің тізімін береміз.",
+      "answer_en": "Yes, setting up caching and compression needs access to the site or hosting panel. We use the access only for the agreed work and hand over a list of the changes made.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что делать, если я захочу вернуть всё как было?",
+      "question_kk": "Бәрін бұрынғыдай қайтарғым келсе, не істеу керек?",
+      "question_en": "What if I want to revert everything to how it was?",
+      "answer_ru": "Перед началом сохраняем резервную копию сайта и фиксируем изменения, поэтому откат возможен. Отчёт с перечнем правок поможет вернуть настройки вручную, если понадобится.",
+      "answer_kk": "Басталар алдында сайттың резервтік көшірмесін сақтаймыз және өзгерістерді тіркейміз, сондықтан қайтаруға болады. Түзетулер тізімі бар есеп қажет болса, баптауларды қолмен қайтаруға көмектеседі.",
+      "answer_en": "Before starting we save a backup of the site and record the changes, so a rollback is possible. The report of edits helps restore settings manually if needed.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Ускорит ли работа мобильную версию сайта?",
+      "question_kk": "Жұмыс сайттың мобильді нұсқасын да жылдамдатады ма?",
+      "question_en": "Will the work speed up the mobile version of the site?",
+      "answer_ru": "Да, замеры делаем и для телефона, и для компьютера, а изображения и скрипты оптимизируем для обеих версий. Итоговое время загрузки на телефоне зависит и от сети посетителя.",
+      "answer_kk": "Иә, өлшемді телефон үшін де, компьютер үшін де жасаймыз, суреттер мен скрипттерді екі нұсқа үшін де оңтайландырамыз. Телефондағы соңғы жүктелу уақыты кіруші желісіне де байланысты.",
+      "answer_en": "Yes, we measure both for phone and computer, and optimise images and scripts for both versions. The final load time on a phone also depends on the visitor's network.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Нужно ли потом поддерживать скорость самостоятельно?",
+      "question_kk": "Кейін жылдамдықты өзім ұстап тұруым керек пе?",
+      "question_en": "Do I need to maintain the speed myself afterwards?",
+      "answer_ru": "Основные настройки сохраняются, но новые тяжёлые картинки и плагины могут снова замедлить сайт. Перед добавлением нового скрипта или видео имеет смысл проверить скорость или попросить нас это сделать.",
+      "answer_kk": "Негізгі баптаулар сақталады, бірақ жаңа ауыр суреттер мен плагиндер сайтты қайта баяулатуы мүмкін. Жаңа скрипт немесе видео қосар алдында жылдамдықты тексеру немесе бізден сұрау пайдалы.",
+      "answer_en": "The main settings stay in place, but new heavy images and plugins can slow the site again. Before adding a new script or video, it makes sense to check the speed or ask us to do it.",
+      "sort": 6
     }
   ]
 }

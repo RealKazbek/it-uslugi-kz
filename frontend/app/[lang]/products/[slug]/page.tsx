@@ -75,6 +75,7 @@ export default async function ProductPage({ params }: PageProps) {
       product={product}
       pageUrl={pageUrl}
       crumbs={trail.map((c) => ({ name: c.name, href: localePath(lang, c.path) }))}
+      categoryLabel={trail[2]?.name ?? product.category}
       totalText={priceWithUnit(lang, product.price_from_kzt, product.unit, config.usdRate)}
       timelineText={daysText(lang, product.unit, product.days_min, product.days_max)}
       steps={selectProcess(lang, product.category, product.unit)}

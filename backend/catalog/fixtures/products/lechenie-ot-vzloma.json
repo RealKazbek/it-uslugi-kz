@@ -1,0 +1,135 @@
+{
+  "slug": "lechenie-ot-vzloma",
+  "category": "support",
+  "title_ru": "Лечение сайта от вирусов и взлома",
+  "title_kk": "Сайтты вирустан және хакерлік шабуылдан емдеу",
+  "title_en": "Cleaning a hacked or infected website",
+  "short_ru": "Находим и удаляем вредоносный код, закрываем уязвимость, через которую попали, и возвращаем сайт в рабочее состояние.",
+  "short_kk": "Зиянды кодты табамыз және жойып тастаймыз, сайтқа кірген осалдықты жабамыз, сонда сайт қалыпты жұмысқа оралады.",
+  "short_en": "We find and remove malicious code, close the weakness the attacker used, and bring the site back to working order.",
+  "description_ru": "Наша команда проверяет файлы, базу данных и настройки сайта, чтобы найти вредоносный код, спам-страницы и скрытые редиректы. Удаляем всё лишнее, меняем пароли и ключи, которые могли утечь, и закрываем уязвимость, через которую попали. После этого проверяем, что сайт работает, а поисковики и антивирусы больше не помечают его как опасный.",
+  "description_kk": "Біздің команда сайттың файлдарын, дерекқорын және баптауларын тексереді, зиянды кодты, спам беттерін және жасырын бағыттауларды табады. Артық нәрсенің бәрін жоямыз, ағып кеткен болуы мүмкін құпия сөздер мен кілттерді ауыстырамыз және кірген осалдықты жабамыз. Содан кейін сайттың жұмыс істейтінін тексеріп, іздеу жүйелері мен антивирустар оны қауіпті деп белгілемейтінін қараймыз.",
+  "description_en": "Our team checks the site's files, database and settings to find malicious code, spam pages and hidden redirects. We remove everything that does not belong, change passwords and keys that may have leaked, and close the weakness the attacker used. Then we check that the site works and that search engines and antivirus tools no longer flag it as dangerous.",
+  "for_whom_ru": "Для владельцев сайтов, на которых появились чужие страницы, редиректы или предупреждение «сайт взломан» в браузере или поиске.",
+  "for_whom_kk": "Сайтында бөтен беттер, бағыттаулар пайда болған немесе браузерде не іздеуде «сайт бұзылған» деген ескерту шыққан иелерге арналған.",
+  "for_whom_en": "For site owners who see strange pages, redirects or a \"site hacked\" warning in the browser or in search results.",
+  "includes_ru": [
+    "Проверка файлов сайта и базы данных на вредоносный код",
+    "Удаление спам-страниц, скрытых ссылок и редиректов",
+    "Смена паролей к хостингу, базе и панели управления сайтом",
+    "Поиск и закрытие уязвимости, через которую попали",
+    "Обновление уязвимых компонентов, если они стали причиной взлома",
+    "Проверка сайта после очистки и запрос на повторную проверку поисковиков",
+    "Краткий отчёт о том, что было найдено и что сделано"
+  ],
+  "includes_kk": [
+    "Сайт файлдары мен дерекқорды зиянды кодқа тексеру",
+    "Спам беттерін, жасырын сілтемелер мен бағыттауларды жою",
+    "Хостингке, дерекқорға және сайтты басқару панеліне құпия сөздерді ауыстыру",
+    "Кірген осалдықты табу және жабу",
+    "Шабуылдың себебі болған осал компоненттерді жаңарту",
+    "Тазалаудан кейін сайтты тексеру және іздеу жүйелеріне қайта тексеруді сұрау",
+    "Не табылғаны мен не істелгені туралы қысқа есеп"
+  ],
+  "includes_en": [
+    "Scanning site files and the database for malicious code",
+    "Removing spam pages, hidden links and redirects",
+    "Changing passwords for hosting, the database and the site admin panel",
+    "Finding and closing the weakness the attacker used",
+    "Updating vulnerable components if they caused the breach",
+    "Checking the site after cleanup and requesting a re-check from search engines",
+    "A short report on what was found and what was done"
+  ],
+  "not_included_ru": [
+    "Восстановление данных, потерянных при взломе, если резервной копии нет",
+    "Полная переработка сайта или переезд на другой движок: это отдельная работа",
+    "Гарантия, что взлом не повторится: мы закрываем известные пути, но новые уязвимости появляются постоянно"
+  ],
+  "not_included_kk": [
+    "Резервтік көшірме болмаса, бұзу кезінде жоғалған деректерді қалпына келтіру",
+    "Сайтты толық қайта жасау немесе басқа қозғалтқышқа көшу: бұл бөлек жұмыс",
+    "Бұзылу қайталанбайтынына кепілдік: біз белгілі жолдарды жабамыз, бірақ жаңа осалдықтар үнемі шығып тұрады"
+  ],
+  "not_included_en": [
+    "Restoring data lost in the attack if there is no backup",
+    "A full rebuild of the site or a move to another engine: this is separate work",
+    "A guarantee that the attack will not happen again: we close known routes, but new weaknesses appear all the time"
+  ],
+  "price_from_kzt": 18000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 4,
+  "related": [
+    "obnovlenie-saita",
+    "podderzhka-saita",
+    "ispravlenie-oshibok"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 136,
+  "faqs": [
+    {
+      "question_ru": "Что нужно предоставить для лечения сайта?",
+      "question_kk": "Сайтты емдеу үшін нені беру керек?",
+      "question_en": "What do you need from me to clean the site?",
+      "answer_ru": "Доступ к хостингу по FTP или SSH, доступ к панели сайта и к базе данных. Если есть резервная копия, передайте её: она поможет сравнить файлы. Также полезны дата, когда вы заметили проблему, и ссылки на странные страницы.",
+      "answer_kk": "Хостингке FTP немесе SSH арқылы, сайт панеліне және дерекқорға қолжетімділік. Резервтік көшірме болса, оны беріңіз, ол файлдарды салыстыруға көмектеседі. Мәселені байқаған күн мен бөтен беттердің сілтемелері де пайдалы.",
+      "answer_en": "FTP or SSH access to the hosting, access to the site admin panel and the database. If there is a backup, share it, since it helps compare files. The date you noticed the problem and links to the strange pages are also useful.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Гарантируете ли вы, что сайт снова попадёт в поиск?",
+      "question_kk": "Сайт іздеуге қайта шығады деп кепілдік бересіз бе?",
+      "question_en": "Do you guarantee the site will return to search results?",
+      "answer_ru": "Нет, гарантировать сроки и позиции в поиске мы не можем. Мы убираем причину и запрашиваем повторную проверку, а поисковики решают сами, когда снять предупреждение.",
+      "answer_kk": "Жоқ, іздеудегі мерзімге және орынға кепілдік бере алмаймыз. Себебін жоямыз және қайта тексеруді сұраймыз, ал ескертуді қашан алып тастау керектігін іздеу жүйелері өздері шешеді.",
+      "answer_en": "No, we cannot guarantee timing or search positions. We remove the cause and request a re-check, and search engines decide for themselves when to lift the warning.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что нужно сделать после лечения?",
+      "question_kk": "Емдеуден кейін не істеу керек?",
+      "question_en": "What should I do after the cleanup?",
+      "answer_ru": "Обновить все пароли, которые используете на других сервисах с тем же паролем, и регулярно обновлять CMS и плагины. Если хотите постоянной защиты, мы можем подключить поддержку с плановыми обновлениями и проверками.",
+      "answer_kk": "Басқа қызметтерде бірдей құпия сөз қолданған болсаңыз, оларды ауыстырыңыз және CMS пен плагиндерді үнемі жаңартып тұрыңыз. Тұрақты қорғаныс керек болса, жоспарлы жаңартулары мен тексерулері бар қолдауды қосуға болады.",
+      "answer_en": "Change any passwords you reused on other services, and keep the CMS and plugins updated regularly. If you want ongoing protection, we can add support with scheduled updates and checks.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если непонятно, как сайт взломали?",
+      "question_kk": "Сайт қалай бұзылғаны белгісіз болса не болады?",
+      "question_en": "What if it is unclear how the site was hacked?",
+      "answer_ru": "Проверяем логи хостинга, файлы и базу, чтобы найти источник. Если точно найти не удалось, честно говорим об этом и перечисляем, что закрыли.",
+      "answer_kk": "Көзін табу үшін хостинг журналдарын, файлдар мен базаны тексереміз. Дәл табылмаса, бұл туралы шынайы айтамыз және нені жапқанымызды санаймыз.",
+      "answer_en": "We check the hosting logs, files and database to find the source. If it cannot be pinned down, we say so honestly and list what we closed.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Какой доступ нужен для лечения?",
+      "question_kk": "Емдеу үшін қандай қолжетімділік керек?",
+      "question_en": "What access is needed for the cleanup?",
+      "answer_ru": "Доступ к файлам сайта по FTP или через панель хостинга, к базе данных и к админке сайта. Работаем только в пределах того, что нужно для очистки.",
+      "answer_kk": "FTP немесе хостинг панелі арқылы сайт файлдарына, дерекқорға және сайттың әкімшілік бетіне қолжетімділік. Тек тазалау үшін қажетті шекте жұмыс істейміз.",
+      "answer_en": "Access to the site files via FTP or the hosting panel, to the database and to the site admin. We work only within what the cleanup requires.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли отключать сайт на время лечения?",
+      "question_kk": "Емдеу кезінде сайтты өшіру керек пе?",
+      "question_en": "Do I need to take the site offline during the cleanup?",
+      "answer_ru": "Во время очистки сайт может работать в ограниченном режиме. Если спам виден клиентам, советуем временно скрыть сайт, но решение за вами, и мы объясняем риски.",
+      "answer_kk": "Тазалау кезінде сайт шектеулі режимде жұмыс істеуі мүмкін. Спам клиенттерге көрінсе, сайтты уақытша жасыруды ұсынамыз, бірақ шешім сізде, және тәуекелдерін түсіндіреміз.",
+      "answer_en": "The site may run in limited mode during the cleanup. If spam is visible to customers, we suggest temporarily hiding the site, but the decision is yours, and we explain the risks.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Стоит ли сделать резервную копию до лечения?",
+      "question_kk": "Емдеуге дейін резервтік көшірме жасау керек пе?",
+      "question_en": "Should I make a backup before the cleanup?",
+      "answer_ru": "Да, советуем сделать её до начала, чтобы при ошибке можно было откатиться. Сохраните копию у себя или в отдельном хранилище.",
+      "answer_kk": "Иә, басталғанға дейін жасауды ұсынамыз, қате болса қайтаруға болады. Көшірмені өзіңізде немесе бөлек сақтау орнында сақтаңыз.",
+      "answer_en": "Yes, we advise making it before we start, so you can roll back if something goes wrong. Keep the copy with you or in separate storage.",
+      "sort": 6
+    }
+  ]
+}

@@ -55,7 +55,7 @@
     "Paid service subscriptions if reminders need SMS",
     "The design of the site the booking is embedded into"
   ],
-  "price_from_kzt": 30000,
+  "price_from_kzt": 17000,
   "unit": "once",
   "days_min": 3,
   "days_max": 6,
@@ -93,6 +93,42 @@
       "answer_kk": "Жоқ. Google аккаунты тек сізге күнтізбе үшін керек, клиентке есімі мен телефон нөмірі жеткілікті.",
       "answer_en": "No. A Google account is needed only on your side for the calendar; the client just provides a name and phone number.",
       "sort": 2
+    },
+    {
+      "question_ru": "Видит ли клиент записи других людей?",
+      "question_kk": "Клиент басқа адамдардың жазбаларын көре ме?",
+      "question_en": "Can a client see other people's bookings?",
+      "answer_ru": "Нет, клиент видит только свободные слоты, а имена других клиентов на странице не показываются.",
+      "answer_kk": "Жоқ, клиент тек бос слоттарды көреді, ал басқа клиенттердің аттары бетте көрсетілмейді.",
+      "answer_en": "No, the client sees only free slots, and other clients' names are not shown on the page.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как далеко вперёд можно открыть запись?",
+      "question_kk": "Жазылуды қанша алдын ала ашуға болады?",
+      "question_en": "How far ahead can bookings be open?",
+      "answer_ru": "Горизонт записи настраивается: можно открыть окошки на ближайшие недели и закрыть выходные или праздники. Изменить это можно в любой момент.",
+      "answer_kk": "Жазылу көкжиегін баптауға болады: жақын апталарға уақыт ашып, демалыс пен мерекелерді жабуға болады. Мұны кез келген уақытта өзгертуге болады.",
+      "answer_en": "The booking window is configurable: you can open slots for the coming weeks and close weekends or holidays. You can change it at any time.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет с уже созданными записями, если поменять рабочие часы?",
+      "question_kk": "Жұмыс уақытын өзгерткенде, бұрын жасалған жазбаларға не болады?",
+      "question_en": "What happens to existing bookings if I change my working hours?",
+      "answer_ru": "Уже созданные записи остаются в календаре, а новые слоты появляются по новому графику. Если запись попадает на нерабочее время, она остаётся видимой в календаре, а перенос решаете вы.",
+      "answer_kk": "Бұрын жасалған жазбалар күнтізбеде қалады, ал жаңа слоттар жаңа кестемен пайда болады. Егер жазба жұмыс емес уақытқа түссе, ол күнтізбеде көрініп тұрады, ал көшіруді сіз шешесіз.",
+      "answer_en": "Existing bookings stay in the calendar, and new slots appear on the new schedule. If a booking falls outside working hours, it stays visible in the calendar and you decide on any move.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Освободится ли время, если отменить событие в Google Календаре вручную?",
+      "question_kk": "Google Күнтізбесінде оқиғаны қолмен болдырмасам, уақыт босай ма?",
+      "question_en": "Does the slot free up if I cancel an event in Google Calendar by hand?",
+      "answer_ru": "Да, потому что страница учитывает ваш календарь, и отменённое время снова станет доступным для записи. Если клиент уже знал о визите, предупредите его сами.",
+      "answer_kk": "Иә, себебі бет сіздің күнтізбеңізді есепке алады, сондықтан болдырылмаған уақыт жазылу үшін қайта қолжетімді болады. Егер клиент сапарды білсе, оны өзіңіз ескертіңіз.",
+      "answer_en": "Yes, because the page reads your calendar, so a cancelled time becomes bookable again. If the client already knew about the visit, let them know yourself.",
+      "sort": 6
     }
   ]
 }

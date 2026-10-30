@@ -10,7 +10,7 @@ const product = {
   price_from_kzt: 45000,
   unit: 'once' as const,
   days_min: 3,
-  days_max: 7,
+  days_max: 7, is_onsite: false,
 };
 
 const cards: CardView[] = [

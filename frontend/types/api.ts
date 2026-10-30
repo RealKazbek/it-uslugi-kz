@@ -26,6 +26,8 @@ export interface ProductCardDto {
   unit: Unit;
   days_min: number;
   days_max: number;
+  /** Needs a visit; offered only in config.onsiteCities. */
+  is_onsite: boolean;
 }
 
 export interface FaqDto {
@@ -66,4 +68,22 @@ export interface CityDto {
   nearby: CityRefDto[];
   /** Hand-written reason per focus product (key: product slug), in the request language. */
   focus_why: Record<string, string>;
+}
+
+/** Approved client review from GET /api/reviews. `locale` is ru | kk | en. */
+export interface ReviewDto {
+  id: number;
+  name: string;
+  company: string;
+  city: string;
+  rating: number;
+  text: string;
+  locale: string;
+  created_at: string;
+}
+
+export interface ReviewsResponse {
+  results: ReviewDto[];
+  /** 2GIS reviews page URL; empty string when not configured. */
+  gis_url: string;
 }

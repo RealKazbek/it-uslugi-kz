@@ -4,12 +4,12 @@
   "title_ru": "Карточка в 2GIS и Google Maps",
   "title_kk": "2GIS пен Google Maps-тағы карточка",
   "title_en": "Business listing on 2GIS and Google Maps",
-  "short_ru": "Создаю и оформляю карточку компании в 2GIS и Google Maps, чтобы вас находили на карте.",
-  "short_kk": "Компания карточкасын 2GIS пен Google Maps-та жасап, рәсімдеймін, сонда сізді картадан табады.",
-  "short_en": "I create and fill in your company listing on 2GIS and Google Maps so people can find you on the map.",
-  "description_ru": "Большинство местных клиентов ищут адрес, телефон и график именно на картах. Я заполняю карточку в 2GIS, популярном справочнике и картографическом сервисе Казахстана, и в Google Maps: категории, описание, часы работы, фото и контакты. Данные на обеих площадках приводятся к одному виду, чтобы клиент не путался.",
-  "description_kk": "Жергілікті клиенттердің көбі мекенжайды, телефонды және кестені дәл карталардан іздейді. Мен 2GIS-те, Қазақстандағы танымал анықтамалық әрі карта сервисінде, және Google Maps-та карточканы толтырамын: санаттар, сипаттама, жұмыс уақыты, фото және байланыстар. Клиент шатаспауы үшін екі алаңдағы деректерді бір түрге келтіремін.",
-  "description_en": "Most local customers look up an address, phone and opening hours on a map. I fill in your listing on 2GIS, a popular map and business directory in Kazakhstan, and on Google Maps: categories, description, hours, photos and contacts. The details on both platforms are made consistent so customers are not confused.",
+  "short_ru": "Создаём и оформляем карточку компании в 2GIS и Google Maps, чтобы вас находили на карте.",
+  "short_kk": "Компания карточкасын 2GIS пен Google Maps-та жасап, рәсімдейміз, сонда сізді картадан табады.",
+  "short_en": "We create and fill in your company listing on 2GIS and Google Maps so people can find you on the map.",
+  "description_ru": "Большинство местных клиентов ищут адрес, телефон и график именно на картах. Мы заполняем карточку в 2GIS, популярном справочнике и картографическом сервисе Казахстана, и в Google Maps: категории, описание, часы работы, фото и контакты. Данные на обеих площадках приводятся к одному виду, чтобы клиент не путался.",
+  "description_kk": "Жергілікті клиенттердің көбі мекенжайды, телефонды және кестені дәл карталардан іздейді. Біз 2GIS-те, Қазақстандағы танымал анықтамалық әрі карта сервисінде, және Google Maps-та карточканы толтырамыз: санаттар, сипаттама, жұмыс уақыты, фото және байланыстар. Клиент шатаспауы үшін екі алаңдағы деректерді бір түрге келтіреміз.",
+  "description_en": "Most local customers look up an address, phone and opening hours on a map. We fill in your listing on 2GIS, a popular map and business directory in Kazakhstan, and on Google Maps: categories, description, hours, photos and contacts. The details on both platforms are made consistent so customers are not confused.",
   "for_whom_ru": "Для кафе, салонов, клиник, магазинов и сервисов с физическим адресом, которых пока нет на картах или данные там устарели.",
   "for_whom_kk": "Физикалық мекенжайы бар, бірақ әлі картада жоқ немесе деректері ескірген кафелерге, салондарға, клиникаларға, дүкендер мен сервистерге арналған.",
   "for_whom_en": "For cafes, salons, clinics, shops and services with a physical address that are not on the maps yet or whose details are outdated.",
@@ -41,21 +41,21 @@
     "A short guide to replying to reviews and updating details"
   ],
   "not_included_ru": [
-    "Решение о публикации: модерация 2GIS и Google проходит на их стороне, и сроки с исходом я не контролирую",
+    "Решение о публикации: модерация 2GIS и Google проходит на их стороне, и сроки с исходом мы не контролируем",
     "Платное размещение и реклама в 2GIS или Google",
-    "Отзывы: я не пишу и не накручиваю их, их оставляют ваши реальные клиенты"
+    "Отзывы: мы не пишем и не накручиваем их, их оставляют ваши реальные клиенты"
   ],
   "not_included_kk": [
-    "Жариялау туралы шешім: 2GIS пен Google модерациясы олардың жағында өтеді, мерзімі мен нәтижесін бақыламаймын",
+    "Жариялау туралы шешім: 2GIS пен Google модерациясы олардың жағында өтеді, мерзімі мен нәтижесін бақыламыз",
     "2GIS немесе Google-дағы ақылы орналастыру және жарнама",
-    "Пікірлер: мен оларды жазбаймын және жасанды көбейтпеймін, оларды нақты клиенттеріңіз қалдырады"
+    "Пікірлер: біз оларды жазбаймыз және жасанды көбейтпейміз, оларды нақты клиенттеріңіз қалдырады"
   ],
   "not_included_en": [
-    "The publication decision: moderation on 2GIS and Google happens on their side, and I do not control the timing or outcome",
+    "The publication decision: moderation on 2GIS and Google happens on their side, and we do not control the timing or outcome",
     "Paid placement and advertising on 2GIS or Google",
-    "Reviews, which I neither write nor inflate; they are left by your real customers"
+    "Reviews, which we neither write nor inflate; they are left by your real customers"
   ],
-  "price_from_kzt": 10000,
+  "price_from_kzt": 5500,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,
@@ -89,10 +89,46 @@
       "question_ru": "Улучшит ли это мои позиции на карте?",
       "question_kk": "Бұл картадағы орнымды жақсарта ма?",
       "question_en": "Will this improve my ranking on the map?",
-      "answer_ru": "Полная и точная карточка помогает вас находить, но порядок выдачи определяют алгоритмы сервисов, отзывы и расстояние до клиента. Обещать конкретное место я не могу.",
-      "answer_kk": "Толық әрі дәл карточка сізді табуға көмектеседі, бірақ шығарылым тәртібін сервис алгоритмдері, пікірлер және клиентке дейінгі арақашықтық анықтайды. Нақты орынға уәде бере алмаймын.",
-      "answer_en": "A complete and accurate listing helps people find you, but result order is set by the services' algorithms, reviews and distance to the customer. I cannot promise a specific position.",
+      "answer_ru": "Полная и точная карточка помогает вас находить, но порядок выдачи определяют алгоритмы сервисов, отзывы и расстояние до клиента. Обещать конкретное место мы не можем.",
+      "answer_kk": "Толық әрі дәл карточка сізді табуға көмектеседі, бірақ шығарылым тәртібін сервис алгоритмдері, пікірлер және клиентке дейінгі арақашықтық анықтайды. Нақты орынға уәде бере алмаймыз.",
+      "answer_en": "A complete and accurate listing helps people find you, but result order is set by the services' algorithms, reviews and distance to the customer. We cannot promise a specific position.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно от меня для карточки?",
+      "question_kk": "Карточка үшін менен не керек?",
+      "question_en": "What do you need from me for the listing?",
+      "answer_ru": "Название, адрес, телефон, график, категории услуг и фото, которые разрешаете использовать. Понадобится и доступ к почте или телефону для подтверждения прав.",
+      "answer_kk": "Атауы, мекенжайы, телефоны, жұмыс кестесі, қызмет санаттары және пайдалануға рұқсат беретін фотолар керек. Құқықты растау үшін поштаға немесе телефонға қолжетімділік те қажет.",
+      "answer_en": "The name, address, phone, opening hours, service categories and photos you allow us to use. You also need access to an email or phone to confirm ownership.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если карточка уже есть, но её создал кто-то другой?",
+      "question_kk": "Карточка бұрыннан бар болса, бірақ оны басқа біреу жасаған болса не болады?",
+      "question_en": "What if a listing already exists but someone else created it?",
+      "answer_ru": "Подаём заявку на управление карточкой, и подтверждение приходит владельцу. Пока заявку не одобрили, данные в карточке не меняем.",
+      "answer_kk": "Карточканы басқаруға өтініш береміз, растау иесіне келеді. Өтініш мақұлданғанша карточкадағы деректерді өзгертпейміз.",
+      "answer_en": "We submit a request to manage the listing, and confirmation goes to the owner. Until the request is approved, we do not change the listing data.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто будет владеть карточкой после работы?",
+      "question_kk": "Жұмыстан кейін карточканың иесі кім болады?",
+      "question_en": "Who will own the listing after the work is done?",
+      "answer_ru": "Карточка оформляется на вас и привязывается к вашим аккаунтам 2GIS и Google. Доступ к управлению остаётся у вас, а инструкцию, как его добавить, передаём.",
+      "answer_kk": "Карточка сізге рәсімделеді және 2GIS пен Google-дағы аккаунттарыңызға байланады. Басқару қолжетімділігі сізде қалады, ал оны қалай қосу керектігін нұсқаумен бірге береміз.",
+      "answer_en": "The listing is registered in your name and linked to your 2GIS and Google accounts. Management access stays with you, and we pass on instructions for adding it.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Нужно ли обновлять карточку после публикации?",
+      "question_kk": "Жарияланғаннан кейін карточканы жаңарту керек пе?",
+      "question_en": "Does the listing need updating after it goes live?",
+      "answer_ru": "Да, часы работы, телефоны и фото нужно поддерживать в актуальном виде, иначе данные устареют. В инструкции написано, что и как менять.",
+      "answer_kk": "Иә, жұмыс уақыты, телефондар және фотолар өзекті болуы керек, әйтпесе деректер ескіреді. Нұсқауда нені және қалай өзгерту керектігі жазылған.",
+      "answer_en": "Yes, opening hours, phones and photos must be kept current, otherwise the data gets out of date. The instructions explain what to change and how.",
+      "sort": 6
     }
   ]
 }

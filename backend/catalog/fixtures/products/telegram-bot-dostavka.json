@@ -55,7 +55,7 @@
     "Card payment in the bot, which can be added separately through a provider API by agreement",
     "The server for the bot, set up in your name and paid at the provider rate"
   ],
-  "price_from_kzt": 60000,
+  "price_from_kzt": 70000,
   "unit": "once",
   "days_min": 10,
   "days_max": 15,
@@ -93,6 +93,42 @@
       "answer_kk": "Каталог тек тауарды көрсетіп, сұранысты жібереді. Бұл бот тапсырысты түгел жүргізеді: себет, мекенжай, жеткізу, мәртебелер және клиентке хабарламалар.",
       "answer_en": "The catalog bot only shows products and passes on a request. This bot runs the whole order: cart, address, delivery, statuses and customer notifications.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если клиент не отправит геолокацию?",
+      "question_kk": "Клиент геолокация жібермесе, не болады?",
+      "question_en": "What if the customer does not send their location?",
+      "answer_ru": "Адрес можно ввести вручную, а если он неполный, бот попросит уточнить. Так курьер получает точную информацию.",
+      "answer_kk": "Мекенжайды қолмен енгізуге болады, ал толық болмаса, бот нақтылауды сұрайды. Осылайша курьер дәл ақпарат алады.",
+      "answer_en": "The address can be typed in manually, and if it is incomplete the bot asks for clarification. This way the courier gets accurate information.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как обновлять меню и цены?",
+      "question_kk": "Мәзір мен бағаларды қалай жаңартуға болады?",
+      "question_en": "How do we update the menu and prices?",
+      "answer_ru": "Меню и цены меняем по вашему запросу, а способ обмена данными согласуем на старте. Так правки не требуют переделки бота.",
+      "answer_kk": "Мәзір мен бағаларды сіздің сұрауыңыз бойынша өзгертеміз, ал деректер алмасу тәсілін басында келісеміз. Осылайша түзетулер ботты қайта жасауды талап етпейді.",
+      "answer_en": "We change the menu and prices at your request, and agree the data exchange method at the start. This way edits do not require rebuilding the bot.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужна ли интеграция с кассой или 1С?",
+      "question_kk": "Кассамен немесе 1С-пен интеграция керек пе?",
+      "question_en": "Do we need integration with a cash register or 1C?",
+      "answer_ru": "Интеграция с кассой не входит в базовую работу. Зато копия заказов уходит в рабочий чат или таблицу, и её можно использовать для учёта.",
+      "answer_kk": "Кассамен интеграция негізгі жұмысқа кірмейді. Алайда тапсырыстардың көшірмесі жұмыс чатына немесе кестеге жіберіледі, оны есепке пайдалануға болады.",
+      "answer_en": "Integration with a cash register is not part of the base work. However, a copy of each order goes to a work chat or spreadsheet, which you can use for accounting.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как клиент подтверждает оплату при получении?",
+      "question_kk": "Клиент алған кезде төлемді қалай растайды?",
+      "question_en": "How does the customer confirm payment on delivery?",
+      "answer_ru": "Заказ фиксируется в боте, а оплата при получении проходит как сейчас, пока онлайн-оплата не подключена. Статус заказа клиент видит в переписке.",
+      "answer_kk": "Тапсырыс ботта тіркеледі, ал алған кездегі төлем қазіргідей жүреді, онлайн төлем қосылмайынша. Тапсырыс мәртебесін клиент хат алмасуда көреді.",
+      "answer_en": "The order is recorded in the bot, and payment on delivery works as it does now until online payment is connected. The customer sees the order status in the chat.",
+      "sort": 6
     }
   ]
 }

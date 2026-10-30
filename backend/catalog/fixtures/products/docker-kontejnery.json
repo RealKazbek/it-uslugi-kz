@@ -1,0 +1,132 @@
+{
+  "slug": "docker-kontejnery",
+  "category": "devops",
+  "title_ru": "Упаковка проекта в Docker",
+  "title_kk": "Жобаны Docker-ге орау",
+  "title_en": "Packaging your project in Docker",
+  "short_ru": "Упаковываем проект в Docker-контейнеры, чтобы он одинаково работал на любом компьютере и сервере. Запуск становится предсказуемым и повторяемым.",
+  "short_kk": "Жобаны Docker контейнерлеріне орап береміз, сонда ол кез келген компьютерде және серверде бірдей жұмыс істейді. Іске қосу болжамды әрі қайталанатын болады.",
+  "short_en": "We package your project into Docker containers so it runs the same way on any computer or server. Startup becomes predictable and repeatable.",
+  "description_ru": "Наша команда описывает окружение проекта в Dockerfile и файле docker-compose, чтобы все части запускались одной командой. Мы отделяем настройки от кода, добавляем базу данных и проверяем, что контейнеры поднимаются и обмениваются данными. Вы получаете проект, который легко переносить и масштабировать.",
+  "description_kk": "Біздің команда жоба ортасын Dockerfile және docker-compose файлында сипаттайды, сонда барлық бөлік бір командамен іске қосылады. Баптауларды кодтан бөлеміз, дерекқорды қосамыз және контейнерлердің көтеріліп, деректер алмасатынын тексереміз. Нәтижесінде жобаны оңай көшіруге және кеңейтуге болады.",
+  "description_en": "Our team describes the project environment in a Dockerfile and a docker-compose file, so all parts start with one command. We separate settings from the code, add the database and check that the containers start and exchange data. You get a project that is easy to move and scale.",
+  "for_whom_ru": "Для команд и разработчиков, которые устали от фразы «у меня работает», и для проектов, которые планируют переезд на другой сервер.",
+  "for_whom_kk": "«Менде жұмыс істейді» деген сөзден шаршаған командаларға және басқа серверге көшуді жоспарлайтын жобаларға арналған.",
+  "for_whom_en": "For teams tired of \"it works on my machine\" and for projects planning a move to another server.",
+  "includes_ru": [
+    "Dockerfile для каждого сервиса проекта",
+    "Файл docker-compose с сервисами, сетью и томами для данных",
+    "Вынос настроек и секретов в переменные окружения",
+    "Контейнер с базой данных и сохранение данных между перезапусками",
+    "Проверка запуска всех контейнеров на чистой машине",
+    "Краткая инструкция: как запускать, останавливать и обновлять проект"
+  ],
+  "includes_kk": [
+    "Жобаның әр сервисіне арналған Dockerfile",
+    "Сервистер, желі және деректерге арналған томдары бар docker-compose файлы",
+    "Баптаулар мен құпияларды орта айнымалыларына шығару",
+    "Дерекқор контейнері және қайта іске қосқанда деректердің сақталуы",
+    "Барлық контейнердің таза машинада іске қосылуын тексеру",
+    "Қысқа нұсқаулық: жобаны қалай іске қосу, тоқтату және жаңарту"
+  ],
+  "includes_en": [
+    "A Dockerfile for each service of the project",
+    "A docker-compose file with services, network and volumes for data",
+    "Moving settings and secrets into environment variables",
+    "A database container with data kept across restarts",
+    "Checking that all containers start on a clean machine",
+    "A short guide on how to start, stop and update the project"
+  ],
+  "not_included_ru": [
+    "Оплата сервера, на котором будут работать контейнеры: это отдельная аренда",
+    "Переписывание кода проекта под контейнеры: мы упаковываем его таким, какой он есть",
+    "Настройка кластеров и сложной оркестрации: для большинства сайтов это не нужно и оценивается отдельно"
+  ],
+  "not_included_kk": [
+    "Контейнерлер жұмыс істейтін серверге төлем: бұл бөлек жалға алу",
+    "Жоба кодын контейнерге лайықтап қайта жазу: біз оны бар күйінде орап береміз",
+    "Кластерлер мен күрделі оркестрацияны баптау: көпшілік сайтқа керек емес, бөлек бағаланады"
+  ],
+  "not_included_en": [
+    "Paying for the server that will run the containers: that is a separate rental",
+    "Rewriting the project code for containers: we package it as it is",
+    "Setting up clusters and complex orchestration: most sites do not need it, and it is priced separately"
+  ],
+  "price_from_kzt": 21000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 5,
+  "related": [
+    "deploy-proekta",
+    "ci-cd-avtodeploi",
+    "vps-nastroika"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 132,
+  "faqs": [
+    {
+      "question_ru": "Нужно ли знать Docker, чтобы пользоваться результатом?",
+      "question_kk": "Нәтижені пайдалану үшін Docker-ді білу керек пе?",
+      "question_en": "Do I need to know Docker to use the result?",
+      "answer_ru": "Нет. Мы пишем короткую инструкцию с командами для запуска, остановки и просмотра журналов. Для повседневной работы хватает двух-трёх команд.",
+      "answer_kk": "Жоқ. Іске қосу, тоқтату және журналдарды қарау командаларымен қысқа нұсқаулық жазамыз. Күнделікті жұмысқа екі-үш команда жеткілікті.",
+      "answer_en": "No. We write a short guide with commands to start, stop and view logs. Two or three commands are enough for everyday work.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что нужно от меня для упаковки?",
+      "question_kk": "Орау үшін сізден не керек?",
+      "question_en": "What do you need from me for the packaging?",
+      "answer_ru": "Код проекта, список внешних сервисов, которые он использует, и файл с переменными окружения без значений. Если есть база данных, передайте её структуру и, по возможности, тестовую копию.",
+      "answer_kk": "Жоба коды, ол пайдаланатын сыртқы қызметтердің тізімі және мәндерсіз орта айнымалылары бар файл. Дерекқор болса, оның құрылымын және мүмкіндігінше сынақ көшірмесін беріңіз.",
+      "answer_en": "The project code, a list of external services it uses, and a file with environment variables without their values. If there is a database, share its structure and, if possible, a test copy.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Будет ли проект работать на любом хостинге?",
+      "question_kk": "Жоба кез келген хостингте жұмыс істей ала ма?",
+      "question_en": "Will the project run on any hosting?",
+      "answer_ru": "Контейнеры работают на любом сервере с Docker, например на VPS. Некоторые услуги общего хостинга Docker не поддерживают, и тогда проект проще запускать на VPS. Перед работой мы честно скажем, подходит ли ваш вариант.",
+      "answer_kk": "Контейнерлер Docker орнатылған кез келген серверде, мысалы VPS-те жұмыс істейді. Кейбір ортақ хостингтер Docker-ді қолдамайды, сонда жобаны VPS-те іске қосқан оңай. Жұмыс алдында сіздің нұсқаңыз жарай ма, соны ашық айтамыз.",
+      "answer_en": "Containers run on any server with Docker, for example a VPS. Some shared hosting plans do not support Docker, and then it is easier to run the project on a VPS. Before we start, we will honestly say whether your option works.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Будет ли проект работать на Windows или macOS у разработчика?",
+      "question_kk": "Жоба Windows немесе macOS-та жұмыс істей ме?",
+      "question_en": "Will the project run on a developer's Windows or macOS machine?",
+      "answer_ru": "Да, Docker Desktop работает на этих системах. На Windows производительность может быть ниже, поэтому запуск проверяем на вашей машине.",
+      "answer_kk": "Иә, Docker Desktop осы жүйелерде жұмыс істейді. Windows-та өнімділік төмен болуы мүмкін, сондықтан іске қосуды сіздің компьютерде тексереміз.",
+      "answer_en": "Yes, Docker Desktop runs on these systems. Performance on Windows can be lower, so we verify the launch on your machine.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли переписывать проект под контейнеры?",
+      "question_kk": "Жобаны контейнерлерге лайықтап қайта жазу керек пе?",
+      "question_en": "Does the project have to be rewritten for containers?",
+      "answer_ru": "Нет, мы упаковываем проект как есть. Если в коде есть жёсткие пути или настройки, вынесем их в переменные окружения.",
+      "answer_kk": "Жоқ, жобаны бар күйінде ораймыз. Кодта қатаң жолдар немесе баптаулар болса, оларды орта айнымалыларына шығарамыз.",
+      "answer_en": "No, we package the project as it is. If the code has hard-coded paths or settings, we move them into environment variables.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Не потеряются ли данные базы при обновлении контейнера?",
+      "question_kk": "Контейнерді жаңартқанда база деректері жоғалмай ма?",
+      "question_en": "Will the database data be lost when a container is updated?",
+      "answer_ru": "Нет, данные лежат в отдельном томе, поэтому обновление образа их не удаляет. Перед обновлением советуем сделать резервную копию.",
+      "answer_kk": "Жоқ, деректер бөлек томда сақталады, сондықтан образды жаңарту оларды жоймайды. Жаңартар алдында резервтік көшірме жасауды ұсынамыз.",
+      "answer_en": "No, the data lives in a separate volume, so updating the image does not delete it. We still recommend a backup before updating.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли потом добавить сервисы, например очередь или кэш?",
+      "question_kk": "Кейінірек кезек немесе кэш сияқты сервистерді қосуға бола ма?",
+      "question_en": "Can services like a queue or cache be added later?",
+      "answer_ru": "Да, в docker-compose добавляется новый сервис. Если понадобится отдельная работа по его настройке, мы её оценим заранее.",
+      "answer_kk": "Иә, docker-compose файліне жаңа сервис қосылады. Оны баптау үшін бөлек жұмыс қажет болса, оны алдын ала бағалаймыз.",
+      "answer_en": "Yes, a new service is added to docker-compose. If setting it up needs separate work, we will assess it in advance.",
+      "sort": 6
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "diplomnye-proekty",
+  "category": "education",
+  "title_ru": "Дипломные проекты (IT)",
+  "title_kk": "Дипломдық жобалар (IT)",
+  "title_en": "Thesis projects (IT)",
+  "short_ru": "Выполняем техническую часть дипломного проекта и объясняем каждое решение, чтобы вы могли защитить работу.",
+  "short_kk": "Дипломдық жобаның техникалық бөлігін орындаймыз және әр шешімді түсіндіреміз, сонда жұмысты қорғай аласыз.",
+  "short_en": "We build the technical part of your thesis and explain every decision, so you can defend the work.",
+  "description_ru": "Берём техническую часть дипломного проекта: анализ, архитектуру, код, тестирование и документацию. Разбираем каждую часть, чтобы вы могли защитить дипломный проект сами. Как это работает: 1) выполняем работу; 2) объясняем код и решения на созвоне или разборе; 3) передаём проект, исходники и пояснения; 4) помогаем подготовиться к защите. Оплата 50 на 50: половина до начала работы, половина после передачи результата.",
+  "description_kk": "Дипломдық жобаның техникалық бөлігін аламыз: талдау, архитектура, код, тестілеу және құжаттама. Әр бөлікті талдаймыз, сонда дипломдық жобаны өзіңіз қорғай аласыз. Жұмыс қалай өтеді: 1) жұмысты орындаймыз; 2) онлайн-кездесуде немесе талдауда кодты және шешімдерді түсіндіреміз; 3) жобаны, бастапқы кодты және түсініктемелерді тапсырамыз; 4) қорғауға дайындалуға көмектесеміз. Төлем 50/50: жұмыс басталғанға дейін жартысы, нәтиже тапсырылғаннан кейін жартысы.",
+  "description_en": "We take on the technical part of your thesis: analysis, architecture, code, testing and documentation. We go through each part so you can defend the thesis yourself. How it works: 1) we do the work; 2) we explain the code and decisions on a call or review; 3) we hand over the project, source code and notes; 4) we help you prepare for the defence. Payment 50/50: half before we start, half after we hand over the result.",
+  "for_whom_ru": "Для студентов, которым нужна помощь с технической частью диплома и понимание каждого решения перед защитой.",
+  "for_whom_kk": "Дипломдық жобаның техникалық бөлігіне көмек керек және қорғау алдында әр шешімді түсінгісі келетін студенттерге арналған.",
+  "for_whom_en": "For students who need help with the technical part of their thesis and want to understand every decision before the defence.",
+  "includes_ru": [
+    "Уточнение темы, требований вашего учебного заведения и сроков",
+    "Выполнение технической части: код, структура, база данных и интерфейс",
+    "Созвон или разбор, где объясняем архитектуру и решения по шагам",
+    "Передача проекта, исходников и пояснений к каждой части",
+    "Разбор теории, которая нужна для работы",
+    "Подготовка к защите: вероятные вопросы комиссии и ответы на них",
+    "Советы по оформлению пояснительной записки и схем"
+  ],
+  "includes_kk": [
+    "Тақырыпты, оқу орнының талаптарын және мерзімді тапсырмаңыз бойынша нақтылау",
+    "Техникалық бөлікті орындау: код, құрылым, дерекқор және интерфейс",
+    "Онлайн-кездесу немесе талдау, онда архитектураны және шешімдерді қадамдап түсіндіреміз",
+    "Жобаны, бастапқы кодты және әр бөлікке түсініктемені тапсыру",
+    "Жұмыс үшін қажет теорияны талдау",
+    "Қорғауға дайындық: комиссия қоюы мүмкін сұрақтар және оларға жауаптар",
+    "Түсіндірме жазба мен сызбаларды рәсімдеу бойынша кеңестер"
+  ],
+  "includes_en": [
+    "Clarifying the topic, your institution's requirements and the deadline",
+    "Doing the technical part: code, structure, database and interface",
+    "A call or review where we explain the architecture and decisions step by step",
+    "Handing over the project, source code and notes on each part",
+    "Explaining the theory the work relies on",
+    "Defence preparation: questions the committee may ask and answers",
+    "Tips on the explanatory note and diagrams"
+  ],
+  "not_included_ru": [
+    "Сдачу экзаменов и прохождение тестов вместо вас",
+    "Гарантию защиты или оценки: решение принимает комиссия вашего учебного заведения",
+    "Выдачу работы за свою, если это запрещено правилами вашего учебного заведения: соблюдение правил вуза или колледжа остаётся на вас",
+    "Участие в защите вместо вас или выступление от вашего имени"
+  ],
+  "not_included_kk": [
+    "Сіздің орныңызға емтихан тапсыру немесе тест тапсыру",
+    "Қорғауға немесе бағаға кепілдік: шешімді оқу орныңыздың комиссиясы қабылдайды",
+    "Оқу орныңыздың ережесіне қайшы жұмысты өзіңіздікі ретінде тапсыру: ережелерді сақтау жауапкершілігі сізде қалады",
+    "Қорғауға сіздің орныңызға қатысу немесе сіздің атыңыздан сөйлеу"
+  ],
+  "not_included_en": [
+    "Taking exams or tests in your place",
+    "A guaranteed defence or grade: the decision is made by your institution's committee",
+    "Handing in work as your own where your institution's rules prohibit it: following those rules is your responsibility",
+    "Attending or speaking at the defence in your place"
+  ],
+  "price_from_kzt": 60000,
+  "unit": "once",
+  "days_min": 30,
+  "days_max": 60,
+  "related": [
+    "podgotovka-k-zashite",
+    "kursovye-proekty",
+    "praktika-otchet"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 156,
+  "faqs": [
+    {
+      "question_ru": "Что нужно подготовить до первой консультации?",
+      "question_kk": "Алғашқы кеңеске дейін не дайындау керек?",
+      "question_en": "What do you need to prepare before the first session?",
+      "answer_ru": "Пришлите репозиторий или архив проекта, текст технической части и требования руководителя. Также напишите, какие части вызывают вопросы. Так мы сразу поймём, с чего начать, и не потратим время на то, что вы уже знаете.",
+      "answer_kk": "Жоба репозиторийін немесе мұрағатын, техникалық бөлім мәтінін және жетекшіңіздің талаптарын жіберіңіз. Қай бөлімдер сұрақ туғызатынын да жазыңыз. Сонда қайдан бастау керектігін бірден түсінеміз және сіз білетін нәрсеге уақыт жұмсамаймыз.",
+      "answer_en": "Send the repository or project archive, the text of the technical part and your supervisor's requirements. Also say which parts raise questions. That way we know where to start and do not spend time on what you already know.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Вы напишете главу или код за студента?",
+      "question_kk": "Тарауды немесе кодты сіз жазып бересіз бе?",
+      "question_en": "Will you write the chapter or the code for the student?",
+      "answer_ru": "Нет. Мы не пишем текст диплома и код за студента. Мы показываем проблемы, объясняем, как их устранить, и проверяем результат, который внесли вы. Ответственность за работу и её защиту остаётся за студентом.",
+      "answer_kk": "Жоқ. Диплом мәтінін және кодты студент орнына жазбаймыз. Проблемаларды көрсетеміз, оларды қалай түзету керектігін түсіндіреміз және студенттің енгізген нәтижесін тексереміз. Жұмыс үшін және оны қорғау үшін жауапкершілік студентте қалады.",
+      "answer_en": "No. We do not write thesis text or code in the student's place. We point out problems, explain how to fix them and check the result the student makes. Responsibility for the work and its defence stays with the student.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Сколько часов нужно, чтобы довести проект до защиты?",
+      "question_kk": "Жобаны қорғауға дейін қанша сағат керек?",
+      "question_en": "How many hours does it take to get the project ready for the defence?",
+      "answer_ru": "Это зависит от объёма проекта и количества правок. Обычно хватает нескольких консультаций, но точное число мы называем после просмотра проекта. Каждая сессия идёт час и оплачивается отдельно.",
+      "answer_kk": "Бұл жобаның көлеміне және неше түзету керектігіне байланысты. Әдетте бірнеше кеңес жеткілікті, бірақ нақты санды жобаны қарағаннан кейін айтамыз. Әр сессия бір сағатқа созылады және бөлек төленеді.",
+      "answer_en": "It depends on the size of the project and how many fixes are needed. A few sessions are usually enough, and we give an exact number after looking at the project. Each session is one hour and is paid separately.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что делать, если руководитель требует другой подход?",
+      "question_kk": "Жетекшіңіз басқа тәсіл талап етсе не істеу керек?",
+      "question_en": "What if my supervisor requires a different approach?",
+      "answer_ru": "Объясняем плюсы и минусы разных решений, а выбор согласуете с руководителем. Вы решаете, что войдёт в работу, а мы помогаем разобраться.",
+      "answer_kk": "Әр шешімнің артықшылығы мен кемшілігін түсіндіреміз, ал таңдауды жетекшіңізбен келісесіз. Жұмысқа не кіретінін сіз шешесіз, біз түсінуге көмектесеміз.",
+      "answer_en": "We explain the pros and cons of different solutions, and you agree the choice with your supervisor. You decide what goes into the work, and we help you understand it.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли показать только часть проекта?",
+      "question_kk": "Жобаның тек бір бөлігін көрсетуге бола ма?",
+      "question_en": "Can I show only part of the project?",
+      "answer_ru": "Да, можно начать с одного модуля или с конкретного вопроса, например с тестов. Смотрим выделенное и подсказываем, что стоит проверить дальше.",
+      "answer_kk": "Иә, бір модульден немесе нақты сұрақтан бастауға болады, мысалы тесттерден. Таңдаған бөлігін қараймыз және әрі қарай нені тексеру керектігін айтамыз.",
+      "answer_en": "Yes, you can start with one module or a specific question, for example the tests. We look at what you selected and suggest what to check next.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли знать Git, чтобы начать?",
+      "question_kk": "Бастау үшін Git білу керек пе?",
+      "question_en": "Do I need to know Git to start?",
+      "answer_ru": "Не обязательно. На консультации объясняем, как пользоваться Git для вашей работы, и важные команды разбираем вместе, а повторяете их вы сами.",
+      "answer_kk": "Міндетті емес. Консультацияда Git-ті сіздің жұмысыңызға қалай пайдалану керектігін түсіндіреміз, маңызды командаларды бірге талдаймыз, ал оларды өзіңіз қайталайсыз.",
+      "answer_en": "Not necessarily. In the consultation we explain how to use Git for your work, go through the important commands together, and you practise them yourself.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы делаете с моим кодом и текстом?",
+      "question_kk": "Менің кодым мен мәтінімді не істейсіз?",
+      "question_en": "What do you do with my code and text?",
+      "answer_ru": "Используем материалы только для консультации. Если нужна конфиденциальность, обсудите это до начала: проект остаётся вашим.",
+      "answer_kk": "Материалдарды тек консультация үшін пайдаланамыз. Құпиялық керек болса, оны басталғанға дейін талқылаңыз: жоба сізде қалады.",
+      "answer_en": "We use the materials only for the consultation. If you need confidentiality, discuss it before we start: the project remains yours.",
+      "sort": 6
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "sait-na-tilda",
+  "category": "websites",
+  "title_ru": "Сайт на Tilda под ключ",
+  "title_kk": "Tilda-да кілтке дейін дайын сайт",
+  "title_en": "Turnkey website on Tilda",
+  "short_ru": "Лендинг или небольшой многостраничный сайт на Tilda: дизайн, наполнение, подключение формы и домена.",
+  "short_kk": "Tilda-дағы лендинг немесе шағын көпбетті сайт: дизайн, мазмұн, форма мен доменді қосу.",
+  "short_en": "A landing page or small multi-page site on Tilda: design, content, form and domain connection.",
+  "description_ru": "Мы собираем сайт на конструкторе Tilda, который удобно редактировать без программиста. Вы получаете понятную структуру страниц, аккуратный дизайн в вашем фирменном стиле и подключённую форму заявок. Сайт одинаково хорошо выглядит на телефоне и на компьютере, а редактирование текстов и фото остаётся за вами.",
+  "description_kk": "Tilda конструкторында сайт жасаймыз, оны бағдарламашысыз өңдеу оңай. Сіз түсінікті беттер құрылымын, брендіңіздің стиліндегі таза дизайнды және жалғанған өтініш формасын аласыз. Сайт телефонда да, компьютерде де бірдей жақсы көрінеді, мәтін мен фотоны өңдеу сізде қалады.",
+  "description_en": "We build the site on Tilda, a constructor that is easy to edit without a developer. You get a clear page structure, a tidy design in your brand style and a connected request form. The site looks good on phones and computers alike, and editing texts and photos stays with you.",
+  "for_whom_ru": "Для специалистов и малого бизнеса, которым нужен понятный сайт-визитка или лендинг под рекламу, без сложных функций и с возможностью править тексты самим.",
+  "for_whom_kk": "Күрделі функциясыз, мәтінді өзі түзете алатын түсінікті визитка-сайт немесе жарнамаға арналған лендинг керек мамандар мен шағын бизнеске арналған.",
+  "for_whom_en": "For specialists and small businesses that need a clear business card site or an advertising landing page, without complex features, and with texts they can edit themselves.",
+  "includes_ru": [
+    "Дизайн одной или нескольких страниц в фирменном стиле",
+    "Наполнение текстами и фото, которые вы передаёте",
+    "Форма заявки с уведомлением на почту или в Telegram",
+    "Подключение домена и Tilda к вашему аккаунту",
+    "Адаптация под телефоны и планшеты",
+    "Базовое SEO: заголовки, описания и иконка сайта",
+    "Короткая инструкция по редактированию страниц"
+  ],
+  "includes_kk": [
+    "Бір немесе бірнеше бетті брендтік стильде дизайнлау",
+    "Сіз берген мәтін мен фотолармен толтыру",
+    "Поштаға немесе Telegram-ға хабарламасы бар өтініш формасы",
+    "Доменді және Tilda-ны сіздің аккаунтыңызға қосу",
+    "Телефон мен планшетке бейімдеу",
+    "Негізгі SEO: тақырыптар, сипаттамалар және сайт белгішесі",
+    "Беттерді өңдеу бойынша қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Design of one or several pages in your brand style",
+    "Filling the pages with the texts and photos you provide",
+    "A request form with notifications to email or Telegram",
+    "Connecting the domain and Tilda to your account",
+    "Adaptation for phones and tablets",
+    "Basic SEO: titles, descriptions and the site icon",
+    "A short guide to editing pages"
+  ],
+  "not_included_ru": [
+    "Оплата подписки Tilda и домена: эти услуги оплачиваются сервису напрямую",
+    "Сложная логика, личный кабинет и интеграции с 1С или CRM: это не входит в конструктор",
+    "Съёмка фото и написание текстов: материалы готовит заказчик или они оплачиваются отдельно"
+  ],
+  "not_included_kk": [
+    "Tilda жазылымы мен доменнің төлемі: бұл қызметтерді сервиске тікелей төлейсіз",
+    "Күрделі логика, жеке кабинет және 1С немесе CRM-мен интеграция: бұлар конструкторға кірмейді",
+    "Фото түсіру және мәтін жазу: материалды тапсырыс беруші дайындайды немесе бөлек төленеді"
+  ],
+  "not_included_en": [
+    "Tilda subscription and domain fees: these are paid to the service directly",
+    "Complex logic, a personal account and integrations with 1C or a CRM: these are outside the constructor",
+    "Photo shoots and copywriting: the material is prepared by the client or charged separately"
+  ],
+  "price_from_kzt": 45000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 10,
+  "related": [
+    "sait-vizitka",
+    "lending",
+    "redizain"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 102,
+  "faqs": [
+    {
+      "question_ru": "Можно ли самостоятельно менять тексты и фото?",
+      "question_kk": "Мәтін мен фотоны өзі өзгерте ала ма?",
+      "question_en": "Can the texts and photos be changed without a developer?",
+      "answer_ru": "Да, редактирование в Tilda понятное. После передачи сайта мы показываем, как менять тексты, фото и добавлять блоки.",
+      "answer_kk": "Иә, Tilda-да өңдеу түсінікті. Сайт тапсырылғаннан кейін мәтінді, фотоны және блоктарды қалай өзгерту керектігін көрсетеміз.",
+      "answer_en": "Yes, editing in Tilda is straightforward. After handover we show you how to change texts, photos and add blocks.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что нужно подготовить для сайта?",
+      "question_kk": "Сайт үшін не дайындау керек?",
+      "question_en": "What should be ready before we start?",
+      "answer_ru": "Тексты для каждой страницы, фотографии хорошего качества, логотип, контакты и реквизиты. Если текстов пока нет, мы поможем их составить, но факты и цифры должны быть ваши.",
+      "answer_kk": "Әр бет үшін мәтіндер, жақсы сапалы фотолар, логотип, байланыс деректері және реквизиттер. Мәтін әзір болмаса, оларды құруға көмектесеміз, бірақ фактілер мен деректер сіздікі болуы керек.",
+      "answer_en": "Texts for each page, good-quality photos, your logo, contacts and company details. If you have no texts yet, we can help draft them, but the facts and figures must come from you.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска и за что платить отдельно?",
+      "question_kk": "Іске қосқаннан кейін не болады және не үшін бөлек төлейсіз?",
+      "question_en": "What happens after launch, and what is paid separately?",
+      "answer_ru": "Сайт работает на вашем аккаунте Tilda, а её подписка и домен оплачиваются сервису напрямую. Дальнейшие доработки и новые разделы обсуждаем отдельно.",
+      "answer_kk": "Сайт сіздің Tilda аккаунтыңызда жұмыс істейді, оның жазылымы мен доменді сервиске тікелей төлейсіз. Кейінгі түзетулер мен жаңа бөлімдерді бөлек талқылаймыз.",
+      "answer_en": "The site runs on your Tilda account, and the Tilda subscription and domain are paid to the service directly. Further changes and new sections are discussed separately.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Кто владеет аккаунтом Tilda и доменом?",
+      "question_kk": "Tilda аккаунтына және доменге кім иелік етеді?",
+      "question_en": "Who owns the Tilda account and the domain?",
+      "answer_ru": "Аккаунт, домен и доступы оформляются на вас, и при запуске мы передаём все логины. Сайт мы на своём аккаунте не оставляем.",
+      "answer_kk": "Аккаунт, домен және қолжетімділік сізге рәсімделеді, іске қосқанда барлық логинді береміз. Сайтты өз аккаунтымызда қалдырмаймыз.",
+      "answer_en": "The account, domain and access are set up in your name, and we hand over all logins at launch. We do not keep the site on our own account.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли потом перенести сайт на другой конструктор?",
+      "question_kk": "Кейін сайтты басқа конструкторға көшіруге бола ма?",
+      "question_en": "Can the site be moved to another builder later?",
+      "answer_ru": "Тексты и фото можно забрать, но структура и дизайн Tilda автоматически не переносятся. Перенос будет отдельной работой.",
+      "answer_kk": "Мәтіндер мен фотоларды алуға болады, бірақ Tilda құрылымы мен дизайны автоматты түрде көшпейді. Көшіру бөлек жұмыс болады.",
+      "answer_en": "The texts and photos can be taken, but Tilda's structure and design do not transfer automatically. Moving it would be separate work.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько правок входит в работу?",
+      "question_kk": "Жұмысқа түзетулердің қанша саны кіреді?",
+      "question_en": "How many revisions are included?",
+      "answer_ru": "Правки во время разработки обсуждаем до запуска, по ходу работы. После передачи дополнительные изменения оцениваем отдельно.",
+      "answer_kk": "Әзірлеу кезіндегі түзетулерді іске қосқанға дейін жұмыс барысында талқылаймыз. Тапсырғаннан кейінгі қосымша өзгерістерді бөлек бағалаймыз.",
+      "answer_en": "Revisions during development are discussed before launch as the work goes on. Extra changes after handover are assessed separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли подключить Яндекс.Метрику или аналитику?",
+      "question_kk": "Яндекс.Метриканы немесе басқа аналитиканы қосуға бола ма?",
+      "question_en": "Can we connect Yandex.Metrica or other analytics?",
+      "answer_ru": "Да, счётчики подключаем по вашему запросу. Статистику вы смотрите в собственном аккаунте сервиса, который мы настраиваем.",
+      "answer_kk": "Иә, есептегіштерді сіздің сұрауыңыз бойынша қосамыз. Статистиканы біз баптаған қызметтің өз аккаунтында қараңыз.",
+      "answer_en": "Yes, we connect counters at your request. You view the statistics in your own account of the service we set up.",
+      "sort": 6
+    }
+  ]
+}

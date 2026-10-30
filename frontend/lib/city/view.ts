@@ -43,6 +43,8 @@ export interface CityViewInput {
   rate: number;
   catalog: CardGroup[];
   minPriceKzt: number | null;
+  /** False hides on-site services (cities outside ONSITE_CITIES). */
+  onsiteAllowed: boolean;
 }
 
 /** Everything a city page shows. Pure: all data comes in through the input. */
@@ -54,7 +56,9 @@ export function buildCityView(input: CityViewInput): CityView {
   const formName = lang === 'ru' ? (gen ?? dto.name) : (attr ?? dto.name);
   const forms = { loc: dto.loc, gen: gen ?? dto.name, attr: attr ?? dto.name };
   const minText = input.minPriceKzt === null ? '' : priceText(lang, input.minPriceKzt, rate);
-  const focus = dto.product_focus.map((p) => ({
+  const focus = dto.product_focus
+    .filter((p) => input.onsiteAllowed || !p.is_onsite)
+    .map((p) => ({
     href: localePath(lang, `/products/${p.slug}`),
     title: p.title,
     priceText: priceText(lang, p.price_from_kzt, rate),
@@ -73,7 +77,10 @@ export function buildCityView(input: CityViewInput): CityView {
     focusLead: d.focusLead,
     focus,
     catalogHeading: d.catalogHeading(formName),
-    catalogGroups: input.catalog.map((group) => ({
+    catalogGroups: input.catalog
+      .map((group) => ({ ...group, cards: group.cards.filter((card) => input.onsiteAllowed || !card.onsite) }))
+      .filter((group) => group.cards.length > 0)
+      .map((group) => ({
       name: group.name,
       items: group.cards.map((card) => ({ href: card.href, title: card.title, priceText: card.priceText })),
     })),

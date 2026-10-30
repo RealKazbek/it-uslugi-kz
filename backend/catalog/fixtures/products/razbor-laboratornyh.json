@@ -1,0 +1,136 @@
+{
+  "slug": "razbor-laboratornyh",
+  "category": "education",
+  "title_ru": "Лабораторные работы: выполним и объясним",
+  "title_kk": "Зертханалық жұмыстар: орындаймыз және түсіндіреміз",
+  "title_en": "Lab works: we do it and explain it",
+  "short_ru": "Выполняем лабораторную работу и объясняем каждый шаг, чтобы вы понимали решение и могли его защитить.",
+  "short_kk": "Зертханалық жұмысты орындаймыз және әр қадамды түсіндіреміз, сонда шешімді түсініп, оны қорғай аласыз.",
+  "short_en": "We do the lab work and explain every step, so you understand the solution and can defend it.",
+  "description_ru": "Вы присылаете задание, а мы выполняем лабораторную работу и объясняем, как устроено каждое решение: код, расчёты или схемы. Разбираем каждую часть, чтобы вы могли защитить работу сами. Как это работает: 1) выполняем работу; 2) объясняем код и решения на созвоне или разборе; 3) передаём проект, исходники и пояснения; 4) помогаем подготовиться к защите. Оплата 50 на 50: половина до начала работы, половина после передачи результата.",
+  "description_kk": "Тапсырмаңызды жібересіз, біз зертханалық жұмысты орындаймыз және әр шешімнің қалай құрылғанын түсіндіреміз: кодты, есептеулерді немесе сызбаларды. Әр бөлікті талдаймыз, сонда жұмысты өзіңіз қорғай аласыз. Жұмыс қалай өтеді: 1) жұмысты орындаймыз; 2) онлайн-кездесуде немесе талдауда кодты және шешімдерді түсіндіреміз; 3) жобаны, бастапқы кодты және түсініктемелерді тапсырамыз; 4) қорғауға дайындалуға көмектесеміз. Төлем 50/50: жұмыс басталғанға дейін жартысы, нәтиже тапсырылғаннан кейін жартысы.",
+  "description_en": "You send the task, and we do the lab work and explain how each solution is built: the code, calculations or diagrams. We go through each part so you can defend the work yourself. How it works: 1) we do the work; 2) we explain the code and decisions on a call or review; 3) we hand over the project, source code and notes; 4) we help you prepare for the defence. Payment 50/50: half before we start, half after we hand over the result.",
+  "for_whom_ru": "Для студентов, которым нужна выполненная лабораторная работа с понятным объяснением, чтобы разобраться в теме и уверенно защитить её перед преподавателем.",
+  "for_whom_kk": "Тақырыпты түсініп, зертханалық жұмысты оқытушы алдында сенімді қорғағысы келетін студенттерге арналған.",
+  "for_whom_en": "For students who need a finished lab work with a clear explanation, so they understand the topic and can defend it confidently in front of the instructor.",
+  "includes_ru": [
+    "Выполнение лабораторной работы по вашему заданию",
+    "Созвон или разбор, где объясняем код и решения по шагам",
+    "Передача проекта, исходников и пояснений к каждому шагу",
+    "Разбор теории, которая нужна для работы",
+    "Подготовка к защите: вопросы, которые могут задать, и ответы на них",
+    "Советы по оформлению отчёта",
+    "Ответы на вопросы по ходу работы"
+  ],
+  "includes_kk": [
+    "Тапсырмаңыз бойынша зертханалық жұмысты орындау",
+    "Онлайн-кездесу немесе талдау, онда кодты және шешімдерді қадамдап түсіндіреміз",
+    "Жобаны, бастапқы кодты және әр қадамға түсініктемені тапсыру",
+    "Жұмыс үшін қажет теорияны талдау",
+    "Қорғауға дайындық: сұралуы мүмкін сұрақтар және оларға жауаптар",
+    "Есепті рәсімдеу бойынша кеңестер",
+    "Жұмыс барысындағы сұрақтарға жауап"
+  ],
+  "includes_en": [
+    "Doing the lab work to your task",
+    "A call or review where we explain the code and decisions step by step",
+    "Handing over the project, source code and notes on each step",
+    "Explaining the theory the work relies on",
+    "Defence preparation: likely questions and how to answer them",
+    "Tips on writing up the report",
+    "Answers to your questions during the work"
+  ],
+  "not_included_ru": [
+    "Сдачу экзаменов и прохождение тестов вместо вас",
+    "Гарантию оценки или зачёта: результат зависит от ваших знаний и требований преподавателя",
+    "Выдачу работы за свою, если это запрещено правилами вашего учебного заведения: соблюдение правил остаётся на вас"
+  ],
+  "not_included_kk": [
+    "Сіздің орныңызға емтихан тапсыру немесе тест тапсыру",
+    "Баға немесе сынаққа кепілдік: нәтиже сіздің біліміңізге және оқытушы талаптарына байланысты",
+    "Оқу орныңыздың ережесіне қайшы жұмысты өзіңіздікі ретінде тапсыру: ережелерді сақтау жауапкершілігі сізде қалады"
+  ],
+  "not_included_en": [
+    "Taking exams or tests in your place",
+    "A guaranteed grade or pass: the result depends on your knowledge and your instructor's requirements",
+    "Handing in work as your own where your institution's rules prohibit it: following those rules is your responsibility"
+  ],
+  "price_from_kzt": 3000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "kursovye-proekty",
+    "praktika-otchet",
+    "pomosh-s-kursami",
+    "python-s-nulya"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 154,
+  "faqs": [
+    {
+      "question_ru": "Что нужно прислать до занятия?",
+      "question_kk": "Сабаққа дейін не жіберу керек?",
+      "question_en": "What should you send before the lesson?",
+      "answer_ru": "Пришлите условие задания, методичку и то, что уже сделано. Чем яснее задание и ваши попытки, тем быстрее мы поймём, где трудность. Заранее скажите, какой язык программирования или инструмент используется.",
+      "answer_kk": "Тапсырма шартын, әдістемелік нұсқаулықты және қазір жасағандарыңызды жіберіңіз. Тапсырма мен сіздің әрекеттеріңіз неғұрлым анық болса, қиындық қайда екенін соғұрлым тез түсінеміз. Қандай бағдарламалау тілі немесе құрал қолданылатынын алдын ала айтыңыз.",
+      "answer_en": "Send the task statement, the lab instructions and what you have already done. The clearer the task and your attempts, the faster we see where the difficulty is. Tell us in advance which programming language or tool is used.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Вы сами сделаете работу?",
+      "question_kk": "Жұмысты сіз орындап бересіз бе?",
+      "question_en": "Will you do the work for the student?",
+      "answer_ru": "Нет. Мы не пишем лабораторные работы и не решаем задания вместо студента. Работу выполняете вы, а мы разбираем теорию, проверяем ваши шаги и объясняем ошибки. Так честнее и полезнее для экзаменов.",
+      "answer_kk": "Жоқ. Біз зертханалық жұмыстарды жазбаймыз және студент орнына тапсырма шешпейміз. Жұмысты өзіңіз орындайсыз, ал біз теорияны талдап, қадамдарыңызды тексеріп, қателерді түсіндіреміз. Бұл адал әрі емтихан үшін пайдалырақ.",
+      "answer_en": "No. We do not write lab works or solve tasks in the student's place. You do the work yourself, and we go through the theory, check your steps and explain the mistakes. This is fairer and more useful for exams.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Можно ли получить готовый ответ, чтобы просто сдать?",
+      "question_kk": "Тек тапсыру үшін дайын жауап алуға бола ма?",
+      "question_en": "Can I get a ready answer just to submit?",
+      "answer_ru": "Готовые ответы мы не даём: такой подход не поможет ни на экзамене, ни в работе. Мы объясняем, как прийти к ответу, и помогаем проверить свой результат.",
+      "answer_kk": "Дайын жауап бермейміз, мұндай тәсіл не емтиханда, не жұмыста көмектеспейді. Жауапқа қалай жеткеніңізді түсіндіреміз және сіздің нәтижеңізді тексеруге көмектесеміз.",
+      "answer_en": "We do not give ready answers: that approach will not help you in exams or at work. We explain how to reach the answer and help you check your own result.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Какие лабораторные подходят для разбора?",
+      "question_kk": "Талдауға қандай зертханалық жұмыстар жарайды?",
+      "question_en": "Which lab works suit a review?",
+      "answer_ru": "Подходят работы по программированию, схемотехнике, физике и другим дисциплинам, где есть понятное задание и ход решения. Если нужно оборудование, сначала обсудим, что можно разобрать на занятии.",
+      "answer_kk": "Бағдарламалау, схемотехника, физика және түсінікті тапсырмасы мен шешу барысы бар басқа пәндер бойынша жұмыстар жарайды. Жабдық керек болса, алдымен сабақта не талдауға болатынын талқылаймыз.",
+      "answer_en": "Works in programming, circuit design, physics and other subjects with a clear task and solution path suit this. If equipment is needed, we first discuss what can be reviewed in the session.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли разобрать работу, которую я уже сдал?",
+      "question_kk": "Тапсырып қойған жұмысты талдауға бола ма?",
+      "question_en": "Can I review a lab I have already submitted?",
+      "answer_ru": "Да, такой разбор тоже подходит: мы идём по вашим шагам и объясняем, где была ошибка и как её избежать в следующий раз.",
+      "answer_kk": "Иә, мұндай талдау да жарайды: сіздің қадамдарыңыз бойынша жүреміз және қатенің қай жерде болғанын және келесіде оны қалай болдырмауға болатынын түсіндіреміз.",
+      "answer_en": "Yes, that works too: we follow your steps and explain where the mistake was and how to avoid it next time.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Проверяет ли преподаватель работу после занятия?",
+      "question_kk": "Сабақтан кейін оқытушы жұмысты тексере ме?",
+      "question_en": "Does the instructor grade the work after the session?",
+      "answer_ru": "Нет, оценку ставит ваш преподаватель по критериям курса. Мы помогаем понять материал, а вопросы, которые стоит задать преподавателю, обсуждаем на занятии.",
+      "answer_kk": "Жоқ, бағаны курс критерийлері бойынша сіздің оқытушыңыз қояды. Біз материалды түсінуге көмектесеміз, ал оқытушыдан не сұрау керек екенін сабақта талқылаймыз.",
+      "answer_en": "No, your own instructor grades the work against the course criteria. We help you understand the material, and we discuss which questions to ask your instructor during the session.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что делать, если работа очень большая?",
+      "question_kk": "Жұмыс өте үлкен болса, не істеу керек?",
+      "question_en": "What if the lab is very large?",
+      "answer_ru": "Тогда разбираем одну часть за занятие, а остальное распределяем по следующим урокам. Так вы не перегружаетесь, и каждый шаг остаётся понятным.",
+      "answer_kk": "Онда бір сабақта бір бөлікті талдаймыз, қалғанын келесі сабақтарға бөлеміз. Осылайша шамадан тыс жүктелмейсіз, әр қадам түсінікті болып қалады.",
+      "answer_en": "Then we review one part per lesson and spread the rest across the next lessons. That way you are not overloaded and every step stays clear.",
+      "sort": 6
+    }
+  ]
+}

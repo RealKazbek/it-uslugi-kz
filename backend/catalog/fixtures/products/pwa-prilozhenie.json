@@ -1,0 +1,135 @@
+{
+  "slug": "pwa-prilozhenie",
+  "category": "apps",
+  "title_ru": "PWA: сайт, который ставится как приложение",
+  "title_kk": "PWA: қосымша ретінде орнатылатын сайт",
+  "title_en": "PWA: a website you can install as an app",
+  "short_ru": "Сайт открывается в браузере и добавляется на главный экран телефона без App Store и Google Play. Основные разделы работают без сети, а push-уведомления приходят пользователям, которые разрешили их.",
+  "short_kk": "Сайт браузерде ашылып, App Store мен Google Play-сіз телефонның негізгі экранына қосылады. Негізгі бөлімдер желісіз жұмыс істейді, ал push-хабарламалар оларға рұқсат берген пайдаланушыларға келеді.",
+  "short_en": "A site that opens in the browser and adds to your phone's home screen without the App Store or Google Play. The main sections work offline, and push notifications reach users who allowed them.",
+  "description_ru": "Мы превращаем сайт в PWA: добавляем манифест, иконки, сервис-воркер и работу без сети для нужных разделов. Пользователь ставит сайт на главный экран одним нажатием, без загрузки из магазина приложений. Обновления выходят сразу, без ожидания модерации. Подходит, если основной сценарий уже живёт в браузере.",
+  "description_kk": "Біз сайтты PWA-ға айналдырамыз: манифест, белгішелер, сервис-воркер және қажетті бөлімдердің желісіз жұмысын қосамыз. Пайдаланушы сайтты бір басумен негізгі экранға орнатады, дүкеннен жүктемейді. Жаңартулар бірден шығады, модерацияны күтудің қажеті жоқ. Негізгі сценарий браузерде жүретін болса, жарайды.",
+  "description_en": "We turn your website into a PWA: we add a manifest, icons, a service worker and offline access for the sections you need. Users add the site to their home screen with one tap, without downloading from an app store. Updates go live at once, with no store review. It suits cases where the main scenario already works in the browser.",
+  "for_whom_ru": "Для интернет-магазинов, сервисов записи, доставки и клубов, где клиенты возвращаются часто, но не хотят устанавливать большое приложение. Подойдёт, если бюджет или сроки не позволяют сделать нативное приложение.",
+  "for_whom_kk": "Клиенттері жиі оралатын, бірақ үлкен қосымша орнатқысы келмейтін интернет-дүкендерге, жазылу, жеткізу қызметтеріне және клубтарға арналған. Бюджет немесе мерзім нативті қосымша жасауға мүмкіндік бермесе, жарайды.",
+  "for_whom_en": "For online shops, booking and delivery services, and clubs where customers come back often but do not want a large app. It fits when budget or timing rules out a native app.",
+  "includes_ru": [
+    "Манифест и иконки приложения для главного экрана",
+    "Сервис-воркер и кеширование основных страниц",
+    "Работа без сети для выбранных разделов",
+    "Push-уведомления на Android и на iPhone с iOS 16.4 и новее",
+    "Адаптация сайта под телефон и планшет",
+    "Проверка по Lighthouse и инструкция для команды",
+    "Установка на тестовых устройствах перед запуском"
+  ],
+  "includes_kk": [
+    "Негізгі экранға арналған манифест және белгішелер",
+    "Сервис-воркер және негізгі беттерді кэштеу",
+    "Таңдалған бөлімдердің желісіз жұмысы",
+    "Android және iOS 16.4 және одан жаңа iPhone үшін push-хабарламалар",
+    "Сайтты телефон мен планшетке бейімдеу",
+    "Lighthouse арқылы тексеру және команда үшін нұсқаулық",
+    "Іске қосар алдында нақты құрылғыларда орнатып тексеру"
+  ],
+  "includes_en": [
+    "Manifest and app icons for the home screen",
+    "Service worker and caching of the main pages",
+    "Offline access for the sections you choose",
+    "Push notifications on Android and on iPhone with iOS 16.4 or later",
+    "Responsive layout for phones and tablets",
+    "Lighthouse audit and a guide for your team",
+    "Installation checks on real devices before launch"
+  ],
+  "not_included_ru": [
+    "Публикация в App Store и Google Play: для PWA это не нужно, но витрина в магазине — отдельная работа",
+    "Офлайн-работа всего сайта: разделы с онлайн-оплатой и данными в реальном времени без сети не работают",
+    "Хостинг и домен: оплачиваются отдельно"
+  ],
+  "not_included_kk": [
+    "App Store мен Google Play-ге жариялау: PWA-ға ол керек емес, бірақ дүкен витринасы — бөлек жұмыс",
+    "Бүкіл сайттың офлайн жұмысы: онлайн төлемі және нақты уақыттағы деректері бар күрделі бөлімдер желісіз істемейді",
+    "Хостинг пен домен: бөлек төленеді"
+  ],
+  "not_included_en": [
+    "Publishing to the App Store and Google Play: a PWA does not need it, but a store listing is separate work",
+    "Offline use of the whole site: complex sections with online payment or live data do not work without a connection",
+    "Hosting and domain: paid separately"
+  ],
+  "price_from_kzt": 75000,
+  "unit": "once",
+  "days_min": 20,
+  "days_max": 35,
+  "related": [
+    "mobilnoe-prilozhenie-ios-android",
+    "veb-prilozhenie",
+    "sait-vizitka"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 111,
+  "faqs": [
+    {
+      "question_ru": "Чем PWA отличается от обычного приложения?",
+      "question_kk": "PWA әдеттегі қосымшадан несімен ерекшеленеді?",
+      "question_en": "How is a PWA different from a normal app?",
+      "answer_ru": "PWA не скачивается из магазина и работает через браузер, поэтому его проще распространять и обновлять. Нативное приложение даёт больше возможностей устройства и присутствие в магазине, но стоит дороже и делается дольше.",
+      "answer_kk": "PWA дүкеннен жүктелмейді және браузер арқылы жұмыс істейді, сондықтан таратып, жаңарту оңай. Жергілікті қосымша құрылғының мүмкіндіктерін көбірек береді және дүкенде көрінеді, бірақ қымбатырақ және ұзағырақ жасалады.",
+      "answer_en": "A PWA is not downloaded from a store and runs in the browser, so it is simpler to share and update. A native app gives more device features and a store presence, but costs more and takes longer.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Будет ли работать push-уведомление на iPhone?",
+      "question_kk": "iPhone-да push-хабарлама жұмыс істей ме?",
+      "question_en": "Will push notifications work on iPhone?",
+      "answer_ru": "Да, но только если пользователь добавил сайт на главный экран и разрешил уведомления. На iPhone это работает начиная с iOS 16.4. Правила Apple могут меняться, поэтому перед запуском мы проверяем поведение на реальных устройствах.",
+      "answer_kk": "Иә, бірақ тек пайдаланушы сайтты негізгі экранға қосып, хабарламаларға рұқсат берсе ғана. iPhone-да бұл iOS 16.4-тен бастап жұмыс істейді. Apple ережелері өзгеруі мүмкін, сондықтан іске қосар алдында құрылғыларда ағымдағы әрекетін тексереміз.",
+      "answer_en": "Yes, but only if the user added the site to the home screen and allowed notifications. On iPhone this works from iOS 16.4 onwards. Apple's rules can change, so before launch we check the current behaviour on real devices.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что нужно подготовить для PWA?",
+      "question_kk": "PWA үшін не дайындау керек?",
+      "question_en": "What do we need to prepare for a PWA?",
+      "answer_ru": "Действующий сайт или его макет, логотип в высоком разрешении и список страниц, которые должны открываться без сети. Если сайт ещё не готов, мы сначала выясним, что в нём менять, и согласуем объём работ.",
+      "answer_kk": "Жұмыс істеп тұрған сайт немесе оның макеті, жоғары ажыратымдағы логотип және желісіз ашылуы керек беттер тізімі. Сайт әлі дайын болмаса, алдымен не өзгерту керектігін анықтап, жұмыс көлемін келісеміз.",
+      "answer_en": "A working site or its layout, a high-resolution logo and a list of pages that must open without a network. If the site is not ready yet, we first find out what to change and agree on the scope.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Мы показываем, как обновлять сайт: изменения, которые вы вносите, сразу видны пользователям приложения. Дальнейшая поддержка и новые разделы оформляются отдельно. Срок работ зависит от объёма и указан в карточке.",
+      "answer_kk": "Сайтты қалай жаңартуға болатынын көрсетеміз: сіз енгізген өзгерістер қосымшада бірден көрінеді. Әрі қарай қолдау мен жаңа бөлімдер бөлек келісіледі. Жұмыс мерзімі көлемге байланысты және карточкада көрсетілген.",
+      "answer_en": "We show how to update the site: changes you make appear in the app right away. Further support and new sections are agreed separately. The timing depends on the volume of work and is shown on the card.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Одинаково ли PWA работает на разных телефонах?",
+      "question_kk": "PWA әртүрлі телефондарда бірдей жұмыс істей ме?",
+      "question_en": "Does a PWA work the same on different phones?",
+      "answer_ru": "Установка на главный экран поддерживается в современных браузерах, но поведение немного различается: на iPhone сайт ставится через меню «Поделиться». Основные сценарии мы проверяем на реальных устройствах перед запуском.",
+      "answer_kk": "Негізгі экранға орнату заманауи браузерлерде қолдау табады, бірақ әрекет аздап өзгеше: iPhone-да сайт «Бөлісу» мәзірі арқылы орнатылады. Негізгі сценарийлерді іске қосар алдында нақты құрылғыларда тексереміз.",
+      "answer_en": "Adding to the home screen is supported in modern browsers, but behaviour varies a little: on iPhone the site is added through the Share menu. We test the main flows on real devices before launch.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет, если пользователь не захочет ставить сайт?",
+      "question_kk": "Пайдаланушы сайтты орнатқысы келмесе не болады?",
+      "question_en": "What if a user does not want to install the site?",
+      "answer_ru": "Сайт продолжает работать в браузере как обычно, установка не обязательна. PWA не заменяет вашу аудиторию, а даёт ей удобный способ вернуться.",
+      "answer_kk": "Сайт браузерде әдеттегідей жұмыс істей береді, орнату міндетті емес. PWA аудиторияны алмастырмайды, оларға қайта оралудың ыңғайлы жолын береді.",
+      "answer_en": "The site keeps working in the browser as usual, and installing is optional. A PWA does not replace your audience; it gives them a convenient way to come back.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кому принадлежат код и домен после запуска?",
+      "question_kk": "Іске қосылғаннан кейін код пен домен кімге тиесілі?",
+      "question_en": "Who owns the code and domain after launch?",
+      "answer_ru": "Код передаём вам полностью, а домен и хостинг остаются в вашем аккаунте. Хостинг оплачивается отдельно, и мы обговариваем это заранее.",
+      "answer_kk": "Кодты толық тапсырамыз, ал домен мен хостинг сіздің аккаунтыңызда қалады. Хостинг бөлек төленеді, және мұны алдын ала келісеміз.",
+      "answer_en": "We hand over the full code, and the domain and hosting stay in your account. Hosting is paid separately, and we agree on this in advance.",
+      "sort": 6
+    }
+  ]
+}

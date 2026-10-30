@@ -1,15 +1,15 @@
 {
   "slug": "pochta-na-domene",
-  "category": "support",
+  "category": "devops",
   "title_ru": "Почта на домене",
   "title_kk": "Доменде пошта",
   "title_en": "Business email on your domain",
-  "short_ru": "Настраиваю почту вида info@вашсайт.kz, чтобы письма не попадали в спам и работали в телефоне.",
-  "short_kk": "info@сіздіңсайт.kz түріндегі поштаны баптаймын, хаттар спамға түспейді және телефонда жұмыс істейді.",
-  "short_en": "I set up addresses like info@yoursite.com so your emails do not land in spam and work on your phone.",
-  "description_ru": "Адрес на домене выглядит солиднее, чем почта на бесплатном сервисе, и письма с него меньше попадают в спам, если правильно настроены записи. Я подключаю домен к почтовому сервису, создаю ящики, добавляю записи SPF, DKIM и DMARC и настраиваю почту на телефоне и компьютере. После этого вы получаете короткую инструкцию.",
-  "description_kk": "Доменіңіздегі мекенжай тегін сервистегі поштадан сенімдірек көрінеді, ал жазбалар дұрыс бапталса, одан шыққан хаттар спамға аз түседі. Мен доменді пошта сервисіне қосып, жәшіктер ашып, SPF, DKIM және DMARC жазбаларын қосамын, поштаны телефонда және компьютерде баптаймын. Содан кейін сізге қысқа нұсқаулық беремін.",
-  "description_en": "An address on your own domain looks more credible than a free mailbox, and its messages are less likely to go to spam when the records are set correctly. I connect the domain to an email service, create the mailboxes, add the SPF, DKIM and DMARC records and set up mail on your phone and computer. You then get a short guide.",
+  "short_ru": "Настраиваем почту вида info@вашсайт.kz, чтобы письма не попадали в спам и работали в телефоне.",
+  "short_kk": "info@сіздіңсайт.kz түріндегі поштаны баптаймыз, хаттар спамға түспейді және телефонда жұмыс істейді.",
+  "short_en": "We set up addresses like info@yoursite.com so your emails do not land in spam and work on your phone.",
+  "description_ru": "Адрес на домене выглядит солиднее, чем почта на бесплатном сервисе, и письма с него меньше попадают в спам, если правильно настроены записи. Мы подключаем домен к почтовому сервису, создаём ящики, добавляем записи SPF, DKIM и DMARC и настраиваем почту на телефоне и компьютере. После этого вы получаете короткую инструкцию.",
+  "description_kk": "Доменіңіздегі мекенжай тегін сервистегі поштадан сенімдірек көрінеді, ал жазбалар дұрыс бапталса, одан шыққан хаттар спамға аз түседі. Біз доменді пошта сервисіне қосып, жәшіктер ашып, SPF, DKIM және DMARC жазбаларын қосамыз, поштаны телефонда және компьютерде баптаймыз. Содан кейін сізге қысқа нұсқаулық береміз.",
+  "description_en": "An address on your own domain looks more credible than a free mailbox, and its messages are less likely to go to spam when the records are set correctly. We connect the domain to an email service, create the mailboxes, add the SPF, DKIM and DMARC records and set up mail on your phone and computer. You then get a short guide.",
   "for_whom_ru": "Компаниям и предпринимателям, которые пишут клиентам с gmail.com и хотят адрес со своим названием.",
   "for_whom_kk": "Клиенттерге gmail.com-нан жазатын және өз атауы бар мекенжай қалайтын компаниялар мен кәсіпкерлерге арналған.",
   "for_whom_en": "For businesses and freelancers who write to clients from a free mailbox and want an address with their own name.",
@@ -52,7 +52,7 @@
     "Migrating a very large archive of old messages from another mailbox",
     "Bulk mailing to many addresses, which is a separate setup"
   ],
-  "price_from_kzt": 8000,
+  "price_from_kzt": 5000,
   "unit": "once",
   "days_min": 1,
   "days_max": 1,
@@ -68,9 +68,9 @@
       "question_ru": "Нужен ли для почты хостинг?",
       "question_kk": "Пошта үшін хостинг керек пе?",
       "question_en": "Do I need web hosting to have domain email?",
-      "answer_ru": "Не обязательно. Почту можно держать у отдельного почтового сервиса, а сайт при этом хранить где угодно. Подходящий вариант подскажу по вашему бюджету.",
-      "answer_kk": "Міндетті емес. Поштаны бөлек пошта сервисінде ұстап, сайтты қалаған жерде сақтауға болады. Бюджетіңізге сай нұсқаны айтамын.",
-      "answer_en": "Not necessarily. Mail can live with a separate email provider while the site is stored anywhere else. I will suggest an option that fits your budget.",
+      "answer_ru": "Не обязательно. Почту можно держать у отдельного почтового сервиса, а сайт при этом хранить где угодно. Подходящий вариант подскажем по вашему бюджету.",
+      "answer_kk": "Міндетті емес. Поштаны бөлек пошта сервисінде ұстап, сайтты қалаған жерде сақтауға болады. Бюджетіңізге сай нұсқаны айтамыз.",
+      "answer_en": "Not necessarily. Mail can live with a separate email provider while the site is stored anywhere else. We will suggest an option that fits your budget.",
       "sort": 0
     },
     {
@@ -86,10 +86,47 @@
       "question_ru": "Могу ли я пользоваться почтой с телефона?",
       "question_kk": "Поштаны телефоннан пайдалана аламын ба?",
       "question_en": "Can I read this mail on my phone?",
-      "answer_ru": "Да. Я добавляю ящик в почтовое приложение на iPhone или Android и проверяю, что письма приходят и отправляются.",
-      "answer_kk": "Иә. Жәшікті iPhone немесе Android-тағы пошта қосымшасына қосып, хаттардың келіп, жіберілетінін тексеремін.",
-      "answer_en": "Yes. I add the mailbox to the mail app on your iPhone or Android and check that messages arrive and send correctly.",
+      "answer_ru": "Да. Мы добавляем ящик в почтовое приложение на iPhone или Android и проверяем, что письма приходят и отправляются.",
+      "answer_kk": "Иә. Жәшікті iPhone немесе Android-тағы пошта қосымшасына қосып, хаттардың келіп, жіберілетінін тексереміз.",
+      "answer_en": "Yes. We add the mailbox to the mail app on your iPhone or Android and check that messages arrive and send correctly.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько ждать, пока заработают DNS-записи?",
+      "question_kk": "DNS-жазбалар қанша уақытта жұмыс істейді?",
+      "question_en": "How long until the DNS records start working?",
+      "answer_ru": "Обычно от нескольких минут до нескольких часов, а у некоторых регистраторов дольше. Тестовую отправку делаем после того, как записи подтвердились.",
+      "answer_kk": "Әдетте бірнеше минуттан бірнеше сағатқа дейін, кейбір тіркеушілерде ұзағырақ. Сынақ жіберуді жазбалар расталған соң жасаймыз.",
+      "answer_en": "Usually from a few minutes to a few hours, and longer with some registrars. We send the test email once the records are confirmed.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно от меня, чтобы подключить домен?",
+      "question_kk": "Доменді қосу үшін менен не керек?",
+      "question_en": "What do you need from me to connect the domain?",
+      "answer_ru": "Доступ к панели регистратора домена, где меняются DNS-записи, и список людей, которым нужны ящики. Пароли от ящиков вы получаете сами и можете сменить их сразу.",
+      "answer_kk": "Домен тіркеушісінің панеліне қолжетімділік, онда DNS-жазбалары өзгереді, және поштаға қажет адамдардың тізімі. Пошта құпия сөздерін өзіңіз аласыз және оларды бірден ауыстыра аласыз.",
+      "answer_en": "Access to your domain registrar's panel, where the DNS records are changed, and a list of the people who need mailboxes. You receive the mailbox passwords yourself and can change them right away.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли добавить ящики позже?",
+      "question_kk": "Поштаны кейін қосуға бола ма?",
+      "question_en": "Can more mailboxes be added later?",
+      "answer_ru": "Да, в пределах тарифа почтового сервиса, и новые ящики создаются по той же схеме. Сколько ящиков входит в настройку, уточняем до начала работ.",
+      "answer_kk": "Иә, пошта қызметінің тарифі шегінде, жаңа пошта дәл осындай схема бойынша жасалады. Баптауға қанша пошта кіретінін жұмыс басталар алдында нақтылаймыз.",
+      "answer_en": "Yes, within the mail service plan, and new mailboxes are created the same way. We confirm how many mailboxes the setup includes before we start.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Будут ли письма с сайта, например из формы заявки, уходить с нового адреса?",
+      "question_kk": "Сайттан, мысалы өтініш формасынан келген хаттар жаңа мекенжайдан жіберіле ме?",
+      "question_en": "Will emails from the website, such as a contact form, go out from the new address?",
+      "answer_ru": "Не автоматически: отправка с сайта требует отдельной настройки, если она ещё не подключена. Мы можем настроить её так, чтобы письма уходили с вашего домена.",
+      "answer_kk": "Автоматты түрде емес: сайттан жіберу бөлек баптауды талап етеді, егер ол әлі қосылмаған болса. Хаттар сіздің доменіңізден жіберілетіндей баптай аламыз.",
+      "answer_en": "Not automatically: sending from the site needs separate setup if it is not connected yet. We can set it up so emails go out from your domain.",
+      "sort": 6
     }
-  ]
+  ],
+  "is_onsite": false
 }

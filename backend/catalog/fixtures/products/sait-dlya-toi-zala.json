@@ -55,7 +55,7 @@
     "Automatic calendar sync with your internal hall bookings",
     "Online deposit payment, possible by agreement as a separate stage"
   ],
-  "price_from_kzt": 50000,
+  "price_from_kzt": 65000,
   "unit": "once",
   "days_min": 4,
   "days_max": 8,
@@ -89,10 +89,46 @@
       "question_ru": "Какой язык сайта лучше выбрать?",
       "question_kk": "Сайттың қай тілін таңдаған жөн?",
       "question_en": "Which site language should I choose?",
-      "answer_ru": "Для тоёв в Казахстане хорошо работает версия на русском и казахском: приглашают семьи с обеих сторон. Вторую версию делаю по договорённости, тексты правим вместе.",
-      "answer_kk": "Қазақстандағы тойлар үшін орыс және қазақ тіліндегі нұсқа жақсы жұмыс істейді: екі жақтың отбасы шақырылады. Екінші нұсқаны келісім бойынша жасаймын, мәтінді бірге түзейміз.",
-      "answer_en": "For weddings in Kazakhstan a Russian and Kazakh version works well, since families from both sides are invited. I build the second language by agreement and we refine the texts together.",
+      "answer_ru": "Для тоёв в Казахстане хорошо работает версия на русском и казахском: приглашают семьи с обеих сторон. Вторую версию делаем по договорённости, тексты правим вместе.",
+      "answer_kk": "Қазақстандағы тойлар үшін орыс және қазақ тіліндегі нұсқа жақсы жұмыс істейді: екі жақтың отбасы шақырылады. Екінші нұсқаны келісім бойынша жасаймыз, мәтінді бірге түзейміз.",
+      "answer_en": "For weddings in Kazakhstan a Russian and Kazakh version works well, since families from both sides are invited. We build the second language by agreement and refine the texts together.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли показать разные меню для тоя и для свадьбы?",
+      "question_kk": "Той мен үйлену тойына бөлек мәзірлерді көрсетуге бола ма?",
+      "question_en": "Can we show different menus for a toy and a wedding?",
+      "answer_ru": "Да, примеры меню размещаются отдельными блоками, и гость выбирает подходящий вариант. Так каждая семья видит именно то, что ей нужно.",
+      "answer_kk": "Иә, мәзір үлгілері бөлек блоктарда орналасады, қонақ өзіне лайықты нұсқаны таңдайды. Осылайша әр отбасы өзіне қажетін көреді.",
+      "answer_en": "Yes, sample menus go in separate blocks, and the guest picks the option that suits them. This way each family sees exactly what they need.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно от зала для запуска?",
+      "question_kk": "Іске қосу үшін залдан не керек?",
+      "question_en": "What do we need from the hall for launch?",
+      "answer_ru": "Фото залов, планировки, вместимость, примеры меню, список того, что входит в аренду, и контакт менеджера. Всё это передаёте вы, а сайт собираем мы.",
+      "answer_kk": "Зал фотосы, жоспарлары, сыйымдылығы, мәзір үлгілері, жалға не кіретінін тізімі және менеджердің байланысы. Мұның бәрін сіз бересіз, ал сайтты біз жинаймыз.",
+      "answer_en": "Photos of the halls, floor plans, capacity, sample menus, a list of what the rental includes and the manager's contact. You provide all of it, and we build the site.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет, если цена меню изменится?",
+      "question_kk": "Мәзір бағасы өзгерсе, не болады?",
+      "question_en": "What happens if the menu price changes?",
+      "answer_ru": "На сайте цены указаны как ориентир, а менеджер подтверждает актуальную стоимость при брони. Так клиент не получит устаревших данных после бронирования.",
+      "answer_kk": "Сайтта бағалар бағдар ретінде көрсетіледі, ал менеджер брондау кезінде өзекті құнын растайды. Осылайша брондаудан кейін клиент ескірген деректерді алмайды.",
+      "answer_en": "Prices on the site are indicative, and the manager confirms the current cost when booking. This way the client does not get outdated figures after booking.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Подойдёт ли сайт для банкетов в ресторане, а не только для тоя?",
+      "question_kk": "Сайт тек той үшін ғана емес, мейрамханадағы банкетке де жарай ма?",
+      "question_en": "Does the site suit restaurant banquets, not only toy events?",
+      "answer_ru": "Да, страницы залов, меню и заявок подходят для любого банкетного зала. Структуру и тексты подстроим под формат именно вашего заведения.",
+      "answer_kk": "Иә, залдар, мәзір және өтінім беттері кез келген банкет залына жарайды. Құрылымы мен мәтіндерін сіздің мекеменің форматына бейімдейміз.",
+      "answer_en": "Yes, the hall pages, menus and request form suit any banquet venue. We will adapt the structure and texts to your venue's format.",
+      "sort": 6
     }
   ]
 }

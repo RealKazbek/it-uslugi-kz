@@ -1,7 +1,7 @@
 import type { CatalogDict } from '../types';
 
 export const catalogKk: CatalogDict = {
-  title: 'Қызмет каталогы: сайттар, боттар, ЖИ, автоматтандыру | RK Dev',
+  title: 'Қызмет каталогы: сайттар, боттар, ЖИ, автоматтандыру | Perne',
   description: (count, min) =>
     `${count} дайын өнімнен тұратын каталог: сайттар, дүкендер, боттар, ЖИ-көмекшілер, автоматтандыру және сабақтар. Бағасы ${min}, сүзгі мен іздеу бар.`,
   h1: 'Қызмет каталогы',
@@ -10,12 +10,17 @@ export const catalogKk: CatalogDict = {
   filterLabel: 'Санат',
   searchLabel: 'Каталогтан іздеу',
   searchPlaceholder: 'Мысалы: бот, сайт, Kaspi',
-  empty: 'Ештеңе табылмады. Басқа сұраныс жазып көріңіз немесе маған жазыңыз.',
+  empty: 'Ештеңе табылмады. Басқа сұраныс жазып көріңіз немесе бізге жазыңыз.',
   categories: 'Санаттар',
   countLabel: (n) => `Өнімдер: ${n}`,
-  hubTitle: (name) => `${name}: каталог және бағалар | RK Dev`,
-  hubDescription: (short, min) => `${short}. Бағасы ${min}. Қазақстан бойынша қашықтан жұмыс істеймін.`,
+  hubTitle: (name) => `${name}: каталог және бағалар | Perne`,
+  hubDescription: (short, min) => `${short}. Бағасы ${min}. Қазақстан бойынша қашықтан жұмыс істейміз.`,
   hubH1: (name) => `${name}: каталог және бағалар`,
   hubList: 'Санаттағы өнімдер',
   hubOthers: 'Басқа санаттар',
+  sortLabel: 'Сұрыптау',
+  sorts: { popular: 'Алдымен танымалдары', priceAsc: 'Алдымен арзандары', priceDesc: 'Алдымен қымбаттары', fast: 'Алдымен жылдамдары' },
+  results: (n) => `Табылды: ${n}`,
+  reset: 'Сүзгілерді тазалау',
+  listHeading: 'Өнімдер',
 };
