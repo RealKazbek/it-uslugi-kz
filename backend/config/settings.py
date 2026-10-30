@@ -147,6 +147,8 @@ REST_FRAMEWORK: dict[str, Any] = {
 SPECTACULAR_SETTINGS: dict[str, Any] = {
     "TITLE": "Perne API",
     "VERSION": "1.0.0",
+    # Review.locale and the review form field expose the same ru/kk/en choice set.
+    "ENUM_NAME_OVERRIDES": {"LocaleEnum": "reviews.models.review.Review.Locale"},
 }
 
 # Project settings consumed by later milestones (leads, notifications, revalidation).
