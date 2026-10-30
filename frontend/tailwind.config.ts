@@ -25,7 +25,6 @@ const config: Config = {
         success: channel('success'),
         whatsapp: { DEFAULT: channel('whatsapp'), foreground: channel('whatsapp-foreground'), hover: channel('whatsapp-hover') },
         telegram: channel('telegram'),
-        instagram: channel('instagram'),
         surface: { 100: channel('surface-100'), 200: channel('surface-200'), tint: channel('surface-tint') },
         ink: { DEFAULT: channel('ink'), muted: channel('ink-muted') },
         line: channel('line'),

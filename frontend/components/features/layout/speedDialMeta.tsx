@@ -28,10 +28,10 @@ export const SPEED_DIAL_META: Record<ContactKey, SpeedDialMeta> = {
   },
   instagram: {
     icon: <SiInstagram size={ICON_SIZE} aria-hidden="true" />,
-    circleClass: 'border border-line bg-surface-100 text-instagram',
+    circleClass: 'border border-line bg-surface-100 text-brand',
     label: (l) => l.instagram,
   },
-  // TikTok's brand mark is near-black, so it keeps the neutral foreground colour.
+  // Instagram and TikTok both use existing Perne tokens (brand, foreground); no new colours.
   tiktok: {
     icon: <SiTiktok size={ICON_SIZE} aria-hidden="true" />,
     circleClass: 'border border-line bg-surface-100 text-foreground',
