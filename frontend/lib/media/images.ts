@@ -11,6 +11,7 @@ const FOCUS: Record<string, string> = {
   'crm-dlya-malogo-biznesa': '50% 60%',
   'lechenie-ot-vzloma': '50% 55%',
   'telegram-mini-app': '50% 40%',
+  'sait-dlya-avtoservisa': '50% 20%',
   'podgotovka-k-zashite': '70% 50%',
   'pomosh-s-kursami': '35% 40%',
   'repetitor-programmirovaniya': '50% 35%',
