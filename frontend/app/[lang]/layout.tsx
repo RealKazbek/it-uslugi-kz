@@ -8,11 +8,16 @@ import { Footer } from '@/components/features/layout/Footer';
 import { Header } from '@/components/features/layout/Header';
 import { ContactSpeedDial } from '@/components/features/layout/ContactSpeedDial';
 import { LeadModalProvider } from '@/components/features/lead/LeadModalProvider';
+import { SearchPalette } from '@/components/features/search/SearchPalette';
+import { SearchProvider } from '@/components/features/search/SearchProvider';
 import { MobileCtaBar } from '@/components/features/layout/MobileCtaBar';
 import { callLink, telegramLink, whatsappGeneralLink } from '@/lib/format/links';
+import { getCategories } from '@/lib/api/categories';
 import { getProducts } from '@/lib/api/products';
+import { categoryView } from '@/lib/catalog/localize';
 import { getReviewsSafe } from '@/lib/api/reviews';
 import { getDict } from '@/lib/i18n/dict';
+import { toProductOptions } from '@/lib/leads/serviceOptions';
 import { HTML_LANG, LANGS, isLang } from '@/lib/i18n/locales';
 
 /** Onest: Latin + Cyrillic + cyrillic-ext (Kazakh ә ғ қ ң ө ұ ү һ і). */
@@ -42,7 +47,11 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
   if (!isLang(lang)) notFound();
   const d = getDict(lang).common;
   const lead = getDict(lang).lead;
-  const products = (await getProducts(lang).catch(() => [])).map((p) => ({ slug: p.slug, title: p.title }));
+  const [productDtos, categoryDtos] = await Promise.all([getProducts(lang).catch(() => []), getCategories().catch(() => [])]);
+  const products = toProductOptions(
+    productDtos,
+    categoryDtos.map((dto) => categoryView(dto, lang)),
+  );
   const hasReviews = (await getReviewsSafe()).results.length > 0;
 
   return (
@@ -58,6 +67,7 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
             labels={lead}
             titles={{ title: lead.modalTitle, subtitle: lead.modalSubtitle, close: lead.close }}
           >
+          <SearchProvider>
           <Header lang={lang} hasReviews={hasReviews} />
           <main id="main" className="pt-16 min-[900px]:pt-20">{children}</main>
           <Footer lang={lang} hasReviews={hasReviews} />
@@ -68,6 +78,8 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
             labels={{ whatsapp: d.wa, telegram: d.tg, call: d.cta.call }}
           />
           <ContactSpeedDial lang={lang} labels={d.speedDial} />
+          <SearchPalette lang={lang} labels={getDict(lang).search} />
+          </SearchProvider>
           </LeadModalProvider>
         </MotionProvider>
       </body>

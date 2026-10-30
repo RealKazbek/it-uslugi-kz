@@ -24,6 +24,8 @@ export interface LangSwitcherProps {
   switchLabel: string;
   /** Edge the dropdown opens from: right in the header, left inside the mobile panel. */
   align?: 'left' | 'right';
+  /** Direction the dropdown opens: down by default, up in the footer. */
+  placement?: 'down' | 'up';
 }
 
 /** City pages exist in ru and kk only, so en is not offered there. */
@@ -39,7 +41,7 @@ function itemsOf(menu: HTMLElement | null): HTMLAnchorElement[] {
  * Globe button that toggles a menu of language links. Targets come from the URL, so the
  * layout needs no per-page props and pages stay static (ISR).
  */
-export function LangSwitcher({ lang, names, switchLabel, align = 'right' }: LangSwitcherProps) {
+export function LangSwitcher({ lang, names, switchLabel, align = 'right', placement = 'down' }: LangSwitcherProps) {
   const pathname = usePathname();
   const { rest } = splitLocale(pathname);
   const [open, setOpen] = useState(false);
@@ -82,7 +84,8 @@ export function LangSwitcher({ lang, names, switchLabel, align = 'right' }: Lang
           role="menu"
           aria-label={switchLabel}
           className={cn(
-            'absolute top-full z-50 mt-2 w-44 animate-in fade-in-0 zoom-in-95 duration-fast rounded-lg border border-line bg-surface-100 p-1 shadow-pop',
+            'absolute z-50 w-44 animate-in fade-in-0 zoom-in-95 duration-fast rounded-lg border border-line bg-surface-100 p-1 shadow-pop',
+            placement === 'up' ? 'bottom-full mb-2' : 'top-full mt-2',
             align === 'left' ? 'left-0 origin-top-left' : 'right-0 origin-top-right',
           )}
         >

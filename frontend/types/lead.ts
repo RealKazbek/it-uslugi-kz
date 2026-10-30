@@ -26,3 +26,10 @@ export type LeadSubmitResult =
   | { ok: false; reason: 'throttled' }
   | { ok: false; reason: 'invalid'; fields: LeadField[] }
   | { ok: false; reason: 'error' };
+
+/** One product in the service combobox. `category` is the localized category name. */
+export interface ProductOption {
+  slug: string;
+  title: string;
+  category?: string;
+}

@@ -7,6 +7,8 @@ export interface AppConfig {
   usdRate: number;
   /** Russian names of cities where on-site work is offered (ONSITE_CITIES, comma separated). */
   onsiteCities: string[];
+  /** Daily working hours shown in the footer (WORKING_HOURS), e.g. "09:00–21:00". Empty hides the line. */
+  workingHours: string;
 }
 
 const DEFAULT_API_URL = 'http://localhost:8000';
@@ -38,6 +40,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
     siteUrl: stripTrailingSlash(env.SITE_URL?.trim() || DEFAULT_SITE_URL),
     usdRate: readUsdRate(env.USD_RATE),
     onsiteCities: readList(env.ONSITE_CITIES, DEFAULT_ONSITE_CITIES),
+    workingHours: env.WORKING_HOURS?.trim() ?? '09:00–21:00',
   };
 }
 

@@ -4,7 +4,7 @@ export const leadKk: LeadDict = {
   labels: { name: 'Аты', contact: 'Телефон', channel: 'Қалай жауап беру керек', message: 'Тапсырма', service: 'Қызмет' },
   channels: { whatsapp: 'WhatsApp', telegram: 'Telegram', phone: 'Қоңырау', email: 'Email' },
   placeholders: { name: 'Сізге қалай жүгінейін', contact: '+7 (___) ___-__-__', message: 'Тапсырманы қысқаша сипаттаңыз' },
-  notSelected: 'Таңдалмаған',
+  combobox: { consultation: 'Білмеймін, кеңес қажет', other: 'Басқа', search: 'Қызметті іздеу', noResults: 'Ештеңе табылмады. «Басқа» таңдаңыз немесе тапсырманы төменде сипаттаңыз.' },
   submit: 'Өтінім жіберу',
   sending: 'Жіберіліп жатыр…',
   success: 'Өтінім жіберілді. Таңдалған арна бойынша жауап береміз.',

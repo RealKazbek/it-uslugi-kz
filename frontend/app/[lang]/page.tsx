@@ -26,7 +26,7 @@ import { telegramLink, whatsappGeneralLink } from '@/lib/format/links';
 import { getDict } from '@/lib/i18n/dict';
 import { LANGS, type Lang } from '@/lib/i18n/locales';
 import { localePath } from '@/lib/i18n/paths';
-import { legal } from '@/lib/site/legal';
+import { getSiteFaq, HOME_FAQ_IDS, pickFaqItems } from '@/lib/faq/site';
 import { buildPageMetadata } from '@/lib/seo/metadata';
 import { faqPageLd, professionalServiceLd } from '@/lib/seo/jsonld';
 
@@ -59,7 +59,7 @@ export default async function HomePage({ params }: PageProps) {
   const catalog = await loadCatalog(lang);
   const categories = catalog.categories.filter((c) => c.productCount > 0);
   const featured = catalog.groups.flatMap((group) => (group.cards[0] ? [group.cards[0]] : []));
-  const faq = [...h.faq, { q: h.legalQuestion, a: legal[lang] }];
+  const faq = pickFaqItems(getSiteFaq(lang), HOME_FAQ_IDS);
   const cities = await citiesFor(lang);
   const reviews = await getReviewsSafe();
   const hrefFor = (slug: string) => localePath(lang, `/catalog/${slug}`);
@@ -104,7 +104,7 @@ export default async function HomePage({ params }: PageProps) {
         countLabel={d.catalog.countLabel}
       />
       <TrustSection title={h.trustHeading} lead={h.trustLead} items={h.trustItems} stats={stats} />
-      <FaqSection title={h.faqHeading} items={faq} />
+      <FaqSection title={h.faqHeading} items={faq} allLabel={d.faq.allQuestions} allHref={localePath(lang, '/faq')} />
       {cities.length > 0 && <CitiesSection title={h.citiesHeading} lead={h.citiesLead} cities={cities} />}
       <CtaSection
         title={h.ctaTitle}

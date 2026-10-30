@@ -4,6 +4,7 @@ import { Bot, Globe } from 'lucide-react';
 import { m } from 'framer-motion';
 import Image from 'next/image';
 import { heroImages } from '@/lib/media/images';
+import { BackgroundVideo } from './BackgroundVideo';
 import { EASE_OUT } from '@/components/motion/presets';
 
 interface HeroVisualProps {
@@ -41,7 +42,7 @@ export function HeroVisual({ chips }: HeroVisualProps) {
           <span className="size-2.5 rounded-full bg-border" />
         </div>
         <div className="relative aspect-[3/2]">
-          <Image src={heroImages.desk} alt="" fill priority sizes="(min-width: 1024px) 560px, 90vw" className="object-cover" />
+          <BackgroundVideo src="/media/video/hero" />
         </div>
       </div>
       <div className="absolute -bottom-2 right-0 w-28 overflow-hidden rounded-[2rem] border-4 border-foreground bg-foreground shadow-pop sm:w-36">

@@ -13,6 +13,7 @@ describe('loadConfig', () => {
       siteUrl: 'https://uslugi.realkazbek.site',
       usdRate: 500,
       onsiteCities: ['Алматы'],
+      workingHours: '09:00–21:00',
     });
   });
 

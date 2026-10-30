@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { RequestButton } from '@/components/features/lead/OpenLeadButton';
+import { SearchButton } from '@/components/features/search/SearchButton';
 import { Wordmark } from '@/components/ui/Wordmark';
 import { getDict } from '@/lib/i18n/dict';
 import type { CommonDict } from '@/lib/i18n/dict/types';
@@ -37,6 +38,7 @@ export function Header({ lang, hasReviews }: { lang: Lang; hasReviews: boolean }
       </Link>
       <NavLinks label={d.menu} items={links} />
       <div className="col-start-3 flex items-center gap-3 justify-self-end">
+        <SearchButton lang={lang} labels={{ label: getDict(lang).search.label, hint: getDict(lang).search.hint }} />
         <div className="hidden items-center gap-3 min-[900px]:flex">
           <LangSwitcher lang={lang} names={LANG_NAMES} switchLabel={d.switchLabel} />
           <RequestButton size="sm">{d.cta.request}</RequestButton>

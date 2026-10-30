@@ -4,7 +4,7 @@ export const leadEn: LeadDict = {
   labels: { name: 'Name', contact: 'Phone', channel: 'How to reply', message: 'Your task', service: 'Service' },
   channels: { whatsapp: 'WhatsApp', telegram: 'Telegram', phone: 'Call', email: 'Email' },
   placeholders: { name: 'What should we call you', contact: '+7 (___) ___-__-__', message: 'Briefly describe the task' },
-  notSelected: 'Not selected',
+  combobox: { consultation: 'Not sure, I need a consultation', other: 'Other', search: 'Search services', noResults: 'Nothing found. Choose “Other” or describe the task below.' },
   submit: 'Send request',
   sending: 'Sending…',
   success: 'Request sent. We will reply in the channel you chose.',

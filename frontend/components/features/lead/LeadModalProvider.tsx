@@ -3,7 +3,7 @@
 import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react';
 import { usePathname } from 'next/navigation';
 import { LeadModal, type LeadModalTitles } from './LeadModal';
-import type { ProductOption } from './ServiceField';
+import type { ProductOption } from '@/types/lead';
 import type { LeadDict } from '@/lib/i18n/dict/types';
 import type { Lang } from '@/lib/i18n/locales';
 

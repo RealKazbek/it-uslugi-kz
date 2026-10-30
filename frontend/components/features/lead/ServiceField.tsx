@@ -1,30 +1,42 @@
-import { FieldShell, INPUT_CLASS } from './FieldShell';
+'use client';
 
-export interface ProductOption {
-  slug: string;
-  title: string;
-}
+import { useMemo, useState } from 'react';
+import { Combobox } from '@/components/ui/Combobox';
+import type { LeadDict } from '@/lib/i18n/dict/types';
+import { buildServiceGroups, filterServiceGroups } from '@/lib/leads/serviceOptions';
+import type { ProductOption } from '@/types/lead';
+import { FieldShell } from './FieldShell';
 
 interface ServiceFieldProps {
   id: string;
   label: string;
-  notSelected: string;
+  texts: LeadDict['combobox'];
   products: ProductOption[];
+  /** Slug preselected by the caller (e.g. the product page). Empty means consultation. */
   defaultValue: string;
 }
 
-/** Native select of products. The empty first option means "no product chosen". */
-export function ServiceField({ id, label, notSelected, products, defaultValue }: ServiceFieldProps) {
+/** Searchable service picker. The hidden input carries the chosen slug ("" for consultation, "other" for other). */
+export function ServiceField({ id, label, texts, products, defaultValue }: ServiceFieldProps) {
+  const [value, setValue] = useState(defaultValue);
+  const groups = useMemo(
+    () => buildServiceGroups(products, { consultation: texts.consultation, other: texts.other }),
+    [products, texts.consultation, texts.other],
+  );
+
   return (
     <FieldShell id={id} label={label}>
-      <select id={id} name="product" defaultValue={defaultValue} className={INPUT_CLASS}>
-        <option value="">{notSelected}</option>
-        {products.map((product) => (
-          <option key={product.slug} value={product.slug}>
-            {product.title}
-          </option>
-        ))}
-      </select>
+      <Combobox
+        id={id}
+        value={value}
+        onChange={setValue}
+        groups={groups}
+        filter={filterServiceGroups}
+        listLabel={label}
+        searchPlaceholder={texts.search}
+        noResultsText={texts.noResults}
+      />
+      <input type="hidden" name="product" value={value} />
     </FieldShell>
   );
 }

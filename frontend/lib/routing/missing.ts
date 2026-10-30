@@ -3,7 +3,7 @@ import type { Lang } from '@/lib/i18n/locales';
 import { createSlugIndex, type SlugKind, type SlugPayload } from './slug-index';
 
 /** Sections that exist as a single segment under every language. */
-export const SINGLE_SECTIONS = ['catalog', 'prices', 'reviews', 'contacts'] as const;
+export const SINGLE_SECTIONS = ['catalog', 'prices', 'reviews', 'contacts', 'faq', 'search'] as const;
 /** Sections that need a slug (catalog/{category}, products/{slug}, city/{slug}). */
 export const SLUG_SECTIONS = ['catalog', 'products', 'city'] as const;
 

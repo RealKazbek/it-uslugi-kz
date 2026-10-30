@@ -4,7 +4,7 @@ export const leadRu: LeadDict = {
   labels: { name: 'Имя', contact: 'Телефон', channel: 'Как ответить', message: 'Задача', service: 'Услуга' },
   channels: { whatsapp: 'WhatsApp', telegram: 'Telegram', phone: 'Звонок', email: 'Email' },
   placeholders: { name: 'Как к вам обращаться', contact: '+7 (___) ___-__-__', message: 'Коротко опишите задачу' },
-  notSelected: 'Не выбрано',
+  combobox: { consultation: 'Не знаю, нужна консультация', other: 'Другое', search: 'Поиск услуги', noResults: 'Ничего не найдено. Выберите «Другое» или опишите задачу ниже.' },
   submit: 'Отправить заявку',
   sending: 'Отправляем…',
   success: 'Заявка отправлена. Ответим в выбранном канале.',

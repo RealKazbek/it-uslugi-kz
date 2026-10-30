@@ -1,10 +1,8 @@
 import type { ReactNode } from 'react';
 import { Mail, Phone } from 'lucide-react';
 import { SiTelegram, SiWhatsapp } from 'react-icons/si';
-import { telegramLink, whatsappGeneralLink } from '@/lib/format/links';
-import { getDict } from '@/lib/i18n/dict';
+import { CONTACTS, contacts } from '@/lib/site/contacts';
 import type { Lang } from '@/lib/i18n/locales';
-import { contacts } from '@/lib/site/contacts';
 
 function ContactItem({ href, icon, children }: { href: string; icon: ReactNode; children: ReactNode }) {
   const external = /^https?:\/\//.test(href);
@@ -13,9 +11,9 @@ function ContactItem({ href, icon, children }: { href: string; icon: ReactNode; 
       <a
         href={href}
         {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-        className="inline-flex min-h-11 items-center gap-3 text-foreground no-underline hover:underline"
+        className="inline-flex min-h-11 items-center gap-3 rounded-sm text-sm text-foreground no-underline hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring md:min-h-9"
       >
-        <span aria-hidden="true" className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-background text-primary">
+        <span aria-hidden="true" className="flex size-7 shrink-0 items-center justify-center rounded-lg bg-surface-100 text-primary">
           {icon}
         </span>
         {children}
@@ -24,20 +22,15 @@ function ContactItem({ href, icon, children }: { href: string; icon: ReactNode; 
   );
 }
 
-/** Messenger, phone and email links with icons. */
-export function FooterContacts({ lang }: { lang: Lang }) {
-  const d = getDict(lang).common;
+/** Phone, WhatsApp, Telegram and email. Items whose CONTACTS value is empty are hidden. */
+export function FooterContacts({ lang, label }: { lang: Lang; label: string }) {
   const phone = lang === 'en' ? contacts.phoneDisplayIntl : contacts.phoneDisplay;
-
   return (
-    <div className="space-y-3">
-      <p className="font-bold">{d.social}</p>
-      <ul className="space-y-1">
-        <ContactItem href={whatsappGeneralLink(lang)} icon={<SiWhatsapp size={16} />}>{d.wa}</ContactItem>
-        <ContactItem href={telegramLink()} icon={<SiTelegram size={16} />}>{d.tg}</ContactItem>
-        <ContactItem href={`tel:${contacts.phone}`} icon={<Phone className="size-4" />}>{phone}</ContactItem>
-        <ContactItem href={`mailto:${contacts.email}`} icon={<Mail className="size-4" />}>{contacts.email}</ContactItem>
-      </ul>
-    </div>
+    <ul aria-label={label}>
+      {CONTACTS.phone && <ContactItem href={CONTACTS.phone} icon={<Phone className="size-4" />}>{phone}</ContactItem>}
+      {CONTACTS.whatsapp && <ContactItem href={CONTACTS.whatsapp} icon={<SiWhatsapp size={14} />}>WhatsApp</ContactItem>}
+      {CONTACTS.telegram && <ContactItem href={CONTACTS.telegram} icon={<SiTelegram size={14} />}>Telegram</ContactItem>}
+      {CONTACTS.email && <ContactItem href={CONTACTS.email} icon={<Mail className="size-4" />}>{contacts.email}</ContactItem>}
+    </ul>
   );
 }

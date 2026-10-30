@@ -9,10 +9,11 @@ import { LeadStatus, type LeadOutcome } from './LeadStatus';
 import { MessageField } from './MessageField';
 import { useLeadProducts } from './LeadModalProvider';
 import { NameField } from './NameField';
-import { ServiceField, type ProductOption } from './ServiceField';
+import { ServiceField } from './ServiceField';
 import { useLeadSubmit } from './useLeadSubmit';
 import { Button } from '@/components/ui/Button';
 import type { LeadDict } from '@/lib/i18n/dict/types';
+import type { ProductOption } from '@/types/lead';
 import type { Lang } from '@/lib/i18n/locales';
 
 interface LeadFormProps {
@@ -66,7 +67,7 @@ export function LeadForm({ lang, product, pageUrl, labels, products: productsPro
         <ServiceField
           id={ids.product}
           label={labels.labels.service}
-          notSelected={labels.notSelected}
+          texts={labels.combobox}
           products={products}
           defaultValue={product}
         />

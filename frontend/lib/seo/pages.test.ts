@@ -25,7 +25,7 @@ describe('listPages', () => {
     const pages = await listPages();
     const paths = pages.map((p) => p.path);
     expect(paths).toEqual(
-      expect.arrayContaining(['/', '/catalog', '/prices', '/reviews', '/contacts', '/catalog/websites', '/products/lending', '/city/almaty']),
+      expect.arrayContaining(['/', '/catalog', '/prices', '/reviews', '/faq', '/contacts', '/catalog/websites', '/products/lending', '/city/almaty']),
     );
     expect(paths).not.toContain('/catalog/empty');
     const city = pages.find((p) => p.path === '/city/almaty');
