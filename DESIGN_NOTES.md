@@ -104,3 +104,22 @@ animating width/height; one duration for everything; text below 14px; low-contra
 - 2026-10-30: Lighthouse fixes: first catalog row renders without the hidden stagger state and loads its photos with priority (LCP was a card image waiting for hydration); Onest switched to `display: 'optional'` (mobile LCP was the hero paragraph repainting at font swap, 3.6 s -> 1.6 s; next/font's adjusted fallback keeps the first visit stable). Red text links use primary-hover (#B42318) because #D92D20 on the muted background is 4.46:1; CTA lead text drops /90 opacity; catalog grid gets a visually hidden h2 for heading order.
 - 2026-10-30: Hero CTAs: WhatsApp full width on phones, catalog + Telegram as equal outline buttons beside it; catalog toolbar is sticky only below lg (on desktop the wrapped chips made it ~220px tall).
 - 2026-10-30: Bug found while taking screenshots: Next 15.5's runtime image optimizer left some cache keys pending forever after a browser aborted the request mid-resize (catalog page never fired `load` until a container restart). Fix: no runtime resizing. `scripts/media-variants.sh` writes 256/384/640/828px WebP variants next to each photo (source = 1200px), `lib/media/loader.ts` is a custom next/image loader that maps the requested width to a file (tested), and `/media/*`, `/portfolio/*` get a one-week Cache-Control. Re-run the script after adding photos.
+
+## Lighthouse (2026-10-30)
+
+Lighthouse 12.8.2, production build from `make dev` (http://127.0.0.1:3000, ru), default mobile (simulated slow 4G, 4x CPU) and desktop presets.
+Final run after all fixes (pre-sized images, eager first catalog row, font display optional):
+
+| Page | Device | Performance | Accessibility | Best practices | SEO | LCP | TBT | CLS |
+|---|---|---|---|---|---|---|---|---|
+| Home `/` | mobile | 94 | 100 | 100 | 100 | 3.0 s | 38 ms | 0 |
+| Home `/` | desktop | 99 | 100 | 100 | 100 | 1.0 s | 0 ms | 0 |
+| Catalog `/catalog` | mobile | 91 | 96 | 100 | 100 | 3.5 s | 9 ms | 0 |
+| Catalog `/catalog` | desktop | 100 | 96 | 100 | 100 | 0.7 s | 0 ms | 0 |
+| Product `/products/lending` | mobile | 95 | 100 | 100 | 100 | 2.9 s | 9 ms | 0 |
+| Product `/products/lending` | desktop | 100 | 100 | 100 | 100 | 0.6 s | 0 ms | 0 |
+
+Variance check, 3 more mobile runs: home 94 / 94 / 99, catalog 94 / 92 / 93. Performance >= 90 in every run.
+Catalog accessibility 96: axe samples cards that are still fading in (staggered reveal), so it reports blended colours (#DC3C30 instead of the real #D92D20, #7B828D instead of #5B6472). The resting colours pass AA (4.83:1 and 5.98:1).
+
+Screenshots (Playwright, full page, ru) at 375/768/1280 for home, catalog and product are in `/screenshots` (not committed: ~37 MB of PNG). Fixed elements (mobile contact bar, floating WhatsApp) appear where the viewport ended during the full-page capture.
