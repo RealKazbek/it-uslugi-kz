@@ -7,9 +7,9 @@
   "short_ru": "Новая заявка сразу приходит вам в Telegram или на почту, чтобы вы отвечали первым.",
   "short_kk": "Жаңа өтінім сізге бірден Telegram-ға немесе поштаға келеді, сонда сіз бірінші жауап бересіз.",
   "short_en": "A new lead reaches your Telegram or email at once, so you can be the first to reply.",
-  "description_ru": "Клиент чаще выбирает того, кто ответил быстрее. Я настраиваю так, чтобы при каждой заявке с сайта вам приходило сообщение с именем, телефоном и текстом, а в сообщении была кнопка для звонка или ответа в WhatsApp. Можно добавить в чат нескольких сотрудников.",
-  "description_kk": "Клиент көбіне тез жауап бергенді таңдайды. Мен сайттан әр өтінім түскенде сізге аты, телефоны және мәтіні бар хабарлама келетіндей, ал хабарламада қоңырау шалуға немесе WhatsApp-та жауап беруге арналған түйме болатындай етіп баптаймын. Чатқа бірнеше қызметкерді қосуға болады.",
-  "description_en": "Customers tend to pick whoever replies first. I set things up so every site request sends you a message with the name, phone and text, plus a button to call or reply on WhatsApp. Several team members can be added to the chat.",
+  "description_ru": "Клиент чаще выбирает того, кто ответил быстрее. Мы настраиваем так, чтобы при каждой заявке с сайта вам приходило сообщение с именем, телефоном и текстом, а в сообщении была кнопка для звонка или ответа в WhatsApp. Можно добавить в чат нескольких сотрудников.",
+  "description_kk": "Клиент көбіне тез жауап бергенді таңдайды. Біз сайттан әр өтінім түскенде сізге аты, телефоны және мәтіні бар хабарлама келетіндей, ал хабарламада қоңырау шалуға немесе WhatsApp-та жауап беруге арналған түйме болатындай етіп баптаймыз. Чатқа бірнеше қызметкерді қосуға болады.",
+  "description_en": "Customers tend to pick whoever replies first. We set things up so every site request sends you a message with the name, phone and text, plus a button to call or reply on WhatsApp. Several team members can be added to the chat.",
   "for_whom_ru": "Для компаний, где заявки с сайта лежат в почте часами. Особенно полезно автосервисам, клиникам, строителям и всем, у кого счёт идёт на минуты.",
   "for_whom_kk": "Сайттан түскен өтінімдер поштада сағаттап жататын компанияларға арналған. Әсіресе автосервистерге, клиникаларға, құрылысшыларға және есеп минутпен жүретіндердің бәріне пайдалы.",
   "for_whom_en": "For companies whose site requests sit in an inbox for hours. It helps car services, clinics, builders and anyone for whom minutes count.",
@@ -68,9 +68,9 @@
       "question_ru": "Работает ли это с моим текущим сайтом?",
       "question_kk": "Бұл менің қазіргі сайтыммен жұмыс істей ме?",
       "question_en": "Will this work with my current site?",
-      "answer_ru": "В большинстве случаев да: достаточно, чтобы форма умела отправлять данные на адрес или письмо. Если сайт сделан на конструкторе, я посмотрю его возможности перед началом.",
-      "answer_kk": "Көп жағдайда иә: форма деректерді мекенжайға немесе хатқа жібере алса жеткілікті. Сайт конструкторда жасалса, бастамас бұрын оның мүмкіндіктерін қараймын.",
-      "answer_en": "In most cases yes: it is enough that the form can send data to an address or by email. If the site is built on a constructor, I check its options before starting.",
+      "answer_ru": "В большинстве случаев да: достаточно, чтобы форма умела отправлять данные на адрес или письмо. Если сайт сделан на конструкторе, мы посмотрим его возможности перед началом.",
+      "answer_kk": "Көп жағдайда иә: форма деректерді мекенжайға немесе хатқа жібере алса жеткілікті. Сайт конструкторда жасалса, бастамас бұрын оның мүмкіндіктерін қараймыз.",
+      "answer_en": "In most cases yes: it is enough that the form can send data to an address or by email. If the site is built on a constructor, we check its options before starting.",
       "sort": 0
     },
     {
@@ -86,9 +86,9 @@
       "question_ru": "Нужно ли что-то платить после настройки?",
       "question_kk": "Баптаудан кейін бір нәрсе төлеу керек пе?",
       "question_en": "Is there any ongoing fee after setup?",
-      "answer_ru": "Сам бот Telegram бесплатный. Если форме потребуется платный сервис-посредник, я предупрежу об этом до начала работы.",
-      "answer_kk": "Telegram боты тегін. Формаға ақылы делдал сервис қажет болса, жұмыс басталғанға дейін ескертемін.",
-      "answer_en": "The Telegram bot itself is free. If your form needs a paid intermediary service, I will tell you before the work starts.",
+      "answer_ru": "Сам бот Telegram бесплатный. Если форме потребуется платный сервис-посредник, мы предупредим об этом до начала работы.",
+      "answer_kk": "Telegram боты тегін. Формаға ақылы делдал сервис қажет болса, жұмыс басталғанға дейін ескертеміз.",
+      "answer_en": "The Telegram bot itself is free. If your form needs a paid intermediary service, we will tell you before the work starts.",
       "sort": 2
     }
   ]

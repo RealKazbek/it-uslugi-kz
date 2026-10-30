@@ -7,9 +7,9 @@
   "short_ru": "Внутренний бот, который отвечает сотрудникам по регламентам, инструкциям и документам компании.",
   "short_kk": "Қызметкерлерге компанияның регламенттері, нұсқаулықтары мен құжаттары бойынша жауап беретін ішкі бот.",
   "short_en": "An internal bot that answers staff questions from company rules, instructions and documents.",
-  "description_ru": "Новички и действующие сотрудники задают одни и те же вопросы: как оформить возврат, где лежит шаблон, какой порядок действий. Я собираю ваши документы в поисковую базу и подключаю бота, который отвечает по ним и показывает, из какого документа взят ответ. Так руководителю не приходится повторять одно и то же.",
-  "description_kk": "Жаңа және қазіргі қызметкерлер бірдей сұрақ қояды: қайтарымды қалай рәсімдеу, үлгі қайда жатыр, әрекет тәртібі қандай. Мен құжаттарыңызды іздеу қорына жинап, солар бойынша жауап беретін және жауап қай құжаттан алынғанын көрсететін ботты қосамын. Сонда басшыға бір нәрсені қайталай беру керек болмайды.",
-  "description_en": "New and current employees keep asking the same things: how to process a return, where a template is stored, what the procedure is. I turn your documents into a searchable base and connect a bot that answers from them and shows which document an answer came from. That spares the manager from repeating the same explanations.",
+  "description_ru": "Новички и действующие сотрудники задают одни и те же вопросы: как оформить возврат, где лежит шаблон, какой порядок действий. Мы собираем ваши документы в поисковую базу и подключаем бота, который отвечает по ним и показывает, из какого документа взят ответ. Так руководителю не приходится повторять одно и то же.",
+  "description_kk": "Жаңа және қазіргі қызметкерлер бірдей сұрақ қояды: қайтарымды қалай рәсімдеу, үлгі қайда жатыр, әрекет тәртібі қандай. Біз құжаттарыңызды іздеу қорына жинап, солар бойынша жауап беретін және жауап қай құжаттан алынғанын көрсететін ботты қосамыз. Сонда басшыға бір нәрсені қайталай беру керек болмайды.",
+  "description_en": "New and current employees keep asking the same things: how to process a return, where a template is stored, what the procedure is. We turn your documents into a searchable base and connect a bot that answers from them and shows which document an answer came from. That spares the manager from repeating the same explanations.",
   "for_whom_ru": "Для команд от 5 человек с накопленными инструкциями, где руководитель тратит время на повторяющиеся вопросы. Подходит магазинам, колл-центрам и сервисным компаниям.",
   "for_whom_kk": "Жиналған нұсқаулықтары бар, басшы қайталанатын сұрақтарға уақыт жұмсайтын 5 адамнан басталатын командаларға арналған. Дүкендерге, колл-орталықтарға және қызмет көрсету компанияларына қолайлы.",
   "for_whom_en": "For teams of five or more with accumulated instructions, where the manager spends time on repeated questions. It suits shops, call centres and service companies.",
@@ -19,7 +19,7 @@
     "Бот в Telegram или веб-страница с чатом для сотрудников",
     "Ссылка на исходный документ в каждом ответе",
     "Доступ только для вашей команды по списку участников",
-    "Простой способ обновлять документы без моего участия",
+    "Простой способ обновлять документы без нашего участия",
     "Обучающая встреча и краткая инструкция для администратора"
   ],
   "includes_kk": [
@@ -28,7 +28,7 @@
     "Қызметкерлерге арналған Telegram-дағы бот немесе чаты бар веб-бет",
     "Әр жауапта бастапқы құжатқа сілтеме",
     "Қатысушылар тізімі бойынша тек сіздің командаңызға қолжетімділік",
-    "Құжаттарды менің қатысуымсыз жаңартудың қарапайым тәсілі",
+    "Құжаттарды біздің қатысуымызсыз жаңартудың қарапайым тәсілі",
     "Оқыту кездесуі және әкімшіге арналған қысқа нұсқаулық"
   ],
   "includes_en": [
@@ -37,21 +37,21 @@
     "A Telegram bot or a web page with a chat for employees",
     "A link to the source document in every answer",
     "Access limited to your team through a member list",
-    "A simple way to update documents without my involvement",
+    "A simple way to update documents without our involvement",
     "A walkthrough session and a short guide for the administrator"
   ],
   "not_included_ru": [
-    "Написание регламентов и инструкций: я работаю с тем, что у вас уже есть",
+    "Написание регламентов и инструкций: мы работаем с тем, что у вас уже есть",
     "Оплата запросов к языковой модели, которую вы платите по использованию",
     "Гарантия точности: ИИ может ошибиться, поэтому юридически и финансово значимые решения стоит сверять с документом"
   ],
   "not_included_kk": [
-    "Регламенттер мен нұсқаулықтарды жазу: мен сізде бар материалмен жұмыс істеймін",
+    "Регламенттер мен нұсқаулықтарды жазу: біз сізде бар материалмен жұмыс істейміз",
     "Тілдік модельге сұраулардың қолданысқа қарай төлемі",
     "Дәлдік кепілі: ИИ қателесуі мүмкін, сондықтан заңдық және қаржылық маңызды шешімдерді құжатпен салыстырған жөн"
   ],
   "not_included_en": [
-    "Writing the rules and instructions: I work with what you already have",
+    "Writing the rules and instructions: we work with what you already have",
     "Language model usage fees, which you pay based on use",
     "A guarantee of accuracy: AI can be wrong, so legally or financially significant decisions should be checked against the source document"
   ],
@@ -89,9 +89,9 @@
       "question_ru": "Что делать, когда документы меняются?",
       "question_kk": "Құжаттар өзгергенде не істеу керек?",
       "question_en": "What do we do when documents change?",
-      "answer_ru": "Новую версию файла вы загружаете в общую папку, и база обновляется. Я покажу порядок на обучающей встрече, чтобы вы не зависели от меня.",
-      "answer_kk": "Файлдың жаңа нұсқасын ортақ папкаға жүктейсіз, сонда қор жаңарады. Менен тәуелді болмауыңыз үшін тәртібін оқыту кездесуінде көрсетемін.",
-      "answer_en": "You upload the new file version to a shared folder and the base updates. I will show the procedure at the walkthrough so you do not depend on me.",
+      "answer_ru": "Новую версию файла вы загружаете в общую папку, и база обновляется. Мы покажем порядок на обучающей встрече, чтобы вы не зависели от нас.",
+      "answer_kk": "Файлдың жаңа нұсқасын ортақ папкаға жүктейсіз, сонда қор жаңарады. Бізге тәуелді болмауыңыз үшін тәртібін оқыту кездесуінде көрсетеміз.",
+      "answer_en": "You upload the new file version to a shared folder and the base updates. We will show the procedure at the walkthrough so you do not depend on us.",
       "sort": 2
     }
   ]

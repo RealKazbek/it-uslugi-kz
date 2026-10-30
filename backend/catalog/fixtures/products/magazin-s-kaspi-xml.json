@@ -43,17 +43,17 @@
   "not_included_ru": [
     "Аккаунт продавца на Kaspi.kz и комиссии маркетплейса: это ваши отношения с Kaspi",
     "Фото, описания и цены товаров: предоставляете вы",
-    "Модерация карточек на стороне Kaspi: её результат от меня не зависит"
+    "Модерация карточек на стороне Kaspi: её результат от нас не зависит"
   ],
   "not_included_kk": [
     "Kaspi.kz-тегі сатушы аккаунты және маркетплейс комиссиялары: бұл сіздің Kaspi-мен қарым-қатынасыңыз",
     "Тауар фотосуреттері, сипаттамалары және бағалары: оларды сіз ұсынасыз",
-    "Kaspi жағындағы карточкаларды модерациялау: оның нәтижесі маған байланысты емес"
+    "Kaspi жағындағы карточкаларды модерациялау: оның нәтижесі бізге байланысты емес"
   ],
   "not_included_en": [
     "The Kaspi.kz seller account and marketplace commissions, which are between you and Kaspi",
     "Product photos, descriptions and prices, which you provide",
-    "Card moderation on the Kaspi side, whose outcome I cannot control"
+    "Card moderation on the Kaspi side, whose outcome we cannot control"
   ],
   "price_from_kzt": 220000,
   "unit": "once",

@@ -7,9 +7,9 @@
   "short_ru": "Пакетная генерация и ручная проверка описаний товаров по вашей таблице характеристик.",
   "short_kk": "Сіздің сипаттама кестеңіз бойынша тауар сипаттамаларын топтап жасау және қолмен тексеру.",
   "short_en": "Bulk generation and manual review of product descriptions from your attribute spreadsheet.",
-  "description_ru": "Вы присылаете таблицу с названиями и характеристиками, а я готовлю для каждого товара связное описание в едином стиле. Результат проверяю вручную на выборке и правлю явные ошибки. Готовые тексты возвращаются в таблице, откуда их легко загрузить в магазин или на Kaspi.",
-  "description_kk": "Сіз атаулары мен сипаттамалары бар кестені жібересіз, ал мен әр тауарға бір стильде байланысты сипаттама дайындаймын. Нәтижені үлгі бойынша қолмен тексеріп, айқын қателерін түзетемін. Дайын мәтіндер кестеде қайтарылады, одан оларды дүкенге немесе Kaspi-ге оңай жүктеуге болады.",
-  "description_en": "You send a table of names and attributes, and I prepare a coherent description for each product in one consistent style. I check a sample by hand and correct obvious errors. The finished texts come back in a spreadsheet, from which they are easy to upload to your shop or to Kaspi.",
+  "description_ru": "Вы присылаете таблицу с названиями и характеристиками, а мы готовим для каждого товара связное описание в едином стиле. Результат проверяем вручную на выборке и правим явные ошибки. Готовые тексты возвращаются в таблице, откуда их легко загрузить в магазин или на Kaspi.",
+  "description_kk": "Сіз атаулары мен сипаттамалары бар кестені жібересіз, ал біз әр тауарға бір стильде байланысты сипаттама дайындаймыз. Нәтижені үлгі бойынша қолмен тексеріп, айқын қателерін түзетеміз. Дайын мәтіндер кестеде қайтарылады, одан оларды дүкенге немесе Kaspi-ге оңай жүктеуге болады.",
+  "description_en": "You send a table of names and attributes, and we prepare a coherent description for each product in one consistent style. We check a sample by hand and correct obvious errors. The finished texts come back in a spreadsheet, from which they are easy to upload to your shop or to Kaspi.",
   "for_whom_ru": "Для магазинов с десятками и сотнями позиций, у которых карточки пустые или состоят из одного названия. Подходит и продавцам на Kaspi.",
   "for_whom_kk": "Карточкалары бос немесе тек атаудан тұратын, ондаған және жүздеген позициясы бар дүкендерге арналған. Kaspi сатушыларына да қолайлы.",
   "for_whom_en": "For shops with dozens or hundreds of items whose cards are empty or consist of just a name. Sellers on Kaspi can use it too.",
@@ -80,18 +80,18 @@
       "question_ru": "Сколько товаров входит в базовую цену?",
       "question_kk": "Негізгі бағаға қанша тауар кіреді?",
       "question_en": "How many products does the base price cover?",
-      "answer_ru": "Базовая цена рассчитана на небольшой пакет. Точный объём и итог я назову после того, как посмотрю вашу таблицу, и дальше цена растёт пропорционально количеству позиций.",
-      "answer_kk": "Негізгі баға шағын пакетке есептелген. Нақты көлемі мен соңғы бағаны кестеңізді көргеннен кейін айтамын, одан әрі баға позиция санына қарай пропорционалды өседі.",
-      "answer_en": "The base price covers a small batch. I will give the exact volume and final total once I have seen your table, and the price then grows in proportion to the number of items.",
+      "answer_ru": "Базовая цена рассчитана на небольшой пакет. Точный объём и итог мы назовём после того, как посмотрим вашу таблицу, и дальше цена растёт пропорционально количеству позиций.",
+      "answer_kk": "Негізгі баға шағын пакетке есептелген. Нақты көлемі мен соңғы бағаны кестеңізді көргеннен кейін айтамыз, одан әрі баға позиция санына қарай пропорционалды өседі.",
+      "answer_en": "The base price covers a small batch. We will give the exact volume and final total once we have seen your table, and the price then grows in proportion to the number of items.",
       "sort": 1
     },
     {
       "question_ru": "Описания не будут одинаковыми у всех товаров?",
       "question_kk": "Барлық тауардың сипаттамасы бірдей болмай ма?",
       "question_en": "Will all the descriptions sound the same?",
-      "answer_ru": "Структура одна, чтобы каталог выглядел единым, но формулировки строятся от характеристик конкретного товара. Если у позиций почти нет отличий, тексты неизбежно получатся близкими, и я скажу об этом заранее.",
-      "answer_kk": "Каталог біртұтас көрінуі үшін құрылым біреу, бірақ тұжырымдар нақты тауардың сипаттамаларынан құрылады. Позициялардың айырмасы өте аз болса, мәтіндер міндетті түрде жақын шығады, бұл туралы алдын ала айтамын.",
-      "answer_en": "The structure is shared so the catalog looks unified, but the wording is built from the attributes of each item. If items barely differ, the texts will inevitably be close, and I will say so beforehand.",
+      "answer_ru": "Структура одна, чтобы каталог выглядел единым, но формулировки строятся от характеристик конкретного товара. Если у позиций почти нет отличий, тексты неизбежно получатся близкими, и мы скажем об этом заранее.",
+      "answer_kk": "Каталог біртұтас көрінуі үшін құрылым біреу, бірақ тұжырымдар нақты тауардың сипаттамаларынан құрылады. Позициялардың айырмасы өте аз болса, мәтіндер міндетті түрде жақын шығады, бұл туралы алдын ала айтамыз.",
+      "answer_en": "The structure is shared so the catalog looks unified, but the wording is built from the attributes of each item. If items barely differ, the texts will inevitably be close, and we will say so beforehand.",
       "sort": 2
     }
   ]

@@ -1,8 +1,8 @@
 import type { ProductDict } from '../types';
 
 export const productRu: ProductDict = {
-  descriptionTemplate: (short, priceText) => `${short} Цена: ${priceText}. Работаю удалённо по Казахстану.`,
-  remote: 'Работаю удалённо по Казахстану.',
+  descriptionTemplate: (short, priceText) => `${short} Цена: ${priceText}. Работаем удалённо по Казахстану.`,
+  remote: 'Работаем удалённо по Казахстану.',
   estimate: 'Что входит',
   total: 'Цена',
   forWhom: 'Кому подходит',
@@ -16,7 +16,7 @@ export const productRu: ProductDict = {
   priceNote: 'Цена стартовая; итоговую сумму называю до начала работ.',
   payNote: 'Условия оплаты и статус исполнителя',
   leadTitle: 'Или оставьте заявку',
-  leadText: 'Отвечу в выбранном вами канале: WhatsApp, Telegram, телефон или email. Контакт нужен только для ответа.',
+  leadText: 'Ответим в выбранном вами канале: WhatsApp, Telegram, телефон или email. Контакт нужен только для ответа.',
   galleryLabel: 'Фотографии',
   photoAlt: (title, n) => `${title}: иллюстрация ${n}`,
   orderTitle: 'Заказать',

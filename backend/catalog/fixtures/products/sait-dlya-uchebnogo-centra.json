@@ -71,9 +71,9 @@
       "question_ru": "Как быстро менять расписание групп?",
       "question_kk": "Топ кестесін қаншалықты тез өзгертуге болады?",
       "question_en": "How easily can the timetable be changed?",
-      "answer_ru": "Расписание хранится в таблице, которую можно править самому или присылать мне. Изменение появляется на сайте в тот же день.",
-      "answer_kk": "Кесте өзіңіз өзгерте алатын немесе маған жіберетін кестеде сақталады. Өзгеріс сайтта сол күні пайда болады.",
-      "answer_en": "The timetable sits in a table you can edit yourself or send to me. The change appears on the site the same day.",
+      "answer_ru": "Расписание хранится в таблице, которую можно править самому или присылать нам. Изменение появляется на сайте в тот же день.",
+      "answer_kk": "Кесте өзіңіз өзгерте алатын немесе бізге жіберетін кестеде сақталады. Өзгеріс сайтта сол күні пайда болады.",
+      "answer_en": "The timetable sits in a table you can edit yourself or send to us. The change appears on the site the same day.",
       "sort": 0
     },
     {
@@ -89,9 +89,9 @@
       "question_ru": "Нужна ли версия на казахском?",
       "question_kk": "Қазақша нұсқа керек пе?",
       "question_en": "Do I need a Kazakh version?",
-      "answer_ru": "Если среди ваших учеников есть казахоязычные семьи, версия на двух языках помогает. Она делается по договорённости, а тексты переведу или отредактирую вместе с вами.",
-      "answer_kk": "Оқушыларыңыздың арасында қазақ тілді отбасылар болса, екі тілді нұсқа көмектеседі. Ол келісім бойынша жасалады, мәтіндерді сізбен бірге аударамын не өңдеймін.",
-      "answer_en": "If some of your families speak Kazakh, a two-language version helps. It is done by agreement, and I translate or edit the texts together with you.",
+      "answer_ru": "Если среди ваших учеников есть казахоязычные семьи, версия на двух языках помогает. Она делается по договорённости, а тексты переведём или отредактируем вместе с вами.",
+      "answer_kk": "Оқушыларыңыздың арасында қазақ тілді отбасылар болса, екі тілді нұсқа көмектеседі. Ол келісім бойынша жасалады, мәтіндерді сізбен бірге аударамыз не өңдейміз.",
+      "answer_en": "If some of your families speak Kazakh, a two-language version helps. It is done by agreement, and we translate or edit the texts together with you.",
       "sort": 2
     }
   ]

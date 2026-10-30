@@ -184,3 +184,4 @@ Kazakh copy was model-written and needs a native-speaker pass.
 | Учёба и IT-наставничество | Консультация и code review по технической части диплома (`konsultaciya-po-diplomu`) | от 5 000 ₸/час | 1–1 дн. |
 | Учёба и IT-наставничество | Подготовка к защите дипломного проекта (`podgotovka-k-zashite`) | от 5 000 ₸/урок | 1–1 дн. |
 | Учёба и IT-наставничество | Помощь разобраться с материалами онлайн-курсов (`pomosh-s-kursami`) | от 3 500 ₸/урок | 1–1 дн. |
+- Voice: fixtures and `lib/i18n/dict` copy rewritten from first person singular to the team voice ("мы / работаем командой"). Not changed on purpose (factual, owner to decide): `lib/site/legal.ts` (states the seller is a self-employed individual, not a company) and `lib/site/person.ts` / contacts person block. The copy no longer names an individual or claims an IITU student bio.

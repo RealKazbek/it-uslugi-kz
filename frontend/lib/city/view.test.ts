@@ -40,7 +40,7 @@ describe('buildCityView', () => {
 
   it('uses the Russian forms and states the in-person note only in the FAQ', () => {
     expect(view.h1).toBe('IT-услуги в Алматы');
-    expect(view.remote).toBe('Работаю удалённо по всему Казахстану, личная встреча возможна в Алматы.');
+    expect(view.remote).toBe('Работаем удалённо по всему Казахстану, личная встреча возможна в Алматы.');
     expect(view.faq[0]?.a).toContain('В Алматы можно встретиться лично');
     expect(view.remote).not.toContain('можно встретиться лично.');
     expect(view.title.length).toBeLessThanOrEqual(70);

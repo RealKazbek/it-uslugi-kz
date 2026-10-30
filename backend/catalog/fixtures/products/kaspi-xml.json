@@ -7,9 +7,9 @@
   "short_ru": "Готовый XML-файл или автоматическая выгрузка вашего каталога в кабинет продавца Kaspi.",
   "short_kk": "Каталогыңызды Kaspi сатушы кабинетіне жүктейтін дайын XML-файл немесе автоматты жүктеме.",
   "short_en": "A ready XML file, or an automatic export of your existing catalog, for the Kaspi merchant cabinet.",
-  "description_ru": "Если у вас уже есть таблица, сайт или учётная база с товарами, я превращаю их в XML-прайс, который принимает Kaspi.kz. Файл можно обновлять автоматически по расписанию, и цены с остатками в кабинете будут совпадать с вашими. Это отдельная небольшая услуга, магазин для неё создавать не нужно.",
-  "description_kk": "Егер сізде тауарлары бар кесте, сайт немесе есеп базасы болса, мен оларды Kaspi.kz қабылдайтын XML-прайсқа айналдырамын. Файлды кесте бойынша автоматты жаңартуға болады, сонда кабинеттегі бағалар мен қалдықтар сіздікімен сәйкес келеді. Бұл бөлек шағын қызмет, оған дүкен жасаудың қажеті жоқ.",
-  "description_en": "If you already have a spreadsheet, a website or an inventory database with your products, I turn it into an XML price list that Kaspi.kz accepts. The file can refresh on a schedule, so prices and stock in the cabinet match yours. It is a small standalone service and you do not need to build a store for it.",
+  "description_ru": "Если у вас уже есть таблица, сайт или учётная база с товарами, мы превращаем их в XML-прайс, который принимает Kaspi.kz. Файл можно обновлять автоматически по расписанию, и цены с остатками в кабинете будут совпадать с вашими. Это отдельная небольшая услуга, магазин для неё создавать не нужно.",
+  "description_kk": "Егер сізде тауарлары бар кесте, сайт немесе есеп базасы болса, біз оларды Kaspi.kz қабылдайтын XML-прайсқа айналдырамыз. Файлды кесте бойынша автоматты жаңартуға болады, сонда кабинеттегі бағалар мен қалдықтар сіздікімен сәйкес келеді. Бұл бөлек шағын қызмет, оған дүкен жасаудың қажеті жоқ.",
+  "description_en": "If you already have a spreadsheet, a website or an inventory database with your products, we turn it into an XML price list that Kaspi.kz accepts. The file can refresh on a schedule, so prices and stock in the cabinet match yours. It is a small standalone service and you do not need to build a store for it.",
   "for_whom_ru": "Для продавцов Kaspi.kz, у которых товары лежат в Excel, Google Таблице или на сайте, и обновлять цены в кабинете вручную надоело. Подходит и тем, кто только выходит на маркетплейс с готовым прайсом.",
   "for_whom_kk": "Тауарлары Excel-де, Google кестесінде немесе сайтта жатқан және кабинетте бағаны қолмен жаңартудан жалыққан Kaspi.kz сатушыларына арналған. Дайын прайспен маркетплейске енді шығып жатқандарға да жарайды.",
   "for_whom_en": "For Kaspi.kz sellers whose products live in Excel, Google Sheets or on a website and who are tired of updating prices in the cabinet by hand. It also suits newcomers entering the marketplace with a ready price list.",
@@ -86,9 +86,9 @@
       "question_ru": "Если Kaspi не принял файл, что дальше?",
       "question_kk": "Kaspi файлды қабылдамаса, не істеу керек?",
       "question_en": "What if Kaspi rejects the file?",
-      "answer_ru": "Я проверяю структуру до загрузки и исправляю ошибки формата, которые показывает кабинет. Отказы по самим товарам, например по категории или модерации, решаются на стороне Kaspi.",
-      "answer_kk": "Жүктеуге дейін құрылымды тексеріп, кабинет көрсететін пішім қателерін түзетемін. Тауарлардың өздеріне қатысты бас тартулар, мысалы санат немесе модерация бойынша, Kaspi жағында шешіледі.",
-      "answer_en": "I check the structure before uploading and fix any format errors the cabinet reports. Rejections about the products themselves, such as category or moderation, are settled on the Kaspi side.",
+      "answer_ru": "Мы проверяем структуру до загрузки и исправляем ошибки формата, которые показывает кабинет. Отказы по самим товарам, например по категории или модерации, решаются на стороне Kaspi.",
+      "answer_kk": "Жүктеуге дейін құрылымды тексеріп, кабинет көрсететін пішім қателерін түзетеміз. Тауарлардың өздеріне қатысты бас тартулар, мысалы санат немесе модерация бойынша, Kaspi жағында шешіледі.",
+      "answer_en": "We check the structure before uploading and fix any format errors the cabinet reports. Rejections about the products themselves, such as category or moderation, are settled on the Kaspi side.",
       "sort": 2
     }
   ]

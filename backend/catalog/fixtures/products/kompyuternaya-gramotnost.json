@@ -7,9 +7,9 @@
   "short_ru": "Спокойные занятия для взрослых и пожилых людей: компьютер, смартфон, интернет, мессенджеры и госуслуги.",
   "short_kk": "Ересектер мен егде жастағы адамдарға арналған сабақтар: компьютер, смартфон, интернет, мессенджерлер және электрондық қызметтер.",
   "short_en": "Patient lessons for adults and older people: computer, smartphone, internet, messengers and online services.",
-  "description_ru": "Никакого программирования: только то, что пригодится в повседневной жизни. Мы учимся пользоваться смартфоном и компьютером, искать информацию, общаться по видеосвязи, безопасно платить и узнавать мошеннические сообщения. Темп задаёте вы, повторяем столько раз, сколько нужно, и объясняю без непонятных терминов.",
-  "description_kk": "Бағдарламалау жоқ: тек күнделікті өмірде керек нәрселер. Смартфон мен компьютерді пайдалануды, ақпарат іздеуді, бейнебайланыспен сөйлесуді, қауіпсіз төлеуді және алаяқтық хабарламаларды танып білуді үйренеміз. Қарқынды өзіңіз белгілейсіз, қажет болғанша қайталаймыз, түсініксіз терминсіз түсіндіремін.",
-  "description_en": "No programming here, only what is useful in everyday life. We learn to use a smartphone and a computer, search for information, talk over video, pay safely and spot scam messages. You set the pace, we repeat as often as needed and I explain without confusing jargon.",
+  "description_ru": "Никакого программирования: только то, что пригодится в повседневной жизни. Мы учимся пользоваться смартфоном и компьютером, искать информацию, общаться по видеосвязи, безопасно платить и узнавать мошеннические сообщения. Темп задаёте вы, повторяем столько раз, сколько нужно, и объясняем без непонятных терминов.",
+  "description_kk": "Бағдарламалау жоқ: тек күнделікті өмірде керек нәрселер. Смартфон мен компьютерді пайдалануды, ақпарат іздеуді, бейнебайланыспен сөйлесуді, қауіпсіз төлеуді және алаяқтық хабарламаларды танып білуді үйренеміз. Қарқынды өзіңіз белгілейсіз, қажет болғанша қайталаймыз, түсініксіз терминсіз түсіндіреміз.",
+  "description_en": "No programming here, only what is useful in everyday life. We learn to use a smartphone and a computer, search for information, talk over video, pay safely and spot scam messages. You set the pace, we repeat as often as needed and we explain without confusing jargon.",
   "for_whom_ru": "Взрослым, пожилым родителям и бабушкам с дедушками, которым нужно уверенно пользоваться техникой, а детям или внукам некогда объяснять.",
   "for_whom_kk": "Техниканы сенімді пайдалануы керек, ал балаларында немесе немерелерінде түсіндіруге уақыт жоқ ересектерге, егде жастағы ата-аналарға, әже мен атаға арналған.",
   "for_whom_en": "For adults and older parents or grandparents who need to use technology confidently when their children or grandchildren have no time to explain.",
@@ -42,17 +42,17 @@
   ],
   "not_included_ru": [
     "Ремонт и настройка вышедшей из строя техники: занятия только объясняют",
-    "Покупка компьютера или телефона: могу лишь посоветовать, что смотреть",
+    "Покупка компьютера или телефона: можем лишь посоветовать, что смотреть",
     "Занятия очно: проходят онлайн, в Алматы возможна встреча по договорённости"
   ],
   "not_included_kk": [
     "Істен шыққан техниканы жөндеу: сабақтар тек түсіндіреді",
-    "Компьютер немесе телефон сатып алу: нені қарау керегін ғана кеңес бере аламын",
+    "Компьютер немесе телефон сатып алу: нені қарау керегін ғана кеңес бере аламыз",
     "Бетпе-бет сабақтар: онлайн өтеді, Алматыда келісім бойынша кездесуге болады"
   ],
   "not_included_en": [
     "Repairing broken equipment; lessons only explain how to use it",
-    "Buying a computer or phone; I can only advise what to look at",
+    "Buying a computer or phone; we can only advise what to look at",
     "In-person lessons; they run online, with a meeting in Almaty possible by agreement"
   ],
   "price_from_kzt": 3000,
@@ -80,9 +80,9 @@
       "question_ru": "Как заниматься, если я не умею пользоваться видеозвонком?",
       "question_kk": "Бейнеқоңырауды пайдалана алмасам, қалай оқимын?",
       "question_en": "How can I take an online lesson if I cannot use video calls yet?",
-      "answer_ru": "Первый раз я объясняю по телефону, как зайти в звонок, или связываюсь с кем-то из ваших близких. Часто помогает, если рядом сидит родственник.",
-      "answer_kk": "Алғашқыда қоңырауға қалай кіру керегін телефонмен түсіндіремін немесе жақындарыңыздың біреуімен байланысамын. Жанында туысыңыз отырса, көбіне көмектеседі.",
-      "answer_en": "The first time I explain by phone how to join the call, or I contact one of your relatives. It often helps to have a family member nearby.",
+      "answer_ru": "Первый раз мы объясняем по телефону, как зайти в звонок, или связываемся с кем-то из ваших близких. Часто помогает, если рядом сидит родственник.",
+      "answer_kk": "Алғашқыда қоңырауға қалай кіру керегін телефонмен түсіндіреміз немесе жақындарыңыздың біреуімен байланысамыз. Жанында туысыңыз отырса, көбіне көмектеседі.",
+      "answer_en": "The first time we explain by phone how to join the call, or we contact one of your relatives. It often helps to have a family member nearby.",
       "sort": 1
     },
     {

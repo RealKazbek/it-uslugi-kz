@@ -72,7 +72,7 @@
       "question_kk": "Құн калькуляторы қаншалықты дәл?",
       "question_en": "How accurate is the cost calculator?",
       "answer_ru": "Он считает по вашим базовым расценкам за квадратный метр и показывает диапазон. Окончательную цену вы называете после замеров, и на сайте это написано прямо.",
-      "answer_kk": "Ол сіздің шаршы метр үшін негізгі бағаңыз бойынша есептеп, ауқымды көрсетеді. Түпкілікті бағаны өлшеуден кейін өзіңіз айтасыз, мұны сайтта ашық жазамын.",
+      "answer_kk": "Ол сіздің шаршы метр үшін негізгі бағаңыз бойынша есептеп, ауқымды көрсетеді. Түпкілікті бағаны өлшеуден кейін өзіңіз айтасыз, мұны сайтта ашық жазамыз.",
       "answer_en": "It works from your base rates per square metre and shows a range. You give the final price after measuring, and the site says so openly.",
       "sort": 0
     },
@@ -89,9 +89,9 @@
       "question_ru": "Можно ли показать лицензии и допуски?",
       "question_kk": "Лицензия мен рұқсаттарды көрсетуге бола ма?",
       "question_en": "Can licences and permits be displayed?",
-      "answer_ru": "Да, если они у вас есть: разместим сканы или номера в разделе «О компании». Указывать то, чего нет, я не буду.",
-      "answer_kk": "Иә, болса, «Компания туралы» бөліміне скан не нөмірлерін орналастырамыз. Жоқ нәрсені көрсетпеймін.",
-      "answer_en": "Yes, if you hold them: we place scans or numbers in the About section. I will not add anything you do not actually have.",
+      "answer_ru": "Да, если они у вас есть: разместим сканы или номера в разделе «О компании». Указывать то, чего нет, мы не будем.",
+      "answer_kk": "Иә, болса, «Компания туралы» бөліміне скан не нөмірлерін орналастырамыз. Жоқ нәрсені көрсетпейміз.",
+      "answer_en": "Yes, if you hold them: we place scans or numbers in the About section. We will not add anything you do not actually have.",
       "sort": 2
     }
   ]

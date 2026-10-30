@@ -71,9 +71,9 @@
       "question_ru": "На какой сайт можно поставить чат?",
       "question_kk": "Чатты қандай сайтқа орнатуға болады?",
       "question_en": "What kind of site can the chat be added to?",
-      "answer_ru": "На любой, где можно вставить фрагмент кода: свой сайт, Tilda, WordPress и многие другие. Если вставка кода недоступна, я подскажу обходной путь.",
-      "answer_kk": "Код үзіндісін қыстыруға болатын кез келген сайтқа: өз сайтыңызға, Tilda-ға, WordPress-ке және басқаларға. Код қыстыру мүмкін болмаса, айналма жолын айтамын.",
-      "answer_en": "Any site where you can paste a code snippet: a custom site, Tilda, WordPress and many others. If code insertion is not available, I will suggest a workaround.",
+      "answer_ru": "На любой, где можно вставить фрагмент кода: свой сайт, Tilda, WordPress и многие другие. Если вставка кода недоступна, мы подскажем обходной путь.",
+      "answer_kk": "Код үзіндісін қыстыруға болатын кез келген сайтқа: өз сайтыңызға, Tilda-ға, WordPress-ке және басқаларға. Код қыстыру мүмкін болмаса, айналма жолын айтамыз.",
+      "answer_en": "Any site where you can paste a code snippet: a custom site, Tilda, WordPress and many others. If code insertion is not available, we will suggest a workaround.",
       "sort": 0
     },
     {
@@ -89,9 +89,9 @@
       "question_ru": "Будут ли данные посетителей храниться у вас?",
       "question_kk": "Келушілердің деректері сізде сақтала ма?",
       "question_en": "Will you store my visitors' data?",
-      "answer_ru": "Серверная часть работает на вашем аккаунте хостинга или сервера, переписка уходит только в вашу Telegram-группу. Я не веду собственную базу посетителей.",
-      "answer_kk": "Серверлік бөлік сіздің хостинг немесе сервер аккаунтыңызда жұмыс істейді, хат алмасу тек сіздің Telegram тобыңызға түседі. Мен келушілердің өз базамды жүргізбеймін.",
-      "answer_en": "The back end runs under your own hosting or server account, and conversations go only to your Telegram group. I do not keep a visitor database of my own.",
+      "answer_ru": "Серверная часть работает на вашем аккаунте хостинга или сервера, переписка уходит только в вашу Telegram-группу. Мы не ведём собственную базу посетителей.",
+      "answer_kk": "Серверлік бөлік сіздің хостинг немесе сервер аккаунтыңызда жұмыс істейді, хат алмасу тек сіздің Telegram тобыңызға түседі. Біз келушілердің өз базамызды жүргізбейміз.",
+      "answer_en": "The back end runs under your own hosting or server account, and conversations go only to your Telegram group. We do not keep a visitor database of our own.",
       "sort": 2
     }
   ]

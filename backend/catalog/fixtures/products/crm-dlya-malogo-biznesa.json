@@ -7,9 +7,9 @@
   "short_ru": "Лёгкая CRM под ваш процесс: клиенты, сделки, статусы и напоминания без лишних модулей.",
   "short_kk": "Сіздің процеске арналған жеңіл CRM: клиенттер, мәмілелер, мәртебелер және еске салғыштар, артық модульсіз.",
   "short_en": "A lightweight CRM built around your process: clients, deals, statuses and reminders without extra modules.",
-  "description_ru": "Готовые CRM часто перегружены функциями, которыми вы не пользуетесь. Я собираю простую систему под ваши этапы работы с клиентом: от заявки до оплаты. Данные можно хранить в Google Sheets с формами и скриптами или в небольшом веб-приложении, в зависимости от размера команды.",
-  "description_kk": "Дайын CRM-дер көбіне өзіңіз қолданбайтын функциялармен шамадан тыс жүктелген. Мен клиентпен жұмыстың сіздің кезеңдеріңізге арналған қарапайым жүйені жинаймын: өтінімнен төлемге дейін. Команда мөлшеріне қарай деректерді формалар мен скрипттері бар Google Sheets-те немесе шағын веб-қосымшада сақтауға болады.",
-  "description_en": "Off-the-shelf CRMs are often loaded with features you never use. I build a simple system around your own stages of working with a client, from first request to payment. Depending on team size, the data can live in Google Sheets with forms and scripts or in a small web application.",
+  "description_ru": "Готовые CRM часто перегружены функциями, которыми вы не пользуетесь. Мы собираем простую систему под ваши этапы работы с клиентом: от заявки до оплаты. Данные можно хранить в Google Sheets с формами и скриптами или в небольшом веб-приложении, в зависимости от размера команды.",
+  "description_kk": "Дайын CRM-дер көбіне өзіңіз қолданбайтын функциялармен шамадан тыс жүктелген. Біз клиентпен жұмыстың сіздің кезеңдеріңізге арналған қарапайым жүйені жинаймыз: өтінімнен төлемге дейін. Команда мөлшеріне қарай деректерді формалар мен скрипттері бар Google Sheets-те немесе шағын веб-қосымшада сақтауға болады.",
+  "description_en": "Off-the-shelf CRMs are often loaded with features you never use. We build a simple system around your own stages of working with a client, from first request to payment. Depending on team size, the data can live in Google Sheets with forms and scripts or in a small web application.",
   "for_whom_ru": "Для команд из 2-15 человек, которые ведут клиентов в таблицах и мессенджерах и хотят порядок без дорогой подписки на крупную CRM.",
   "for_whom_kk": "Клиенттерді кестелер мен мессенджерлерде жүргізетін және қымбат үлкен CRM жазылымынсыз тәртіп қалайтын 2-15 адамнан тұратын командаларға арналған.",
   "for_whom_en": "For teams of 2 to 15 people who manage clients in spreadsheets and messengers and want order without an expensive subscription to a large CRM.",
@@ -89,9 +89,9 @@
       "question_ru": "Можно ли потом добавить функции?",
       "question_kk": "Кейін функция қосуға бола ма?",
       "question_en": "Can features be added later?",
-      "answer_ru": "Можно. Я делаю структуру так, чтобы новые поля и этапы добавлялись без переделки всего. Доработки оцениваются отдельно.",
-      "answer_kk": "Болады. Құрылымды жаңа өрістер мен кезеңдер бәрін қайта жасамай қосылатындай етіп жасаймын. Жетілдірулер бөлек бағаланады.",
-      "answer_en": "Yes. I structure the system so new fields and stages can be added without rebuilding everything. Extensions are quoted separately.",
+      "answer_ru": "Можно. Мы делаем структуру так, чтобы новые поля и этапы добавлялись без переделки всего. Доработки оцениваются отдельно.",
+      "answer_kk": "Болады. Құрылымды жаңа өрістер мен кезеңдер бәрін қайта жасамай қосылатындай етіп жасаймыз. Жетілдірулер бөлек бағаланады.",
+      "answer_en": "Yes. We structure the system so new fields and stages can be added without rebuilding everything. Extensions are quoted separately.",
       "sort": 2
     }
   ]

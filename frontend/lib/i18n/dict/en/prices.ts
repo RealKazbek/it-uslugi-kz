@@ -8,5 +8,5 @@ export const pricesEn: PricesDict = {
   cols: ['Product', 'Price', 'Format', 'Timeline or start'],
   legalHeading: 'Status and payment',
   ctaTitle: 'Need an exact estimate?',
-  ctaText: 'Describe your project on WhatsApp and I will give you a price and a timeline.',
+  ctaText: 'Describe your project on WhatsApp and we will give you a price and a timeline.',
 };

@@ -80,9 +80,9 @@
       "question_ru": "Сколько учеников выдержит бот?",
       "question_kk": "Бот қанша оқушыға шыдайды?",
       "question_en": "How many students can it handle?",
-      "answer_ru": "Сотни учеников одной группы бот обслуживает без проблем, это обычная нагрузка. Если планируется несколько тысяч, скажите заранее, и я подберу подходящий сервер.",
-      "answer_kk": "Бір топтың жүздеген оқушысына бот қиындықсыз қызмет көрсетеді, бұл әдеттегі жүктеме. Бірнеше мың жоспарланса, алдын ала айтыңыз, сәйкес серверді таңдаймын.",
-      "answer_en": "Hundreds of students in a group is a normal load for the bot. If you plan for several thousand, tell me in advance and I will choose a suitable server.",
+      "answer_ru": "Сотни учеников одной группы бот обслуживает без проблем, это обычная нагрузка. Если планируется несколько тысяч, скажите заранее, и мы подберём подходящий сервер.",
+      "answer_kk": "Бір топтың жүздеген оқушысына бот қиындықсыз қызмет көрсетеді, бұл әдеттегі жүктеме. Бірнеше мың жоспарланса, алдын ала айтыңыз, сәйкес серверді таңдаймыз.",
+      "answer_en": "Hundreds of students in a group is a normal load for the bot. If you plan for several thousand, tell us in advance and we will choose a suitable server.",
       "sort": 1
     },
     {

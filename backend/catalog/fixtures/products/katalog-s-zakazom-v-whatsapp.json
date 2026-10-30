@@ -77,9 +77,9 @@
       "question_ru": "Как менять цены и товары?",
       "question_kk": "Бағаны және тауарды қалай өзгертуге болады?",
       "question_en": "How do I change prices and products?",
-      "answer_ru": "Товары хранятся в простом файле, например в таблице, и вы правите его без программиста. После правки сайт показывает обновлённые данные, порядок я объясняю при сдаче.",
-      "answer_kk": "Тауарлар қарапайым файлда, мысалы кестеде сақталады, оны бағдарламашысыз өзіңіз түзетесіз. Түзетуден кейін сайт жаңартылған деректерді көрсетеді, ретін тапсыру кезінде түсіндіремін.",
-      "answer_en": "Products are kept in a simple file such as a spreadsheet, so you can edit them without a programmer. After an edit the site shows the updated data, and I explain the routine at handover.",
+      "answer_ru": "Товары хранятся в простом файле, например в таблице, и вы правите его без программиста. После правки сайт показывает обновлённые данные, порядок мы объясняем при сдаче.",
+      "answer_kk": "Тауарлар қарапайым файлда, мысалы кестеде сақталады, оны бағдарламашысыз өзіңіз түзетесіз. Түзетуден кейін сайт жаңартылған деректерді көрсетеді, ретін тапсыру кезінде түсіндіреміз.",
+      "answer_en": "Products are kept in a simple file such as a spreadsheet, so you can edit them without a programmer. After an edit the site shows the updated data, and we explain the routine at handover.",
       "sort": 1
     },
     {

@@ -68,18 +68,18 @@
       "question_ru": "Подойдёт ли мой обычный номер WhatsApp?",
       "question_kk": "Менің қарапайым WhatsApp нөмірім жарай ма?",
       "question_en": "Can I use my regular WhatsApp number?",
-      "answer_ru": "Для Cloud API нужен номер, не привязанный к обычному приложению WhatsApp, поэтому чаще берут отдельную SIM-карту. Это требование платформы, а не моё решение.",
-      "answer_kk": "Cloud API үшін қарапайым WhatsApp қолданбасына байланбаған нөмір қажет, сондықтан жиі бөлек SIM-карта алады. Бұл платформаның талабы, менің шешімім емес.",
-      "answer_en": "The Cloud API needs a number that is not tied to the ordinary WhatsApp app, so people often take a separate SIM card. That is a platform requirement, not my decision.",
+      "answer_ru": "Для Cloud API нужен номер, не привязанный к обычному приложению WhatsApp, поэтому чаще берут отдельную SIM-карту. Это требование платформы, а не наше решение.",
+      "answer_kk": "Cloud API үшін қарапайым WhatsApp қолданбасына байланбаған нөмір қажет, сондықтан жиі бөлек SIM-карта алады. Бұл платформаның талабы, біздің шешіміміз емес.",
+      "answer_en": "The Cloud API needs a number that is not tied to the ordinary WhatsApp app, so people often take a separate SIM card. That is a platform requirement, not our decision.",
       "sort": 0
     },
     {
       "question_ru": "Сколько стоят сообщения бота?",
       "question_kk": "Боттың хабарламалары қанша тұрады?",
       "question_en": "How much do the bot messages cost?",
-      "answer_ru": "Цена в списке относится только к моей работе. Meta или провайдер взимают плату за разговоры по актуальным тарифам, и я помогу прикинуть расходы под ваш объём.",
-      "answer_kk": "Тізімдегі баға тек менің жұмысыма қатысты. Meta немесе провайдер әңгімелер үшін өзекті тарифтер бойынша ақы алады, сіздің көлеміңізге шығынды бағалауға көмектесемін.",
-      "answer_en": "The listed price covers only my work. Meta or the provider charges for conversations under their current pricing, and I will help estimate the cost for your volume.",
+      "answer_ru": "Цена в списке относится только к нашей работе. Meta или провайдер взимают плату за разговоры по актуальным тарифам, и мы поможем прикинуть расходы под ваш объём.",
+      "answer_kk": "Тізімдегі баға тек біздің жұмысымызға қатысты. Meta немесе провайдер әңгімелер үшін өзекті тарифтер бойынша ақы алады, сіздің көлеміңізге шығынды бағалауға көмектесеміз.",
+      "answer_en": "The listed price covers only our work. Meta or the provider charges for conversations under their current pricing, and we will help estimate the cost for your volume.",
       "sort": 1
     },
     {

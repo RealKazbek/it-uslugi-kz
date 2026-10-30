@@ -80,9 +80,9 @@
       "question_ru": "Можно загрузить сразу всю коллекцию?",
       "question_kk": "Бүкіл топтаманы бірден жүктеуге бола ма?",
       "question_en": "Can I upload a whole collection at once?",
-      "answer_ru": "Да, товары с вариантами загружаются из таблицы по шаблону, который я подготовлю. Фото привязываются к товарам по названию файла.",
+      "answer_ru": "Да, товары с вариантами загружаются из таблицы по шаблону, который мы подготовим. Фото привязываются к товарам по названию файла.",
       "answer_kk": "Иә, нұсқалары бар тауарлар мен дайындайтын үлгі бойынша кестеден жүктеледі. Фотолар файл атауы арқылы тауарға байланады.",
-      "answer_en": "Yes, products with variants are imported from a spreadsheet using a template I prepare. Photos are matched to products by file name.",
+      "answer_en": "Yes, products with variants are imported from a spreadsheet using a template we prepare. Photos are matched to products by file name.",
       "sort": 1
     },
     {

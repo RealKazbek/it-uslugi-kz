@@ -77,9 +77,9 @@
       "question_ru": "Как поменять текст ответа?",
       "question_kk": "Жауап мәтінін қалай өзгертуге болады?",
       "question_en": "How do I change an answer?",
-      "answer_ru": "Тексты лежат в отдельном файле, и обновить их можно без правки кода. Я покажу, как это делается, при сдаче.",
-      "answer_kk": "Мәтіндер бөлек файлда тұрады, оларды кодты түзетпей жаңартуға болады. Мұны қалай істейтінімді тапсыру кезінде көрсетемін.",
-      "answer_en": "The texts live in a separate file and can be updated without touching the code. I show how at handover.",
+      "answer_ru": "Тексты лежат в отдельном файле, и обновить их можно без правки кода. Мы покажем, как это делается, при сдаче.",
+      "answer_kk": "Мәтіндер бөлек файлда тұрады, оларды кодты түзетпей жаңартуға болады. Мұны қалай істейтінімізді тапсыру кезінде көрсетеміз.",
+      "answer_en": "The texts live in a separate file and can be updated without touching the code. We show how at handover.",
       "sort": 1
     },
     {

@@ -71,18 +71,18 @@
       "question_ru": "Как клиент видит свободное время мастера?",
       "question_kk": "Клиент шебердің бос уақытын қалай көреді?",
       "question_en": "How does a client see a stylist's free time?",
-      "answer_ru": "Время берётся из рабочего графика, который вы задаёте для каждого мастера. Занятые слоты скрываются. Если нужна связь с вашим Google Календарём, подключу её по договорённости.",
-      "answer_kk": "Уақыт әр шеберге өзіңіз белгілеген жұмыс кестесінен алынады. Бос емес слоттар жасырылады. Google Күнтізбеге байланыс керек болса, келісім бойынша қосамын.",
-      "answer_en": "Slots come from the working schedule you set for each stylist, and taken slots are hidden. If you need a link to your Google Calendar, I can connect it by agreement.",
+      "answer_ru": "Время берётся из рабочего графика, который вы задаёте для каждого мастера. Занятые слоты скрываются. Если нужна связь с вашим Google Календарём, подключим её по договорённости.",
+      "answer_kk": "Уақыт әр шеберге өзіңіз белгілеген жұмыс кестесінен алынады. Бос емес слоттар жасырылады. Google Күнтізбеге байланыс керек болса, келісім бойынша қосамыз.",
+      "answer_en": "Slots come from the working schedule you set for each stylist, and taken slots are hidden. If you need a link to your Google Calendar, we can connect it by agreement.",
       "sort": 0
     },
     {
       "question_ru": "Можно ли выложить цены в тенге и с «от»?",
       "question_kk": "Бағаларды теңгемен және «бастап» деп көрсетуге бола ма?",
       "question_en": "Can prices be shown in tenge with a \"from\" label?",
-      "answer_ru": "Да, для каждой услуги можно указать точную цену или «от», например зависящую от длины волос. Правка цен занимает минуты, если сообщить мне.",
-      "answer_kk": "Иә, әр қызметке нақты баға немесе «бастап» деп көрсетуге болады, мысалы шаш ұзындығына байланысты. Маған хабарласаңыз, бағаны өзгерту бірнеше минутқа ғана созылады.",
-      "answer_en": "Yes, each service can have an exact price or a \"from\" price, for example depending on hair length. Changing prices takes minutes once you tell me.",
+      "answer_ru": "Да, для каждой услуги можно указать точную цену или «от», например зависящую от длины волос. Правка цен занимает минуты, если сообщить нам.",
+      "answer_kk": "Иә, әр қызметке нақты баға немесе «бастап» деп көрсетуге болады, мысалы шаш ұзындығына байланысты. Бізге хабарласаңыз, бағаны өзгерту бірнеше минутқа ғана созылады.",
+      "answer_en": "Yes, each service can have an exact price or a \"from\" price, for example depending on hair length. Changing prices takes minutes once you tell us.",
       "sort": 1
     },
     {

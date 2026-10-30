@@ -7,9 +7,9 @@
   "short_ru": "Каждая заявка с сайта или из бота автоматически попадает в аккуратную таблицу Google Sheets.",
   "short_kk": "Сайттан немесе боттан түскен әр өтінім автоматты түрде ретті Google Sheets кестесіне түседі.",
   "short_en": "Every lead from your site or bot lands automatically in a tidy Google Sheets table.",
-  "description_ru": "Я подключаю форму на сайте, Telegram-бота или рекламную форму к таблице Google, чтобы заявки не терялись в переписках. В таблице появляются дата, имя, телефон, источник и статус, а вы отмечаете, что уже обработано. Подходит как первый шаг к порядку в продажах, когда CRM ещё не нужна.",
-  "description_kk": "Өтінімдер хат алмасуда жоғалмауы үшін сайттағы форманы, Telegram-ботты немесе жарнама формасын Google кестесіне қосамын. Кестеде күні, аты, телефоны, қайдан келгені және мәртебесі пайда болады, ал өңделгенін өзіңіз белгілейсіз. CRM әлі қажет емес кезде сатудағы тәртіпке алғашқы қадам ретінде қолайлы.",
-  "description_en": "I connect your site form, Telegram bot or ad form to a Google spreadsheet so leads do not get lost in chats. The sheet gets the date, name, phone, source and status, and you mark what has already been handled. It is a good first step toward order in sales when a CRM is not needed yet.",
+  "description_ru": "Мы подключаем форму на сайте, Telegram-бота или рекламную форму к таблице Google, чтобы заявки не терялись в переписках. В таблице появляются дата, имя, телефон, источник и статус, а вы отмечаете, что уже обработано. Подходит как первый шаг к порядку в продажах, когда CRM ещё не нужна.",
+  "description_kk": "Өтінімдер хат алмасуда жоғалмауы үшін сайттағы форманы, Telegram-ботты немесе жарнама формасын Google кестесіне қосамыз. Кестеде күні, аты, телефоны, қайдан келгені және мәртебесі пайда болады, ал өңделгенін өзіңіз белгілейсіз. CRM әлі қажет емес кезде сатудағы тәртіпке алғашқы қадам ретінде қолайлы.",
+  "description_en": "We connect your site form, Telegram bot or ad form to a Google spreadsheet so leads do not get lost in chats. The sheet gets the date, name, phone, source and status, and you mark what has already been handled. It is a good first step toward order in sales when a CRM is not needed yet.",
   "for_whom_ru": "Для небольших компаний, где заявки приходят с сайта, из рекламы и мессенджеров, а учёт ведётся в голове или в блокноте.",
   "for_whom_kk": "Өтінімдер сайттан, жарнамадан және мессенджерлерден келетін, ал есеп ойда немесе қолжазбада жүргізілетін шағын компанияларға арналған.",
   "for_whom_en": "For small companies where leads arrive from the site, ads and messengers, while tracking happens in someone's head or a notebook.",
@@ -89,9 +89,9 @@
       "question_ru": "Что, если я захочу позже перейти на CRM?",
       "question_kk": "Кейін CRM-ге көшкім келсе ше?",
       "question_en": "What if I later want to move to a CRM?",
-      "answer_ru": "Таблицу легко выгрузить в CSV и загрузить в большинство систем. Если вырастете, я смогу построить CRM на тех же данных.",
-      "answer_kk": "Кестені CSV-ға оңай шығарып, көптеген жүйеге жүктеуге болады. Өссеңіз, сол деректер негізінде CRM жасай аламын.",
-      "answer_en": "The table exports easily to CSV and loads into most systems. If you outgrow it, I can build a CRM on the same data.",
+      "answer_ru": "Таблицу легко выгрузить в CSV и загрузить в большинство систем. Если вырастете, мы сможем построить CRM на тех же данных.",
+      "answer_kk": "Кестені CSV-ға оңай шығарып, көптеген жүйеге жүктеуге болады. Өссеңіз, сол деректер негізінде CRM жасай аламыз.",
+      "answer_en": "The table exports easily to CSV and loads into most systems. If you outgrow it, we can build a CRM on the same data.",
       "sort": 2
     }
   ]

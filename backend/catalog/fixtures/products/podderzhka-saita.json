@@ -7,9 +7,9 @@
   "short_ru": "Обновления, резервные копии, мелкие правки и быстрая реакция на сбои за фиксированную сумму в месяц.",
   "short_kk": "Жаңартулар, резервтік көшірмелер, шағын өзгерістер және ақауға жылдам жауап: айына тіркелген сома.",
   "short_en": "Updates, backups, small edits and quick response to outages for a fixed monthly fee.",
-  "description_ru": "Сайт нужно не только запустить, но и содержать: обновлять библиотеки, следить за сертификатом и доменом, вносить мелкие правки в тексты и цены. За фиксированную сумму в месяц я беру это на себя и пишу вам, если что-то требует решения. Подходит сайтам, которые я делал, и чужим, если у меня есть доступ к коду или панели.",
-  "description_kk": "Сайтты іске қосу ғана емес, оны күтіп отыру да керек: кітапханаларды жаңарту, сертификат пен доменді қадағалау, мәтіндер мен бағаларға шағын өзгерістер енгізу. Айына тіркелген сомаға мұны мен өзіме аламын және шешім қажет болса, сізге жазамын. Мен жасаған сайттарға да, коды немесе панеліне қолжетімділік болса, басқа сайттарға да жарайды.",
-  "description_en": "A website needs to be maintained after launch: libraries updated, the certificate and domain watched, small text and price edits made. For a fixed monthly fee I take this on and message you when something needs a decision. It works for sites I built and for other sites, as long as I have access to the code or admin panel.",
+  "description_ru": "Сайт нужно не только запустить, но и содержать: обновлять библиотеки, следить за сертификатом и доменом, вносить мелкие правки в тексты и цены. За фиксированную сумму в месяц мы берём это на себя и пишем вам, если что-то требует решения. Подходит сайтам, которые мы делали, и чужим, если у нас есть доступ к коду или панели.",
+  "description_kk": "Сайтты іске қосу ғана емес, оны күтіп отыру да керек: кітапханаларды жаңарту, сертификат пен доменді қадағалау, мәтіндер мен бағаларға шағын өзгерістер енгізу. Айына тіркелген сомаға мұны біз өзімізге аламыз және шешім қажет болса, сізге жазамыз. Біз жасаған сайттарға да, коды немесе панеліне қолжетімділік болса, басқа сайттарға да жарайды.",
+  "description_en": "A website needs to be maintained after launch: libraries updated, the certificate and domain watched, small text and price edits made. For a fixed monthly fee we take this on and message you when something needs a decision. It works for sites we built and for other sites, as long as we have access to the code or admin panel.",
   "for_whom_ru": "Владельцам бизнес-сайтов, которым некогда заниматься техническими мелочами и нужен один человек, к которому можно обратиться.",
   "for_whom_kk": "Техникалық ұсақ-түйекке уақыты жоқ және бір адамға жүгінгісі келетін бизнес-сайт иелеріне арналған.",
   "for_whom_en": "For owners of business websites who have no time for technical chores and want one person to turn to.",
@@ -40,17 +40,17 @@
   "not_included_ru": [
     "Новые разделы и крупные функции: оцениваются отдельно",
     "Оплата домена и хостинга: платится вами регистратору и хостеру",
-    "Круглосуточное дежурство: отвечаю в рабочие дни"
+    "Круглосуточное дежурство: отвечаем в рабочие дни"
   ],
   "not_included_kk": [
     "Жаңа бөлімдер мен ірі функциялар: бөлек бағаланады",
     "Домен мен хостинг төлемі: оны сіз тіркеушіге және хостерге төлейсіз",
-    "Тәулік бойы кезекшілік: жұмыс күндері жауап беремін"
+    "Тәулік бойы кезекшілік: жұмыс күндері жауап береміз"
   ],
   "not_included_en": [
     "New sections and larger features, which are quoted separately",
     "Domain and hosting fees, which you pay directly to the registrar and host",
-    "Round-the-clock on-call duty; I reply on working days"
+    "Round-the-clock on-call duty; we reply on working days"
   ],
   "price_from_kzt": 15000,
   "unit": "month",
@@ -68,27 +68,27 @@
       "question_ru": "Что входит в лимит часов на правки?",
       "question_kk": "Өзгерістерге арналған сағат лимитіне не кіреді?",
       "question_en": "How does the hours limit for edits work?",
-      "answer_ru": "Лимит мы согласуем заранее, исходя из размера сайта. Если правок бывает больше, я предупрежу и предложу либо увеличить пакет, либо оплатить лишние часы отдельно.",
-      "answer_kk": "Лимитті сайттың көлеміне қарай алдын ала келісеміз. Өзгерістер көп болса, ескертіп, не пакетті ұлғайтуды, не артық сағаттарды бөлек төлеуді ұсынамын.",
-      "answer_en": "We agree the limit in advance based on the size of the site. If you need more edits, I warn you and suggest either a bigger package or paying for the extra hours separately.",
+      "answer_ru": "Лимит мы согласуем заранее, исходя из размера сайта. Если правок бывает больше, мы предупредим и предложим либо увеличить пакет, либо оплатить лишние часы отдельно.",
+      "answer_kk": "Лимитті сайттың көлеміне қарай алдын ала келісеміз. Өзгерістер көп болса, ескертіп, не пакетті ұлғайтуды, не артық сағаттарды бөлек төлеуді ұсынамыз.",
+      "answer_en": "We agree the limit in advance based on the size of the site. If you need more edits, we warn you and suggest either a bigger package or paying for the extra hours separately.",
       "sort": 0
     },
     {
       "question_ru": "Можно ли отказаться в любой момент?",
       "question_kk": "Кез келген уақытта бас тартуға бола ма?",
       "question_en": "Can I stop at any time?",
-      "answer_ru": "Да, поддержка помесячная. Перед окончанием я передаю вам актуальную резервную копию и список всех доступов.",
-      "answer_kk": "Иә, қолдау айлық. Аяқтар алдында сізге өзекті резервтік көшірме мен барлық қолжетімділіктердің тізімін беремін.",
-      "answer_en": "Yes, support is month by month. When we finish I hand over the latest backup and a list of all accesses.",
+      "answer_ru": "Да, поддержка помесячная. Перед окончанием мы передаём вам актуальную резервную копию и список всех доступов.",
+      "answer_kk": "Иә, қолдау айлық. Аяқтар алдында сізге өзекті резервтік көшірме мен барлық қолжетімділіктердің тізімін береміз.",
+      "answer_en": "Yes, support is month by month. When we finish we hand over the latest backup and a list of all accesses.",
       "sort": 1
     },
     {
       "question_ru": "Вы поддерживаете сайты, сделанные не вами?",
       "question_kk": "Сіз жасамаған сайттарды қолдайсыз ба?",
       "question_en": "Do you support sites you did not build?",
-      "answer_ru": "Да, если сайт написан на знакомом мне стеке и есть доступ к коду. Сначала я бесплатно смотрю сайт и честно говорю, возьмусь ли.",
-      "answer_kk": "Иә, егер сайт маған таныс стекте жазылған болса және кодқа қолжетімділік болса. Алдымен сайтты тегін қарап, алатынымды не алмайтынымды ашық айтамын.",
-      "answer_en": "Yes, if it is written in a stack I know and I have access to the code. I first look at the site for free and tell you honestly whether I will take it on.",
+      "answer_ru": "Да, если сайт написан на знакомом нам стеке и есть доступ к коду. Сначала мы бесплатно смотрим сайт и честно говорим, возьмёмся ли.",
+      "answer_kk": "Иә, егер сайт бізге таныс стекте жазылған болса және кодқа қолжетімділік болса. Алдымен сайтты тегін қарап, алатынымызды не алмайтынымызды ашық айтамыз.",
+      "answer_en": "Yes, if it is written in a stack we know and we have access to the code. We first look at the site for free and tell you honestly whether we will take it on.",
       "sort": 2
     }
   ]

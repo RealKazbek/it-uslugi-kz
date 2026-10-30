@@ -80,18 +80,18 @@
       "question_ru": "Как обновлять меню и цены?",
       "question_kk": "Мәзір мен бағаны қалай жаңартуға болады?",
       "question_en": "How do I update the menu and prices?",
-      "answer_ru": "Меню лежит в одном простом файле или панели. Присылайте изменения мне, и я обновлю сайт в течение рабочего дня, либо могу показать, как менять самому.",
-      "answer_kk": "Мәзір бір қарапайым файлда немесе панельде тұрады. Өзгерісті маған жіберіңіз, жұмыс күні ішінде сайтты жаңартамын, не өзіңіз өзгертуді көрсетемін.",
-      "answer_en": "The menu lives in one simple file or panel. Send me the changes and I update the site within a working day, or I can show you how to edit it yourself.",
+      "answer_ru": "Меню лежит в одном простом файле или панели. Присылайте изменения нам, и мы обновим сайт в течение рабочего дня, либо покажем, как менять самим.",
+      "answer_kk": "Мәзір бір қарапайым файлда немесе панельде тұрады. Өзгерісті бізге жіберіңіз, жұмыс күні ішінде сайтты жаңартамыз, не өзіңіз өзгертуді көрсетеміз.",
+      "answer_en": "The menu lives in one simple file or panel. Send us the changes and we update the site within a working day, or we can show you how to edit it yourself.",
       "sort": 1
     },
     {
       "question_ru": "Поможет ли сайт в 2GIS и на картах?",
       "question_kk": "Сайт 2GIS пен карталарда көмектесе ме?",
       "question_en": "Will the site help with maps listings?",
-      "answer_ru": "Ссылку на меню можно указать в карточках 2GIS и Google Maps, чтобы гости открывали актуальное меню. Это удобно, но рост посетителей я не гарантирую.",
+      "answer_ru": "Ссылку на меню можно указать в карточках 2GIS и Google Maps, чтобы гости открывали актуальное меню. Это удобно, но рост посетителей мы не гарантируем.",
       "answer_kk": "Мәзір сілтемесін 2GIS және Google Maps карточкаларына қосуға болады, сонда қонақтар өзекті мәзірді ашады. Бұл ыңғайлы, бірақ келушілердің өсуіне кепілдік бермеймін.",
-      "answer_en": "You can add the menu link to your 2GIS and Google Maps listings so guests open an up-to-date menu. That is handy, but I do not guarantee more visitors.",
+      "answer_en": "You can add the menu link to your 2GIS and Google Maps listings so guests open an up-to-date menu. That is handy, but we do not guarantee more visitors.",
       "sort": 2
     }
   ]

@@ -71,9 +71,9 @@
       "question_ru": "Можно ли показывать цены, если они меняются?",
       "question_kk": "Бағалар өзгеріп тұрса, оларды көрсетуге бола ма?",
       "question_en": "Can we show prices if they change often?",
-      "answer_ru": "Лучше указывать «от» и дату актуализации. Цены лежат в одном разделе, и я обновлю их по вашему сообщению, обычно в тот же день.",
-      "answer_kk": "«Бастап» және жаңарту күнін көрсеткен жөн. Бағалар бір бөлімде тұрады, мен оларды хабарламаңыз бойынша, әдетте сол күні жаңартамын.",
-      "answer_en": "It is best to show \"from\" prices with an update date. The prices live in one section and I update them on your message, usually the same day.",
+      "answer_ru": "Лучше указывать «от» и дату актуализации. Цены лежат в одном разделе, и мы обновим их по вашему сообщению, обычно в тот же день.",
+      "answer_kk": "«Бастап» және жаңарту күнін көрсеткен жөн. Бағалар бір бөлімде тұрады, біз оларды хабарламаңыз бойынша, әдетте сол күні жаңартамыз.",
+      "answer_en": "It is best to show \"from\" prices with an update date. The prices live in one section and we update them on your message, usually the same day.",
       "sort": 0
     },
     {
@@ -89,9 +89,9 @@
       "question_ru": "Поможет ли сайт найти клинику в поиске по району?",
       "question_kk": "Сайт клиниканы аудан бойынша іздеуден табуға көмектесе ме?",
       "question_en": "Will the site help patients find the clinic when searching by district?",
-      "answer_ru": "Я оформляю страницы так, чтобы поиск понимал услуги и адрес, и советую завести карточку в 2GIS и Google Maps. Места в выдаче при этом не обещаю.",
-      "answer_kk": "Іздеу қызметтер мен мекенжайды түсінетіндей беттерді рәсімдеймін, 2GIS және Google Maps-те карточка ашуды ұсынамын. Дегенмен шығарылымдағы орынды уәде етпеймін.",
-      "answer_en": "I structure the pages so search engines can read the services and address, and I recommend adding a listing on 2GIS and Google Maps. I do not promise any ranking position.",
+      "answer_ru": "Мы оформляем страницы так, чтобы поиск понимал услуги и адрес, и советуем завести карточку в 2GIS и Google Maps. Места в выдаче при этом не обещаем.",
+      "answer_kk": "Іздеу қызметтер мен мекенжайды түсінетіндей беттерді рәсімдейміз, 2GIS және Google Maps-те карточка ашуды ұсынамыз. Дегенмен шығарылымдағы орынды уәде етпейміз.",
+      "answer_en": "We structure the pages so search engines can read the services and address, and we recommend adding a listing on 2GIS and Google Maps. We do not promise any ranking position.",
       "sort": 2
     }
   ]

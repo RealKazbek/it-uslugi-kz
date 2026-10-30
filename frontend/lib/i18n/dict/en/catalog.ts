@@ -10,7 +10,7 @@ export const catalogEn: CatalogDict = {
   filterLabel: 'Category',
   searchLabel: 'Search the catalog',
   searchPlaceholder: 'For example: bot, website, Kaspi',
-  empty: 'Nothing found. Try another search or message me.',
+  empty: 'Nothing found. Try another search or message us.',
   categories: 'Categories',
   countLabel: (n) => `Products: ${n}`,
   hubTitle: (name) => `${name}: catalog and prices | Perne`,
