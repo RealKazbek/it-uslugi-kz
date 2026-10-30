@@ -8,7 +8,7 @@ REQUIRED_ENV=POSTGRES_DB POSTGRES_USER POSTGRES_PASSWORD DJANGO_SECRET_KEY INTER
 BOT_VENV=python -m venv /tmp/venv && /tmp/venv/bin/pip install -q -r requirements-dev.txt
 BOT_RUN=docker run --rm --user $$(id -u):$$(id -g) -e HOME=/tmp -e PIP_NO_CACHE_DIR=1 -v "$(CURDIR)/bot:/w" -w /w python:3.12-slim sh -c
 
-.PHONY: up down init seed test lint bot-lint bot-test e2e dev check-env
+.PHONY: up down init seed test lint bot-lint bot-test e2e dev check-env check-links
 
 # Fail early with a clear message when .env is missing or a required value is empty.
 check-env:
@@ -48,6 +48,11 @@ test: bot-test
 lint: bot-lint
 	cd backend && .venv/bin/ruff check . && .venv/bin/ruff format --check . && DJANGO_DEBUG=1 .venv/bin/mypy .
 	cd frontend && npm run lint && npm run typecheck
+
+# Crawls the running site (start it with `make up` or `make dev` first) from /ru, /kk, /en, / and sitemap.xml.
+# Fails on broken internal links, #fragments, form actions, img/source/video URLs and malformed contact links.
+check-links:
+	cd frontend && BASE_URL=http://127.0.0.1:3000 npm run check-links
 
 bot-lint:
 	$(BOT_RUN) '$(BOT_VENV) && /tmp/venv/bin/ruff check . && /tmp/venv/bin/ruff format --check . && /tmp/venv/bin/mypy .'
