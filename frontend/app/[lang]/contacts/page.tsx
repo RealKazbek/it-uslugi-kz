@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { SiTelegram, SiWhatsapp } from 'react-icons/si';
 import { LeadForm } from '@/components/features/lead/LeadForm';
 import { ContactList, type ContactItem } from '@/components/features/contacts/ContactList';
 import { HowBlock } from '@/components/features/contacts/HowBlock';
@@ -8,6 +9,7 @@ import { JsonLd } from '@/components/features/seo/JsonLd';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
 import { ButtonLink } from '@/components/ui/Button';
 import { Container } from '@/components/ui/Container';
+import { PageHeader } from '@/components/ui/PageHeader';
 import { Section } from '@/components/ui/Section';
 import { parseLang } from '@/lib/catalog/params';
 import { config } from '@/lib/config';
@@ -39,12 +41,12 @@ function contactItems(lang: Parameters<typeof getDict>[0]): ContactItem[] {
   const labels = getDict(lang).contacts.labels;
   const phone = lang === 'en' ? contacts.phoneDisplayIntl : contacts.phoneDisplay;
   return [
-    { label: labels.wa, href: whatsappGeneralLink(lang), text: labels.wa, external: true },
-    { label: labels.tg, href: telegramLink(), text: `@${contacts.telegram}`, external: true },
-    { label: labels.phone, href: `tel:${contacts.phone}`, text: phone, external: false },
-    { label: labels.email, href: `mailto:${contacts.email}`, text: contacts.email, external: false },
-    { label: labels.site, href: contacts.portfolioUrl, text: contacts.portfolioUrl.replace('https://', ''), external: true },
-    { label: labels.gh, href: contacts.github, text: 'RealKazbek', external: true },
+    { label: labels.wa, href: whatsappGeneralLink(lang), text: labels.wa, external: true, icon: 'whatsapp' },
+    { label: labels.tg, href: telegramLink(), text: `@${contacts.telegram}`, external: true, icon: 'telegram' },
+    { label: labels.phone, href: `tel:${contacts.phone}`, text: phone, external: false, icon: 'phone' },
+    { label: labels.email, href: `mailto:${contacts.email}`, text: contacts.email, external: false, icon: 'mail' },
+    { label: labels.site, href: contacts.portfolioUrl, text: contacts.portfolioUrl.replace('https://', ''), external: true, icon: 'site' },
+    { label: labels.gh, href: contacts.github, text: 'RealKazbek', external: true, icon: 'github' },
   ];
 }
 
@@ -59,20 +61,25 @@ export default async function ContactsPage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={[professionalServiceLd(config.siteUrl), breadcrumbLd([home, here])]} />
-      <Section>
-        <Container className="space-y-5">
-          <Breadcrumbs label={d.common.menu} items={[{ name: home.name, href: localePath(lang, '/') }, { name: here.name, href: localePath(lang, '/contacts') }]} />
-          <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.contacts.h1}</h1>
-          <p className="max-w-prose text-lg text-muted-foreground">{d.contacts.lead}</p>
-          <div className="flex flex-wrap gap-3">
-            <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp">{d.common.wa}</ButtonLink>
-            <ButtonLink href={telegramLink()} variant="outline">{d.common.tg}</ButtonLink>
-          </div>
-        </Container>
-      </Section>
-      <Section labelledBy="where">
-        <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
-          <h2 id="where" className="text-2xl">{d.contacts.where}</h2>
+      <PageHeader
+        crumbs={<Breadcrumbs label={d.common.menu} items={[{ name: home.name, href: localePath(lang, '/') }, { name: here.name, href: localePath(lang, '/contacts') }]} />}
+        h1={d.contacts.h1}
+        lead={d.contacts.lead}
+      >
+        <div className="flex flex-wrap gap-3">
+          <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp">
+            <SiWhatsapp aria-hidden="true" />
+            {d.common.wa}
+          </ButtonLink>
+          <ButtonLink href={telegramLink()} variant="telegram">
+            <SiTelegram aria-hidden="true" />
+            {d.common.tg}
+          </ButtonLink>
+        </div>
+      </PageHeader>
+      <Section labelledBy="where" className="bg-muted">
+        <Container className="space-y-8">
+          <h2 id="where" className="text-3xl font-extrabold">{d.contacts.where}</h2>
           <ContactList items={contactItems(lang)} />
         </Container>
       </Section>
@@ -80,8 +87,8 @@ export default async function ContactsPage({ params }: PageProps) {
       <HowBlock lang={lang} howHeading={d.contacts.how} howLines={d.contacts.howLines} legalHeading={d.contacts.legal} />
       <Section labelledBy="form" className="pb-24 md:pb-14">
         <Container className="space-y-5">
-          <h2 id="form" className="text-2xl">{d.contacts.formTitle}</h2>
-          <p className="max-w-prose text-muted-foreground">{d.contacts.formText}</p>
+          <h2 id="form" className="text-3xl font-extrabold">{d.contacts.formTitle}</h2>
+          <p className="max-w-prose text-lg text-muted-foreground">{d.contacts.formText}</p>
           <LeadForm lang={lang} product="" pageUrl={pageUrl} labels={d.lead} />
         </Container>
       </Section>

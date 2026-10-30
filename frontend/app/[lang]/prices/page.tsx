@@ -1,14 +1,16 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { CtaSection } from '@/components/features/home/CtaSection';
 import { PriceTable } from '@/components/features/prices/PriceTable';
 import { JsonLd } from '@/components/features/seo/JsonLd';
 import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
-import { ButtonLink } from '@/components/ui/Button';
+import { Card } from '@/components/ui/Card';
 import { Container } from '@/components/ui/Container';
+import { PageHeader } from '@/components/ui/PageHeader';
 import { Section } from '@/components/ui/Section';
 import { parseLang } from '@/lib/catalog/params';
 import { config } from '@/lib/config';
-import { whatsappGeneralLink } from '@/lib/format/links';
+import { telegramLink, whatsappGeneralLink } from '@/lib/format/links';
 import { getDict } from '@/lib/i18n/dict';
 import { localePath } from '@/lib/i18n/paths';
 import { legal } from '@/lib/site/legal';
@@ -53,31 +55,37 @@ export default async function PricesPage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={breadcrumbLd(crumbs)} />
-      <Section>
-        <Container className="space-y-5">
-          <Breadcrumbs label={d.common.menu} items={[{ name: crumbs[0]!.name, href: localePath(lang, '/') }, { name: crumbs[1]!.name, href: localePath(lang, '/prices') }]} />
-          <h1 className="text-[1.9rem] md:text-[2.4rem]">{d.prices.h1(data.minText)}</h1>
-          <p className="max-w-prose text-lg text-muted-foreground">{d.prices.lead}</p>
-        </Container>
-      </Section>
-      <Section>
+      <PageHeader
+        crumbs={
+          <Breadcrumbs
+            label={d.common.menu}
+            items={[{ name: crumbs[0]!.name, href: localePath(lang, '/') }, { name: crumbs[1]!.name, href: localePath(lang, '/prices') }]}
+          />
+        }
+        h1={d.prices.h1(data.minText)}
+        lead={d.prices.lead}
+      />
+      <Section className="bg-muted">
         <Container>
           <PriceTable groups={data.groups} cols={d.prices.cols} />
         </Container>
       </Section>
       <Section labelledBy="legal">
-        <Container className="max-w-prose space-y-3">
-          <h2 id="legal" className="text-2xl">{d.prices.legalHeading}</h2>
-          <p>{legal[lang]}</p>
+        <Container>
+          <Card className="max-w-prose space-y-3 p-6 md:p-8">
+            <h2 id="legal" className="text-2xl">{d.prices.legalHeading}</h2>
+            <p>{legal[lang]}</p>
+          </Card>
         </Container>
       </Section>
-      <Section labelledBy="cta" className="pb-24 md:pb-14">
-        <Container className="space-y-4">
-          <h2 id="cta" className="text-2xl">{d.prices.ctaTitle}</h2>
-          <p className="max-w-prose text-muted-foreground">{d.prices.ctaText}</p>
-          <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp">{d.common.wa}</ButtonLink>
-        </Container>
-      </Section>
+      <CtaSection
+        title={d.prices.ctaTitle}
+        text={d.prices.ctaText}
+        whatsappLabel={d.common.wa}
+        whatsappHref={whatsappGeneralLink(lang)}
+        telegramLabel={d.common.tg}
+        telegramHref={telegramLink()}
+      />
     </>
   );
 }

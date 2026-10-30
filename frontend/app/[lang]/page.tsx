@@ -89,6 +89,7 @@ export default async function HomePage({ params }: PageProps) {
         allLabel={h.casesAll}
         allHref={localePath(lang, '/portfolio')}
         items={caseViews(PORTFOLIO, lang, portfolioImageExists)}
+        labels={{ stack: d.portfolio.stack, imageAlt: d.portfolio.imageAlt }}
       />
       <PricesSection
         title={h.pricesHeading}
