@@ -85,3 +85,6 @@ animating width/height; one duration for everything; text below 14px; low-contra
 - 2026-10-30: Section spacing py-12 md:py-20 and container max-w-7xl per brief. Existing pages are not restyled in this step.
 - 2026-10-30: Added global reduced-motion rule with 0.01ms durations (rather than `none`) so animationend events still fire.
 - 2026-10-30: Monogram uses `fill-primary` classes instead of inline style var; favicon.svg fill is #D92D20.
+- 2026-10-30: Images: 79 Unsplash photos (16 category = 2 per category, 59 product, 3 hero, 1 portfolio) found via unsplash.com search pages, downloaded from images.unsplash.com once, cropped 3:2 and converted with cwebp q72 to 1200x800 (hero 1400x933), total ~4.2 MB in `frontend/public/media`. Sources listed in `public/media/CREDITS.md`. Paths come from `lib/media/images.ts`; next/image serves resized WebP with lazy loading. Unsplash+ and "sponsored" results skipped.
+- 2026-10-30: An automated JSON search request to unsplash.com with a browser user-agent was blocked by the sandbox (bot-check circumvention); used the plain web-page fetch tool instead. Pexels was not needed.
+- 2026-10-30: Product gallery = product photo + the two category photos (3 images), so every product has a gallery without inventing project screenshots.
