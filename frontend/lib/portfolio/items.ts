@@ -8,7 +8,7 @@ export interface PortfolioLink {
 
 export interface PortfolioItem {
   slug: string;
-  title: string;
+  title: Record<Lang, string>;
   stack: string[];
   description: Record<Lang, string>;
   links: PortfolioLink[];
@@ -17,7 +17,7 @@ export interface PortfolioItem {
 export const PORTFOLIO: PortfolioItem[] = [
   {
     slug: 'terracon',
-    title: 'TerraCon',
+    title: { ru: 'TerraCon', kk: 'TerraCon', en: 'TerraCon' },
     stack: ['Next.js', 'Tailwind'],
     description: {
       ru: 'Сайт на Next.js и Tailwind для строительной компании, которая занимается спортивными покрытиями: каталог с фильтрами и корзина. Рядом работает Telegram-бот для связи с менеджером.',
@@ -31,7 +31,7 @@ export const PORTFOLIO: PortfolioItem[] = [
   },
   {
     slug: 'telegram-business-ai',
-    title: 'AI-ассистент для Telegram Business',
+    title: { ru: 'AI-ассистент для Telegram Business', kk: 'Telegram Business үшін ЖИ-көмекші', en: 'AI assistant for Telegram Business' },
     stack: ['Python', 'aiogram', 'DeepSeek'],
     description: {
       ru: 'Ассистент на Python и aiogram с моделью DeepSeek: отвечает клиентам по базе знаний, помнит диалог, имеет админ-панель. Когда владелец отвечает сам, ассистент автоматически замолкает на 60 минут.',
@@ -42,7 +42,7 @@ export const PORTFOLIO: PortfolioItem[] = [
   },
   {
     slug: 'car',
-    title: 'Car',
+    title: { ru: 'Car', kk: 'Car', en: 'Car' },
     stack: [],
     description: {
       ru: 'Демонстрационный фронтенд-проект Car.',

@@ -16,7 +16,7 @@ export interface CaseView {
 export function caseViews(items: PortfolioItem[], lang: Lang, hasImage: (slug: string) => boolean): CaseView[] {
   return items.map((item) => ({
     slug: item.slug,
-    title: item.title,
+    title: item.title[lang],
     stack: item.stack,
     description: item.description[lang],
     links: item.links.map((link) => ({ label: link.label[lang], url: link.url })),

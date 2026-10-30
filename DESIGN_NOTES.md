@@ -123,3 +123,5 @@ Variance check, 3 more mobile runs: home 94 / 94 / 99, catalog 94 / 92 / 93. Per
 Catalog accessibility 96: axe samples cards that are still fading in (staggered reveal), so it reports blended colours (#DC3C30 instead of the real #D92D20, #7B828D instead of #5B6472). The resting colours pass AA (4.83:1 and 5.98:1).
 
 Screenshots (Playwright, full page, ru) at 375/768/1280 for home, catalog and product are in `/screenshots` (not committed: ~37 MB of PNG). Fixed elements (mobile contact bar, floating WhatsApp) appear where the viewport ended during the full-page capture.
+- 2026-10-30: Screenshot follow-ups: related products on the product page use at most 3 columns (there are usually 3, which left an empty 4th column); portfolio titles are now per language (`title: Record<Lang, string>`), so /en no longer shows the Russian "AI-ассистент" title.
+- 2026-10-30: Instagram/TikTok brand icons (SiInstagram, SiTiktok) are implemented in the footer but stay hidden until real profile URLs are set in `socials` (lib/site/contacts.ts); inventing account URLs would publish wrong contact links. WhatsApp and Telegram brand icons are visible everywhere.

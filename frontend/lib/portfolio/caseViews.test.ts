@@ -10,5 +10,6 @@ describe('caseViews', () => {
     expect(views[1]?.image).toBeNull();
     expect(views[0]?.description).toContain('Next.js');
     expect(views[0]?.links[0]?.label).toBe('Website terracon.kz');
+    expect(views[1]?.title).toBe('AI assistant for Telegram Business');
   });
 });
