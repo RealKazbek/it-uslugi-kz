@@ -52,7 +52,7 @@
     "Complex logic for distributing leads across managers, which is closer to a CRM",
     "A delivery guarantee if Telegram or the email service is temporarily unavailable"
   ],
-  "price_from_kzt": 15000,
+  "price_from_kzt": 8500,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,

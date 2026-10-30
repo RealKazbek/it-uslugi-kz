@@ -52,7 +52,7 @@
     "Sites on closed builders where the code cannot be changed",
     "Paid third-party services and subscriptions you connect to the site"
   ],
-  "price_from_kzt": 15000,
+  "price_from_kzt": 9000,
   "unit": "once",
   "days_min": 2,
   "days_max": 5,

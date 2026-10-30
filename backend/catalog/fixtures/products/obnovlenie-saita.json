@@ -55,7 +55,7 @@
     "Adding features or rewriting the template: this is separate work",
     "Fixing errors that existed before the update: these are priced separately"
   ],
-  "price_from_kzt": 12000,
+  "price_from_kzt": 7000,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,

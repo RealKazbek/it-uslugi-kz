@@ -55,7 +55,7 @@
     "Fixing the cause of the downtime: we report the problem, and the fix is priced separately",
     "A guarantee of nonstop uptime: monitoring reports a failure quickly but does not prevent it"
   ],
-  "price_from_kzt": 25000,
+  "price_from_kzt": 15000,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,

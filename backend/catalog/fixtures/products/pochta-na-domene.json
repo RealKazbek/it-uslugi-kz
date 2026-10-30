@@ -52,7 +52,7 @@
     "Migrating a very large archive of old messages from another mailbox",
     "Bulk mailing to many addresses, which is a separate setup"
   ],
-  "price_from_kzt": 8000,
+  "price_from_kzt": 5000,
   "unit": "once",
   "days_min": 1,
   "days_max": 1,

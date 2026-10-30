@@ -52,7 +52,7 @@
     "Changes to the 1C configuration itself if its structure does not allow the exchange (quoted separately)",
     "Bookkeeping and reporting: the integration moves the data, while accounting decisions stay with your accountants"
   ],
-  "price_from_kzt": 80000,
+  "price_from_kzt": 44000,
   "unit": "once",
   "days_min": 10,
   "days_max": 25,

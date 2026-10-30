@@ -55,7 +55,7 @@
     "Moving the site and launching it on the server: this is separate work",
     "Protection from every possible attack: the setup lowers risks but does not remove them completely"
   ],
-  "price_from_kzt": 30000,
+  "price_from_kzt": 18000,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,

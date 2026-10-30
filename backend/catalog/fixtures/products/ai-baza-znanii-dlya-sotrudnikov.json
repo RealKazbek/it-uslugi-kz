@@ -55,7 +55,7 @@
     "Language model usage fees, which you pay based on use",
     "A guarantee of accuracy: AI can be wrong, so legally or financially significant decisions should be checked against the source document"
   ],
-  "price_from_kzt": 210000,
+  "price_from_kzt": 115000,
   "unit": "once",
   "days_min": 10,
   "days_max": 20,

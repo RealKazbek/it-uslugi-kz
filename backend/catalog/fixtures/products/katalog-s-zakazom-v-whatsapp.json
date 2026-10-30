@@ -52,7 +52,7 @@
     "Product photos, descriptions and prices, which you provide",
     "Online payment and stock accounting, which is a larger, separate task"
   ],
-  "price_from_kzt": 80000,
+  "price_from_kzt": 34000,
   "unit": "once",
   "days_min": 7,
   "days_max": 12,

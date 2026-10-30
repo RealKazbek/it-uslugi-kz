@@ -52,7 +52,7 @@
     "Attracting subscribers, as the bot collects people who come but does not generate traffic",
     "The server for the bot, set up in your name and paid at the provider rate"
   ],
-  "price_from_kzt": 50000,
+  "price_from_kzt": 28000,
   "unit": "once",
   "days_min": 3,
   "days_max": 6,

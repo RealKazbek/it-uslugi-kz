@@ -55,7 +55,7 @@
     "Integration with systems that have no open API or no access for outside developers",
     "Hosting for continuous operation of the script if it does not fit free limits"
   ],
-  "price_from_kzt": 40000,
+  "price_from_kzt": 22000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,

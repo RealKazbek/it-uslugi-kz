@@ -55,7 +55,7 @@
     "A paid cloud subscription, if you choose to use one: the service provider sets the prices",
     "Physical mounting of cameras and cables: not part of this remote service; if you do not have cameras yet, see the CCTV installation service"
   ],
-  "price_from_kzt": 10000,
+  "price_from_kzt": 6500,
   "unit": "once",
   "days_min": 1,
   "days_max": 2,

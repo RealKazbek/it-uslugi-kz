@@ -55,7 +55,7 @@
     "New functions such as a cart or a customer account",
     "Hosting and domain fees paid to the registrar and host"
   ],
-  "price_from_kzt": 60000,
+  "price_from_kzt": 36000,
   "unit": "once",
   "days_min": 7,
   "days_max": 14,

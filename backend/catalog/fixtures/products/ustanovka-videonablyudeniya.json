@@ -55,7 +55,7 @@
     "On-site work outside Almaty: visits are currently made only to this city",
     "Wall repairs, drilling and finishing: if they are needed, you or your contractor do them"
   ],
-  "price_from_kzt": 45000,
+  "price_from_kzt": 29000,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,

@@ -52,7 +52,7 @@
     "Scenarios beyond the agreed scope: additional processes are quoted separately",
     "Support for scenarios after launch: it can be ordered separately"
   ],
-  "price_from_kzt": 40000,
+  "price_from_kzt": 22000,
   "unit": "once",
   "days_min": 3,
   "days_max": 10,

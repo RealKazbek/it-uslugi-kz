@@ -55,7 +55,7 @@
     "A full rebuild of the site or a move to another engine: this is separate work",
     "A guarantee that the attack will not happen again: we close known routes, but new weaknesses appear all the time"
   ],
-  "price_from_kzt": 30000,
+  "price_from_kzt": 18000,
   "unit": "once",
   "days_min": 1,
   "days_max": 4,

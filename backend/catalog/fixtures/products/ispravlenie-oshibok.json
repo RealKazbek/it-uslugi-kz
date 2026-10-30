@@ -52,7 +52,7 @@
     "Errors caused by an outage on the hosting provider side",
     "Sites on closed builders where we cannot access the code"
   ],
-  "price_from_kzt": 5000,
+  "price_from_kzt": 3000,
   "unit": "once",
   "days_min": 1,
   "days_max": 2,

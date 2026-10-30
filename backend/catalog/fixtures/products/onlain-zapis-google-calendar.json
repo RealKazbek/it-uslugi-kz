@@ -55,7 +55,7 @@
     "Paid service subscriptions if reminders need SMS",
     "The design of the site the booking is embedded into"
   ],
-  "price_from_kzt": 30000,
+  "price_from_kzt": 17000,
   "unit": "once",
   "days_min": 3,
   "days_max": 6,

@@ -52,7 +52,7 @@
     "Platform rule changes that may affect the API (we update the integration separately)",
     "Running the shop, product cards and buyer replies: the integration does not replace the seller's work"
   ],
-  "price_from_kzt": 70000,
+  "price_from_kzt": 39000,
   "unit": "once",
   "days_min": 10,
   "days_max": 20,

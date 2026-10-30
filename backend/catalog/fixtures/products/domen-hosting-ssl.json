@@ -52,7 +52,7 @@
     "Building the website itself; this service covers infrastructure only",
     "Moving a site from another host, which is a separate service"
   ],
-  "price_from_kzt": 10000,
+  "price_from_kzt": 6000,
   "unit": "once",
   "days_min": 1,
   "days_max": 2,

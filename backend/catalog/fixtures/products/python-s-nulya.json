@@ -55,7 +55,7 @@
     "Doing your homework or coursework for you",
     "Certificates; these are private lessons, not an accredited course"
   ],
-  "price_from_kzt": 5000,
+  "price_from_kzt": 4000,
   "unit": "lesson",
   "days_min": 1,
   "days_max": 3,

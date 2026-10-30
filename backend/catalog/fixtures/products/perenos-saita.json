@@ -52,7 +52,7 @@
     "Fixing bugs that existed on the site before the move",
     "Moves from site builders that do not allow exporting the site"
   ],
-  "price_from_kzt": 15000,
+  "price_from_kzt": 9000,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,

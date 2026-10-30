@@ -55,7 +55,7 @@
     "Offline use of the whole site: complex sections with online payment or live data do not work without a connection",
     "Hosting and domain: paid separately"
   ],
-  "price_from_kzt": 150000,
+  "price_from_kzt": 70000,
   "unit": "once",
   "days_min": 20,
   "days_max": 35,

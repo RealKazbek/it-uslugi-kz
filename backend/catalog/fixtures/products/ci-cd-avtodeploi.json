@@ -55,7 +55,7 @@
     "Paying for GitHub Actions minutes above the free limit and for server rental",
     "Fixing code errors that the checks find: this is separate work"
   ],
-  "price_from_kzt": 45000,
+  "price_from_kzt": 27000,
   "unit": "once",
   "days_min": 2,
   "days_max": 6,

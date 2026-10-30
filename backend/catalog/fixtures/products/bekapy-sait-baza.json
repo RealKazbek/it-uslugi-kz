@@ -55,7 +55,7 @@
     "Restoring the site after a hack or a serious failure: this is separate work",
     "Copying data kept in third-party services, for example in a CRM"
   ],
-  "price_from_kzt": 20000,
+  "price_from_kzt": 12000,
   "unit": "once",
   "days_min": 1,
   "days_max": 3,

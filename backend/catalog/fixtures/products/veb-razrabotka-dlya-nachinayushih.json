@@ -55,7 +55,7 @@
     "Hosting and domain fees for your site, which you pay to the host yourself",
     "Back-end and databases, which can be covered in separate lessons by agreement"
   ],
-  "price_from_kzt": 5000,
+  "price_from_kzt": 4000,
   "unit": "lesson",
   "days_min": 1,
   "days_max": 3,

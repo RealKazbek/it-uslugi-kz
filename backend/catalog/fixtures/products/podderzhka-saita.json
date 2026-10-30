@@ -52,7 +52,7 @@
     "Domain and hosting fees, which you pay directly to the registrar and host",
     "Round-the-clock on-call duty; we reply on working days"
   ],
-  "price_from_kzt": 15000,
+  "price_from_kzt": 9000,
   "unit": "month",
   "days_min": 1,
   "days_max": 2,

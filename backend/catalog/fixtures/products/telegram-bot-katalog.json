@@ -52,7 +52,7 @@
     "A multi-item cart and online payment, for which a Telegram Mini App is a better fit",
     "The server for the bot, set up in your name and paid at the provider rate"
   ],
-  "price_from_kzt": 120000,
+  "price_from_kzt": 65000,
   "unit": "once",
   "days_min": 7,
   "days_max": 12,

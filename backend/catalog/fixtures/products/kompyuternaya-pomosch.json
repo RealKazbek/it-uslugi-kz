@@ -52,7 +52,7 @@
     "On-site visits, which in Almaty are possible by agreement and charged separately",
     "Recovering data from failed drives"
   ],
-  "price_from_kzt": 3000,
+  "price_from_kzt": 2000,
   "unit": "hour",
   "days_min": 1,
   "days_max": 1,

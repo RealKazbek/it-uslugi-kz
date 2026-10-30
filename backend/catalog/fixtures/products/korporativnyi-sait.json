@@ -55,7 +55,7 @@
     "Online shop with cart and payment",
     "Search promotion, which is a separate service"
   ],
-  "price_from_kzt": 300000,
+  "price_from_kzt": 125000,
   "unit": "once",
   "days_min": 10,
   "days_max": 20,

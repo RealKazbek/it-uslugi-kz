@@ -52,7 +52,7 @@
     "Fixing bugs or adding features found during the move: these are priced separately",
     "A guarantee of no failures in future: we set up a stable launch, but outages on the hosting side are outside our control"
   ],
-  "price_from_kzt": 40000,
+  "price_from_kzt": 24000,
   "unit": "once",
   "days_min": 2,
   "days_max": 5,

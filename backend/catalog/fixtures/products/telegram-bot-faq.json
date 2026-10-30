@@ -52,7 +52,7 @@
     "Writing every answer from scratch, as you provide the substance",
     "The server for the bot, set up in your name and paid at the provider rate"
   ],
-  "price_from_kzt": 45000,
+  "price_from_kzt": 25000,
   "unit": "once",
   "days_min": 2,
   "days_max": 5,

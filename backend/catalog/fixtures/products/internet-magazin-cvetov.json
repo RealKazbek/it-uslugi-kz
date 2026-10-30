@@ -55,7 +55,7 @@
     "A courier service, as you organise the delivery yourself",
     "Online card payment, which can be added separately through a provider API by agreement"
   ],
-  "price_from_kzt": 380000,
+  "price_from_kzt": 160000,
   "unit": "once",
   "days_min": 14,
   "days_max": 25,

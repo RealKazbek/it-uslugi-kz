@@ -55,7 +55,7 @@
     "A guarantee of recognition accuracy: noise, weak connections and rare words lower quality, so hard cases go to an operator",
     "Recording and storing calls: this must be agreed with the client and meet personal data law requirements"
   ],
-  "price_from_kzt": 150000,
+  "price_from_kzt": 85000,
   "unit": "once",
   "days_min": 21,
   "days_max": 40,

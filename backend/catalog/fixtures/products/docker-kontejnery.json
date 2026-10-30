@@ -52,7 +52,7 @@
     "Rewriting the project code for containers: we package it as it is",
     "Setting up clusters and complex orchestration: most sites do not need it, and it is priced separately"
   ],
-  "price_from_kzt": 35000,
+  "price_from_kzt": 21000,
   "unit": "once",
   "days_min": 2,
   "days_max": 5,
