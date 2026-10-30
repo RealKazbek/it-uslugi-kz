@@ -90,6 +90,42 @@
       "answer_kk": "Мұнда жеке кабинеттер, тапсырыс әкімшілігі және онлайн төлем жоқ: тапсырыс чатқа кетеді де, оны қолмен жүргізесіз. Бірақ арзанырақ әрі тезірек іске қосылады. Айналым өссе, каталогты толыққанды дүкенге дейін дамытуға болады.",
       "answer_en": "There are no customer accounts, order admin or online payment here: the order goes to a chat and you handle it manually. In return it costs noticeably less and launches faster. If volume grows, the catalog can be extended into a full store.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если клиент отправил заказ, а вы не ответили?",
+      "question_kk": "Клиент тапсырыс жіберді, ал сіз жауап бермедіңіз бе, онда не болады?",
+      "question_en": "What happens if a customer sends an order and you do not reply?",
+      "answer_ru": "Сообщение приходит в ваш WhatsApp, а обработка остаётся за вами. Система не подтверждает заказ сама, поэтому важно отвечать клиентам вовремя.",
+      "answer_kk": "Хабарлама сіздің WhatsApp-қа келеді, ал өңдеу сізде қалады. Жүйе тапсырысты өзі растамайды, сондықтан клиенттерге уақытылы жауап беру маңызды.",
+      "answer_en": "The message arrives in your WhatsApp, and handling stays with you. The system does not confirm orders itself, so replying to customers on time matters.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Какой номер WhatsApp указывается в кнопке?",
+      "question_kk": "Батырмада қай WhatsApp нөмірі көрсетіледі?",
+      "question_en": "Which WhatsApp number goes in the button?",
+      "answer_ru": "Номер вы вводите в настройках, и он должен быть тем, на который клиенты будут писать. Мы подставляем его в ссылку и проверяем, что сообщение открывается.",
+      "answer_kk": "Нөмірді баптауда сіз енгізесіз, ол клиенттер жазатын нөмір болуы керек. Біз оны сілтемеге қоямыз және хабарламаның ашылатынын тексереміз.",
+      "answer_en": "You enter the number in the settings, and it must be the one customers will write to. We put it into the link and check that the message opens.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Работает ли это и на телефоне, и на компьютере?",
+      "question_kk": "Бұл телефонда да, компьютерде де жұмыс істей ме?",
+      "question_en": "Does this work on both phone and computer?",
+      "answer_ru": "Да, на телефоне открывается приложение WhatsApp, а на компьютере WhatsApp Web или приложение. Тестируем оба варианта перед запуском.",
+      "answer_kk": "Иә, телефонда WhatsApp қолданбасы, ал компьютерде WhatsApp Web немесе қолданба ашылады. Запуск алдында екі нұсқаны да тексереміз.",
+      "answer_en": "Yes, on a phone the WhatsApp app opens, and on a computer WhatsApp Web or the app. We test both before launch.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли принять оплату прямо в заказе?",
+      "question_kk": "Тапсырыс ішінде төлемді тікелей қабылдауға бола ма?",
+      "question_en": "Can payment be taken within the order?",
+      "answer_ru": "В этом варианте онлайн-оплаты нет, поэтому оплату согласуете с клиентом в переписке. Если нужна оплата на сайте, это отдельная задача.",
+      "answer_kk": "Бұл нұсқада онлайн төлем жоқ, сондықтан төлемді клиентпен хат алмасуда келісесіз. Сайтта төлем керек болса, бұл бөлек жұмыс.",
+      "answer_en": "This version has no online payment, so you agree the payment with the customer in chat. If you need payment on the site, that is a separate task.",
+      "sort": 6
     }
   ]
 }

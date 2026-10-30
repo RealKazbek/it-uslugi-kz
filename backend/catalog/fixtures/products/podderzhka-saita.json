@@ -90,6 +90,42 @@
       "answer_kk": "Иә, егер сайт бізге таныс стекте жазылған болса және кодқа қолжетімділік болса. Алдымен сайтты тегін қарап, алатынымызды не алмайтынымызды ашық айтамыз.",
       "answer_en": "Yes, if it is written in a stack we know and we have access to the code. We first look at the site for free and tell you honestly whether we will take it on.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что считается правкой, а что новой функцией?",
+      "question_kk": "Не түзету, ал не жаңа функция деп саналады?",
+      "question_en": "What counts as an edit and what counts as a new feature?",
+      "answer_ru": "Правка — это изменение текста, цены, картинки или одного блока в существующей схеме. Новый раздел, форма или интеграция считаются отдельной работой и обсуждаются заранее.",
+      "answer_kk": "Түзету — бар схемадағы мәтінді, бағаны, суретті немесе бір блокты өзгерту. Жаңа бөлім, форма немесе интеграция бөлек жұмыс болып саналады және алдын ала талқыланады.",
+      "answer_en": "An edit is a change to text, a price, a picture or one block within the existing layout. A new section, form or integration counts as separate work and is discussed in advance.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как быстро вы реагируете на сбой?",
+      "question_kk": "Сайт істен шыққанда қалай тез жауап бересіз?",
+      "question_en": "How quickly do you respond to an outage?",
+      "answer_ru": "В рабочие дни отвечаем в течение дня. Обращения, пришедшие в выходные, разбираем с понедельника.",
+      "answer_kk": "Жұмыс күндері күн ішінде жауап береміз. Демалыста келген өтініштерді дүйсенбіден бастап қараймыз.",
+      "answer_en": "On working days we reply within the day. Requests that arrive at weekends are handled from Monday.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет с доступами, если поддержку прекратят?",
+      "question_kk": "Қолдау тоқтатылса, қолжетімділікке не болады?",
+      "question_en": "What happens to access if the support ends?",
+      "answer_ru": "Доступы к домену, хостингу и коду остаются у вас. Мы передаём список всех доступов и отзываем свои, чтобы сайт полностью принадлежал вам.",
+      "answer_kk": "Доменге, хостингке және кодқа қолжетімділік сізде қалады. Барлық қолжетімділік тізімін береміз және өз рұқсаттарымызды қайтарып аламыз, сонда сайт толық сізге тиесілі болады.",
+      "answer_en": "Access to the domain, hosting and code stays with you. We hand over the full list of access and revoke our own, so the site fully belongs to you.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что нужно, чтобы подключить сайт к поддержке?",
+      "question_kk": "Сайтты қолдауға қосу үшін не керек?",
+      "question_en": "What is needed to put a site under support?",
+      "answer_ru": "Доступ к коду или панели хостинга и к домену, а также резервная копия текущей версии. Перед подключением мы проверяем сайт и отмечаем, что требует внимания.",
+      "answer_kk": "Кодқа немесе хостинг панеліне, сондай-ақ доменге қолжетімділік және қазіргі нұсқаның резервтік көшірмесі. Қосар алдында сайтты тексеріп, назар аударатын жерлерін белгілейміз.",
+      "answer_en": "Access to the code or hosting panel and to the domain, plus a backup of the current version. Before connecting, we check the site and note what needs attention.",
+      "sort": 6
     }
   ]
 }

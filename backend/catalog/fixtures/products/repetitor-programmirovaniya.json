@@ -90,6 +90,42 @@
       "answer_kk": "Жоқ. Тегін құралдарды пайдаланамыз: Python және код редакторы. Тек интернеті бар компьютер қажет.",
       "answer_en": "No. We use free tools: Python and a code editor. All you need is a computer with internet access.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно от ученика на первом занятии?",
+      "question_kk": "Бірінші сабақта оқушыдан не қажет?",
+      "question_en": "What does the student need for the first lesson?",
+      "answer_ru": "Нужен компьютер или ноутбук с камерой и интернетом. Если установить Python сложно, можно начать в онлайн-редакторе в браузере.",
+      "answer_kk": "Камерасы мен интернеті бар компьютер немесе ноутбук қажет. Python орнату қиын болса, браузердегі онлайн-редакторда бастауға болады.",
+      "answer_en": "A computer or laptop with a camera and internet is needed. If installing Python is a hassle, we can start in a browser-based online editor.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как понять, что ребёнок действительно продвигается?",
+      "question_kk": "Баланың нақты алға жылжып жатқанын қалай түсінуге болады?",
+      "question_en": "How do we see that the child is actually progressing?",
+      "answer_ru": "После каждого занятия проверяем домашнее задание и разбираем ошибки, поэтому видно, какие темы освоены. Если что-то идёт медленнее, честно скажем и подскажем, что повторить.",
+      "answer_kk": "Әр сабақтан кейін үй тапсырмасын тексереміз және қателерді талдаймыз, сондықтан қай тақырып игерілгені көрінеді. Бірдеңе баяу болса, ашық айтамыз және не қайталау керегін түсіндіреміз.",
+      "answer_en": "After each lesson we check the homework and go through the mistakes, so you can see which topics are mastered. If something is slower, we will say so honestly and suggest what to revise.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли заниматься вдвоём с другом?",
+      "question_kk": "Досыммен бірге оқуға бола ма?",
+      "question_en": "Can two friends study together?",
+      "answer_ru": "Программа строится под одного ученика, поэтому мы проводим индивидуальные занятия. Если интересен формат на двоих, обсудим его отдельно по договорённости.",
+      "answer_kk": "Бағдарлама бір оқушыға арналған, сондықтан жеке сабақтар өткіземіз. Екеуіңізге арналған формат қызық болса, оны бөлек келісеміз.",
+      "answer_en": "The programme is built around one student, so we run individual lessons. If you are interested in a format for two, we can discuss it separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что делать, если ребёнку нужно пропустить занятие?",
+      "question_kk": "Бала сабаққа бара алмаса, не істеу керек?",
+      "question_en": "What if the child has to miss a lesson?",
+      "answer_ru": "Занятие можно перенести, если предупредить заранее, и мы подберём другое время. Материал ребёнок догонит по домашнему заданию, а вопросы разберём на следующем занятии.",
+      "answer_kk": "Алдын ала ескертсеңіз, сабақты басқа уақытқа ауыстыруға болады, уақытты бірге таңдаймыз. Материалды үй тапсырмасы арқылы игеріп, сұрақтарды келесі сабақта талдаймыз.",
+      "answer_en": "A lesson can be moved if you let us know in advance, and we will pick another time together. The child can catch up with the homework, and we will go over any questions at the next lesson.",
+      "sort": 6
     }
   ]
 }

@@ -91,6 +91,42 @@
       "answer_kk": "Сіз баптаған элементтердің тізімін және нұсқаулықты аласыз. Іске қосқаннан кейінгі алғашқы аптада жүйе бойынша сұрақтарға жауап береміз және командаңызға ыңғайсыз нәрсені түзетеміз.",
       "answer_en": "You receive a list of everything we configured and a short guide. In the first weeks after launch we answer questions about the system and adjust anything that is inconvenient for your team.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли переносить старые сделки из другой системы?",
+      "question_kk": "Басқа жүйедегі ескі сделкаларды көшіру керек пе?",
+      "question_en": "Do old deals from another system need to be moved?",
+      "answer_ru": "Если данные лежат в таблицах, их можно загрузить. Очистку и объём переноса оцениваем до начала работ, а не обещаем заранее.",
+      "answer_kk": "Егер деректер кестелерде болса, оларды жүктеуге болады. Тазалау мен көшіру көлемін жұмыс басталар алдында бағалаймыз.",
+      "answer_en": "If the data is in spreadsheets, it can be loaded. We assess the cleanup and the scope of the transfer before work starts.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Кто будет поддерживать систему после сдачи?",
+      "question_kk": "Тапсырғаннан кейін жүйені кім қолдайды?",
+      "question_en": "Who maintains the system after handover?",
+      "answer_ru": "Вы сами: мы передаём инструкцию и проводим обучение. Вопросы по настройке можно задать нам отдельно.",
+      "answer_kk": "Өзіңіз: біз нұсқаулық береміз және оқыту өткіземіз. Баптау бойынша сұрақтарды бізге бөлек қоюға болады.",
+      "answer_en": "You do: we hand over the instructions and run training. Setup questions can be asked to us separately.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сможет ли команда сама менять воронку?",
+      "question_kk": "Команда воронканы өзі өзгерте ала ма?",
+      "question_en": "Can the team change the pipeline on its own?",
+      "answer_ru": "Да, после обучения администратор сможет добавлять статусы и поля. Мы также объясним, что лучше не трогать, чтобы не сломать отчёты.",
+      "answer_kk": "Иә, оқытудан кейін әкімші мәртебелер мен өрістерді қоса алады. Есептерді бұзбау үшін нені өзгертпеу керектігін де түсіндіреміз.",
+      "answer_en": "Yes, after training an administrator can add statuses and fields. We also explain what is better left alone so that reports keep working.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Подключаются ли WhatsApp и Telegram?",
+      "question_kk": "WhatsApp пен Telegram қосыла ма?",
+      "question_en": "Are WhatsApp and Telegram connected?",
+      "answer_ru": "Подключение каналов зависит от готовых коннекторов amoCRM и выбранного провайдера, поэтому состав каналов уточняем на старте.",
+      "answer_kk": "Арналарды қосу amoCRM-нің дайын коннекторларына және таңдалған провайдерге байланысты, сондықтан арналар тізімін басында нақтылаймыз.",
+      "answer_en": "Connecting channels depends on amoCRM's ready-made connectors and the provider you choose, so we confirm the list of channels at the start.",
+      "sort": 6
     }
   ]
 }

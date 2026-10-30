@@ -93,6 +93,42 @@
       "answer_kk": "Иә, сабақтар кез келген қалада онлайн өтеді. Олар үшін өзіңіз жазылып, төлей аласыз, қаласаңыз бірінші сабаққа қатыса аласыз.",
       "answer_en": "Yes, lessons are online and work from any city. You can sign them up and pay on their behalf, and join the first lesson if you wish.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли покупать что-то дополнительно к занятиям?",
+      "question_kk": "Сабаққа қосымша бірдеңе сатып алу керек пе?",
+      "question_en": "Do I need to buy anything extra for the lessons?",
+      "answer_ru": "Нужны смартфон или компьютер, которыми вы пользуетесь дома, и интернет. Объясняем на вашем устройстве, а не на отдельном учебном.",
+      "answer_kk": "Үйде пайдаланатын смартфон немесе компьютер және интернет керек. Түсіндіреміз сіздің құрылғыңызда, бөлек оқу құралында емес.",
+      "answer_en": "You need the smartphone or computer you use at home, and internet. We explain on your own device, not on a separate training one.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что если я быстро всё забываю?",
+      "question_kk": "Мен бәрін тез ұмытып қалсам не істеймін?",
+      "question_en": "What if I forget things quickly?",
+      "answer_ru": "Мы повторяем пройденное в начале следующего занятия и разбираем, что не получилось. Для закрепления можно вести свою короткую памятку по шагам.",
+      "answer_kk": "Келесі сабақтың басында өткенді қайталаймыз және не шықпағанын талдаймыз. Бекіту үшін қадамдар бойынша өзіңіздің қысқа жадынамаңызды жүргізуге болады.",
+      "answer_en": "We go over the previous material at the start of the next lesson and work through what did not work. To reinforce it, you can keep your own short step-by-step notes.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли записываться на курс на несколько недель?",
+      "question_kk": "Бірнеше аптаға курсқа жазылу керек пе?",
+      "question_en": "Do I need to sign up for a course lasting several weeks?",
+      "answer_ru": "Нет, занятия можно брать по одному, без обязательного курса. Количество и темы выбираете вы.",
+      "answer_kk": "Жоқ, сабақтарды міндетті курссыз бір-бірден алуға болады. Санын және тақырыптарын сіз таңдайсыз.",
+      "answer_en": "No, lessons can be taken one at a time without a mandatory course. You choose how many and which topics.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что делать, если я боюсь нажать не ту кнопку?",
+      "question_kk": "Басқа батырманы басып қоямын деп қорықсам не істеймін?",
+      "question_en": "What if I am afraid of pressing the wrong button?",
+      "answer_ru": "На занятии объясняем, как отменить действие и не удалить файлы по ошибке. Разбираем безопасные шаги и сразу проверяем, что вы сделали правильно.",
+      "answer_kk": "Сабақта әрекетті қалай болдырмауға және файлдарды қателікпен жоймауға болатынын түсіндіреміз. Қауіпсіз қадамдарды талдаймыз және дұрыс істегеніңізді бірден тексереміз.",
+      "answer_en": "In the lesson we explain how to undo an action and avoid deleting files by mistake. We go through safe steps and check right away that you did it correctly.",
+      "sort": 6
     }
   ]
 }

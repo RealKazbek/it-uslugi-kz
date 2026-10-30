@@ -90,6 +90,42 @@
       "answer_kk": "Бот тапсырысты сізге береді, ал төлемді қазіргідей клиентпен келісесіз. Онлайн төлемді таңдалған провайдердің API-і арқылы бөлек қосуға болады.",
       "answer_en": "The bot passes the order to you and you arrange payment with the customer the way you do now. Online payment can be added separately through the API of the provider you choose.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли мне Telegram-аккаунт и своя таблица?",
+      "question_kk": "Маған Telegram аккаунты мен өз кестем керек пе?",
+      "question_en": "Do I need a Telegram account and my own spreadsheet?",
+      "answer_ru": "Да, таблица Google создаётся на ваш аккаунт, и доступ к ней остаётся у вас. Бот настраиваем так, чтобы владельцем был аккаунт, который вы назначите.",
+      "answer_kk": "Иә, Google кестесі сіздің аккаунтыңызда жасалады, оған қолжетімділік сізде қалады. Ботты сіз тағайындаған аккаунт иесі болатындай етіп баптаймыз.",
+      "answer_en": "Yes, the Google spreadsheet is created on your account and access stays with you. The bot is set up so the account you designate owns it.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если в таблице ошибка в цене?",
+      "question_kk": "Кестеде баға қатесі болса, не болады?",
+      "question_en": "What happens if there is a price error in the sheet?",
+      "answer_ru": "Бот показывает то, что написано в таблице, поэтому исправление в ячейке сразу отражается в каталоге. Перед запуском вместе проверяем несколько карточек.",
+      "answer_kk": "Бот кестеде жазылғанды көрсетеді, сондықтан ұяшықтағы түзету каталогта бірден көрінеді. Іске қосар алдында бірнеше карточканы бірге тексереміз.",
+      "answer_en": "The bot shows what is written in the sheet, so a fix in a cell appears in the catalogue at once. Before launch we check a few cards together.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли принимать оплату прямо в боте?",
+      "question_kk": "Төлемді бот ішінде қабылдауға бола ма?",
+      "question_en": "Can I accept payment directly in the bot?",
+      "answer_ru": "Бот принимает заказ и передаёт его вам, а оплата проходит вручную или по реквизитам. Онлайн-оплату в чате можно подключить отдельно через провайдера, если он поддерживает нужный способ.",
+      "answer_kk": "Бот тапсырысты қабылдап, сізге береді, ал төлем қолмен немесе деректемелер бойынша өтеді. Провайдер қолдаса, чатта онлайн төлемді бөлек қосуға болады.",
+      "answer_en": "The bot takes the order and passes it to you; payment is made manually or by bank details. Online payment in the chat can be connected separately if your payment provider supports it.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить товары с размерами и цветами?",
+      "question_kk": "Өлшемі мен түсі бар тауарларды қосуға бола ма?",
+      "question_en": "Can I add products with size and colour variants?",
+      "answer_ru": "Да, варианты записываем в таблицу отдельными строками, если их немного. Для сотен вариантов с остатками лучше подойдёт полноценная система учёта.",
+      "answer_kk": "Иә, нұсқаларды кестеге бөлек жолдармен енгіземіз, егер олар аз болса. Қалдығы бар жүздеген нұсқа үшін толық есеп жүйесі жақсырақ.",
+      "answer_en": "Yes, variants are entered in the sheet as separate rows if there are only a few. For hundreds of variants with stock levels, a fuller inventory system suits better.",
+      "sort": 6
     }
   ]
 }

@@ -90,6 +90,42 @@
       "answer_kk": "Бот сұрақты жазуды ұсынады, оны сізге жібереді және клиентке жауап жұмыс уақытында келетінін хабарлайды. Сонда өтінім жоғалмайды.",
       "answer_en": "The bot invites them to type the question, forwards it to you and tells the customer a reply will come in working hours. That way the enquiry is not lost.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли мне свой аккаунт в Telegram для бота?",
+      "question_kk": "Ботқа менің Telegram аккаунтым керек пе?",
+      "question_en": "Do I need my own Telegram account for the bot?",
+      "answer_ru": "Бот назначенный вами владелец аккаунта создаётся от его имени. Токен и доступ к боту передаём вам, поэтому управление остаётся у вас.",
+      "answer_kk": "Бот сіз иесі етіп тағайындаған аккаунт атынан жасалады. Токен мен ботқа қолжетімділікті сізге береміз, сондықтан басқару сізде қалады.",
+      "answer_en": "The bot is created under the Telegram account you designate as owner. We hand the token and access over to you, so you keep control.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли добавить новый раздел после запуска?",
+      "question_kk": "Іске қосқаннан кейін жаңа бөлім қосуға бола ма?",
+      "question_en": "Can I add a new section after launch?",
+      "answer_ru": "Да, новый раздел или кнопку можно добавить, если текст и место в меню согласованы заранее. Крупные изменения структуры обсуждаем отдельно.",
+      "answer_kk": "Иә, мәтін мен мәзірдегі орны алдын ала келісілген болса, жаңа бөлім немесе батырма қосуға болады. Құрылымның ірі өзгерістерін бөлек талқылаймыз.",
+      "answer_en": "Yes, a new section or button can be added if its text and place in the menu are agreed in advance. Major changes to the structure are discussed separately.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Где хранятся вопросы, которые задают клиенты?",
+      "question_kk": "Клиенттер қойған сұрақтар қайда сақталады?",
+      "question_en": "Where are the questions customers ask stored?",
+      "answer_ru": "Бот сохраняет статистику нажатий и сообщения, которые клиент отправил вам. Данные лежат на сервере, доступ к которому получаете вы.",
+      "answer_kk": "Бот батырма басулар статистикасын және клиент сізге жіберген хабарламаларды сақтайды. Деректер сізге қолжетімді серверде тұрады.",
+      "answer_en": "The bot stores button-press statistics and the messages the customer sent to you. The data lives on a server you get access to.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли сделать меню на нескольких языках?",
+      "question_kk": "Мәзірді бірнеше тілде жасауға бола ма?",
+      "question_en": "Can the menu be in several languages?",
+      "answer_ru": "Да, можно добавить переключение языка, если тексты на каждом языке готовите вы или переводчик. Мы подключаем переключатель и проверяем, что все кнопки работают.",
+      "answer_kk": "Иә, тіл ауыстырғышты қосуға болады. Әр тілдегі мәтіндерді сіз немесе аудармашы дайындайды. Біз ауыстырғышты қосып, барлық батырманың жұмысын тексереміз.",
+      "answer_en": "Yes, a language switch can be added if you or a translator prepare the texts in each language. We add the switcher and check that every button works.",
+      "sort": 6
     }
   ]
 }

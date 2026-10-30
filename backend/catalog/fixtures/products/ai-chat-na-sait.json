@@ -93,6 +93,42 @@
       "answer_kk": "Серверлік бөлік сіздің хостинг немесе сервер аккаунтыңызда жұмыс істейді, хат алмасу тек сіздің Telegram тобыңызға түседі. Біз келушілердің өз базамызды жүргізбейміз.",
       "answer_en": "The back end runs under your own hosting or server account, and conversations go only to your Telegram group. We do not keep a visitor database of our own.",
       "sort": 2
+    },
+    {
+      "question_ru": "Видно ли посетителям, что отвечает ИИ?",
+      "question_kk": "Келушілерге жауапты ЖИ беретіні көріне ме?",
+      "question_en": "Can visitors tell that the reply comes from AI?",
+      "answer_ru": "Да, чат честно представляется автоматическим помощником. Если посетитель спрашивает, живой ли это человек, ответ должен быть правдивым.",
+      "answer_kk": "Иә, чат өзін автоматты көмекші ретінде таныстырады. Келуші адам ба деп сұраса, жауап шынайы болуы керек.",
+      "answer_en": "Yes, the chat introduces itself as an automatic assistant. If a visitor asks whether it is a live person, the answer must be truthful.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли отключить чат в нерабочее время?",
+      "question_kk": "Чатты жұмыс уақытынан тыс өшіруге бола ма?",
+      "question_en": "Can the chat be turned off outside working hours?",
+      "answer_ru": "Да, можно настроить режим, при котором виджет скрыт или отвечает только на базовые вопросы. Заявки при этом сохраняются.",
+      "answer_kk": "Иә, виджет жасырын болатын немесе тек негізгі сұрақтарға жауап беретін режимді баптауға болады. Бұл кезде өтінімдер сақталады.",
+      "answer_en": "Yes, you can set a mode where the widget is hidden or answers only basic questions. Requests are still saved in that case.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет с заявкой, если Telegram временно недоступен?",
+      "question_kk": "Telegram уақытша қолжетімсіз болса, өтінім не болады?",
+      "question_en": "What happens to a request if Telegram is temporarily unavailable?",
+      "answer_ru": "Заявку мы сохраняем на сервере и повторяем отправку, если Telegram не отвечает. Это проверяем при запуске.",
+      "answer_kk": "Өтінімді серверде сақтаймыз және Telegram жауап бермесе, жіберуді қайталаймыз. Мұны іске қосқанда тексереміз.",
+      "answer_en": "We save the request on the server and retry sending if Telegram does not respond. We check this at launch.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что нужно подготовить на сайте?",
+      "question_kk": "Сайтта не дайындау керек?",
+      "question_en": "What do I need to prepare on the site?",
+      "answer_ru": "Тексты услуг и актуальный прайс в понятном виде, а также доступ к коду или конструктору, чтобы вставить фрагмент.",
+      "answer_kk": "Қызметтер мәтіндері мен өзекті прайсты түсінікті түрде, сондай-ақ фрагментті қою үшін кодқа немесе конструкторға қолжетімділікті дайындаңыз.",
+      "answer_en": "Service texts and an up-to-date price list in clear form, plus access to the code or the site builder so we can insert the snippet.",
+      "sort": 6
     }
   ]
 }

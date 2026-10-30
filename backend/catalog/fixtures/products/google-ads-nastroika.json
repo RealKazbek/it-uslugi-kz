@@ -91,6 +91,42 @@
       "answer_kk": "Сіз аккаунтты аласыз, онда доступтың иесі болып қаласыз, баптаған науқандар тізімін және есептер бойынша нұсқаулықты аласыз. Одан әрі жүргізу мен оңтайландыруды қаласаңыз, оны бөлек талқылаймыз.",
       "answer_en": "You get an account where you keep ownership of the access, a list of the campaigns we set up and a guide to the reports. If you want ongoing management or optimisation, we discuss that separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли иметь бизнес-аккаунт Google?",
+      "question_kk": "Google бизнес-аккаунті міндетті ме?",
+      "question_en": "Do I need a Google business account?",
+      "answer_ru": "Рекламный аккаунт создаётся на вашей почте Google, и вы остаётесь его владельцем. Мы получаем доступ по приглашению.",
+      "answer_kk": "Жарнама аккаунты сіздің Google поштаңызда жасалады және сіз оның иесі болып қаласыз. Біз шақыру арқылы қолжетімділік аламыз.",
+      "answer_en": "The ads account is created on your Google email and you remain its owner. We get access by invitation.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли запустить рекламу только в Казахстане?",
+      "question_kk": "Жарнаманы тек Қазақстанда іске қосуға бола ма?",
+      "question_en": "Can the ads run only in Kazakhstan?",
+      "answer_ru": "Да, географию показа задаём по городам или регионам, которые вы обслуживаете, и проверяем это до запуска.",
+      "answer_kk": "Иә, көрсету географиясын қызмет көрсететін қалалар немесе аймақтар бойынша белгілейміз және іске қосар алдында тексереміз.",
+      "answer_en": "Yes, we set the targeting geography by the cities or regions you serve and check it before launch.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как понять, что реклама работает?",
+      "question_kk": "Жарнама жұмыс істеп тұрғанын қалай түсінуге болады?",
+      "question_en": "How do I know the ads are working?",
+      "answer_ru": "По заявкам, звонкам и отправкам форм в отчётах. Качество заявок оцениваете вы сами, так как оно зависит от обработки клиентов.",
+      "answer_kk": "Есептердегі өтінімдер, қоңыраулар және форма жіберулер бойынша. Өтінімнің сапасын өзіңіз бағалайсыз, себебі ол клиенттермен жұмысқа байланысты.",
+      "answer_en": "From the requests, calls and form submissions in the reports. You judge the quality of the requests yourself, since it depends on how clients are handled.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли потом передать управление другому подрядчику?",
+      "question_kk": "Кейін басқаруды басқа мердігерге беруге бола ма?",
+      "question_en": "Can management be handed to another contractor later?",
+      "answer_ru": "Да, аккаунт принадлежит вам, и доступ можно передать другому специалисту в любой момент.",
+      "answer_kk": "Иә, аккаунт сізге тиесілі, қолжетімділікті кез келген уақытта басқа маманға беруге болады.",
+      "answer_en": "Yes, the account belongs to you, and access can be passed to another specialist at any time.",
+      "sort": 6
     }
   ]
 }

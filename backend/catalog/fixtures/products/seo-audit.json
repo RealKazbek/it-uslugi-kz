@@ -93,6 +93,42 @@
       "answer_kk": "Иә, бірақ конструкторлардың техникалық шектеулері бар, кейбір тармақты өзгерте алмайсыз. Платформаңызда нені түзетуге болатынын, ал нені көшіру қажет ететінін белгілейміз.",
       "answer_en": "Yes, but site builders have technical limits and you will not be able to change some items. we will mark what is fixable on your platform and what would require a move.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько времени занимает аудит?",
+      "question_kk": "Аудит қанша уақыт алады?",
+      "question_en": "How long does the audit take?",
+      "answer_ru": "Срок согласуем при старте: он зависит от размера сайта и количества страниц. После согласования назовём дату готового отчёта.",
+      "answer_kk": "Мерзімді басында келісеміз: ол сайттың көлеміне және беттер санына байланысты. Келісілгеннен кейін есеп дайын болатын күнді атаймыз.",
+      "answer_en": "We agree the timing at the start: it depends on the site's size and number of pages. Once agreed, we give you a date for the finished report.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли проверить только отдельные услуги или раздел?",
+      "question_kk": "Тек жеке қызметтерді немесе бөлімді тексеруге бола ма?",
+      "question_en": "Can we audit only certain services or a section?",
+      "answer_ru": "Да, аудит можно ограничить нужным разделом, если важны не все услуги. Общие проблемы, например индексация, всё равно проверяем по всему сайту.",
+      "answer_kk": "Иә, барлық қызмет маңызды болмаса, аудитті қажетті бөлімге шектеуге болады. Индекстеу сияқты жалпы мәселелерді барлық сайт бойынша тексереміз.",
+      "answer_en": "Yes, the audit can be limited to the section you need if not all services matter. General issues, such as indexing, are still checked across the whole site.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли заказать повторную проверку после исправлений?",
+      "question_kk": "Түзетулерден кейін қайта тексеруге тапсырыс беруге бола ма?",
+      "question_en": "Can I order a re-check after fixes?",
+      "answer_ru": "Да, повторная проверка проводится по тому же отчёту, чтобы видеть, какие пункты уже закрыты. Это помогает понять, что осталось сделать.",
+      "answer_kk": "Иә, қайта тексеру сол есеп бойынша жүргізіледі, сонда қай тармақтар жабылғаны көрінеді. Бұл не қалғанын түсінуге көмектеседі.",
+      "answer_en": "Yes, the re-check uses the same report so you can see which points are closed. This shows what is still left to do.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто вносит исправления по отчёту?",
+      "question_kk": "Есеп бойынша түзетулерді кім енгізеді?",
+      "question_en": "Who makes the fixes from the report?",
+      "answer_ru": "Исправления делаете вы или ваш разработчик. Отчёт написан так, чтобы любой специалист понял, что нужно сделать и в каком порядке.",
+      "answer_kk": "Түзетулерді сіз немесе сіздің әзірлеушіңіз жасайды. Есеп кез келген маманға не істеу керектігін және реттілікті түсінікті болатындай жазылған.",
+      "answer_en": "You or your developer make the fixes. The report is written so any specialist understands what to do and in what order.",
+      "sort": 6
     }
   ]
 }

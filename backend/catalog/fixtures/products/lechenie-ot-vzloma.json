@@ -94,6 +94,42 @@
       "answer_kk": "Басқа қызметтерде бірдей құпия сөз қолданған болсаңыз, оларды ауыстырыңыз және CMS пен плагиндерді үнемі жаңартып тұрыңыз. Тұрақты қорғаныс керек болса, жоспарлы жаңартулары мен тексерулері бар қолдауды қосуға болады.",
       "answer_en": "Change any passwords you reused on other services, and keep the CMS and plugins updated regularly. If you want ongoing protection, we can add support with scheduled updates and checks.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если непонятно, как сайт взломали?",
+      "question_kk": "Сайт қалай бұзылғаны белгісіз болса не болады?",
+      "question_en": "What if it is unclear how the site was hacked?",
+      "answer_ru": "Проверяем логи хостинга, файлы и базу, чтобы найти источник. Если точно найти не удалось, честно говорим об этом и перечисляем, что закрыли.",
+      "answer_kk": "Көзін табу үшін хостинг журналдарын, файлдар мен базаны тексереміз. Дәл табылмаса, бұл туралы шынайы айтамыз және нені жапқанымызды санаймыз.",
+      "answer_en": "We check the hosting logs, files and database to find the source. If it cannot be pinned down, we say so honestly and list what we closed.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Какой доступ нужен для лечения?",
+      "question_kk": "Емдеу үшін қандай қолжетімділік керек?",
+      "question_en": "What access is needed for the cleanup?",
+      "answer_ru": "Доступ к файлам сайта по FTP или через панель хостинга, к базе данных и к админке сайта. Работаем только в пределах того, что нужно для очистки.",
+      "answer_kk": "FTP немесе хостинг панелі арқылы сайт файлдарына, дерекқорға және сайттың әкімшілік бетіне қолжетімділік. Тек тазалау үшін қажетті шекте жұмыс істейміз.",
+      "answer_en": "Access to the site files via FTP or the hosting panel, to the database and to the site admin. We work only within what the cleanup requires.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли отключать сайт на время лечения?",
+      "question_kk": "Емдеу кезінде сайтты өшіру керек пе?",
+      "question_en": "Do I need to take the site offline during the cleanup?",
+      "answer_ru": "Во время очистки сайт может работать в ограниченном режиме. Если спам виден клиентам, советуем временно скрыть сайт, но решение за вами, и мы объясняем риски.",
+      "answer_kk": "Тазалау кезінде сайт шектеулі режимде жұмыс істеуі мүмкін. Спам клиенттерге көрінсе, сайтты уақытша жасыруды ұсынамыз, бірақ шешім сізде, және тәуекелдерін түсіндіреміз.",
+      "answer_en": "The site may run in limited mode during the cleanup. If spam is visible to customers, we suggest temporarily hiding the site, but the decision is yours, and we explain the risks.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Стоит ли сделать резервную копию до лечения?",
+      "question_kk": "Емдеуге дейін резервтік көшірме жасау керек пе?",
+      "question_en": "Should I make a backup before the cleanup?",
+      "answer_ru": "Да, советуем сделать её до начала, чтобы при ошибке можно было откатиться. Сохраните копию у себя или в отдельном хранилище.",
+      "answer_kk": "Иә, басталғанға дейін жасауды ұсынамыз, қате болса қайтаруға болады. Көшірмені өзіңізде немесе бөлек сақтау орнында сақтаңыз.",
+      "answer_en": "Yes, we advise making it before we start, so you can roll back if something goes wrong. Keep the copy with you or in separate storage.",
+      "sort": 6
     }
   ]
 }

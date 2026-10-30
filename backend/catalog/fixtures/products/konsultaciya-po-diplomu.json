@@ -94,6 +94,42 @@
       "answer_kk": "Бұл жобаның көлеміне және неше түзету керектігіне байланысты. Әдетте бірнеше кеңес жеткілікті, бірақ нақты санды жобаны қарағаннан кейін айтамыз. Әр сессия бір сағатқа созылады және бөлек төленеді.",
       "answer_en": "It depends on the size of the project and how many fixes are needed. A few sessions are usually enough, and we give an exact number after looking at the project. Each session is one hour and is paid separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что делать, если руководитель требует другой подход?",
+      "question_kk": "Жетекшіңіз басқа тәсіл талап етсе не істеу керек?",
+      "question_en": "What if my supervisor requires a different approach?",
+      "answer_ru": "Объясняем плюсы и минусы разных решений, а выбор согласуете с руководителем. Вы решаете, что войдёт в работу, а мы помогаем разобраться.",
+      "answer_kk": "Әр шешімнің артықшылығы мен кемшілігін түсіндіреміз, ал таңдауды жетекшіңізбен келісесіз. Жұмысқа не кіретінін сіз шешесіз, біз түсінуге көмектесеміз.",
+      "answer_en": "We explain the pros and cons of different solutions, and you agree the choice with your supervisor. You decide what goes into the work, and we help you understand it.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли показать только часть проекта?",
+      "question_kk": "Жобаның тек бір бөлігін көрсетуге бола ма?",
+      "question_en": "Can I show only part of the project?",
+      "answer_ru": "Да, можно начать с одного модуля или с конкретного вопроса, например с тестов. Смотрим выделенное и подсказываем, что стоит проверить дальше.",
+      "answer_kk": "Иә, бір модульден немесе нақты сұрақтан бастауға болады, мысалы тесттерден. Таңдаған бөлігін қараймыз және әрі қарай нені тексеру керектігін айтамыз.",
+      "answer_en": "Yes, you can start with one module or a specific question, for example the tests. We look at what you selected and suggest what to check next.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли знать Git, чтобы начать?",
+      "question_kk": "Бастау үшін Git білу керек пе?",
+      "question_en": "Do I need to know Git to start?",
+      "answer_ru": "Не обязательно. На консультации объясняем, как пользоваться Git для вашей работы, и важные команды разбираем вместе, а повторяете их вы сами.",
+      "answer_kk": "Міндетті емес. Консультацияда Git-ті сіздің жұмысыңызға қалай пайдалану керектігін түсіндіреміз, маңызды командаларды бірге талдаймыз, ал оларды өзіңіз қайталайсыз.",
+      "answer_en": "Not necessarily. In the consultation we explain how to use Git for your work, go through the important commands together, and you practise them yourself.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы делаете с моим кодом и текстом?",
+      "question_kk": "Менің кодым мен мәтінімді не істейсіз?",
+      "question_en": "What do you do with my code and text?",
+      "answer_ru": "Используем материалы только для консультации. Если нужна конфиденциальность, обсудите это до начала: проект остаётся вашим.",
+      "answer_kk": "Материалдарды тек консультация үшін пайдаланамыз. Құпиялық керек болса, оны басталғанға дейін талқылаңыз: жоба сізде қалады.",
+      "answer_en": "We use the materials only for the consultation. If you need confidentiality, discuss it before we start: the project remains yours.",
+      "sort": 6
     }
   ]
 }

@@ -103,6 +103,33 @@
       "answer_kk": "Білім қорын қалай жаңартуға және менеджерге берілген диалогтарды қалай қарауға болатынын көрсетіп, қолжетімділікті тапсырамыз. Жаңа арналарға кеңейту, CRM-мен интеграция және сценарийлерді түзету бөлек бағаланады.",
       "answer_en": "We show how to update the knowledge base and review chats handed to managers, and transfer the access. Extension to new channels, CRM integrations and scenario changes are estimated separately.",
       "sort": 3
+    },
+    {
+      "question_ru": "Как передаётся диалог менеджеру?",
+      "question_kk": "Диалог менеджерге қалай беріледі?",
+      "question_en": "How is the conversation passed to a manager?",
+      "answer_ru": "Менеджер видит всю историю переписки и собранные контакты, поэтому клиенту не придётся повторять свои вопросы.",
+      "answer_kk": "Менеджер барлық жазысқан тарихын және жиналған контактілерді көреді, сондықтан клиент сұрақтарын қайталап жазбайды.",
+      "answer_en": "The manager sees the full chat history and the collected contacts, so the customer does not have to repeat their questions.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли подключить ассистента к CRM?",
+      "question_kk": "Көмекшіні CRM-ге қосуға бола ма?",
+      "question_en": "Can the assistant be connected to a CRM?",
+      "answer_ru": "Да, если у вашей CRM есть открытый API или готовая интеграция. Сложные связки обсуждаем отдельно после проверки.",
+      "answer_kk": "Иә, егер сіздің CRM-іңізде ашық API немесе дайын интеграция болса. Күрделі байланыстарды тексеруден кейін бөлек талқылаймыз.",
+      "answer_en": "Yes, if your CRM has an open API or a ready-made integration. Complex links are discussed separately after a check.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто отвечает за актуальность цен и условий?",
+      "question_kk": "Бағалар мен шарттардың өзектілігіне кім жауапты?",
+      "question_en": "Who keeps prices and terms up to date?",
+      "answer_ru": "Вы. Ассистент опирается на переданные вами материалы, поэтому при изменении цен или условий базу знаний нужно обновить.",
+      "answer_kk": "Сіз. Көмекші сіз берген материалдарға сүйенеді, сондықтан баға немесе шарттар өзгергенде білім қорын жаңарту керек.",
+      "answer_en": "You do. The assistant relies on the material you provide, so the knowledge base must be updated when prices or terms change.",
+      "sort": 6
     }
   ]
 }

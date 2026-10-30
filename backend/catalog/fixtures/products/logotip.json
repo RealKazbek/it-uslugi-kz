@@ -94,6 +94,42 @@
       "answer_kk": "Біз дизайн жасаймыз, бірақ тауар белгісін тіркеуді жүргізбейміз. Соңғы бекітер алдында атау мен белгінің ұқсас белгілер арасында жоқ екенін тексеруді ұсынамыз. Бұл тексеру мен тіркеуді заңгер немесе патент маманы жасайды.",
       "answer_en": "We design the logo but do not handle trademark registration. Before final approval we recommend checking that the name and mark are not taken by similar ones. That check and the registration are done by a lawyer or a patent specialist.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько концепций я увижу?",
+      "question_kk": "Неше концепция көремін?",
+      "question_en": "How many concepts will I see?",
+      "answer_ru": "Несколько концепций на выбор, а направления обсуждаем в начале работы. Важнее выбрать верное направление, а не получить много вариантов.",
+      "answer_kk": "Таңдау үшін бірнеше концепция, ал бағыттарды жұмыстың басында талқылаймыз. Көп нұсқа алудан гөрі дұрыс бағытты таңдау маңыздырақ.",
+      "answer_en": "Several concepts to choose from, and we discuss directions at the start. Choosing the right direction matters more than getting many variants.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли поменять название, если логотип уже готов?",
+      "question_kk": "Логотип дайын болған соң атауды өзгертуге бола ма?",
+      "question_en": "Can the name be changed once the logo is ready?",
+      "answer_ru": "Если название меняется, знак придётся переделывать, поэтому название лучше согласовать до начала работы.",
+      "answer_kk": "Атау өзгерсе, белгіні қайта жасауға тура келеді, сондықтан атауды жұмыс басталғанға дейін келісу жөн.",
+      "answer_en": "If the name changes, the mark has to be redone, so it is better to agree the name before work starts.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто владеет правами на логотип после оплаты?",
+      "question_kk": "Төлемнен кейін логотипке құқық кімде болады?",
+      "question_en": "Who holds the rights to the logo after payment?",
+      "answer_ru": "Исходники и файлы передаём вам. Юридические права на знак, включая регистрацию, оформляются отдельно, и мы их не гарантируем.",
+      "answer_kk": "Бастапқы файлдар мен файлдарды сізге береміз. Белгіге заңды құқықтар, соның ішінде тіркеу, бөлек рәсімделеді, және біз оларға кепілдік бермейміз.",
+      "answer_en": "We hand over the source files and the files themselves. Legal rights to the mark, including registration, are arranged separately, and we do not guarantee them.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли сделать логотип для русского и казахского названия?",
+      "question_kk": "Логотипті орыс және қазақ атауы үшін жасауға бола ма?",
+      "question_en": "Can the logo work for both a Russian and a Kazakh name?",
+      "answer_ru": "Да, двуязычный вариант делаем в одной концепции с учётом шрифтов для кириллицы. Отдельные варианты записываем в брендбук.",
+      "answer_kk": "Иә, екі тілдік нұсқаны бір концепцияда кириллица шрифттерін ескеріп жасаймыз. Жеке нұсқаларды брендбукке жазамыз.",
+      "answer_en": "Yes, we make the bilingual version within one concept, considering Cyrillic fonts. Separate variants are recorded in the brand book.",
+      "sort": 6
     }
   ]
 }

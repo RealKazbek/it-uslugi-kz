@@ -94,6 +94,42 @@
       "answer_kk": "Бұл тақырыпқа және материалдың алдыңғы сабақтарға неге тәуелді екеніне байланысты. Күрделі бөлікті талдау үшін көбіне бір-екі сабақ жеткілікті. Нақтысын алғашқы әңгімеден кейін айтамыз.",
       "answer_en": "It depends on the topic and how much the material builds on earlier lessons. One or two sessions are often enough to go through a difficult part. We will be more precise after the first conversation.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли разобрать конкретный урок, который я не понял?",
+      "question_kk": "Түсінбеген нақты сабақты талдауға бола ма?",
+      "question_en": "Can we go through a specific lesson I did not understand?",
+      "answer_ru": "Да, вы описываете урок или присылаете конспект, и мы разбираем его по ключевым моментам. Сами материалы курса остаются вашими.",
+      "answer_kk": "Иә, сіз сабақты сипаттайсыз немесе конспектіні жібересіз, ал біз оны негізгі тұстары бойынша талдаймыз. Курс материалдары өзіңізде қалады.",
+      "answer_en": "Yes, you describe the lesson or send your notes, and we go through it point by point. The course materials stay yours.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что делать, если курс на английском языке?",
+      "question_kk": "Курс ағылшын тілінде болса, не істеу керек?",
+      "question_en": "What if the course is in English?",
+      "answer_ru": "Занятие можно провести на русском или казахском языке, а ключевые термины объясняем в оригинале, чтобы вы узнавали их в курсе.",
+      "answer_kk": "Сабақты орысша немесе қазақша өткізуге болады, ал негізгі терминдерді түпнұсқада түсіндіреміз, сонда курста оларды бірден танисыз.",
+      "answer_en": "The session can be held in Russian or Kazakh, and we explain key terms in the original so you recognise them in the course.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как понять, что я действительно разобрался с темой?",
+      "question_kk": "Тақырыпты шынымен түсінгенімді қалай білуге болады?",
+      "question_en": "How do I know I really understood the topic?",
+      "answer_ru": "В конце мы задаём два-три вопроса по теме, и вы отвечаете своими словами. Если ответ не сходится, возвращаемся к месту, где возникла путаница.",
+      "answer_kk": "Соңында тақырып бойынша екі-үш сұрақ қоямыз, сіз оларға өз сөзіңізбен жауап бересіз. Жауап сәйкес келмесе, шатасқан жерге қайта ораламыз.",
+      "answer_en": "At the end we ask two or three questions on the topic and you answer in your own words. If the answer does not add up, we go back to where the confusion started.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что нужно сделать после занятия?",
+      "question_kk": "Сабақтан кейін не істеу керек?",
+      "question_en": "What should I do after the session?",
+      "answer_ru": "Мы предлагаем короткий план повторения и список вопросов, которые стоит решить самостоятельно. Задания курса вы выполняете сами.",
+      "answer_kk": "Қысқа қайталау жоспарын және өз бетіңізше шешетін сұрақтар тізімін ұсынамыз. Курс тапсырмаларын өзіңіз орындайсыз.",
+      "answer_en": "We suggest a short review plan and a list of questions worth solving on your own. You complete the course assignments yourself.",
+      "sort": 6
     }
   ]
 }

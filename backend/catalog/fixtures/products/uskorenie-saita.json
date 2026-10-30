@@ -93,6 +93,42 @@
       "answer_kk": "Жылдамдық бет сапасының факторларының бірі, бірақ жалғыз емес. Негізгі әсер әдетте келушілерге ыңғайлылықта көрінеді: олар жүктелуді күтпей, бетті сирек жабады.",
       "answer_en": "Speed is one of the page quality factors but not the only one. The main effect is usually seen in visitor convenience, as people close the page less often before it loads.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли доступ к админке сайта и хостингу?",
+      "question_kk": "Сайт әкімші панеліне және хостингке қолжетімділік керек пе?",
+      "question_en": "Do you need access to the site admin and hosting?",
+      "answer_ru": "Да, для настройки кеширования и сжатия нужен доступ к панели сайта или хостинга. Доступ используем только для согласованных работ, а список внесённых изменений передаём вам.",
+      "answer_kk": "Иә, кэштеу мен сығуды баптау үшін сайт немесе хостинг панеліне қолжетімділік керек. Қолжетімділікті тек келісілген жұмыстар үшін пайдаланамыз, ал өзгертілген нәрселердің тізімін береміз.",
+      "answer_en": "Yes, setting up caching and compression needs access to the site or hosting panel. We use the access only for the agreed work and hand over a list of the changes made.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что делать, если я захочу вернуть всё как было?",
+      "question_kk": "Бәрін бұрынғыдай қайтарғым келсе, не істеу керек?",
+      "question_en": "What if I want to revert everything to how it was?",
+      "answer_ru": "Перед началом сохраняем резервную копию сайта и фиксируем изменения, поэтому откат возможен. Отчёт с перечнем правок поможет вернуть настройки вручную, если понадобится.",
+      "answer_kk": "Басталар алдында сайттың резервтік көшірмесін сақтаймыз және өзгерістерді тіркейміз, сондықтан қайтаруға болады. Түзетулер тізімі бар есеп қажет болса, баптауларды қолмен қайтаруға көмектеседі.",
+      "answer_en": "Before starting we save a backup of the site and record the changes, so a rollback is possible. The report of edits helps restore settings manually if needed.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Ускорит ли работа мобильную версию сайта?",
+      "question_kk": "Жұмыс сайттың мобильді нұсқасын да жылдамдатады ма?",
+      "question_en": "Will the work speed up the mobile version of the site?",
+      "answer_ru": "Да, замеры делаем и для телефона, и для компьютера, а изображения и скрипты оптимизируем для обеих версий. Итоговое время загрузки на телефоне зависит и от сети посетителя.",
+      "answer_kk": "Иә, өлшемді телефон үшін де, компьютер үшін де жасаймыз, суреттер мен скрипттерді екі нұсқа үшін де оңтайландырамыз. Телефондағы соңғы жүктелу уақыты кіруші желісіне де байланысты.",
+      "answer_en": "Yes, we measure both for phone and computer, and optimise images and scripts for both versions. The final load time on a phone also depends on the visitor's network.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Нужно ли потом поддерживать скорость самостоятельно?",
+      "question_kk": "Кейін жылдамдықты өзім ұстап тұруым керек пе?",
+      "question_en": "Do I need to maintain the speed myself afterwards?",
+      "answer_ru": "Основные настройки сохраняются, но новые тяжёлые картинки и плагины могут снова замедлить сайт. Перед добавлением нового скрипта или видео имеет смысл проверить скорость или попросить нас это сделать.",
+      "answer_kk": "Негізгі баптаулар сақталады, бірақ жаңа ауыр суреттер мен плагиндер сайтты қайта баяулатуы мүмкін. Жаңа скрипт немесе видео қосар алдында жылдамдықты тексеру немесе бізден сұрау пайдалы.",
+      "answer_en": "The main settings stay in place, but new heavy images and plugins can slow the site again. Before adding a new script or video, it makes sense to check the speed or ask us to do it.",
+      "sort": 6
     }
   ]
 }

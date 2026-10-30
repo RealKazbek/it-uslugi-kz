@@ -103,6 +103,33 @@
       "answer_kk": "Қолжетімділікті және нұсқаулықты тапсырамыз, каталогты бізсіз қалай өзгерту керектігін көрсетеміз. Жаңа бөлімдер мен түзетулерді көлеміне қарай бөлек бағалаймыз.",
       "answer_en": "We hand over access and a guide, and show how to change the catalogue without us. New sections and changes are estimated separately, based on the volume of work.",
       "sort": 3
+    },
+    {
+      "question_ru": "Работает ли приложение на iPhone и Android без установки?",
+      "question_kk": "Қолданба iPhone мен Android-та орнатусыз жұмыс істей ма?",
+      "question_en": "Does the app work on iPhone and Android without installing?",
+      "answer_ru": "Да, приложение открывается внутри Telegram по кнопке в боте на обеих платформах. Перед сдачей тестируем его на устройствах обоих типов.",
+      "answer_kk": "Иә, қолданба екі платформада да ботағы батырма арқылы Telegram ішінде ашылады. Тапсыру алдында екі құрылғы түрінде де тексереміз.",
+      "answer_en": "Yes, the app opens inside Telegram from a bot button on both platforms. We test it on both device types before handover.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли сделать несколько экранов и разделов?",
+      "question_kk": "Бірнеше экран мен бөлім жасауға бола ма?",
+      "question_en": "Can it have several screens and sections?",
+      "answer_ru": "Да, число экранов зависит от задачи и согласуется до начала работы. Чем больше разделов, тем больше времени уходит на тестирование и дизайн.",
+      "answer_kk": "Иә, экрандар саны тапсырмаға байланысты және жұмыс басталар алдында келісіледі. Бөлім көп болған сайын тестілеу мен дизайнға уақыт көбірек кетеді.",
+      "answer_en": "Yes, the number of screens depends on the task and is agreed before work starts. The more sections, the more time goes into testing and design.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что будет, если Telegram изменит правила работы Mini App?",
+      "question_kk": "Telegram Mini App жұмыс ережелерін өзгертсе, не болады?",
+      "question_en": "What if Telegram changes the Mini App rules?",
+      "answer_ru": "Платформа иногда меняет свои возможности, поэтому после запуска проверяем приложение на совместимость. Исправление, связанное с изменением самой платформы, согласуем отдельно.",
+      "answer_kk": "Платформа кейде мүмкіндіктерін өзгертеді, сондықтан іске қосқаннан кейін қолданбаны үйлесімділікке тексереміз. Платформаның өзгеруіне байланысты түзету бөлек келісіледі.",
+      "answer_en": "The platform sometimes changes its features, so after launch we check the app for compatibility. A fix caused by a change in the platform itself is agreed separately.",
+      "sort": 6
     }
   ]
 }

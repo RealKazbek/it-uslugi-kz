@@ -93,6 +93,42 @@
       "answer_kk": "Иә, сабақтар онлайн өтеді. Біз Алматы уақытымен (UTC+5) жұмыс істейміз және ыңғайлы уақыт таңдаймыз; сабақты орыс және ағылшын тілінде өткізуге болады.",
       "answer_en": "Yes, lessons are online. We work on Almaty time (UTC+5) and will find a convenient slot; lessons can be held in English or Russian.",
       "sort": 2
+    },
+    {
+      "question_ru": "Какой компьютер нужен для занятий?",
+      "question_kk": "Сабақтар үшін қандай компьютер керек?",
+      "question_en": "What computer do I need for the lessons?",
+      "answer_ru": "Подойдёт обычный ноутбук с Windows, macOS или Linux и стабильным интернетом. Python и редактор кода установим вместе на первом занятии.",
+      "answer_kk": "Windows, macOS немесе Linux жүйесі бар қарапайым ноутбук және тұрақты интернет жетеді. Python пен код редакторын бірінші сабақта бірге орнатамыз.",
+      "answer_en": "An ordinary laptop with Windows, macOS or Linux and a stable internet connection will do. We install Python and a code editor together in the first lesson.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если я пропущу занятие?",
+      "question_kk": "Сабақты өткізіп алсам не болады?",
+      "question_en": "What if I miss a lesson?",
+      "answer_ru": "Урок можно перенести или повторить нужную тему в начале следующего занятия, чтобы не потерять последовательность.",
+      "answer_kk": "Сабақты көшіруге немесе келесі сабақтың басында керекті тақырыпты қайталауға болады, сонда реттілік жоғалмайды.",
+      "answer_en": "We can move the lesson or revisit the needed topic at the start of the next session, so the sequence is not lost.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Занятия проходят индивидуально или в группе?",
+      "question_kk": "Сабақтар жеке немесе топпен өте ме?",
+      "question_en": "Are the lessons one-to-one or in a group?",
+      "answer_ru": "Занятия индивидуальные, по видеосвязи, поэтому темп и примеры подстраиваем под вашу цель и уровень.",
+      "answer_kk": "Сабақтар жеке, бейнебайланыс арқылы өтеді, сондықтан қарқын мен мысалдарды сіздің мақсатыңызға және деңгейіңізге бейімдейміз.",
+      "answer_en": "Lessons are one-to-one over video call, so we tailor the pace and examples to your goal and level.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Смогу ли я писать свои скрипты самостоятельно после курса?",
+      "question_kk": "Курстан кейін өз скрипттерімді дербес жаза аламын ба?",
+      "question_en": "Will I be able to write my own scripts after the course?",
+      "answer_ru": "Цель занятий — научить разбирать свои задачи и писать простой скрипт без подсказок. Насколько уверенно это получится, во многом зависит от практики между занятиями.",
+      "answer_kk": "Сабақтардың мақсаты — өз міндеттеріңізді талдап, қарапайым скриптті көмексіз жазуға үйрету. Бұл қаншалықты сенімді шығатыны сабақтар арасындағы тәжірибеге көп байланысты.",
+      "answer_en": "The goal of the lessons is to teach you to break down your own tasks and write a simple script without hints. How confidently you manage it depends largely on practice between lessons.",
+      "sort": 6
     }
   ]
 }

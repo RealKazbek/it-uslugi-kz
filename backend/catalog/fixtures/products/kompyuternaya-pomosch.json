@@ -90,6 +90,42 @@
       "answer_kk": "Иә, Windows, macOS және Android пен iPhone-ның баптаулары мен қосымшалары бойынша жұмыс істейміз. Шектеулерді, мысалы жабық корпоративтік құрылғылар бойынша, алдын ала айтамыз.",
       "answer_en": "Yes, with Windows and macOS, and with settings and apps on Android and iPhone. we tell you about limits in advance, for example with locked-down company devices.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно, чтобы начать сеанс?",
+      "question_kk": "Сеансты бастау үшін не керек?",
+      "question_en": "What is needed to start a session?",
+      "answer_ru": "Компьютер или телефон с интернетом и возможность запустить программу удалённого доступа по нашей ссылке. Перед сеансом проговорим, что именно сделаем.",
+      "answer_kk": "Интернеті бар компьютер немесе телефон және біздің сілтеме арқылы қашықтан қосылу бағдарламасын іске қосу мүмкіндігі керек. Сеанс алдында нені істейтінімізді талқылаймыз.",
+      "answer_en": "A computer or phone with internet, and the ability to run the remote access program via our link. Before the session we agree exactly what we will do.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Вижу ли я, что вы делаете на экране?",
+      "question_kk": "Экранда не істейтініңізді көре аламын ба?",
+      "question_en": "Can I see what you are doing on my screen?",
+      "answer_ru": "Да, вы видите экран и можете в любой момент остановить сеанс. Пароли вводите сами, а не диктуете нам.",
+      "answer_kk": "Иә, сіз экранды көресіз және кез келген уақытта сеансты тоқтата аласыз. Парольді өзіңіз енгізіңіз, бізге айтпаңыз.",
+      "answer_en": "Yes, you can see the screen and stop the session at any time. Enter passwords yourself rather than dictating them to us.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что если проблема не решается за один сеанс?",
+      "question_kk": "Мәселе бір сеанста шешілмесе не болады?",
+      "question_en": "What if the problem is not solved in one session?",
+      "answer_ru": "Договариваемся о следующем сеансе и фиксируем, что уже сделано, чтобы не начинать заново. Вы получаете краткую запись шагов.",
+      "answer_kk": "Келесі сеансқа келісеміз және не істелгенін жазамыз, сонда қайтадан басынан бастамаймыз. Сіз қадамдардың қысқа жазбасын аласыз.",
+      "answer_en": "We agree the next session and record what has been done so we do not start over. You receive a short record of the steps.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что будет с моими личными файлами во время помощи?",
+      "question_kk": "Көмек кезінде менің жеке файлдарыма не болады?",
+      "question_en": "What happens to my personal files during the help?",
+      "answer_ru": "Работаем только с тем, что нужно для задачи, и не копируем личные файлы без разрешения. Перед любым удалением спрашиваем вас.",
+      "answer_kk": "Тек тапсырма үшін қажетті нәрсемен жұмыс істейміз, жеке файлдарды рұқсатсыз көшірмейміз. Кез келген жоймас бұрын сізден сұраймыз.",
+      "answer_en": "We only work with what the task needs and do not copy personal files without permission. We ask you before any deletion.",
+      "sort": 6
     }
   ]
 }

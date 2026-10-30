@@ -94,6 +94,42 @@
       "answer_kk": "Қауіпсіздік жаңартуларын шыққан бойда орнатқан дұрыс, ал ірі нұсқаларын бірнеше айда бір рет. Бұл үнемі жасалғанын қаласаңыз, сайтқа қолдауды қосыңыз, сонда жаңартуларды жоспар бойынша тексереміз.",
       "answer_en": "Security updates are best installed as soon as they come out, and major versions every few months. If you want this done regularly, connect site support and we will check updates on a schedule.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько занимает обновление?",
+      "question_kk": "Жаңарту қанша уақыт алады?",
+      "question_en": "How long does an update take?",
+      "answer_ru": "Обычно от одного до трёх дней, включая резервную копию и проверку после каждого шага. Точный срок называем после проверки версий CMS и плагинов.",
+      "answer_kk": "Әдетте бір-үш күн, резервтік көшірме мен әр қадамнан кейінгі тексеру қоса. Нақты мерзімді CMS пен плагиндердің нұсқаларын тексергеннен кейін атаймыз.",
+      "answer_en": "Usually one to three days, including the backup and checks after each step. We give the exact timing after we have checked the CMS and plugin versions.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли отключать сайт на время обновления?",
+      "question_kk": "Жаңарту кезінде сайтты өшіру керек пе?",
+      "question_en": "Does the site need to go offline during the update?",
+      "answer_ru": "Обычно сайт остаётся открытым. Если нужна короткая пауза, мы предупредим вас заранее и выберем время, когда посетителей меньше.",
+      "answer_kk": "Әдетте сайт ашық қалады. Қысқа үзіліс қажет болса, сізге алдын ала хабарлаймыз және келушілер аз болатын уақытты таңдаймыз.",
+      "answer_en": "Usually the site stays open. If a short pause is needed, we will tell you in advance and pick a time when there are fewer visitors.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что делать с плагинами, которые больше не поддерживаются?",
+      "question_kk": "Енді қолдау көрсетілмейтін плагиндермен не істеу керек?",
+      "question_en": "What do we do with plugins that are no longer supported?",
+      "answer_ru": "Мы отметим их в списке и предложим варианты замены. Решение о замене принимаете вы, потому что оно может повлиять на внешний вид и функции сайта.",
+      "answer_kk": "Оларды тізімде белгілеп, ауыстыру нұсқаларын ұсынамыз. Ауыстыру туралы шешімді сіз қабылдайсыз, себебі ол сайттың сыртқы көрінісі мен функцияларына әсер етуі мүмкін.",
+      "answer_en": "We will mark them in the list and suggest replacement options. You decide on any replacement, because it can change the look and features of the site.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто хранит резервную копию после обновления?",
+      "question_kk": "Жаңартудан кейін резервтік көшірмені кім сақтайды?",
+      "question_en": "Who keeps the backup after the update?",
+      "answer_ru": "Копию делаем перед работами и передаём вам вместе со списком изменений. Хранить её на своём хостинге или диске и время от времени проверять стоит вам.",
+      "answer_kk": "Көшірмені жұмыс алдында жасаймыз және өзгерістер тізімімен бірге сізге береміз. Оны өз хостингіңізде немесе дискіңізде сақтап, уақыт өткен сайын тексеріп тұру сізге байланысты.",
+      "answer_en": "We make the copy before the work and hand it to you with the list of changes. Keeping it on your hosting or disk and checking it from time to time is up to you.",
+      "sort": 6
     }
   ]
 }

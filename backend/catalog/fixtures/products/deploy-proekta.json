@@ -91,6 +91,42 @@
       "answer_kk": "Серверді жалға алу, домен, қызметтердің ақылы лицензиялары және жаңа функциялар бөлек төленеді. Жоба сипаттамаға сәйкес келсе және кодты қайта жазу керек болмаса, көшіру бағасы өзгермейді.",
       "answer_en": "Server rental, the domain, paid service licences and new features are paid separately. The price of the move stays the same if the project matches this description and does not need its code rewritten.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли мне отдельный домен для проекта?",
+      "question_kk": "Жобаға бөлек домен керек пе?",
+      "question_en": "Do I need a separate domain for the project?",
+      "answer_ru": "Домен не обязателен для запуска, сайт работает и по IP. Но для удобства и HTTPS советуем подключить домен, это отдельная услуга.",
+      "answer_kk": "Іске қосу үшін домен міндетті емес, сайт IP арқылы да жұмыс істейді. Бірақ ыңғайлы болу және HTTPS үшін доменді қосуды ұсынамыз, бұл бөлек қызмет.",
+      "answer_en": "A domain is not required to launch, since the site also works by IP. For convenience and HTTPS we recommend connecting a domain, which is a separate service.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно, если сервер у меня уже есть?",
+      "question_kk": "Серверім бар болса, не керек?",
+      "question_en": "What is needed if I already have a server?",
+      "answer_ru": "Достаточно SSH-доступа с правами пользователя и списка переменных окружения. Мы также проверим, хватает ли ресурсов под проект.",
+      "answer_kk": "Пайдаланушы құқығы бар SSH қолжетімділігі және орта айнымалыларының тізімі жеткілікті. Жоба үшін ресурс жеткілікті ме, соны да тексереміз.",
+      "answer_en": "SSH access with user rights and the list of environment variables is enough. We will also check that the server has enough resources for the project.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как обновлять проект после сдачи?",
+      "question_kk": "Тапсырғаннан кейін жобаны қалай жаңартуға болады?",
+      "question_en": "How do I update the project after handover?",
+      "answer_ru": "В инструкции описано, как выкатить новую версию: обычно это загрузка кода и перезапуск процесса. Сложные обновления можно заказать отдельно.",
+      "answer_kk": "Нұсқаулықта жаңа нұсқаны қалай шығару керектігі жазылған: әдетте бұл кодты жүктеу және процесті қайта іске қосу. Күрделі жаңартуларға бөлек тапсырыс беруге болады.",
+      "answer_en": "The instructions describe how to roll out a new version, usually by uploading the code and restarting the process. Complex updates can be ordered separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Будет ли резервная копия перед переносом?",
+      "question_kk": "Көшіру алдында резервтік көшірме жасалады ма?",
+      "question_en": "Will there be a backup before the move?",
+      "answer_ru": "Да. Перед переносом делаем копию базы и файлов на текущем месте, чтобы при ошибке можно было вернуть рабочую версию.",
+      "answer_kk": "Иә. Көшірмес бұрын ағымдағы орында базаның және файлдардың көшірмесін жасаймыз, қате болса жұмыс нұсқасын қайтаруға болады.",
+      "answer_en": "Yes. Before the move we copy the database and files from the current location so a working version can be restored if something goes wrong.",
+      "sort": 6
     }
   ]
 }

@@ -93,6 +93,42 @@
       "answer_kk": "Иә, болса, «Компания туралы» бөліміне скан не нөмірлерін орналастырамыз. Жоқ нәрсені көрсетпейміз.",
       "answer_en": "Yes, if you hold them: we place scans or numbers in the About section. We will not add anything you do not actually have.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли договор и кому принадлежат фото и планы?",
+      "question_kk": "Шарт қажет пе және фотолар мен жоспарлар кімге тиесілі?",
+      "question_en": "Is a contract needed, and who owns the photos and plans?",
+      "answer_ru": "Работа оформляется письменным договором. Права на фото и планы остаются у вас, а мы используем только материалы, которые вы передали.",
+      "answer_kk": "Жұмыс жазбаша шартпен рәсімделеді. Фото мен жоспарлардың құқығы сізде қалады, ал біз тек сіз берген материалдарды пайдаланамыз.",
+      "answer_en": "The work is formalised with a written contract. The rights to photos and plans stay with you, and we use only the materials you provided.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Может ли клиент сразу загрузить план?",
+      "question_kk": "Клиент жоспарды бірден жүктей ала ма?",
+      "question_en": "Can a client upload a plan right away?",
+      "answer_ru": "Да, в форме расчёта можно прикрепить план или фото. Заявка уходит вашему менеджеру, а окончательный расчёт делаете вы, калькулятор лишь ориентир.",
+      "answer_kk": "Иә, есептеу формасына жоспар немесе фото тіркеуге болады. Өтінім сіздің менеджеріңізге жетеді, ал соңғы есепті сіз жасайсыз, калькулятор тек бағдар береді.",
+      "answer_en": "Yes, the calculation form lets clients attach a plan or photo. The request goes to your manager, and you make the final estimate, as the calculator is only a guide.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли добавить новые направления позже?",
+      "question_kk": "Кейінірек жаңа бағыттарды қосуға бола ма?",
+      "question_en": "Can we add new service areas later?",
+      "answer_ru": "Да, новые направления добавляются отдельными страницами по мере необходимости. Объём зависит от числа и сложности страниц, поэтому согласуем его заранее.",
+      "answer_kk": "Иә, жаңа бағыттар қажеттілікке қарай жеке беттермен қосылады. Көлем беттер санына және күрделілігіне байланысты, сондықтан оны алдын ала келісеміз.",
+      "answer_en": "Yes, new service areas are added as separate pages when needed. The scope depends on the number and complexity of pages, so we agree it in advance.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как сайт работает на телефоне у клиента на объекте?",
+      "question_kk": "Клиент объектіде телефоннан сайтты қалай пайдаланады?",
+      "question_en": "How does the site work on a phone for a client on site?",
+      "answer_ru": "Навигация и форма адаптированы под телефон, а кнопка WhatsApp открывает переписку одним нажатием. Клиент может отправить фото объекта прямо с места.",
+      "answer_kk": "Навигация мен форма телефонға бейімделген, ал WhatsApp түймесі хатқа бір басуда өтеді. Клиент объектіден фотоны тікелей жібере алады.",
+      "answer_en": "Navigation and the form are adapted for phones, and the WhatsApp button opens the chat in one tap. The client can send photos of the site straight from the spot.",
+      "sort": 6
     }
   ]
 }

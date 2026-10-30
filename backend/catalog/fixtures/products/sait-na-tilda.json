@@ -94,6 +94,42 @@
       "answer_kk": "Сайт сіздің Tilda аккаунтыңызда жұмыс істейді, оның жазылымы мен доменді сервиске тікелей төлейсіз. Кейінгі түзетулер мен жаңа бөлімдерді бөлек талқылаймыз.",
       "answer_en": "The site runs on your Tilda account, and the Tilda subscription and domain are paid to the service directly. Further changes and new sections are discussed separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Кто владеет аккаунтом Tilda и доменом?",
+      "question_kk": "Tilda аккаунтына және доменге кім иелік етеді?",
+      "question_en": "Who owns the Tilda account and the domain?",
+      "answer_ru": "Аккаунт, домен и доступы оформляются на вас, и при запуске мы передаём все логины. Сайт мы на своём аккаунте не оставляем.",
+      "answer_kk": "Аккаунт, домен және қолжетімділік сізге рәсімделеді, іске қосқанда барлық логинді береміз. Сайтты өз аккаунтымызда қалдырмаймыз.",
+      "answer_en": "The account, domain and access are set up in your name, and we hand over all logins at launch. We do not keep the site on our own account.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли потом перенести сайт на другой конструктор?",
+      "question_kk": "Кейін сайтты басқа конструкторға көшіруге бола ма?",
+      "question_en": "Can the site be moved to another builder later?",
+      "answer_ru": "Тексты и фото можно забрать, но структура и дизайн Tilda автоматически не переносятся. Перенос будет отдельной работой.",
+      "answer_kk": "Мәтіндер мен фотоларды алуға болады, бірақ Tilda құрылымы мен дизайны автоматты түрде көшпейді. Көшіру бөлек жұмыс болады.",
+      "answer_en": "The texts and photos can be taken, but Tilda's structure and design do not transfer automatically. Moving it would be separate work.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько правок входит в работу?",
+      "question_kk": "Жұмысқа түзетулердің қанша саны кіреді?",
+      "question_en": "How many revisions are included?",
+      "answer_ru": "Правки во время разработки обсуждаем до запуска, по ходу работы. После передачи дополнительные изменения оцениваем отдельно.",
+      "answer_kk": "Әзірлеу кезіндегі түзетулерді іске қосқанға дейін жұмыс барысында талқылаймыз. Тапсырғаннан кейінгі қосымша өзгерістерді бөлек бағалаймыз.",
+      "answer_en": "Revisions during development are discussed before launch as the work goes on. Extra changes after handover are assessed separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли подключить Яндекс.Метрику или аналитику?",
+      "question_kk": "Яндекс.Метриканы немесе басқа аналитиканы қосуға бола ма?",
+      "question_en": "Can we connect Yandex.Metrica or other analytics?",
+      "answer_ru": "Да, счётчики подключаем по вашему запросу. Статистику вы смотрите в собственном аккаунте сервиса, который мы настраиваем.",
+      "answer_kk": "Иә, есептегіштерді сіздің сұрауыңыз бойынша қосамыз. Статистиканы біз баптаған қызметтің өз аккаунтында қараңыз.",
+      "answer_en": "Yes, we connect counters at your request. You view the statistics in your own account of the service we set up.",
+      "sort": 6
     }
   ]
 }

@@ -93,6 +93,42 @@
       "answer_kk": "Міндетті емес. Жазылу ботсыз да жұмыс істейді: өтінімдер сіздің Telegram-ға келеді. Клиенттерге еске салатын ботты кейін қосуға болады.",
       "answer_en": "Not necessarily. Booking works without a bot, since requests land in your Telegram. A bot for client reminders can be added later.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что если салон уже ведёт запись в YCLIENTS?",
+      "question_kk": "Салон YCLIENTS-те жазылуды жүргізіп жатса ше?",
+      "question_en": "What if the salon already takes bookings in YCLIENTS?",
+      "answer_ru": "Тогда сайт может вести на вашу существующую запись, а оплата сервиса остаётся отдельной. Так клиенты не путаются, а база записей остаётся у вас.",
+      "answer_kk": "Онда сайт сіздің бар жазылу бетіңізге апара алады, ал сервистің төлемі бөлек қалады. Осылайша клиенттер шатаспайды, жазылу базасы сізде қалады.",
+      "answer_en": "Then the site can link to your existing booking page, and the service fee stays separate. This way clients are not confused and the booking records stay with you.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как обновлять мастеров и их расписание?",
+      "question_kk": "Шеберлерді және олардың кестесін қалай жаңартуға болады?",
+      "question_en": "How do we update masters and their schedules?",
+      "answer_ru": "Когда мастер уходит или меняет график, сообщаете нам, и мы обновляем страницы. Если запись ведётся в отдельной системе, расписание меняется там же.",
+      "answer_kk": "Шебер кеткенде немесе кестесі өзгергенде бізге хабарлайсыз, біз беттерді жаңартамыз. Жазылу бөлек жүйеде жүргізілсе, кесте сонда өзгереді.",
+      "answer_en": "When a master leaves or changes their schedule, you tell us and we update the pages. If bookings run in a separate system, the schedule is changed there.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужна ли предоплата через сайт?",
+      "question_kk": "Сайт арқылы алдын ала төлем керек пе?",
+      "question_en": "Is prepayment through the site needed?",
+      "answer_ru": "Приём предоплаты — отдельный этап по договорённости. На старте клиент подтверждает запись с администратором, как и раньше.",
+      "answer_kk": "Алдын ала төлемді қабылдау — келісім бойынша бөлек кезең. Бастапқыда клиент бұрынғыдай әкімшімен жазылуын растайды.",
+      "answer_en": "Accepting prepayment is a separate stage by agreement. At the start the client confirms the booking with the administrator, as before.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто отвечает за фото работ и согласие клиентов?",
+      "question_kk": "Жұмыстар фотосына және клиенттердің келісіміне кім жауап береді?",
+      "question_en": "Who is responsible for work photos and client consent?",
+      "answer_ru": "Фото работ предоставляете вы, и вы отвечаете за согласие клиентов, которые на них попали. Без согласия такие фото в галерею мы не размещаем.",
+      "answer_kk": "Жұмыс фотосын сіз бересіз және онда түскен клиенттердің келісіміне сіз жауап бересіз. Келісімсіз мұндай фотолар галереяға қойылмайды.",
+      "answer_en": "You provide the work photos and are responsible for the consent of clients who appear in them. We do not place such photos in the gallery without consent.",
+      "sort": 6
     }
   ]
 }

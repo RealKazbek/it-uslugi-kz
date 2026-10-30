@@ -91,6 +91,42 @@
       "answer_kk": "Алмасу журналын жүргіземіз және алғашқы аптада сізбен бірге деректердің сәйкес келетінін тексереміз. Табылған сәйкессіздіктерді түзетеміз. Интеграцияға кейінгі өзгерістерді бөлек талқылаймыз.",
       "answer_en": "We keep the exchange log and, in the first weeks, check together with you that the data matches. Any mismatches we find get fixed. Further changes to the integration are discussed separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли вам доступ к самой базе 1С или достаточно выгрузки?",
+      "question_kk": "1С базасына тікелей қолжетімділік керек пе, әлде көшірме жеткілікті ме?",
+      "question_en": "Do you need direct access to our 1C database, or is an export enough?",
+      "answer_ru": "Для настройки нужна тестовая копия базы и учётная запись с правами на обмен. Рабочую базу без вашего согласия не трогаем.",
+      "answer_kk": "Баптау үшін базаның сынақ көшірмесі және алмасу құқығы бар есептік жазба керек. Жұмыс базасына сіздің келісіміңізсіз қол тигізбейміз.",
+      "answer_en": "We need a test copy of the database and an account with exchange rights. We do not touch the working database without your agreement.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что если в 1С уже настроены обмены с другими системами?",
+      "question_kk": "1С-те басқа жүйелермен алмасу бұрыннан бапталған болса не істейміз?",
+      "question_en": "What if 1C already exchanges data with other systems?",
+      "answer_ru": "Сначала смотрим текущие обмены и согласовываем, какой заменить, а какой оставить, чтобы данные не загружались дважды.",
+      "answer_kk": "Алдымен қазіргі алмасуларды қараймыз және қайсысын ауыстырып, қайсысын қалдыратынын келісеміз, сонда деректер екі рет жүктелмейді.",
+      "answer_en": "We first review the current exchanges and agree which to replace and which to keep, so data is not loaded twice.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что делать, если данные в 1С и на сайте разошлись?",
+      "question_kk": "1С мен сайттағы деректер сәйкес келмесе не істеу керек?",
+      "question_en": "What should we do if data in 1C and on the site does not match?",
+      "answer_ru": "В журнале обмена видно, какая запись не прошла и почему. Правило главной системы задаём заранее, поэтому исправлять расхождения можно по журналу.",
+      "answer_kk": "Алмасу журналында қай жазба өтпегені және неге екені көрінеді. Негізгі жүйе ережесін алдын ала белгілейміз, сондықтан сәйкессіздікті журнал бойынша түзетуге болады.",
+      "answer_en": "The exchange log shows which record failed and why. The rule for the primary system is set in advance, so mismatches can be fixed from the log.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кому после сдачи принадлежат код обмена и доступы?",
+      "question_kk": "Тапсырғаннан кейін алмасу коды мен қолжетімділік кімге тиесілі?",
+      "question_en": "Who owns the exchange code and access after handover?",
+      "answer_ru": "Код, инструкция и доступы передаются вам. Учётные записи 1С и сайта остаются на вашей стороне.",
+      "answer_kk": "Код, нұсқаулық және қолжетімділік сізге беріледі. 1С мен сайттың есептік жазбалары сіздің жағыңызда қалады.",
+      "answer_en": "Code, instructions and access are handed over to you. The 1C and website accounts stay on your side.",
+      "sort": 6
     }
   ]
 }

@@ -94,6 +94,42 @@
       "answer_kk": "Сізге желі сызбасын, құпия сөздерді және типтік мәселелер мен шешімдердің қысқа тізімін береміз. Бір нәрсе жұмыс істемей қалса, бізге хабарлаңыз: нені тексеру керектігін айтамыз. Қайта шығу қажет болса, ол бөлек төленеді.",
       "answer_en": "We hand you the network diagram, the passwords and a short list of common problems with solutions. If something stops working, tell us and we will say what to check. A repeat visit, if needed, is paid separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет с гостевой сетью, если посетителей много?",
+      "question_kk": "Келушілер көп болса, қонақ желісіне не болады?",
+      "question_en": "What happens to the guest network when there are many visitors?",
+      "answer_ru": "Гостевая сеть отделена от рабочей, поэтому нагрузка гостей не замедлит кассы и принтеры. При необходимости лимит скорости для гостей можно задать в настройках.",
+      "answer_kk": "Қонақ желісі жұмыс желісінен бөлек, сондықтан қонақтардың жүктемесі кассалар мен принтерлерді баяулатпайды. Қажет болса, қонақтарға жылдамдық шегін баптауда қоюға болады.",
+      "answer_en": "The guest network is separate from the work network, so guests' load will not slow the tills and printers. A speed limit for guests can be set in the settings if needed.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли подключить камеры или кассы к рабочей сети?",
+      "question_kk": "Камералар немесе кассаларды жұмыс желісіне қосуға бола ма?",
+      "question_en": "Can cameras or tills be connected to the work network?",
+      "answer_ru": "Да, устройства подключаются к рабочей сети, и мы проверяем, что они видят друг друга там, где это нужно. Настройку самих касс и камер, включая их программы, мы не делаем.",
+      "answer_kk": "Иә, құрылғылар жұмыс желісіне қосылады, және қажет жерде бір-бірін көретінін тексереміз. Кассалар мен камералардың өздерін, оның ішінде олардың бағдарламаларын баптау біздің жұмысымызға кірмейді.",
+      "answer_en": "Yes, devices connect to the work network, and we check that they see each other where needed. We do not configure the tills or cameras themselves, including their software.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как часто нужно менять пароль Wi-Fi?",
+      "question_kk": "Wi-Fi құпия сөзін қанша жиі ауыстыру керек?",
+      "question_en": "How often should the Wi-Fi password be changed?",
+      "answer_ru": "Если сотрудник уволился или устройство потеряно, пароль лучше сменить сразу. Плановая смена раз в несколько месяцев тоже полезна, а схема паролей остаётся у вас.",
+      "answer_kk": "Қызметкер кетсе немесе құрылғы жоғалса, құпия сөзді бірден ауыстыру жақсы. Бірнеше айда бір рет жоспарлы ауыстыру да пайдалы, ал құпия сөздер схемасы сізде қалады.",
+      "answer_en": "If an employee leaves or a device is lost, it is best to change the password at once. A scheduled change every few months is also useful, and the password scheme stays with you.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Нужен ли доступ к моему интернет-подключению для настройки?",
+      "question_kk": "Баптау үшін менің интернет-қосылымыма қолжетімділік керек пе?",
+      "question_en": "Do you need access to my internet connection for setup?",
+      "answer_ru": "Да, для настройки нужен доступ к интернету и текущему роутеру, чтобы проверить скорость, которую даёт провайдер. Логины провайдера мы не меняем без вашего участия.",
+      "answer_kk": "Иә, баптау үшін интернетке және провайдер беретін жылдамдықты тексеру үшін қазіргі роутерге қолжетімділік керек. Провайдер логиндерін сіздің қатысуыңызсыз өзгертпейміз.",
+      "answer_en": "Yes, setup needs access to the internet and the current router to check the speed the provider delivers. We do not change the provider's logins without your involvement.",
+      "sort": 6
     }
   ]
 }

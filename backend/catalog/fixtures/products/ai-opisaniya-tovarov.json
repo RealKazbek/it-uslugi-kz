@@ -93,6 +93,42 @@
       "answer_kk": "Каталог біртұтас көрінуі үшін құрылым біреу, бірақ тұжырымдар нақты тауардың сипаттамаларынан құрылады. Позициялардың айырмасы өте аз болса, мәтіндер міндетті түрде жақын шығады, бұл туралы алдын ала айтамыз.",
       "answer_en": "The structure is shared so the catalog looks unified, but the wording is built from the attributes of each item. If items barely differ, the texts will inevitably be close, and we will say so beforehand.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли сразу загрузить описания в Kaspi?",
+      "question_kk": "Сипаттамаларды бірден Kaspi-ға жүктеуге бола ма?",
+      "question_en": "Can the descriptions be uploaded to Kaspi straight away?",
+      "answer_ru": "Файл готов к загрузке, но требования маркетплейса к полям могут меняться. Поэтому перед загрузкой сверяем формат с актуальным шаблоном.",
+      "answer_kk": "Файл жүктеуге дайын, бірақ маркетплейстің өрістерге қойған талаптары өзгеруі мүмкін. Сондықтан жүктер алдында пішімді өзекті үлгімен салыстырамыз.",
+      "answer_en": "The file is ready to upload, but marketplace field requirements can change, so we check the format against the current template before you upload.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что делать, если в описании неверный факт?",
+      "question_kk": "Сипаттамада дұрыс емес дерек болса не істеу керек?",
+      "question_en": "What if a description contains a wrong fact?",
+      "answer_ru": "Сообщите нам артикул товара и что именно неверно. Мы исправим текст в рамках согласованного объёма.",
+      "answer_kk": "Тауар артикулын және нақты не дұрыс емес екенін жазыңыз. Мәтінді келісілген көлем шеңберінде түзетеміз.",
+      "answer_en": "Send us the product code and what is wrong. We will correct the text within the agreed scope.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли задать свой стиль или слова, которые не нужно использовать?",
+      "question_kk": "Өз стилін немесе қолданылмайтын сөздерді беруге бола ма?",
+      "question_en": "Can I set my own style or words to avoid?",
+      "answer_ru": "Да, перед работой согласуем тон, длину и слова, которых стоит избегать, например канцелярит или громкие превосходные степени.",
+      "answer_kk": "Иә, жұмыс басталар алдында тон, ұзындық және қолданбау керек сөздерді келісеміз, мысалы, канцелярлық тіл немесе асыра мадақтау.",
+      "answer_en": "Yes, before work starts we agree on tone, length and words to avoid, such as bureaucratic phrasing or exaggerated superlatives.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Учитываются ли ключевые слова для поиска?",
+      "question_kk": "Іздеуге арналған кілт сөздер ескеріле ме?",
+      "question_en": "Are search keywords taken into account?",
+      "answer_ru": "Да, мы используем ключевые слова из вашей таблицы и аккуратно вписываем их в текст без переспама. Гарантировать место в поиске мы не можем.",
+      "answer_kk": "Иә, сіздің кестеңіздегі кілт сөздерді қолданып, оларды мәтінге артық қаптамай орналастырамыз. Іздеудегі орынға кепілдік бере алмаймыз.",
+      "answer_en": "Yes, we use the keywords from your table and place them naturally in the text without keyword stuffing. We cannot guarantee search positions.",
+      "sort": 6
     }
   ]
 }

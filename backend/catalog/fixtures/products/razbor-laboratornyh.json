@@ -94,6 +94,42 @@
       "answer_kk": "Дайын жауап бермейміз, мұндай тәсіл не емтиханда, не жұмыста көмектеспейді. Жауапқа қалай жеткеніңізді түсіндіреміз және сіздің нәтижеңізді тексеруге көмектесеміз.",
       "answer_en": "We do not give ready answers: that approach will not help you in exams or at work. We explain how to reach the answer and help you check your own result.",
       "sort": 2
+    },
+    {
+      "question_ru": "Какие лабораторные подходят для разбора?",
+      "question_kk": "Талдауға қандай зертханалық жұмыстар жарайды?",
+      "question_en": "Which lab works suit a review?",
+      "answer_ru": "Подходят работы по программированию, схемотехнике, физике и другим дисциплинам, где есть понятное задание и ход решения. Если нужно оборудование, сначала обсудим, что можно разобрать на занятии.",
+      "answer_kk": "Бағдарламалау, схемотехника, физика және түсінікті тапсырмасы мен шешу барысы бар басқа пәндер бойынша жұмыстар жарайды. Жабдық керек болса, алдымен сабақта не талдауға болатынын талқылаймыз.",
+      "answer_en": "Works in programming, circuit design, physics and other subjects with a clear task and solution path suit this. If equipment is needed, we first discuss what can be reviewed in the session.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли разобрать работу, которую я уже сдал?",
+      "question_kk": "Тапсырып қойған жұмысты талдауға бола ма?",
+      "question_en": "Can I review a lab I have already submitted?",
+      "answer_ru": "Да, такой разбор тоже подходит: мы идём по вашим шагам и объясняем, где была ошибка и как её избежать в следующий раз.",
+      "answer_kk": "Иә, мұндай талдау да жарайды: сіздің қадамдарыңыз бойынша жүреміз және қатенің қай жерде болғанын және келесіде оны қалай болдырмауға болатынын түсіндіреміз.",
+      "answer_en": "Yes, that works too: we follow your steps and explain where the mistake was and how to avoid it next time.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Проверяет ли преподаватель работу после занятия?",
+      "question_kk": "Сабақтан кейін оқытушы жұмысты тексере ме?",
+      "question_en": "Does the instructor grade the work after the session?",
+      "answer_ru": "Нет, оценку ставит ваш преподаватель по критериям курса. Мы помогаем понять материал, а вопросы, которые стоит задать преподавателю, обсуждаем на занятии.",
+      "answer_kk": "Жоқ, бағаны курс критерийлері бойынша сіздің оқытушыңыз қояды. Біз материалды түсінуге көмектесеміз, ал оқытушыдан не сұрау керек екенін сабақта талқылаймыз.",
+      "answer_en": "No, your own instructor grades the work against the course criteria. We help you understand the material, and we discuss which questions to ask your instructor during the session.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что делать, если работа очень большая?",
+      "question_kk": "Жұмыс өте үлкен болса, не істеу керек?",
+      "question_en": "What if the lab is very large?",
+      "answer_ru": "Тогда разбираем одну часть за занятие, а остальное распределяем по следующим урокам. Так вы не перегружаетесь, и каждый шаг остаётся понятным.",
+      "answer_kk": "Онда бір сабақта бір бөлікті талдаймыз, қалғанын келесі сабақтарға бөлеміз. Осылайша шамадан тыс жүктелмейсіз, әр қадам түсінікті болып қалады.",
+      "answer_en": "Then we review one part per lesson and spread the rest across the next lessons. That way you are not overloaded and every step stays clear.",
+      "sort": 6
     }
   ]
 }

@@ -94,6 +94,42 @@
       "answer_kk": "Біз сіз берген сандарды безендіреміз және графиктердің деректерге сәйкестігін тексереміз. Есептеулер мен дереккөздердің дұрыстығы сізде қалады, сондықтан инвесторларға көрсетер алдында оларды қаржы маманымен салыстырған жөн.",
       "answer_en": "We design the figures you provide and check that the charts match the data. The accuracy of the calculations and sources remains your responsibility, so it is better to verify them with a finance specialist before showing investors.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько раундов правок входит?",
+      "question_kk": "Қанша түзету айналымы кіреді?",
+      "question_en": "How many rounds of revisions are included?",
+      "answer_ru": "Включены два раунда правок по содержанию и оформлению. Дополнительные круги обсуждаем отдельно, например если появились новые данные или изменился сценарий встречи.",
+      "answer_kk": "Мазмұн мен безендіру бойынша екі түзету айналымы кіреді. Қосымша айналымдарды бөлек талқылаймыз, мысалы жаңа деректер пайда болса немесе кездесу сценарийі өзгерсе.",
+      "answer_en": "Two rounds of revisions on content and design are included. Extra rounds are discussed separately, for example if new data appears or the meeting plan changes.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли использовать свой шаблон или фирменный стиль?",
+      "question_kk": "Өз үлгіңізді немесе фирмалық стильді пайдалануға бола ма?",
+      "question_en": "Can I use my own template or brand style?",
+      "answer_ru": "Да, если вы присылаете брендбук или файл-шаблон, работаем в этих рамках. Без брендбука подбираем стиль по логотипу и цветам, которые вы укажете.",
+      "answer_kk": "Иә, брендбук немесе үлгі файлын жіберсеңіз, сол шеңберде жұмыс істейміз. Брендбук болмаса, көрсеткен логотип пен түстер бойынша стиль таңдаймыз.",
+      "answer_en": "Yes, if you send a brand book or template file, we work within it. Without a brand book, we choose the style from the logo and colours you provide.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужно ли, чтобы вы писали речь докладчика?",
+      "question_kk": "Баяндамашының сөзін сіз жазуыңыз керек пе?",
+      "question_en": "Will you write the speech for me?",
+      "answer_ru": "Мы добавляем заметки для докладчика к слайдам, но текст речи и её тренировку ведёте вы. Тренировка выступления — отдельная услуга.",
+      "answer_kk": "Слайдтарға баяндамашыға арналған ескертпелер қосамыз, бірақ сөйлеу мәтінін және оны жаттықтыруды өзіңіз жүргізесіз. Баяндама жаттығуы — бөлек қызмет.",
+      "answer_en": "We add speaker notes to the slides, but you write the speech text and lead the rehearsal. Rehearsing the talk is a separate service.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как передать материалы, если их много?",
+      "question_kk": "Материалдар көп болса, оларды қалай беру керек?",
+      "question_en": "How should I send materials if there are many?",
+      "answer_ru": "Соберите тезисы, цифры со ссылками на источники, логотип и фотографии в одной папке. Что войдёт в презентацию, а что останется за её рамками, решаем вместе, чтобы не перегружать слайды.",
+      "answer_kk": "Тезистерді, дереккөздерге сілтемелері бар сандарды, логотип пен фотосуреттерді бір қалтаға жинаңыз. Презентацияға не кіретінін және нені сыртта қалдыратынын бірге шешеміз, слайдтарды асыра жүктемеу үшін.",
+      "answer_en": "Gather the key points, figures with links to their sources, the logo and photos in one folder. We decide together what goes into the deck and what stays out, so the slides are not overloaded.",
+      "sort": 6
     }
   ]
 }

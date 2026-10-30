@@ -93,6 +93,42 @@
       "answer_kk": "Онда телефонмен немесе сайт арқылы жазылу бұрынғыдай қалады, ал мұндай жазылуды ботқа қолмен қосуға болады. Бот сіздің арналарыңызды толықтырады, ауыстырмайды.",
       "answer_en": "Then booking by phone or through the site stays as it was, and you can add that booking to the bot by hand. The bot complements your channels instead of replacing them.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно сделать клиенту, чтобы записаться?",
+      "question_kk": "Клиент жазылу үшін не істеуі керек?",
+      "question_en": "What does the client need to do to book?",
+      "answer_ru": "Клиенту достаточно открыть бота и пройти короткий диалог: услуга, мастер, дата и время. Регистрация и установка приложения не нужны.",
+      "answer_kk": "Клиентке ботты ашып, қысқа диалогтан өту жеткілікті: қызмет, шебер, күн мен уақыт. Тіркелу және қосымша қолданба орнату керек емес.",
+      "answer_en": "The client only opens the bot and goes through a short dialogue: service, master, date and time. No registration or app install is needed.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что делать, если нужно изменить рабочие часы?",
+      "question_kk": "Жұмыс уақытын өзгерту керек болса, не істеу керек?",
+      "question_en": "What if I need to change working hours?",
+      "answer_ru": "Рабочие часы, перерывы и выходные меняете вы или мы по вашей просьбе, и новые слоты сразу появляются в записи. Уже созданные записи при этом автоматически не переносятся.",
+      "answer_kk": "Жұмыс уақытын, үзілістер мен демалыс күндерін сіз немесе біз сіздің сұрауыңыз бойынша өзгертеміз, жаңа уақыттар жазылуда бірден көрінеді. Бар жазбалар автоматты түрде ауыспайды.",
+      "answer_en": "You or we change working hours, breaks and days off on your request, and new slots appear in booking at once. Existing bookings are not moved automatically.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли записать клиента сразу на несколько услуг?",
+      "question_kk": "Клиентті бірнеше қызметке бірден жазуға бола ма?",
+      "question_en": "Can a client book several services at once?",
+      "answer_ru": "Да, если услуги выполняются подряд, их добавляют в одну запись. Если между ними нужен перерыв или другой мастер, лучше оформить отдельные записи.",
+      "answer_kk": "Иә, қызметтер қатар орындалатын болса, олар бір жазбаға қосылады. Арасында үзіліс немесе басқа шебер керек болса, бөлек жазба жасаған дұрыс.",
+      "answer_en": "Yes, if the services are done back to back, they go into one booking. If a gap or another master is needed between them, it is better to book them separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Нужна ли интеграция с моей CRM или Google Календарём?",
+      "question_kk": "Менің CRM немесе Google Күнтізбемен интеграция керек пе?",
+      "question_en": "Do I need integration with my CRM or Google Calendar?",
+      "answer_ru": "Базовая версия ведёт расписание внутри бота и не требует CRM. Синхронизацию с Google Календарём или CRM добавляем как отдельную задачу, когда согласуем, какие данные передавать.",
+      "answer_kk": "Негізгі нұсқа кестені бот ішінде жүргізеді және CRM-ді талап етпейді. Google Күнтізбемен немесе CRM-мен синхрондауды бөлек тапсырма ретінде қосамыз, қандай деректер берілетінін алдын ала келісеміз.",
+      "answer_en": "The basic version keeps the schedule inside the bot and does not require a CRM. Syncing with Google Calendar or a CRM is added as a separate task, once we agree which data to pass on.",
+      "sort": 6
     }
   ]
 }

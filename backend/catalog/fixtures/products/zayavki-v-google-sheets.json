@@ -93,6 +93,42 @@
       "answer_kk": "Кестені CSV-ға оңай шығарып, көптеген жүйеге жүктеуге болады. Өссеңіз, сол деректер негізінде CRM жасай аламыз.",
       "answer_en": "The table exports easily to CSV and loads into most systems. If you outgrow it, we can build a CRM on the same data.",
       "sort": 2
+    },
+    {
+      "question_ru": "Кто будет иметь доступ к таблице?",
+      "question_kk": "Кестеге кім қолжетімді болады?",
+      "question_en": "Who will have access to the spreadsheet?",
+      "answer_ru": "Таблица создаётся на ваш аккаунт Google, и доступ выдаёте вы: права можно дать сотрудникам по отдельности. Доступ для нас открываем только на время настройки, если вы этого хотите.",
+      "answer_kk": "Кесте сіздің Google аккаунтыңызда жасалады, қолжетімділікті сіз бересіз: құқықты қызметкерлерге жеке-жеке беруге болады. Қаласаңыз, бізге тек баптау кезіндегі қолжетімділікті ашамыз.",
+      "answer_en": "The spreadsheet is created on your Google account and you grant access: rights can be given to employees individually. We open access for us only for the duration of setup, if you prefer.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли менять статусы заявок в таблице вручную?",
+      "question_kk": "Өтініштердің мәртебесін кестеде қолмен өзгертуге бола ма?",
+      "question_en": "Can I change request statuses in the sheet manually?",
+      "answer_ru": "Да, статус выбирается из выпадающего списка, и вместо предложенных можно добавить свои значения. Изменение статуса в таблице автоматически клиенту не отправляется.",
+      "answer_kk": "Иә, мәртебе ашылмалы тізімнен таңдалады, ал ұсынылғанның орнына өз мәндеріңізді қосуға болады. Кестедегі мәртебе өзгерісі клиентке автоматты түрде жіберілмейді.",
+      "answer_en": "Yes, the status is chosen from a dropdown, and you can add your own values in place of the suggested ones. A status change in the sheet is not sent to the client automatically.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет, если таблица станет слишком большой?",
+      "question_kk": "Кесте тым үлкен болып кетсе, не болады?",
+      "question_en": "What if the spreadsheet becomes too large?",
+      "answer_ru": "Google Таблицы выдерживают большое количество строк, но при тысячах заявок в месяц стоит заранее продумать архив старых записей. Архивирование по дате настраиваем по вашему запросу.",
+      "answer_kk": "Google Кестелері жолдардың үлкен санын көтереді, бірақ айына мыңдаған өтінім болса, ескі жазбалар архивін алдын ала ойластырған дұрыс. Күн бойынша архивтеуді сіздің сұрауыңыз бойынша баптаймыз.",
+      "answer_en": "Google Sheets handles a large number of rows, but with thousands of requests a month it is better to plan an archive of old records in advance. We set up archiving by date on your request.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Где хранятся данные клиентов, если таблица — это вся база?",
+      "question_kk": "Кесте — бүкіл база болса, клиент деректері қайда сақталады?",
+      "question_en": "Where is client data kept if the sheet is the whole database?",
+      "answer_ru": "Данные находятся в вашей таблице Google, которой владеете вы, и мы не копируем их на свой сервер. Доступ к таблице ограничивайте сами, ведь это персональные данные клиентов.",
+      "answer_kk": "Деректер сіз иеленетін Google кестесінде тұрады, және біз оларды өз серверімізге көшірмейміз. Бұл клиенттердің жеке деректері болғандықтан, кестеге қолжетімділікті өзіңіз шектеңіз.",
+      "answer_en": "The data lives in your Google spreadsheet, which you own, and we do not copy it to our server. Restrict access to the sheet yourself, as it contains clients' personal data.",
+      "sort": 6
     }
   ]
 }

@@ -93,6 +93,42 @@
       "answer_kk": "Әзірлеу 10-15 жұмыс күнін алады. Нөмірді API-ге қосу ұзақтау болуы мүмкін: мерзім провайдер мен Meta-ға байланысты, мүмкін кешігу туралы алдын ала ескертеміз.",
       "answer_en": "Development takes 10-15 working days. Connecting the number to the API can take longer because it depends on the provider and Meta, and we will warn you in advance about any likely delay.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли мне самому регистрировать номер в Meta?",
+      "question_kk": "Нөмірді Meta жүйесінде мен өзім тіркеуім керек пе?",
+      "question_en": "Do I have to register the number with Meta myself?",
+      "answer_ru": "Регистрацию номера и проверку бизнес-аккаунта проходим вместе с вами через выбранного провайдера. Доступы остаются за вами.",
+      "answer_kk": "Нөмірді тіркеу және бизнес-аккаунтты тексеру таңдалған провайдер арқылы сізбен бірге өтеді. Қолжетімділік сізде қалады.",
+      "answer_en": "We complete the number registration and business account check with you through the chosen provider. The access stays with you.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если клиент напишет ночью?",
+      "question_kk": "Клиент түнде жазса не болады?",
+      "question_en": "What happens if a customer writes at night?",
+      "answer_ru": "Ассистент ответит на типовые вопросы круглосуточно. Сложные случаи он сохранит и пришлёт вам уведомление, чтобы вы ответили, когда будете на связи.",
+      "answer_kk": "Көмекші жиі қойылатын сұрақтарға тәулік бойы жауап береді. Күрделі жағдайларды сақтап, сізге хабарлама жібереді, сонда сіз байланыста болғанда жауап бересіз.",
+      "answer_en": "The assistant answers common questions around the clock. It saves complicated cases and sends you a notification so you can reply once you are available.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли отправлять клиентам каталог или фото?",
+      "question_kk": "Клиенттерге каталог немесе фото жіберуге бола ма?",
+      "question_en": "Can the assistant send catalogues or photos to customers?",
+      "answer_ru": "Да, в ответах можно передавать ссылки и изображения. Рассылки и шаблонные сообщения при этом подчиняются правилам Meta, которые мы учитываем при настройке.",
+      "answer_kk": "Иә, жауаптарда сілтемелер мен суреттерді беруге болады. Ал жаппай хабарламалар мен үлгі хабарлар Meta ережелеріне бағынады, оларды баптау кезінде ескереміз.",
+      "answer_en": "Yes, replies can include links and images. Broadcasts and template messages follow Meta's rules, which we take into account during setup.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Сохраняются ли переписки и кто к ним имеет доступ?",
+      "question_kk": "Жазбалар сақтала ма және оларға кім қол жеткізеді?",
+      "question_en": "Are the conversations stored, and who can access them?",
+      "answer_ru": "История переписок хранится на сервере, который мы согласуем заранее. Доступ к ней есть только у вас и у сотрудников, которых вы назначите.",
+      "answer_kk": "Жазбалар алдын ала келісілген серверде сақталады. Оларға тек сіз және сіз тағайындаған қызметкерлер қол жеткізе алады.",
+      "answer_en": "Conversation history is kept on a server we agree on in advance. Only you and the staff you assign have access to it.",
+      "sort": 6
     }
   ]
 }

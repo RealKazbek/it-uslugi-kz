@@ -103,6 +103,33 @@
       "answer_kk": "Объектіге шығу қазір тек Алматыда қолжетімді, басқа қалаларда орнатуды орнында орындамаймыз. Қашықтан баптауға көмек тек қызмет сипаттамасында тікелей көрсетілген жағдайларда ғана мүмкін.",
       "answer_en": "On-site visits are available only in Almaty at the moment, and we do not do on-site installation in other cities. Remote help with setup is possible only in the cases stated directly in the service description.",
       "sort": 3
+    },
+    {
+      "question_ru": "Кто гарантирует работу оборудования, которое вы не покупали?",
+      "question_kk": "Біз сатып алмаған жабдықтың жұмысына кім кепілдік береді?",
+      "question_en": "Who guarantees equipment that we did not buy?",
+      "answer_ru": "Гарантию на оборудование даёт производитель или продавец, а мы отвечаем за качество монтажа и настройки. Если оборудование выйдет из строя, поможем с диагностикой, но ремонт оплачивается отдельно.",
+      "answer_kk": "Жабдыққа кепілдікті оның өндірушісі немесе сатушысы береді, ал монтаж пен баптаудың сапасына біз жауап береміз. Жабдық бұзылса, диагностикаға көмектесеміз, бірақ жөндеу бөлек төленеді.",
+      "answer_en": "The equipment warranty is given by its manufacturer or seller, while we are responsible for the quality of installation and setup. If equipment fails, we help with diagnostics, but repairs are paid separately.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько дней занимает установка на объекте?",
+      "question_kk": "Объектіде орнату неше күнге созылады?",
+      "question_en": "How many days does on-site installation take?",
+      "answer_ru": "Срок зависит от количества камер и сложности прокладки кабелей, поэтому точную длительность называем после осмотра. Обычно работа укладывается в один-два выезда.",
+      "answer_kk": "Мерзім камералардың санына және кабель төсеудің күрделілігіне байланысты, сондықтан дәл уақытты тексерген соң айтамыз. Әдетте жұмыс бір-екі шығуға сыяды.",
+      "answer_en": "The timing depends on the number of cameras and the complexity of cable routing, so we give the exact duration after the site survey. Usually the work fits into one or two visits.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить камеры к установленной системе позже?",
+      "question_kk": "Орнатылған жүйеге кейін камералар қосуға бола ма?",
+      "question_en": "Can I add cameras to the installed system later?",
+      "answer_ru": "Да, если в регистраторе есть свободные каналы и место для записи. Если их не хватает, понадобится расширение или новый регистратор, и мы оценим это до начала работ.",
+      "answer_kk": "Иә, тіркеушіде бос арна мен жазу орны болса. Жетпесе, кеңейту немесе жаңа тіркеуші керек болады, оны жұмыс басталар алдында бағалаймыз.",
+      "answer_en": "Yes, if the recorder has free channels and storage space. If not, an expansion or a new recorder is needed, and we will assess this before the work.",
+      "sort": 6
     }
   ]
 }

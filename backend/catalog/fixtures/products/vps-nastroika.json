@@ -94,6 +94,42 @@
       "answer_kk": "Қандай порт және не үшін керек екенін бізге жазыңыз. Брандмауэрге ереже қосып, тек сол порттың ашық екенін тексереміз. Мұндай жұмыс шағын түзету ретінде орындалады, ал жарты сағаттан көп уақыт алса, бөлек бағаланады.",
       "answer_en": "Tell us which port you need and why. We add a rule to the firewall and check that only that port is open. This is a small change, and it is priced separately if it takes more than half an hour.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли оставить вход по паролю для удобства?",
+      "question_kk": "Ыңғайлы болу үшін құпия сөзбен кіруді қалдыруға бола ма?",
+      "question_en": "Can I keep password login for convenience?",
+      "answer_ru": "Вход по паролю отключаем, так как он уязвимее ключа. Если нужен доступ с устройства без ключа, обсуждаем это заранее, а риски снижаем другими мерами, например ограничением по IP.",
+      "answer_kk": "Құпия сөзбен кіруді кілтке қарағанда осал болғандықтан өшіреміз. Кілтсіз құрылғыдан кіру керек болса, оны алдын ала талқылаймыз, ал тәуекелді IP бойынша шектеу сияқты басқа шаралармен азайтамыз.",
+      "answer_en": "We turn off password login because it is weaker than a key. If you need access from a device without a key, we discuss it in advance and reduce the risks with other measures, such as restricting by IP.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если сервер окажется под нагрузкой после настройки?",
+      "question_kk": "Баптаудан кейін сервер жүктемеде болса, не болады?",
+      "question_en": "What if the server is under load after setup?",
+      "answer_ru": "Мы ставим базовые инструменты для просмотра нагрузки и журналов, чтобы вы видели проблему. Масштабирование и выбор мощности сервера — отдельная задача, которая решается по вашему проекту.",
+      "answer_kk": "Жүктемені және журналдарды көру үшін негізгі құралдар орнатамыз, сонда мәселені көресіз. Серверді масштабтау және қуатты таңдау — жобаңызға байланысты бөлек шешілетін тапсырма.",
+      "answer_en": "We install basic tools to view load and logs, so you can see the problem. Scaling the server and choosing its capacity is a separate task that depends on your project.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужны ли мне знания Linux, чтобы пользоваться сервером?",
+      "question_kk": "Серверді пайдалану үшін Linux білімі керек пе?",
+      "question_en": "Do I need Linux knowledge to use the server?",
+      "answer_ru": "Базовые команды для повседневной работы вам пригодятся, и памятка включает самые частые из них. Сложные задачи по-прежнему проще передать специалисту.",
+      "answer_kk": "Күнделікті жұмыс үшін негізгі командалар пайдалы болады, ал жадынамада ең жиі қолданылатындары бар. Күрделі тапсырмаларды әлі де маманға беру оңайырақ.",
+      "answer_en": "Basic commands for daily work will be useful, and the memo includes the most common ones. Complex tasks are still easier to hand to a specialist.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли обновлять систему самому вручную?",
+      "question_kk": "Жүйені өзім қолмен жаңарта аламын ба?",
+      "question_en": "Can I update the system manually myself?",
+      "answer_ru": "Да, автоматические обновления безопасности мы настраиваем, но ручное обновление всей системы остаётся возможным. Перед обновлением версий сервера лучше сделать резервную копию.",
+      "answer_kk": "Иә, қауіпсіздік жаңартуларын автоматты түрде баптаймыз, бірақ жүйені қолмен жаңарту да мүмкін. Сервер нұсқаларын жаңартар алдында резервтік көшірме жасаған дұрыс.",
+      "answer_en": "Yes, we set up automatic security updates, but a manual update of the whole system remains possible. Before upgrading server versions, it is better to make a backup.",
+      "sort": 6
     }
   ]
 }

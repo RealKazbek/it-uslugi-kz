@@ -93,6 +93,42 @@
       "answer_kk": "Мұнда бүкіл логика тауар нұсқаларының төңірегінде құрылған: өлшемдер, түстер, өлшем кестесі және әрқайсысының қалдығы. Жалпы дүкен мұндай нұсқалары жоқ тауарларға жарайды.",
       "answer_en": "Here all the logic is built around product variants: sizes, colours, a size chart and stock for each. The general store suits goods without such variants.",
       "sort": 2
+    },
+    {
+      "question_ru": "Как вернуть товар в продажу, если заказ отменили?",
+      "question_kk": "Тапсырыс бас тартылса, тауарды қайта сатуға қалай қайтаруға болады?",
+      "question_en": "How do I put an item back on sale if an order is cancelled?",
+      "answer_ru": "Остаток по варианту вы меняете в админке вручную или через таблицу, поэтому отменённый товар вернуть в продажу можно в один шаг.",
+      "answer_kk": "Нұсқа бойынша қалдықты әкімшілік панельде қолмен немесе кесте арқылы өзгертесіз, сондықтан бас тартылған тауарды бір қадамда сатуға қайтаруға болады.",
+      "answer_en": "You change the stock for each variant in the admin by hand or through a spreadsheet, so a cancelled item can be returned to sale in one step.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли показать размерную сетку с замерами?",
+      "question_kk": "Өлшем кестесін өлшемдермен көрсетуге бола ма?",
+      "question_en": "Can I show a size chart with measurements?",
+      "answer_ru": "Да, таблица размеров заполняется для каждой категории и открывается из карточки товара. Цифры и тексты даёте вы, мы выводим их на сайт.",
+      "answer_kk": "Иә, өлшем кестесі әр санат үшін толтырылады және тауар карточкасынан ашылады. Сандар мен мәтіндерді сіз бересіз, біз оларды сайтқа шығарамыз.",
+      "answer_en": "Yes, a size table is filled in for each category and opens from the product card. You provide the figures and text, and we publish them on the site.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что видит покупатель, если размера уже нет?",
+      "question_kk": "Өлшем таусылса, сатып алушы нені көреді?",
+      "question_en": "What does a buyer see if a size is sold out?",
+      "answer_ru": "Размер без остатка отображается как недоступный и не добавляется в корзину, поэтому заказ не уйдёт на несуществующий товар.",
+      "answer_kk": "Қалдығы жоқ өлшем қолжетімсіз болып көрсетіледі және себетке қосылмайды, сондықтан жоқ тауарға тапсырыс кетпейді.",
+      "answer_en": "A size with no stock is shown as unavailable and cannot be added to the cart, so no order goes out for a missing item.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как загружать фото для нескольких цветов?",
+      "question_kk": "Бірнеше түс үшін фотоны қалай жүктеуге болады?",
+      "question_en": "How do I upload photos for several colours?",
+      "answer_ru": "Фото загружаете для каждого цвета отдельно. При выборе цвета галерея переключается на снимки именно этого цвета.",
+      "answer_kk": "Фотоны әр түс үшін бөлек жүктейсіз. Түс таңдалғанда галерея сол түстің суреттеріне ауысады.",
+      "answer_en": "You upload photos separately for each colour. When a colour is selected, the gallery switches to that colour's photos.",
+      "sort": 6
     }
   ]
 }

@@ -93,6 +93,42 @@
       "answer_kk": "Жоқтау: жергілікті SEO мекенжайға және жақын клиенттерге сүйенеді. Интернет-дүкенге сайттың қарапайым SEO-сы пайдалырақ.",
       "answer_en": "Probably not: local SEO relies on an address and nearby customers. For an online shop, regular site SEO is more useful.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько ждать первых изменений в карточках?",
+      "question_kk": "Нәтиже қанша уақытта көрінеді?",
+      "question_en": "How long until the listings show changes?",
+      "answer_ru": "Единого срока нет: изменения в картах заметны за недели, а динамика зависит от конкурентов в вашем районе. В первом отчёте мы честно покажем, что сделано и что ещё в работе.",
+      "answer_kk": "Бірыңғай мерзім жоқ: карталардағы өзгерістер апталар ішінде байқалады, ал серпін ауданыңыздағы бәсекелестерге байланысты. Алғашқы есепте не істелгенін және не әлі жұмыс үстінде екенін нақты көрсетеміз.",
+      "answer_en": "There is no fixed timeline: map changes show within weeks, and the pace depends on competitors in your area. The first report will honestly show what is done and what is still in progress.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно от меня каждый месяц?",
+      "question_kk": "Әр ай сайын менен не талап етіледі?",
+      "question_en": "What do you need from me each month?",
+      "answer_ru": "Обычно достаточно прислать новые фото, информацию об акциях или изменения графика и передать просьбы клиентов об отзывах. Если времени не хватает, мы готовим тексты, а вы только подтверждаете их.",
+      "answer_kk": "Әдетте жаңа фотосуреттерді, акциялар мен кесте өзгерістерін жіберсеңіз жеткілікті, сондай-ақ клиенттердің пікір туралы сұрауларын жеткізесіз. Уақытыңыз жетпесе, мәтіндерді біз дайындаймыз, сіз оларды растайсыз.",
+      "answer_en": "Usually it is enough to send new photos, offer details or schedule changes and pass on customer requests for reviews. If you are short on time, we prepare the texts and you only confirm them.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кому принадлежат карточки и кабинеты?",
+      "question_kk": "Карточкалар мен кабинеттерге кім иелік етеді?",
+      "question_en": "Who owns the listings and cabinets?",
+      "answer_ru": "Карточки и кабинеты остаются за вами: владелец аккаунтов — ваш аккаунт, а мы работаем через доступ менеджера. По окончании работы этот доступ можно отозвать в любой момент.",
+      "answer_kk": "Карточкалар мен кабинеттер сізде қалады: аккаунттың иесі — сіздің аккаунтыңыз, ал біз менеджер рұқсаты арқылы жұмыс істейміз. Жұмыс аяқталғанда рұқсатты кез келген уақытта қайтарып алуға болады.",
+      "answer_en": "The listings and cabinets stay yours: the account owner is your own account, and we work through manager access. When the work ends, that access can be revoked at any time.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли быстро собрать много отзывов?",
+      "question_kk": "Қысқа мерзімде көп пікір жинауға бола ма?",
+      "question_en": "Can we collect a lot of reviews quickly?",
+      "answer_ru": "Нет, такой цели мы не обещаем: резкий всплеск отзывов может выглядеть подозрительно для площадок. Мы помогаем стабильно просить отзывы у реальных клиентов, и их число растёт постепенно.",
+      "answer_kk": "Жоқ, мұндай мақсатты уәде етпейміз: пікірдің кенет көбеюі алаңдарға күдікті көрінуі мүмкін. Біз нақты клиенттерден тұрақты түрде пікір сұрауға көмектесеміз, саны біртіндеп өседі.",
+      "answer_en": "No, we do not promise that: a sudden spike of reviews can look suspicious to platforms. We help you ask real customers steadily, and the count grows gradually.",
+      "sort": 6
     }
   ]
 }

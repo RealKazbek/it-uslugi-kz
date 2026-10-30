@@ -91,6 +91,42 @@
       "answer_kk": "Орнатылған санағыштардың, мақсаттар мен оқиғалардың тізімін және есептердің қысқаша сипаттамасын аласыз. Деректер бір кезде сәйкес келмей қалса, себебін табуға көмектесеміз.",
       "answer_en": "You receive a list of the counters, goals and events we installed, plus a short description of the reports. If the data ever stops matching, we help find the cause.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли переделывать сайт, чтобы добавить счётчики?",
+      "question_kk": "Счётчиктерді қосу үшін сайтты қайта жасау керек пе?",
+      "question_en": "Does the site need to be rebuilt to add the counters?",
+      "answer_ru": "Обычно нет. Счётчики добавляются через код или тег-менеджер на действующем сайте, без переделки страниц.",
+      "answer_kk": "Әдетте жоқ. Счётчиктер жұмыс істеп тұрған сайтқа код немесе тег-менеджер арқылы қосылады, беттерді қайта жасау қажет емес.",
+      "answer_en": "Usually not. The counters are added through code or a tag manager on the live site, without rebuilding the pages.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Появятся ли данные за период до установки?",
+      "question_kk": "Орнатқанға дейінгі кезеңнің деректері пайда бола ма?",
+      "question_en": "Will data from before the setup appear?",
+      "answer_ru": "Нет. GA4 и Метрика не восстанавливают прошлые периоды, поэтому данные начнут копиться с момента установки.",
+      "answer_kk": "Жоқ. GA4 және Метрика өткен кезеңдерді қалпына келтірмейді, сондықтан деректер орнатылған сәттен бастап жиналады.",
+      "answer_en": "No. GA4 and Metrica do not restore past periods, so data starts collecting from the moment of installation.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Соблюдается ли защита персональных данных?",
+      "question_kk": "Жеке деректерді қорғау сақтала ма?",
+      "question_en": "Is personal data protected?",
+      "answer_ru": "Мы не передаём в события имена и телефоны клиентов. Баннер cookies и политику конфиденциальности согласуете вы со своим юристом.",
+      "answer_kk": "Оқиғаларға клиенттердің аты мен телефон нөмірін бермейміз. Cookies баннерін және құпиялылық саясатын сіз өз заңгеріңізбен келісесіз.",
+      "answer_en": "We do not pass client names or phone numbers into events. You agree the cookie banner and privacy policy with your own lawyer.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли отслеживать звонки с сайта?",
+      "question_kk": "Сайттан қоңыраулармен бақылауға бола ма?",
+      "question_en": "Can calls from the site be tracked?",
+      "answer_ru": "Клики по номеру телефона отслеживаем как цель. Сам разговор и его результат в счётчике не видны, для этого нужна телефония.",
+      "answer_kk": "Телефон нөміріне басуды мақсат ретінде бақылаймыз. Сөйлесудің өзі мен нәтижесі счётчикте көрінбейді, ол үшін телефония керек.",
+      "answer_en": "We track taps on the phone number as a goal. The call itself and its outcome are not visible in the counter; that requires telephony.",
+      "sort": 6
     }
   ]
 }

@@ -91,6 +91,42 @@
       "answer_kk": "Сіз жұмыс істеп тұрған сценарийлерді, олардың сипаттамасын және қосылған сервистердің қолжетімділіктер тізімін аласыз. Сценарий үшінші тарап сервисіндегі өзгеріске байланысты бұзылса, оны бөлек сұраныс бойынша түзетеміз.",
       "answer_en": "You receive the working scenarios, their descriptions and a list of connected services with their access. If a scenario breaks because a third-party service changed, we fix it on a separate request.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что мне нужно подготовить до начала работ?",
+      "question_kk": "Жұмыс басталар алдында не дайындау керек?",
+      "question_en": "What do I need to prepare before we start?",
+      "answer_ru": "Доступы к таблицам, почте, мессенджеру и CRM, которыми вы пользуетесь, и список процессов, которые отнимают время. Доступы остаются в ваших аккаунтах, а мы используем их только на время работы.",
+      "answer_kk": "Сіз пайдаланатын кестелерге, поштаға, мессенджерге және CRM-ге қолжетімділік, сондай-ақ уақытыңызды алатын процестердің тізімі. Қолжетімділік сіздің аккаунтыңызда қалады, ал біз оны тек жұмыс кезінде қолданамыз.",
+      "answer_en": "Access to the spreadsheets, email, messenger and CRM you use, plus a list of the processes that take your time. The access stays in your own accounts, and we use it only while we work.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если внешний сервис изменит своё API?",
+      "question_kk": "Сыртқы сервис API-ін өзгертсе не болады?",
+      "question_en": "What happens if an external service changes its API?",
+      "answer_ru": "Сценарий может остановиться, и проверка ошибок сообщит вам об этом сразу. Если изменение требует переписать шаги, эту работу оцениваем отдельно.",
+      "answer_kk": "Сценарий тоқтап қалуы мүмкін, ал қате тексеру бұл туралы сізге бірден хабарлайды. Егер өзгеріс қадамдарды қайта жазуды талап етсе, бұл жұмысты бөлек бағалаймыз.",
+      "answer_en": "The scenario may stop, and error checking will tell you right away. If the change requires rewriting steps, we estimate that work separately.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Где хранятся данные, которые проходят через сценарии?",
+      "question_kk": "Сценарийлер арқылы өтетін деректер қайда сақталады?",
+      "question_en": "Where is the data that passes through the scenarios stored?",
+      "answer_ru": "Мы не создаём отдельного хранилища: сценарии работают через ваши аккаунты n8n или Make и подключённые сервисы. Срок и место хранения определяют эти сервисы, поэтому стоит ознакомиться с их политикой.",
+      "answer_kk": "Біз бөлек қойма жасамаймыз: сценарийлер сіздің n8n немесе Make аккаунттарыңыз және қосылған сервистер арқылы жұмыс істейді. Сақтау мерзімі мен орнын сол сервистер анықтайды, олардың саясатымен танысқан жөн.",
+      "answer_en": "We do not create a separate store: the scenarios run through your n8n or Make accounts and the connected services. Those services set how long data is kept and where, so it is worth reading their policies.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли потом перенести сценарий из n8n в Make?",
+      "question_kk": "Кейін сценарийді n8n-нен Make-ке көшіруге бола ма?",
+      "question_en": "Can a scenario be moved from n8n to Make later?",
+      "answer_ru": "Напрямую нет: у сервисов разные узлы и логика. Сценарий пишется заново по уже согласованному описанию, поэтому описание для вашей команды пригодится в любом случае.",
+      "answer_kk": "Тікелей болмайды: сервистерде әртүрлі түйіндер мен логика бар. Сценарий бұрын келісілген сипаттама бойынша қайта жазылады, сондықтан командаға арналған сипаттама кез келген жағдайда пайдалы.",
+      "answer_en": "Not directly: the services have different nodes and logic. The scenario is rewritten from the agreed description, so the description we prepare for your team will be useful either way.",
+      "sort": 6
     }
   ]
 }

@@ -90,6 +90,42 @@
       "answer_kk": "Әдетте сертификаттың мерзімі өткен немесе қосылмаған. Себебін тексеріп, жаңа сертификатты орнатып, мұның қайталанбауы үшін автоматты жаңартуды қосамыз.",
       "answer_en": "Usually the certificate has expired or was never installed. We check the cause, install a new certificate and turn on auto-renewal so it does not happen again.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если я вовремя не продлю домен?",
+      "question_kk": "Доменді уақытында ұзартпасам не болады?",
+      "question_en": "What happens if I do not renew the domain in time?",
+      "answer_ru": "Домен может освободиться и уйти в продажу. Поэтому включите автопродление и держите контакты в регистраторе актуальными.",
+      "answer_kk": "Домен босап, сатылымға шығып кетуі мүмкін. Сондықтан автоұзартуды қосып, регистратордағы байланыс деректерін өзекті ұстаңыз.",
+      "answer_en": "The domain can be released and put on sale. So turn on auto-renewal and keep your contacts up to date with the registrar.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли перенести уже зарегистрированный домен?",
+      "question_kk": "Бұрын тіркелген доменді көшіруге бола ма?",
+      "question_en": "Can a domain that is already registered be transferred?",
+      "answer_ru": "Да, перенос возможен при соблюдении правил регистратора. Мы объясним шаги и проверим DNS после переноса.",
+      "answer_kk": "Иә, регистратор ережелерін сақтаған жағдайда көшіруге болады. Қадамдарын түсіндіреміз және көшіруден кейін DNS-ті тексереміз.",
+      "answer_en": "Yes, transfer is possible if the registrar's rules are met. We explain the steps and check DNS after the transfer.",
+      "sort": 4
+    },
+    {
+      "question_ru": "На чью почту придут письма от регистратора и хостинга?",
+      "question_kk": "Регистратор мен хостингтен хаттар қай поштаға келеді?",
+      "question_en": "Which email receives letters from the registrar and the host?",
+      "answer_ru": "На ту, которую вы укажете. Рекомендуем завести рабочий ящик, а не личный, чтобы не потерять доступ к домену.",
+      "answer_kk": "Сіз көрсеткен поштаға. Доменге қолжетімділікті жоғалтпау үшін жеке емес, жұмыс поштасын ашуды ұсынамыз.",
+      "answer_en": "The one you specify. We recommend a work mailbox rather than a personal one so you do not lose access to the domain.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Нужен ли отдельный сервер для почты на домене?",
+      "question_kk": "Домендегі пошта үшін бөлек сервер керек пе?",
+      "question_en": "Do I need a separate server for email on the domain?",
+      "answer_ru": "Почта на домене — отдельная услуга. DNS-записи для неё мы можем настроить, но сам почтовый сервис подключается отдельно.",
+      "answer_kk": "Домендегі пошта — бөлек қызмет. Оған арналған DNS жазбаларын баптай аламыз, бірақ пошта сервисі бөлек қосылады.",
+      "answer_en": "Email on the domain is a separate service. We can set up the DNS records for it, but the mail service itself is connected separately.",
+      "sort": 6
     }
   ],
   "is_onsite": false

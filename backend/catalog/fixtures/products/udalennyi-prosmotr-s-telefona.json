@@ -94,6 +94,42 @@
       "answer_kk": "Бұл сіз таңдаған сервиске байланысты. Кейбір сервистер жазбаны жазылыммен бұлтта сақтайды, басқалары тек жергілікті жазбамен жұмыс істейді. Айырмашылықты түсіндіреміз және таңдауға көмектесеміз, бірақ жазылым ақысы бөлек төленеді.",
       "answer_en": "It depends on the service you choose. Some services keep recordings in the cloud on a subscription, others work only with local recording. We will explain the difference and help you choose, but the subscription fee is paid separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли смотреть камеры с компьютера, а не только с телефона?",
+      "question_kk": "Камераларды телефоннан ғана емес, компьютерден де көруге бола ма?",
+      "question_en": "Can I watch the cameras on a computer, not only on a phone?",
+      "answer_ru": "Да, если регистратор поддерживает веб-доступ или программу для компьютера, настраиваем и этот вариант. Какие способы доступны, зависит от модели вашей системы.",
+      "answer_kk": "Иә, тіркеуші веб-кіруді немесе компьютерге арналған бағдарламаны қолдаса, бұл нұсқаны да баптаймыз. Қандай тәсілдер қолжетімді болатыны жүйеңіздің моделіне байланысты.",
+      "answer_en": "Yes, if your recorder supports web access or a computer program, we set up that option too. Which methods are available depends on your system's model.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Кто, кроме меня, сможет видеть мои камеры?",
+      "question_kk": "Менен басқа камераларымды кім көре алады?",
+      "question_en": "Who else can see my cameras besides me?",
+      "answer_ru": "Доступ получают только те учётные записи, которые вы сами укажете. Пароли меняем на новые и передаём вам, а лишних пользователей можно удалить в любой момент.",
+      "answer_kk": "Қолжетімділікті тек сіз көрсеткен аккаунттар алады. Құпия сөздерді жаңаға ауыстырып, сізге береміз, ал артық пайдаланушыларды кез келген уақытта өшіруге болады.",
+      "answer_en": "Only the accounts you specify get access. We change the passwords to new ones and hand them to you, and extra users can be removed at any time.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что делать, если камеры перестанут открываться после настройки?",
+      "question_kk": "Баптаудан кейін камералар ашылмай қалса, не істеу керек?",
+      "question_en": "What should I do if the cameras stop opening after setup?",
+      "answer_ru": "Срок гарантии на настройку обсуждаем при согласовании работ. Частые причины — смена интернета или пароля, их можно проверить по инструкции, которую мы передаём.",
+      "answer_kk": "Баптау бойынша кепілдік мерзімін жұмысты келісу кезінде талқылаймыз. Жиі себептері — интернеттің немесе құпия сөздің өзгеруі, оны біз берген нұсқаулық бойынша тексеруге болады.",
+      "answer_en": "We discuss the warranty period for the setup when agreeing the work. Common causes are a changed internet connection or password, which you can check with the instructions we hand over.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить камеры позже, если понадобятся новые?",
+      "question_kk": "Кейін жаңа камералар керек болса, қосуға бола ма?",
+      "question_en": "Can I add new cameras later if I need them?",
+      "answer_ru": "Да, новые камеры подключаются так же, если в регистраторе есть свободные каналы. Если каналов не хватает, понадобится другой регистратор, и это оценивается отдельно.",
+      "answer_kk": "Иә, тіркеушіде бос арна болса, жаңа камералар дәл осылай қосылады. Арна жетпесе, басқа тіркеуші керек болады және ол бөлек бағаланады.",
+      "answer_en": "Yes, new cameras connect the same way if the recorder has free channels. If there are not enough channels, a different recorder is needed, which is assessed separately.",
+      "sort": 6
     }
   ]
 }

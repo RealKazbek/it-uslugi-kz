@@ -91,6 +91,42 @@
       "answer_kk": "Сіз баптаған порталды, қолжетімділіктер тізімін және қысқа нұсқаулықты аласыз. Алғашқы аптада қызметкерлерге ыңғайсыз нәрсе болса, оны келісілген көлем аясында түзетеміз.",
       "answer_en": "You receive the configured portal, a list of access rights and a short guide. If anything feels awkward for your staff in the first weeks, we adjust it within the agreed scope.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли переносить все данные из старой системы?",
+      "question_kk": "Ескі жүйедегі барлық деректерді көшіру керек пе?",
+      "question_en": "Do I need to move all the data from the old system?",
+      "answer_ru": "Нет, переносим только то, что нужно для работы. Список данных согласуем на этапе обзора процессов.",
+      "answer_kk": "Жоқ, жұмыс үшін қажет нәрселерді ғана көшіреміз. Деректер тізімін процестерді шолу кезеңінде келісеміз.",
+      "answer_en": "No, we move only what the work needs. We agree the list of data during the process review.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Смогут ли бухгалтеры работать в Bitrix24?",
+      "question_kk": "Бухгалтерлер Bitrix24-те жұмыс істей ала ма?",
+      "question_en": "Can accountants work in Bitrix24?",
+      "answer_ru": "Бухгалтерские модули зависят от вашей редакции и настроек. Если они нужны, сначала проверим, что доступно в вашем тарифе.",
+      "answer_kk": "Бухгалтерлік модульдер сіздің редакцияңызға және баптауға байланысты. Қажет болса, алдымен тарифіңізде не бар екенін тексереміз.",
+      "answer_en": "Accounting modules depend on your edition and setup. If you need them, we first check what is available on your plan.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Будут ли сотрудники видеть все данные?",
+      "question_kk": "Қызметкерлер барлық деректерді көре ме?",
+      "question_en": "Will employees see all the data?",
+      "answer_ru": "Нет. Права доступа настраиваются по отделам и ролям, поэтому каждый видит только свою часть данных.",
+      "answer_kk": "Жоқ. Қолжетімділік құқықтары бөлімдер мен рөлдер бойынша баптанады, сондықтан әркім тек өз бөлігін көреді.",
+      "answer_en": "No. Access rights are set by department and role, so each person sees only their part of the data.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кому принадлежат данные в Bitrix24?",
+      "question_kk": "Bitrix24-тегі деректер кімге тиесілі?",
+      "question_en": "Who owns the data in Bitrix24?",
+      "answer_ru": "Данные хранятся в вашем портале Bitrix24, а администратор портала — вы. Права администратора передаём при сдаче.",
+      "answer_kk": "Деректер сіздің Bitrix24 порталыңызда сақталады, ал портал әкімшісі — сіз. Әкімші құқықтарын тапсыру кезінде береміз.",
+      "answer_en": "The data is stored in your Bitrix24 portal, and you are its administrator. We hand over administrator rights at handover.",
+      "sort": 6
     }
   ]
 }

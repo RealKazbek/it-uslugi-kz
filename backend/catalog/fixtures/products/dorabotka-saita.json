@@ -90,6 +90,42 @@
       "answer_kk": "Иә, тапсырмалар тізімін түгел бағалаймыз, бірге әдетте бөлек-бөлек тапсырғаннан арзанырақ болады. Мерзім тармақтар санына байланысты.",
       "answer_en": "Yes. We estimate the whole list, and doing them together is usually cheaper than separately. The timeline depends on the number of items.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли добавить функцию, которую я видел на другом сайте?",
+      "question_kk": "Басқа сайтта көрген функцияны қосуға бола ма?",
+      "question_en": "Can I add a feature I saw on another site?",
+      "answer_ru": "Можно обсудить. Для этого нужно понять, как она работает и какие у неё ограничения. Пришлите ссылку, и мы оценим задачу.",
+      "answer_kk": "Талқылауға болады. Ол үшін оның қалай жұмыс істейтінін және шектеулерін түсіну керек. Сілтемені жіберіңіз, біз тапсырманы бағалаймыз.",
+      "answer_en": "We can discuss it. For that we need to understand how it works and what its limits are. Send us the link and we will assess the task.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что если сайт сделан на закрытом конструкторе?",
+      "question_kk": "Сайт жабық конструкторда жасалған болса не болады?",
+      "question_en": "What if the site is built on a closed builder?",
+      "answer_ru": "Тогда доработки могут быть ограничены. Сначала проверим, есть ли доступ к коду или нужные возможности платформы.",
+      "answer_kk": "Онда түзетулер шектеулі болуы мүмкін. Алдымен кодқа қолжетімділік немесе платформаның қажетті мүмкіндіктері бар-жоғын тексереміз.",
+      "answer_en": "Then the changes may be limited. First we check whether we have access to the code or the platform's features we need.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Будет ли сайт работать во время доработки?",
+      "question_kk": "Түзету кезінде сайт жұмыс істей ме?",
+      "question_en": "Will the site keep working during the changes?",
+      "answer_ru": "Работаем на копии и выкатываем изменения на рабочий сайт после вашей проверки, поэтому посетители обычно ничего не замечают.",
+      "answer_kk": "Жұмысты көшірмеде жасаймыз, өзгерістерді сіз тексергеннен кейін жұмыс сайтына шығарамыз, сондықтан келушілер әдетте байқамайды.",
+      "answer_en": "We work on a copy and roll changes out to the live site after your review, so visitors usually notice nothing.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что я получаю после сдачи, кроме кода?",
+      "question_kk": "Тапсырғаннан кейін кодтан бөлек не аласыз?",
+      "question_en": "What do I get after handover, besides the code?",
+      "answer_ru": "Копию сайта до изменений, короткую инструкцию по новой функции и список мест, где что настроено, чтобы вы могли управлять сайтом сами.",
+      "answer_kk": "Өзгерістерге дейінгі сайт көшірмесін, жаңа функция туралы қысқа нұсқаулықты және не қайда баптанғаны туралы тізімді аласыз, сайтты өзіңіз басқаруға болады.",
+      "answer_en": "A copy of the site from before the changes, a short guide to the new feature, and a list of where everything is configured, so you can manage the site yourself.",
+      "sort": 6
     }
   ]
 }

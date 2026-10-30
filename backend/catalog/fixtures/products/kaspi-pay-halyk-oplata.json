@@ -94,6 +94,42 @@
       "answer_kk": "Уақыт өткен сайын төлемдерді банк үзіндісімен салыстырған дұрыс, бұл қарапайым тексеру. Салыстыру нұсқаулығын іске қосқанда береміз. Төлем логикасындағы өзгерістерді бөлек талқылаймыз.",
       "answer_en": "It is worth checking payments against your bank statement from time to time, a simple check. We hand over the reconciliation guide at launch. Changes to the payment logic are discussed separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Какие данные нужны, чтобы подключить оплату?",
+      "question_kk": "Төлемді қосу үшін қандай деректер керек?",
+      "question_en": "What details are needed to connect payments?",
+      "answer_ru": "Реквизиты и тестовые ключи от банка или платёжной системы, а также доступ к хостингу сайта. Ключи храним в настройках сервера, а не в коде.",
+      "answer_kk": "Банк немесе төлем жүйесінен реквизиттер мен сынақ кілттері, сондай-ақ сайттың хостингіне қолжетімділік керек. Кілттерді кодта емес, сервер баптауларында сақтаймыз.",
+      "answer_en": "Bank or payment system details and test keys, plus access to the site's hosting. We keep the keys in server settings, not in the code.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли принимать и Kaspi Pay, и Halyk одновременно?",
+      "question_kk": "Kaspi Pay және Halyk-ті бір уақытта қабылдауға бола ма?",
+      "question_en": "Can I accept both Kaspi Pay and Halyk at the same time?",
+      "answer_ru": "Да, оба способа подключаются на одном сайте, и клиент выбирает удобный. Набор способов согласуете вы с банками.",
+      "answer_kk": "Иә, екі тәсілді де бір сайтқа қосуға болады, ал клиент ыңғайлысын таңдайды. Тәсілдер тізімін банктермен сіз келісесіз.",
+      "answer_en": "Yes, both methods connect to one site, and the customer chooses the one they prefer. You agree the list of methods with the banks.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто хранит данные карт клиентов?",
+      "question_kk": "Клиенттердің карта деректерін кім сақтайды?",
+      "question_en": "Who stores customers' card details?",
+      "answer_ru": "Данные карты клиент вводит на странице платёжной системы, на сайте они не хранятся. Мы сохраняем только номер заказа и статус оплаты.",
+      "answer_kk": "Карта деректерін клиент төлем жүйесінің бетінде енгізеді, сайтта олар сақталмайды. Біз тек тапсырыс нөмірін және төлем мәртебесін сақтаймыз.",
+      "answer_en": "The customer enters card details on the payment system's page, and they are not stored on the site. We only keep the order number and payment status.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что если клиент закрыл страницу оплаты до конца?",
+      "question_kk": "Клиент төлем бетін соңына дейін жаппай жапса не болады?",
+      "question_en": "What if a customer closes the payment page before finishing?",
+      "answer_ru": "Заказ остаётся в статусе «ожидает оплаты», и клиент может вернуться и оплатить. Если деньги списались, а сайт не получил подтверждение, сверяем статус по журналу платежей.",
+      "answer_kk": "Тапсырыс «төлем күтілуде» мәртебесінде қалады, ал клиент қайтып келіп төлей алады. Ақша шегерілсе, бірақ сайт растауды алмаса, төлем журналы бойынша мәртебені тексереміз.",
+      "answer_en": "The order stays in 'awaiting payment' and the customer can come back and pay. If money was debited but the site got no confirmation, we check the status against the payment log.",
+      "sort": 6
     }
   ]
 }

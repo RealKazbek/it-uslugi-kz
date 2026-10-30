@@ -103,6 +103,33 @@
       "answer_kk": "Мерзім арналар мен қызметтер санына байланысты, шамасы карточкада көрсетілген. Іске қосқаннан кейін қолжетімділікті және нұсқаулықты береміз, қызметтер мен бағаларды білім қорында қалай өзгерту керектігін көрсетеміз. Жаңа тілдер мен сценарийлер бөлек бағаланады.",
       "answer_en": "The timing depends on channels and the number of services; the range is on the card. After launch we hand over access and a guide, and show how to change services and prices in the knowledge base. New languages and scenarios are estimated separately.",
       "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли клиенту тестировать бота?",
+      "question_kk": "Клиент ботты тестілеуі керек пе?",
+      "question_en": "Does the client need to test the bot?",
+      "answer_ru": "Да, несколько сессий тестирования на ваших записях, где вы отмечаете ошибки. Это ускоряет точную настройку.",
+      "answer_kk": "Иә, сіздің жазбаларыңызда бірнеше тест сессиясы өтеді, онда қателерді белгілейсіз. Бұл дәл баптауды жеделдетеді.",
+      "answer_en": "Yes, a few testing sessions on your own recordings, where you mark the mistakes. This speeds up the precise tuning.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли изменить голос бота?",
+      "question_kk": "Бот дауысын өзгертуге бола ма?",
+      "question_en": "Can the bot's voice be changed?",
+      "answer_ru": "Да, для синтеза выбираем голос из доступных у провайдера. Смена голоса может повлиять на стоимость сервиса.",
+      "answer_kk": "Иә, синтез үшін провайдерде бар дауыстардың біреуін таңдаймыз. Дауысты ауыстыру қызмет құнына әсер етуі мүмкін.",
+      "answer_en": "Yes, for speech synthesis we pick a voice available from the provider. Changing the voice may affect the service cost.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Как бот справляется с шумом на линии?",
+      "question_kk": "Бот желідегі шуды қалай өңдейді?",
+      "question_en": "How does the bot handle line noise?",
+      "answer_ru": "Качество распознавания падает при сильном шуме. Поэтому в тестах смотрим на реальные записи и при необходимости настраиваем порог передачи оператору.",
+      "answer_kk": "Қатты шу болғанда тану сапасы төмендейді. Сондықтан тестте нақты жазбаларға қараймыз және қажет болса операторға беру шегін баптаймыз.",
+      "answer_en": "Recognition quality drops with heavy noise. So in testing we look at real recordings and, if needed, tune the threshold for handing over to an operator.",
+      "sort": 6
     }
   ]
 }

@@ -93,6 +93,42 @@
       "answer_kk": "Толық әрі дәл карточка сізді табуға көмектеседі, бірақ шығарылым тәртібін сервис алгоритмдері, пікірлер және клиентке дейінгі арақашықтық анықтайды. Нақты орынға уәде бере алмаймыз.",
       "answer_en": "A complete and accurate listing helps people find you, but result order is set by the services' algorithms, reviews and distance to the customer. We cannot promise a specific position.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно от меня для карточки?",
+      "question_kk": "Карточка үшін менен не керек?",
+      "question_en": "What do you need from me for the listing?",
+      "answer_ru": "Название, адрес, телефон, график, категории услуг и фото, которые разрешаете использовать. Понадобится и доступ к почте или телефону для подтверждения прав.",
+      "answer_kk": "Атауы, мекенжайы, телефоны, жұмыс кестесі, қызмет санаттары және пайдалануға рұқсат беретін фотолар керек. Құқықты растау үшін поштаға немесе телефонға қолжетімділік те қажет.",
+      "answer_en": "The name, address, phone, opening hours, service categories and photos you allow us to use. You also need access to an email or phone to confirm ownership.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если карточка уже есть, но её создал кто-то другой?",
+      "question_kk": "Карточка бұрыннан бар болса, бірақ оны басқа біреу жасаған болса не болады?",
+      "question_en": "What if a listing already exists but someone else created it?",
+      "answer_ru": "Подаём заявку на управление карточкой, и подтверждение приходит владельцу. Пока заявку не одобрили, данные в карточке не меняем.",
+      "answer_kk": "Карточканы басқаруға өтініш береміз, растау иесіне келеді. Өтініш мақұлданғанша карточкадағы деректерді өзгертпейміз.",
+      "answer_en": "We submit a request to manage the listing, and confirmation goes to the owner. Until the request is approved, we do not change the listing data.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто будет владеть карточкой после работы?",
+      "question_kk": "Жұмыстан кейін карточканың иесі кім болады?",
+      "question_en": "Who will own the listing after the work is done?",
+      "answer_ru": "Карточка оформляется на вас и привязывается к вашим аккаунтам 2GIS и Google. Доступ к управлению остаётся у вас, а инструкцию, как его добавить, передаём.",
+      "answer_kk": "Карточка сізге рәсімделеді және 2GIS пен Google-дағы аккаунттарыңызға байланады. Басқару қолжетімділігі сізде қалады, ал оны қалай қосу керектігін нұсқаумен бірге береміз.",
+      "answer_en": "The listing is registered in your name and linked to your 2GIS and Google accounts. Management access stays with you, and we pass on instructions for adding it.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Нужно ли обновлять карточку после публикации?",
+      "question_kk": "Жарияланғаннан кейін карточканы жаңарту керек пе?",
+      "question_en": "Does the listing need updating after it goes live?",
+      "answer_ru": "Да, часы работы, телефоны и фото нужно поддерживать в актуальном виде, иначе данные устареют. В инструкции написано, что и как менять.",
+      "answer_kk": "Иә, жұмыс уақыты, телефондар және фотолар өзекті болуы керек, әйтпесе деректер ескіреді. Нұсқауда нені және қалай өзгерту керектігі жазылған.",
+      "answer_en": "Yes, opening hours, phones and photos must be kept current, otherwise the data gets out of date. The instructions explain what to change and how.",
+      "sort": 6
     }
   ]
 }

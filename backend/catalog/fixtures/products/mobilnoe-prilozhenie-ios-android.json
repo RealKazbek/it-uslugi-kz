@@ -103,6 +103,33 @@
       "answer_kk": "Бастапқы кодты және нұсқаулықты тапсырамыз, жаңартуларды қалай шығаруды көрсетеміз. Қолдау, App Store мен Google Play талаптарына байланысты жаңартулар немесе жаңа функциялар керек болса, оны бөлек келісеміз.",
       "answer_en": "We hand over the source code and a guide, and show how to release updates. Support, updates required by App Store or Google Play rules, or new features are agreed separately.",
       "sort": 3
+    },
+    {
+      "question_ru": "Сколько занимает проверка приложения в магазинах?",
+      "question_kk": "Қолданбаны дүкендерде тексеру қанша уақыт алады?",
+      "question_en": "How long does store review take?",
+      "answer_ru": "Проверку проводят Apple и Google, и их сроки от нас не зависят. Иногда магазин просит поправить описание или запрос доступа, поэтому в план работ мы закладываем запас на этот этап.",
+      "answer_kk": "Тексеруді Apple мен Google жүргізеді, олардың мерзімі бізге тәуелсіз. Кейде дүкен сипаттаманы немесе рұқсат сұрауын түзетуді сұрайды, сондықтан жұмыс жоспарына осы кезеңге қор уақыт қосамыз.",
+      "answer_en": "Apple and Google run the review, and their timing does not depend on us. Sometimes a store asks to fix the description or permission requests, so we build a time buffer for this stage into the plan.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кому будет принадлежать исходный код?",
+      "question_kk": "Бастапқы код кімге тиесілі болады?",
+      "question_en": "Who owns the source code?",
+      "answer_ru": "Исходный код передаём вам полностью вместе с инструкцией по сборке, поэтому его можно поручить и другой команде. Публикация идёт от ваших аккаунтов в магазинах.",
+      "answer_kk": "Бастапқы кодты құрастыру нұсқаулығымен бірге толық тапсырамыз, сондықтан оны басқа командаға да беруге болады. Жариялау дүкендегі сіздің аккаунттарыңыздан жүреді.",
+      "answer_en": "We hand over the full source code with build instructions, so another team can take it over too. Publishing goes out from your own store accounts.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли подключить приложение к уже работающему сайту?",
+      "question_kk": "Қолданбаны қазірдің өзінде жұмыс істеп тұрған сайтқа қосуға бола ма?",
+      "question_en": "Can the app connect to a website that is already running?",
+      "answer_ru": "Да, если у сайта есть API или серверная часть, приложение использует те же данные. Если API нет, сначала согласуем, какие разделы можно открыть без доработки сервера.",
+      "answer_kk": "Иә, сайтта API немесе серверлік бөлік болса, қолданба сол деректерді пайдаланады. API жоқ болса, алдымен серверді түзетпей қай бөлімдерді ашуға болатынын келісеміз.",
+      "answer_en": "Yes, if the site has an API or server side, the app uses the same data. If there is no API, we first agree which sections can open without changing the server.",
+      "sort": 6
     }
   ]
 }

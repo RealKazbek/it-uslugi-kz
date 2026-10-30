@@ -103,6 +103,33 @@
       "answer_kk": "Instagram бизнес-аккаунтына және байланысқан Facebook бетіне қолжетімділік, жиі сұрақтар тізімі және сәлемдесу мәтіні керек. Қосылу мен құқықтарды тексеруге көмектесеміз, ал құқықтарды Meta береді.",
       "answer_en": "Access to your Instagram business account and linked Facebook page, a list of common questions and a greeting text. We help with the connection and permission checks, while Meta itself grants the permissions.",
       "sort": 3
+    },
+    {
+      "question_ru": "Можно ли подключить бота к нескольким аккаунтам или страницам?",
+      "question_kk": "Ботты бірнеше аккаунтқа немесе бетке қосуға бола ма?",
+      "question_en": "Can the bot be connected to several accounts or pages?",
+      "answer_ru": "Да, но каждый аккаунт подключается отдельно через официальный API и требует своих разрешений.",
+      "answer_kk": "Иә, бірақ әр аккаунт ресми API арқылы жеке қосылады және өз рұқсаттарын талап етеді.",
+      "answer_en": "Yes, but each account is connected separately through the official API and needs its own permissions.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Будет ли бот отвечать на комментарии?",
+      "question_kk": "Бот пікірлерге жауап бере ме?",
+      "question_en": "Will the bot reply to comments?",
+      "answer_ru": "Через этого бота комментарии не обрабатываются. Для них нужны отдельные правила, которые мы обсуждаем отдельно.",
+      "answer_kk": "Бұл бот пікірлерді өңдемейді. Оларға бөлек ережелер керек, оларды бөлек талқылаймыз.",
+      "answer_en": "Comments are not handled by this bot. They need separate rules, which we discuss separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Сохраняется ли история переписки?",
+      "question_kk": "Жазысу тарихы сақтала ма?",
+      "question_en": "Is the conversation history kept?",
+      "answer_ru": "История диалога передаётся менеджеру при переводе. Хранение на нашей стороне согласуем с вами, без лишних личных данных.",
+      "answer_kk": "Диалог тарихы менеджерге ауысқанда беріледі. Біздің тарапта сақтауды сізбен келісеміз, артық жеке деректерсіз.",
+      "answer_en": "The dialog history is passed to the manager on handover. Storage on our side is agreed with you, without unnecessary personal data.",
+      "sort": 6
     }
   ]
 }

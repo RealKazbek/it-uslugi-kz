@@ -94,6 +94,42 @@
       "answer_kk": "Бұл қорғаудың қалыпты бөлігі. Алдын ала осал жерлерді табуға және оларды адал түсіндіруге көмектесеміз: не жасалды, нені жақсартуға болатыны және неге. Жобаны түзетіп, оның нәтижесі үшін жауапты студент болады.",
       "answer_en": "This is a normal part of a defence. We help find weak spots in advance and explain them honestly: what has been done, what could be better and why. The student corrects the project and answers for its outcome.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что делать, если в проекте есть спорное решение?",
+      "question_kk": "Жобада дау туғызатын шешім болса, не істеу керек?",
+      "question_en": "What if my project contains a debatable decision?",
+      "answer_ru": "Разбираем, почему выбрано именно это решение, и тренируем объяснить его аргументами, а не оправдываться. Формулировки и выводы вы подбираете сами.",
+      "answer_kk": "Неге дәл осы шешім таңдалғанын талдаймыз және оны ақтаудан гөрі дәлелдермен түсіндіруді жаттықтырамыз. Тұжырымдар мен сөздерді өзіңіз таңдайсыз.",
+      "answer_en": "We go through why this decision was chosen and practise explaining it with arguments rather than apologising. You choose the wording and conclusions yourself.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли прислать презентацию заранее?",
+      "question_kk": "Презентацияны алдын ала жіберуге бола ма?",
+      "question_en": "Can I send my slides in advance?",
+      "answer_ru": "Да, пришлите слайды и текст до занятия, и мы заранее отметим места, где логика не сходится. Исправлять слайды вы будете сами.",
+      "answer_kk": "Иә, сабаққа дейін слайдтар мен мәтінді жіберіңіз, сонда логика үйлеспейтін жерлерді алдын ала белгілейміз. Слайдтарды өзіңіз түзетесіз.",
+      "answer_en": "Yes, send the slides and text before the session and we will mark where the logic does not flow. You make the changes to the slides yourself.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как готовиться к вопросу, на который я не знаю ответа?",
+      "question_kk": "Жауабын білмейтін сұраққа қалай дайындалу керек?",
+      "question_en": "How do I prepare for a question I cannot answer?",
+      "answer_ru": "Тренируем честный ответ: что уже известно, как бы вы проверили остальное и на что это опирается. Придумывать ответ не нужно, и мы помогаем это проговорить.",
+      "answer_kk": "Адал жауапты жаттықтырамыз: не белгілі, қалғанын қалай тексерер едіңіз және бұл нені негізге алады. Жауапты ойлап табудың қажеті жоқ, біз мұны айтуға көмектесеміз.",
+      "answer_en": "We practise an honest answer: what is already known, how you would check the rest and what it rests on. You do not need to invent an answer, and we help you say this clearly.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Какие правила защиты действуют в моём вузе?",
+      "question_kk": "Менің жоғары оқу орнымда қорғау ережелері қандай?",
+      "question_en": "What defence rules apply at my university?",
+      "answer_ru": "Порядок защиты отличается у вузов и кафедр, поэтому уточните у руководителя время выступления и формат вопросов. Тренировку подстраиваем под эти рамки.",
+      "answer_kk": "Қорғау тәртібі жоғары оқу орындары мен кафедраларда әртүрлі, сондықтан жетекшіңізден сөз уақыты мен сұрақтар форматын нақтылаңыз. Жаттығуды осы шеңберге бейімдейміз.",
+      "answer_en": "The defence procedure differs between universities and departments, so confirm the speaking time and question format with your supervisor. We adapt the practice to those limits.",
+      "sort": 6
     }
   ]
 }

@@ -90,6 +90,42 @@
       "answer_kk": "Жүктеуге дейін құрылымды тексеріп, кабинет көрсететін пішім қателерін түзетеміз. Тауарлардың өздеріне қатысты бас тартулар, мысалы санат немесе модерация бойынша, Kaspi жағында шешіледі.",
       "answer_en": "We check the structure before uploading and fix any format errors the cabinet reports. Rejections about the products themselves, such as category or moderation, are settled on the Kaspi side.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли мне самому что-то менять в файле?",
+      "question_kk": "Файлға өзім бірдеңе өзгертуім керек пе?",
+      "question_en": "Do I need to change anything in the file myself?",
+      "answer_ru": "Нет, файл собирается автоматически из вашего источника. Товары и цены достаточно менять в таблице или базе, которые мы подключили.",
+      "answer_kk": "Жоқ, файл сіздің дерек көзіңізден автоматты түрде жиналады. Тауарлар мен бағаларды біз қосқан кестеде немесе базада өзгерту жеткілікті.",
+      "answer_en": "No, the file is built automatically from your source. Products and prices only need changing in the table or database we connected.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Какие поля Kaspi обязательны?",
+      "question_kk": "Kaspi-де қандай өрістер міндетті?",
+      "question_en": "Which Kaspi fields are mandatory?",
+      "answer_ru": "Сопоставляем ваши колонки с полями, которые требует Kaspi, например артикулом, названием, ценой и наличием. Перед первой загрузкой проверяем, что обязательные поля не пустые.",
+      "answer_kk": "Біз сіздің бағандарыңызды Kaspi талап ететін өрістермен салыстырамыз, мысалы артикул, атау, баға және қолда бар саны. Алғашқы жүктеу алдында міндетті өрістер бос емес екенін тексереміз.",
+      "answer_en": "We match your columns to the fields Kaspi requires, such as SKU, name, price and availability. Before the first upload we check that required fields are not empty.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли вести несколько магазинов из одного файла?",
+      "question_kk": "Бір файлдан бірнеше дүкенді жүргізуге бола ма?",
+      "question_en": "Can several shops be run from one file?",
+      "answer_ru": "Сначала уточняем, сколько магазинов в вашем кабинете Kaspi, и делаем файл под каждый, если это требуется.",
+      "answer_kk": "Алдымен Kaspi кабинетіңізде неше дүкен бар екенін нақтылаймыз, қажет болса әр дүкенге жеке файл жасаймыз.",
+      "answer_en": "First we confirm how many shops are in your Kaspi cabinet, and make a file for each one if required.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто владеет скриптом и ссылкой на файл?",
+      "question_kk": "Скрипт пен файлға сілтемеге кім ие?",
+      "question_en": "Who owns the script and the file link?",
+      "answer_ru": "Скрипт и инструкция передаются вам. Ссылка на файл остаётся на вашем хостинге или ресурсе, а доступ к кабинету Kaspi есть только у вас.",
+      "answer_kk": "Скрипт пен нұсқаулық сізге беріледі. Файлға сілтеме сіздің хостингіңізде немесе ресурсіңізде қалады, ал Kaspi кабинетіне қолжетімділік тек сізде.",
+      "answer_en": "The script and instructions are handed over to you. The file link stays on your hosting or resource, and only you have access to the Kaspi cabinet.",
+      "sort": 6
     }
   ]
 }

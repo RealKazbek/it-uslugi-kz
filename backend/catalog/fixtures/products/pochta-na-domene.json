@@ -90,6 +90,42 @@
       "answer_kk": "Иә. Жәшікті iPhone немесе Android-тағы пошта қосымшасына қосып, хаттардың келіп, жіберілетінін тексереміз.",
       "answer_en": "Yes. We add the mailbox to the mail app on your iPhone or Android and check that messages arrive and send correctly.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько ждать, пока заработают DNS-записи?",
+      "question_kk": "DNS-жазбалар қанша уақытта жұмыс істейді?",
+      "question_en": "How long until the DNS records start working?",
+      "answer_ru": "Обычно от нескольких минут до нескольких часов, а у некоторых регистраторов дольше. Тестовую отправку делаем после того, как записи подтвердились.",
+      "answer_kk": "Әдетте бірнеше минуттан бірнеше сағатқа дейін, кейбір тіркеушілерде ұзағырақ. Сынақ жіберуді жазбалар расталған соң жасаймыз.",
+      "answer_en": "Usually from a few minutes to a few hours, and longer with some registrars. We send the test email once the records are confirmed.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно от меня, чтобы подключить домен?",
+      "question_kk": "Доменді қосу үшін менен не керек?",
+      "question_en": "What do you need from me to connect the domain?",
+      "answer_ru": "Доступ к панели регистратора домена, где меняются DNS-записи, и список людей, которым нужны ящики. Пароли от ящиков вы получаете сами и можете сменить их сразу.",
+      "answer_kk": "Домен тіркеушісінің панеліне қолжетімділік, онда DNS-жазбалары өзгереді, және поштаға қажет адамдардың тізімі. Пошта құпия сөздерін өзіңіз аласыз және оларды бірден ауыстыра аласыз.",
+      "answer_en": "Access to your domain registrar's panel, where the DNS records are changed, and a list of the people who need mailboxes. You receive the mailbox passwords yourself and can change them right away.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли добавить ящики позже?",
+      "question_kk": "Поштаны кейін қосуға бола ма?",
+      "question_en": "Can more mailboxes be added later?",
+      "answer_ru": "Да, в пределах тарифа почтового сервиса, и новые ящики создаются по той же схеме. Сколько ящиков входит в настройку, уточняем до начала работ.",
+      "answer_kk": "Иә, пошта қызметінің тарифі шегінде, жаңа пошта дәл осындай схема бойынша жасалады. Баптауға қанша пошта кіретінін жұмыс басталар алдында нақтылаймыз.",
+      "answer_en": "Yes, within the mail service plan, and new mailboxes are created the same way. We confirm how many mailboxes the setup includes before we start.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Будут ли письма с сайта, например из формы заявки, уходить с нового адреса?",
+      "question_kk": "Сайттан, мысалы өтініш формасынан келген хаттар жаңа мекенжайдан жіберіле ме?",
+      "question_en": "Will emails from the website, such as a contact form, go out from the new address?",
+      "answer_ru": "Не автоматически: отправка с сайта требует отдельной настройки, если она ещё не подключена. Мы можем настроить её так, чтобы письма уходили с вашего домена.",
+      "answer_kk": "Автоматты түрде емес: сайттан жіберу бөлек баптауды талап етеді, егер ол әлі қосылмаған болса. Хаттар сіздің доменіңізден жіберілетіндей баптай аламыз.",
+      "answer_en": "Not automatically: sending from the site needs separate setup if it is not connected yet. We can set it up so emails go out from your domain.",
+      "sort": 6
     }
   ],
   "is_onsite": false

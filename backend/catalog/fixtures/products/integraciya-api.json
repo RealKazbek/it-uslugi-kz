@@ -93,6 +93,42 @@
       "answer_kk": "Бұл болып тұрады, сонда интеграцияны түзету керек. Тапсырғаннан кейінгі алғашқы айда шағын түзетулерді қосымша ақысыз жасаймыз, одан әрі келісім бойынша.",
       "answer_en": "It happens, and the integration then needs adjusting. Small fixes during the first month after delivery are free, and after that we agree separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно от меня, чтобы начать?",
+      "question_kk": "Бастау үшін менен не керек?",
+      "question_en": "What do you need from me to start?",
+      "answer_ru": "Доступ к обоим сервисам или API-ключи, которые вы можете выдать, и примеры данных, которые должны передаваться. Без доступа к API проверку начать не можем.",
+      "answer_kk": "Екі сервиске қолжетімділік немесе сіз бере алатын API-кілттер және тасымалданатын деректердің мысалдары керек. API-ға қолжетімділіксіз тексеруді бастай алмаймыз.",
+      "answer_en": "Access to both services or API keys you can issue, plus examples of the data to move between them. Without API access we cannot begin the check.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что если один из сервисов ограничивает число запросов?",
+      "question_kk": "Бір сервис сұраныс санын шектесе не болады?",
+      "question_en": "What if one service limits the number of requests?",
+      "answer_ru": "Скрипт учитывает лимиты, делает паузы и повторяет запрос при ошибке. В журнале видно, что было задержано. Большие объёмы согласуем заранее.",
+      "answer_kk": "Скрипт лимиттерді ескереді, үзіліс жасайды және қате болғанда сұрауды қайталайды. Журналда не кешіктірілгені көрінеді. Үлкен көлемді алдын ала келісеміз.",
+      "answer_en": "The script respects limits, pauses between calls and retries on errors. The log shows what was delayed. Large volumes are agreed in advance.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто владеет кодом и доступами после сдачи?",
+      "question_kk": "Тапсырғаннан кейін кодқа және қолжетімділікке кім ие болады?",
+      "question_en": "Who owns the code and access after handover?",
+      "answer_ru": "Код и инструкция передаются вам, ключи храните в настройках своего сервера. Учётные записи сервисов остаются вашими.",
+      "answer_kk": "Код пен нұсқаулық сізге беріледі, кілттерді өз серверіңіздің баптауларында сақтаңыз. Сервистердің есептік жазбалары сіздікі болып қалады.",
+      "answer_en": "The code and instructions are handed over to you. Keep the keys in your server settings. The service accounts remain yours.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить третий сервис позже?",
+      "question_kk": "Үшінші сервисті кейінірек қосуға бола ма?",
+      "question_en": "Can a third service be added later?",
+      "answer_ru": "Да, если у него есть API. Схема обмена и проверки повторяется, но новый источник нужно изучить, поэтому объём оцениваем отдельно.",
+      "answer_kk": "Иә, егер оның API-ы болса. Алмасу мен тексеру сызбасы қайталанады, бірақ жаңа көзді зерттеу керек, сондықтан көлемді бөлек бағалаймыз.",
+      "answer_en": "Yes, if it has an API. The exchange and checking scheme is reused, but the new source must be studied, so the scope is estimated separately.",
+      "sort": 6
     }
   ]
 }

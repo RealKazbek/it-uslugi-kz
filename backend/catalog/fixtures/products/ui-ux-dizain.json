@@ -94,6 +94,42 @@
       "answer_kk": "Бизнес пен мақсаттардың сипаттамасы, пайдаланушы жасауы керек негізгі әрекеттердің тізімі және логотип немесе фирмалық түстер, егер олар бар болса. Ұнайтын 2-3 сайтты қарап, неге ұнағанын айтсаңыз да пайдалы.",
       "answer_en": "A description of the business and goals, a list of the main actions the user should take, and the logo or brand colours if you already have them. It also helps to look at 2-3 sites you like and explain what exactly you like about them.",
       "sort": 2
+    },
+    {
+      "question_ru": "Кому принадлежат готовые макеты и файлы?",
+      "question_kk": "Дайын макеттер мен файлдарды кім иеленеді?",
+      "question_en": "Who owns the finished mockups and files?",
+      "answer_ru": "Исходные файлы и макеты передаём вам после оплаты работы, и они остаются вашими для дальнейшей разработки. Шрифты и библиотеку иконок проверяем на лицензию.",
+      "answer_kk": "Бастапқы файлдар мен макеттерді жұмыс төленгеннен кейін сізге береміз, олар әрі қарай әзірлеу үшін сізде қалады. Қаріптер мен белгішелер кітапханасын лицензияға тексереміз.",
+      "answer_en": "We hand over the source files and mockups after payment, and they remain yours for further development. We check the fonts and icon libraries for licensing.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли, чтобы разработчик был выбран заранее?",
+      "question_kk": "Әзірлеуші бұрыннан таңдалған болуы керек пе?",
+      "question_en": "Does a developer need to be chosen in advance?",
+      "answer_ru": "Нет, но если разработчик уже есть, заранее согласуем с ним формат передачи и названия компонентов. Если разработчика нет, можем обсудить его подбор отдельно.",
+      "answer_kk": "Жоқ, бірақ әзірлеуші бар болса, оған беру форматы мен компоненттердің атауларын алдын ала келісеміз. Әзірлеуші болмаса, оны таңдауды бөлек талқылауға болады.",
+      "answer_en": "No, but if a developer is already in place, we agree the handover format and component names with them in advance. If you do not have one, we can discuss choosing one separately.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли сразу сделать дизайн с тёмной темой?",
+      "question_kk": "Бірден қараңғы тақырыпқа арналған дизайн жасауға бола ма?",
+      "question_en": "Can the design include a dark theme right away?",
+      "answer_ru": "Да, тёмная тема входит в набор цветов и компонентов, если обсудить её на старте. Если тёмную тему добавить позже, часть экранов придётся переработать.",
+      "answer_kk": "Иә, қараңғы тақырып түстер мен компоненттер жинағына кіреді, егер оны басында талқыласақ. Кейін қоссақ, экрандардың бір бөлігін қайта жасау керек болады.",
+      "answer_en": "Yes, a dark theme can be part of the colour set and components if discussed at the start. If it is added later, some screens will have to be reworked.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что будет, если после согласования я захочу поменять структуру экранов?",
+      "question_kk": "Келісімнен кейін экрандардың құрылымын өзгерткім келсе, не болады?",
+      "question_en": "What if I want to change the screen structure after approval?",
+      "answer_ru": "Небольшие правки в рамках согласованной структуры входят в работу по раундам. Если меняется сама логика сценария, это новая задача, и её объём согласуем отдельно.",
+      "answer_kk": "Келісілген құрылым шеңберіндегі шағын түзетулер раундтар бойынша жұмысқа кіреді. Сценарийдің логикасы өзгерсе, бұл жаңа тапсырма және оның көлемін бөлек келісеміз.",
+      "answer_en": "Small edits within the agreed structure are part of the work in rounds. If the scenario logic itself changes, it is a new task and we agree its scope separately.",
+      "sort": 6
     }
   ]
 }

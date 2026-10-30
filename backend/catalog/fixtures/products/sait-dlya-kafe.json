@@ -93,6 +93,42 @@
       "answer_kk": "Мәзір сілтемесін 2GIS және Google Maps карточкаларына қосуға болады, сонда қонақтар өзекті мәзірді ашады. Бұл ыңғайлы, бірақ келушілердің өсуіне кепілдік бермейміз.",
       "answer_en": "You can add the menu link to your 2GIS and Google Maps listings so guests open an up-to-date menu. That is handy, but we do not guarantee more visitors.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что делать, если гость не хочет писать в WhatsApp?",
+      "question_kk": "Қонақ WhatsApp-қа жазғысы келмесе, не істеу керек?",
+      "question_en": "What if a guest does not want to write on WhatsApp?",
+      "answer_ru": "На сайте есть телефон и адрес, поэтому заказ можно продиктовать по звонку. Кнопку WhatsApp можно не ставить, если она вам не нужна.",
+      "answer_kk": "Сайтта телефон пен мекенжай бар, сондықтан тапсырысты қоңырау арқылы айтуға болады. WhatsApp түймесі керек болмаса, оны қоймауға да болады.",
+      "answer_en": "The site shows a phone number and address, so the order can also be given by phone. The WhatsApp button can be left out if you do not need it.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужна ли онлайн-оплата при заказе?",
+      "question_kk": "Тапсырыс кезінде онлайн төлем керек пе?",
+      "question_en": "Is online payment needed when ordering?",
+      "answer_ru": "На первом этапе нет: заказ уходит в WhatsApp, а оплата принимается так же, как сейчас у заведения. Онлайн-оплату можно подключить позже отдельно.",
+      "answer_kk": "Бірінші кезеңде жоқ: тапсырыс WhatsApp-қа жетеді, ал төлем мекеме қазіргідей қабылданады. Онлайн төлемді кейінірек бөлек қосуға болады.",
+      "answer_en": "Not at the first stage: the order goes to WhatsApp, and payment is taken the same way the cafe does now. Online payment can be added later as a separate step.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что нужно от заведения для запуска?",
+      "question_kk": "Іске қосу үшін мекемеден не керек?",
+      "question_en": "What do we need from the cafe for launch?",
+      "answer_ru": "Меню с ценами и составом, фото блюд, часы работы, зоны доставки и ссылки на Instagram и 2GIS. Фото и описания даёте вы, а сайт собираем мы.",
+      "answer_kk": "Бағасы мен құрамы бар мәзір, тағамдардың фотосы, жұмыс уақыты, жеткізу аймақтары және Instagram пен 2GIS сілтемелері. Фото мен сипаттаманы сіз бересіз, сайтты біз жинаймыз.",
+      "answer_en": "The menu with prices and ingredients, dish photos, opening hours, delivery zones and links to Instagram and 2GIS. You provide the photos and descriptions, and we build the site.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли сделать QR-код на столики?",
+      "question_kk": "Үстелдерге QR-код жасауға бола ма?",
+      "question_en": "Can we make a QR code for the tables?",
+      "answer_ru": "Да, QR-код ведёт на страницу меню сайта, и его можно напечатать для столиков или кассы. Если адрес сайта изменится, сделаем новый код.",
+      "answer_kk": "Иә, QR-код сайттың мәзір бетіне апарады, оны үстелдерге немесе кассаға басып қоюға болады. Сайт мекенжайы өзгерсе, жаңа код жасаймыз.",
+      "answer_en": "Yes, the QR code leads to the site's menu page, and it can be printed for the tables or the counter. If the site address changes, we will make a new code.",
+      "sort": 6
     }
   ]
 }

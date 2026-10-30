@@ -91,6 +91,42 @@
       "answer_kk": "Контейнерлер Docker орнатылған кез келген серверде, мысалы VPS-те жұмыс істейді. Кейбір ортақ хостингтер Docker-ді қолдамайды, сонда жобаны VPS-те іске қосқан оңай. Жұмыс алдында сіздің нұсқаңыз жарай ма, соны ашық айтамыз.",
       "answer_en": "Containers run on any server with Docker, for example a VPS. Some shared hosting plans do not support Docker, and then it is easier to run the project on a VPS. Before we start, we will honestly say whether your option works.",
       "sort": 2
+    },
+    {
+      "question_ru": "Будет ли проект работать на Windows или macOS у разработчика?",
+      "question_kk": "Жоба Windows немесе macOS-та жұмыс істей ме?",
+      "question_en": "Will the project run on a developer's Windows or macOS machine?",
+      "answer_ru": "Да, Docker Desktop работает на этих системах. На Windows производительность может быть ниже, поэтому запуск проверяем на вашей машине.",
+      "answer_kk": "Иә, Docker Desktop осы жүйелерде жұмыс істейді. Windows-та өнімділік төмен болуы мүмкін, сондықтан іске қосуды сіздің компьютерде тексереміз.",
+      "answer_en": "Yes, Docker Desktop runs on these systems. Performance on Windows can be lower, so we verify the launch on your machine.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли переписывать проект под контейнеры?",
+      "question_kk": "Жобаны контейнерлерге лайықтап қайта жазу керек пе?",
+      "question_en": "Does the project have to be rewritten for containers?",
+      "answer_ru": "Нет, мы упаковываем проект как есть. Если в коде есть жёсткие пути или настройки, вынесем их в переменные окружения.",
+      "answer_kk": "Жоқ, жобаны бар күйінде ораймыз. Кодта қатаң жолдар немесе баптаулар болса, оларды орта айнымалыларына шығарамыз.",
+      "answer_en": "No, we package the project as it is. If the code has hard-coded paths or settings, we move them into environment variables.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Не потеряются ли данные базы при обновлении контейнера?",
+      "question_kk": "Контейнерді жаңартқанда база деректері жоғалмай ма?",
+      "question_en": "Will the database data be lost when a container is updated?",
+      "answer_ru": "Нет, данные лежат в отдельном томе, поэтому обновление образа их не удаляет. Перед обновлением советуем сделать резервную копию.",
+      "answer_kk": "Жоқ, деректер бөлек томда сақталады, сондықтан образды жаңарту оларды жоймайды. Жаңартар алдында резервтік көшірме жасауды ұсынамыз.",
+      "answer_en": "No, the data lives in a separate volume, so updating the image does not delete it. We still recommend a backup before updating.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли потом добавить сервисы, например очередь или кэш?",
+      "question_kk": "Кейінірек кезек немесе кэш сияқты сервистерді қосуға бола ма?",
+      "question_en": "Can services like a queue or cache be added later?",
+      "answer_ru": "Да, в docker-compose добавляется новый сервис. Если понадобится отдельная работа по его настройке, мы её оценим заранее.",
+      "answer_kk": "Иә, docker-compose файліне жаңа сервис қосылады. Оны баптау үшін бөлек жұмыс қажет болса, оны алдын ала бағалаймыз.",
+      "answer_en": "Yes, a new service is added to docker-compose. If setting it up needs separate work, we will assess it in advance.",
+      "sort": 6
     }
   ]
 }

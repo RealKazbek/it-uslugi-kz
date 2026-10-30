@@ -93,6 +93,42 @@
       "answer_kk": "Толық төлегеннен кейін бастапқы код іске қосу нұсқаулығымен бірге сізге беріледі, оны басқа бағдарламашыларға көрсете аласыз.",
       "answer_en": "After full payment the source code is handed over to you with setup instructions, and you are free to show it to other developers.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько времени занимает разработка первой версии?",
+      "question_kk": "Бірінші нұсқаны әзірлеу неше уақыт алады?",
+      "question_en": "How long does the first version take to build?",
+      "answer_ru": "Срок зависит от числа ролей и сценариев, поэтому оценку даём после разбора процесса. Первую версию с основными функциями делаем поэтапно, показывая промежуточные результаты.",
+      "answer_kk": "Мерзім рөлдер мен сценарийлердің санына байланысты, сондықтан бағалауды процесті талдағаннан кейін береміз. Алғашқы нұсқаны негізгі функцияларымен кезеңдермен жасаймыз, аралық нәтижелерді көрсетеміз.",
+      "answer_en": "The timeline depends on the number of roles and scenarios, so we give an estimate after analysing the process. The first version with core features is built in stages, with interim results shown.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно от меня: тексты, макеты, доступы?",
+      "question_kk": "Менен не керек: мәтіндер, макеттер, қолжетімділік пе?",
+      "question_en": "What do you need from me: texts, designs, access?",
+      "answer_ru": "Нужны описание процесса, список ролей, примеры данных и, по возможности, макеты или образцы экранов. Доступы к вашим таблицам или сервисам согласуем, когда дойдём до их подключения.",
+      "answer_kk": "Үдерістің сипаттамасы, рөлдер тізімі, деректер үлгілері және мүмкіндігінше макеттер немесе экран үлгілері керек. Кестелеріңізге немесе сервистеріңізге қолжетімділікті оларды қосу кезінде келісеміз.",
+      "answer_en": "We need a description of the process, a list of roles, sample data and, if possible, mockups or screen samples. Access to your spreadsheets or services is agreed when we reach their connection.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как хранятся данные пользователей?",
+      "question_kk": "Пайдаланушылардың деректері қалай сақталады?",
+      "question_en": "How is user data stored?",
+      "answer_ru": "Данные хранятся в базе на сервере, оформленном на вас или на ваш аккаунт у хостера. Пароли хранятся в зашифрованном виде, а доступ к базе получаете вы.",
+      "answer_kk": "Деректер сізге немесе хостердегі сіздің аккаунтыңызға рәсімделген серверде, базада сақталады. Құпия сөздер шифрланған түрде сақталады, ал базаға қолжетімділікті сіз аласыз.",
+      "answer_en": "Data is kept in a database on a server registered to you or to your account with the host. Passwords are stored encrypted, and you get access to the database.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Нужна ли техподдержка после сдачи?",
+      "question_kk": "Тапсырғаннан кейін техникалық қолдау керек пе?",
+      "question_en": "Is technical support needed after handover?",
+      "answer_ru": "Короткий гарантийный период обсуждаем при подписании, а дальнейшая поддержка оплачивается по отдельному соглашению. Если вы получили код и инструкцию, систему можно поддерживать и самостоятельно.",
+      "answer_kk": "Қысқа мерзімді кепілдік кезеңін қол қою кезінде талқылаймыз, ал әрі қарайғы қолдау бөлек келісіммен төленеді. Кодты және нұсқаулықты алсаңыз, жүйені өзіңіз де қолдай аласыз.",
+      "answer_en": "A short warranty period is discussed at signing, and further support is paid under a separate agreement. If you receive the code and instructions, you can also maintain the system yourself.",
+      "sort": 6
     }
   ]
 }

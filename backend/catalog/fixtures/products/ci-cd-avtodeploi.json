@@ -94,6 +94,42 @@
       "answer_kk": "GitHub репозиторийіне баптауларды өзгерту құқығымен және шығару үшін серверге қолжетімділік керек. Шығару кілттерін бөлек жасаймыз, ал сіз оларды репозиторий құпияларына қосасыз.",
       "answer_en": "Access to the GitHub repository with the right to change settings, and access to the server for releases. We create the release keys separately, and you add them to the repository secrets.",
       "sort": 2
+    },
+    {
+      "question_ru": "Где хранятся серверные ключи и пароли?",
+      "question_kk": "Сервер кілттері мен құпия сөздер қай жерде сақталады?",
+      "question_en": "Where are the server keys and passwords stored?",
+      "answer_ru": "В секретах репозитория GitHub. Доступы к серверу передаём вам, а в коде и логах их не будет.",
+      "answer_kk": "GitHub репозиторийінің құпияларында. Серверге қолжетімділікті сізге береміз, ал олар кодта да, логтарда да болмайды.",
+      "answer_en": "In the GitHub repository secrets. We hand over server access to you, and it does not appear in the code or logs.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Нужно ли мне знать Git, чтобы пользоваться пайплайном?",
+      "question_kk": "Пайплайнды пайдалану үшін Git білу керек пе?",
+      "question_en": "Do I need to know Git to use the pipeline?",
+      "answer_ru": "Базово да: релиз запускается обычным push или кнопкой в GitHub. Мы описываем это в инструкции для команды.",
+      "answer_kk": "Негізінен иә: релиз әдеттегі push немесе GitHub-тағы батырма арқылы іске қосылады. Мұны команда үшін нұсқаулықта сипаттаймыз.",
+      "answer_en": "Basically yes: a release starts with a normal push or a button in GitHub. We describe this in the instructions for your team.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли деплоить на несколько окружений?",
+      "question_kk": "Бірнеше ортаға деплой жасауға бола ма?",
+      "question_en": "Can it deploy to several environments?",
+      "answer_ru": "Да, для тестового и боевого окружения настраиваем разные правила и секреты, чтобы ничего не перепутать.",
+      "answer_kk": "Иә, тестілік және өндірістік орталар үшін әртүрлі ережелер мен құпияларды баптаймыз, сондықтан ештеңе шатастырылмайды.",
+      "answer_en": "Yes, we set up separate rules and secrets for the test and production environments so nothing gets mixed up.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто владеет репозиторием и настройками GitHub Actions?",
+      "question_kk": "Репозиторийге және GitHub Actions баптауларына кім ие?",
+      "question_en": "Who owns the repository and the GitHub Actions settings?",
+      "answer_ru": "Репозиторий создаётся на вашем аккаунте GitHub, и вы остаётесь его владельцем. Права администратора передаём при сдаче.",
+      "answer_kk": "Репозиторий сіздің GitHub аккаунтыңызда жасалады және сіз оның иесі болып қаласыз. Әкімші құқықтарын тапсыру кезінде береміз.",
+      "answer_en": "The repository is created on your GitHub account and you remain its owner. We hand over administrator rights at handover.",
+      "sort": 6
     }
   ]
 }

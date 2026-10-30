@@ -93,6 +93,42 @@
       "answer_kk": "Файлдың жаңа нұсқасын ортақ папкаға жүктейсіз, сонда қор жаңарады. Бізге тәуелді болмауыңыз үшін тәртібін оқыту кездесуінде көрсетеміз.",
       "answer_en": "You upload the new file version to a shared folder and the base updates. We will show the procedure at the walkthrough so you do not depend on us.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько документов можно загрузить?",
+      "question_kk": "Қанша құжат жүктеуге болады?",
+      "question_en": "How many documents can be loaded?",
+      "answer_ru": "Ограничения по количеству нет, но очень большие массивы стоит обсудить заранее. От их объёма зависят скорость поиска и стоимость работы модели.",
+      "answer_kk": "Құжат санына шек жоқ, бірақ өте көлемді жинақтарды алдын ала талқылаған жөн. Олардың көлемінен іздеу жылдамдығы мен модель жұмысының құны тәуелді.",
+      "answer_en": "There is no limit on the number of documents, but very large collections should be discussed in advance, since their size affects search speed and model costs.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Может ли бот ответить на вопрос, которого нет в документах?",
+      "question_kk": "Бот құжатта жоқ сұрақка жауап бере ала ма?",
+      "question_en": "Can the bot answer a question that is not in the documents?",
+      "answer_ru": "По нашей настройке нет: он должен честно сказать, что в базе ответа нет, и предложить обратиться к руководителю или в нужный отдел.",
+      "answer_kk": "Біздің баптау бойынша жоқ: ол білім қорында жауап жоқ екенін ашық айтып, басшыға немесе қажетті бөлімге жүгінуді ұсынуы керек.",
+      "answer_en": "By our setup, no: it must honestly say the knowledge base has no answer and suggest contacting a manager or the right department.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Работает ли база на телефоне?",
+      "question_kk": "Білім қоры телефонда жұмыс істей ме?",
+      "question_en": "Does the base work on a phone?",
+      "answer_ru": "Да, Telegram-бот удобен с телефона. Веб-страницу с чатом мы проверяем на мобильных экранах перед сдачей.",
+      "answer_kk": "Иә, Telegram-бот телефоннан ыңғайлы. Чаты бар веб-бетті тапсыр алдында мобильді экрандарда тексереміз.",
+      "answer_en": "Yes, the Telegram bot is convenient on a phone. We check the web chat page on mobile screens before handover.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Где хранятся документы и кто может их читать?",
+      "question_kk": "Құжаттар қай жерде сақталады және оларды кім оқи алады?",
+      "question_en": "Where are the documents stored and who can read them?",
+      "answer_ru": "Документы хранятся на сервере, который мы согласуем с вами. Доступ к боту ограничен списком участников, а доступы к серверу передаём вам.",
+      "answer_kk": "Құжаттар сізбен келісілген серверде сақталады. Ботқа қолжетімділік қатысушылар тізімімен шектеледі, ал сервер қолжетімділігін сізге береміз.",
+      "answer_en": "The documents are kept on a server we agree on with you. Bot access is limited to a member list, and we hand over the server access to you.",
+      "sort": 6
     }
   ]
 }

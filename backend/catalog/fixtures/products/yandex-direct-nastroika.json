@@ -91,6 +91,42 @@
       "answer_kk": "Сіз доступтың иесі болып қалатын аккаунтты, науқандар тізімін, Метрикадағы мақсаттарды және есептер бойынша нұсқаулықты аласыз. Жүргізу мен оңтайландыру бөлек талқыланады.",
       "answer_en": "You get an account where you keep ownership of the access, a list of campaigns, the goals set up in Metrica and a guide to the reports. Ongoing management and optimisation are discussed separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужен ли мне аккаунт Яндекс Директ или его создадите вы?",
+      "question_kk": "Яндекс Директ аккаунті маған керек пе, әлде оны сіздер жасайсыздар ма?",
+      "question_en": "Do I need a Yandex Direct account, or will you create it?",
+      "answer_ru": "Можно и так и так: аккаунт может быть вашим, с доступом для нас, или новым, зарегистрированным на вашу почту. Аккаунт и бюджет остаются за вами, а доступы проверяем вместе.",
+      "answer_kk": "Екеуі де мүмкін: аккаунт сіздікі болуы, бізге қолжетімділігі бар болуы немесе сіздің поштаңызға жаңадан ашылуы мүмкін. Аккаунт пен бюджет сізде қалады, ал қолжетімділікті бірге тексереміз.",
+      "answer_en": "Either works: the account can be yours with access for us, or a new one registered to your email. The account and budget stay with you, and we check access together.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли ограничить показы только моим городом?",
+      "question_kk": "Көрсетілімді тек менің қаламмен ғана шектеуге бола ма?",
+      "question_en": "Can I limit ads to my city only?",
+      "answer_ru": "Да, регионы показа задаются при создании кампании, можно выбрать один город или несколько. Для Казахстана регионы сверяем с тем, где находятся клиенты, чтобы не тратить бюджет впустую.",
+      "answer_kk": "Иә, көрсету аймақтары науқан құрылған кезде беріледі, бір немесе бірнеше қала таңдауға болады. Қазақстан үшін аймақтарды клиенттердің орналасуымен салыстырамыз, бюджет босқа кетпеуі үшін.",
+      "answer_en": "Yes, display regions are set when creating a campaign, and you can choose one city or several. For Kazakhstan we match regions against where the clients are, so the budget is not wasted.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что такое минус-слова и зачем они нужны?",
+      "question_kk": "Минус-сөздер дегеніміз не және олар не үшін керек?",
+      "question_en": "What are negative keywords and why are they needed?",
+      "answer_ru": "Минус-слова — это запросы, по которым объявление не должно показываться, например «бесплатно» или «вакансии». Список пополняем по первым запросам, чтобы не платить за нецелевые клики.",
+      "answer_kk": "Минус-сөздер — объявленияның көрсетілмеуі керек сұраныстар, мысалы «тегін» немесе «вакансия». Тізімді алғашқы сұраныстар бойынша толықтырамыз, мақсатсыз басуларға ақша кетпеуі үшін.",
+      "answer_en": "Negative keywords are queries for which the ad should not show, for example 'free' or 'jobs'. We expand the list based on the first queries so you do not pay for untargeted clicks.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Почему нельзя обещать конкретное число заявок?",
+      "question_kk": "Нақты өтінім санын неге уәде етуге болмайды?",
+      "question_en": "Why can't you promise a specific number of leads?",
+      "answer_ru": "Количество заявок зависит от спроса в вашей нише, конкуренции и цены предложения, а не только от настроек. Честно говорим, какие данные отслеживаем, и показываем статистику по кампаниям.",
+      "answer_kk": "Өтінім саны тек баптауларға ғана емес, сіздің нишаңыздағы сұранысқа, бәсекеге және ұсыныстың бағасына байланысты. Қандай деректерді бақылайтынымызды ашық айтамыз және науқандар бойынша статистиканы көрсетеміз.",
+      "answer_en": "The number of leads depends on demand in your niche, competition and the price of your offer, not only on settings. We are open about the data we track and show campaign statistics.",
+      "sort": 6
     }
   ]
 }

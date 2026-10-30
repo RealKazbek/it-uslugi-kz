@@ -93,6 +93,42 @@
       "answer_kk": "Негізгі нұсқа бір командамен қолмен іске қосылады. Кесте бойынша іске қосып, кестеге жіберу жетілдіру ретінде мүмкін.",
       "answer_en": "The basic version runs manually with one command. Scheduled runs that push into a sheet are possible as an extension.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что будет, если сайт поменяет структуру страниц?",
+      "question_kk": "Сайт беттердің құрылымын өзгертсе не болады?",
+      "question_en": "What happens if the source site changes its page structure?",
+      "answer_ru": "Скрипт начнёт собирать пустые поля или остановится с ошибкой. Тогда нужна доработка под новую структуру, и эта работа оценивается отдельно от первой сборки.",
+      "answer_kk": "Скрипт бос өрістерді жинай бастайды немесе қатемен тоқтайды. Бұл жағдайда жаңа құрылымға бейімдеу қажет, және бұл жұмысты алғашқы жинақтан бөлек бағалаймыз.",
+      "answer_en": "The script will start collecting empty fields or stop with an error. Then it needs adapting to the new structure, and that work is estimated separately from the first collection.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Сколько времени займёт первый результат?",
+      "question_kk": "Алғашқы нәтиже қанша уақытта дайын болады?",
+      "question_en": "How long until the first result?",
+      "answer_ru": "Сначала согласуем поля и пробуем скрипт на нескольких страницах, а затем запускаем полный сбор. Точный срок зависит от количества страниц и от того, насколько сайт защищён.",
+      "answer_kk": "Алдымен өрістерді келісеміз және скриптті бірнеше бетте сынаймыз, содан кейін толық жинақты іске қосамыз. Нақты мерзім беттер санына және сайттың қорғалу деңгейіне байланысты.",
+      "answer_en": "First we agree on the fields and test the script on a few pages, then run the full collection. The exact timing depends on the number of pages and how well the site is protected.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли собрать данные, которые открываются только после входа?",
+      "question_kk": "Тек кіргеннен кейін ашылатын деректерді жинауға бола ма?",
+      "question_en": "Can data be collected if it is only visible after logging in?",
+      "answer_ru": "Закрытые данные, доступ к которым требует вашего входа, мы не собираем, потому что это может нарушать правила сайта. Если владелец сайта даёт выгрузку, работать с ней проще и законнее.",
+      "answer_kk": "Сіздің кіруіңізді талап ететін жабық деректерді жинамаймыз, себебі бұл сайт ережелерін бұзуы мүмкін. Егер сайт иесі деректерді шығарып берсе, онымен жұмыс істеу оңай әрі заңды.",
+      "answer_en": "We do not collect closed data that requires your login, because it may break the site's rules. If the site owner provides an export, working with it is simpler and more lawful.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Почему сбор занимает больше времени, чем простой обход?",
+      "question_kk": "Жинау неге қарапайым аралаудан ұзағырақ уақыт алады?",
+      "question_en": "Why does collection take longer than a simple crawl?",
+      "answer_ru": "Между запросами стоят паузы, чтобы не перегружать чужой сайт. Поэтому полный сбор идёт медленнее, зато работа остаётся аккуратной.",
+      "answer_kk": "Сұраныстар арасында үзіліс жасаймыз, бұл басқа сайтты артық жүктемеден сақтайды. Сондықтан толық жинақ баяу жүреді, бірақ жұмыс мұқият болады.",
+      "answer_en": "There are pauses between requests so that we do not overload someone else's site. That makes the full collection slower, but the work stays careful.",
+      "sort": 6
     }
   ]
 }

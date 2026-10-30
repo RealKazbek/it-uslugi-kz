@@ -93,6 +93,42 @@
       "answer_kk": "Сіз тағайындаған әкімші. Картаны қосу немесе өшіру, кодты ауыстыру жолын көрсетеміз және баптауларға қатынауды береміз. Оны біздің тұрақты түрде орындауымызды қаласаңыз, бұл қызметтен тыс, келісім бойынша бөлек төленеді.",
       "answer_en": "The administrator you appoint. We show how to add or remove a card and change a code, and give access to the settings. If you want us to do this regularly, it is outside this service and is paid separately by agreement.",
       "sort": 2
+    },
+    {
+      "question_ru": "Кто протягивает кабели до дверей?",
+      "question_kk": "Кабельдерді есіктерге кім тартады?",
+      "question_en": "Who runs the cables to the doors?",
+      "answer_ru": "Перед выездом проверяем трассу, а кабели покупаете вы. Протяжка по зданию идёт по согласованному плану, без штроб и сверления сверх схемы.",
+      "answer_kk": "Шығар алдында трассаны тексереміз, ал кабельді сіз сатып аласыз. Ғимарат бойынша тарту келісілген жоспар бойынша жүреді, сызбадан тыс ойық пен бұрғылау жасалмайды.",
+      "answer_en": "We check the route before the visit, and you buy the cables. Running cable through the building follows the agreed plan, with no grooves or drilling beyond the diagram.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли управлять СКУД удалённо, с телефона или через облако?",
+      "question_kk": "СКУД-ді телефоннан немесе бұлт арқылы қашықтан басқаруға бола ма?",
+      "question_en": "Can the access system be managed remotely, from a phone or the cloud?",
+      "answer_ru": "Удалённое управление через приложение или облако не входит в базовый выезд. Его обсуждаем отдельно, когда станет понятна конфигурация объекта.",
+      "answer_kk": "Қосымша немесе бұлт арқылы қашықтан басқару негізгі шығуға кірмейді. Оны объект конфигурациясы түсінікті болғаннан кейін бөлек талқылаймыз.",
+      "answer_en": "Remote management through an app or the cloud is not part of the base visit. We discuss it separately once the site's setup is clear.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Сколько карт или брелоков нужно на старте?",
+      "question_kk": "Бастапқыда қанша карта немесе брелок керек?",
+      "question_en": "How many cards or fobs do we need at the start?",
+      "answer_ru": "Количество зависит от числа дверей и пользователей. Первых пользователей мы добавляем прямо на выезде, остальных вы добавляете по инструкции.",
+      "answer_kk": "Саны есік пен пайдаланушылар санына байланысты. Алғашқы пайдаланушыларды шығу кезінде өзіміз қосамыз, қалғанын нұсқаулық бойынша өзіңіз қосасыз.",
+      "answer_en": "The number depends on the doors and users. We add the first users during the visit, and you add the rest following the instructions.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что если позже понадобится добавить новую дверь?",
+      "question_kk": "Кейін жаңа есік қосу керек болса, не істеу керек?",
+      "question_en": "What if a new door needs to be added later?",
+      "answer_ru": "Новой двери нужен повторный выезд, проверка и подключение. Объём и сроки оцениваем на месте, так как каждая дверь отличается.",
+      "answer_kk": "Жаңа есікке қайта шығу, тексеру және қосу керек. Көлемі мен мерзімін жерінде бағалаймыз, себебі әр есік әртүрлі болады.",
+      "answer_en": "A new door needs another visit, a check and connection. We assess the scope and timing on site, since each door is different.",
+      "sort": 6
     }
   ]
 }

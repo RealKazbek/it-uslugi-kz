@@ -93,6 +93,42 @@
       "answer_kk": "«Ұтуға кепілдік береміз» деп жазбаған және сәтті істердің пайызын атамаған жөн. Бейтарап жазамыз: немен айналысасыз, қалай жұмыс істейсіз және қанша тұрады.",
       "answer_en": "It is wise not to write \"we guarantee a win\" or quote success rates. We write neutrally: what you do, how you work and what it costs.",
       "sort": 2
+    },
+    {
+      "question_ru": "Можно ли публиковать отзывы клиентов?",
+      "question_kk": "Клиенттердің пікірлерін жариялауға бола ма?",
+      "question_en": "Can we publish client reviews?",
+      "answer_ru": "Для юриста это зона риска, поэтому отзывы публикуем только с письменного согласия клиента и после проверки формулировок. Без согласия отзыв не размещаем.",
+      "answer_kk": "Заңгер үшін бұл тәуекелді аймақ, сондықтан пікірлерді клиенттің жазбаша келісімімен және тұжырымдарды тексергеннен кейін ғана жариялаймыз. Келісімсіз пікір қойылмайды.",
+      "answer_en": "For a lawyer this is a risk area, so we publish reviews only with the client's written consent and after checking the wording. Without consent, a review is not posted.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что нужно от юриста для запуска?",
+      "question_kk": "Іске қосу үшін заңгерден не керек?",
+      "question_en": "What do we need from the lawyer for launch?",
+      "answer_ru": "Области практики, образование и опыт, ориентир стоимости первичного приёма, контакты и фото. Всё это вы передаёте, а страницы оформляем мы.",
+      "answer_kk": "Практика бағыттары, білімі мен тәжірибесі, алғашқы қабылдау құнының бағдары, байланыс деректері және фото. Мұның бәрін сіз бересіз, ал беттерді біз рәсімдейміз.",
+      "answer_en": "Practice areas, education and experience, an indicative cost of the first consultation, contacts and photos. You provide all of it, and we format the pages.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли добавить онлайн-чат или калькулятор?",
+      "question_kk": "Онлайн-чат немесе калькулятор қосуға бола ма?",
+      "question_en": "Can we add an online chat or a calculator?",
+      "answer_ru": "В базовый объём это не входит. Если понадобится, обсудим отдельно и оценим, как это будет работать на сайте юриста.",
+      "answer_kk": "Бұл негізгі көлемге кірмейді. Қажет болса, бөлек талқылап, заңгер сайтында қалай жұмыс істейтінін бағалаймыз.",
+      "answer_en": "This is not part of the base scope. If you need it, we will discuss it separately and assess how it would work on a lawyer's site.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто обновляет страницы при изменении законов?",
+      "question_kk": "Заңдар өзгергенде беттерді кім жаңартады?",
+      "question_en": "Who updates pages when the laws change?",
+      "answer_ru": "Правовые изменения проверяете вы, а мы обновляем страницы по вашим указаниям. Ответственность за актуальность текстов остаётся за юристом.",
+      "answer_kk": "Құқықтық өзгерістерді сіз тексересіз, ал беттерді біз сіздің нұсқауыңыз бойынша жаңартамыз. Мәтіндердің өзектілігіне жауапкершілік заңгерде қалады.",
+      "answer_en": "You check legal changes, and we update the pages on your instructions. Responsibility for the texts staying current remains with the lawyer.",
+      "sort": 6
     }
   ]
 }

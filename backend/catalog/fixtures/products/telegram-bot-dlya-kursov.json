@@ -93,6 +93,42 @@
       "answer_kk": "Бот барлық сабақтан өткеннен кейін сертификат-файлды немесе суретті жібере алады. Сертификат макетін өзіңіз дайындайсыз немесе бөлек тапсырыс бересіз.",
       "answer_en": "The bot can send a certificate file or image once all lessons are completed. You prepare the certificate design or order it separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Что нужно от автора курса для запуска?",
+      "question_kk": "Іске қосу үшін курс авторынан не керек?",
+      "question_en": "What does the course author need to provide for launch?",
+      "answer_ru": "Структура модулей, тексты уроков, файлы и видео, а также расписание открытия уроков. Всё это передаёте вы, а бота настраиваем мы.",
+      "answer_kk": "Модульдердің құрылымы, сабақтардың мәтіндері, файлдар мен бейнелер және сабақтарды ашу кестесі. Мұның бәрін сіз бересіз, ал ботты біз баптаймыз.",
+      "answer_en": "The module structure, lesson texts, files and videos, and the lesson opening schedule. You provide all of it, and we set up the bot.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли вести курс без расписания, в своём темпе?",
+      "question_kk": "Курсты кестесіз, өз қарқынымен жүргізуге бола ма?",
+      "question_en": "Can the course run without a schedule, at each student's own pace?",
+      "answer_ru": "Да, уроки можно открывать по мере прохождения, а расписание задаётся по вашему выбору. Оба варианта можно сочетать в одном курсе.",
+      "answer_kk": "Иә, сабақтарды оқу барысына қарай ашуға болады, ал кесте сіздің таңдауыңыз бойынша беріледі. Екі нұсқаны бір курста қоса қолдануға болады.",
+      "answer_en": "Yes, lessons can open as students progress, and the schedule is set by your choice. Both options can be combined in one course.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как ученик получает доступ после оплаты?",
+      "question_kk": "Төлемнен кейін оқушы қолжетімділікті қалай алады?",
+      "question_en": "How does a student get access after paying?",
+      "answer_ru": "Оплата внутри бота подключается отдельно, поэтому пока доступ выдаёте вы: кодом или добавлением в список вручную. Это удобно для курсов с небольшим набором.",
+      "answer_kk": "Бот ішіндегі төлем бөлек қосылады, сондықтан әзірге қолжетімділікті сіз бересіз: кодпен немесе тізімге қолмен қосу арқылы. Шағын топтағы курстарға бұл ыңғайлы.",
+      "answer_en": "Payment inside the bot is connected separately, so for now you grant access yourself, by code or by adding people to the list manually. This suits courses with a small group.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавлять уроки после запуска?",
+      "question_kk": "Іске қосқаннан кейін сабақтарды қосуға бола ма?",
+      "question_en": "Can lessons be added after launch?",
+      "answer_ru": "Да, новые уроки добавляются в структуру, а прогресс учеников сохраняется. Если меняется порядок модулей, это небольшая отдельная доработка.",
+      "answer_kk": "Иә, жаңа сабақтар құрылымға қосылады, ал оқушылардың прогресі сақталады. Модульдердің реті өзгерсе, бұл бөлек шағын түзету болады.",
+      "answer_en": "Yes, new lessons are added to the structure and students' progress is kept. If the module order changes, that is a small separate change.",
+      "sort": 6
     }
   ]
 }

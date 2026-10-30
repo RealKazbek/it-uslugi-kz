@@ -94,6 +94,42 @@
       "answer_kk": "Мәтін мен түстер бойынша бір түзету айналымы бағаға кіреді. Жаңа макеттер немесе тұжырымдаманы ауыстыру керек болса, ол бөлек бағаланады, ал сомасын жұмыс басталар алдында хабарлаймыз.",
       "answer_en": "One round of edits for text and colours is included in the price. If you need new layouts or a change of concept, it is priced separately, and we tell you the amount before the work starts.",
       "sort": 2
+    },
+    {
+      "question_ru": "Какие форматы файлов я получу?",
+      "question_kk": "Қандай файл форматтарын аламын?",
+      "question_en": "Which file formats will I receive?",
+      "answer_ru": "PNG и JPG в нужных размерах, а также исходники, которые можно редактировать в вашем редакторе.",
+      "answer_kk": "Қажетті өлшемдегі PNG және JPG, сондай-ақ өз редакторыңызда өңдеуге болатын бастапқы файлдар.",
+      "answer_en": "PNG and JPG in the sizes you need, plus source files that you can edit in your own editor.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Подойдут ли баннеры для любой рекламной сети?",
+      "question_kk": "Баннерлер кез келген жарнама желісіне жарай ма?",
+      "question_en": "Will the banners work for any ad network?",
+      "answer_ru": "Мы делаем макеты по требованиям размеров и текста. Правила модерации каждой площадки проверяете вы перед запуском.",
+      "answer_kk": "Біз макеттерді өлшем мен мәтін талаптарына сай жасаймыз. Әр алаңның модерация ережелерін іске қосар алдында сіз тексересіз.",
+      "answer_en": "We make layouts to the size and text requirements. You check each platform's moderation rules before launch.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Гарантирует ли баннер заявки?",
+      "question_kk": "Баннер өтінімдерге кепілдік бере ме?",
+      "question_en": "Does a banner guarantee leads?",
+      "answer_ru": "Нет. Баннер — один из элементов кампании. Результат зависит от предложения, таргетинга и бюджета, которыми управляете вы.",
+      "answer_kk": "Жоқ. Баннер — науқанның бір элементі. Нәтиже ұсыныстан, таргетингтен және сіз басқаратын бюджеттен тәуелді.",
+      "answer_en": "No. A banner is one element of a campaign. The result depends on the offer, targeting and budget, which you control.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что если понадобятся новые размеры позже?",
+      "question_kk": "Кейінірек жаңа өлшемдер керек болса не істеймін?",
+      "question_en": "What if I need new sizes later?",
+      "answer_ru": "Исходники остаются у вас. Адаптация под новые размеры оформляется как отдельная небольшая задача.",
+      "answer_kk": "Бастапқы файлдар сізде қалады. Жаңа өлшемдерге бейімдеу бөлек шағын тапсырма ретінде рәсімделеді.",
+      "answer_en": "The source files stay with you. Adapting to new sizes is handled as a separate small task.",
+      "sort": 6
     }
   ]
 }

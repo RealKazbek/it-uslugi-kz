@@ -93,6 +93,42 @@
       "answer_kk": "Қолданбаны тек Telegram-нан ашуға болады, сондықтан ол онда бар адамдарға арналған. Қалғандарына кәдімгі интернет-дүкен немесе WhatsApp арқылы тапсырыс беретін каталог дұрысырақ.",
       "answer_en": "The app can only be opened from Telegram, so it is meant for people already there. For everyone else a regular online store or a catalog with WhatsApp ordering is a better fit.",
       "sort": 2
+    },
+    {
+      "question_ru": "Кто будет наполнять магазин товарами?",
+      "question_kk": "Дүкенді тауарлармен кім толтырады?",
+      "question_en": "Who fills the shop with products?",
+      "answer_ru": "Товары добавляете вы сами через админку, после короткого обучения. Если хотите, чтобы мы загрузили первую партию, это согласуется отдельно.",
+      "answer_kk": "Тауарларды әкімші панель арқылы қысқа оқудан кейін өзіңіз қосасыз. Алғашқы топтаманы бізден жүктеуді қаласаңыз, ол бөлек келісіледі.",
+      "answer_en": "You add products yourself through the admin panel after a short training. If you want us to upload the first batch, it is agreed separately.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет с заказами, если я не отвечаю клиенту сразу?",
+      "question_kk": "Клиентке бірден жауап бермесем, тапсырыстар не болады?",
+      "question_en": "What happens to orders if I do not reply to the customer right away?",
+      "answer_ru": "Заказ сохраняется в админке со статусом «новый», а бот присылает вам уведомление. Клиент видит статус своего заказа, и это снижает число повторных вопросов.",
+      "answer_kk": "Тапсырыс әкімші панельде «жаңа» мәртебесімен сақталады, ал бот сізге хабарлама жібереді. Клиент тапсырысының мәртебесін көреді, бұл қайталама сұрақтарды азайтады.",
+      "answer_en": "The order is saved in the admin panel with status 'new', and the bot sends you a notification. The customer can see the order status, which reduces repeat questions.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли добавить доставку и расчёт её стоимости?",
+      "question_kk": "Жеткізу мен оның құнын есептеуді қосуға бола ма?",
+      "question_en": "Can I add delivery and delivery cost calculation?",
+      "answer_ru": "Да, способы доставки и правила расчёта добавляются как варианты при оформлении. Интеграция с курьерскими службами — отдельная задача, для неё нужен доступ к их API.",
+      "answer_kk": "Иә, жеткізу тәсілдері мен есептеу ережелері рәсімдеу кезінде таңдау нұсқасы ретінде қосылады. Курьерлік қызметтермен интеграция — бөлек тапсырма, оған олардың API-ына қолжетімділік керек.",
+      "answer_en": "Yes, delivery methods and calculation rules are added as choices at checkout. Integration with courier services is a separate task and needs access to their API.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кому принадлежит код и аккаунт бота?",
+      "question_kk": "Кодты және бот аккаунтын кім иеленеді?",
+      "question_en": "Who owns the code and the bot account?",
+      "answer_ru": "Код и доступы к боту, серверу и админке передаём вам. Аккаунт в Telegram и сервер оформляете на себя, чтобы управление оставалось у вас.",
+      "answer_kk": "Кодты, ботқа, серверге және әкімші панельге қолжетімділікті сізге береміз. Telegram аккаунтын және серверді өзіңізге рәсімдейсіз, сонда басқару сізде қалады.",
+      "answer_en": "We hand over the code and access to the bot, the server and the admin panel. You register the Telegram account and the server in your name, so control stays with you.",
+      "sort": 6
     }
   ]
 }

@@ -93,6 +93,42 @@
       "answer_kk": "Иә. Беттемеге дейін басты беттің макетін көрсетеміз, өзгерістерді бірге енгіземіз. Жаңа сайтты сіз мақұлдағаннан кейін ғана іске қосамыз.",
       "answer_en": "Yes. We show the home page design before building it and we make changes. We launch the new site only after you approve it.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько времени занимает редизайн?",
+      "question_kk": "Редизайн қанша уақыт алады?",
+      "question_en": "How long does a redesign take?",
+      "answer_ru": "Обычно от семи до четырнадцати дней, если тексты и фото уже готовы. Срок растёт, если появляются новые материалы или много правок.",
+      "answer_kk": "Әдетте мәтіндер мен фотосуреттер дайын болса, жеті-он төрт күн. Жаңа материалдар немесе көп түзету пайда болса, мерзім ұзарады.",
+      "answer_en": "Usually seven to fourteen days if the texts and photos are ready. The timing grows if new materials appear or there are many revisions.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет со страницами, которых не останется в новой структуре?",
+      "question_kk": "Жаңа құрылымда болмайтын беттерге не болады?",
+      "question_en": "What happens to pages that will not exist in the new structure?",
+      "answer_ru": "Для таких страниц настраиваем перенаправления на ближайший подходящий раздел, чтобы посетители не попадали на ошибку. Список таких адресов согласуем с вами заранее.",
+      "answer_kk": "Мұндай беттер үшін келушілер қатеге түспеуі үшін ең жақын сәйкес бөлімге бағыттау баптаймыз. Мұндай мекенжайлар тізімін алдын ала сізбен келісеміз.",
+      "answer_en": "For such pages we set up redirects to the closest suitable section so visitors do not land on an error. We agree the list of these addresses with you in advance.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли сохранить текущий фирменный цвет и логотип?",
+      "question_kk": "Қазіргі фирмалық түс пен логотипті сақтауға бола ма?",
+      "question_en": "Can I keep my current brand colour and logo?",
+      "answer_ru": "Да, фирменные цвета и логотип остаются, если вы не хотите их менять. Вокруг них мы перерабатываем композицию и структуру страниц.",
+      "answer_kk": "Иә, фирмалық түс пен логотипті өзгерткіңіз келмесе, олар сақталады. Олардың айналасында беттердің композициясы мен құрылымын қайта жасаймыз.",
+      "answer_en": "Yes, the brand colours and logo stay if you do not want them changed. We rework the layout and page structure around them.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Работает ли сайт во время редизайна?",
+      "question_kk": "Редизайн кезінде сайт жұмыс істей ме?",
+      "question_en": "Does the site stay online during the redesign?",
+      "answer_ru": "Да, обычно сайт остаётся открытым. Новый дизайн выкатываем только после проверки по временному адресу, поэтому посетители увидят готовую версию.",
+      "answer_kk": "Иә, әдетте сайт ашық қалады. Жаңа дизайнды уақытша мекенжай бойынша тексергеннен кейін ғана шығарамыз, сондықтан келушілер дайын нұсқаны көреді.",
+      "answer_en": "Yes, usually the site stays open. We roll out the new design only after checking it on a temporary address, so visitors see a finished version.",
+      "sort": 6
     }
   ]
 }

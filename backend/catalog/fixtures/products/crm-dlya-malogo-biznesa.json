@@ -93,6 +93,42 @@
       "answer_kk": "Болады. Құрылымды жаңа өрістер мен кезеңдер бәрін қайта жасамай қосылатындай етіп жасаймыз. Жетілдірулер бөлек бағаланады.",
       "answer_en": "Yes. We structure the system so new fields and stages can be added without rebuilding everything. Extensions are quoted separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сможет ли команда менять поля и этапы без программиста?",
+      "question_kk": "Команда өрістер мен кезеңдерді программистсіз өзгерте ала ма?",
+      "question_en": "Can the team change fields and stages without a developer?",
+      "answer_ru": "В Google Sheets поля и этапы меняются вручную. В веб-версии это делается через админку. Обучим, как вносить правки, не сломав систему.",
+      "answer_kk": "Google Sheets-те өрістер мен кезеңдер қолмен өзгереді. Веб-нұсқада бұл әкімші панелі арқылы жасалады. Жүйені бұзбай түзету жолын үйретеміз.",
+      "answer_en": "In Google Sheets, fields and stages are changed by hand. In the web version this is done in the admin panel. We will show you how to make changes without breaking the system.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли перенести данные из текущей таблицы?",
+      "question_kk": "Қазіргі кестедегі деректерді көшіруге бола ма?",
+      "question_en": "Can I move the data from my current spreadsheet?",
+      "answer_ru": "Да, если таблица в порядке. Если данные разрозненные, оценим их очистку отдельно до начала работы.",
+      "answer_kk": "Иә, кесте реттелген болса. Деректер шашыраңқы болса, жұмыс басталар алдында тазалауды бөлек бағалаймыз.",
+      "answer_en": "Yes, if the spreadsheet is in order. If the data is scattered, we assess the cleanup separately before work starts.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как защищены данные клиентов?",
+      "question_kk": "Клиенттердің деректері қалай қорғалған?",
+      "question_en": "How is client data protected?",
+      "answer_ru": "Доступ разделяется по ролям. В веб-версии используем защищённое соединение и не храним пароли в открытом виде.",
+      "answer_kk": "Қолжетімділік рөлдер бойынша бөлінеді. Веб-нұсқада қорғалған байланысты қолданамыз және құпия сөздерді ашық түрде сақтамаймыз.",
+      "answer_en": "Access is split by role. The web version uses a secure connection and does not store passwords in plain text.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Будет ли работать мобильный доступ?",
+      "question_kk": "Мобильді қолжетімділік жұмыс істей ме?",
+      "question_en": "Will mobile access work?",
+      "answer_ru": "Для Google Sheets подходит мобильное приложение. Для веб-версии адаптируем интерфейс под телефон, если это входит в согласованный объём.",
+      "answer_kk": "Google Sheets үшін мобильді қолданба жарайды. Веб-нұсқа үшін интерфейсті телефонға бейімдейміз, егер ол келісілген көлемге кірсе.",
+      "answer_en": "The mobile app works for Google Sheets. For the web version we adapt the interface to phones if that is part of the agreed scope.",
+      "sort": 6
     }
   ]
 }

@@ -91,6 +91,42 @@
       "answer_kk": "Сіз операциялар журналын және нұсқаулықты аласыз. Алғашқы аптада тапсырыстар мен қалдықтардың сәйкес келетінін тексеріп, табылған сәйкессіздікті түзетеміз.",
       "answer_en": "You receive an operations log and a guide. In the first weeks we check that orders and stock levels match, and fix any mismatches we find.",
       "sort": 2
+    },
+    {
+      "question_ru": "Как не допустить двойных заказов при обрыве связи?",
+      "question_kk": "Байланыс үзілгенде қос тапсырыстың алдын қалай аламыз?",
+      "question_en": "How do you prevent duplicate orders when the connection drops?",
+      "answer_ru": "Каждый заказ сохраняется по уникальному номеру Kaspi, поэтому повторная загрузка того же номера не создаёт копию. Обмен можно безопасно перезапустить.",
+      "answer_kk": "Әр тапсырыс Kaspi-дің бірегей нөмірімен сақталады, сондықтан сол нөмір қайта жүктелсе, көшірме пайда болмайды. Алмасуды қауіпсіз қайта іске қосуға болады.",
+      "answer_en": "Each order is stored under its unique Kaspi number, so reloading the same number creates no copy. The exchange can be safely restarted.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как связываются товары и остатки?",
+      "question_kk": "Тауарлар мен қалдықтар қалай байланысады?",
+      "question_en": "How are products and stock levels matched?",
+      "answer_ru": "Остатки привязываются по артикулам, которые должны совпадать в вашей системе и в кабинете Kaspi. Товары без совпадения попадают в отчёт, чтобы вы их поправили.",
+      "answer_kk": "Қалдықтар сіздің жүйеңізде және Kaspi кабинетінде бірдей болатын артикулдар бойынша байланысады. Сәйкес келмейтін тауарлар есепке шығады, сонда оларды өзіңіз түзетесіз.",
+      "answer_en": "Stock is matched by SKU codes that must be identical in your system and the Kaspi cabinet. Unmatched products go into a report for you to fix.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет, если кабинет Kaspi временно недоступен?",
+      "question_kk": "Kaspi кабинеті уақытша қолжетімсіз болса не болады?",
+      "question_en": "What happens if the Kaspi cabinet is temporarily unavailable?",
+      "answer_ru": "Обмен повторяет попытку с паузой, а ошибка попадает в журнал и уведомление. Заказы, которые не передались, догружаются после восстановления связи.",
+      "answer_kk": "Алмасу үзіліспен қайталап көреді, ал қате журналға және хабарламаға түседі. Берілмеген тапсырыстар байланыс қалпына келгеннен кейін жүктеледі.",
+      "answer_en": "The exchange retries after a pause, and the error goes to the log and an alert. Orders that did not transfer are loaded after the connection recovers.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можем ли мы сами видеть журнал обмена?",
+      "question_kk": "Алмасу журналын өзіміз көре аламыз ба?",
+      "question_en": "Can we see the exchange log ourselves?",
+      "answer_ru": "Да, журнал остаётся у вас. По нему видно, какие заказы и остатки передались и где возникла ошибка. Как его читать, объясняем при передаче.",
+      "answer_kk": "Иә, журнал сізде қалады. Онан қандай тапсырыс пен қалдық берілгенін және қате қай жерде шыққанын көресіз. Оны қалай оқу керектігін тапсыру кезінде түсіндіреміз.",
+      "answer_en": "Yes, the log stays with you. It shows which orders and stock levels were sent and where an error happened. We explain how to read it at handover.",
+      "sort": 6
     }
   ]
 }

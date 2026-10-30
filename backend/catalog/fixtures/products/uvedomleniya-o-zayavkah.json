@@ -90,6 +90,42 @@
       "answer_kk": "Telegram боты тегін. Формаға ақылы делдал сервис қажет болса, жұмыс басталғанға дейін ескертеміз.",
       "answer_en": "The Telegram bot itself is free. If your form needs a paid intermediary service, we will tell you before the work starts.",
       "sort": 2
+    },
+    {
+      "question_ru": "Какие данные будут в уведомлении?",
+      "question_kk": "Хабарламада қандай деректер болады?",
+      "question_en": "What data will be in the notification?",
+      "answer_ru": "В сообщении будут имя, телефон, текст заявки, источник и время, если их передаёт ваша форма. Другие поля из формы можно добавить по согласованию.",
+      "answer_kk": "Хабарламада аты, телефоны, өтінім мәтіні, дереккөзі және уақыты болады, егер оларды сіздің форма берсе. Формадағы басқа өрістерді келісім бойынша қосуға болады.",
+      "answer_en": "The message includes name, phone, request text, source and time, if your form passes them. Other form fields can be added by agreement.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если в заявке нет номера телефона?",
+      "question_kk": "Өтінімде телефон нөмірі болмаса, не болады?",
+      "question_en": "What happens if a request has no phone number?",
+      "answer_ru": "Уведомление всё равно придёт, а в поле телефона будет пометка «не указан». Если телефон обязателен, лучше сделать его обязательным полем на самой форме.",
+      "answer_kk": "Хабарлама бәрібір келеді, ал телефон өрісінде «көрсетілмеген» деп белгіленеді. Телефон міндетті болса, оны формада міндетті өріс етіп қойған дұрыс.",
+      "answer_en": "The notification still arrives, and the phone field shows 'not specified'. If the phone is mandatory, it is better to make it a required field on the form itself.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли отправлять уведомления и в WhatsApp?",
+      "question_kk": "Хабарламаларды WhatsApp-қа да жіберуге бола ма?",
+      "question_en": "Can notifications also go to WhatsApp?",
+      "answer_ru": "Напрямую уведомления приходят в Telegram и на почту, а в WhatsApp отправляется только кнопка для ответа клиенту. Полноценная рассылка через WhatsApp работает по его правилам и оценивается отдельно.",
+      "answer_kk": "Хабарламалар тікелей Telegram-ға және поштаға келеді, ал WhatsApp-та тек клиентке жауап беру батырмасы жіберіледі. WhatsApp арқылы толық хабарлама оның ережелері бойынша жұмыс істейді және бөлек бағаланады.",
+      "answer_en": "Notifications go directly to Telegram and email, while WhatsApp gets only a reply button for the client. Full WhatsApp messaging follows its own rules and is assessed separately.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что делать, если уведомления перестали приходить?",
+      "question_kk": "Хабарламалар келуін тоқтатса, не істеу керек?",
+      "question_en": "What if notifications stop arriving?",
+      "answer_ru": "Сначала проверьте, не сменился ли токен бота или не изменилась ли форма на сайте, и напишите нам. Мы исправим настройку и проверим отправку тестовой заявкой.",
+      "answer_kk": "Алдымен боттың токені мен сайттағы форма өзгермегенін тексеріп, бізге жазыңыз. Баптауды түзетіп, тест өтінімімен жіберуді тексереміз.",
+      "answer_en": "First check whether the bot token or the website form has changed, and write to us. We fix the setting and test sending with a test request.",
+      "sort": 6
     }
   ]
 }

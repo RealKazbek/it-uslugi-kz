@@ -94,6 +94,42 @@
       "answer_kk": "Домен, хостинг, логотип, мәтін және фото керек. Іске қосқаннан кейін әкімші панеліне қолжетімділік пен нұсқаулық аласыз. Кейінгі өзгерістер мен қолдауды бөлек талқылаймыз.",
       "answer_en": "You need a domain, hosting, your logo, texts and photos. After launch you get access to the admin panel and a guide. Further changes and support are discussed separately.",
       "sort": 2
+    },
+    {
+      "question_ru": "Кто будет обновлять WordPress и плагины?",
+      "question_kk": "WordPress пен плагиндерді кім жаңартады?",
+      "question_en": "Who updates WordPress and the plugins?",
+      "answer_ru": "Обновления ядра и плагинов нужно делать регулярно: мы передаём инструкцию и показываем, как это сделать. Постоянное сопровождение обсуждаем отдельно.",
+      "answer_kk": "WordPress ядросы мен плагиндерді үнемі жаңарту керек: нұсқаулықты береміз және қалай жасау керектігін көрсетеміз. Тұрақты қолдауды бөлек талқылаймыз.",
+      "answer_en": "Core and plugin updates need to be done regularly: we hand over instructions and show how to do it. Ongoing support is discussed separately.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли перенести статьи со старого сайта?",
+      "question_kk": "Ескі сайттан мақалаларды көшіруге бола ма?",
+      "question_en": "Can articles be moved from an old site?",
+      "answer_ru": "Перенос старых статей и страниц — отдельный объём работ, который оцениваем после просмотра текущего сайта. Небольшой перенос можно обсудить сразу.",
+      "answer_kk": "Ескі мақалалар мен беттерді көшіру — ағымдағы сайтты қарағаннан кейін бағаланатын бөлек жұмыс. Шағын көшіруді бірден талқылауға болады.",
+      "answer_en": "Moving old articles and pages is separate work, which we assess after reviewing the current site. A small move can be discussed straight away.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Можно ли сделать сайт на двух языках, включая казахский?",
+      "question_kk": "Сайтты қазақ тілін қосқанда екі тілде жасауға бола ма?",
+      "question_en": "Can the site be bilingual, including Kazakh?",
+      "answer_ru": "Да, структуру можно предусмотреть заранее. Перевод текстов и языковой плагин обсуждаем до начала работ, так как это влияет на объём.",
+      "answer_kk": "Иә, құрылымды алдын ала қарастыруға болады. Мәтіндерді аудару мен тілдік плагинді жұмыс басталғанға дейін талқылаймыз, өйткені бұл көлемге әсер етеді.",
+      "answer_en": "Yes, the structure can be planned in advance. Translation of texts and the language plugin are discussed before work starts, as they affect the scope.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кому принадлежит доступ администратора?",
+      "question_kk": "Әкімші қолжетімділігі кімге тиесілі?",
+      "question_en": "Who owns the administrator access?",
+      "answer_ru": "Доступ администратора оформляется на вас, и при передаче вы получаете все логины и пароли. Доступы остаются у вас.",
+      "answer_kk": "Әкімші қолжетімділігі сізге рәсімделеді, тапсырғанда барлық логин мен құпия сөзді аласыз. Қолжетімділік сізде қалады.",
+      "answer_en": "Administrator access is set up in your name, and at handover you receive all logins and passwords. The access stays with you.",
+      "sort": 6
     }
   ]
 }

@@ -94,6 +94,42 @@
       "answer_kk": "Ең бастысы, мәтіндерді қаншалықты тез келісетініңіз. Аудармалар мен материалдар алдын ала дайын болса, жұмыс жылдамырақ өтеді, ал кідірістер көбіне соңғы сәтте жасалған түзетулерден туады.",
       "answer_en": "Mainly how quickly you approve the texts. If translations and materials are ready in advance, the work moves faster, and delays most often come from last-minute changes.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужно ли писать тексты сразу на трёх языках?",
+      "question_kk": "Мәтіндерді үш тілде бірден жазу керек пе?",
+      "question_en": "Do I have to write the texts in all three languages at once?",
+      "answer_ru": "Нет, достаточно основного текста на одном языке: остальные версии готовим по согласованию, а утверждаете их вы. Так сайт запускается быстрее, а тексты остаются под вашим контролем.",
+      "answer_kk": "Жоқ, негізгі мәтін бір тілде жеткілікті: қалған нұсқаларды келісім бойынша дайындаймыз, ал оларды сіз бекітесіз. Осылайша сайт тезірек іске қосылады, ал мәтіндер сіздің бақылауыңызда қалады.",
+      "answer_en": "No, one main text is enough: the other versions are prepared by agreement and you approve them. This way the site launches faster and the texts stay under your control.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Будут ли казахские страницы видны в поиске?",
+      "question_kk": "Қазақша беттер іздеуде көрінеді ме?",
+      "question_en": "Will the Kazakh pages be visible in search?",
+      "answer_ru": "Да, у каждой языковой версии свой адрес и мета-теги, поэтому поиск может показывать её отдельно. Конкретную позицию в выдаче мы не гарантируем: она зависит от конкурентов и содержания страниц.",
+      "answer_kk": "Иә, әр тілдік нұсқаның өз мекенжайы және мета-тегтері бар, сондықтан іздеу оны бөлек көрсете алады. Нақты орынды кепілдемейміз: ол бәсекелестерге және бет мазмұнына байланысты.",
+      "answer_en": "Yes, each language version has its own address and meta tags, so search can show it separately. We do not guarantee a specific ranking, since it depends on competitors and page content.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Как меняются адреса страниц при переключении языка?",
+      "question_kk": "Тілді ауыстырғанда беттердің мекенжайы қалай өзгереді?",
+      "question_en": "How do page addresses change when a visitor switches language?",
+      "answer_ru": "У каждого языка свой адрес, например с префиксом языка, а переключатель ведёт на перевод той же страницы. Если сайт уже существует, старые адреса сохраняем или настраиваем перенаправления.",
+      "answer_kk": "Әр тілдің өз мекенжайы болады, мысалы тіл префиксі арқылы, ал ауыстырғыш сол беттің аудармасына апарады. Сайт бұрыннан бар болса, ескі мекенжайларды сақтаймыз немесе бағыттаймыз.",
+      "answer_en": "Each language gets its own address, for example with a language prefix, and the switcher leads to the translation of the same page. If the site already exists, we keep the old addresses or set up redirects.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли добавить четвёртый язык позже?",
+      "question_kk": "Төртінші тілді кейін қосуға бола ма?",
+      "question_en": "Can a fourth language be added later?",
+      "answer_ru": "Структура это позволяет, но перевод интерфейса и текстов на новый язык будет отдельным этапом со своим объёмом работ. Если он понадобится, лучше сказать об этом на старте.",
+      "answer_kk": "Құрылым мұған мүмкіндік береді, бірақ жаңа тілге интерфейс пен мәтіндерді аудару бөлек кезең болады және оның көлемі бөлек. Қажет болса, мұны басында айтқан жөн.",
+      "answer_en": "The structure allows it, but translating the interface and texts for a new language is a separate stage with its own scope. If you will need it, it is better to say so at the start.",
+      "sort": 6
     }
   ]
 }

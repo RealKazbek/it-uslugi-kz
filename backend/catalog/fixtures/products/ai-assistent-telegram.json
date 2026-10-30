@@ -93,6 +93,42 @@
       "answer_kk": "Бұл хабарлама санына және таңдалған модельге байланысты. Шағын бизнеске API шығыны әдетте көп емес, нақты бағаны сіздің сұрақтарыңызбен сынағаннан кейін айтамыз.",
       "answer_en": "It depends on the number of messages and the model you pick. For a small business the API cost is usually modest, and we will give a concrete estimate after testing on your own questions.",
       "sort": 2
+    },
+    {
+      "question_ru": "Нужны ли мне знания программирования, чтобы пользоваться ботом?",
+      "question_kk": "Ботпен жұмыс істеу үшін бағдарламалау білімі керек пе?",
+      "question_en": "Do I need programming skills to use the bot?",
+      "answer_ru": "Нет. Базу знаний вы правите в простой админ-панели, а технические настройки делаем мы.",
+      "answer_kk": "Жоқ. Білім қорын қарапайым әкімші панелінде өзгертесіз, ал техникалық баптауды біз жасаймыз.",
+      "answer_en": "No. You edit the knowledge base in a simple admin panel, and we handle the technical setup.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Какие материалы нужны, чтобы бот начал отвечать?",
+      "question_kk": "Бот жауап бере бастауы үшін қандай материалдар керек?",
+      "question_en": "Which materials does the bot need before it can answer?",
+      "answer_ru": "Прайс, условия, график, адрес и типовые вопросы в текстовом виде. Чем конкретнее материал, тем меньше ответов придётся передавать вам.",
+      "answer_kk": "Прайс, шарттар, жұмыс кестесі, мекенжай және жиі қойылатын сұрақтар мәтін түрінде. Материал неғұрлым нақты болса, соғұрлым аз сұрақты сізге беретін боламыз.",
+      "answer_en": "The price list, terms, opening hours, address and common questions as text. The more specific the material, the fewer questions get passed to you.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Работает ли бот в групповых чатах Telegram?",
+      "question_kk": "Бот Telegram топтық чаттарда жұмыс істей ме?",
+      "question_en": "Does the bot work in Telegram group chats?",
+      "answer_ru": "По умолчанию нет: он отвечает клиентам в личных диалогах. Работу в группах можно обсудить отдельно, если это нужно вашему бизнесу.",
+      "answer_kk": "Әдепкі бойынша жоқ: ол клиенттерге жеке диалогта жауап береді. Топтарда жұмыс істеу қажет болса, оны бөлек талқылаймыз.",
+      "answer_en": "By default, no: it answers customers in private chats. Group work can be discussed separately if your business needs it.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто владеет аккаунтом бота и кодом?",
+      "question_kk": "Бот аккаунтына және кодқа кім ие?",
+      "question_en": "Who owns the bot account and the code?",
+      "answer_ru": "Бот создаётся на вашем аккаунте Telegram. Код и доступы мы передаём вам полностью, а токены и ключи хранятся у вас.",
+      "answer_kk": "Бот сіздің Telegram аккаунтыңызда жасалады. Кодты және қолжетімділікті толығымен сізге береміз, ал токендер мен кілттер сізде сақталады.",
+      "answer_en": "The bot is created on your Telegram account. We hand over the code and all access in full, and the tokens and keys stay with you.",
+      "sort": 6
     }
   ]
 }

@@ -90,6 +90,42 @@
       "answer_kk": "WhatsApp-та ережелер қатаңырақ, хабарламаға ақы бар, сондай-ақ 24 сағаттық терезеден тыс клиентке бірінші хабарлама жіберуге шектеу бар. Бірақ онда клиенттеріңіздің басым бөлігі отыр, ал Telegram-да бот қарапайымырақ әрі арзанырақ.",
       "answer_en": "WhatsApp has stricter rules, a per-message fee and limits on first messages to a customer outside the 24-hour window. But most of your customers are there, while a Telegram bot is simpler and cheaper to run.",
       "sort": 2
+    },
+    {
+      "question_ru": "Сколько времени занимает проверка бизнес-аккаунта?",
+      "question_kk": "Бизнес-аккаунтты тексеру неше уақыт алады?",
+      "question_en": "How long does business account verification take?",
+      "answer_ru": "Проверку проводит Meta по своим срокам, и они могут меняться. Помогаем подготовить документы и настройки, но решение за платформой, поэтому сроки не гарантируем.",
+      "answer_kk": "Тексеруді Meta өз мерзімдерімен жүргізеді, олар өзгеруі мүмкін. Құжаттар мен баптауларды дайындауға көмектесеміз, бірақ шешімді платформа қабылдайды, сондықтан мерзімге кепілдік бермейміз.",
+      "answer_en": "Meta runs the verification on its own timelines, which can change. We help prepare the documents and settings, but the decision rests with the platform, so we do not guarantee timing.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Можно ли передать диалог от бота живому оператору?",
+      "question_kk": "Диалогты боттан тірі операторға беруге бола ма?",
+      "question_en": "Can a chat be handed from the bot to a live operator?",
+      "answer_ru": "Да, бот передаёт диалог человеку, когда клиент нажимает кнопку или бот не понимает запрос. Оператор отвечает из того же аккаунта WhatsApp Business, поэтому переписка не теряется.",
+      "answer_kk": "Иә, клиент батырманы басқанда немесе бот сұрауды түсінбегенде, бот диалогты адамға береді. Оператор сол WhatsApp Business аккаунтынан жауап береді, сондықтан хат-хабар жоғалмайды.",
+      "answer_en": "Yes, the bot hands the chat to a person when the client presses a button or the bot does not understand the request. The operator replies from the same WhatsApp Business account, so the conversation is not lost.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет с историей переписки, если я сменю номер?",
+      "question_kk": "Нөмірімді ауыстырсам, хат-хабар тарихы не болады?",
+      "question_en": "What happens to chat history if I change the number?",
+      "answer_ru": "История привязана к номеру и аккаунту в Meta, поэтому при смене номера переписка может не перенестись. Перед сменой номера стоит заранее согласовать, как сохранить данные заявок.",
+      "answer_kk": "Тарих нөмірге және Meta аккаунтына байланған, сондықтан нөмірді ауыстырғанда хат-хабар көшпеуі мүмкін. Нөмірді ауыстырар алдында өтінім деректерін қалай сақтау керектігін алдын ала келісіңіз.",
+      "answer_en": "The history is tied to the number and the Meta account, so the chat may not carry over when the number changes. Before changing the number, agree in advance how to keep the request data.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли показывать каталог товаров в боте?",
+      "question_kk": "Ботта тауарлар каталогын көрсетуге бола ма?",
+      "question_en": "Can the bot show a product catalogue?",
+      "answer_ru": "Да, меню может показывать категории и карточки товаров, если данные передаёте вы. Сложные корзины и оплату внутри WhatsApp без отдельной проверки возможностей платформы не обещаем.",
+      "answer_kk": "Иә, мәзір санаттар мен тауар карточкаларын көрсете алады, егер деректерді сіз берсеңіз. Күрделі себет пен WhatsApp ішіндегі төлемді платформа мүмкіндіктерін бөлек тексермей уәде етпейміз.",
+      "answer_en": "Yes, the menu can show categories and product cards if you provide the data. We do not promise complex carts or payment inside WhatsApp without a separate check of the platform's capabilities.",
+      "sort": 6
     }
   ]
 }

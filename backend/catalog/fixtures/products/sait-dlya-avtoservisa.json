@@ -93,6 +93,42 @@
       "answer_kk": "Иә, посттар санын ескеріп күн мен уақыт таңдауды қосуға болады. Бокс біреу болса, қалаулы уақыт жеткілікті, оны WhatsApp-та растайсыз.",
       "answer_en": "Yes, a date and time picker can be added that respects the number of bays. With a single bay a preferred time is enough, and you confirm it on WhatsApp.",
       "sort": 2
+    },
+    {
+      "question_ru": "Как заявка с неясной неисправностью доходит до мастера?",
+      "question_kk": "Ақауы анық емес өтінім шеберге қалай жетеді?",
+      "question_en": "How does a request with an unclear fault reach the mechanic?",
+      "answer_ru": "Мастер уточняет детали по телефону, а заявка остаётся в уведомлениях, поэтому её не потерять. Если описание не нужно, это поле можно сделать необязательным.",
+      "answer_kk": "Шебер мәліметтерді телефон арқылы нақтылайды, ал өтінім хабарламаларда сақталады, сондықтан оны жоғалтпайсыз. Сипаттама қажет болмаса, бұл өрісті міндетті емес етуге болады.",
+      "answer_en": "The mechanic clarifies the details by phone, and the request stays in your notifications so it is not lost. If the description is not needed, the field can be made optional.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Куда придут заявки: на почту, в Telegram или в WhatsApp?",
+      "question_kk": "Өтінімдер қайда келеді: поштаға, Telegram-ға ма, әлде WhatsApp-қа ма?",
+      "question_en": "Where will requests arrive: email, Telegram or WhatsApp?",
+      "answer_ru": "Канал получения заявок выбираем на старте, исходя из того, чем вы пользуетесь каждый день. При необходимости можно настроить несколько каналов сразу.",
+      "answer_kk": "Өтінімдер келетін арнаны іске қосар алдында күнделікті қолданатын құралыңызға қарай таңдаймыз. Қажет болса, бірнеше арнаны бірден баптауға болады.",
+      "answer_en": "We choose the channel for requests at the start, based on what you use every day. If needed, several channels can be set up at the same time.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Кто отвечает за точность прайса?",
+      "question_kk": "Прайстың дәлдігіне кім жауап береді?",
+      "question_en": "Who is responsible for the accuracy of the price list?",
+      "answer_ru": "Перечень работ и цены предоставляете вы, а мы оформляем их на сайте. Если цена меняется, согласуйте с нами обновление, чтобы страницы соответствовали действительности.",
+      "answer_kk": "Жұмыстар тізімі мен бағаларды сіз бересіз, біз оларды сайтта рәсімдейміз. Баға өзгерсе, беттер нақты жағдайға сай болуы үшін жаңартуды бізбен келісіңіз.",
+      "answer_en": "You provide the list of works and prices, and we set them up on the site. If a price changes, agree the update with us so the pages match reality.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Можно ли показать несколько мастеров или филиалов?",
+      "question_kk": "Бірнеше шебер немесе филиалды көрсетуге бола ма?",
+      "question_en": "Can we show several mechanics or branches?",
+      "answer_ru": "Да, контакты и адреса нескольких филиалов можно разместить на одной странице с картой. Распределение заявок между мастерами обсуждаем отдельно.",
+      "answer_kk": "Иә, бірнеше филиалдың байланысы мен мекенжайын картасымен бір бетте көрсетуге болады. Өтінімдерді шеберлер арасында бөлуді бөлек талқылаймыз.",
+      "answer_en": "Yes, the contacts and addresses of several branches can go on one page with a map. Splitting requests between mechanics is discussed separately.",
+      "sort": 6
     }
   ]
 }

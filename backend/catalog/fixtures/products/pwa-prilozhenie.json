@@ -103,6 +103,33 @@
       "answer_kk": "Сайтты қалай жаңартуға болатынын көрсетеміз: сіз енгізген өзгерістер қосымшада бірден көрінеді. Әрі қарай қолдау мен жаңа бөлімдер бөлек келісіледі. Жұмыс мерзімі көлемге байланысты және карточкада көрсетілген.",
       "answer_en": "We show how to update the site: changes you make appear in the app right away. Further support and new sections are agreed separately. The timing depends on the volume of work and is shown on the card.",
       "sort": 3
+    },
+    {
+      "question_ru": "Одинаково ли PWA работает на разных телефонах?",
+      "question_kk": "PWA әртүрлі телефондарда бірдей жұмыс істей ме?",
+      "question_en": "Does a PWA work the same on different phones?",
+      "answer_ru": "Установка на главный экран поддерживается в современных браузерах, но поведение немного различается: на iPhone сайт ставится через меню «Поделиться». Основные сценарии мы проверяем на реальных устройствах перед запуском.",
+      "answer_kk": "Негізгі экранға орнату заманауи браузерлерде қолдау табады, бірақ әрекет аздап өзгеше: iPhone-да сайт «Бөлісу» мәзірі арқылы орнатылады. Негізгі сценарийлерді іске қосар алдында нақты құрылғыларда тексереміз.",
+      "answer_en": "Adding to the home screen is supported in modern browsers, but behaviour varies a little: on iPhone the site is added through the Share menu. We test the main flows on real devices before launch.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что будет, если пользователь не захочет ставить сайт?",
+      "question_kk": "Пайдаланушы сайтты орнатқысы келмесе не болады?",
+      "question_en": "What if a user does not want to install the site?",
+      "answer_ru": "Сайт продолжает работать в браузере как обычно, установка не обязательна. PWA не заменяет вашу аудиторию, а даёт ей удобный способ вернуться.",
+      "answer_kk": "Сайт браузерде әдеттегідей жұмыс істей береді, орнату міндетті емес. PWA аудиторияны алмастырмайды, оларға қайта оралудың ыңғайлы жолын береді.",
+      "answer_en": "The site keeps working in the browser as usual, and installing is optional. A PWA does not replace your audience; it gives them a convenient way to come back.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кому принадлежат код и домен после запуска?",
+      "question_kk": "Іске қосылғаннан кейін код пен домен кімге тиесілі?",
+      "question_en": "Who owns the code and domain after launch?",
+      "answer_ru": "Код передаём вам полностью, а домен и хостинг остаются в вашем аккаунте. Хостинг оплачивается отдельно, и мы обговариваем это заранее.",
+      "answer_kk": "Кодты толық тапсырамыз, ал домен мен хостинг сіздің аккаунтыңызда қалады. Хостинг бөлек төленеді, және мұны алдын ала келісеміз.",
+      "answer_en": "We hand over the full code, and the domain and hosting stay in your account. Hosting is paid separately, and we agree on this in advance.",
+      "sort": 6
     }
   ]
 }

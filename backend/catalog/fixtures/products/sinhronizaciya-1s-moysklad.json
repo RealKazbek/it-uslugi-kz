@@ -94,6 +94,42 @@
       "answer_kk": "Деректер көшірмесінде қалдық пен бағаны салыстырамыз, сынақ тапсырыстарын жіберіп, қайталанулар жоқ екенін тексереміз. Тек осыдан кейін нақты алмасуды қосамыз.",
       "answer_en": "We compare stock and prices on a copy of your data, send test orders and confirm there are no duplicates. Only after that do we switch on the live exchange.",
       "sort": 2
+    },
+    {
+      "question_ru": "Как часто обмениваются данные?",
+      "question_kk": "Деректер қанша жиілікпен алмасады?",
+      "question_en": "How often does the data sync?",
+      "answer_ru": "Обмен можно настроить по расписанию или по событию. Частоту выбираем на старте, исходя из количества товаров и заказов.",
+      "answer_kk": "Алмасуды кесте бойынша немесе оқиға бойынша баптауға болады. Жиілікті бастапқыда тауар мен тапсырыс санына қарай таңдаймыз.",
+      "answer_en": "The exchange can be set on a schedule or triggered by events. We choose the frequency at the start, based on the number of products and orders.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Что будет, если цену в 1С поменяли вручную?",
+      "question_kk": "1С-те бағаны қолмен өзгерсе, не болады?",
+      "question_en": "What happens if someone changes a price in 1C by hand?",
+      "answer_ru": "Новая цена придёт на сайт при следующем обмене. Поэтому правило приоритета, то есть учётная система или сайт, фиксируем заранее.",
+      "answer_kk": "Жаңа баға келесі алмасуда сайтқа жетеді. Сондықтан басымдық ережесін, яғни есепке алу жүйесі ме әлде сайт па, алдын ала бекитеміз.",
+      "answer_en": "The new price reaches the site at the next exchange. That is why we fix in advance the priority rule: accounting system or website.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Нужен ли доступ к 1С или МойСклад для настройки?",
+      "question_kk": "Баптау үшін 1С немесе МойСклад-қа қолжетімділік керек пе?",
+      "question_en": "Do you need access to 1C or MoySklad to set it up?",
+      "answer_ru": "Да, нужен временный доступ к учётной системе и тестовой базе. После запуска доступ можно закрыть, а все логины остаются у вас.",
+      "answer_kk": "Иә, есепке алу жүйесіне және тесттік базаға уақытша қолжетімділік керек. Іске қосқаннан кейін қолжетімділікті жабуға болады, ал барлық логин сізде қалады.",
+      "answer_en": "Yes, temporary access to the accounting system and a test database is needed. After launch access can be closed, and you keep all logins.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Кто отвечает за работу обмена после запуска?",
+      "question_kk": "Іске қосқаннан кейін алмасудың жұмысына кім жауап береді?",
+      "question_en": "Who is responsible for the exchange after launch?",
+      "answer_ru": "Мы передаём инструкцию и журнал ошибок, чтобы проблемы были видны. Если обмен сломается из-за изменений в 1С или МойСклад, исправление оцениваем отдельно.",
+      "answer_kk": "Біз нұсқаулық пен қателер журналын береміз, сонда мәселелер көрінеді. 1С немесе МойСклад өзгерісінен алмасу бұзылса, түзетуді бөлек бағалаймыз.",
+      "answer_en": "We hand over the instructions and the error log so issues are visible. If the exchange breaks because of changes in 1C or MoySklad, the fix is assessed separately.",
+      "sort": 6
     }
   ]
 }
