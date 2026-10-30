@@ -1,12 +1,12 @@
 import { SiInstagram, SiTiktok } from 'react-icons/si';
-import { CONTACTS } from '@/lib/site/contacts';
+import { config } from '@/lib/config';
 
 const linkClass =
   'flex size-11 items-center justify-center rounded-lg text-foreground transition-colors duration-fast hover:bg-surface-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring';
 
-/** Brand icons for social profiles. Each renders only when its URL is set in CONTACTS. */
+/** Brand icons for social profiles. Each renders only when its URL is set in config (INSTAGRAM_URL, TIKTOK_URL). */
 export function FooterSocials() {
-  const { instagram, tiktok } = CONTACTS;
+  const { instagramUrl: instagram, tiktokUrl: tiktok } = config;
   if (!instagram && !tiktok) return null;
   return (
     <ul className="-ml-3 flex gap-1">

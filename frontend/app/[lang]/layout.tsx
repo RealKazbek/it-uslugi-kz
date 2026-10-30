@@ -1,3 +1,4 @@
+import { config } from '@/lib/config';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Onest } from 'next/font/google';
@@ -77,7 +78,7 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
             callHref={callLink()}
             labels={{ whatsapp: d.wa, telegram: d.tg, call: d.cta.call }}
           />
-          <ContactSpeedDial lang={lang} labels={d.speedDial} />
+          <ContactSpeedDial lang={lang} labels={d.speedDial} socials={{ instagram: config.instagramUrl, tiktok: config.tiktokUrl }} />
           <SearchPalette lang={lang} labels={getDict(lang).search} />
           </SearchProvider>
           </LeadModalProvider>

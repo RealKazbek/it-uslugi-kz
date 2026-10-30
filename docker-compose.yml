@@ -43,6 +43,8 @@ services:
       USD_RATE: "${USD_RATE:-500}"
       ONSITE_CITIES: "${ONSITE_CITIES:-Алматы}"
       WORKING_HOURS: "${WORKING_HOURS:-09:00–21:00}"
+      INSTAGRAM_URL: "${INSTAGRAM_URL:-}"
+      TIKTOK_URL: "${TIKTOK_URL:-}"
     ports:
       - "127.0.0.1:3000:3000"
     depends_on:

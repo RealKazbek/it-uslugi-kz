@@ -15,17 +15,19 @@ export interface ContactSpeedDialProps {
   labels: SpeedDialLabels;
   /** Overrides the default prefilled WhatsApp link. */
   whatsappHref?: string;
+  /** Social profile URLs from config (CONTACTS only holds the fixed ones). */
+  socials?: { instagram: string; tiktok: string };
 }
 
 /** Floating contact button bottom-right; expands into a list of contact pills. Pulses until first opened. */
-export function ContactSpeedDial({ lang, labels, whatsappHref }: ContactSpeedDialProps) {
+export function ContactSpeedDial({ lang, labels, whatsappHref, socials }: ContactSpeedDialProps) {
   const [open, setOpen] = useState(false);
   const [hasOpened, setHasOpened] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
   const listId = useId();
 
-  const items = activeContacts({ ...CONTACTS, whatsapp: whatsappHref ?? whatsappGeneralLink(lang) });
+  const items = activeContacts({ ...CONTACTS, ...socials, whatsapp: whatsappHref ?? whatsappGeneralLink(lang) });
 
   const close = useCallback(() => setOpen(false), []);
   const closeToButton = useCallback(() => {

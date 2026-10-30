@@ -14,7 +14,15 @@ describe('loadConfig', () => {
       usdRate: 500,
       onsiteCities: ['Алматы'],
       workingHours: '09:00–21:00',
+      instagramUrl: '',
+      tiktokUrl: '',
     });
+  });
+
+  it('reads social profile URLs', () => {
+    const config = loadConfig(env({ INSTAGRAM_URL: ' https://instagram.com/x ', TIKTOK_URL: 'https://tiktok.com/@x' }));
+    expect(config.instagramUrl).toBe('https://instagram.com/x');
+    expect(config.tiktokUrl).toBe('https://tiktok.com/@x');
   });
 
   it('parses USD_RATE and strips trailing slashes from URLs', () => {
