@@ -181,7 +181,7 @@ Kazakh copy was model-written and needs a native-speaker pass.
 | Видеонаблюдение и сети | Wi-Fi и локальная сеть в офисе или магазине (`wifi-i-lokalnaya-set`) | от 35 000 ₸ | 1–4 дн. |
 | Видеонаблюдение и сети | СКУД и домофоны (с выездом) (`skud-i-domofony`) | от 70 000 ₸ | 2–7 дн. |
 | Учёба и IT-наставничество | Разбор лабораторных работ с объяснением (`razbor-laboratornyh`) | от 4 000 ₸/урок | 1–1 дн. |
-| Учёба и IT-наставничество | Консультация и code review по технической части диплома (`konsultaciya-po-diplomu`) | от 5 000 ₸/час | 1–1 дн. |
+| Учёба и IT-наставничество | Дипломные проекты (IT) (`diplomnye-proekty`) | от 5 000 ₸/час | 1–1 дн. |
 | Учёба и IT-наставничество | Подготовка к защите дипломного проекта (`podgotovka-k-zashite`) | от 5 000 ₸/урок | 1–1 дн. |
 | Учёба и IT-наставничество | Помощь разобраться с материалами онлайн-курсов (`pomosh-s-kursami`) | от 3 500 ₸/урок | 1–1 дн. |
 - Voice: fixtures and `lib/i18n/dict` copy rewritten from first person singular to the team voice ("мы / работаем командой"). Not changed on purpose (factual, owner to decide): `lib/site/legal.ts` (states the seller is a self-employed individual, not a company) and `lib/site/person.ts` / contacts person block. The copy no longer names an individual or claims an IITU student bio.
@@ -419,3 +419,43 @@ Cities column lists every city page (25) in two columns on desktop, so the foote
 
 ### Verification
 Playwright (1280 and 375): contact pills equal width and 48px height; combobox filters "бот"; Ctrl+K opens search and "телеграм" returns Telegram bots; nav centre 640 = viewport centre 640; hero video muted and playing, poster only under reduced motion. Lighthouse mobile home on the final build (two runs): performance 1.00, LCP 1.1 s, TBT 20–30 ms, CLS 0 (an earlier build scored 0.88). Footer at 1280: brand column + 4 link columns (Услуги 12, Популярное 8, Города 10, Информация 4). Screenshots: `screenshots/r2-*.png`.
+
+## Round 3
+
+### Links
+`make check-links` (`frontend/scripts/check-links/`, fetch + node-html-parser, no browser) crawls /, /kk, /en and sitemap.xml: every `a[href]`, `#fragment` (id must exist on the target page), form action, `img`/`source`/`video` src and poster; wa.me, t.me, instagram, tiktok, tel: and mailto: are format-checked against `CONTACTS`. It runs in CI after the build (`npm start` in the background). Result on the final build: 409 pages, 36 691 references, 0 broken. The ~20 broken links from the brief did not reproduce: the only failures ever found were the 404 photos of the two new study products (`kursovye-proekty`, `praktika-otchet`), fixed below. The crawler reads server-rendered HTML, so links created only client-side (search results, modals) are not covered. Nothing was created or re-pointed because nothing else was broken. Instagram and TikTok are skipped because `CONTACTS` has no values for them.
+
+### Study category (`education`)
+Renamed «Учёба и IT-помощь студентам». Seven products, model: выполняем работу → объясняем код и решения → передаём проект, исходники и пояснения → помогаем подготовиться к защите. Prices (₸): лабораторные от 3 000, курсовые 15 000, дипломные 60 000, практика 8 000, онлайн-курсы 5 000 (занятие), репетитор 4 000 (занятие; Kaspi-объявления репетиторов по программированию: 5–12 тыс. ₸/час, «от» стоит ниже рынка), подготовка к защите 5 000 (занятие). Practice, online-course, tutor and defense-prep prices are my calibration against that market check, not owner-confirmed. FAQ: 7 per product in `fixtures/study_faqs.json` (override the product's own list). `konsultaciya-po-diplomu` became `diplomnye-proekty`; the seed now prunes products missing from the fixtures. No ad or merchant feed exists in the repo, so nothing needed excluding; study pages are organic only. JSON-LD (Service, FAQPage, BreadcrumbList) is rendered on every study page in ru/kk/en. Online courses and tutor are explanation-only (the FAQ says we do not write homework for submission): that deliberately departs from «выполняем работу» for those two. Kazakh study copy had a proofreading pass by a model (calques, terminology, word order fixed) but still needs a native speaker. The three explanation-only products (online courses, tutor, defense prep) have their own 4-step «how it works» instead of «we do the work».
+
+### Image review
+Every card image was screenshotted at 375 and 1280 (`screenshots/images/before|after/<width>/<category>__<slug>.png`, contact sheets in `screenshots/images/sheets/`, originals of replaced photos in `screenshots/images/replaced-originals/`). The review (done by Sonnet from the screenshots) found one pattern: most problems were fallback copies of a category photo reused for unrelated products, plus a few off-topic photos. 0 faces or text were cut off in the card crops; the focal-point map in `lib/media/images.ts` (`FOCUS`, applied as `object-position` on cards and gallery) covers 7 photos where the subject sits off-centre, set from the contact sheets. Cards share one aspect ratio (3:2) per grid, and `next/image` `fill` inside a fixed-aspect box means no layout shift. Product cards use the localized product title as alt, category tiles and banners the category name, the main gallery photo `photoAlt` (ru/kk/en); gallery thumbnails sit in buttons with an aria-label, and the hero phone photo and video poster are decorative (`alt=""`). All images have width/height attributes (1200x800, one 3:2 ratio for all 125 photos; hero phone 1400x933). Text over photos (category tiles, hub banner) sits on a gradient overlay; product-card text is below the photo. All photos are WebP with 256-828 px variants. Checked in the browser on 10 pages (home x3, catalog, category hubs, study product pages): 0 broken or non-WebP images, 0 eager images below the fold. Sources: `frontend/public/media/CREDITS.md`.
+
+| Image | Page | Problem | Fix |
+|---|---|---|---|
+| katalog-sait | websites | copy of websites.webp shared with 7 items | laptop with a store page (Pexels) |
+| mnogoyazychnyi-sait | websites | same shared copy | desk globe (Unsplash) |
+| sait-na-tilda | websites | same shared copy | wireframes + laptop |
+| sait-na-wordpress | websites | same shared copy | person editing a site |
+| kaspi-pay-halyk-oplata | ecommerce | hands-only, face cut off, shared copy | contactless card reader |
+| sinhronizaciya-1s-moysklad | ecommerce | card+laptop, unrelated to stock sync | warehouse worker with scanner (Pexels) |
+| instagram-direct-bot | bots | generic phone shared by 4 items | phone with social app icons |
+| ai-baza-znanii-dlya-sotrudnikov | ai | meeting, not a knowledge base | library shelves |
+| ai-prodazhi-i-podderzhka | ai | identical to ai.webp and golosovoi-bot | operator with headset (Pexels) |
+| golosovoi-bot | ai | identical to ai.webp | vintage studio microphone |
+| amocrm-nastroika, bitrix24-nastroika, crm-dlya-malogo-biznesa | automation | abstract analytics / shared photo, not CRM | kanban boards, team at laptops |
+| integraciya-1s, integraciya-kaspi-api, n8n-make-avtomatizaciya | automation | shared category photo | calculator on reports, phone on card reader, flow diagram on chalkboard |
+| uvedomleniya-o-zayavkah | automation | person's head cut off in the source photo | phone showing a notification |
+| zayavki-v-google-sheets | automation | woman with tablet, unrelated | hands on laptop with spreadsheet |
+| analitika-ga4-metrika, google-ads-nastroika, yandex-direct-nastroika | seo-maps | shared phone-map photo | analytics search, billboards, ad feed on laptop |
+| lechenie-ot-vzloma, obnovlenie-saita | support | shared server-rack photo | padlock on keyboard, OS update screen |
+| mobilnoe-prilozhenie-ios-android, pwa-prilozhenie, telegram-mini-app | apps | bots hand-with-phone shared by 3 | app icons on phone, PWA grid, chat on phone |
+| diplomnye-proekty, podgotovka-k-zashite, pomosh-s-kursami, razbor-laboratornyh | education | one classroom photo shared by 4 | graduation cap, speaker at projector, online course, electronics lab |
+| repetitor-programmirovaniya | education | hands on keyboard, no lesson | adult and boy at a laptop |
+| kursovye-proekty, praktika-otchet | education | no image (404) | new photos |
+| vps-nastroika, docker-kontejnery, ci-cd-avtodeploi, deploy-proekta, bekapy-sait-baza, monitoring-dostupnosti | devops | one server rack photo shared by 6 | patch panel, containers, code, rocket launch, hard drive, dashboard |
+| ustanovka-videonablyudeniya, skud-i-domofony, wifi-i-lokalnaya-set, udalennyi-prosmotr-s-telefona | onsite | one dashboard photo shared by 4 | CCTV cameras, intercom, Wi-Fi access point, phone + camera |
+| logotip, bannery-dlya-reklamy, prezentaciya, ui-ux-dizain | design | one desk photo shared by 4 | logo sketches, billboard, slides, wireframes |
+| categories/apps, devops, onsite, design (+ -2) | categories | reused another category's photo | own photos for each |
+
+Second pass: all 45 replaced or new card photos were re-viewed one by one on enlarged sheets (`screenshots/images/sheets/replaced-check-1..4.png`, 400 px tiles): each matches its product, no face, head or subject is cut off. All other images (about 45 cards, hero photos, remaining category photos) were reviewed and left as they were. `uvedomleniya-o-zayavkah` had a head cut off in the source photo itself (a focal point could not fix it): replaced with a phone showing a notification. Two borderline photos kept: `telegram-mini-app-magazin` (blurred crowd) and `logotip` (small hand lettering, unreadable at card size).
