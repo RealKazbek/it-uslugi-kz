@@ -11,3 +11,9 @@ export const contacts = {
   portfolioUrl: 'https://realkazbek.site',
   github: 'https://github.com/RealKazbek',
 } as const;
+
+/** Social profiles shown with brand icons. null = no account yet; the link is not rendered. */
+export const socials: { instagram: string | null; tiktok: string | null } = {
+  instagram: null,
+  tiktok: null,
+};

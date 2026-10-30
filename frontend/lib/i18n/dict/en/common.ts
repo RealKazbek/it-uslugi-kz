@@ -27,4 +27,10 @@ export const commonEn: CommonDict = {
   legalHeading: 'Status and payment',
   footerContacts: 'Contacts and how I work',
   breadcrumbHome: 'Home',
+  cta: { whatsapp: 'Message on WhatsApp', telegram: 'Telegram', call: 'Call', order: 'Order', details: 'Details', allProducts: 'Full catalog' },
+  menuOpen: 'Open menu',
+  menuClose: 'Close menu',
+  floatingWa: 'Message on WhatsApp',
+  timeline: 'Timeline',
+  social: 'Contact',
 };

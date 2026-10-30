@@ -28,4 +28,10 @@ export const commonRu: CommonDict = {
   legalHeading: 'Статус и оплата',
   footerContacts: 'Контакты и правила работы',
   breadcrumbHome: 'Главная',
+  cta: { whatsapp: 'Написать в WhatsApp', telegram: 'Telegram', call: 'Позвонить', order: 'Заказать', details: 'Подробнее', allProducts: 'Весь каталог' },
+  menuOpen: 'Открыть меню',
+  menuClose: 'Закрыть меню',
+  floatingWa: 'Написать в WhatsApp',
+  timeline: 'Срок',
+  social: 'Связь',
 };

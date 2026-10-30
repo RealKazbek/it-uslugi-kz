@@ -17,4 +17,8 @@ export const productRu: ProductDict = {
   payNote: 'Условия оплаты и статус исполнителя',
   leadTitle: 'Или оставьте заявку',
   leadText: 'Отвечу в выбранном вами канале: WhatsApp, Telegram, телефон или email. Контакт нужен только для ответа.',
+  galleryLabel: 'Фотографии',
+  photoAlt: (title, n) => `${title}: иллюстрация ${n}`,
+  orderTitle: 'Заказать',
+  orderHint: 'Название продукта подставится в сообщение само.',
 };

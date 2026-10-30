@@ -1,4 +1,5 @@
 import type { Channel } from '@/types/lead';
+import type { SortKey } from '@/lib/catalog/browse';
 import type { Unit } from '@/types/api';
 
 export interface Step {
@@ -33,6 +34,13 @@ export interface CommonDict {
   notFound: { title: string; text: string; home: string; catalog: string };
   legalHeading: string;
   breadcrumbHome: string;
+  /** Button labels; every CTA also carries an icon. */
+  cta: { whatsapp: string; telegram: string; call: string; order: string; details: string; allProducts: string };
+  menuOpen: string;
+  menuClose: string;
+  floatingWa: string;
+  timeline: string;
+  social: string;
 }
 
 export interface HomeDict {
@@ -56,6 +64,21 @@ export interface HomeDict {
   remoteNote: string;
   citiesHeading: string;
   citiesLead: string;
+  heroBadge: string;
+  heroPoints: string[];
+  stats: { products: string; categories: string; languages: string; cities: string };
+  catsLead: string;
+  popularLead: string;
+  howLead: string;
+  pricesHeading: string;
+  pricesLead: string;
+  pricesAll: string;
+  casesHeading: string;
+  casesLead: string;
+  casesAll: string;
+  trustHeading: string;
+  trustLead: string;
+  trustItems: Step[];
 }
 
 export interface CatalogDict {
@@ -75,6 +98,10 @@ export interface CatalogDict {
   hubH1: (name: string) => string;
   hubList: string;
   hubOthers: string;
+  sortLabel: string;
+  sorts: Record<SortKey, string>;
+  results: (n: number) => string;
+  reset: string;
 }
 
 export interface ProductDict {
@@ -94,6 +121,10 @@ export interface ProductDict {
   payNote: string;
   leadTitle: string;
   leadText: string;
+  galleryLabel: string;
+  photoAlt: (title: string, n: number) => string;
+  orderTitle: string;
+  orderHint: string;
 }
 
 export interface LeadDict {

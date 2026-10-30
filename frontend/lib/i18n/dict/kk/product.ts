@@ -17,4 +17,8 @@ export const productKk: ProductDict = {
   payNote: 'Төлем шарттары және орындаушының мәртебесі',
   leadTitle: 'Немесе өтінім қалдырыңыз',
   leadText: 'Таңдаған арнаңыз бойынша жауап беремін: WhatsApp, Telegram, телефон немесе email. Байланыс тек жауап беру үшін қажет.',
+  galleryLabel: 'Суреттер',
+  photoAlt: (title, n) => `${title}: ${n}-сурет`,
+  orderTitle: 'Тапсырыс беру',
+  orderHint: 'Өнім атауы хабарламаға өзі қойылады.',
 };

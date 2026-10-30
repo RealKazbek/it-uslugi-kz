@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Onest } from 'next/font/google';
 import type { ReactNode } from 'react';
 import '../globals.css';
+import { MotionProvider } from '@/components/motion/MotionProvider';
 import { Footer } from '@/components/features/layout/Footer';
 import { Header } from '@/components/features/layout/Header';
 import { MobileCtaBar } from '@/components/features/layout/MobileCtaBar';
@@ -41,10 +42,12 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
         <a href="#main" className="skip-link">
           {skip}
         </a>
-        <Header lang={lang} />
-        <main id="main">{children}</main>
-        <Footer lang={lang} />
-        <MobileCtaBar lang={lang} />
+        <MotionProvider>
+          <Header lang={lang} />
+          <main id="main">{children}</main>
+          <Footer lang={lang} />
+          <MobileCtaBar lang={lang} />
+        </MotionProvider>
       </body>
     </html>
   );

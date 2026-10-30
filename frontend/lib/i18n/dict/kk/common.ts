@@ -27,4 +27,10 @@ export const commonKk: CommonDict = {
   legalHeading: 'Мәртебе және төлем',
   footerContacts: 'Байланыс және жұмыс шарттары',
   breadcrumbHome: 'Басты бет',
+  cta: { whatsapp: 'WhatsApp-қа жазу', telegram: 'Telegram', call: 'Қоңырау шалу', order: 'Тапсырыс беру', details: 'Толығырақ', allProducts: 'Бүкіл каталог' },
+  menuOpen: 'Мәзірді ашу',
+  menuClose: 'Мәзірді жабу',
+  floatingWa: 'WhatsApp-қа жазу',
+  timeline: 'Мерзімі',
+  social: 'Байланыс',
 };

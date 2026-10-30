@@ -17,4 +17,8 @@ export const productEn: ProductDict = {
   payNote: 'Payment terms and my status',
   leadTitle: 'Or send a request',
   leadText: 'I will reply in the channel you choose: WhatsApp, Telegram, phone or email. Your contact is used only to reply.',
+  galleryLabel: 'Photos',
+  photoAlt: (title, n) => `${title}: illustration ${n}`,
+  orderTitle: 'Order',
+  orderHint: 'The service name is added to the message for you.',
 };

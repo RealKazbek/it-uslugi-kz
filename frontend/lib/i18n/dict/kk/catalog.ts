@@ -18,4 +18,8 @@ export const catalogKk: CatalogDict = {
   hubH1: (name) => `${name}: каталог және бағалар`,
   hubList: 'Санаттағы өнімдер',
   hubOthers: 'Басқа санаттар',
+  sortLabel: 'Сұрыптау',
+  sorts: { popular: 'Алдымен танымалдары', priceAsc: 'Алдымен арзандары', priceDesc: 'Алдымен қымбаттары', fast: 'Алдымен жылдамдары' },
+  results: (n) => `Табылды: ${n}`,
+  reset: 'Сүзгілерді тазалау',
 };

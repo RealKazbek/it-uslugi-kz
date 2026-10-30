@@ -18,4 +18,8 @@ export const catalogRu: CatalogDict = {
   hubH1: (name) => `${name}: каталог и цены`,
   hubList: 'Продукты в категории',
   hubOthers: 'Другие категории',
+  sortLabel: 'Сортировка',
+  sorts: { popular: 'Сначала популярные', priceAsc: 'Сначала дешевле', priceDesc: 'Сначала дороже', fast: 'Сначала быстрые' },
+  results: (n) => `Найдено: ${n}`,
+  reset: 'Сбросить фильтры',
 };

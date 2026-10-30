@@ -18,4 +18,8 @@ export const catalogEn: CatalogDict = {
   hubH1: (name) => `${name}: catalog and prices`,
   hubList: 'Products in this category',
   hubOthers: 'Other categories',
+  sortLabel: 'Sort',
+  sorts: { popular: 'Most popular', priceAsc: 'Price: low to high', priceDesc: 'Price: high to low', fast: 'Fastest first' },
+  results: (n) => `${n} ${n === 1 ? 'result' : 'results'}`,
+  reset: 'Reset filters',
 };
