@@ -304,7 +304,7 @@ Built by Haiku coders, every diff reviewed by the orchestrator. Existing Perne t
 ## Round 2 polish (2026-10-30)
 
 ### Prices cut to freelancer level
-`scripts/reprice.py` rewrote `price_from_kzt` in every fixture. Factor by category: websites/ecommerce 0.42, apps 0.45, design 0.5, bots/AI/automation/SEO 0.55, devops/support 0.6, on-site 0.65, education 0.8 (already cheap); rounded to 500/1 000/5 000/10 000 steps, floor 2 000. Explicit values: лендинг 40 000, Telegram-бот для заявок 25 000, сайт-визитка 55 000. The landing cut (−69%) is deeper than the 35–50% guideline to hit the requested example; sites overall are −58%. These are still estimates, not market-verified, and the earlier "10–20% below market" evidence above refers to the old prices. `/prices`, cards and JSON-LD read the API, so they follow the fixtures after a reseed (`SEED=1 make dev`).
+`scripts/reprice.py` rewrites `price_from_kzt` in every fixture, always from the original (pre-round-2) prices in git, so it is idempotent. Factor by category: websites, ecommerce, apps, design 0.5; bots, AI, automation, SEO 0.55; devops, support 0.6; on-site and education 0.65 (floor 2 000); rounded to 500/1 000/5 000/10 000 steps. Result per category: −29…−50%, within the requested range. Three explicit values: лендинг 40 000 (−69%), Telegram-бот для заявок 25 000 (−44%), сайт-визитка 60 000 (−54%). The landing figure is outside the 35–50% band only because the requested example fixes it. The prices are estimates, not market-verified. `/prices`, cards and JSON-LD read the API, so they follow the fixtures after a reseed (`SEED=1 make dev`).
 
 | Category | Product | Old, ₸ | New, ₸ | Change |
 |---|---|---:|---:|---:|
@@ -315,9 +315,9 @@ Built by Haiku coders, every diff reviewed by the orchestrator. Existing Perne t
 | ai | ai-opisaniya-tovarov | 30 000 | 17 000 | -43% |
 | ai | ai-prodazhi-i-podderzhka | 300 000 | 165 000 | -45% |
 | ai | golosovoi-bot | 150 000 | 85 000 | -43% |
-| apps | mobilnoe-prilozhenie-ios-android | 2 100 000 | 950 000 | -55% |
-| apps | pwa-prilozhenie | 150 000 | 70 000 | -53% |
-| apps | telegram-mini-app | 90 000 | 41 000 | -54% |
+| apps | mobilnoe-prilozhenie-ios-android | 2 100 000 | 1 050 000 | -50% |
+| apps | pwa-prilozhenie | 150 000 | 75 000 | -50% |
+| apps | telegram-mini-app | 90 000 | 45 000 | -50% |
 | automation | amocrm-nastroika | 130 000 | 70 000 | -46% |
 | automation | bitrix24-nastroika | 260 000 | 145 000 | -44% |
 | automation | crm-dlya-malogo-biznesa | 90 000 | 50 000 | -44% |
@@ -351,23 +351,23 @@ Built by Haiku coders, every diff reviewed by the orchestrator. Existing Perne t
 | devops | monitoring-dostupnosti | 25 000 | 15 000 | -40% |
 | devops | pochta-na-domene | 8 000 | 5 000 | -38% |
 | devops | vps-nastroika | 30 000 | 18 000 | -40% |
-| ecommerce | internet-magazin | 420 000 | 175 000 | -58% |
-| ecommerce | internet-magazin-cvetov | 380 000 | 160 000 | -58% |
-| ecommerce | internet-magazin-odezhdy | 400 000 | 170 000 | -57% |
-| ecommerce | kaspi-pay-halyk-oplata | 35 000 | 15 000 | -57% |
-| ecommerce | kaspi-xml | 25 000 | 11 000 | -56% |
-| ecommerce | katalog-s-zakazom-v-whatsapp | 80 000 | 34 000 | -57% |
-| ecommerce | magazin-s-kaspi-xml | 450 000 | 190 000 | -58% |
-| ecommerce | sinhronizaciya-1s-moysklad | 60 000 | 25 000 | -58% |
-| ecommerce | telegram-mini-app-magazin | 120 000 | 50 000 | -58% |
-| education | kompyuternaya-gramotnost | 3 000 | 2 500 | -17% |
-| education | konsultaciya-po-diplomu | 5 000 | 4 000 | -20% |
-| education | podgotovka-k-zashite | 5 000 | 4 000 | -20% |
-| education | pomosh-s-kursami | 3 500 | 3 000 | -14% |
-| education | python-s-nulya | 5 000 | 4 000 | -20% |
-| education | razbor-laboratornyh | 4 000 | 3 000 | -25% |
-| education | repetitor-programmirovaniya | 4 000 | 3 000 | -25% |
-| education | veb-razrabotka-dlya-nachinayushih | 5 000 | 4 000 | -20% |
+| ecommerce | internet-magazin | 420 000 | 210 000 | -50% |
+| ecommerce | internet-magazin-cvetov | 380 000 | 190 000 | -50% |
+| ecommerce | internet-magazin-odezhdy | 400 000 | 200 000 | -50% |
+| ecommerce | kaspi-pay-halyk-oplata | 35 000 | 18 000 | -49% |
+| ecommerce | kaspi-xml | 25 000 | 13 000 | -48% |
+| ecommerce | katalog-s-zakazom-v-whatsapp | 80 000 | 40 000 | -50% |
+| ecommerce | magazin-s-kaspi-xml | 450 000 | 230 000 | -49% |
+| ecommerce | sinhronizaciya-1s-moysklad | 60 000 | 30 000 | -50% |
+| ecommerce | telegram-mini-app-magazin | 120 000 | 60 000 | -50% |
+| education | kompyuternaya-gramotnost | 3 000 | 2 000 | -33% |
+| education | konsultaciya-po-diplomu | 5 000 | 3 500 | -30% |
+| education | podgotovka-k-zashite | 5 000 | 3 500 | -30% |
+| education | pomosh-s-kursami | 3 500 | 2 500 | -29% |
+| education | python-s-nulya | 5 000 | 3 500 | -30% |
+| education | razbor-laboratornyh | 4 000 | 2 500 | -38% |
+| education | repetitor-programmirovaniya | 4 000 | 2 500 | -38% |
+| education | veb-razrabotka-dlya-nachinayushih | 5 000 | 3 500 | -30% |
 | onsite | skud-i-domofony | 70 000 | 46 000 | -34% |
 | onsite | udalennyi-prosmotr-s-telefona | 10 000 | 6 500 | -35% |
 | onsite | ustanovka-videonablyudeniya | 45 000 | 29 000 | -36% |
@@ -389,24 +389,24 @@ Built by Haiku coders, every diff reviewed by the orchestrator. Existing Perne t
 | support | perenos-saita | 15 000 | 9 000 | -40% |
 | support | podderzhka-saita | 15 000 | 9 000 | -40% |
 | support | redizain | 60 000 | 36 000 | -40% |
-| websites | katalog-sait | 250 000 | 105 000 | -58% |
-| websites | korporativnyi-sait | 300 000 | 125 000 | -58% |
+| websites | katalog-sait | 250 000 | 125 000 | -50% |
+| websites | korporativnyi-sait | 300 000 | 150 000 | -50% |
 | websites | lending | 130 000 | 40 000 | -69% |
-| websites | mnogoyazychnyi-sait | 300 000 | 125 000 | -58% |
-| websites | sait-dlya-agentstva-nedvizhimosti | 160 000 | 65 000 | -59% |
-| websites | sait-dlya-avtoservisa | 130 000 | 55 000 | -58% |
-| websites | sait-dlya-fitnes-kluba | 140 000 | 60 000 | -57% |
-| websites | sait-dlya-kafe | 130 000 | 55 000 | -58% |
-| websites | sait-dlya-salona-krasoty | 130 000 | 55 000 | -58% |
-| websites | sait-dlya-stomatologii | 150 000 | 65 000 | -57% |
-| websites | sait-dlya-stroitelnoi-kompanii | 150 000 | 65 000 | -57% |
-| websites | sait-dlya-toi-zala | 130 000 | 55 000 | -58% |
-| websites | sait-dlya-uchebnogo-centra | 140 000 | 60 000 | -57% |
-| websites | sait-dlya-yurista | 130 000 | 55 000 | -58% |
-| websites | sait-na-tilda | 90 000 | 38 000 | -58% |
-| websites | sait-na-wordpress | 200 000 | 85 000 | -57% |
-| websites | sait-vizitka | 130 000 | 55 000 | -58% |
-| websites | veb-prilozhenie | 200 000 | 85 000 | -57% |
+| websites | mnogoyazychnyi-sait | 300 000 | 150 000 | -50% |
+| websites | sait-dlya-agentstva-nedvizhimosti | 160 000 | 80 000 | -50% |
+| websites | sait-dlya-avtoservisa | 130 000 | 65 000 | -50% |
+| websites | sait-dlya-fitnes-kluba | 140 000 | 70 000 | -50% |
+| websites | sait-dlya-kafe | 130 000 | 65 000 | -50% |
+| websites | sait-dlya-salona-krasoty | 130 000 | 65 000 | -50% |
+| websites | sait-dlya-stomatologii | 150 000 | 75 000 | -50% |
+| websites | sait-dlya-stroitelnoi-kompanii | 150 000 | 75 000 | -50% |
+| websites | sait-dlya-toi-zala | 130 000 | 65 000 | -50% |
+| websites | sait-dlya-uchebnogo-centra | 140 000 | 70 000 | -50% |
+| websites | sait-dlya-yurista | 130 000 | 65 000 | -50% |
+| websites | sait-na-tilda | 90 000 | 45 000 | -50% |
+| websites | sait-na-wordpress | 200 000 | 100 000 | -50% |
+| websites | sait-vizitka | 130 000 | 60 000 | -54% |
+| websites | veb-prilozhenie | 200 000 | 100 000 | -50% |
 
 ### Site search approach
 Prebuilt client index, not Postgres FTS + pg_trgm. Reason: ~100 products + 12 categories + 36 FAQ + a few pages is a few KB per language; matching in the browser is instant (no round trip per keystroke), needs no new DB extension or migration, and ru/kk/en, typos and translit are handled in one place (`lib/search`: normalize, translit, synonyms, Damerau-Levenshtein on phonetic keys). The index is served by `/api/search-index?lang=` (ISR 1 h), loaded on first hover/focus/open, cached in memory. Titles of the other two languages are in each doc's keywords, so queries in any language still match. `/search?q=` renders the same engine server-side with noindex. Revisit with pg_trgm if the catalog grows beyond a few thousand items.

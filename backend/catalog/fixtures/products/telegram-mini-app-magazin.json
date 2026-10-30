@@ -55,7 +55,7 @@
     "Taking payments inside the app, which can be added separately through a provider API by agreement",
     "The server it runs on, set up in your name and paid at the provider rate"
   ],
-  "price_from_kzt": 50000,
+  "price_from_kzt": 60000,
   "unit": "once",
   "days_min": 14,
   "days_max": 25,

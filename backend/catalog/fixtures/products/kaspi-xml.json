@@ -52,7 +52,7 @@
     "Product photos and descriptions, which you provide",
     "Hosting for the file if you have none, paid at the provider rate"
   ],
-  "price_from_kzt": 11000,
+  "price_from_kzt": 13000,
   "unit": "once",
   "days_min": 2,
   "days_max": 4,

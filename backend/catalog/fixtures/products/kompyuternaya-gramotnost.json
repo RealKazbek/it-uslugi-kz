@@ -55,7 +55,7 @@
     "Buying a computer or phone; we can only advise what to look at",
     "In-person lessons; they run online, with a meeting in Almaty possible by agreement"
   ],
-  "price_from_kzt": 2500,
+  "price_from_kzt": 2000,
   "unit": "lesson",
   "days_min": 1,
   "days_max": 3,

@@ -2,13 +2,17 @@
 import glob
 import json
 import math
+import subprocess
+
+# Prices are always computed from the original (pre-round-2) fixtures so the script is idempotent.
+BASE = '2b1bab2^'
 
 FACTOR = {
-    'websites': 0.42, 'ecommerce': 0.42, 'apps': 0.45, 'design': 0.5,
+    'websites': 0.5, 'ecommerce': 0.5, 'apps': 0.5, 'design': 0.5,
     'bots': 0.55, 'ai': 0.55, 'automation': 0.55, 'seo-maps': 0.55,
-    'devops': 0.6, 'support': 0.6, 'onsite': 0.65, 'education': 0.8,
+    'devops': 0.6, 'support': 0.6, 'onsite': 0.65, 'education': 0.65,
 }
-OVERRIDE = {'lending': 40000, 'telegram-bot-zayavki': 25000, 'sait-vizitka': 55000}
+OVERRIDE = {'lending': 40000, 'telegram-bot-zayavki': 25000, 'sait-vizitka': 60000}
 
 
 def nice(value: float) -> int:
@@ -21,7 +25,7 @@ rows = []
 for path in sorted(glob.glob('backend/catalog/fixtures/products/*.json')):
     with open(path, encoding='utf-8') as fh:
         data = json.load(fh)
-    old = data['price_from_kzt']
+    old = json.loads(subprocess.check_output(['git', 'show', f'{BASE}:{path}'], text=True))['price_from_kzt']
     new = OVERRIDE.get(data['slug']) or nice(old * FACTOR[data['category']])
     data['price_from_kzt'] = new
     with open(path, 'w', encoding='utf-8') as fh:

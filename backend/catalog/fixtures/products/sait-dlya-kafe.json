@@ -55,7 +55,7 @@
     "Online payment for orders: by agreement via a provider's API, as a separate stage",
     "Integration with your POS and stock system"
   ],
-  "price_from_kzt": 55000,
+  "price_from_kzt": 65000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,

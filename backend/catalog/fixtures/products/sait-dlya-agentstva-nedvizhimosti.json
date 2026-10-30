@@ -55,7 +55,7 @@
     "Automatic export to Krisha.kz and other listing portals (a separate integration)",
     "Legal support for transactions"
   ],
-  "price_from_kzt": 65000,
+  "price_from_kzt": 80000,
   "unit": "once",
   "days_min": 10,
   "days_max": 15,

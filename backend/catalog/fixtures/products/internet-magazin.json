@@ -55,7 +55,7 @@
     "Online card payment, which can be added separately through a provider API by agreement",
     "Domain and hosting, paid at the provider rates"
   ],
-  "price_from_kzt": 175000,
+  "price_from_kzt": 210000,
   "unit": "once",
   "days_min": 15,
   "days_max": 30,

@@ -55,7 +55,7 @@
     "Servers and hosting are paid separately",
     "Online payments: possible by agreement through a provider API, as a separate stage"
   ],
-  "price_from_kzt": 85000,
+  "price_from_kzt": 100000,
   "unit": "once",
   "days_min": 20,
   "days_max": 40,

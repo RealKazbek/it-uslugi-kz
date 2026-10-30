@@ -55,7 +55,7 @@
     "Bank and payment provider commission: its terms are set by the bank, not by us",
     "Accounting and fiscal receipts: if you need integration with a cash register, that is separate work"
   ],
-  "price_from_kzt": 15000,
+  "price_from_kzt": 18000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,
