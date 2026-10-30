@@ -8,7 +8,7 @@ export function Card({ className, interactive = false, ...props }: DivProps & { 
   return (
     <div
       className={cn(
-        'rounded-xl border border-border bg-card text-card-foreground shadow-card',
+        'rounded-xl border border-line bg-card text-card-foreground',
         interactive && 'transition-shadow duration-base ease-out hover:shadow-card-hover',
         className,
       )}

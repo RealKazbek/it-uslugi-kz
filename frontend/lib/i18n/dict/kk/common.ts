@@ -5,7 +5,7 @@ export const commonKk: CommonDict = {
   switchLabel: 'Сайт тілі',
   skip: 'Мазмұнға өту',
   menu: 'Негізгі мәзір',
-  nav: { catalog: 'Каталог', prices: 'Бағалар', contacts: 'Байланыс' },
+  nav: { catalog: 'Каталог', prices: 'Бағалар', reviews: 'Пікірлер', contacts: 'Байланыс' },
   wa: 'WhatsApp',
   tg: 'Telegram',
   faq: 'Жиі қойылатын сұрақтар',

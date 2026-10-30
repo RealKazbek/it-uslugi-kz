@@ -12,7 +12,7 @@ export function FaqSection({ title, items }: FaqSectionProps) {
   return (
     <Section labelledBy="faq">
       <Container className="grid gap-8 lg:grid-cols-[1fr_1.6fr] lg:gap-16">
-        <h2 id="faq" className="text-3xl font-extrabold md:text-4xl">
+        <h2 id="faq" className="text-h2">
           {title}
         </h2>
         <FaqList items={items} />

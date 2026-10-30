@@ -14,18 +14,20 @@ import { MobileMenu, type NavIcon, type NavLink } from './MobileMenu';
 
 const LANG_NAMES = Object.fromEntries(LANGS.map((code) => [code, getDict(code).common.langName])) as Record<Lang, string>;
 
-function navLinks(lang: Lang, nav: CommonDict['nav']): (NavLink & { icon: NavIcon })[] {
-  return [
+function navLinks(lang: Lang, nav: CommonDict['nav'], hasReviews: boolean): (NavLink & { icon: NavIcon })[] {
+  const links: (NavLink & { icon: NavIcon })[] = [
     { href: localePath(lang, '/catalog'), label: nav.catalog, icon: 'catalog' },
     { href: localePath(lang, '/prices'), label: nav.prices, icon: 'prices' },
-    { href: localePath(lang, '/contacts'), label: nav.contacts, icon: 'contacts' },
   ];
+  if (hasReviews) links.push({ href: localePath(lang, '/reviews'), label: nav.reviews, icon: 'reviews' });
+  links.push({ href: localePath(lang, '/contacts'), label: nav.contacts, icon: 'contacts' });
+  return links;
 }
 
 /** Sticky top bar: logo, desktop nav and WhatsApp from md, a sheet menu below md. */
-export function Header({ lang }: { lang: Lang }) {
+export function Header({ lang, hasReviews }: { lang: Lang; hasReviews: boolean }) {
   const d = getDict(lang).common;
-  const links = navLinks(lang, d.nav);
+  const links = navLinks(lang, d.nav, hasReviews);
   const whatsappHref = whatsappGeneralLink(lang);
 
   return (

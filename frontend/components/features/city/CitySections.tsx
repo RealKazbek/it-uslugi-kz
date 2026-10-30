@@ -34,7 +34,7 @@ export function CityFocusSection({ heading, lead, items }: { heading: string; le
     <Section labelledBy="focus" className="bg-muted">
       <Container className="grid gap-8 lg:grid-cols-[1fr_2fr]">
         <div className="space-y-3">
-          <h2 id="focus" className="text-3xl font-extrabold">{heading}</h2>
+          <h2 id="focus" className="text-h2">{heading}</h2>
           <p className="text-lg text-muted-foreground">{lead}</p>
         </div>
         <CityFocus items={items} />
@@ -47,7 +47,7 @@ export function CityCatalogSection({ heading, groups }: { heading: string; group
   return (
     <Section labelledBy="catalog">
       <Container className="space-y-8">
-        <h2 id="catalog" className="text-3xl font-extrabold">{heading}</h2>
+        <h2 id="catalog" className="text-h2">{heading}</h2>
         <CityCatalogLinks groups={groups} />
       </Container>
     </Section>
@@ -58,7 +58,7 @@ export function CityNearbySection({ heading, cities }: { heading: string; cities
   return (
     <Section labelledBy="nearby" className="bg-muted">
       <Container className="space-y-8">
-        <h2 id="nearby" className="text-3xl font-extrabold">{heading}</h2>
+        <h2 id="nearby" className="text-h2">{heading}</h2>
         <ul className="flex flex-wrap gap-3">
           {cities.map((city) => (
             <li key={city.href}>
@@ -81,7 +81,7 @@ export function CityFaqSection({ heading, view }: { heading: string; view: Pick<
   return (
     <Section labelledBy="faq">
       <Container className="grid gap-8 lg:grid-cols-[1fr_1.6fr] lg:gap-16">
-        <h2 id="faq" className="text-3xl font-extrabold">{heading}</h2>
+        <h2 id="faq" className="text-h2">{heading}</h2>
         <FaqList items={view.faq} />
       </Container>
     </Section>

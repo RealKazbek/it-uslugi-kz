@@ -73,7 +73,7 @@ export default async function PricesPage({ params }: PageProps) {
       <Section labelledBy="legal">
         <Container>
           <Card className="max-w-prose space-y-3 p-6 md:p-8">
-            <h2 id="legal" className="text-2xl">{d.prices.legalHeading}</h2>
+            <h2 id="legal" className="text-h3">{d.prices.legalHeading}</h2>
             <p>{legal[lang]}</p>
           </Card>
         </Container>

@@ -19,6 +19,7 @@ class ProductCardLocalSerializer(serializers.Serializer):  # type: ignore[type-a
     unit = serializers.CharField(read_only=True)
     days_min = serializers.IntegerField(read_only=True)
     days_max = serializers.IntegerField(read_only=True)
+    is_onsite = serializers.BooleanField(read_only=True)
 
 
 class ProductLocalSerializer(ProductCardLocalSerializer):

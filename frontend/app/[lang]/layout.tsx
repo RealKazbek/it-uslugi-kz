@@ -9,6 +9,7 @@ import { Header } from '@/components/features/layout/Header';
 import { FloatingWhatsApp } from '@/components/features/layout/FloatingWhatsApp';
 import { MobileCtaBar } from '@/components/features/layout/MobileCtaBar';
 import { callLink, telegramLink, whatsappGeneralLink } from '@/lib/format/links';
+import { getReviewsSafe } from '@/lib/api/reviews';
 import { getDict } from '@/lib/i18n/dict';
 import { HTML_LANG, LANGS, isLang } from '@/lib/i18n/locales';
 
@@ -38,6 +39,7 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
   const { lang } = await params;
   if (!isLang(lang)) notFound();
   const d = getDict(lang).common;
+  const hasReviews = (await getReviewsSafe()).results.length > 0;
 
   return (
     <html lang={HTML_LANG[lang]} className={fontSans.variable}>
@@ -46,9 +48,9 @@ export default async function LangLayout({ children, params }: LangLayoutProps) 
           {d.skip}
         </a>
         <MotionProvider>
-          <Header lang={lang} />
+          <Header lang={lang} hasReviews={hasReviews} />
           <main id="main">{children}</main>
-          <Footer lang={lang} />
+          <Footer lang={lang} hasReviews={hasReviews} />
           <MobileCtaBar
             whatsappHref={whatsappGeneralLink(lang)}
             telegramHref={telegramLink()}

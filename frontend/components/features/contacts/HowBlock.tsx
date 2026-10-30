@@ -11,7 +11,7 @@ export function HowBlock({ lang, howHeading, howLines, legalHeading }: { lang: L
     <>
       <Section labelledBy="how" className="bg-muted">
         <Container className="space-y-8">
-          <h2 id="how" className="text-3xl font-extrabold">{howHeading}</h2>
+          <h2 id="how" className="text-h2">{howHeading}</h2>
           <ul className="grid gap-4 md:grid-cols-2">
             {howLines.map((line) => (
               <li key={line}>
@@ -26,7 +26,7 @@ export function HowBlock({ lang, howHeading, howLines, legalHeading }: { lang: L
       </Section>
       <Section labelledBy="legal">
         <Container className="space-y-6">
-          <h2 id="legal" className="text-3xl font-extrabold">{legalHeading}</h2>
+          <h2 id="legal" className="text-h2">{legalHeading}</h2>
           <Card className="max-w-prose p-6 md:p-8">
             <p>{legal[lang]}</p>
           </Card>

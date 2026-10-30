@@ -37,6 +37,7 @@ class ProductCardFullSerializer(serializers.ModelSerializer):  # type: ignore[ty
             "unit",
             "days_min",
             "days_max",
+            "is_onsite",
         ]
 
 
@@ -78,6 +79,7 @@ class ProductFullSerializer(serializers.ModelSerializer):  # type: ignore[type-a
             "unit",
             "days_min",
             "days_max",
+            "is_onsite",
             "faqs",
             "related",
             "updated_at",

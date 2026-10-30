@@ -1,6 +1,6 @@
 {
   "slug": "domen-hosting-ssl",
-  "category": "support",
+  "category": "devops",
   "title_ru": "Домен, хостинг и SSL",
   "title_kk": "Домен, хостинг және SSL",
   "title_en": "Domain, hosting and SSL setup",
@@ -91,5 +91,6 @@
       "answer_en": "Usually the certificate has expired or was never installed. I check the cause, install a new certificate and turn on auto-renewal so it does not happen again.",
       "sort": 2
     }
-  ]
+  ],
+  "is_onsite": false
 }

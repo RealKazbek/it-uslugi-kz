@@ -9,12 +9,13 @@ import { FooterContacts } from './FooterContacts';
 import { FooterSocials } from './FooterSocials';
 
 /** Light footer: brand, site map, contacts and socials. Bottom padding clears the mobile CTA bar. */
-export function Footer({ lang }: { lang: Lang }) {
+export function Footer({ lang, hasReviews }: { lang: Lang; hasReviews: boolean }) {
   const d = getDict(lang).common;
   const year = new Date().getFullYear();
   const links = [
     { href: localePath(lang, '/catalog'), label: d.nav.catalog },
     { href: localePath(lang, '/prices'), label: d.nav.prices },
+    ...(hasReviews ? [{ href: localePath(lang, '/reviews'), label: d.nav.reviews }] : []),
     { href: localePath(lang, '/contacts'), label: d.nav.contacts },
   ];
 

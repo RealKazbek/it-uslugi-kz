@@ -36,7 +36,7 @@ export function Hero({ lang, stats }: { lang: Lang; stats: HeroStatsInput }) {
             <MapPin aria-hidden="true" className="size-4" />
             {d.home.heroBadge}
           </Badge>
-          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-5xl xl:text-6xl">{d.home.h1}</h1>
+          <h1 className="text-display tracking-tight">{d.home.h1}</h1>
           <p className="max-w-xl text-lg text-muted-foreground">{d.home.lead}</p>
           <ul className="space-y-2">
             {d.home.heroPoints.map((point) => (

@@ -9,7 +9,7 @@ export function PriceTable({ groups, cols }: { groups: PriceGroup[]; cols: strin
       {groups.map((group) => (
         <section key={group.slug} aria-labelledby={`prices-${group.slug}`}>
           <Card className="space-y-4 p-4 md:p-6">
-            <h2 id={`prices-${group.slug}`} className="text-2xl">{group.name}</h2>
+            <h2 id={`prices-${group.slug}`} className="text-h3">{group.name}</h2>
             <div className="-mx-4 overflow-x-auto px-4 md:mx-0 md:px-0">
               <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
                 <thead>

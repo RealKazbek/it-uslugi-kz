@@ -79,7 +79,7 @@ export default async function ContactsPage({ params }: PageProps) {
       </PageHeader>
       <Section labelledBy="where" className="bg-muted">
         <Container className="space-y-8">
-          <h2 id="where" className="text-3xl font-extrabold">{d.contacts.where}</h2>
+          <h2 id="where" className="text-h2">{d.contacts.where}</h2>
           <ContactList items={contactItems(lang)} />
         </Container>
       </Section>
@@ -87,7 +87,7 @@ export default async function ContactsPage({ params }: PageProps) {
       <HowBlock lang={lang} howHeading={d.contacts.how} howLines={d.contacts.howLines} legalHeading={d.contacts.legal} />
       <Section labelledBy="form" className="pb-24 md:pb-14">
         <Container className="space-y-5">
-          <h2 id="form" className="text-3xl font-extrabold">{d.contacts.formTitle}</h2>
+          <h2 id="form" className="text-h2">{d.contacts.formTitle}</h2>
           <p className="max-w-prose text-lg text-muted-foreground">{d.contacts.formText}</p>
           <LeadForm lang={lang} product="" pageUrl={pageUrl} labels={d.lead} />
         </Container>

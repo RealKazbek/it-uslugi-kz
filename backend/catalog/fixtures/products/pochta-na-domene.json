@@ -1,6 +1,6 @@
 {
   "slug": "pochta-na-domene",
-  "category": "support",
+  "category": "devops",
   "title_ru": "Почта на домене",
   "title_kk": "Доменде пошта",
   "title_en": "Business email on your domain",
@@ -91,5 +91,6 @@
       "answer_en": "Yes. I add the mailbox to the mail app on your iPhone or Android and check that messages arrive and send correctly.",
       "sort": 2
     }
-  ]
+  ],
+  "is_onsite": false
 }

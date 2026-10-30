@@ -16,7 +16,7 @@ export function SectionHeading({ id, eyebrow, title, lead, link }: SectionHeadin
     <div className="flex flex-wrap items-end justify-between gap-4">
       <div className="max-w-2xl space-y-3">
         {eyebrow && <p className="text-sm font-semibold uppercase tracking-wide text-primary-hover">{eyebrow}</p>}
-        <h2 id={id} className="text-3xl font-extrabold md:text-4xl">
+        <h2 id={id} className="text-h2">
           {title}
         </h2>
         {lead && <p className="text-lg text-muted-foreground">{lead}</p>}

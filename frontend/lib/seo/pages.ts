@@ -29,6 +29,7 @@ export async function listPages(): Promise<PageRef[]> {
     { path: '/', langs: LANGS },
     { path: '/catalog', langs: LANGS },
     { path: '/prices', langs: LANGS },
+    { path: '/reviews', langs: LANGS },
     { path: '/contacts', langs: LANGS },
     ...categories.map((slug) => ({ path: `/catalog/${slug}`, langs: LANGS })),
     ...products.map((slug) => ({ path: `/products/${slug}`, langs: LANGS })),

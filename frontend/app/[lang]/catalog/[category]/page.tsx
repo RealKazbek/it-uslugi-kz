@@ -100,7 +100,7 @@ export default async function CategoryPage({ params }: PageProps) {
       </Section>
       <Section labelledBy="list" className="pt-0 md:pt-0">
         <Container className="space-y-6">
-          <h2 id="list" className="text-2xl font-bold">{d.hubList}</h2>
+          <h2 id="list" className="text-h3">{d.hubList}</h2>
           <div className={GRID_CLASS}>
             {cards.map((card) => (
               <ProductCard key={card.slug} card={card} labels={cardLabels(dict)} />
@@ -110,7 +110,7 @@ export default async function CategoryPage({ params }: PageProps) {
       </Section>
       <Section labelledBy="others" className="pt-0 md:pt-0">
         <Container className="space-y-6">
-          <h2 id="others" className="text-2xl font-bold">{d.hubOthers}</h2>
+          <h2 id="others" className="text-h3">{d.hubOthers}</h2>
           <CategoryTiles
             categories={others}
             hrefFor={(slug) => localePath(lang, `/catalog/${slug}`)}

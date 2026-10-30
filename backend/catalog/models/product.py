@@ -49,6 +49,7 @@ class Product(models.Model):
         blank=True,
         verbose_name="похожие услуги",
     )
+    is_onsite = models.BooleanField("выездная услуга", default=False)
     is_active = models.BooleanField("опубликовано", default=True)
     sort = models.PositiveIntegerField("порядок", default=0, db_index=True)
     updated_at = models.DateTimeField("обновлено", auto_now=True)

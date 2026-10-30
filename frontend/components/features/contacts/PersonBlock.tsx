@@ -7,7 +7,7 @@ export function PersonBlock({ heading, name, role, facts }: { heading: string; n
   return (
     <Section labelledBy="who">
       <Container className="space-y-8">
-        <h2 id="who" className="text-3xl font-extrabold">{heading}</h2>
+        <h2 id="who" className="text-h2">{heading}</h2>
         <Card className="max-w-prose space-y-4 p-6 md:p-8">
           <p className="text-lg">
             <strong>{name}</strong>, {role}.

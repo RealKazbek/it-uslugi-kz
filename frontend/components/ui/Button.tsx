@@ -4,7 +4,7 @@ import type { ButtonHTMLAttributes, ReactNode } from 'react';
 import { cn } from '@/lib/ui/cn';
 
 /**
- * Button look. Variants: default (accent), secondary, outline, ghost, whatsapp, telegram, link.
+ * Button look. Variants: default (WhatsApp green = primary CTA), secondary, outline, ghost, whatsapp, telegram, link.
  * Sizes: sm, default, lg, icon. Every size keeps a 44px touch target except `sm` (40px, use in dense UI only).
  */
 export const buttonVariants = cva(
@@ -12,12 +12,12 @@ export const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: 'bg-primary text-primary-foreground hover:bg-primary-hover',
+        default: 'bg-whatsapp text-whatsapp-foreground hover:bg-whatsapp-hover',
         secondary: 'bg-secondary text-secondary-foreground hover:bg-muted',
         outline: 'border border-input bg-background text-foreground hover:bg-muted',
         ghost: 'text-foreground hover:bg-muted',
-        whatsapp: 'bg-whatsapp text-whatsapp-foreground hover:bg-whatsapp/90',
-        telegram: 'bg-telegram text-telegram-foreground hover:bg-telegram/90',
+        whatsapp: 'bg-whatsapp text-whatsapp-foreground hover:bg-whatsapp-hover',
+        telegram: 'border border-line bg-surface-100 text-ink hover:bg-surface-200 [&_svg]:text-telegram',
         link: 'h-auto min-h-0 px-0 text-primary underline hover:text-primary-hover',
       },
       size: {

@@ -40,6 +40,7 @@ class ProductAdmin(admin.ModelAdmin[Product]):
                     "unit",
                     "days_min",
                     "days_max",
+                    "is_onsite",
                     "related",
                     "updated_at",
                 ),

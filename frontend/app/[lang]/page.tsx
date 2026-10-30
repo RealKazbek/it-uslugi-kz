@@ -7,10 +7,12 @@ import { CitiesSection } from '@/components/features/home/CitiesSection';
 import { CtaSection } from '@/components/features/home/CtaSection';
 import { FaqSection } from '@/components/features/home/FaqSection';
 import { HowSection } from '@/components/features/home/HowSection';
+import { ReviewsSection } from '@/components/features/home/ReviewsSection';
 import { PopularSection } from '@/components/features/home/PopularSection';
 import { PricesSection } from '@/components/features/home/PricesSection';
 import { TrustSection } from '@/components/features/home/TrustSection';
 import { JsonLd } from '@/components/features/seo/JsonLd';
+import { getReviewsSafe } from '@/lib/api/reviews';
 import { cardLabels } from '@/components/features/catalog/ProductCard';
 import { getCities } from '@/lib/api/cities';
 import { loadCatalog } from '@/lib/catalog/load';
@@ -58,6 +60,7 @@ export default async function HomePage({ params }: PageProps) {
   const featured = catalog.groups.flatMap((group) => (group.cards[0] ? [group.cards[0]] : []));
   const faq = [...h.faq, { q: h.legalQuestion, a: legal[lang] }];
   const cities = await citiesFor(lang);
+  const reviews = await getReviewsSafe();
   const hrefFor = (slug: string) => localePath(lang, `/catalog/${slug}`);
   const stats = [
     { value: catalog.cards.length, label: h.stats.products },
@@ -81,6 +84,16 @@ export default async function HomePage({ params }: PageProps) {
       <CategoriesSection title={h.catsHeading} lead={h.catsLead} categories={categories} hrefFor={hrefFor} countLabel={d.catalog.countLabel} />
       <ChannelsStrip title={h.channelsTitle} />
       <HowSection title={h.howHeading} lead={h.howLead} steps={h.howSteps} />
+      {reviews.results.length > 0 && (
+        <ReviewsSection
+          title={d.reviews.title}
+          lead={d.reviews.lead}
+          reviews={reviews.results}
+          allLabel={d.reviews.all}
+          allHref={localePath(lang, '/reviews')}
+          ratingLabel={d.reviews.ratingLabel}
+        />
+      )}
       <PricesSection
         title={h.pricesHeading}
         lead={h.pricesLead}

@@ -46,7 +46,7 @@ export function TrustSection({ title, lead, items, stats }: TrustSectionProps) {
           {stats.map((stat) => (
             <div key={stat.label} className="space-y-1">
               <dt className="text-sm text-muted-foreground">{stat.label}</dt>
-              <dd className="text-4xl font-extrabold">
+              <dd className="text-stat">
                 <CountUp value={stat.value} />
               </dd>
             </div>

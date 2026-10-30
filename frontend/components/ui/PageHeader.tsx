@@ -17,7 +17,7 @@ export function PageHeader({ crumbs, h1, lead, children }: PageHeaderProps) {
     <Section>
       <Container className="space-y-5">
         {crumbs}
-        <h1 className="text-3xl font-extrabold md:text-5xl">{h1}</h1>
+        <h1 className="text-display">{h1}</h1>
         {lead && <p className="max-w-prose text-lg text-muted-foreground">{lead}</p>}
         {children}
       </Container>

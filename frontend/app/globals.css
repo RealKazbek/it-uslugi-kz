@@ -8,36 +8,66 @@
  * Light theme only.
  */
 :root {
-  --background: 255 255 255; /* #FFFFFF */
-  --foreground: 17 24 39; /* #111827 */
-  --card: 255 255 255;
-  --card-foreground: 17 24 39;
-  --muted: 245 246 248; /* #F5F6F8 soft surface */
-  --muted-foreground: 91 100 114; /* #5B6472, 5.98:1 on white */
-  --border: 229 231 235; /* #E5E7EB hairlines */
+  /* Perne palette. Channels are space-separated RGB so Tailwind can apply alpha. */
+  --surface-100: 255 255 255; /* #FFFFFF page, cards */
+  --surface-200: 246 247 249; /* #F6F7F9 soft sections */
+  --surface-tint: 253 241 239; /* #FDF1EF warm highlight blocks */
+  --ink: 15 17 21; /* #0F1115 text */
+  --ink-muted: 91 97 112; /* #5B6170 secondary text, 6.2:1 on white */
+  --line: 230 231 235; /* #E6E7EB hairlines and card borders */
+  --brand: 217 45 32; /* #D92D20 badges, icons, links, focus only */
+  --brand-soft: 253 236 234; /* #FDECEA badge and highlight background */
+  --whatsapp: 21 128 61; /* #15803D primary CTA, 5.0:1 with white text */
+  --whatsapp-hover: 17 105 50; /* #116932 */
+  --telegram: 34 158 217; /* #229ED9 icon only, never a text or fill colour */
   --input: 134 142 155; /* #868E9B form-field outline, >= 3:1 */
-  --ring: 217 45 32;
-  --primary: 217 45 32; /* #D92D20 warm red, 4.83:1 with white text */
+  --success: 21 128 61;
+
+  /* Legacy semantic names used by components; they point at the Perne tokens above. */
+  --background: var(--surface-100);
+  --foreground: var(--ink);
+  --muted: var(--surface-200);
+  --muted-foreground: var(--ink-muted);
+  --border: var(--line);
+  --card: var(--surface-100);
+  --card-foreground: var(--ink);
+  --ring: var(--brand);
+  --primary: var(--brand);
   --primary-foreground: 255 255 255;
-  --primary-hover: 180 35 24; /* #B42318 */
-  --secondary: 241 242 244; /* #F1F2F4 */
-  --secondary-foreground: 17 24 39;
-  --accent: 254 241 239; /* #FEF1EF tint of primary */
+  --primary-hover: 180 35 24; /* #B42318 link hover */
+  --secondary: var(--surface-200);
+  --secondary-foreground: var(--ink);
+  --accent: var(--brand-soft);
   --accent-foreground: 180 35 24;
-  --success: 31 122 77; /* #1F7A4D */
-  --whatsapp: 15 122 65; /* #0F7A41, 5.41:1 with white text */
   --whatsapp-foreground: 255 255 255;
-  --telegram: 22 112 168; /* #1670A8, 5.36:1 with white text */
-  --telegram-foreground: 255 255 255;
-  --radius: 0.75rem;
-  --shadow-card: 0 1px 2px rgb(17 24 39 / 0.05), 0 1px 3px rgb(17 24 39 / 0.06);
-  --shadow-card-hover: 0 4px 8px rgb(17 24 39 / 0.06), 0 12px 28px rgb(17 24 39 / 0.1);
-  --shadow-pop: 0 8px 24px rgb(17 24 39 / 0.14);
+
+  /* Type scale (Onest). Display and h2 shrink on small screens. */
+  --fs-display: 2.5rem; --lh-display: 2.75rem;
+  --fs-h2: 1.75rem; --lh-h2: 2.125rem;
+  --fs-stat: 2.25rem; --lh-stat: 2.5rem;
+
+  /* Spacing scale: 8 / 16 / 24 / 48 / 80. */
+  --space-1: 8px; --space-2: 16px; --space-3: 24px; --space-4: 48px; --space-5: 80px;
+
+  /* Radii: sm 8, md 12 (buttons), lg 20 (cards, images), full pills. */
+  --radius-sm: 8px; --radius-md: 12px; --radius-lg: 20px;
+
+  /* Cards rest on a 1px line border; the shadow appears on hover only. */
+  --shadow-card-hover: 0 4px 8px rgb(15 17 21 / 0.06), 0 12px 28px rgb(15 17 21 / 0.1);
+  --shadow-pop: 0 8px 24px rgb(15 17 21 / 0.14);
   --duration-fast: 150ms;
   --duration-base: 200ms;
   --duration-slow: 300ms;
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   color-scheme: light;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-display: 4rem; --lh-display: 4.25rem;
+    --fs-h2: 2.5rem; --lh-h2: 2.875rem;
+    --fs-stat: 2.75rem; --lh-stat: 3rem;
+  }
 }
 
 @layer base {
@@ -46,7 +76,7 @@
   }
   body {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.5;
   }
   h1,
   h2,
@@ -88,7 +118,7 @@
     background: rgb(var(--primary));
     color: rgb(var(--primary-foreground));
     padding: 0.5rem 0.75rem;
-    border-radius: var(--radius);
+    border-radius: var(--radius-md);
   }
   .skip-link:focus {
     top: 0.5rem;

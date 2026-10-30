@@ -17,7 +17,7 @@ export interface CommonDict {
   switchLabel: string;
   skip: string;
   menu: string;
-  nav: { catalog: string; prices: string; contacts: string };
+  nav: { catalog: string; prices: string; reviews: string; contacts: string };
   wa: string;
   tg: string;
   faq: string;
@@ -196,6 +196,27 @@ export interface ContactsDict {
   nextTitle: string;
 }
 
+export interface ReviewsDict {
+  title: string;
+  description: string;
+  h1: string;
+  lead: string;
+  formTitle: string;
+  labels: { name: string; company: string; city: string; rating: string; text: string };
+  placeholders: { name: string; company: string; city: string; text: string };
+  submit: string;
+  sending: string;
+  success: string;
+  error: string;
+  throttled: string;
+  invalid: string;
+  errors: { name: string; company: string; city: string; rating: string; text: string };
+  gisLabel: string;
+  emptyText: string;
+  ratingLabel: (rating: number) => string;
+  all: string;
+}
+
 export interface Dict {
   common: CommonDict;
   home: HomeDict;
@@ -205,4 +226,5 @@ export interface Dict {
   city: CityDict;
   prices: PricesDict;
   contacts: ContactsDict;
+  reviews: ReviewsDict;
 }

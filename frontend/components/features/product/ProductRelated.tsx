@@ -14,7 +14,7 @@ export function ProductRelated({ title, cards, labels }: ProductRelatedProps) {
   return (
     <Section labelledBy="related" className="bg-muted">
       <Container className="space-y-6">
-        <h2 id="related" className="text-2xl">{title}</h2>
+        <h2 id="related" className="text-h3">{title}</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {cards.map((card) => (
             <ProductCard key={card.slug} card={card} labels={labels} />
