@@ -22,4 +22,5 @@ export const catalogKk: CatalogDict = {
   sorts: { popular: 'Алдымен танымалдары', priceAsc: 'Алдымен арзандары', priceDesc: 'Алдымен қымбаттары', fast: 'Алдымен жылдамдары' },
   results: (n) => `Табылды: ${n}`,
   reset: 'Сүзгілерді тазалау',
+  listHeading: 'Өнімдер',
 };

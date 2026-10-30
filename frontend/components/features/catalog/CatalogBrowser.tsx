@@ -21,6 +21,8 @@ export interface CatalogLabels {
   /** Result-count text for 0..N matches (functions cannot cross the server/client boundary). */
   results: string[];
   reset: string;
+  /** Visually hidden h2 above the grid, so card h3 titles follow a real heading level. */
+  listHeading: string;
   whatsapp: string;
   card: ProductCardLabels;
 }
@@ -66,6 +68,7 @@ export function CatalogBrowser({ labels, cards, categories, whatsappHref }: Cata
         onSort={touch(setSort)}
         onReset={reset}
       />
+      <h2 className="sr-only">{labels.listHeading}</h2>
       {visible.length === 0 ? (
         <CatalogEmpty text={labels.empty} ctaLabel={labels.whatsapp} ctaHref={whatsappHref} />
       ) : (

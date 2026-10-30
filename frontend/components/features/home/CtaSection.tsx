@@ -21,7 +21,7 @@ export function CtaSection({ title, text, whatsappLabel, whatsappHref, telegramL
           <h2 id="cta" className="text-3xl font-extrabold md:text-4xl">
             {title}
           </h2>
-          <p className="max-w-prose text-lg text-primary-foreground/90">{text}</p>
+          <p className="max-w-prose text-lg text-primary-foreground">{text}</p>
           <div className="flex flex-wrap gap-3">
             <ButtonLink href={whatsappHref} size="lg" className="bg-background text-foreground hover:bg-background/90">
               <SiWhatsapp aria-hidden="true" />

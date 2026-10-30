@@ -22,4 +22,5 @@ export const catalogEn: CatalogDict = {
   sorts: { popular: 'Most popular', priceAsc: 'Price: low to high', priceDesc: 'Price: high to low', fast: 'Fastest first' },
   results: (n) => `${n} ${n === 1 ? 'result' : 'results'}`,
   reset: 'Reset filters',
+  listHeading: 'Services',
 };

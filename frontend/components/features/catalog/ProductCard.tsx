@@ -19,7 +19,14 @@ export function cardLabels(dict: Dict): ProductCardLabels {
 const IMAGE_SIZES = '(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw';
 
 /** Catalog tile: photo, title (stretched link makes the whole card clickable), benefit, price, timeline, order button. */
-export function ProductCard({ card, labels }: { card: CardView; labels: ProductCardLabels }) {
+interface ProductCardProps {
+  card: CardView;
+  labels: ProductCardLabels;
+  /** Above-the-fold cards load their photo eagerly (LCP). */
+  priority?: boolean;
+}
+
+export function ProductCard({ card, labels, priority = false }: ProductCardProps) {
   return (
     <Card
       interactive
@@ -30,6 +37,7 @@ export function ProductCard({ card, labels }: { card: CardView; labels: ProductC
           src={card.image}
           alt=""
           fill
+          priority={priority}
           sizes={IMAGE_SIZES}
           className="object-cover motion-safe:transition-transform motion-safe:duration-slow motion-safe:group-hover:scale-105"
         />

@@ -22,4 +22,5 @@ export const catalogRu: CatalogDict = {
   sorts: { popular: 'Сначала популярные', priceAsc: 'Сначала дешевле', priceDesc: 'Сначала дороже', fast: 'Сначала быстрые' },
   results: (n) => `Найдено: ${n}`,
   reset: 'Сбросить фильтры',
+  listHeading: 'Продукты',
 };

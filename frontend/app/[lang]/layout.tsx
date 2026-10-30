@@ -15,7 +15,8 @@ import { HTML_LANG, LANGS, isLang } from '@/lib/i18n/locales';
 /** Onest: Latin + Cyrillic + cyrillic-ext (Kazakh ә ғ қ ң ө ұ ү һ і). */
 const fontSans = Onest({
   subsets: ['latin', 'cyrillic', 'cyrillic-ext'],
-  display: 'swap',
+  // optional: no late swap repaint of the hero text (mobile LCP); fallback metrics are adjusted by next/font.
+  display: 'optional',
   variable: '--font-sans',
 });
 

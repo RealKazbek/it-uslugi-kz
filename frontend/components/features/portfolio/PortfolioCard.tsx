@@ -48,7 +48,7 @@ export function PortfolioCard({ item, labels }: { item: CaseView; labels: Portfo
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex min-h-11 items-center gap-1.5 font-semibold text-primary no-underline hover:text-primary-hover hover:underline"
+                className="inline-flex min-h-11 items-center gap-1.5 font-semibold text-primary-hover no-underline hover:text-foreground hover:underline"
               >
                 {link.label}
                 <ExternalLink aria-hidden="true" className="size-4" />

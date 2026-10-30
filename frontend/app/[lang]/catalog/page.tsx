@@ -50,6 +50,7 @@ export default async function CatalogPage({ params }: PageProps) {
     sorts: d.sorts,
     results: Array.from({ length: catalog.cards.length + 1 }, (_, n) => d.results(n)),
     reset: d.reset,
+    listHeading: d.listHeading,
     whatsapp: dict.common.cta.whatsapp,
     card: cardLabels(dict),
   };

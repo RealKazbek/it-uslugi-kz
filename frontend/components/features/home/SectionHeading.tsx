@@ -22,7 +22,7 @@ export function SectionHeading({ id, eyebrow, title, lead, link }: SectionHeadin
         {lead && <p className="text-lg text-muted-foreground">{lead}</p>}
       </div>
       {link && (
-        <Link href={link.href} className="inline-flex min-h-11 items-center gap-1 font-semibold text-primary no-underline hover:text-primary-hover hover:underline">
+        <Link href={link.href} className="inline-flex min-h-11 items-center gap-1 font-semibold text-primary-hover no-underline hover:text-foreground hover:underline">
           {link.label}
           <ArrowRight aria-hidden="true" className="size-4" />
         </Link>

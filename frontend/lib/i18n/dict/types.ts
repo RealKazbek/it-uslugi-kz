@@ -103,6 +103,7 @@ export interface CatalogDict {
   sorts: Record<SortKey, string>;
   results: (n: number) => string;
   reset: string;
+  listHeading: string;
 }
 
 export interface ProductDict {
