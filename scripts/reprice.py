@@ -12,7 +12,7 @@ FACTOR = {
     'bots': 0.55, 'ai': 0.55, 'automation': 0.55, 'seo-maps': 0.55,
     'devops': 0.6, 'support': 0.6, 'onsite': 0.65, 'education': 0.65,
 }
-OVERRIDE = {'lending': 40000, 'telegram-bot-zayavki': 25000, 'sait-vizitka': 60000}
+OVERRIDE = {'lending': 40000, 'telegram-bot-zayavki': 25000}
 
 
 def nice(value: float) -> int:

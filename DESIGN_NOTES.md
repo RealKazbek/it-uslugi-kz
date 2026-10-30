@@ -304,7 +304,7 @@ Built by Haiku coders, every diff reviewed by the orchestrator. Existing Perne t
 ## Round 2 polish (2026-10-30)
 
 ### Prices cut to freelancer level
-`scripts/reprice.py` rewrites `price_from_kzt` in every fixture, always from the original (pre-round-2) prices in git, so it is idempotent. Factor by category: websites, ecommerce, apps, design 0.5; bots, AI, automation, SEO 0.55; devops, support 0.6; on-site and education 0.65 (floor 2 000); rounded to 500/1 000/5 000/10 000 steps. Result per category: −29…−50%, within the requested range. Three explicit values: лендинг 40 000 (−69%), Telegram-бот для заявок 25 000 (−44%), сайт-визитка 60 000 (−54%). The landing figure is outside the 35–50% band only because the requested example fixes it. The prices are estimates, not market-verified. `/prices`, cards and JSON-LD read the API, so they follow the fixtures after a reseed (`SEED=1 make dev`).
+`scripts/reprice.py` rewrites `price_from_kzt` in every fixture, always from the original (pre-round-2) prices in git, so it is idempotent. Factor by category: websites, ecommerce, apps, design 0.5; bots, AI, automation, SEO 0.55; devops, support 0.6; on-site and education 0.65 (floor 2 000); rounded to 500/1 000/5 000/10 000 steps. Result per category: −29…−50%, within the requested range. Two explicit values: лендинг 40 000 (−69%) and Telegram-бот для заявок 25 000 (−44%), both fixed by the requested examples. The landing figure is outside the 35–50% band only because the requested example fixes it. The prices are estimates, not market-verified. `/prices`, cards and JSON-LD read the API, so they follow the fixtures after a reseed (`SEED=1 make dev`).
 
 | Category | Product | Old, ₸ | New, ₸ | Change |
 |---|---|---:|---:|---:|
@@ -405,7 +405,7 @@ Built by Haiku coders, every diff reviewed by the orchestrator. Existing Perne t
 | websites | sait-dlya-yurista | 130 000 | 65 000 | -50% |
 | websites | sait-na-tilda | 90 000 | 45 000 | -50% |
 | websites | sait-na-wordpress | 200 000 | 100 000 | -50% |
-| websites | sait-vizitka | 130 000 | 60 000 | -54% |
+| websites | sait-vizitka | 130 000 | 65 000 | -50% |
 | websites | veb-prilozhenie | 200 000 | 100 000 | -50% |
 
 ### Site search approach
@@ -415,7 +415,7 @@ Prebuilt client index, not Postgres FTS + pg_trgm. Reason: ~100 products + 12 ca
 Site FAQ: 9 groups, 36 questions in `lib/faq/content/{ru,kk,en}` with identical ids; top 8 (`HOME_FAQ_IDS`) on the home page; `/faq` has FAQPage JSON-LD. Every product has 7 FAQs (3 existing + 4 new, written by a small model, ru/kk/en). Kazakh text needs a native-speaker pass. Floating contact menu: Instagram/TikTok rows appear only when `CONTACTS` has values.
 
 ### Footer
-Cities column shows the 10 largest cities (all 31 made the footer very tall). Working hours come from `WORKING_HOURS` (default 09:00–21:00).
+Cities column lists every city page (25) in two columns on desktop, so the footer stays compact. Working hours come from `WORKING_HOURS` (default 09:00–21:00).
 
 ### Verification
 Playwright (1280 and 375): contact pills equal width and 48px height; combobox filters "бот"; Ctrl+K opens search and "телеграм" returns Telegram bots; nav centre 640 = viewport centre 640; hero video muted and playing, poster only under reduced motion. Lighthouse mobile home on the final build (two runs): performance 1.00, LCP 1.1 s, TBT 20–30 ms, CLS 0 (an earlier build scored 0.88). Footer at 1280: brand column + 4 link columns (Услуги 12, Популярное 8, Города 10, Информация 4). Screenshots: `screenshots/r2-*.png`.
