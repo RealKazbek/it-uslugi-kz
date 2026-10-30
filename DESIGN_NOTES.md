@@ -296,7 +296,7 @@ Built by Haiku coders, every diff reviewed by the orchestrator. Existing Perne t
 
 ## Video (round 2)
 
-- Hero mockup clip: Pexels video 854078 "Typing on a laptop" (https://www.pexels.com/video/typing-on-a-laptop-854078/), source file `854078-hd_1280_720_25fps.mp4`. Author not recorded from the page (fetch of the page was blocked); look it up at the URL before launch if attribution is wanted. Licence: Pexels License (free use, no attribution required).
+- Hero mockup clip: Pexels video 854078 "Typing on a laptop" (https://www.pexels.com/video/typing-on-a-laptop-854078/), source file `854078-hd_1280_720_25fps.mp4`. Author: not available. Pexels blocks automated page fetches and the downloaded file has no author tag (only a 2017-03-30 creation time), so the name is left blank rather than guessed; the Pexels License does not require attribution. Owner: open the URL and add the name here if you want to credit it. Licence: Pexels License (free use, no attribution required).
 - Transform: ffmpeg, trim 2s-10s (8 s), 1280x720, no audio, yuv420p. `hero.webm` VP9 crf 38 = 216 KB; `hero.mp4` H.264 crf 28 faststart = 411 KB; poster `hero-poster.webp` (frame at 2 s, cwebp q78) = 14 KB. All in `frontend/public/media/video/`.
 - Component `BackgroundVideo` (poster `<img>` in server HTML as LCP candidate; video mounted on idle, fades in on `canplay`; pauses when off-screen or tab hidden; poster only for reduced motion or save-data, see `shouldPlayVideo`). Has a `lazy` prop for below-the-fold use.
 - Second clip for "Как проходит работа" skipped: no calm clip that adds meaning, and mobile would show a poster only anyway. Pexels 5925294 (top-down hoodie, green terminal) was rejected as "hacker" imagery.
