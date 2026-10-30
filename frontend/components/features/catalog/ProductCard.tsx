@@ -2,18 +2,23 @@ import { ArrowRight, Clock } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ButtonLink } from '@/components/ui/Button';
+import { Badge } from '@/components/ui/Badge';
 import { Card } from '@/components/ui/Card';
 import type { CardView } from '@/lib/catalog/cards';
 import type { Dict } from '@/lib/i18n/dict/types';
+import type { Lang } from '@/lib/i18n/locales';
+import { onsiteText } from '@/lib/site/onsite';
 
 export interface ProductCardLabels {
   order: string;
   timeline: string;
+  /** Badge for on-site services, e.g. "Выезд: Алматы". */
+  onsite: string;
 }
 
 /** Card button labels from the dictionary, so callers do not repeat the mapping. */
-export function cardLabels(dict: Dict): ProductCardLabels {
-  return { order: dict.common.cta.order, timeline: dict.common.timeline };
+export function cardLabels(dict: Dict, lang: Lang): ProductCardLabels {
+  return { order: dict.common.cta.order, timeline: dict.common.timeline, onsite: onsiteText(lang) };
 }
 
 const IMAGE_SIZES = '(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw';
@@ -48,6 +53,7 @@ export function ProductCard({ card, labels, priority = false }: ProductCardProps
             {card.title}
           </Link>
         </h3>
+        {card.onsite && <Badge variant="soft" className="self-start">{labels.onsite}</Badge>}
         <p className="line-clamp-2 text-sm text-muted-foreground">{card.short}</p>
         <div className="mt-auto space-y-1 pt-2">
           <p className="text-xl font-extrabold tabular-nums text-foreground">{card.priceText}</p>

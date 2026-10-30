@@ -1,3 +1,4 @@
+import type { ProductCardLabels } from '@/components/features/catalog/ProductCard';
 import { ProductCard } from '@/components/features/catalog/ProductCard';
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
@@ -6,7 +7,7 @@ import type { CardView } from '@/lib/catalog/cards';
 interface ProductRelatedProps {
   title: string;
   cards: CardView[];
-  labels: { order: string; timeline: string };
+  labels: ProductCardLabels;
 }
 
 export function ProductRelated({ title, cards, labels }: ProductRelatedProps) {

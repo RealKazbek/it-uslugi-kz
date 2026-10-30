@@ -3,6 +3,8 @@
 
 const FALLBACK = '/media/categories/websites.webp';
 const CATEGORIES = new Set(['websites', 'ecommerce', 'bots', 'ai', 'automation', 'seo-maps', 'support', 'education']);
+/** Categories without their own photo reuse a related one. */
+const CATEGORY_PHOTO: Record<string, string> = { apps: 'bots', devops: 'support', onsite: 'automation', design: 'websites' };
 const SLUG = /^[a-z0-9-]+$/;
 
 export const heroImages = {
@@ -12,8 +14,9 @@ export const heroImages = {
 } as const;
 
 export function categoryImage(category: string, variant: 1 | 2 = 1): string {
-  if (!CATEGORIES.has(category)) return FALLBACK;
-  return `/media/categories/${category}${variant === 2 ? '-2' : ''}.webp`;
+  const photo = CATEGORY_PHOTO[category] ?? category;
+  if (!CATEGORIES.has(photo)) return FALLBACK;
+  return `/media/categories/${photo}${variant === 2 ? '-2' : ''}.webp`;
 }
 
 /** Main photo of a product. Slugs come from the backend, so they are checked before use in a path. */

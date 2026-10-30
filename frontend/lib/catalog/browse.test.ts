@@ -3,11 +3,11 @@ import { filterCards, isSortKey, sortCards } from './browse';
 import { cardView } from './cards';
 import { ALL_CATEGORIES } from './filter';
 
-const base = { slug: 'lending', category: 'websites', title: 'Лендинг', short: 'Одна страница с заявкой', price_from_kzt: 45000, unit: 'once' as const, days_min: 3, days_max: 7 };
+const base = { slug: 'lending', category: 'websites', title: 'Лендинг', short: 'Одна страница с заявкой', price_from_kzt: 45000, unit: 'once' as const, days_min: 3, days_max: 7, is_onsite: false };
 const cards = [
   cardView(base, 'ru', 500),
-  cardView({ ...base, slug: 'bot', category: 'bots', title: 'Telegram-бот', short: 'Принимает заявки', price_from_kzt: 30000, days_max: 3 }, 'ru', 500),
-  cardView({ ...base, slug: 'shop', category: 'ecommerce', title: 'Магазин', short: 'Каталог', price_from_kzt: 90000, days_max: 14 }, 'ru', 500),
+  cardView({ ...base, slug: 'bot', category: 'bots', title: 'Telegram-бот', short: 'Принимает заявки', price_from_kzt: 30000, days_max: 3, is_onsite: false }, 'ru', 500),
+  cardView({ ...base, slug: 'shop', category: 'ecommerce', title: 'Магазин', short: 'Каталог', price_from_kzt: 90000, days_max: 14, is_onsite: false }, 'ru', 500),
 ];
 
 describe('filterCards', () => {

@@ -79,7 +79,7 @@ export default async function HomePage({ params }: PageProps) {
         allLabel={h.allCatalog}
         allHref={localePath(lang, '/catalog')}
         cards={featured}
-        labels={cardLabels(d)}
+        labels={cardLabels(d, lang)}
       />
       <CategoriesSection title={h.catsHeading} lead={h.catsLead} categories={categories} hrefFor={hrefFor} countLabel={d.catalog.countLabel} />
       <ChannelsStrip title={h.channelsTitle} />

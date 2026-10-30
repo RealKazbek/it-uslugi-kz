@@ -4,6 +4,7 @@ import { ProductGallery } from './ProductGallery';
 import { ProductLeadSection } from './ProductLeadSection';
 import { ProductMobileBar } from './ProductMobileBar';
 import { ProductOrderCard } from './ProductOrderCard';
+import { onsiteText } from '@/lib/site/onsite';
 import { ProductRelated } from './ProductRelated';
 import { Breadcrumbs, type Crumb } from '@/components/ui/Breadcrumbs';
 import { Container } from '@/components/ui/Container';
@@ -54,6 +55,7 @@ export function ProductContent(props: ProductContentProps) {
               orderTitle={d.product.orderTitle}
               orderHint={d.product.orderHint}
               priceNote={d.product.priceNote}
+              onsiteText={product.is_onsite ? onsiteText(lang) : undefined}
             />
           </div>
           <div className="lg:col-span-7 lg:col-start-1 lg:row-start-2">
@@ -61,7 +63,7 @@ export function ProductContent(props: ProductContentProps) {
           </div>
         </div>
       </Container>
-      <ProductRelated title={d.product.related} cards={props.related} labels={{ order: d.common.cta.order, timeline: d.common.timeline }} />
+      <ProductRelated title={d.product.related} cards={props.related} labels={{ order: d.common.cta.order, timeline: d.common.timeline, onsite: onsiteText(lang) }} />
       <ProductLeadSection
         lang={lang}
         title={product.title}

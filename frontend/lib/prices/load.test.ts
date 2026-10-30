@@ -31,7 +31,7 @@ const card = (slug: string, cat: string, unit: ProductCardDto['unit'], price: nu
   price_from_kzt: price,
   unit,
   days_min: 2,
-  days_max: 4,
+  days_max: 4, is_onsite: false,
 });
 
 beforeEach(() => {

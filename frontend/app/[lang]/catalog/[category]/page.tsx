@@ -103,7 +103,7 @@ export default async function CategoryPage({ params }: PageProps) {
           <h2 id="list" className="text-h3">{d.hubList}</h2>
           <div className={GRID_CLASS}>
             {cards.map((card) => (
-              <ProductCard key={card.slug} card={card} labels={cardLabels(dict)} />
+              <ProductCard key={card.slug} card={card} labels={cardLabels(dict, lang)} />
             ))}
           </div>
         </Container>

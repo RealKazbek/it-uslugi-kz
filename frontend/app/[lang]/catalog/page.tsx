@@ -52,7 +52,7 @@ export default async function CatalogPage({ params }: PageProps) {
     reset: d.reset,
     listHeading: d.listHeading,
     whatsapp: dict.common.cta.whatsapp,
-    card: cardLabels(dict),
+    card: cardLabels(dict, lang),
   };
 
   const crumbs = [

@@ -26,6 +26,7 @@ services:
       BACKEND_URL: "http://backend:8000"
       SITE_URL: "${SITE_URL:-https://uslugi.realkazbek.site}"
       USD_RATE: "${USD_RATE:-500}"
+      REVIEWS_2GIS_URL: "${REVIEWS_2GIS_URL:-}"
     ports:
       - "127.0.0.1:8000:8000"
     depends_on:
@@ -40,6 +41,7 @@ services:
       API_INTERNAL_URL: "http://backend:8000"
       SITE_URL: "${SITE_URL:-https://uslugi.realkazbek.site}"
       USD_RATE: "${USD_RATE:-500}"
+      ONSITE_CITIES: "${ONSITE_CITIES:-Алматы}"
     ports:
       - "127.0.0.1:3000:3000"
     depends_on:

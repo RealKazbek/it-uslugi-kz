@@ -16,6 +16,7 @@ export interface ProductOrderCardProps {
   orderTitle: string;
   orderHint: string;
   priceNote: string;
+  onsiteText?: string;
 }
 
 /** Right column on desktop (sticky), directly after the gallery on mobile. */
@@ -23,7 +24,10 @@ export function ProductOrderCard(p: ProductOrderCardProps) {
   return (
     <Card className="space-y-5 p-5 md:p-6">
       <div className="space-y-3">
-        <Badge variant="soft">{p.category}</Badge>
+        <div className="flex flex-wrap gap-2">
+          <Badge variant="soft">{p.category}</Badge>
+          {p.onsiteText && <Badge variant="outline">{p.onsiteText}</Badge>}
+        </div>
         <h1 className="text-[1.65rem] leading-tight md:text-3xl">{p.title}</h1>
         <p className="text-muted-foreground">{p.description}</p>
       </div>
