@@ -1,16 +1,24 @@
-import { Container } from '@/components/ui/Container';
-import { FaqList, type FaqItem } from '@/components/ui/FaqList';
-import { Section } from '@/components/ui/Section';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/Accordion';
 
-export function ProductFaq({ title, items }: { title: string; items: FaqItem[] }) {
+export interface FaqEntry {
+  q: string;
+  a: string;
+}
+
+/** Single-open, collapsible FAQ. Renders nothing for an empty list. */
+export function ProductFaq({ title, items }: { title: string; items: FaqEntry[] }) {
+  if (items.length === 0) return null;
   return (
-    <Section labelledBy="faq">
-      <Container className="grid gap-8 md:grid-cols-[1fr_2fr]">
-        <h2 id="faq" className="text-2xl">
-          {title}
-        </h2>
-        <FaqList items={items} />
-      </Container>
-    </Section>
+    <section aria-labelledby="faq" className="space-y-2">
+      <h2 id="faq" className="text-xl">{title}</h2>
+      <Accordion type="single" collapsible>
+        {items.map((item, i) => (
+          <AccordionItem key={item.q} value={`faq-${i}`}>
+            <AccordionTrigger>{item.q}</AccordionTrigger>
+            <AccordionContent>{item.a}</AccordionContent>
+          </AccordionItem>
+        ))}
+      </Accordion>
+    </section>
   );
 }

@@ -1,14 +1,10 @@
 import { JsonLd } from '@/components/features/seo/JsonLd';
-import { ProductDetails } from './ProductDetails';
-import { ProductFaq } from './ProductFaq';
+import { ProductBody } from './ProductBody';
 import { ProductGallery } from './ProductGallery';
-import { ProductIncludes } from './ProductIncludes';
 import { ProductLeadSection } from './ProductLeadSection';
 import { ProductMobileBar } from './ProductMobileBar';
 import { ProductOrderCard } from './ProductOrderCard';
-import { ProductProcess } from './ProductProcess';
 import { ProductRelated } from './ProductRelated';
-import { Reveal } from '@/components/motion/Reveal';
 import { Breadcrumbs, type Crumb } from '@/components/ui/Breadcrumbs';
 import { Container } from '@/components/ui/Container';
 import type { CardView } from '@/lib/catalog/cards';
@@ -35,17 +31,17 @@ export interface ProductContentProps {
 export function ProductContent(props: ProductContentProps) {
   const { lang, dict: d, product, pageUrl } = props;
   const images = productGallery(product.slug, product.category);
+  const alts = images.map((_, i) => d.product.photoAlt(product.title, i + 1));
   return (
     <>
       <JsonLd data={props.jsonLd} />
-      <Container className="space-y-5 pb-24 pt-6 md:pb-16 md:pt-8">
+      <Container className="space-y-5 pb-28 pt-6 md:pb-16 md:pt-8">
         <Breadcrumbs label={d.common.menu} items={props.crumbs} />
-        <div className="grid gap-6 lg:grid-cols-12 lg:items-start lg:gap-10">
-          <div className="space-y-8 lg:col-span-7 lg:row-span-2">
-            <ProductGallery images={images} alts={images.map((_, i) => d.product.photoAlt(product.title, i + 1))} label={d.product.galleryLabel} />
-            <div className="hidden space-y-8 lg:block">{null}</div>
+        <div className="grid gap-8 lg:grid-cols-12 lg:gap-x-10">
+          <div className="lg:col-span-7 lg:col-start-1 lg:row-start-1">
+            <ProductGallery images={images} alts={alts} label={d.product.galleryLabel} />
           </div>
-          <div className="lg:col-span-5 lg:col-start-8 lg:row-start-1">
+          <div className="lg:col-span-5 lg:col-start-8 lg:row-span-2 lg:row-start-1 lg:self-start lg:sticky lg:top-24">
             <ProductOrderCard
               lang={lang}
               category={props.categoryLabel}
@@ -60,8 +56,28 @@ export function ProductContent(props: ProductContentProps) {
               priceNote={d.product.priceNote}
             />
           </div>
+          <div className="lg:col-span-7 lg:col-start-1 lg:row-start-2">
+            <ProductBody dict={d} product={product} steps={props.steps} />
+          </div>
         </div>
       </Container>
+      <ProductRelated title={d.product.related} cards={props.related} labels={{ order: d.common.cta.order, timeline: d.common.timeline }} />
+      <ProductLeadSection
+        lang={lang}
+        title={product.title}
+        absoluteUrl={pageUrl}
+        product={product.slug}
+        cta={{ heading: d.product.ctaTitle, text: d.product.ctaText }}
+        form={{ heading: d.product.leadTitle, text: d.product.leadText }}
+        labels={d.lead}
+      />
+      <ProductMobileBar
+        lang={lang}
+        title={product.title}
+        absoluteUrl={pageUrl}
+        totalText={props.totalText}
+        labels={d.common.cta}
+      />
     </>
   );
 }
