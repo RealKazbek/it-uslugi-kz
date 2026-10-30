@@ -39,6 +39,7 @@ export default async function CatalogPage({ params }: PageProps) {
   if (lang === null) notFound();
   const dict = getDict(lang);
   const d = dict.catalog;
+  const catalog = await loadCatalog(lang);
   const labels = {
     filterAll: d.filterAll,
     filterLabel: d.filterLabel,
@@ -47,12 +48,11 @@ export default async function CatalogPage({ params }: PageProps) {
     empty: d.empty,
     sortLabel: d.sortLabel,
     sorts: d.sorts,
-    results: d.results,
+    results: Array.from({ length: catalog.cards.length + 1 }, (_, n) => d.results(n)),
     reset: d.reset,
     whatsapp: dict.common.cta.whatsapp,
     card: cardLabels(dict),
   };
-  const catalog = await loadCatalog(lang);
 
   const crumbs = [
     { name: getDict(lang).common.breadcrumbHome, url: absoluteUrl(config.siteUrl, lang, '/') },
