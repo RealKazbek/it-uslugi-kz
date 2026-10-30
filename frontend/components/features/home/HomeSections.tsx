@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { CategoryList } from '@/components/features/catalog/CategoryList';
-import { ProductCard } from '@/components/features/catalog/ProductCard';
+import { ProductCard, type ProductCardLabels } from '@/components/features/catalog/ProductCard';
 import { ButtonLink } from '@/components/ui/Button';
 import { Container } from '@/components/ui/Container';
 import { FaqList, type FaqItem } from '@/components/ui/FaqList';
@@ -33,9 +33,10 @@ interface FeaturedSectionProps {
   allLabel: string;
   allHref: string;
   cards: CardView[];
+  labels: ProductCardLabels;
 }
 
-export function FeaturedSection({ title, allLabel, allHref, cards }: FeaturedSectionProps) {
+export function FeaturedSection({ title, allLabel, allHref, cards, labels }: FeaturedSectionProps) {
   return (
     <Section labelledBy="popular" className="bg-muted">
       <Container className="space-y-6">
@@ -45,7 +46,7 @@ export function FeaturedSection({ title, allLabel, allHref, cards }: FeaturedSec
         </div>
         <div className="grid gap-6 md:grid-cols-2">
           {cards.map((card) => (
-            <ProductCard key={card.slug} card={card} />
+            <ProductCard key={card.slug} card={card} labels={labels} />
           ))}
         </div>
       </Container>

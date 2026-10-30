@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { cardLabels } from '@/components/features/catalog/ProductCard';
 import { Hero } from '@/components/features/home/Hero';
 import {
   AboutSection,
@@ -68,7 +69,7 @@ export default async function HomePage({ params }: PageProps) {
         hrefFor={(slug) => localePath(lang, `/catalog/${slug}`)}
         countLabel={d.catalog.countLabel}
       />
-      <FeaturedSection title={d.home.popularHeading} allLabel={d.home.allCatalog} allHref={localePath(lang, '/catalog')} cards={featured} />
+      <FeaturedSection title={d.home.popularHeading} allLabel={d.home.allCatalog} allHref={localePath(lang, '/catalog')} cards={featured} labels={cardLabels(d)} />
       <HowSection title={d.home.howHeading} steps={d.home.howSteps} />
       <AboutSection title={d.home.aboutHeading} facts={d.home.aboutFacts} />
       <FaqSection title={d.home.faqHeading} items={faq} />
