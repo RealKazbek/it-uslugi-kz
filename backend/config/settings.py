@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "catalog",
     "cities",
     "leads",
+    "reviews",
 ]
 
 MIDDLEWARE = [
@@ -133,7 +134,12 @@ REST_FRAMEWORK: dict[str, Any] = {
     "DEFAULT_AUTHENTICATION_CLASSES": [],
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     # Lead throttles: 5 per minute and 30 per day per client IP (scopes used in leads/throttles.py).
-    "DEFAULT_THROTTLE_RATES": {"leads": "5/min", "leads_daily": "30/day"},
+    "DEFAULT_THROTTLE_RATES": {
+        "leads": "5/min",
+        "leads_daily": "30/day",
+        "reviews": "2/min",
+        "reviews_daily": "5/day",
+    },
     # Behind one reverse proxy (nginx / Next route handler): trust the last X-Forwarded-For hop.
     "NUM_PROXIES": 1,
 }
@@ -149,6 +155,8 @@ ADMIN_CHAT_ID = _env("ADMIN_CHAT_ID")
 INTERNAL_API_TOKEN = _env("INTERNAL_API_TOKEN")
 # Empty string disables the revalidation webhook (used by tests). Compose sets the default.
 FRONTEND_INTERNAL_URL = os.environ.get("FRONTEND_INTERNAL_URL", "http://frontend:3000").strip()
+# Optional link to the 2GIS reviews page; the site hides the link when empty.
+REVIEWS_2GIS_URL = _env("REVIEWS_2GIS_URL")
 SITE_URL = _env("SITE_URL", "https://uslugi.realkazbek.site")
 
 LOGGING: dict[str, Any] = {
