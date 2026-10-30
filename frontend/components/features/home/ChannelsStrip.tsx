@@ -16,7 +16,7 @@ const CHANNELS: { name: string; Icon: IconType }[] = [
  */
 export function ChannelsStrip({ title }: { title: string }) {
   return (
-    <Container className="pb-12 md:pb-20">
+    <Container className="-mt-4 md:-mt-10">
       <Reveal className="flex flex-col items-center gap-4 rounded-2xl border border-border bg-muted px-6 py-6 text-center md:flex-row md:justify-between md:text-left">
         <p className="max-w-md font-semibold">{title}</p>
         <ul className="flex flex-wrap justify-center gap-3">
