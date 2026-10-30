@@ -46,16 +46,16 @@ export function Hero({ lang, stats }: { lang: Lang; stats: HeroStatsInput }) {
               </li>
             ))}
           </ul>
-          <div className="flex flex-wrap items-center gap-3">
-            <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp" size="lg">
+          <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-wrap sm:items-center">
+            <ButtonLink href={whatsappGeneralLink(lang)} variant="whatsapp" size="lg" className="col-span-2">
               <SiWhatsapp aria-hidden="true" />
               {d.home.ctaWhatsapp}
             </ButtonLink>
-            <ButtonLink href={localePath(lang, '/catalog')} variant="outline" size="lg">
+            <ButtonLink href={localePath(lang, '/catalog')} variant="outline" size="lg" className="px-4">
               <LayoutGrid aria-hidden="true" />
               {d.common.cta.allProducts}
             </ButtonLink>
-            <ButtonLink href={telegramLink()} variant="ghost">
+            <ButtonLink href={telegramLink()} variant="outline" size="lg" className="px-4">
               <SiTelegram aria-hidden="true" className="text-telegram" />
               {d.common.cta.telegram}
             </ButtonLink>
