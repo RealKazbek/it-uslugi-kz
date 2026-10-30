@@ -6,7 +6,12 @@ import { useEffect, type Dispatch, type SetStateAction } from 'react';
 export function useHashOpen(ids: readonly string[], setOpen: Dispatch<SetStateAction<string[]>>): void {
   useEffect(() => {
     const sync = () => {
-      const hash = decodeURIComponent(window.location.hash.slice(1));
+      let hash: string;
+      try {
+        hash = decodeURIComponent(window.location.hash.slice(1));
+      } catch {
+        return; // malformed escape such as #%E0
+      }
       if (!ids.includes(hash)) return;
       setOpen((prev) => (prev.includes(hash) ? prev : [...prev, hash]));
       requestAnimationFrame(() => document.getElementById(hash)?.scrollIntoView({ block: 'start' }));

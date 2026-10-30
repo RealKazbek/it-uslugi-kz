@@ -24,7 +24,12 @@ export function ResultRow({ id, href, title, subtitle, price, active = false, on
       role="option"
       aria-selected={active}
       prefetch={false}
-      onClick={onSelect}
+      onClick={(event) => {
+        // Modified or non-primary clicks open a new tab natively; a plain click is handled by the palette (no double navigation).
+        if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+        event.preventDefault();
+        onSelect?.();
+      }}
       onMouseEnter={onHover}
       className={cn(
         'flex min-h-11 items-center justify-between gap-3 rounded-lg px-3 py-2 text-foreground no-underline motion-reduce:transition-none',

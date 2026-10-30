@@ -2,7 +2,7 @@ import type { SearchDict } from '../types';
 
 export const searchEn: SearchDict = {
   label: 'Search the site',
-  hint: '⌘K',
+  hint: 'Ctrl K / ⌘K',
   placeholder: 'Search services, prices, questions…',
   dialogTitle: 'Search the site',
   close: 'Close',

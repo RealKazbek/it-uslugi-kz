@@ -28,6 +28,13 @@ function allOptions(groups: ComboboxGroup[]): ComboboxOption[] {
   return groups.flatMap((group) => group.options);
 }
 
+/** Index of the first option outside the pinned groups, so Enter after typing picks a match, not "consultation". */
+function firstResultIndex(groups: ComboboxGroup[]): number {
+  const pinned = groups.filter((group) => group.pinned).reduce((sum, group) => sum + group.options.length, 0);
+  const hasResults = groups.some((group) => !group.pinned && group.options.length > 0);
+  return hasResults ? pinned : 0;
+}
+
 /** Label of the selected value. Falls back to the raw value (e.g. a slug missing from the list). */
 function labelOf(groups: ComboboxGroup[], value: string): string {
   return allOptions(groups).find((option) => option.value === value)?.label ?? value;
@@ -65,7 +72,7 @@ export function Combobox({ id, value, onChange, groups, filter, listLabel, searc
   function onTextChange(text: string): void {
     setQuery(text);
     setOpen(true);
-    setActive(0);
+    setActive(firstResultIndex(filter(groups, text)));
   }
 
   function onKeyDown(event: KeyboardEvent<HTMLInputElement>): void {

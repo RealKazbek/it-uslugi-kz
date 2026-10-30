@@ -46,7 +46,7 @@ export function PaletteSections(props: PaletteSectionsProps) {
   if (groups.length === 0) {
     return (
       <div className="px-3 py-4">
-        <p className="text-muted-foreground">{labels.noResults.replace('{0}', query)}</p>
+        <p className="text-muted-foreground">{labels.noResults.replace('{0}', () => query)}</p>
         <RequestLine label={labels.request} onBeforeOpen={onBeforeRequest} />
       </div>
     );

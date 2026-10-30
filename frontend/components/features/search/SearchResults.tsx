@@ -17,7 +17,7 @@ export async function SearchResults({ lang, query }: { lang: Lang; query: string
   if (groups.length === 0) {
     return (
       <div className="max-w-prose space-y-3">
-        <p>{d.noResults.replace('{0}', query)}</p>
+        <p>{d.noResults.replace('{0}', () => query)}</p>
         <RequestLine label={d.request} />
       </div>
     );

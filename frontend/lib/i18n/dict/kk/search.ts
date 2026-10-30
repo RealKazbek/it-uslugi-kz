@@ -2,7 +2,7 @@ import type { SearchDict } from '../types';
 
 export const searchKk: SearchDict = {
   label: 'Сайттан іздеу',
-  hint: '⌘K',
+  hint: 'Ctrl K / ⌘K',
   placeholder: 'Қызметтер, бағалар, сұрақтар бойынша іздеу…',
   dialogTitle: 'Сайттан іздеу',
   close: 'Жабу',

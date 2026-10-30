@@ -68,6 +68,7 @@ export function ComboboxList(props: ComboboxListProps) {
     <div
       id={listboxId}
       role="listbox"
+      onMouseDown={(event) => event.preventDefault()}
       aria-label={listLabel}
       className="absolute inset-x-0 top-full z-50 mt-1 max-h-80 overflow-y-auto rounded-lg border border-line bg-surface-100 shadow-pop max-sm:static max-sm:mt-0 max-sm:min-h-0 max-sm:flex-1 max-sm:max-h-none max-sm:border-0 max-sm:bg-transparent max-sm:shadow-none"
     >

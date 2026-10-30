@@ -43,12 +43,20 @@ interface LangLayoutProps {
 }
 
 /** The single root layout: sets <html lang> from the URL segment and rejects unknown languages. */
+function logAndEmpty(source: string, error: unknown): never[] {
+  console.error(`layout: ${source} failed to load`, error);
+  return [];
+}
+
 export default async function LangLayout({ children, params }: LangLayoutProps) {
   const { lang } = await params;
   if (!isLang(lang)) notFound();
   const d = getDict(lang).common;
   const lead = getDict(lang).lead;
-  const [productDtos, categoryDtos] = await Promise.all([getProducts(lang).catch(() => []), getCategories().catch(() => [])]);
+  const [productDtos, categoryDtos] = await Promise.all([
+    getProducts(lang).catch((error: unknown) => logAndEmpty('lead form products', error)),
+    getCategories().catch((error: unknown) => logAndEmpty('lead form categories', error)),
+  ]);
   const products = toProductOptions(
     productDtos,
     categoryDtos.map((dto) => categoryView(dto, lang)),

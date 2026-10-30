@@ -40,10 +40,17 @@ export function PaletteBody({ lang, labels }: PaletteBodyProps) {
   const nav = useListNavigation(rows.length, trimmed);
   const activeRow = nav.activeIndex >= 0 ? rows[nav.activeIndex] : undefined;
 
+  /** A hash on the current page only changes the hash (router.push does not fire hashchange, so the FAQ item would stay closed). */
+  const go = (href: string) => {
+    const [path, hash] = href.split('#');
+    if (hash && window.location.pathname === path) window.location.hash = hash;
+    else router.push(href);
+  };
+
   const finish = (href?: string) => {
     remember(trimmed);
     setOpen(false);
-    if (href !== undefined) router.push(href);
+    if (href !== undefined) go(href);
   };
 
   const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
