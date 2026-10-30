@@ -61,10 +61,12 @@ const config: Config = {
       keyframes: {
         'accordion-down': { from: { height: '0' }, to: { height: 'var(--radix-accordion-content-height)' } },
         'accordion-up': { from: { height: 'var(--radix-accordion-content-height)' }, to: { height: '0' } },
+        'dial-pulse': { '0%': { transform: 'scale(1)', opacity: '0.4' }, '27%': { transform: 'scale(1.5)', opacity: '0' }, '100%': { transform: 'scale(1)', opacity: '0' } },
       },
       animation: {
         'accordion-down': 'accordion-down var(--duration-base) var(--ease-out)',
         'accordion-up': 'accordion-up var(--duration-base) var(--ease-out)',
+        'dial-pulse': 'dial-pulse 6s var(--ease-out) infinite',
       },
     },
   },

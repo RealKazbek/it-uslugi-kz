@@ -18,3 +18,17 @@ export const socials: { instagram: string | null; tiktok: string | null } = {
   instagram: null,
   tiktok: null,
 };
+
+/** Ready-to-use contact hrefs for the speed dial. Empty string = not configured; such items are not shown. */
+export const CONTACTS = {
+  whatsapp: 'https://wa.me/77066620060',
+  telegram: contacts.telegramUrl,
+  // TODO owner: add profile URL
+  instagram: '',
+  // TODO owner: add profile URL
+  tiktok: '',
+  phone: `tel:${contacts.phone}`,
+  email: `mailto:${contacts.email}`,
+} as const satisfies Record<string, string>;
+
+export type ContactKey = keyof typeof CONTACTS;
