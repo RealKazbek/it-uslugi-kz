@@ -124,3 +124,63 @@ Catalog accessibility 96: axe samples cards that are still fading in (staggered 
 Screenshots (Playwright, full page, ru, final build) at 375/768/1280 for home, catalog and product: `/screenshots` at the repo root (`screenshots/{home,catalog,product}-{375,768,1280}.png`). The folder is git-ignored (~37 MB of PNG) so the branch stays light. Fixed elements (mobile contact bar, floating WhatsApp) appear where the viewport ended during the full-page capture.
 - 2026-10-30: Instagram/TikTok brand icons are now visible: a home "channels" strip (ChannelsStrip, after Categories) shows WhatsApp, Telegram, Instagram and TikTok as the channels client sites and bots connect to (WhatsApp buttons, Telegram bots, Instagram/TikTok links on the sites). They are labels, not links, because RK Dev has no Instagram/TikTok accounts; the footer social links still appear only when `socials` gets real URLs.
 - 2026-10-30: `/screenshots` at the filesystem root cannot be created on macOS (`mkdir: /screenshots: Read-only file system`), so screenshots live in `screenshots/` at the repo root (git-ignored, ~37 MB).
+
+## Perne redesign pass (2026-10-30, autonomous run)
+
+- Brand: wordmark only (`components/ui/Wordmark.tsx`, Onest 800, 24px, ink) from the single constant `SITE_NAME = 'Perne'` (`lib/site/brand.ts`); the RK tile and `Monogram` were removed, favicon is a dark tile with "P". i18n titles carry the literal name "Perne"; code reads the constant.
+- Portfolio: route, nav items, home section, dictionaries, images and sitemap entry removed. The contacts page still links the owner's personal site (an external link, not a portfolio section).
+- Reviews: new Django app `reviews` (Review model, `is_approved=false` by default, moderated in admin, public POST with honeypot `website` and throttles 2/min + 5/day, GET returns approved only + optional `REVIEWS_2GIS_URL`). Frontend `/reviews` page + form; the nav item, footer link and home section appear only when at least one approved review exists. No reviews are seeded.
+- Stats: home counters were already computed from the API (products, categories, languages, cities); nothing hardcoded.
+- Design system: tokens live in `app/globals.css` (Perne palette, type scale, spacing 8/16/24/48/80, radii 8/12/20, hover-only card shadow) and are exposed in `tailwind.config.ts` (`bg-surface-200`, `text-ink-muted`, `text-display|h2|stat|h3|body-lg|label`, ...). Legacy semantic names alias the new tokens. Default button = WhatsApp green (primary CTA); Telegram button is an outlined button with the Telegram-blue icon (#229ED9 fails contrast as a fill); red is used for badges, icons, links and focus; the closing CTA panel is now the warm `surface-tint` instead of red. Cards: 1px line border, no resting shadow.
+- New categories reuse existing photos (apps→bots, devops→support, onsite→automation, design→websites) and new products get copies of their category photo (`public/media/products/<slug>*.webp`); replace with dedicated photos when available.
+
+## Catalog expansion (2026-10-30)
+
+Research: WebSearch for KZ prices (Kaspi Объявления, OLX.kz, 2GIS, studios) returned almost no tenge price lists: results were mostly RU-market rubles, one Kaspi listing of ready-made sites at 5 000–35 000 ₸, ad-click costs (Almaty Google Ads CPC $0.13–0.36) and a freelancer SEO/Ads estimate of $600–1000 / $300–500 per month. Prices below are therefore **estimates (guessed)**, set to the low end of KZ freelance/small-studio ranges, roughly 10–20% under what we believe is typical. **Every price in this table is a guess and must be checked by the owner before launch.** Existing 59 products were not re-priced.
+
+Voice: all copy is in the team voice ("мы / работаем командой", remote across Kazakhstan); existing first-person copy was rewritten. Education products use teaching wording only and state explicitly that we do not write work for students. On-site products carry `is_onsite`; the badge "Выезд: …" comes from `ONSITE_CITIES` (default Алматы) and they are hidden from city pages of other cities.
+
+Kazakh copy was model-written and needs a native-speaker pass.
+
+| Category | Product | Price (guess) | Timeline |
+|---|---|---|---|
+| Сайты | Сайт-каталог с товарами и заявкой (`katalog-sait`) | от 70 000 ₸ | 10–20 дн. |
+| Сайты | Многоязычный сайт на русском  казахском и английском (`mnogoyazychnyi-sait`) | от 90 000 ₸ | 14–25 дн. |
+| Сайты | Сайт на Tilda под ключ (`sait-na-tilda`) | от 30 000 ₸ | 5–10 дн. |
+| Сайты | Сайт на WordPress с понятной админ-панелью (`sait-na-wordpress`) | от 60 000 ₸ | 10–20 дн. |
+| Интернет-магазины | Приём оплаты Kaspi Pay и Halyk на сайте (`kaspi-pay-halyk-oplata`) | от 35 000 ₸ | 5–10 дн. |
+| Интернет-магазины | Синхронизация магазина с 1С и МойСклад (`sinhronizaciya-1s-moysklad`) | от 60 000 ₸ | 10–20 дн. |
+| Мобильные приложения | Мобильное приложение для iOS и Android (`mobilnoe-prilozhenie-ios-android`) | от 450 000 ₸ | 45–90 дн. |
+| Мобильные приложения | PWA: сайт  который ставится как приложение (`pwa-prilozhenie`) | от 150 000 ₸ | 20–35 дн. |
+| Мобильные приложения | Telegram Mini App под вашу задачу (`telegram-mini-app`) | от 90 000 ₸ | 14–30 дн. |
+| Боты | Бот для Instagram Direct (`instagram-direct-bot`) | от 45 000 ₸ | 7–14 дн. |
+| Боты и AI: ассистенты | ИИ для продаж и поддержки клиентов (`ai-prodazhi-i-podderzhka`) | от 110 000 ₸ | 14–30 дн. |
+| Боты и AI: ассистенты | Голосовой бот для звонков и голосовых сообщений (`golosovoi-bot`) | от 150 000 ₸ | 21–40 дн. |
+| CRM и интеграции | Настройка amoCRM под ваши продажи (`amocrm-nastroika`) | от 60 000 ₸ | 5–12 дн. |
+| CRM и интеграции | Внедрение и настройка Битрикс24 (`bitrix24-nastroika`) | от 70 000 ₸ | 7–15 дн. |
+| CRM и интеграции | Интеграция сайта и CRM с 1С (`integraciya-1s`) | от 80 000 ₸ | 10–25 дн. |
+| CRM и интеграции | Интеграция с Kaspi API: заказы и остатки (`integraciya-kaspi-api`) | от 70 000 ₸ | 10–20 дн. |
+| CRM и интеграции | Автоматизация процессов на n8n и Make (`n8n-make-avtomatizaciya`) | от 40 000 ₸ | 3–10 дн. |
+| SEO и реклама | Настройка Google Ads (`google-ads-nastroika`) | от 40 000 ₸ | 3–7 дн. |
+| SEO и реклама | Настройка Яндекс Директ (`yandex-direct-nastroika`) | от 35 000 ₸ | 3–7 дн. |
+| SEO и реклама | Аналитика: Google Analytics 4 и Яндекс Метрика (`analitika-ga4-metrika`) | от 25 000 ₸ | 2–5 дн. |
+| DevOps и хостинг | Деплой проекта на сервер (`deploy-proekta`) | от 40 000 ₸ | 2–5 дн. |
+| DevOps и хостинг | Настройка и защита VPS (`vps-nastroika`) | от 30 000 ₸ | 1–3 дн. |
+| DevOps и хостинг | Упаковка проекта в Docker (`docker-kontejnery`) | от 35 000 ₸ | 2–5 дн. |
+| DevOps и хостинг | CI/CD: автодеплой из GitHub (`ci-cd-avtodeploi`) | от 45 000 ₸ | 2–6 дн. |
+| DevOps и хостинг | Автоматические бэкапы сайта и базы (`bekapy-sait-baza`) | от 20 000 ₸ | 1–3 дн. |
+| DevOps и хостинг | Мониторинг и уведомления о падении сайта (`monitoring-dostupnosti`) | от 25 000 ₸ | 1–3 дн. |
+| Поддержка сайтов | Лечение сайта от вирусов и взлома (`lechenie-ot-vzloma`) | от 30 000 ₸ | 1–4 дн. |
+| Поддержка сайтов | Безопасное обновление CMS  плагинов и PHP (`obnovlenie-saita`) | от 12 000 ₸ | 1–3 дн. |
+| Дизайн | Логотип и мини-брендбук (`logotip`) | от 25 000 ₸ | 5–10 дн. |
+| Дизайн | UI/UX дизайн сайта или приложения (`ui-ux-dizain`) | от 80 000 ₸ | 10–25 дн. |
+| Дизайн | Баннеры для рекламы и соцсетей (набор) (`bannery-dlya-reklamy`) | от 8 000 ₸ | 2–4 дн. |
+| Дизайн | Презентация для бизнеса или инвесторов (`prezentaciya`) | от 25 000 ₸ | 3–7 дн. |
+| Видеонаблюдение и сети | Установка видеонаблюдения с выездом (`ustanovka-videonablyudeniya`) | от 45 000 ₸ | 1–3 дн. |
+| Видеонаблюдение и сети | Удалённый просмотр камер с телефона (`udalennyi-prosmotr-s-telefona`) | от 10 000 ₸ | 1–2 дн. |
+| Видеонаблюдение и сети | Wi-Fi и локальная сеть в офисе или магазине (`wifi-i-lokalnaya-set`) | от 35 000 ₸ | 1–4 дн. |
+| Видеонаблюдение и сети | СКУД и домофоны (с выездом) (`skud-i-domofony`) | от 70 000 ₸ | 2–7 дн. |
+| Учёба и IT-наставничество | Разбор лабораторных работ с объяснением (`razbor-laboratornyh`) | от 4 000 ₸/урок | 1–1 дн. |
+| Учёба и IT-наставничество | Консультация и code review по технической части диплома (`konsultaciya-po-diplomu`) | от 5 000 ₸/час | 1–1 дн. |
+| Учёба и IT-наставничество | Подготовка к защите дипломного проекта (`podgotovka-k-zashite`) | от 5 000 ₸/урок | 1–1 дн. |
+| Учёба и IT-наставничество | Помощь разобраться с материалами онлайн-курсов (`pomosh-s-kursami`) | от 3 500 ₸/урок | 1–1 дн. |
