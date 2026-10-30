@@ -1,72 +1,72 @@
 {
   "slug": "podgotovka-k-zashite",
   "category": "education",
-  "title_ru": "Подготовка к защите дипломного проекта",
-  "title_kk": "Дипломдық жобаны қорғауға дайындық",
-  "title_en": "Preparing for your thesis defence",
-  "short_ru": "Помогаем структурировать выступление, разобрать вопросы комиссии и потренироваться. Говорите вы сами, а мы слушаем и подсказываем.",
-  "short_kk": "Сөйлеуді құрылымдауға, комиссия сұрақтарын талдауға және жаттығуға көмектесеміз. Сөйлейтін сіз боласыз, біз тыңдап, кеңес береміз.",
-  "short_en": "We help you structure your talk, go through the committee's likely questions and practise. You speak yourself; we listen and advise.",
-  "description_ru": "На занятии вы рассказываете о проекте так, как будете рассказывать на защите, а мы слушаем, замечаем, где теряется логика, и подсказываем, как сделать выступление короче и понятнее. Затем разбираем вопросы, которые могут задать, вы формулируете ответы сами, а мы проверяем их ясность. Одно занятие — это один урок, и их может понадобиться несколько.",
-  "description_kk": "Сабақта жобаңыз туралы қорғауда айтатындай етіп баяндайсыз, ал біз тыңдап, логика қай жерде жоғалатынын байқаймыз және сөйлеуді қалай қысқа әрі түсінікті етуге болатынын айтамыз. Содан кейін сұрақтарды талдаймыз, жауаптарды өзіңіз тұжырымдайсыз, біз олардың анықтығын тексереміз. Бір сабақ — бір урок, ал олар бірнеше болуы мүмкін.",
-  "description_en": "In the lesson you present your project as you would at the defence, and we listen, notice where the logic gets lost and suggest how to make the talk shorter and clearer. Then we go through the questions the committee may ask, and you formulate the answers yourself while we check that they are clear. One lesson is one session, and you may need several.",
-  "for_whom_ru": "Для студентов, у которых проект готов, но страшно выступать перед комиссией и отвечать на вопросы во время защиты.",
-  "for_whom_kk": "Жобасы дайын, бірақ комиссия алдында сөйлеуден және қорғау барысында сұрақтарға жауап беруден қорқатын студенттерге арналған.",
-  "for_whom_en": "For students whose project is ready but who feel nervous about presenting to the committee and answering questions during the defence.",
+  "title_ru": "Подготовка к защите",
+  "title_kk": "Қорғауға дайындық",
+  "title_en": "Defence preparation",
+  "short_ru": "Готовим вас к защите проекта: разбираем каждую часть работы, репетируем ответы и объясняем решения, чтобы вы защитили его сами.",
+  "short_kk": "Жобаны қорғауға дайындаймыз: жұмыстың әр бөлігін талдаймыз, жауаптарды жаттықтырамыз және шешімдерді түсіндіреміз, сонда оны өзіңіз қорғайсыз.",
+  "short_en": "We get you ready to defend your project: we go through each part of the work, rehearse answers and explain the decisions, so you defend it yourself.",
+  "description_ru": "Если проект уже готов, а защита близко, разбираем его вместе с вами: структуру, код, выводы и презентацию. Разбираем каждую часть, чтобы вы могли защитить проект сами. Как это работает: 1) разбираем вашу готовую работу; 2) объясняем непонятные части кода и решения на созвоне; 3) передаём заметки, вероятные вопросы и правки к слайдам; 4) проводим репетицию защиты. Оплата 50 на 50: половина до начала работы, половина после передачи результата.",
+  "description_kk": "Жоба дайын болып, қорғау жақындаса, оны сізбен бірге талдаймыз: құрылымын, кодты, қорытындыларды және презентацияны. Әр бөлікті талдаймыз, сонда жобаны өзіңіз қорғай аласыз. Жұмыс қалай өтеді: 1) дайын жұмысыңызды талдаймыз; 2) кодтың және шешімдердің түсініксіз бөліктерін онлайн-кездесуде түсіндіреміз; 3) жазбаларды, ықтимал сұрақтарды және слайдтарға түзетулерді береміз; 4) қорғау жаттығуын өткіземіз. Төлем 50/50: жұмыс басталғанға дейін жартысы, нәтиже тапсырылғаннан кейін жартысы.",
+  "description_en": "If the project is ready and the defence is close, we go through it with you: structure, code, conclusions and slides. We go through each part so you can defend the project yourself. How it works: 1) we go through your finished work; 2) we explain the unclear parts of the code and decisions on a call; 3) we hand over notes, likely questions and slide edits; 4) we run a defence rehearsal. Payment 50/50: half before we start, half after we hand over the result.",
+  "for_whom_ru": "Для студентов, у которых проект почти готов, но нужно понять каждую часть и уверенно ответить на вопросы комиссии.",
+  "for_whom_kk": "Жобасы дайын, бірақ әр бөлікті түсініп, комиссия сұрақтарына сенімді жауап беру керек студенттерге арналған.",
+  "for_whom_en": "For students whose project is nearly done but who need to understand every part and answer the committee's questions with confidence.",
   "includes_ru": [
-    "Разбор структуры выступления и его тайминга",
-    "Советы, как простыми словами объяснить сложную часть проекта",
-    "Список вероятных вопросов комиссии по вашей работе",
-    "Тренировка выступления с обратной связью по ясности и темпу",
-    "Проверка ваших ответов на вопросы: логичны ли они и точны ли",
-    "Рекомендации по презентации: что вынести на слайды, а что оставить в речи",
-    "Советы по поведению во время защиты и работе с вопросами"
+    "Разбор структуры проекта и логики защиты",
+    "Созвон или разбор, где объясняем код и решения по шагам",
+    "Проверка презентации: что оставить, что сократить и как говорить",
+    "Список вероятных вопросов и ответы на них",
+    "Репетиция защиты с вопросами и разбором ответов",
+    "Передача пояснений и материалов для презентации",
+    "Ответы на вопросы до защиты"
   ],
   "includes_kk": [
-    "Сөйлеу құрылымы мен уақытын талдау",
-    "Жобаның күрделі бөлігін қарапайым сөзбен түсіндіру бойынша кеңестер",
-    "Жұмыс бойынша комиссия қоюы мүмкін сұрақтар тізімі",
-    "Сөйлеуді жаттықтыру, анықтығы мен қарқыны бойынша кері байланыспен",
-    "Сұрақтарға берген жауаптарыңызды тексеру: логикалық әрі дәл ме",
-    "Презентация бойынша ұсыныстар: слайдқа не шығарып, сөйлеуде не қалдыру керек",
-    "Қорғау кезіндегі мінез-құлық және сұрақтармен жұмыс бойынша кеңестер"
+    "Жоба құрылымын және қорғау логикасын талдау",
+    "Онлайн-кездесу немесе талдау, онда кодты және шешімдерді қадамдап түсіндіреміз",
+    "Презентацияны тексеру: нені қалдыру, нені қысқарту және қалай айту керек",
+    "Мүмкін сұрақтар тізімі және оларға жауаптар",
+    "Сұрақтармен қорғауды жаттықтыру және жауаптарды талдау",
+    "Түсініктемелер мен презентация материалдарын тапсыру",
+    "Қорғаудан бұрын сұрақтарға жауап"
   ],
   "includes_en": [
-    "Going through the structure and timing of the talk",
-    "Tips on explaining a complex part of the project in simple words",
-    "A list of likely committee questions about your work",
-    "Rehearsing the talk with feedback on clarity and pace",
-    "Checking your answers to questions for logic and accuracy",
-    "Presentation advice: what goes on the slides and what stays in the speech",
-    "Advice on behaviour during the defence and handling questions"
+    "Going through the project structure and the logic of the defence",
+    "A call or review where we explain the code and decisions step by step",
+    "Checking the slides: what to keep, what to cut and how to present",
+    "A list of likely questions and answers",
+    "A rehearsal of the defence with questions and feedback on answers",
+    "Handing over the notes and slide materials",
+    "Answers to your questions before the defence"
   ],
   "not_included_ru": [
-    "Написание выступления или ответов на вопросы за студента: текст и ответы формулирует студент",
-    "Выступление на защите вместо студента и сдача экзаменов",
-    "Соблюдение академической честности вуза: уточните, какая помощь разрешена правилами. Мы помогаем подготовиться, а защищаться и отвечать должны вы сами"
+    "Защиту вместо вас и выступление от вашего имени",
+    "Гарантию оценки или зачёта: результат зависит от вашей работы и решения комиссии",
+    "Выдачу чужой работы за свою: проект должен быть вашим, а соблюдение правил вашего учебного заведения остаётся на вас"
   ],
   "not_included_kk": [
-    "Сөйлеуді немесе сұрақтарға жауапты студент орнына жазу: мәтін мен жауапты студент тұжырымдайды",
-    "Қорғауда студент орнына сөйлеу және емтихан тапсыру",
-    "Оқу орнының академиялық адалдық ережелерін сақтау: ережеге сай қандай көмекке рұқсат етілетінін нақтылаңыз. Біз дайындалуға көмектесеміз, ал қорғау мен жауапты өзіңіз беруіңіз керек"
+    "Сіздің орныңызға қорғаудан өту немесе сіздің атыңыздан сөйлеу",
+    "Баға немесе сынаққа кепілдік: нәтиже сіздің жұмысыңызға және комиссия шешіміне байланысты",
+    "Басқаның жұмысын өзіңіздікі ретінде көрсету: жоба сіздікі болуы керек, оқу орныңыздың ережелерін сақтау жауапкершілігі сізде қалады"
   ],
   "not_included_en": [
-    "Writing the talk or answers to questions for the student: the student formulates the text and the answers",
-    "Speaking at the defence or taking exams in the student's place",
-    "Following your university's academic integrity rules: check which help the rules allow. We help you prepare, but you must defend and answer yourself"
+    "Defending in your place or speaking on your behalf",
+    "A guaranteed grade or pass: the result depends on your work and the committee's decision",
+    "Presenting someone else's work as your own: the project must be yours, and following your institution's rules is your responsibility"
   ],
-  "price_from_kzt": 3500,
+  "price_from_kzt": 5000,
   "unit": "lesson",
   "days_min": 1,
-  "days_max": 1,
+  "days_max": 3,
   "related": [
-    "konsultaciya-po-diplomu",
-    "razbor-laboratornyh",
-    "repetitor-programmirovaniya"
+    "diplomnye-proekty",
+    "kursovye-proekty",
+    "praktika-otchet"
   ],
   "is_active": true,
   "is_onsite": false,
-  "sort": 156,
+  "sort": 158,
   "faqs": [
     {
       "question_ru": "Когда лучше начинать подготовку?",

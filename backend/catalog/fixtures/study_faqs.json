@@ -1,0 +1,457 @@
+{
+  "razbor-laboratornyh": [
+    {
+      "question_ru": "Сколько времени занимает разбор лабораторной?",
+      "question_kk": "Зертханалық жұмысты талдау қанша уақыт алады?",
+      "question_en": "How long does a lab review take?",
+      "answer_ru": "Один разбор обычно занимает один урок, около часа. Если работа большая, разбираем её частями. Даты договариваем заранее, чтобы вы успели сдать в срок.",
+      "answer_kk": "Бір талдау әдетте бір сабаққа, шамамен бір сағатқа созылады. Жұмыс үлкен болса, оны бөліктерге бөліп талдаймыз. Күндерді алдын ала келісеміз, сонда тапсыру мерзіміне үлгересіз.",
+      "answer_en": "One review usually takes one session, about an hour. If the work is large, we go through it in parts. We agree on dates in advance so you can submit on time.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько раз можно вернуться к разбору?",
+      "question_kk": "Талдауға қанша рет қайта оралуға болады?",
+      "question_en": "How many times can we come back to the review?",
+      "answer_ru": "Включены две бесплатные доработки: если после разбора остались непонятные места, проходим их вместе ещё раз в течение 14 дней. Новые задания, не связанные с первым, считаются отдельным заказом.",
+      "answer_kk": "Екі тегін түзету кіреді: талдаудан кейін түсініксіз жерлер қалса, оларды 14 күн ішінде бірге тағы қараймыз. Бірінші тапсырмаға байланысы жоқ жаңа тапсырмалар жеке тапсырыс болып есептеледі.",
+      "answer_en": "Two follow-ups are included: if some parts stay unclear after the review, we go through them together again within 14 days. New tasks that are not part of the first one count as a separate order.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Вы пишете код с нуля или берёте готовые решения?",
+      "question_kk": "Код нөлден жазыла ма, әлде дайын шешімдер ме?",
+      "question_en": "Do you write the code from scratch or take ready solutions?",
+      "answer_ru": "Мы пишем код с нуля под ваше задание и не берём готовые решения из баз. Проверку антиплагиатом не гарантируем: решает учебное заведение. Поэтому объясняем каждый шаг, чтобы работа была понятна и вам.",
+      "answer_kk": "Біз кодты сіздің тапсырмаңызға сай нөлден жазамыз және дайын шешімдерді базадан алмаймыз. Антиплагиат тексеруінен өтуге кепілдік бермейміз: шешімді оқу орны қабылдайды. Сондықтан әр қадамды түсіндіреміз, жұмыс сізге де түсінікті болсын.",
+      "answer_en": "We write the code from scratch for your task and do not take ready solutions from databases. We do not guarantee an anti-plagiarism check: the institution decides how it is checked. That is why we explain every step, so the work is clear to you as well.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что если преподаватель задаст вопрос по работе?",
+      "question_kk": "Оқытушы жұмыс бойынша сұрақ қойса не болады?",
+      "question_en": "What if the lecturer asks a question about the work?",
+      "answer_ru": "Перед сдачей разбираем с вами каждую часть работы заранее и проводим репетицию защиты: вы отвечаете, а мы задаём вопросы, как на настоящей защите. Так вы сможете объяснить свои решения своими словами.",
+      "answer_kk": "Тапсырғанға дейін жұмыстың әр бөлігін сізбен бірге алдын ала талдаймыз және қорғау репетициясын өткіземіз: сіз жауап бересіз, біз нақты қорғаудағыдай сұрақтар қоямыз. Осылайша шешімдеріңізді өз сөзіңізбен түсіндіре аласыз.",
+      "answer_en": "Before submission we go through every part of the work with you and run a defense rehearsal: you answer, and we ask questions as in a real defense. This way you can explain your decisions in your own words.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как устроена оплата?",
+      "question_kk": "Төлем қалай жасалады?",
+      "question_en": "How is payment organised?",
+      "answer_ru": "Оплата 50/50: 50% до начала работы и 50% при передаче результата. Цена зависит от объёма, разбор лабораторной работы стоит от 3 000 ₸.",
+      "answer_kk": "Төлем 50/50 бойынша: жұмыс басталғанға дейін 50%, нәтижені тапсырған кезде қалған 50%. Бағасы көлемге байланысты, зертханалық жұмысты талдау 3 000 ₸-дан басталады.",
+      "answer_en": "Payment is split 50/50: 50% before the work starts and the remaining 50% when the result is handed over. The price depends on the volume; a lab review starts from 3 000 ₸.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что нужно прислать перед разбором?",
+      "question_kk": "Талдаудан бұрын не жіберу керек?",
+      "question_en": "What should you send before the review?",
+      "answer_ru": "Пришлите условие задания, методичку и то, что уже сделано. Заранее скажите, какой язык программирования или инструмент используется и когда срок сдачи.",
+      "answer_kk": "Тапсырма шартын, әдістемелік нұсқаулықты және қазір жасағандарыңызды жіберіңіз. Алдын ала қандай бағдарламалау тілі немесе құрал қолданылатынын және тапсыру мерзімін айтыңыз.",
+      "answer_en": "Send the task statement, the lab instructions and what you have already done. Tell us in advance which programming language or tool is used and when the deadline is.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы не делаете?",
+      "question_kk": "Не істемейсіздер?",
+      "question_en": "What do you not do?",
+      "answer_ru": "Мы не сдаём экзамены и тесты вместо вас и не пишем работу, которую вы сдадите без понимания. Объясняем, помогаем разобраться и проверяем ваши шаги, а решение и ответственность за сдачу остаются за вами.",
+      "answer_kk": "Біз сіздің орныңызға емтихан мен тесттерді тапсырмаймыз және түсінбей-ақ тапсыра салатын жұмыс жазбаймыз. Түсіндіреміз, түсінуге көмектесеміз және қадамдарыңызды тексереміз, ал шешім мен тапсыру үшін жауапкершілік сізде қалады.",
+      "answer_en": "We do not sit exams or tests for you, and we do not write work you would hand in without understanding it. We explain, help you understand and check your steps; the solution and responsibility for the submission stay with you.",
+      "sort": 6
+    }
+  ],
+  "kursovye-proekty": [
+    {
+      "question_ru": "Сколько занимает курсовой проект?",
+      "question_kk": "Курстық жоба қанша уақыт алады?",
+      "question_en": "How long does a course project take?",
+      "answer_ru": "Обычно от 2 до 4 недель, в зависимости от объёма и сложности. Даты первого варианта и финальной версии согласуем в начале и фиксируем до старта работы.",
+      "answer_kk": "Әдетте 2-ден 4 аптаға дейін, көлемі мен күрделілігіне байланысты. Алғашқы нұсқаның және соңғы нұсқаның күндерін басында келісіп, жұмыс басталғанға дейін бекітеміз.",
+      "answer_en": "Usually two to four weeks, depending on the volume and complexity. We agree on the dates for the first draft and the final version at the start and fix them before work begins.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько бесплатных доработок?",
+      "question_kk": "Қанша тегін түзету бар?",
+      "question_en": "How many free revisions are included?",
+      "answer_ru": "Две бесплатные доработки в течение 14 дней после сдачи: исправляем замечания руководителя по тексту и коду. Новые требования, которых не было в задании, оцениваем отдельно.",
+      "answer_kk": "Тапсырғаннан кейін 14 күн ішінде екі тегін түзету: жетекшінің мәтін мен кодқа қатысты ескертулерін түзетеміз. Тапсырмада болмаған жаңа талаптарды бөлек бағалаймыз.",
+      "answer_en": "Two free revisions within 14 days after submission: we fix the supervisor's comments on the text and the code. New requirements that were not in the brief are priced separately.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Уникален ли код курсового проекта?",
+      "question_kk": "Курстық жобаның коды бірегей ме?",
+      "question_en": "Is the code of a course project unique?",
+      "answer_ru": "Код пишем с нуля под ваше задание и не берём готовые решения из баз. Проверку антиплагиатом не гарантируем: решение о допуске принимает учебное заведение. Объясняем, как устроен каждый модуль, чтобы вы знали работу изнутри.",
+      "answer_kk": "Кодты сіздің тапсырмаңызға сай нөлден жазамыз, дайын шешімдерді базадан алмаймыз. Антиплагиат тексеруінен өтуге кепілдік бермейміз: шешімді оқу орны қабылдайды. Әр модульдің қалай жұмыс істейтінін түсіндіреміз, сонда жұмысты ішкі жағынан да білесіз.",
+      "answer_en": "We write the code from scratch for your brief and do not take ready solutions from databases. We do not guarantee an anti-plagiarism result: the institution decides on acceptance. We explain how each module works so you know the work from the inside.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что если на защите зададут вопрос?",
+      "question_kk": "Қорғауда сұрақ қойылса не болады?",
+      "question_en": "What if you are asked a question at the defense?",
+      "answer_ru": "Перед защитой разбираем с вами каждый модуль и проводим репетицию: вы отвечаете, а мы задаём вопросы так, как это бывает на настоящей защите. Вы сможете объяснить, почему выбрали именно такое решение.",
+      "answer_kk": "Қорғауға дейін әр модульді сізбен бірге талдаймыз және репетиция өткіземіз: сіз сұрақтарға жауап бересіз, ал біз оларды нақты қорғауда болатындай қоямыз. Неліктен осы шешімді таңдағаныңызды түсіндіре аласыз.",
+      "answer_en": "Before the defense we go through each module with you and run a rehearsal: you answer, and we ask the questions the way they come up in a real defense. You will be able to explain why you chose this particular solution.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как устроена оплата?",
+      "question_kk": "Төлем қалай жасалады?",
+      "question_en": "How is payment organised?",
+      "answer_ru": "Оплата 50/50: 50% до старта работы и 50% при передаче проекта. Курсовой проект стоит от 15 000 ₸, точная цена зависит от объёма и требований.",
+      "answer_kk": "Төлем 50/50: жұмыс басталғанға дейін 50%, жобаны тапсырған кезде 50%. Курстық жоба 15 000 ₸-дан басталады, нақты баға көлем мен талаптарға байланысты.",
+      "answer_en": "Payment is 50/50: 50% before the work starts and 50% when the project is handed over. A course project starts from 15 000 ₸; the exact price depends on the volume and requirements.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что нужно прислать для курсового?",
+      "question_kk": "Курстық жоба үшін не жіберу керек?",
+      "question_en": "What should you send for the course project?",
+      "answer_ru": "Пришлите методичку курса, задание руководителя, требования к оформлению и список литературы, если он есть. Скажите, на каком языке и в какой среде работаете и какие части уже готовы.",
+      "answer_kk": "Курс әдістемесін, жетекшінің тапсырмасын, безендіру талаптарын және әдебиеттер тізімін (болса) жіберіңіз. Қандай тілде және ортада жұмыс істейтініңізді, қай бөлік дайын екенін айтыңыз.",
+      "answer_en": "Send the course guidelines, the supervisor's task, the formatting requirements and the reading list if you have one. Also tell us which language and environment you work in and which parts are already done.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы не делаете?",
+      "question_kk": "Не істемейсіздер?",
+      "question_en": "What do you not do?",
+      "answer_ru": "Мы не сдаём экзамены и тесты вместо вас и не обещаем оценку или результат защиты. Работу выполняем под ваше задание и объясняем каждую часть, чтобы вы понимали её сами. Ответственность за то, что сдаёте, остаётся за вами.",
+      "answer_kk": "Біз сіздің орныңызға емтихан мен тесттерді тапсырмаймыз, бағаны немесе қорғаудың нәтижесін уәде етпейміз. Жұмысты сіздің тапсырмаңызға сай орындаймыз және әр бөлікті өзіңіз түсінуіңіз үшін түсіндіреміз. Тапсыратын жұмыс үшін жауапкершілік сізде қалады.",
+      "answer_en": "We do not sit exams or tests for you, and we do not promise a grade or a defense result. We do the work to your brief and explain every part so you understand it yourself. Responsibility for what you submit stays with you.",
+      "sort": 6
+    }
+  ],
+  "diplomnye-proekty": [
+    {
+      "question_ru": "Сколько занимает дипломный проект?",
+      "question_kk": "Дипломдық жоба қанша уақыт алады?",
+      "question_en": "How long does a diploma project take?",
+      "answer_ru": "Обычно от 4 до 8 недель, в зависимости от объёма и темы. Сроки черновика, финальной версии и консультаций фиксируем в начале, чтобы успеть к защите.",
+      "answer_kk": "Әдетте 4-тен 8 аптаға дейін, көлемі мен тақырыбына байланысты. Жобаның алғашқы нұсқасының, соңғы нұсқаның және консультация күндерінің мерзімін басында бекітеміз, сонда қорғауға үлгересіз.",
+      "answer_en": "A diploma project usually takes four to eight weeks, depending on the volume and topic. We fix the dates for the draft, the final version and the consultations at the start so you are ready for the defense.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько бесплатных доработок?",
+      "question_kk": "Қанша тегін түзету бар?",
+      "question_en": "How many free revisions are included?",
+      "answer_ru": "Две бесплатные доработки в течение 14 дней после сдачи: исправляем замечания руководителя к коду и технической части. Изменение темы и новые требования оцениваем отдельно.",
+      "answer_kk": "Тапсырғаннан кейін 14 күн ішінде екі тегін түзету: жетекшінің код пен техникалық бөлікке қатысты ескертулерін түзетеміз. Тақырыпты өзгерту және жаңа талаптарды бөлек бағалаймыз.",
+      "answer_en": "Two free revisions within 14 days after submission: we fix the supervisor's comments on the code and the technical part. Changes of topic and new requirements are priced separately.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Уникальны ли код и расчёты дипломной работы?",
+      "question_kk": "Дипломдық жұмыстың коды мен есептеулері бірегей ме?",
+      "question_en": "Are the code and calculations of the diploma unique?",
+      "answer_ru": "Код и техническую часть пишем с нуля под вашу тему и не берём готовые решения из баз. Проверку антиплагиатом не гарантируем: допуск решает учебное заведение. Каждый модуль объясняем, чтобы вы могли рассказать о нём на защите.",
+      "answer_kk": "Кодты және техникалық бөлікті сіздің тақырыбыңызға сай нөлден жазамыз, дайын шешімдерді базадан алмаймыз. Антиплагиат тексеруіне кепілдік бермейміз: қорғауға жіберу туралы шешімді оқу орны қабылдайды. Әр модульді түсіндіреміз, сонда қорғауда ол туралы өзіңіз айта аласыз.",
+      "answer_en": "We write the code and the technical part from scratch for your topic and do not take ready solutions from databases. We do not guarantee an anti-plagiarism check: the institution decides on admission. We explain every module so you can talk about it at the defense.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что если комиссия задаст вопрос?",
+      "question_kk": "Комиссия сұрақ қойса не болады?",
+      "question_en": "What if the committee asks a question?",
+      "answer_ru": "Перед защитой проводим репетицию: разбираем презентацию, каждую часть расчётов и кода, а затем задаём вопросы так, как это делает комиссия. Вы учитесь отвечать коротко и по существу.",
+      "answer_kk": "Қорғауға дейін репетиция өткіземіз: презентацияны, есептеулер мен кодтың әр бөлігін талдаймыз, содан кейін комиссия сияқты сұрақ қоямыз. Қысқа және нақты жауап беруді үйренесіз.",
+      "answer_en": "Before the defense we run a rehearsal: we go through the presentation, every part of the calculations and code, then ask questions the way the committee does. You learn to answer briefly and to the point.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как устроена оплата?",
+      "question_kk": "Төлем қалай жасалады?",
+      "question_en": "How is payment organised?",
+      "answer_ru": "Оплата 50/50: 50% до старта и 50% при передаче проекта и материалов. Дипломный проект стоит от 60 000 ₸, точная сумма зависит от объёма, сложности и сроков.",
+      "answer_kk": "Төлем 50/50: басталғанға дейін 50%, жобаны және материалдарды тапсырған кезде 50%. Дипломдық жоба 60 000 ₸-дан басталады, нақты сома көлемге, күрделілікке және мерзімге байланысты.",
+      "answer_en": "Payment is 50/50: 50% before the start and 50% when the project and materials are handed over. A diploma project starts from 60 000 ₸; the exact sum depends on the volume, complexity and deadline.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что нужно прислать для диплома?",
+      "question_kk": "Дипломдық жоба үшін не жіберу керек?",
+      "question_en": "What should you send for the diploma?",
+      "answer_ru": "Пришлите тему и приказ об её утверждении, задание руководителя, требования вуза к оформлению и уже готовые главы. Скажите, какой язык программирования или платформа нужны.",
+      "answer_kk": "Тақырыбыңызды және оны бекіту туралы бұйрықты, жетекшінің тапсырмасын, оқу орнының безендіру талаптарын және дайын тараулар болса, оларды да жіберіңіз. Қандай бағдарламалау тілі немесе платформа керек екенін айтыңыз.",
+      "answer_en": "Send the topic and the order approving it, the supervisor's task, your institution's formatting requirements and any finished chapters. Tell us which programming language or platform is needed.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы не делаете?",
+      "question_kk": "Не істемейсіздер?",
+      "question_en": "What do you not do?",
+      "answer_ru": "Мы не сдаём экзамены и тесты вместо вас, не пишем диплом, который вы не сможете защитить, и не обещаем оценку. Работу делаем под ваше задание и объясняем каждую часть, а ответственность за защиту и содержание диплома остаётся за вами.",
+      "answer_kk": "Біз сіздің орныңызға емтихан мен тесттерді тапсырмаймыз, қорғай алмайтын дипломдық жұмыс жазбаймыз және бағаға кепілдік бермейміз. Жұмысты сіздің тапсырмаңызға сай орындаймыз және әр бөлікті түсіндіреміз, ал қорғау мен дипломдық жұмыстың мазмұны үшін жауапкершілік сізде қалады.",
+      "answer_en": "We do not sit exams or tests for you, do not write a diploma you cannot defend, and do not promise a grade. We do the work to your brief and explain every part; responsibility for the defense and the content of the diploma stays with you.",
+      "sort": 6
+    }
+  ],
+  "praktika-otchet": [
+    {
+      "question_ru": "Сколько занимает отчёт по практике?",
+      "question_kk": "Практика есебі қанша уақыт алады?",
+      "question_en": "How long does a practice report take?",
+      "answer_ru": "Обычно от 3 до 7 дней, в зависимости от объёма и количества материалов. Скажите дату сдачи заранее, и мы подстроим план работы под неё.",
+      "answer_kk": "Әдетте 3-тен 7 күнге дейін, көлемі мен материалдар санына байланысты. Тапсыру күнін алдын ала айтыңыз, жұмыс жоспарын соған сай құрамыз.",
+      "answer_en": "Usually three to seven days, depending on the volume and the amount of material. Tell us the due date in advance and we will plan the work around it.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько бесплатных правок?",
+      "question_kk": "Қанша тегін түзету бар?",
+      "question_en": "How many free revisions are included?",
+      "answer_ru": "Две бесплатные правки в течение 14 дней после сдачи: уточняем формулировки, структуру и технические пункты по замечаниям руководителя практики. Добавление нового содержания оцениваем отдельно.",
+      "answer_kk": "Тапсырғаннан кейін 14 күн ішінде екі тегін түзету: практика жетекшісінің ескертулері бойынша тұжырымдарды, құрылымды және техникалық тармақтарды нақтылаймыз. Жаңа мазмұн қосу бөлек бағаланады.",
+      "answer_en": "Two free revisions within 14 days after submission: we refine wording, structure and technical points based on the internship supervisor's comments. Adding new content is priced separately.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Пишете ли вы текст отчёта с нуля?",
+      "question_kk": "Есептің мәтінін нөлден жазасыздар ма?",
+      "question_en": "Do you write the report text from scratch?",
+      "answer_ru": "Текст и описание работ пишем с нуля под вашу практику и не берём готовые тексты из баз. Проверку антиплагиатом не гарантируем: решение принимает учебное заведение. Перед сдачей вы сможете пересказать любой раздел отчёта своими словами.",
+      "answer_kk": "Мәтінді және жұмыстардың сипаттамасын сіздің практикаңызға сай нөлден жазамыз және дайын мәтіндерді базадан алмаймыз. Антиплагиат тексеруіне кепілдік бермейміз: шешімді оқу орны қабылдайды. Тапсырар алдында кез келген бөлімді өз сөзіңізбен қайта айта аласыз.",
+      "answer_en": "We write the report text and the description of the work from scratch for your practice and do not take ready texts from databases. We do not guarantee an anti-plagiarism check: the institution decides. Before submission you will be able to retell any section of the report in your own words.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что если руководитель практики задаст вопрос?",
+      "question_kk": "Практика жетекшісі сұрақ қойса не болады?",
+      "question_en": "What if the internship supervisor asks a question?",
+      "answer_ru": "Перед сдачей разбираем с вами каждый раздел и проводим короткую репетицию: вы отвечаете, а мы уточняем, что именно было сделано и почему. Так вы уверенно ответите на вопросы руководителя или комиссии.",
+      "answer_kk": "Тапсырар алдында әр бөлімді сізбен бірге талдаймыз және қысқа репетиция өткіземіз: сіз жауап бересіз, біз не істегеніңізді және неліктен солай істегеніңізді нақтылаймыз. Осылайша жетекші мен комиссияның сұрақтарына сенімді жауап бересіз.",
+      "answer_en": "Before submission we go through each section with you and run a short rehearsal: you answer, and we clarify what was done and why. This way you can answer the supervisor's or the committee's questions with confidence.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как устроена оплата?",
+      "question_kk": "Төлем қалай жасалады?",
+      "question_en": "How is payment organised?",
+      "answer_ru": "Оплата 50/50: 50% до старта и 50% при передаче готового отчёта. Отчёт по практике стоит от 8 000 ₸, точная цена зависит от объёма и количества материалов.",
+      "answer_kk": "Төлем 50/50: басталғанға дейін 50%, дайын есепті тапсырған кезде 50%. Практика есебі 8 000 ₸-дан басталады, нақты баға көлем мен материалдар санына байланысты.",
+      "answer_en": "Payment is 50/50: 50% before the start and 50% when the finished report is handed over. A practice report starts from 8 000 ₸; the exact price depends on the volume and the amount of material.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что нужно прислать для отчёта?",
+      "question_kk": "Есеп үшін не жіберу керек?",
+      "question_en": "What should you send for the report?",
+      "answer_ru": "Пришлите программу практики, дневник или задание, требования к оформлению, данные о месте практики и то, что уже написано. Если есть фото или скриншоты выполненных задач, пришлите и их.",
+      "answer_kk": "Практика бағдарламасын, күнделікті немесе тапсырманы, безендіру талаптарын, практика орны туралы мәліметтерді және жазылғанның бәрін жіберіңіз. Орындалған тапсырмалардың суреттері немесе скриншоттары болса, оларды да жіберіңіз.",
+      "answer_en": "Send the internship programme, the diary or the assignment, the formatting requirements, details of the placement and whatever is already written. If you have photos or screenshots of the completed tasks, send them too.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы не делаете?",
+      "question_kk": "Не істемейсіздер?",
+      "question_en": "What do you not do?",
+      "answer_ru": "Мы не придумываем практику, которой не было, и не пишем отчёт о работе, которую не выполняли. Мы не сдаём тесты и экзамены вместо вас и не обещаем оценку. Отчёт строим на вашей реальной практике и объясняем его, а ответственность за достоверность сведений остаётся за вами.",
+      "answer_kk": "Біз болмаған практиканы ойдан шығармаймыз және орындалмаған жұмыс туралы есеп жазбаймыз. Сіздің орныңызға тесттер мен емтихандарды тапсырмаймыз және бағаға кепілдік бермейміз. Есепті нақты практикаңыз негізінде құрамыз және түсіндіреміз, ал мәліметтердің дұрыстығы үшін жауапкершілік сізде қалады.",
+      "answer_en": "We do not invent practice that did not happen or write a report about work that was not done. We do not sit tests or exams for you and do not promise a grade. We build the report on your real placement and explain it; responsibility for the accuracy of the details stays with you.",
+      "sort": 6
+    }
+  ],
+  "pomosh-s-kursami": [
+    {
+      "question_ru": "Сколько длится помощь с курсом?",
+      "question_kk": "Курс бойынша көмек қанша уақыт созылады?",
+      "question_en": "How long does help with a course last?",
+      "answer_ru": "Зависит от курса и числа занятий, обычно от одной до четырёх недель. Занятия идут в вашем темпе, а даты согласуем в начале.",
+      "answer_kk": "Курска және сабақ санына байланысты, әдетте бір аптадан төрт аптаға дейін. Сабақтар сіздің қарқыныңызбен өтеді, күндерді басында келісеміз.",
+      "answer_en": "It depends on the course and the number of sessions, usually one to four weeks. Sessions go at your pace, and we agree on dates at the start.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько бесплатных доработок?",
+      "question_kk": "Қанша тегін түзету бар?",
+      "question_en": "How many free revisions are included?",
+      "answer_ru": "Две бесплатные доработки в течение 14 дней: если какая-то тема осталась непонятной, возвращаемся к ней отдельным занятием без доплаты. Изменение программы курса оцениваем отдельно.",
+      "answer_kk": "14 күн ішінде екі тегін түзету: егер бір тақырып түсініксіз қалса, оған қосымша сабақпен қайта ораламыз, қосымша төлемсіз. Курс бағдарламасын өзгерту бөлек бағаланады.",
+      "answer_en": "Two free revisions within 14 days: if a topic stays unclear, we come back to it in a separate session at no extra charge. Changing the course programme is priced separately.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Пишете ли вы решения для сдачи?",
+      "question_kk": "Тапсыруға арналған шешімдерді жазасыздар ма?",
+      "question_en": "Do you write solutions for submission?",
+      "answer_ru": "Нет. Задания вы выполняете сами, а мы объясняем материал и проверяем ваши шаги. Готовые решения из баз не берём и код для сдачи не пишем. Так знания остаются у вас.",
+      "answer_kk": "Жоқ. Тапсырмаларды өзіңіз орындайсыз, ал біз материалды түсіндіреміз және қадамдарыңызды тексереміз. Дайын шешімдерді базадан алмаймыз және тапсыруға арналған код жазбаймыз. Сонда білім сізде қалады.",
+      "answer_en": "No. You do the assignments yourself, and we explain the material and check your steps. We do not take ready solutions from databases and do not write code to submit. This way the knowledge stays with you.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что если преподаватель курса задаст вопрос?",
+      "question_kk": "Курс оқытушысы сұрақ қойса не болады?",
+      "question_en": "What if the course tutor asks a question?",
+      "answer_ru": "Заранее разбираем с вами темы, которые будут на проверке, и проводим репетицию ответов. Вы объясните, как работает ваше решение, своими словами.",
+      "answer_kk": "Тексеруде кездесетін тақырыптарды алдын ала сізбен бірге талдаймыз және жауап репетициясын өткіземіз. Шешіміңіз қалай жұмыс істейтінін өз сөзіңізбен түсіндіресіз.",
+      "answer_en": "We go through the topics that will be checked in advance and rehearse the answers. You will explain how your solution works in your own words.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как устроена оплата?",
+      "question_kk": "Төлем қалай жасалады?",
+      "question_en": "How is payment organised?",
+      "answer_ru": "Оплата 50/50: 50% до начала занятий и 50% после последнего занятия. Занятия по курсам стоят от 5 000 ₸, точная сумма зависит от числа занятий и темы.",
+      "answer_kk": "Төлем 50/50: сабақтар басталғанға дейін 50%, соңғы сабақтан кейін 50%. Курстар бойынша сабақтар 5 000 ₸-дан басталады, нақты сома сабақ санына және тақырыпқа байланысты.",
+      "answer_en": "Payment is 50/50: 50% before the lessons start and 50% after the last session. Course sessions start from 5 000 ₸; the exact sum depends on the number of sessions and the topic.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что нужно прислать перед занятиями?",
+      "question_kk": "Сабақтар алдында не жіберу керек?",
+      "question_en": "What should you send before the lessons?",
+      "answer_ru": "Пришлите программу курса или список тем, материалы и непонятные задания, а также дату ближайшей проверки. Скажите, какой у вас уровень и какие инструменты установлены на компьютере.",
+      "answer_kk": "Курс бағдарламасын немесе тақырыптар тізімін, материалдарды және түсініксіз тапсырмаларды, сондай-ақ жақын тексеру күнін жіберіңіз. Деңгейіңізді және компьютеріңізге орнатылған құралдарды айтыңыз.",
+      "answer_en": "Send the course programme or list of topics, the materials and the tasks that are unclear, and the date of the nearest check. Tell us your level and which tools are installed on your computer.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы не делаете?",
+      "question_kk": "Не істемейсіздер?",
+      "question_en": "What do you not do?",
+      "answer_ru": "Мы не сдаём тесты и экзамены вместо вас и не пишем домашние задания, которые вы выдаёте за свои. Мы не обещаем оценку по курсу. Объясняем материал, помогаем разобраться и проверяем ваши шаги.",
+      "answer_kk": "Біз сіздің орныңызға тесттер мен емтихандарды тапсырмаймыз және өз жұмысыңыз ретінде беретін үй тапсырмаларын жазбаймыз. Курс бойынша бағаға кепілдік бермейміз. Материалды түсіндіреміз, түсінуге көмектесеміз және қадамдарыңызды тексереміз.",
+      "answer_en": "We do not sit tests or exams for you and do not write homework that you would pass off as your own. We do not promise a course grade. We explain the material, help you understand it and check your steps.",
+      "sort": 6
+    }
+  ],
+  "repetitor-programmirovaniya": [
+    {
+      "question_ru": "Как часто проходят занятия?",
+      "question_kk": "Сабақтар қаншалықты жиі өтеді?",
+      "question_en": "How often do the lessons take place?",
+      "answer_ru": "Регулярно, обычно один-два раза в неделю по 60 минут. Первое знакомство помогает понять цель и уровень, после него составляем план. Начать можно в течение 1–2 дней после заявки.",
+      "answer_kk": "Тұрақты өтеді, әдетте аптасына бір-екі рет, 60 минуттан. Алғашқы танысу мақсат пен деңгейді түсінуге көмектеседі, соңынан жоспар құрамыз. Өтінімнен кейін 1–2 күн ішінде бастауға болады.",
+      "answer_en": "Lessons run regularly, usually once or twice a week for 60 minutes. A first meeting helps us understand the goal and level, then we make a plan. You can start within 1–2 days of your request.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько бесплатных доработок?",
+      "question_kk": "Қанша тегін түзету бар?",
+      "question_en": "How many free revisions are included?",
+      "answer_ru": "Две бесплатные доработки в течение 14 дней после занятия: если тема осталась непонятной, возвращаемся к ней на следующем занятии без доплаты.",
+      "answer_kk": "Сабақтан кейін 14 күн ішінде екі тегін түзету: тақырып түсініксіз қалса, оған келесі сабақта қосымша төлемсіз қайта ораламыз.",
+      "answer_en": "Two free revisions within 14 days after a lesson: if a topic stays unclear, we come back to it at the next lesson at no extra charge.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Пишете ли вы домашние задания для сдачи?",
+      "question_kk": "Тапсыру үшін үй тапсырмаларын жазасыздар ма?",
+      "question_en": "Do you write homework solutions for submission?",
+      "answer_ru": "Нет. Вы решаете задачи сами, а мы объясняем, разбираем ошибки и показываем подход. Готовые решения из баз не берём и код для сдачи не пишем. Так навык остаётся у вас.",
+      "answer_kk": "Жоқ. Тапсырмаларды өзіңіз шешесіз, ал біз түсіндіреміз, қателерді талдаймыз және тәсілді көрсетеміз. Дайын шешімдерді базадан алмаймыз және тапсыру үшін код жазбаймыз. Сонда дағды сізде қалады.",
+      "answer_en": "No. You solve the tasks yourself, and we explain, analyse the mistakes and show the approach. We do not take ready solutions from databases and do not write code for submission. This way the skill stays with you.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что если преподаватель задаст вопрос по теме?",
+      "question_kk": "Оқытушы тақырып бойынша сұрақ қойса не болады?",
+      "question_en": "What if the teacher asks a question about the topic?",
+      "answer_ru": "Разбираем тему так, чтобы вы могли объяснить её своими словами. Перед проверкой можем провести короткую репетицию вопросов по теме.",
+      "answer_kk": "Тақырыпты осылай талдаймыз, сонда оны өз сөзіңізбен түсіндіре аласыз. Тексеруге дейін тақырып бойынша қысқа сұрақ-жауап репетициясын өткізуге болады.",
+      "answer_en": "We go through the topic so that you can explain it in your own words. Before a check we can run a short question-and-answer rehearsal on the topic.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как устроена оплата?",
+      "question_kk": "Төлем қалай жасалады?",
+      "question_en": "How is payment organised?",
+      "answer_ru": "Оплата 50/50: 50% до начала занятий и 50% после согласованного пакета занятий. Один урок стоит от 4 000 ₸.",
+      "answer_kk": "Төлем 50/50: сабақтар басталғанға дейін 50%, келісілген сабақтар пакеті аяқталғаннан кейін 50%. Бір сабақ 4 000 ₸-дан басталады.",
+      "answer_en": "Payment is 50/50: 50% before the lessons start and 50% after the agreed package of lessons. One lesson starts from 4 000 ₸.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что нужно прислать перед первым занятием?",
+      "question_kk": "Алғашқы сабаққа дейін не жіберу керек?",
+      "question_en": "What should you send before the first lesson?",
+      "answer_ru": "Скажите цель, уровень и язык программирования, который хотите изучать. Если есть задания из курса или школы, пришлите их заранее. Укажите удобное время занятий.",
+      "answer_kk": "Мақсатыңызды, деңгейіңізді және үйренгіңіз келетін бағдарламалау тілін айтыңыз. Курстан немесе мектептен берілген тапсырмалар болса, оларды алдын ала жіберіңіз. Сабаққа ыңғайлы уақытыңызды көрсетіңіз.",
+      "answer_en": "Tell us your goal, your level and the programming language you want to learn. If you have assignments from a course or school, send them in advance. Also let us know the times that suit you for lessons.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы не делаете?",
+      "question_kk": "Не істемейсіздер?",
+      "question_en": "What do you not do?",
+      "answer_ru": "Мы не сдаём экзамены и тесты вместо ученика или студента, не пишем за него домашние работы и не обещаем оценку. Наша задача — чтобы вы понимали материал и умели решать задачи сами.",
+      "answer_kk": "Біз оқушы немесе студенттің орнына емтихан мен тесттерді тапсырмаймыз, оның үй жұмыстарын жазбаймыз және бағаға кепілдік бермейміз. Біздің міндетіміз — материалды түсініп, тапсырмаларды өзіңіз шеше алуыңыз.",
+      "answer_en": "We do not sit exams or tests in place of a student, do not write their homework and do not promise a grade. Our job is for you to understand the material and solve tasks yourself.",
+      "sort": 6
+    }
+  ],
+  "podgotovka-k-zashite": [
+    {
+      "question_ru": "Сколько времени нужно до защиты?",
+      "question_kk": "Қорғауға дейін қанша уақыт қажет?",
+      "question_en": "How much time do we need before the defense?",
+      "answer_ru": "Обычно хватает от 3 до 7 дней до защиты: за это время проходим все части работы и проводим репетицию. Если времени мало, начнём с самых слабых мест.",
+      "answer_kk": "Әдетте қорғауға дейін 3-тен 7 күн жеткілікті: осы уақытта жұмыстың барлық бөлігін талдап, репетиция өткіземіз. Уақыт аз болса, ең әлсіз жерлерінен бастаймыз.",
+      "answer_en": "Usually three to seven days before the defense is enough: in that time we go through all parts of the work and run a rehearsal. If time is short, we start with the weakest places.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько бесплатных доработок?",
+      "question_kk": "Қанша тегін түзету бар?",
+      "question_en": "How many free revisions are included?",
+      "answer_ru": "Две бесплатные доработки в течение 14 дней: после репетиции обновляем формулировки ответов и слайды. Новые разделы работы оцениваем отдельно.",
+      "answer_kk": "14 күн ішінде екі тегін түзету: репетициядан кейін жауап тұжырымдарын және слайдтарды жаңартамыз. Жұмыстың жаңа бөлімдерін бөлек бағалаймыз.",
+      "answer_en": "Two free revisions within 14 days: after the rehearsal we update the wording of the answers and the slides. New sections of the work are priced separately.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Пишете ли вы работу за меня?",
+      "question_kk": "Жұмысты сіз үшін жазасыздар ма?",
+      "question_en": "Do you write the work for me?",
+      "answer_ru": "Работу за вас не пишем и не берём готовые решения из баз. Если к защите нужно доработать код или текст, делаем это под ваше задание и объясняем каждое изменение. Антиплагиат не гарантируем: результат проверки решает учебное заведение.",
+      "answer_kk": "Жұмысты сіз үшін жазбаймыз және дайын шешімдерді базадан алмаймыз. Қорғауға дайындық үшін код немесе мәтінді түзету керек болса, оны сіздің тапсырмаңызға сай жасаймыз және әр өзгерісті түсіндіреміз. Антиплагиат тексеруіне кепілдік бермейміз: нәтижені оқу орны шешеді.",
+      "answer_en": "We do not write the work for you and do not take ready solutions from databases. If the code or text needs fixing before the defense, we do it to your brief and explain every change. We do not guarantee an anti-plagiarism result: the institution decides.",
+      "sort": 2
+    },
+    {
+      "question_ru": "Что если комиссия задаст вопрос, на который я не знаю ответа?",
+      "question_kk": "Комиссия жауабын білмейтін сұрақ қойса не болады?",
+      "question_en": "What if the committee asks something I cannot answer?",
+      "answer_ru": "Разбираем с вами все вероятные вопросы по каждой части работы и отрабатываем ответы на репетиции. Если вопрос всё же неожиданный, вы научитесь честно сказать, что проверите, и ответить по существу.",
+      "answer_kk": "Жұмыстың әр бөлігі бойынша мүмкін сұрақтардың бәрін сізбен талдаймыз және жауаптарды репетицияда жаттықтырамыз. Күтпеген сұрақ болса, оны адал айтып, тексеріп жауап беруді үйренесіз.",
+      "answer_en": "We go through all the likely questions for each part of the work and practise the answers in rehearsal. If a question is still unexpected, you will learn to say honestly that you will check and then answer to the point.",
+      "sort": 3
+    },
+    {
+      "question_ru": "Как устроена оплата?",
+      "question_kk": "Төлем қалай жасалады?",
+      "question_en": "How is payment organised?",
+      "answer_ru": "Оплата 50/50: 50% до начала подготовки и 50% после последней репетиции. Подготовка к защите стоит от 5 000 ₸, точная сумма зависит от объёма работы и числа репетиций.",
+      "answer_kk": "Төлем 50/50: дайындық басталғанға дейін 50%, соңғы репетициядан кейін 50%. Қорғауға дайындық 5 000 ₸-дан басталады, нақты сома жұмыс көлеміне және репетиция санына байланысты.",
+      "answer_en": "Payment is 50/50: 50% before preparation starts and 50% after the last rehearsal. Defense preparation starts from 5 000 ₸; the exact sum depends on the volume of the work and the number of rehearsals.",
+      "sort": 4
+    },
+    {
+      "question_ru": "Что нужно прислать перед подготовкой?",
+      "question_kk": "Дайындық алдында не жіберу керек?",
+      "question_en": "What should you send before the preparation?",
+      "answer_ru": "Пришлите саму работу или её текущую версию, презентацию или слайды, требования комиссии и дату защиты. Скажите, сколько минут на доклад и какие вопросы вас беспокоят.",
+      "answer_kk": "Жұмыстың өзін немесе ағымдағы нұсқасын, презентация немесе слайдтарды, комиссияның талаптарын және қорғау күнін жіберіңіз. Баяндамаға қанша минут берілгенін және сізді қандай сұрақтар алаңдатып тұрғанын айтыңыз.",
+      "answer_en": "Send the work itself or its current version, the presentation or slides, the committee's requirements and the defense date. Tell us how many minutes the talk lasts and which questions worry you.",
+      "sort": 5
+    },
+    {
+      "question_ru": "Что вы не делаете?",
+      "question_kk": "Не істемейсіздер?",
+      "question_en": "What do you not do?",
+      "answer_ru": "Мы не выступаем на защите вместо вас, не пишем доклад за вас и не сдаём экзамены. Не обещаем оценку или допуск. Готовим вас к защите: разбираем работу, отрабатываем ответы и проводим репетиции, а говорить и отвечать будете вы.",
+      "answer_kk": "Біз қорғауда сіздің орныңыздан сөйлемейміз, баяндаманы сіз үшін жазбаймыз және емтихандарды тапсырмаймыз. Бағаға немесе жіберуге кепілдік бермейміз. Сізді қорғауға дайындаймыз: жұмысты талдаймыз, жауаптарды жаттықтырамыз және репетиция өткіземіз, ал сөйлеп, жауап беретін — сіз.",
+      "answer_en": "We do not speak at the defense in your place, do not write your talk and do not sit exams. We do not promise a grade or admission. We prepare you for the defense: we go through the work, practise the answers and run rehearsals, and you are the one who speaks and answers.",
+      "sort": 6
+    }
+  ]
+}

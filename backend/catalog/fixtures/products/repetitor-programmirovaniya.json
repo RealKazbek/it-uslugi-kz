@@ -1,67 +1,72 @@
 {
   "slug": "repetitor-programmirovaniya",
   "category": "education",
-  "title_ru": "Репетитор по программированию для школьников",
-  "title_kk": "Мектеп оқушыларына бағдарламалау репетиторы",
-  "title_en": "Programming tutor for school students",
-  "short_ru": "Индивидуальные онлайн-занятия для школьников: логика, основы кода и небольшие проекты в удобном темпе.",
-  "short_kk": "Оқушыларға арналған жеке онлайн-сабақтар: логика, код негіздері және ыңғайлы қарқында шағын жобалар.",
-  "short_en": "One-to-one online lessons for school students: logic, coding basics and small projects at a comfortable pace.",
-  "description_ru": "Занятия для учеников примерно с 8 по 11 класс, которые хотят понять, как устроено программирование, или подтянуть школьную информатику. Наш преподаватель — студент 3 курса Computer Engineering в IITU, объясняет на примерах и после каждого занятия оставляет небольшое задание. Программу составляем под ребёнка: начинаем с того, что ему интересно, например с игры или бота.",
-  "description_kk": "Бағдарламалаудың қалай құрылғанын түсінгісі келетін немесе мектеп информатикасын жақсартқысы келетін шамамен 8-11 сынып оқушыларына арналған сабақтар. Біздің преподаватель IITU-дың Computer Engineering мамандығының 3-курс студенті, мысалдармен түсіндіреді және әр сабақтан кейін шағын тапсырма береді. Бағдарламаны балаға қарай құрамыз: оған қызықты нәрседен, мысалы ойыннан немесе боттан бастаймыз.",
-  "description_en": "Lessons for students from roughly grades 8 to 11 who want to understand how programming works or catch up in school computer science. Our tutor is a third-year Computer Engineering student at IITU. They explain through examples and set a small task after every lesson. We build the plan around the student and start with what interests them, such as a small game or a bot.",
-  "for_whom_ru": "Родителям школьников, которым нужен спокойный индивидуальный формат вместо большой группы, и самим старшеклассникам.",
-  "for_whom_kk": "Үлкен топтың орнына тыныш жеке форматты қалайтын оқушылардың ата-аналарына және жоғары сынып оқушыларының өздеріне арналған.",
-  "for_whom_en": "For parents of school students who prefer a calm one-to-one format to a large group, and for older students themselves.",
+  "title_ru": "Репетитор по программированию",
+  "title_kk": "Бағдарламалау репетиторы",
+  "title_en": "Programming tutor",
+  "short_ru": "Индивидуальные онлайн-занятия по программированию для студентов и взрослых: объясняем на примерах и разбираем ваши задачи.",
+  "short_kk": "Студенттерге және ересектерге арналған жеке онлайн бағдарламалау сабақтары: мысалдармен түсіндіреміз және тапсырмаларыңызды талдаймыз.",
+  "short_en": "One-to-one online programming lessons for students and adults: we explain through examples and work through your own tasks.",
+  "description_ru": "Индивидуальные онлайн-занятия для студентов и взрослых, которые хотят понять программирование, подтянуть учебный предмет или разобраться с конкретной задачей. Начинаем с вашей цели и уровня, а дальше разбираем ваши задачи и учебные материалы. Занятия ведём мы, практикующие разработчики. Как это работает: 1) знакомимся, уточняем цель и уровень; 2) объясняем тему и код на занятии; 3) оставляем конспект и примеры для самостоятельной работы; 4) помогаем подготовиться к зачёту или защите. Оплата 50 на 50: половина до первого занятия, половина после.",
+  "description_kk": "Бағдарламалауды түсінгісі келетін, оқу пәнін күшейткісі келетін немесе нақты тапсырмамен айналысқысы келетін студенттер мен ересектерге арналған жеке онлайн сабақтар. Мақсатыңыз бен деңгейіңізден бастаймыз, одан әрі тапсырмаларыңызды және оқу материалдарыңызды талдаймыз. Жұмыс қалай өтеді: 1) танысамыз, мақсат пен деңгейді нақтылаймыз; 2) тақырыпты және кодты сабақта түсіндіреміз; 3) өз бетіңізше жұмыс істеуге арналған конспект пен мысалдар қалдырамыз; 4) сынаққа немесе қорғауға дайындалуға көмектесеміз. Төлем 50/50: бірінші сабаққа дейін жартысы, кейін жартысы.",
+  "description_en": "One-to-one online lessons for students and adults who want to understand programming, strengthen a subject or work through a specific task. We start from your goal and level, then go through your tasks and course materials. How it works: 1) we get to know you and agree your goal and level; 2) we explain the topic and code in the lesson; 3) we leave notes and examples for independent practice; 4) we help you prepare for a credit or defence. Payment 50/50: half before the first lesson, half after.",
+  "for_whom_ru": "Для студентов, которые хотят понять программирование или подтянуть учебный предмет, и для взрослых, которые начинают с нуля или хотят разобраться в конкретной задаче.",
+  "for_whom_kk": "Бағдарламалауды түсінгісі келетін, оқу пәнін күшейткісі келетін студенттерге және нөлден бастап немесе нақты тапсырманы түсінгісі келетін ересектерге арналған.",
+  "for_whom_en": "For students who want to understand programming or strengthen a subject, and for adults who are starting from scratch or need help with a specific task.",
   "includes_ru": [
-    "Индивидуальное занятие по видеосвязи, около часа",
-    "Первое знакомство: выясняем уровень и цель ученика",
-    "Алгоритмы и логика: условия, циклы, функции",
-    "Практика в Python с разбором ошибок на месте",
-    "Небольшой проект по интересам: игра, бот или калькулятор",
-    "Домашнее задание после занятия и разбор перед следующим"
+    "Вводная встреча: цель, уровень и план занятий",
+    "Разбор ваших задач и учебных материалов",
+    "Созвон, где объясняем код и решения по шагам",
+    "Теория простым языком, с примерами",
+    "Небольшое задание после каждого занятия",
+    "Конспект и список тем для повторения",
+    "Помощь с подготовкой к экзамену или защите, если они есть"
   ],
   "includes_kk": [
-    "Бейнебайланыс арқылы жеке сабақ, шамамен бір сағат",
-    "Алғашқы танысу: оқушының деңгейі мен мақсатын анықтаймыз",
-    "Алгоритмдер мен логика: шарттар, циклдар, функциялар",
-    "Python-да практика және қателерді сол жерде талдау",
-    "Қызығушылыққа қарай шағын жоба: ойын, бот немесе калькулятор",
-    "Сабақтан кейін үй тапсырмасы және келесі сабақ алдында талдау"
+    "Танысу кездесуі: мақсат, деңгей және сабақ жоспары",
+    "Сіздің тапсырмаларыңыз бен оқу материалдарыңызды талдау",
+    "Онлайн-кездесу, онда кодты және шешімдерді қадамдап түсіндіреміз",
+    "Теория қарапайым тілмен, мысалдармен",
+    "Әр сабақтан кейін шағын тапсырма",
+    "Конспект және қайталауға тақырыптар тізімі",
+    "Емтиханға немесе қорғауға дайындалуға көмек, егер олар болса"
   ],
   "includes_en": [
-    "A one-to-one video lesson of about an hour",
-    "An intro session to find out the student level and goal",
-    "Algorithms and logic: conditions, loops, functions",
-    "Hands-on practice in Python with mistakes reviewed on the spot",
-    "A small project based on interests: a game, a bot or a calculator",
-    "Homework after each lesson, reviewed before the next one"
+    "An intro meeting: your goal, level and lesson plan",
+    "Going through your tasks and course materials",
+    "A call where we explain the code and decisions step by step",
+    "Theory in plain language, with examples",
+    "A short task after each lesson",
+    "Notes and a list of topics to revise",
+    "Help with an exam or defence, if there is one"
   ],
   "not_included_ru": [
-    "Гарантия оценок, баллов на экзамене или места на олимпиаде",
-    "Подготовка к ЕНТ по всем предметам: занятия только по информатике и коду",
-    "Очные занятия: проходят онлайн, в Алматы возможна встреча по договорённости"
+    "Сдачу экзаменов и тестов вместо вас",
+    "Гарантию оценки, зачёта или результата обучения",
+    "Выполнение работ, которые вы сдаёте как свои, если это запрещено правилами вашего учебного заведения: соблюдение правил остаётся на вас"
   ],
   "not_included_kk": [
-    "Бағаға, емтихандағы балға немесе олимпиададағы орынға кепілдік",
-    "Барлық пәндер бойынша ҰБТ-ға дайындық: сабақтар тек информатика мен код бойынша",
-    "Бетпе-бет сабақтар: онлайн өтеді, Алматыда келісім бойынша кездесуге болады"
+    "Сіздің орныңызға емтихан мен тесттерді тапсыру",
+    "Баға, сынақ немесе оқу нәтижесіне кепілдік",
+    "Оқу орныңыздың ережесіне қайшы, өзіңіздікі ретінде тапсыратын жұмыстарды орындау: ережелерді сақтау сізде қалады"
   ],
   "not_included_en": [
-    "Any guarantee of grades, exam scores or olympiad results",
-    "Full preparation for the national entrance exam across all subjects; lessons cover computer science and coding only",
-    "In-person lessons; they run online, with a meeting in Almaty possible by agreement"
+    "Taking exams or tests in your place",
+    "A guaranteed grade, pass or learning outcome",
+    "Doing work you hand in as your own where your institution's rules prohibit it: following those rules is your responsibility"
   ],
-  "price_from_kzt": 2500,
+  "price_from_kzt": 4000,
   "unit": "lesson",
   "days_min": 1,
   "days_max": 3,
   "related": [
+    "pomosh-s-kursami",
+    "razbor-laboratornyh",
     "python-s-nulya",
-    "veb-razrabotka-dlya-nachinayushih",
-    "kompyuternaya-gramotnost"
+    "veb-razrabotka-dlya-nachinayushih"
   ],
   "is_active": true,
+  "is_onsite": false,
   "sort": 55,
   "faqs": [
     {

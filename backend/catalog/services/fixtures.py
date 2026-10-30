@@ -20,6 +20,15 @@ def load_fixture(name: str) -> list[dict[str, Any]]:
     return data
 
 
+def load_faq_overrides(name: str) -> dict[str, list[dict[str, Any]]]:
+    """A fixture file holding a JSON object: product slug -> list of FAQ records."""
+    with (FIXTURES_DIR / name).open(encoding="utf-8") as handle:
+        data: Any = json.load(handle)
+    if not isinstance(data, dict) or not all(isinstance(faqs, list) for faqs in data.values()):
+        raise SeedError(f"{name}: expected an object of slug -> list of FAQs")
+    return data
+
+
 def load_fixture_dir(name: str) -> list[dict[str, Any]]:
     """One record per file in fixtures/<name>/, read in file-name order."""
     paths = sorted((FIXTURES_DIR / name).glob("*.json"))

@@ -31,7 +31,7 @@ def test_every_product_has_three_faqs_in_all_languages() -> None:
 
     for product in Product.objects.all():
         faqs = list(product.faqs.all())
-        assert 3 <= len(faqs) <= 5, product.slug
+        assert 3 <= len(faqs) <= 7, product.slug
         for faq in faqs:
             for lang in ("ru", "kk", "en"):
                 assert getattr(faq, f"question_{lang}"), product.slug

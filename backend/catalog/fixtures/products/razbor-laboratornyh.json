@@ -1,68 +1,69 @@
 {
   "slug": "razbor-laboratornyh",
   "category": "education",
-  "title_ru": "Разбор лабораторных работ с объяснением",
-  "title_kk": "Зертханалық жұмыстарды түсіндіріп талдау",
-  "title_en": "Lab work review with explanations",
-  "short_ru": "Разбираем вместе вашу лабораторную работу, объясняем каждый шаг и проверяем, понятна ли тема. Решение за вас не пишем.",
-  "short_kk": "Зертханалық жұмысыңызды бірге талдаймыз, әр қадамды түсіндіреміз және тақырыптың түсінікті ме, соны тексереміз. Шешімді сіз үшін жазбаймыз.",
-  "short_en": "We go through your lab work together, explain each step and check that you understand the topic. We do not write the solution for you.",
-  "description_ru": "Вы приносите свою лабораторную работу или её часть, а мы разбираем её вместе с вами: объясняем теорию, которая нужна для задания, и показываем, как устроен ход решения. Работу вы делаете сами, а мы проверяем ваши шаги и объясняем ошибки. Занятие длится один урок, и в конце вы знаете, что делать дальше самостоятельно.",
-  "description_kk": "Зертханалық жұмысыңызды немесе оның бір бөлігін әкеліңіз, біз оны сізбен бірге талдаймыз: тапсырмаға қажет теорияны түсіндіреміз және шешім барысын көрсетеміз. Жұмысты өзіңіз орындайсыз, біз қадамдарыңызды тексеріп, қателерді түсіндіреміз. Сабақ бір урокқа созылады, соңында өз бетіңізше не істеу керектігін білесіз.",
-  "description_en": "You bring your lab work or part of it, and we go through it together: we explain the theory the task needs and show how the solution is built. You do the work yourself, and we check your steps and explain the mistakes. The lesson lasts one session, and by the end you know what to do next on your own.",
-  "for_whom_ru": "Для студентов, которые понимают тему на лекции, но теряются, когда доходит до собственной работы, и хотят разобрать её с наставником-практиком.",
-  "for_whom_kk": "Лекцияда тақырыпты түсінетін, бірақ өз жұмысына келгенде адасатын студенттерге арналған. Олар тәжірибелі наставникпен талдағысы келеді.",
-  "for_whom_en": "For students who follow the topic in lectures but get lost when they have to do the work themselves, and want to go through it with a practising mentor.",
+  "title_ru": "Лабораторные работы: выполним и объясним",
+  "title_kk": "Зертханалық жұмыстар: орындаймыз және түсіндіреміз",
+  "title_en": "Lab works: we do it and explain it",
+  "short_ru": "Выполняем лабораторную работу и объясняем каждый шаг, чтобы вы понимали решение и могли его защитить.",
+  "short_kk": "Зертханалық жұмысты орындаймыз және әр қадамды түсіндіреміз, сонда шешімді түсініп, оны қорғай аласыз.",
+  "short_en": "We do the lab work and explain every step, so you understand the solution and can defend it.",
+  "description_ru": "Вы присылаете задание, а мы выполняем лабораторную работу и объясняем, как устроено каждое решение: код, расчёты или схемы. Разбираем каждую часть, чтобы вы могли защитить работу сами. Как это работает: 1) выполняем работу; 2) объясняем код и решения на созвоне или разборе; 3) передаём проект, исходники и пояснения; 4) помогаем подготовиться к защите. Оплата 50 на 50: половина до начала работы, половина после передачи результата.",
+  "description_kk": "Тапсырмаңызды жібересіз, біз зертханалық жұмысты орындаймыз және әр шешімнің қалай құрылғанын түсіндіреміз: кодты, есептеулерді немесе сызбаларды. Әр бөлікті талдаймыз, сонда жұмысты өзіңіз қорғай аласыз. Жұмыс қалай өтеді: 1) жұмысты орындаймыз; 2) онлайн-кездесуде немесе талдауда кодты және шешімдерді түсіндіреміз; 3) жобаны, бастапқы кодты және түсініктемелерді тапсырамыз; 4) қорғауға дайындалуға көмектесеміз. Төлем 50/50: жұмыс басталғанға дейін жартысы, нәтиже тапсырылғаннан кейін жартысы.",
+  "description_en": "You send the task, and we do the lab work and explain how each solution is built: the code, calculations or diagrams. We go through each part so you can defend the work yourself. How it works: 1) we do the work; 2) we explain the code and decisions on a call or review; 3) we hand over the project, source code and notes; 4) we help you prepare for the defence. Payment 50/50: half before we start, half after we hand over the result.",
+  "for_whom_ru": "Для студентов, которым нужна выполненная лабораторная работа с понятным объяснением, чтобы разобраться в теме и уверенно защитить её перед преподавателем.",
+  "for_whom_kk": "Тақырыпты түсініп, зертханалық жұмысты оқытушы алдында сенімді қорғағысы келетін студенттерге арналған.",
+  "for_whom_en": "For students who need a finished lab work with a clear explanation, so they understand the topic and can defend it confidently in front of the instructor.",
   "includes_ru": [
-    "Разбор условия задания и того, что от вас требуется",
-    "Объяснение теории, которая нужна для работы",
-    "Совместный проход по ходу решения с вашими шагами",
-    "Разбор ошибок: почему они возникли и как их найти",
-    "Советы по оформлению отчёта и работе с кодом или схемами",
-    "Список тем, которые стоит повторить перед следующей работой",
-    "Ответы на вопросы по ходу занятия"
+    "Выполнение лабораторной работы по вашему заданию",
+    "Созвон или разбор, где объясняем код и решения по шагам",
+    "Передача проекта, исходников и пояснений к каждому шагу",
+    "Разбор теории, которая нужна для работы",
+    "Подготовка к защите: вопросы, которые могут задать, и ответы на них",
+    "Советы по оформлению отчёта",
+    "Ответы на вопросы по ходу работы"
   ],
   "includes_kk": [
-    "Тапсырма шартын және одан не талап етілетінін талдау",
-    "Жұмыс үшін қажет теорияны түсіндіру",
-    "Сіздің қадамдарыңызбен бірге шешім барысын бірлесіп өту",
-    "Қателерді талдау: қате неге шықты және оны қалай табуға болады",
-    "Есепті рәсімдеу және код немесе сызбалармен жұмыс бойынша кеңестер",
-    "Келесі жұмыстан бұрын қайталау керек тақырыптар тізімі",
-    "Сабақ барысында сұрақтарға жауап"
+    "Тапсырмаңыз бойынша зертханалық жұмысты орындау",
+    "Онлайн-кездесу немесе талдау, онда кодты және шешімдерді қадамдап түсіндіреміз",
+    "Жобаны, бастапқы кодты және әр қадамға түсініктемені тапсыру",
+    "Жұмыс үшін қажет теорияны талдау",
+    "Қорғауға дайындық: сұралуы мүмкін сұрақтар және оларға жауаптар",
+    "Есепті рәсімдеу бойынша кеңестер",
+    "Жұмыс барысындағы сұрақтарға жауап"
   ],
   "includes_en": [
-    "Going through the task statement and what it asks for",
-    "Explaining the theory the work needs",
-    "Walking through the solution together, with your steps",
-    "Reviewing mistakes: why they happened and how to find them",
-    "Tips on writing the report and working with code or diagrams",
-    "A list of topics to revise before the next lab",
-    "Answers to your questions during the lesson"
+    "Doing the lab work to your task",
+    "A call or review where we explain the code and decisions step by step",
+    "Handing over the project, source code and notes on each step",
+    "Explaining the theory the work relies on",
+    "Defence preparation: likely questions and how to answer them",
+    "Tips on writing up the report",
+    "Answers to your questions during the work"
   ],
   "not_included_ru": [
-    "Написание лабораторной работы или её части за вас: решение делаете вы",
-    "Выполнение оцениваемых заданий и сдача экзаменов вместо студента",
-    "Соблюдение академической честности вашего вуза: перед использованием помощи уточните правила курса. Мы помогаем понять материал, а не выдаём чужую работу за свою"
+    "Сдачу экзаменов и прохождение тестов вместо вас",
+    "Гарантию оценки или зачёта: результат зависит от ваших знаний и требований преподавателя",
+    "Выдачу работы за свою, если это запрещено правилами вашего учебного заведения: соблюдение правил остаётся на вас"
   ],
   "not_included_kk": [
-    "Зертханалық жұмысты немесе оның бір бөлігін сіз үшін жазу: шешімді өзіңіз орындайсыз",
-    "Бағаланатын тапсырмаларды орындау және студенттің орнына емтихан тапсыру",
-    "Оқу орныңыздың академиялық адалдық ережелерін сақтау: көмек алмас бұрын курстың ережелерін нақтылаңыз. Біз материалды түсінуге көмектесеміз, жұмысты өзіңіздікі ретінде тапсыруға емес"
+    "Сіздің орныңызға емтихан тапсыру немесе тест тапсыру",
+    "Баға немесе сынаққа кепілдік: нәтиже сіздің біліміңізге және оқытушы талаптарына байланысты",
+    "Оқу орныңыздың ережесіне қайшы жұмысты өзіңіздікі ретінде тапсыру: ережелерді сақтау жауапкершілігі сізде қалады"
   ],
   "not_included_en": [
-    "Writing the lab work, or any part of it, for you: you do the solution yourself",
-    "Doing graded tasks or taking exams in the student's place",
-    "Following your university's academic integrity rules: check your course rules before using help. We help you understand the material, not hand in someone else's work as your own"
+    "Taking exams or tests in your place",
+    "A guaranteed grade or pass: the result depends on your knowledge and your instructor's requirements",
+    "Handing in work as your own where your institution's rules prohibit it: following those rules is your responsibility"
   ],
-  "price_from_kzt": 2500,
-  "unit": "lesson",
+  "price_from_kzt": 3000,
+  "unit": "once",
   "days_min": 1,
-  "days_max": 1,
+  "days_max": 3,
   "related": [
-    "repetitor-programmirovaniya",
-    "python-s-nulya",
-    "pomosh-s-kursami"
+    "kursovye-proekty",
+    "praktika-otchet",
+    "pomosh-s-kursami",
+    "python-s-nulya"
   ],
   "is_active": true,
   "is_onsite": false,

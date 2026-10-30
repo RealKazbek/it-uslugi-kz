@@ -1,72 +1,75 @@
 {
-  "slug": "konsultaciya-po-diplomu",
+  "slug": "diplomnye-proekty",
   "category": "education",
-  "title_ru": "Консультация и code review по технической части диплома",
-  "title_kk": "Дипломның техникалық бөлігі бойынша кеңес және code review",
-  "title_en": "Consultation and code review for the technical part of a thesis",
-  "short_ru": "Разбираем техническую часть вашего диплома, смотрим код вместе с вами и подсказываем, как улучшить архитектуру и тесты. Диплом за вас не пишем.",
-  "short_kk": "Дипломыңыздың техникалық бөлігін талдап, кодты бірге қараймыз және архитектура мен тесттерді қалай жақсарту керектігін айтамыз. Дипломды сіз үшін жазбаймыз.",
-  "short_en": "We go through the technical part of your thesis, review the code with you and suggest how to improve the architecture and tests. We will not write the thesis for you.",
-  "description_ru": "Вы показываете свой проект и текст технической части, а мы вместе смотрим, насколько решение логично, как написан код и хватает ли тестов. Мы объясняем замечания, предлагаем варианты улучшения и помогаем разобраться с инструментами. Все решения принимаете вы, и работу тоже пишете вы. Занятия проходят почасово.",
-  "description_kk": "Жобаңызды және техникалық бөлім мәтінін көрсетесіз, біз бірге шешімнің қаншалықты логикалық екенін, кодтың қалай жазылғанын және тесттер жеткілікті ме, соны қараймыз. Ескертулерді түсіндіреміз, жақсарту нұсқаларын ұсынамыз және құралдармен жұмысқа көмектесеміз. Барлық шешімді сіз қабылдайсыз, жұмысты да өзіңіз жазасыз. Кеңес сағатпен өтеді.",
-  "description_en": "You show your project and the text of the technical part, and we look together at how logical the solution is, how the code is written and whether there are enough tests. We explain the remarks, suggest ways to improve and help you get to grips with the tools. You make all the decisions and write the thesis yourself. Sessions are charged by the hour.",
-  "for_whom_ru": "Для студентов, которые делают дипломный проект сами и хотят получить честный взгляд на код, архитектуру и тесты до защиты.",
-  "for_whom_kk": "Дипломдық жобаны өзі жасайтын және қорғау алдында код, архитектура мен тесттерге объективті пікір алғысы келетін студенттерге арналған.",
-  "for_whom_en": "For students who build their thesis project themselves and want an honest review of the code, architecture and tests before the defence.",
+  "title_ru": "Дипломные проекты (IT)",
+  "title_kk": "Дипломдық жобалар (IT)",
+  "title_en": "Thesis projects (IT)",
+  "short_ru": "Выполняем техническую часть дипломного проекта и объясняем каждое решение, чтобы вы могли защитить работу.",
+  "short_kk": "Дипломдық жобаның техникалық бөлігін орындаймыз және әр шешімді түсіндіреміз, сонда жұмысты қорғай аласыз.",
+  "short_en": "We build the technical part of your thesis and explain every decision, so you can defend the work.",
+  "description_ru": "Берём техническую часть дипломного проекта: анализ, архитектуру, код, тестирование и документацию. Разбираем каждую часть, чтобы вы могли защитить дипломный проект сами. Как это работает: 1) выполняем работу; 2) объясняем код и решения на созвоне или разборе; 3) передаём проект, исходники и пояснения; 4) помогаем подготовиться к защите. Оплата 50 на 50: половина до начала работы, половина после передачи результата.",
+  "description_kk": "Дипломдық жобаның техникалық бөлігін аламыз: талдау, архитектура, код, тестілеу және құжаттама. Әр бөлікті талдаймыз, сонда дипломдық жобаны өзіңіз қорғай аласыз. Жұмыс қалай өтеді: 1) жұмысты орындаймыз; 2) онлайн-кездесуде немесе талдауда кодты және шешімдерді түсіндіреміз; 3) жобаны, бастапқы кодты және түсініктемелерді тапсырамыз; 4) қорғауға дайындалуға көмектесеміз. Төлем 50/50: жұмыс басталғанға дейін жартысы, нәтиже тапсырылғаннан кейін жартысы.",
+  "description_en": "We take on the technical part of your thesis: analysis, architecture, code, testing and documentation. We go through each part so you can defend the thesis yourself. How it works: 1) we do the work; 2) we explain the code and decisions on a call or review; 3) we hand over the project, source code and notes; 4) we help you prepare for the defence. Payment 50/50: half before we start, half after we hand over the result.",
+  "for_whom_ru": "Для студентов, которым нужна помощь с технической частью диплома и понимание каждого решения перед защитой.",
+  "for_whom_kk": "Дипломдық жобаның техникалық бөлігіне көмек керек және қорғау алдында әр шешімді түсінгісі келетін студенттерге арналған.",
+  "for_whom_en": "For students who need help with the technical part of their thesis and want to understand every decision before the defence.",
   "includes_ru": [
-    "Разбор структуры проекта и логики решения",
-    "Code review: замечания по читаемости, ошибкам и повторам в коде",
-    "Советы по архитектуре и разделению кода на модули",
-    "Проверка тестов и подсказки, какие случаи стоит покрыть",
-    "Помощь с инструментами: Git, зависимости, запуск проекта",
-    "Список правок, которые стоит сделать до защиты, с приоритетами",
-    "Ответы на технические вопросы по ходу консультации"
+    "Уточнение темы, требований вашего учебного заведения и сроков",
+    "Выполнение технической части: код, структура, база данных и интерфейс",
+    "Созвон или разбор, где объясняем архитектуру и решения по шагам",
+    "Передача проекта, исходников и пояснений к каждой части",
+    "Разбор теории, которая нужна для работы",
+    "Подготовка к защите: вероятные вопросы комиссии и ответы на них",
+    "Советы по оформлению пояснительной записки и схем"
   ],
   "includes_kk": [
-    "Жоба құрылымы мен шешім логикасын талдау",
-    "Code review: оқылымы, қателері және кодтағы қайталаулар бойынша ескертулер",
-    "Архитектура және кодты модульдерге бөлу бойынша кеңестер",
-    "Тесттерді тексеру және қандай жағдайларды қамту керектігіне кеңестер",
-    "Құралдармен жұмысқа көмек: Git, тәуелділіктер, жобаны іске қосу",
-    "Қорғау алдында жасалатын түзетулер тізімі, басымдықтарымен",
-    "Кеңес барысында техникалық сұрақтарға жауап"
+    "Тақырыпты, оқу орнының талаптарын және мерзімді тапсырмаңыз бойынша нақтылау",
+    "Техникалық бөлікті орындау: код, құрылым, дерекқор және интерфейс",
+    "Онлайн-кездесу немесе талдау, онда архитектураны және шешімдерді қадамдап түсіндіреміз",
+    "Жобаны, бастапқы кодты және әр бөлікке түсініктемені тапсыру",
+    "Жұмыс үшін қажет теорияны талдау",
+    "Қорғауға дайындық: комиссия қоюы мүмкін сұрақтар және оларға жауаптар",
+    "Түсіндірме жазба мен сызбаларды рәсімдеу бойынша кеңестер"
   ],
   "includes_en": [
-    "Review of the project structure and the logic of the solution",
-    "Code review: remarks on readability, errors and repeated code",
-    "Advice on architecture and splitting code into modules",
-    "Checking tests and suggestions on which cases to cover",
-    "Help with tools: Git, dependencies, running the project",
-    "A prioritised list of fixes to make before the defence",
-    "Answers to technical questions during the session"
+    "Clarifying the topic, your institution's requirements and the deadline",
+    "Doing the technical part: code, structure, database and interface",
+    "A call or review where we explain the architecture and decisions step by step",
+    "Handing over the project, source code and notes on each part",
+    "Explaining the theory the work relies on",
+    "Defence preparation: questions the committee may ask and answers",
+    "Tips on the explanatory note and diagrams"
   ],
   "not_included_ru": [
-    "Написание диплома, главы или кода за студента: работу делаете вы",
-    "Выступление на защите или сдача экзаменов вместо студента",
-    "Соблюдение академической честности вуза: уточните правила вашего вуза о помощи со стороны. Мы даём замечания и объяснения, а итоговая работа должна быть вашей"
+    "Сдачу экзаменов и прохождение тестов вместо вас",
+    "Гарантию защиты или оценки: решение принимает комиссия вашего учебного заведения",
+    "Выдачу работы за свою, если это запрещено правилами вашего учебного заведения: соблюдение правил вуза или колледжа остаётся на вас",
+    "Участие в защите вместо вас или выступление от вашего имени"
   ],
   "not_included_kk": [
-    "Дипломды, тарауды немесе кодты студент орнына жазу: жұмысты сіз орындайсыз",
-    "Қорғауда студент орнына сөйлеу немесе емтихан тапсыру",
-    "Оқу орнының академиялық адалдық ережелерін сақтау: оқу орныңыздың сыртқы көмекке қатысты ережесін нақтылаңыз. Біз ескертулер мен түсіндірме береміз, ал соңғы жұмыс сіздікі болуы керек"
+    "Сіздің орныңызға емтихан тапсыру немесе тест тапсыру",
+    "Қорғауға немесе бағаға кепілдік: шешімді оқу орныңыздың комиссиясы қабылдайды",
+    "Оқу орныңыздың ережесіне қайшы жұмысты өзіңіздікі ретінде тапсыру: ережелерді сақтау жауапкершілігі сізде қалады",
+    "Қорғауға сіздің орныңызға қатысу немесе сіздің атыңыздан сөйлеу"
   ],
   "not_included_en": [
-    "Writing the thesis, a chapter or the code for the student: you do the work",
-    "Speaking at the defence or taking exams in the student's place",
-    "Following your university's academic integrity rules: check what your university allows as outside help. We give remarks and explanations, and the final work must be yours"
+    "Taking exams or tests in your place",
+    "A guaranteed defence or grade: the decision is made by your institution's committee",
+    "Handing in work as your own where your institution's rules prohibit it: following those rules is your responsibility",
+    "Attending or speaking at the defence in your place"
   ],
-  "price_from_kzt": 3500,
-  "unit": "hour",
-  "days_min": 1,
-  "days_max": 1,
+  "price_from_kzt": 60000,
+  "unit": "once",
+  "days_min": 30,
+  "days_max": 60,
   "related": [
-    "razbor-laboratornyh",
     "podgotovka-k-zashite",
-    "repetitor-programmirovaniya"
+    "kursovye-proekty",
+    "praktika-otchet"
   ],
   "is_active": true,
   "is_onsite": false,
-  "sort": 155,
+  "sort": 156,
   "faqs": [
     {
       "question_ru": "Что нужно подготовить до первой консультации?",
