@@ -56,4 +56,5 @@ export const homeEn: HomeDict = {
     { t: '50/50 payment', d: '50% upfront, 50% after delivery.' },
     { t: 'Direct, no middlemen', d: 'You talk to the person who does the work.' },
   ],
+  channelsTitle: 'I connect sites and bots to the channels your clients already use',
 };

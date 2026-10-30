@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Hero } from '@/components/features/home/Hero';
 import { CasesSection } from '@/components/features/home/CasesSection';
 import { CategoriesSection } from '@/components/features/home/CategoriesSection';
+import { ChannelsStrip } from '@/components/features/home/ChannelsStrip';
 import { CitiesSection } from '@/components/features/home/CitiesSection';
 import { CtaSection } from '@/components/features/home/CtaSection';
 import { FaqSection } from '@/components/features/home/FaqSection';
@@ -82,6 +83,7 @@ export default async function HomePage({ params }: PageProps) {
         labels={cardLabels(d)}
       />
       <CategoriesSection title={h.catsHeading} lead={h.catsLead} categories={categories} hrefFor={hrefFor} countLabel={d.catalog.countLabel} />
+      <ChannelsStrip title={h.channelsTitle} />
       <HowSection title={h.howHeading} lead={h.howLead} steps={h.howSteps} />
       <CasesSection
         title={h.casesHeading}

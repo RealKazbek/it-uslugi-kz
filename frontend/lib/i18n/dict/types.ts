@@ -80,6 +80,7 @@ export interface HomeDict {
   trustHeading: string;
   trustLead: string;
   trustItems: Step[];
+  channelsTitle: string;
 }
 
 export interface CatalogDict {
