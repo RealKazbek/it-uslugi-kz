@@ -66,6 +66,7 @@ export interface HomeDict {
   citiesLead: string;
   heroBadge: string;
   heroPoints: string[];
+  heroChips: { first: string; second: string };
   stats: { products: string; categories: string; languages: string; cities: string };
   catsLead: string;
   popularLead: string;

@@ -19,7 +19,7 @@ interface CategoryChipsProps {
 
 function chipClass(isActive: boolean): string {
   return cn(
-    'inline-flex min-h-11 shrink-0 items-center gap-2 whitespace-nowrap rounded-full border px-4 text-sm font-semibold transition-colors duration-base',
+    'inline-flex min-h-11 shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-3.5 text-sm font-semibold transition-colors duration-base',
     isActive
       ? 'border-primary bg-primary text-primary-foreground'
       : 'border-border bg-background text-foreground hover:bg-muted',

@@ -38,6 +38,7 @@ export const homeEn: HomeDict = {
   heroBadge: 'Freelance developer in Almaty',
   heroPoints: ['Prices shown upfront', 'Written agreement, 50/50 payment', 'Remote, across Kazakhstan and abroad'],
   stats: { products: 'ready-made services', categories: 'service areas', languages: 'site languages', cities: 'city pages' },
+  heroChips: { first: 'Telegram bots and AI', second: 'Turnkey websites' },
   catsLead: 'Eight areas, from a one-page site to an AI assistant and lessons.',
   popularLead: 'One service from each area, with its price, timeline and scope.',
   howLead: 'Four steps from the first message to the finished result.',

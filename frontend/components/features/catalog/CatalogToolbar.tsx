@@ -26,7 +26,7 @@ interface CatalogToolbarProps {
 export function CatalogToolbar(props: CatalogToolbarProps) {
   const { labels } = props;
   return (
-    <div className="sticky top-16 z-20 -mx-4 space-y-3 border-b border-border bg-background/95 px-4 py-3 backdrop-blur sm:mx-0 sm:rounded-xl sm:border sm:px-4">
+    <div className="sticky top-16 z-20 -mx-4 space-y-3 border-b border-border bg-background px-4 py-3 sm:mx-0 sm:rounded-xl sm:border sm:px-4">
       <div className="flex flex-col gap-3 sm:flex-row">
         <CatalogSearch label={labels.searchLabel} placeholder={labels.searchPlaceholder} value={props.query} onChange={props.onQuery} />
         <CatalogSort label={labels.sortLabel} options={labels.sorts} value={props.sort} onChange={props.onSort} />
@@ -34,7 +34,7 @@ export function CatalogToolbar(props: CatalogToolbarProps) {
       <CategoryChips label={labels.filterLabel} chips={props.chips} active={props.category} onSelect={props.onCategory} />
       <div className="flex min-h-8 items-center justify-between gap-3 text-sm">
         <p role="status" className="font-semibold text-muted-foreground">
-          {labels.results(props.count)}
+          {labels.results[props.count] ?? String(props.count)}
         </p>
         {props.dirty && (
           <Button type="button" variant="ghost" size="sm" onClick={props.onReset}>

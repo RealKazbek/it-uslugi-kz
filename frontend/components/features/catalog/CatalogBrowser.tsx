@@ -18,7 +18,8 @@ export interface CatalogLabels {
   empty: string;
   sortLabel: string;
   sorts: Record<SortKey, string>;
-  results: (n: number) => string;
+  /** Result-count text for 0..N matches (functions cannot cross the server/client boundary). */
+  results: string[];
   reset: string;
   whatsapp: string;
   card: ProductCardLabels;
