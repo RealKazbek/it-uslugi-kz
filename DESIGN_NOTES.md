@@ -107,18 +107,18 @@ animating width/height; one duration for everything; text below 14px; low-contra
 
 ## Lighthouse (2026-10-30)
 
-Lighthouse 12.8.2 against the FINAL production build (`make dev` after commit "per-language portfolio titles, related products grid"), http://127.0.0.1:3000, ru, default mobile (simulated slow 4G, 4x CPU) and desktop presets.
+Lighthouse 12.8.2 against the FINAL production build (`make dev` after the channels-strip commit, the last code change), http://127.0.0.1:3000, ru, default mobile (simulated slow 4G, 4x CPU) and desktop presets.
 
 | Page | Device | Performance | Accessibility | Best practices | SEO | LCP | TBT | CLS |
 |---|---|---|---|---|---|---|---|---|
-| Home `/` | mobile | 95 | 100 | 100 | 100 | 3.0 s | 38 ms | 0 |
+| Home `/` | mobile | 95 | 100 | 100 | 100 | 3.0 s | 59 ms | 0 |
 | Home `/` | desktop | 98 | 100 | 100 | 100 | 1.1 s | 0 ms | 0 |
-| Catalog `/catalog` | mobile | 99 | 96 | 100 | 100 | 2.0 s | 31 ms | 0 |
+| Catalog `/catalog` | mobile | 91 | 96 | 100 | 100 | 3.5 s | 59 ms | 0 |
 | Catalog `/catalog` | desktop | 100 | 96 | 100 | 100 | 0.7 s | 0 ms | 0 |
-| Product `/products/lending` | mobile | 100 | 100 | 100 | 100 | 1.8 s | 12 ms | 0 |
+| Product `/products/lending` | mobile | 93 | 100 | 100 | 100 | 3.1 s | 32 ms | 0 |
 | Product `/products/lending` | desktop | 100 | 100 | 100 | 100 | 0.6 s | 0 ms | 0 |
 
-Variance (extra mobile runs on the same build family): home 94 / 94 / 99, catalog 94 / 92 / 93 / 91, product 100 / 93. Mobile performance >= 90 in every run on all three pages.
+Variance (earlier mobile runs on the previous builds of the same code): home 94 / 94 / 99 / 95, catalog 94 / 92 / 93 / 91 / 99, product 100 / 100 / 93. Mobile performance >= 90 in every run on all three pages.
 Catalog accessibility 96: axe samples cards that are still fading in (staggered reveal) and reports blended colours (#DC3C30 instead of the real #D92D20, #7B828D instead of #5B6472). The resting colours pass AA (4.83:1 and 5.98:1).
 
 Screenshots (Playwright, full page, ru, final build) at 375/768/1280 for home, catalog and product: `/screenshots` at the repo root (`screenshots/{home,catalog,product}-{375,768,1280}.png`). The folder is git-ignored (~37 MB of PNG) so the branch stays light. Fixed elements (mobile contact bar, floating WhatsApp) appear where the viewport ended during the full-page capture.
