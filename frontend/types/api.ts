@@ -26,6 +26,8 @@ export interface ProductCardDto {
   unit: Unit;
   days_min: number;
   days_max: number;
+  /** Needs a visit; offered only in config.onsiteCities. */
+  is_onsite: boolean;
 }
 
 export interface FaqDto {

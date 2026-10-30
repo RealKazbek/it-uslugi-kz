@@ -1,0 +1,96 @@
+{
+  "slug": "amocrm-nastroika",
+  "category": "automation",
+  "title_ru": "Настройка amoCRM под ваши продажи",
+  "title_kk": "amoCRM жүйесін сатуыңызға баптау",
+  "title_en": "Setting up amoCRM for your sales process",
+  "short_ru": "Настраиваем воронку, статусы, поля и уведомления в amoCRM, чтобы заявки не терялись и каждый менеджер знал следующий шаг.",
+  "short_kk": "amoCRM-де воронканы, статустарды, өрістер мен хабарламаларды баптаймыз, сонда өтініштер жоғалмайды және әр менеджер келесі қадамын біледі.",
+  "short_en": "We configure pipelines, statuses, fields and notifications in amoCRM so leads do not get lost and every manager knows the next step.",
+  "description_ru": "Разбираем, как идёт продажа от первого обращения до оплаты, и переносим этот процесс в amoCRM. Настраиваем воронки, статусы, поля, шаблоны задач и подключение каналов: сайт, Telegram, WhatsApp и звонки. Работаем командой удалённо по всему Казахстану и передаём систему так, чтобы сотрудники могли пользоваться ею сами.",
+  "description_kk": "Алғашқы хабарласудан төлемге дейін сатылым қалай жүретінін талдап, осы процесті amoCRM-ге көшіреміз. Воронкаларды, статустарды, өрістерді, тапсырма үлгілерін және арналарды қосамыз: сайт, Telegram, WhatsApp және қоңыраулар. Біз командамен Қазақстан бойынша қашықтан жұмыс істейміз және жүйені қызметкерлеріңіз өз бетінше пайдалана алатындай етіп тапсырамыз.",
+  "description_en": "We map how your sales run from the first contact to payment and move that process into amoCRM. We set up pipelines, statuses, fields, task templates and channels: website, Telegram, WhatsApp and calls. We work as a remote team across Kazakhstan and hand over a system your staff can run on their own.",
+  "for_whom_ru": "Для компаний, где заявки приходят из нескольких мест и часть из них теряется в переписках и таблицах. Подойдёт, если в отделе продаж несколько менеджеров и руководитель хочет видеть, на каком этапе каждая сделка.",
+  "for_whom_kk": "Өтініштер бірнеше жерден келіп, бір бөлігі хат пен кестелерде жоғалатын компанияларға арналған. Сатылым бөлімінде бірнеше менеджер болып, басшы әр мәміленің қай кезеңде екенін көргісі келсе, қолайлы.",
+  "for_whom_en": "For companies that receive leads from several places and lose some of them in chats and spreadsheets. It fits a sales team with several managers where the owner wants to see the stage of every deal.",
+  "includes_ru": [
+    "Разбор текущего процесса продаж и согласование схемы воронки",
+    "Настройка воронок, статусов, пользовательских полей и источников сделок",
+    "Подключение сайта, мессенджеров и формы заявки к amoCRM",
+    "Автоматические задачи и напоминания для менеджеров",
+    "Роли и права доступа для сотрудников и руководителя",
+    "Короткая инструкция и обучение команды работе в системе"
+  ],
+  "includes_kk": [
+    "Ағымдағы сатылым процесін талдау және воронка сызбасын келісу",
+    "Воронкаларды, статустарды, теңшелетін өрістер мен сделка көздерін баптау",
+    "Сайтты, мессенджерлерді және өтініш формасын amoCRM-ге қосу",
+    "Менеджерлерге арналған автоматты тапсырмалар мен еске салғыштар",
+    "Қызметкерлер мен басшыға рөлдер және қол жеткізу құқықтары",
+    "Қысқа нұсқаулық және команданы жүйемен жұмысқа оқыту"
+  ],
+  "includes_en": [
+    "Review of the current sales process and agreement on the pipeline layout",
+    "Setup of pipelines, statuses, custom fields and deal sources",
+    "Connection of your website, messengers and request form to amoCRM",
+    "Automatic tasks and reminders for managers",
+    "Roles and access rights for staff and the owner",
+    "A short guide and a training session for your team"
+  ],
+  "not_included_ru": [
+    "Сама подписка amoCRM и оплата сторонних сервисов",
+    "Собственные интеграции, которых нет в готовых коннекторах (оцениваются отдельно)",
+    "Ведение продаж и обзвон клиентов: мы настраиваем инструмент, а работу с клиентами выполняет ваша команда"
+  ],
+  "not_included_kk": [
+    "amoCRM жазылымы және үшінші тарап сервистерінің төлемі",
+    "Дайын коннекторларда жоқ арнайы интеграциялар (бөлек бағаланады)",
+    "Сатылымды жүргізу және клиенттерге қоңырау шалу: біз құралды баптаймыз, ал клиенттермен жұмысты сіздің команда атқарады"
+  ],
+  "not_included_en": [
+    "The amoCRM subscription itself and fees for third-party services",
+    "Custom integrations that are not covered by ready-made connectors (priced separately)",
+    "Running sales or calling clients: we set up the tool, while your team works with the clients"
+  ],
+  "price_from_kzt": 60000,
+  "unit": "once",
+  "days_min": 5,
+  "days_max": 12,
+  "related": [
+    "crm-dlya-malogo-biznesa",
+    "zayavki-v-google-sheets",
+    "uvedomleniya-o-zayavkah"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 120,
+  "faqs": [
+    {
+      "question_ru": "Что нужно подготовить до начала работ?",
+      "question_kk": "Жұмыс басталғанға дейін не дайындау керек?",
+      "question_en": "What should you prepare before work starts?",
+      "answer_ru": "Доступ администратора к аккаунту amoCRM, список этапов вашей продажи и примеры типовых заявок. Если клиенты сейчас ведутся в таблице, пришлите её: перенос данных из Excel обычно входит в работу.",
+      "answer_kk": "amoCRM аккаунтына әкімші қолжетімділігі, сатылым кезеңдерінің тізімі және типтік өтініштер үлгілері керек. Клиенттер қазір кестеде жүрген болса, жіберіңіз: Excel-ден деректерді көшіру әдетте жұмыска кіреді.",
+      "answer_en": "Administrator access to your amoCRM account, a list of the stages your sales go through, and examples of typical requests. If your clients are in a spreadsheet, send it over: moving data from Excel is usually part of the work.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что оплачивается отдельно?",
+      "question_kk": "Бөлек не төленеді?",
+      "question_en": "What is paid separately?",
+      "answer_ru": "Подписка amoCRM, платные коннекторы и нестандартные интеграции с другими системами. Стоимость и объём мы всегда согласовываем заранее, чтобы не было неожиданных счетов.",
+      "answer_kk": "amoCRM жазылымы, ақылы коннекторлар және басқа жүйелермен стандартты емес интеграциялар. Құнын және көлемін біз әрдайым алдын ала келісеміз, сондықтан күтпеген шот келмейді.",
+      "answer_en": "The amoCRM subscription, paid connectors and non-standard integrations with other systems. We always agree the cost and scope in advance, so no unexpected invoices arrive.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Вы получаете список настроенных элементов и инструкцию. В первые недели после запуска мы отвечаем на вопросы по работе системы и правим то, что неудобно вашей команде.",
+      "answer_kk": "Сіз баптаған элементтердің тізімін және нұсқаулықты аласыз. Іске қосқаннан кейінгі алғашқы аптада жүйе бойынша сұрақтарға жауап береміз және командаңызға ыңғайсыз нәрсені түзетеміз.",
+      "answer_en": "You receive a list of everything we configured and a short guide. In the first weeks after launch we answer questions about the system and adjust anything that is inconvenient for your team.",
+      "sort": 2
+    }
+  ]
+}

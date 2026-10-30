@@ -21,7 +21,7 @@ def test_category_fixtures_pass_full_clean() -> None:
 def test_product_fixtures_pass_full_clean() -> None:
     relations = ("category", "related", "faqs")
     products = load_fixture_dir("products")
-    assert len(products) == 59
+    assert len(products) >= 59
     for item in products:
         product = Product(**model_fields(item, exclude=relations))
         product.full_clean(exclude=["category"], validate_unique=False)

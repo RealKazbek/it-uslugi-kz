@@ -1,0 +1,96 @@
+{
+  "slug": "google-ads-nastroika",
+  "category": "seo-maps",
+  "title_ru": "Настройка Google Ads",
+  "title_kk": "Google Ads баптау",
+  "title_en": "Google Ads setup",
+  "short_ru": "Настраиваем рекламные кампании в Google Ads с понятными целями, ключевыми словами и отслеживанием заявок с сайта.",
+  "short_kk": "Google Ads-те жарнамалық науқандарды дұрыс мақсаттармен, кілт сөздермен және сайттан өтініштерді бақылаумен баптаймыз.",
+  "short_en": "We set up Google Ads campaigns with clear goals, keywords and tracking of enquiries from your website.",
+  "description_ru": "Разбираем, что вы продаёте, в каком регионе работаете и какие запросы ищут ваши клиенты. Создаём структуру кампаний, подбираем ключевые и минус-слова, пишем объявления и подключаем отслеживание звонков и форм. Работаем удалённо по всему Казахстану и передаём аккаунт вам, чтобы управление и бюджет оставались у вас.",
+  "description_kk": "Не сататыныңызды, қай аймақта жұмыс істейтініңізді және клиенттеріңіз қандай сұраныстар іздейтінін талдаймыз. Науқандар құрылымын жасап, кілт сөздер мен минус-сөздерді таңдаймыз, жарнама мәтіндерін жазып, қоңыраулар мен формаларды бақылауды қосамыз. Біз Қазақстан бойынша қашықтан жұмыс істейміз және аккаунтты сізге тапсырамыз, сонда басқару мен бюджет сізде қалады.",
+  "description_en": "We look at what you sell, which region you serve and what your customers search for. We build the campaign structure, pick keywords and negative keywords, write the ads and connect tracking for calls and forms. We work remotely across Kazakhstan and hand the account over to you, so you keep control of management and the budget.",
+  "for_whom_ru": "Для компаний, которые хотят получать заявки из поиска Google и понимать, какая реклама окупается. Подойдёт, если аккаунт уже есть, но кампании настроены неверно или не отслеживаются.",
+  "for_whom_kk": "Google іздеуінен өтініш алғысы келетін және қай жарнама өзін ақтайтынын түсінгісі келетін компанияларға арналған. Аккаунт бар, бірақ науқандар дұрыс баптала алмаған немесе бақыланбаса, қолайлы.",
+  "for_whom_en": "For businesses that want enquiries from Google Search and a clear view of which ads pay off. It fits when an account already exists but the campaigns are badly set up or not tracked.",
+  "includes_ru": [
+    "Аудит текущего аккаунта или создание нового с нуля",
+    "Структура кампаний и групп объявлений под ваши услуги",
+    "Подбор ключевых слов и список минус-слов",
+    "Написание объявлений и ссылки на нужные страницы сайта",
+    "Цели и отслеживание заявок, звонков и форм",
+    "Краткая инструкция по контролю бюджета и отчётам"
+  ],
+  "includes_kk": [
+    "Ағымдағы аккаунтты тексеру немесе нөлден жаңасын жасау",
+    "Сіздің қызметтеріңізге арналған науқандар мен жарнама топтарының құрылымы",
+    "Кілт сөздерді таңдау және минус-сөздер тізімі",
+    "Жарнама мәтіндерін жазу және оларды сайт беттеріне байланыстыру",
+    "Өтініштерді, қоңыраулар мен формаларды бақылау мақсаттары",
+    "Бюджетті бақылау және есептер бойынша қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "An audit of your current account or a new account set up from scratch",
+    "Campaign and ad group structure built around your services",
+    "Keyword selection and a list of negative keywords",
+    "Ad copy and links to the matching pages of your website",
+    "Goals and tracking for enquiries, calls and forms",
+    "A short guide on budget control and reports"
+  ],
+  "not_included_ru": [
+    "Рекламный бюджет: его вы оплачиваете Google напрямую, мы его не получаем и не распределяем",
+    "Ведение кампаний после запуска: регулярная оптимизация оплачивается отдельно",
+    "Гарантия количества заявок, позиций или продаж: результат зависит от спроса, конкуренции и вашего предложения"
+  ],
+  "not_included_kk": [
+    "Жарнама бюджеті: оны Google-ға өзіңіз тікелей төлейсіз, біз оны алмаймыз және сіздің орныңызға таратпаймыз",
+    "Іске қосқаннан кейінгі науқандарды жүргізу: тұрақты оңтайландыру бөлек төленеді",
+    "Өтініштер, позициялар немесе сатылым санына кепілдік: нәтиже сұраныс, бәсеке және ұсынысқа байланысты"
+  ],
+  "not_included_en": [
+    "The ad budget: you pay Google directly, and we neither receive nor manage it for you",
+    "Running campaigns after launch: ongoing optimisation is paid separately",
+    "A guarantee of lead numbers, rankings or sales: results depend on demand, competition and your offer"
+  ],
+  "price_from_kzt": 40000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 7,
+  "related": [
+    "seo-prodvizhenie",
+    "analitika-ga4-metrika",
+    "yandex-direct-nastroika"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 125,
+  "faqs": [
+    {
+      "question_ru": "Что нужно подготовить до начала?",
+      "question_kk": "Басталғанға дейін не дайындау керек?",
+      "question_en": "What should you prepare before we start?",
+      "answer_ru": "Доступ к аккаунту Google Ads или право его создать, доступ к сайту для установки отслеживания и список услуг с ценами или диапазонами. Если у вас есть Google Business Profile, он тоже поможет.",
+      "answer_kk": "Google Ads аккаунтына қолжетімділік немесе жаңасын ашу құқығы, отслеживание орнату үшін сайтқа қолжетімділік және бағасы немесе диапазоны бар қызметтер тізімі. Google Business Profile бар болса, ол да көмектеседі.",
+      "answer_en": "Access to a Google Ads account or the right to create one, access to your website to install tracking, and a list of services with prices or price ranges. If you have a Google Business Profile, it helps too.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько будет стоить реклама?",
+      "question_kk": "Жарнама қанша тұрады?",
+      "question_en": "How much will the ads cost?",
+      "answer_ru": "Бюджет на показы вы платите Google напрямую, он не входит в нашу работу. Вместе выбираем разумный стартовый бюджет, исходя из ваших целей и спроса в регионе. Точные цифры видны в вашем аккаунте.",
+      "answer_kk": "Жарнамаға арналған бюджетті Google-ға өзіңіз тікелей төлейсіз, ол біздің жұмысқа кірмейді. Мақсатыңыз бен аймақтағы сұраныс негізінде бірге бастапқы бюджетті таңдаймыз, нақты сандар аккаунтыңызда көрінеді.",
+      "answer_en": "You pay Google directly for ad spend, and it is not part of our work. Together we pick a sensible starting budget based on your goals and local demand, and the exact figures show in your account.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Вы получаете аккаунт, где сохраняете права владельца доступа, список настроенных кампаний и инструкцию по отчётам. Если хотите дальнейшее ведение и оптимизацию, обсудим их отдельно.",
+      "answer_kk": "Сіз аккаунтты аласыз, онда доступтың иесі болып қаласыз, баптаған науқандар тізімін және есептер бойынша нұсқаулықты аласыз. Одан әрі жүргізу мен оңтайландыруды қаласаңыз, оны бөлек талқылаймыз.",
+      "answer_en": "You get an account where you keep ownership of the access, a list of the campaigns we set up and a guide to the reports. If you want ongoing management or optimisation, we discuss that separately.",
+      "sort": 2
+    }
+  ]
+}

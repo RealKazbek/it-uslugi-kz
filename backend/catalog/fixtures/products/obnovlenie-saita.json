@@ -1,0 +1,99 @@
+{
+  "slug": "obnovlenie-saita",
+  "category": "support",
+  "title_ru": "Безопасное обновление CMS, плагинов и PHP",
+  "title_kk": "CMS, плагиндер мен PHP-ды қауіпсіз жаңарту",
+  "title_en": "Safe updates for CMS, plugins and PHP",
+  "short_ru": "Обновляем CMS, плагины и версию PHP с резервной копией до работы и проверкой сайта после неё, чтобы ничего не сломалось.",
+  "short_kk": "CMS, плагиндер мен PHP нұсқасын жаңартамыз. Жұмыс алдында резервтік көшірме жасаймыз, кейін сайтты тексереміз, сонда ештеңе бұзылмайды.",
+  "short_en": "We update your CMS, plugins and PHP version, with a backup before the work and a site check afterwards, so nothing breaks.",
+  "description_ru": "Наша команда проверяет, какие версии CMS, плагинов и PHP сейчас стоят на сайте и какие уязвимости в них известны. Перед обновлением делаем резервную копию, обновляем по шагам и проверяем ключевые страницы, формы и оплату. Если что-то перестало работать, возвращаем предыдущую версию.",
+  "description_kk": "Біздің команда сайтта қазір қандай CMS, плагин және PHP нұсқалары тұрғанын және олардағы белгілі осалдықтарды тексереді. Жаңартар алдында резервтік көшірме жасаймыз, қадаммен жаңартамыз және негізгі беттерді, формаларды, төлемді тексереміз. Бірдеңе жұмыстан шықса, алдыңғы нұсқаны қайтарамыз.",
+  "description_en": "Our team checks which versions of the CMS, plugins and PHP are running on your site and which known weaknesses they have. Before updating we make a backup, update step by step, and check key pages, forms and payment. If something stops working, we restore the previous version.",
+  "for_whom_ru": "Для сайтов на WordPress, Bitrix и других CMS, которые давно не обновлялись, и для владельцев, которые боятся, что обновление всё сломает.",
+  "for_whom_kk": "Ұзақ уақыт жаңартылмаған WordPress, Bitrix және басқа CMS сайттарына және жаңарту бәрін бұзып кетеді деп қорқатын иелерге арналған.",
+  "for_whom_en": "For sites on WordPress, Bitrix and other CMS that have not been updated for a long time, and for owners afraid that an update will break everything.",
+  "includes_ru": [
+    "Проверка текущих версий CMS, плагинов и PHP и известных уязвимостей",
+    "Резервная копия сайта и базы перед началом работ",
+    "Пошаговое обновление с проверкой после каждого шага",
+    "Обновление версии PHP с проверкой совместимости плагинов",
+    "Проверка ключевых страниц, форм, поиска и оплаты после обновления",
+    "Откат на предыдущую версию, если что-то перестало работать",
+    "Короткий список того, что обновлено и что стоит сделать дальше"
+  ],
+  "includes_kk": [
+    "CMS, плагиндер мен PHP-ның қазіргі нұсқаларын және белгілі осалдықтарды тексеру",
+    "Жұмыс басталар алдында сайт пен дерекқордың резервтік көшірмесі",
+    "Әр қадамнан кейін тексеріп, қадаммен жаңарту",
+    "Плагиндердің үйлесімділігін тексеріп, PHP нұсқасын жаңарту",
+    "Жаңартудан кейін негізгі беттерді, формаларды, іздеуді және төлемді тексеру",
+    "Бірдеңе жұмыстан шықса, алдыңғы нұсқаға қайтару",
+    "Не жаңартылғаны және әрі қарай не істеу керектігінің қысқа тізімі"
+  ],
+  "includes_en": [
+    "Checking current CMS, plugin and PHP versions and known weaknesses",
+    "A backup of the site and database before the work starts",
+    "Step-by-step updates with a check after each step",
+    "PHP version update with a check of plugin compatibility",
+    "Checking key pages, forms, search and payment after the update",
+    "Rollback to the previous version if something stops working",
+    "A short list of what was updated and what to do next"
+  ],
+  "not_included_ru": [
+    "Оплата лицензий премиум-плагинов и тем, если их нужно обновить до платной версии",
+    "Доработка функций или переписывание шаблона: это отдельная работа",
+    "Исправление ошибок, которые существовали до обновления: их оцениваем отдельно"
+  ],
+  "not_included_kk": [
+    "Премиум плагиндер мен тақырыптардың ақылы нұсқасына лицензия төлемі",
+    "Функцияларды жетілдіру немесе шаблонды қайта жазу: бұл бөлек жұмыс",
+    "Жаңартуға дейін бар қателерді түзету: оларды бөлек бағалаймыз"
+  ],
+  "not_included_en": [
+    "Paying for premium plugin or theme licences if they need a paid version",
+    "Adding features or rewriting the template: this is separate work",
+    "Fixing errors that existed before the update: these are priced separately"
+  ],
+  "price_from_kzt": 12000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "podderzhka-saita",
+    "lechenie-ot-vzloma",
+    "ispravlenie-oshibok"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 137,
+  "faqs": [
+    {
+      "question_ru": "Может ли обновление сломать сайт?",
+      "question_kk": "Жаңарту сайтты бұзып тастауы мүмкін бе?",
+      "question_en": "Can an update break the site?",
+      "answer_ru": "Да, иногда плагин несовместим с новой версией PHP или CMS. Поэтому перед работой делаем резервную копию и проверяем сайт после каждого шага. Если сайт перестал работать, возвращаем предыдущее состояние, обычно за короткое время.",
+      "answer_kk": "Иә, кейде плагин жаңа PHP немесе CMS нұсқасымен үйлеспейді. Сондықтан жұмыс алдында резервтік көшірме жасаймыз және әр қадамнан кейін сайтты тексереміз. Сайт жұмыс істеуін тоқтатса, алдыңғы күйге қайтарамыз, әдетте қысқа уақытта.",
+      "answer_en": "Yes, sometimes a plugin is incompatible with a new PHP or CMS version. That is why we make a backup before the work and check the site after each step. If the site stops working, we return to the previous state, usually within a short time.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Нужно ли что-то делать перед обновлением?",
+      "question_kk": "Жаңартар алдында өзім бірдеңе істеуім керек пе?",
+      "question_en": "Do I need to do anything before the update?",
+      "answer_ru": "Желательно сообщить нам о важных функциях сайта, которые нельзя трогать, например о заказах или записи клиентов. Также полезно не вносить крупные изменения на сайте в день обновления.",
+      "answer_kk": "Сайттың өзгертуге болмайтын маңызды функцияларын, мысалы тапсырыстар немесе клиенттерді жазуды, бізге айтқаныңыз дұрыс. Жаңарту күні сайтқа ірі өзгерістер енгізбеген жөн.",
+      "answer_en": "It helps to tell us about key site features that must not be touched, such as orders or customer bookings. It is also better not to make major changes to the site on the day of the update.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Как часто нужно обновлять сайт?",
+      "question_kk": "Сайтты қанша жиі жаңарту керек?",
+      "question_en": "How often should the site be updated?",
+      "answer_ru": "Обновления безопасности лучше ставить сразу, когда они выходят, а крупные версии раз в несколько месяцев. Если вы хотите, чтобы это делалось регулярно, подключите поддержку сайта, и мы будем проверять обновления по плану.",
+      "answer_kk": "Қауіпсіздік жаңартуларын шыққан бойда орнатқан дұрыс, ал ірі нұсқаларын бірнеше айда бір рет. Бұл үнемі жасалғанын қаласаңыз, сайтқа қолдауды қосыңыз, сонда жаңартуларды жоспар бойынша тексереміз.",
+      "answer_en": "Security updates are best installed as soon as they come out, and major versions every few months. If you want this done regularly, connect site support and we will check updates on a schedule.",
+      "sort": 2
+    }
+  ]
+}

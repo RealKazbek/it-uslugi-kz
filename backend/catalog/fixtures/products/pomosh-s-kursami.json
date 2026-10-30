@@ -1,0 +1,99 @@
+{
+  "slug": "pomosh-s-kursami",
+  "category": "education",
+  "title_ru": "Помощь разобраться с материалами онлайн-курсов",
+  "title_kk": "Онлайн-курс материалдарын түсінуге көмек",
+  "title_en": "Help making sense of online course materials",
+  "short_ru": "Объясняем непонятные темы из онлайн-курса, разбираем примеры и помогаем понять логику материала. Задания выполняете вы.",
+  "short_kk": "Онлайн-курстың түсініксіз тақырыптарын түсіндіреміз, мысалдарды талдаймыз және материалдың логикасын түсінуге көмектесеміз. Тапсырманы сіз орындайсыз.",
+  "short_en": "We explain unclear topics from your online course, go through the examples and help you understand the logic of the material. You do the tasks yourself.",
+  "description_ru": "Вы говорите, какой модуль или урок вызывает сложности, а мы разбираем его вместе: объясняем термины и идеи простыми словами, показываем примеры и проверяем, поняли ли вы материал. Задания, которые оценивает курс, вы выполняете сами, а мы помогаем понять, почему то или иное решение работает. Занятие длится один урок и при необходимости повторяется.",
+  "description_kk": "Қай модуль немесе сабақ қиындық туғызатынын айтасыз, біз оны бірге талдаймыз: терминдер мен идеяларды қарапайым сөзбен түсіндіреміз, мысалдар көрсетеміз және материалды түсінгеніңізді тексереміз. Курс бағалайтын тапсырманы өзіңіз орындайсыз, ал біз белгілі бір шешімнің неге жұмыс істейтінін түсінуге көмектесеміз. Сабақ бір урокқа созылады, қажет болса қайталанады.",
+  "description_en": "You tell us which module or lesson is hard, and we go through it together: we explain terms and ideas in simple words, show examples and check that you understood the material. You do the tasks that the course grades yourself, and we help you understand why a given solution works. A lesson lasts one session and is repeated as needed.",
+  "for_whom_ru": "Для людей, которые проходят онлайн-курс самостоятельно, застряли на сложной теме и хотят, чтобы кто-то объяснил её понятным языком.",
+  "for_whom_kk": "Онлайн-курсты өз бетінше оқып жүрген, күрделі тақырыпта тоқтап қалған және оны адамша түсіндіріп берсе деген адамдарға арналған.",
+  "for_whom_en": "For people taking an online course on their own who got stuck on a hard topic and want someone to explain it in plain terms.",
+  "includes_ru": [
+    "Разбор непонятной темы или урока по вашему выбору",
+    "Объяснение терминов и идей простыми словами",
+    "Разбор примеров из курса по шагам",
+    "Вопросы, которые помогают проверить, поняли ли вы материал",
+    "Подсказки, где искать информацию в курсе и в документации",
+    "План повторения, если тема опирается на предыдущие уроки",
+    "Ответы на вопросы по ходу занятия"
+  ],
+  "includes_kk": [
+    "Сіз таңдаған түсініксіз тақырып немесе сабақты талдау",
+    "Терминдер мен идеяларды қарапайым сөзбен түсіндіру",
+    "Курстағы мысалдарды қадамдап талдау",
+    "Материалды түсінгеніңізді тексеруге көмектесетін сұрақтар",
+    "Курста және құжаттамада ақпаратты қайдан іздеу керектігіне кеңестер",
+    "Тақырып алдыңғы сабаққа негізделсе, қайталау жоспары",
+    "Сабақ барысында сұрақтарға жауап"
+  ],
+  "includes_en": [
+    "A walk-through of the unclear topic or lesson you choose",
+    "Explaining terms and ideas in simple words",
+    "Step-by-step review of the examples in the course",
+    "Questions that check whether you have understood the material",
+    "Pointers to where to look in the course and the documentation",
+    "A revision plan if the topic builds on earlier lessons",
+    "Answers to your questions during the lesson"
+  ],
+  "not_included_ru": [
+    "Выполнение заданий, домашних работ и тестов курса вместо вас",
+    "Сдача экзаменов, сертификационных тестов и прохождение курса вместо студента",
+    "Соблюдение правил курса и академической честности: если курс или вуз запрещает внешнюю помощь с заданиями, мы этого не делаем. Мы помогаем понять материал, а не получить зачёт"
+  ],
+  "not_included_kk": [
+    "Курстың тапсырмаларын, үй жұмыстарын және тесттерін сіз үшін орындау",
+    "Емтихан, сертификаттау тесттерін тапсыру немесе курсты студент орнына өту",
+    "Курс және оқу орны ережелерін, академиялық адалдықты сақтау: курс немесе оқу орны тапсырмаларға сыртқы көмекке тыйым салса, біз оны жасамаймыз. Материалды түсінуге көмектесеміз, зачет алуға емес"
+  ],
+  "not_included_en": [
+    "Doing course tasks, homework or quizzes for you",
+    "Taking exams or certification tests, or completing the course in the student's place",
+    "Following the course and academic integrity rules: if the course or university bans outside help with tasks, we do not do that. We help you understand the material, not earn a pass"
+  ],
+  "price_from_kzt": 3500,
+  "unit": "lesson",
+  "days_min": 1,
+  "days_max": 1,
+  "related": [
+    "kompyuternaya-gramotnost",
+    "veb-razrabotka-dlya-nachinayushih",
+    "python-s-nulya"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 157,
+  "faqs": [
+    {
+      "question_ru": "С какими курсами вы работаете?",
+      "question_kk": "Қандай курстармен жұмыс істейсіздер?",
+      "question_en": "Which courses do you help with?",
+      "answer_ru": "Помогаем с разными онлайн-курсами, если материал на русском, казахском или английском языке. Перед занятием уточните название курса, модуль и тему, которая вызывает вопросы.",
+      "answer_kk": "Материал орыс, қазақ немесе ағылшын тілінде болса, әр түрлі онлайн-курстарға көмектесеміз. Сабақ алдында курс атауын, модульді және қиындық туғызатын тақырыпты нақтылаңыз.",
+      "answer_en": "We help with a range of online courses if the material is in Russian, Kazakh or English. Before the lesson, tell us the course name, the module and the topic that is hard.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Вы поможете сдать курс или экзамен?",
+      "question_kk": "Курсты немесе емтиханды тапсыруға көмектесесіздер ме?",
+      "question_en": "Will you help the student pass the course or an exam?",
+      "answer_ru": "Нет. Мы не сдаём экзамены и не выполняем тесты вместо студента. Мы объясняем материал, чтобы студент понимал задания и мог выполнить их сам. Правила сдачи курса определяет его организатор.",
+      "answer_kk": "Жоқ. Біз емтихан тапсырмаймыз және тесттерді студент орнына орындамаймыз. Материалды түсіндіреміз, сонда студент тапсырмаларды түсініп, өзі орындай алады. Курсты тапсыру ережелерін оны ұйымдастырушы белгілейді.",
+      "answer_en": "No. We do not take exams or do quizzes in the student's place. We explain the material so the student understands the tasks and can complete them alone. The rules for passing the course are set by its organiser.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Сколько занятий обычно нужно?",
+      "question_kk": "Әдетте қанша сабақ керек?",
+      "question_en": "How many lessons are usually needed?",
+      "answer_ru": "Это зависит от темы и того, насколько материал опирается на предыдущие уроки. Часто одного-двух занятий хватает, чтобы разобрать сложный фрагмент. Точнее скажем после первого разговора.",
+      "answer_kk": "Бұл тақырыпқа және материалдың алдыңғы сабақтарға неге тәуелді екеніне байланысты. Күрделі бөлікті талдау үшін көбіне бір-екі сабақ жеткілікті. Нақтысын алғашқы әңгімеден кейін айтамыз.",
+      "answer_en": "It depends on the topic and how much the material builds on earlier lessons. One or two sessions are often enough to go through a difficult part. We will be more precise after the first conversation.",
+      "sort": 2
+    }
+  ]
+}

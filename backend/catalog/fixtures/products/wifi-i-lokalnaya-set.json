@@ -1,0 +1,99 @@
+{
+  "slug": "wifi-i-lokalnaya-set",
+  "category": "onsite",
+  "title_ru": "Wi-Fi и локальная сеть в офисе или магазине",
+  "title_kk": "Кеңседегі немесе дүкендегі Wi-Fi және жергілікті желі",
+  "title_en": "Wi-Fi and local network for an office or shop",
+  "short_ru": "Настраиваем роутеры и точки доступа, отдельную сеть для гостей и доступ к принтерам. Выезд на объект сейчас только в Алматы.",
+  "short_kk": "Роутерлер мен Wi-Fi нүктелерін баптаймыз, қонақтарға бөлек желі жасаймыз және принтерлерге қатынауды реттейміз. Объектіге шығу қазір тек Алматыда.",
+  "short_en": "We set up routers and access points, a separate guest network and access to printers. On-site visits are currently available in Almaty only.",
+  "description_ru": "Наша команда приезжает в офис или магазин, проверяет покрытие и скорость, а затем настраивает роутеры, точки доступа и локальную сеть. Гости получают отдельную сеть, а сотрудники и устройства, например принтеры и кассы, работают в защищённой сети. Перед сдачей мы измеряем скорость в каждой зоне и передаём вам пароли и схему сети.",
+  "description_kk": "Командамыз кеңсеге немесе дүкенге барып, жабылуды және жылдамдықты тексереді, содан кейін роутерлерді, Wi-Fi нүктелерін және жергілікті желіні баптайды. Қонақтар бөлек желіге қосылады, ал қызметкерлер мен принтер, касса сияқты құрылғылар қорғалған желіде жұмыс істейді. Тапсырар алдында әр аймақтағы жылдамдықты өлшеп, құпия сөздер мен желі сызбасын береміз.",
+  "description_en": "Our team visits the office or shop, checks coverage and speed, and then sets up the routers, access points and local network. Guests get a separate network, while staff and devices such as printers and tills work on a protected network. Before handover we measure speed in each zone and give you the passwords and a network diagram.",
+  "for_whom_ru": "Для офисов, магазинов, салонов и небольших компаний, где Wi-Fi плохо ловит в дальних комнатах или нужно разделить гостевую и рабочую сети.",
+  "for_whom_kk": "Wi-Fi алыс бөлмелерде нашар тұтылатын немесе қонақ желісін жұмыс желісінен бөлу керек кеңселерге, дүкендерге, салондарға және шағын компанияларға арналған.",
+  "for_whom_en": "For offices, shops, salons and small companies where Wi-Fi is weak in far rooms or guest and work networks need to be separated.",
+  "includes_ru": [
+    "Выезд на объект и обследование помещения для выбора мест точек доступа",
+    "Настройка роутера или контроллера и смена заводских паролей",
+    "Установка точек доступа и проверка покрытия по зонам",
+    "Отдельная гостевая сеть и рабочая сеть для сотрудников",
+    "Доступ к принтерам и сетевым папкам внутри локальной сети",
+    "Замер скорости и стабильности в каждой зоне",
+    "Схема сети и инструкция по паролям и подключению новых устройств"
+  ],
+  "includes_kk": [
+    "Нүктелердің орнын таңдау үшін объектіге шығып, үй-жайды тексеру",
+    "Роутерді немесе контроллерді баптау және зауыттық құпия сөздерді ауыстыру",
+    "Wi-Fi нүктелерін орнату және аймақтар бойынша жабылуды тексеру",
+    "Қонақтарға бөлек желі, қызметкерлерге жұмыс желісі",
+    "Жергілікті желі ішіндегі принтерлер мен желілік қалталарға қатынау",
+    "Әр аймақтағы жылдамдық пен тұрақтылықты өлшеу",
+    "Желі сызбасы және жаңа құрылғыларды қосу бойынша нұсқаулық"
+  ],
+  "includes_en": [
+    "A site visit and survey to choose where the access points go",
+    "Router or controller setup and replacement of factory passwords",
+    "Access point installation and coverage checks by zone",
+    "A separate guest network and a work network for staff",
+    "Access to printers and shared folders inside the local network",
+    "Speed and stability measurements in every zone",
+    "A network diagram and a guide to passwords and adding new devices"
+  ],
+  "not_included_ru": [
+    "Роутеры, точки доступа, кабели и коммутаторы: покупаются отдельно, по себестоимости или вашими силами",
+    "Работы на объекте вне Алматы: сейчас выезд доступен только в этот город",
+    "Настройка кассовых программ и других бизнес-программ: мы настраиваем сеть, но не программы, которыми вы пользуетесь"
+  ],
+  "not_included_kk": [
+    "Роутерлер, Wi-Fi нүктелері, кабельдер және коммутаторлар: олар бөлек сатып алынады, өзіндік құнымен немесе өз күшіңізбен",
+    "Алматыдан тыс жердегі объектіде жұмыс: қазір шығу тек осы қалаға қолжетімді",
+    "Кассалық және басқа бизнес-бағдарламаларды баптау: біз желіні баптаймыз, сіз пайдаланатын бағдарламаларды емес"
+  ],
+  "not_included_en": [
+    "Routers, access points, cables and switches: bought separately, at cost or by you",
+    "On-site work outside Almaty: visits are currently made only to this city",
+    "Setup of cash register software or other business programs: we set up the network, not the programs you use"
+  ],
+  "price_from_kzt": 35000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 4,
+  "related": [
+    "ustanovka-videonablyudeniya",
+    "kompyuternaya-pomosch",
+    "skud-i-domofony"
+  ],
+  "is_active": true,
+  "is_onsite": true,
+  "sort": 152,
+  "faqs": [
+    {
+      "question_ru": "Что нужно подготовить до визита?",
+      "question_kk": "Келуге дейін не дайындау керек?",
+      "question_en": "What should you prepare before the visit?",
+      "answer_ru": "Укажите площадь, число этажей и комнат, а также список устройств, которые должны подключаться: компьютеры, принтеры, кассы, камеры. Если у вас уже есть роутер провайдера, сообщите его модель. Это поможет заранее подобрать оборудование.",
+      "answer_kk": "Аудан, қабат және бөлме санын, сондай-ақ қосылуы керек құрылғылар тізімін көрсетіңіз: компьютерлер, принтерлер, кассалар, камералар. Провайдерден роутер бар болса, оның моделін айтыңыз. Бұл жабдықты алдын ала таңдауға көмектеседі.",
+      "answer_en": "Give us the floor area, the number of floors and rooms, and a list of the devices that need to connect: computers, printers, tills, cameras. If you already have a provider's router, tell us its model. This helps us choose the equipment in advance.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Можно ли оставить старый роутер провайдера?",
+      "question_kk": "Провайдердің ескі роутерін қалдыруға бола ма?",
+      "question_en": "Can I keep the provider's old router?",
+      "answer_ru": "Иногда можно, если он поддерживает нужный режим работы. Мы проверим модель на месте и скажем, стоит ли её использовать или лучше заменить. Решение принимаем по результатам замеров, а не на глаз.",
+      "answer_kk": "Кейде болады, егер ол қажетті режимді қолдаса. Модельді орында тексеріп, оны пайдалану керек пе әлде ауыстырған жақсы ма, соны айтамыз. Шешімді өлшеу нәтижесіне сүйеніп қабылдаймыз.",
+      "answer_en": "Sometimes, if it supports the mode we need. We will check the model on site and tell you whether to keep it or replace it. The decision is based on measurements, not guesswork.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что делать, если сеть перестанет работать после настройки?",
+      "question_kk": "Баптаудан кейін желі жұмыс істемей қалса не істеу керек?",
+      "question_en": "What if the network stops working after setup?",
+      "answer_ru": "Мы передаём схему сети, пароли и короткий список типичных проблем с решениями. Если что-то перестанет работать, напишите нам: подскажем, что проверить. Повторный выезд, если он понадобится, оплачивается отдельно.",
+      "answer_kk": "Сізге желі сызбасын, құпия сөздерді және типтік мәселелер мен шешімдердің қысқа тізімін береміз. Бір нәрсе жұмыс істемей қалса, бізге хабарлаңыз: нені тексеру керектігін айтамыз. Қайта шығу қажет болса, ол бөлек төленеді.",
+      "answer_en": "We hand you the network diagram, the passwords and a short list of common problems with solutions. If something stops working, tell us and we will say what to check. A repeat visit, if needed, is paid separately.",
+      "sort": 2
+    }
+  ]
+}

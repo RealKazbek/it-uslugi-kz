@@ -1,0 +1,99 @@
+{
+  "slug": "sait-na-wordpress",
+  "category": "websites",
+  "title_ru": "Сайт на WordPress с понятной админ-панелью",
+  "title_kk": "Түсінікті әкімші панелі бар WordPress сайты",
+  "title_en": "WordPress website with an easy admin panel",
+  "short_ru": "Сайт на WordPress с понятной админкой, блогом или новостями и проверенными решениями для форм и SEO.",
+  "short_kk": "Түсінікті әкімші панелі, блог немесе жаңалықтар және формалар мен SEO үшін сенімді шешімдері бар WordPress сайты.",
+  "short_en": "A WordPress site with a clear admin panel, a blog or news section, and proven tools for forms and SEO.",
+  "description_ru": "Мы делаем сайт на WordPress, потому что эта система широко используется и её легко поддерживать. Статьи, новости и товары вы публикуете сами через понятную админку. Дизайн подбираем под ваш бренд, а плагины выбираем проверенные и без лишнего, чтобы сайт работал быстро и стабильно.",
+  "description_kk": "WordPress жүйесі кеңінен қолданылады және оны қолдау оңай болғандықтан, осы жүйеде сайт жасаймыз. Мақалалар, жаңалықтар мен тауарларды түсінікті әкімші панелі арқылы өзіңіз жариялайсыз. Дизайнды брендіңізге лайықтап таңдаймыз, ал плагиндерді сенімді әрі артық жүктемесіз таңдаймыз, сонда сайт жылдам әрі тұрақты жұмыс істейді.",
+  "description_en": "We build the site on WordPress because it is widely used and easy to maintain. You publish articles, news and items yourself through a clear admin panel. We fit the design to your brand and choose proven plugins without excess, so the site stays fast and stable.",
+  "for_whom_ru": "Для компаний и специалистов, которым нужен сайт с блогом или новостями, который можно вести самим, с возможностью расширения в будущем.",
+  "for_whom_kk": "Блогы немесе жаңалықтары бар, өзі жүргізе алатын, болашақта кеңейтуге мүмкіндігі бар сайт керек компаниялар мен мамандарға арналған.",
+  "for_whom_en": "For companies and specialists who need a site with a blog or news section that they can run themselves, with room to grow later.",
+  "includes_ru": [
+    "Установка и настройка WordPress на хостинге или вашем домене",
+    "Дизайн главной, внутренних страниц и блога под ваш бренд",
+    "Админ-панель с понятным редактором для текстов и фото",
+    "Форма заявки и уведомления на почту или в Telegram",
+    "Базовое SEO: ссылки, заголовки, описания и карта сайта",
+    "Настройка резервного копирования",
+    "Инструкция для редактора и обучение работе в админке"
+  ],
+  "includes_kk": [
+    "WordPress-ті хостингке немесе сіздің доменге орнату және баптау",
+    "Басты бет, ішкі беттер және блогты брендке лайықтап дизайндау",
+    "Мәтін мен фотоға арналған түсінікті редакторы бар әкімші панелі",
+    "Өтініш формасы және поштаға немесе Telegram-ға хабарламалар",
+    "Негізгі SEO: сілтемелер, тақырыптар, сипаттамалар және сайт картасы",
+    "Резервтік көшірмені баптау",
+    "Редакторға арналған нұсқаулық және әкімші панелімен жұмыс оқыту"
+  ],
+  "includes_en": [
+    "Installing and setting up WordPress on your hosting or domain",
+    "Design of the home page, inner pages and blog to match your brand",
+    "An admin panel with a clear editor for texts and photos",
+    "A request form with notifications to email or Telegram",
+    "Basic SEO: links, titles, descriptions and a sitemap",
+    "Backup configuration",
+    "A guide for the editor and training on working in the admin panel"
+  ],
+  "not_included_ru": [
+    "Хостинг и домен: их оплачиваете вы напрямую провайдеру",
+    "Платные премиум-плагины и темы, если они понадобятся для нестандартных функций",
+    "Написание статей и наполнение каталога: это работа вашей команды или отдельный заказ"
+  ],
+  "not_included_kk": [
+    "Хостинг пен домен: оларды провайдерге тікелей төлейсіз",
+    "Ерекше функцияларға қажет болса, ақылы премиум плагиндер мен тақырыптар",
+    "Мақала жазу және каталогты толтыру: бұл сіздің команданың жұмысы немесе бөлек тапсырыс"
+  ],
+  "not_included_en": [
+    "Hosting and domain: you pay the hosting provider directly",
+    "Paid premium plugins and themes, if unusual features require them",
+    "Writing articles and filling the catalogue: this is your team's work or a separate order"
+  ],
+  "price_from_kzt": 60000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 20,
+  "related": [
+    "korporativnyi-sait",
+    "sait-vizitka",
+    "podderzhka-saita"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 103,
+  "faqs": [
+    {
+      "question_ru": "Можно ли вести блог самостоятельно?",
+      "question_kk": "Блогты өзі жүргізуге бола ма?",
+      "question_en": "Can we run the blog ourselves?",
+      "answer_ru": "Да. В админке есть редактор, похожий на обычный текстовый, и статьи публикуются без программиста. Мы покажем, как загрузить фото, оформить текст и задать заголовок, удобный для поиска.",
+      "answer_kk": "Иә. Әкімші панелінде әдеттегі мәтіндік редакторға ұқсас құрал бар, мақаланы бағдарламашысыз жариялайсыз. Фотоны жүктеуді, мәтінді безендіруді және іздеуге ыңғайлы тақырыпты қалай қоюды көрсетеміз.",
+      "answer_en": "Yes. The admin panel has an editor similar to a regular word processor, so articles are published without a developer. We show you how to upload photos, format text and set a search-friendly title.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Безопасен ли сайт на WordPress?",
+      "question_kk": "WordPress сайты қауіпсіз бе?",
+      "question_en": "Is a WordPress site secure?",
+      "answer_ru": "Безопасность зависит от регулярных обновлений и хорошего хостинга. Мы настраиваем резервные копии и сводим плагины к минимуму, но обновления ядра и плагинов нужно выполнять регулярно.",
+      "answer_kk": "Қауіпсіздік тұрақты жаңартуға және жақсы хостингке байланысты. Резервтік көшірмені баптаймыз және плагиндерді ең аз санға келтіреміз, бірақ жүйе мен плагиндерді тұрақты жаңарту керек.",
+      "answer_en": "Security depends on regular updates and decent hosting. We set up backups and keep plugins to a minimum, but the core and plugins must be updated regularly.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что нужно для запуска и что будет после?",
+      "question_kk": "Іске қосу үшін не керек және одан кейін не болады?",
+      "question_en": "What is needed to launch, and what follows?",
+      "answer_ru": "Нужны домен, хостинг, логотип, тексты и фото. После запуска вы получаете доступ к админке и инструкцию. Дальнейшие изменения и поддержку обсуждаем отдельно.",
+      "answer_kk": "Домен, хостинг, логотип, мәтін және фото керек. Іске қосқаннан кейін әкімші панеліне қолжетімділік пен нұсқаулық аласыз. Кейінгі өзгерістер мен қолдауды бөлек талқылаймыз.",
+      "answer_en": "You need a domain, hosting, your logo, texts and photos. After launch you get access to the admin panel and a guide. Further changes and support are discussed separately.",
+      "sort": 2
+    }
+  ]
+}

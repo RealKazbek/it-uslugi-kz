@@ -1,0 +1,96 @@
+{
+  "slug": "integraciya-1s",
+  "category": "automation",
+  "title_ru": "Интеграция сайта и CRM с 1С",
+  "title_kk": "Сайтты және CRM-ді 1С-мен интеграциялау",
+  "title_en": "Integrating your website and CRM with 1C",
+  "short_ru": "Связываем сайт и CRM с 1С, чтобы товары, цены, остатки и заказы передавались без ручного переноса.",
+  "short_kk": "Сайтты және CRM-ді 1С-мен байланыстырамыз, сонда тауарлар, бағалар, қалдықтар және тапсырыстар қолмен көшірусіз беріледі.",
+  "short_en": "We connect your website and CRM with 1C so products, prices, stock and orders move across without manual retyping.",
+  "description_ru": "Сначала определяем, какие данные должны ходить между системами и в каком направлении. Затем настраиваем обмен через API или стандартные механизмы 1С, с проверкой ошибок и журналом операций. Работаем удалённо по всему Казахстану и тестируем обмен на реальных документах, прежде чем запускать его в работу.",
+  "description_kk": "Алдымен жүйелер арасында қандай деректер, қай бағытта жүретінін анықтаймыз. Содан кейін 1С-нің API немесе стандартты тетіктері арқылы алмасуды баптаймыз, қателерді тексеріп, операциялар журналын жүргіземіз. Біз Қазақстан бойынша қашықтан жұмыс істейміз және алмасуды нақты құжаттарда сынаймыз, содан кейін ғана жұмысқа қосамыз.",
+  "description_en": "We first decide which data has to flow between the systems and in which direction. Then we set up the exchange through the 1C API or standard 1C mechanisms, with error checks and an operations log. We work remotely across Kazakhstan and test the exchange on real documents before it goes live.",
+  "for_whom_ru": "Для компаний, которые ведут учёт в 1С и хотят, чтобы сайт и CRM показывали актуальные цены и остатки, а заказы сразу попадали в учёт. Подойдёт, если сейчас всё переносится вручную.",
+  "for_whom_kk": "1С-те есеп жүргізетін және сайт пен CRM-де өзекті бағалар мен қалдықтарды көргісі келетін, тапсырыстар бірден есепке түсетін компанияларға арналған. Қазір бәрі қолмен көшірілсе, қолайлы.",
+  "for_whom_en": "For companies that keep accounts in 1C and want the website and CRM to show current prices and stock, with orders reaching the books straight away. It fits businesses that currently copy everything by hand.",
+  "includes_ru": [
+    "Список обмениваемых данных и правила, какая система главная",
+    "Настройка обмена заказами, товарами, ценами и остатками",
+    "Подключение сайта и CRM к конфигурации 1С",
+    "Проверка ошибок, повторные попытки и журнал обмена",
+    "Тестирование на копии базы и на нескольких реальных заказах",
+    "Инструкция для бухгалтера и менеджеров по работе с обменом"
+  ],
+  "includes_kk": [
+    "Алмасатын деректер тізімі және қай жүйенің басты екені туралы ережелер",
+    "Тапсырыстар, тауарлар, бағалар және қалдықтар алмасуын баптау",
+    "Сайтты және CRM-ді 1С конфигурациясына қосу",
+    "Қателерді тексеру, қайта әрекет ету және алмасу журналы",
+    "База көшірмесінде және бірнеше нақты тапсырыста сынау",
+    "Бухгалтер мен менеджерлерге алмасу бойынша нұсқаулық"
+  ],
+  "includes_en": [
+    "A list of exchanged data and rules for which system is the master",
+    "Exchange setup for orders, products, prices and stock",
+    "Connection of the website and CRM to your 1C configuration",
+    "Error checks, retries and an exchange log",
+    "Testing on a copy of the database and on several real orders",
+    "A guide for the accountant and managers on the exchange"
+  ],
+  "not_included_ru": [
+    "Лицензия 1С и стоимость платформы, на которой она работает",
+    "Доработка самой конфигурации 1С, если её структура этого не позволяет (оценивается отдельно)",
+    "Ведение учёта и отчётность: интеграция передаёт данные, а решения по учёту остаются за вашей бухгалтерией"
+  ],
+  "not_included_kk": [
+    "1С лицензиясы және оны жұмыс істететін платформаның құны",
+    "1С конфигурациясын түзету, егер оның құрылымы мүмкіндік бермесе (бөлек бағаланады)",
+    "Есеп жүргізу және есептілік: интеграция деректерді береді, ал есеп бойынша шешімдер бухгалтерияңызда қалады"
+  ],
+  "not_included_en": [
+    "The 1C licence and the cost of the platform it runs on",
+    "Changes to the 1C configuration itself if its structure does not allow the exchange (quoted separately)",
+    "Bookkeeping and reporting: the integration moves the data, while accounting decisions stay with your accountants"
+  ],
+  "price_from_kzt": 80000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 25,
+  "related": [
+    "integraciya-api",
+    "crm-dlya-malogo-biznesa",
+    "bitrix24-nastroika"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 122,
+  "faqs": [
+    {
+      "question_ru": "С какой версией 1С вы работаете?",
+      "question_kk": "Қай 1С нұсқасымен жұмыс істейсіздер?",
+      "question_en": "Which 1C version do you work with?",
+      "answer_ru": "Работаем с распространёнными в Казахстане конфигурациями 1С, например торговыми и бухгалтерскими. Точную версию и способ доступа проверяем до расчёта стоимости. Напишите, какая конфигурация у вас стоит и есть ли доступ к серверу или облаку.",
+      "answer_kk": "Қазақстанда жиі қолданылатын 1С конфигурацияларымен жұмыс істейміз. Бағаны айтпас бұрын нақты нұсқасын және қолжетімділік тәсілін тексереміз. Қандай конфигурация пайдаланатыныңызды және серверге немесе бұлтқа қол жеткізу мүмкіндігі бар-жоғын жазыңыз.",
+      "answer_en": "We work with the common 1C configurations used in Kazakhstan, such as trade and accounting editions. We check the exact version and the access method before we quote. Tell us which configuration you use and whether you have access to a server or the cloud.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что, если наша конфигурация нестандартная?",
+      "question_kk": "Егер біздің конфигурация стандартты емес болса не болады?",
+      "question_en": "What if our 1C configuration is customised?",
+      "answer_ru": "Сначала проверяем, на что способны стандартные механизмы обмена. Если нужна доработка самой конфигурации, мы описываем её и стоимость до начала работ. Она не входит в базовую цену.",
+      "answer_kk": "Алдымен стандартты алмасу тетіктерінің мүмкіндігін тексереміз. Конфигурацияның өзін түзету қажет болса, оны және құнын жұмыс басталғанға дейін сипаттаймыз. Ол негізгі бағаға кірмейді.",
+      "answer_en": "First we check how far the standard exchange methods reach. If the configuration itself needs changes, we describe them and their cost before any work starts. They are not included in the base price.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Мы оставляем журнал обмена и в первые недели вместе с вами проверяем, совпадают ли данные. Расхождения, которые найдём, исправляем. Дальнейшие изменения интеграции обсуждаем отдельно.",
+      "answer_kk": "Алмасу журналын жүргіземіз және алғашқы аптада сізбен бірге деректердің сәйкес келетінін тексереміз. Табылған сәйкессіздіктерді түзетеміз. Интеграцияға кейінгі өзгерістерді бөлек талқылаймыз.",
+      "answer_en": "We keep the exchange log and, in the first weeks, check together with you that the data matches. Any mismatches we find get fixed. Further changes to the integration are discussed separately.",
+      "sort": 2
+    }
+  ]
+}

@@ -5,11 +5,19 @@ export interface AppConfig {
   apiInternalUrl: string;
   siteUrl: string;
   usdRate: number;
+  /** Russian names of cities where on-site work is offered (ONSITE_CITIES, comma separated). */
+  onsiteCities: string[];
 }
 
 const DEFAULT_API_URL = 'http://localhost:8000';
 const DEFAULT_SITE_URL = 'https://uslugi.realkazbek.site';
 const DEFAULT_USD_RATE = 500;
+const DEFAULT_ONSITE_CITIES = ['Алматы'];
+
+function readList(raw: string | undefined, fallback: string[]): string[] {
+  const items = (raw ?? '').split(',').map((item) => item.trim()).filter(Boolean);
+  return items.length > 0 ? items : fallback;
+}
 
 function readUsdRate(raw: string | undefined): number {
   if (raw === undefined || raw.trim() === '') return DEFAULT_USD_RATE;
@@ -29,6 +37,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
     apiInternalUrl: stripTrailingSlash(env.API_INTERNAL_URL?.trim() || DEFAULT_API_URL),
     siteUrl: stripTrailingSlash(env.SITE_URL?.trim() || DEFAULT_SITE_URL),
     usdRate: readUsdRate(env.USD_RATE),
+    onsiteCities: readList(env.ONSITE_CITIES, DEFAULT_ONSITE_CITIES),
   };
 }
 

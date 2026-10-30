@@ -1,0 +1,96 @@
+{
+  "slug": "bitrix24-nastroika",
+  "category": "automation",
+  "title_ru": "Внедрение и настройка Битрикс24",
+  "title_kk": "Битрикс24 енгізу және баптау",
+  "title_en": "Rolling out and configuring Bitrix24",
+  "short_ru": "Внедряем Битрикс24 под ваши процессы: CRM, задачи, сотрудники и подключение сайта, чтобы работа шла в одной системе.",
+  "short_kk": "Битрикс24-ті сіздің процестеріңізге бейімдейміз: CRM, тапсырмалар, қызметкерлер және сайтты қосу, сонда жұмыс бір жүйеде жүреді.",
+  "short_en": "We set up Bitrix24 around your processes: CRM, tasks, staff and website connection, so the work runs in one system.",
+  "description_ru": "Сначала описываем, как работают отделы компании и какие данные вы ведёте сейчас. Затем настраиваем в Битрикс24 CRM, воронки, задачи, рабочие группы и права сотрудников. Подключаем сайт и формы заявок, чтобы обращения сразу попадали в систему. Работаем удалённо по всему Казахстану и обучаем команду на ваших реальных процессах.",
+  "description_kk": "Алдымен компания бөлімдерінің қалай жұмыс істейтінін және қазір қандай деректер жүргізілетінін сипаттаймыз. Содан кейін Битрикс24-те CRM-ді, воронкаларды, тапсырмаларды, жұмыс топтарын және қызметкерлердің құқықтарын баптаймыз. Сайтты және өтініш формаларын қосамыз, сонда сұраулар бірден жүйеге түседі. Біз Қазақстан бойынша қашықтан жұмыс істеп, командаңызды нақты процестеріңіз бойынша оқытамыз.",
+  "description_en": "We start by describing how each department works and what data you keep today. Then we configure the CRM, pipelines, tasks, workgroups and staff permissions in Bitrix24. We connect your website and request forms so enquiries land in the system straight away. We work remotely across Kazakhstan and train your team on your real processes.",
+  "for_whom_ru": "Для компаний с несколькими отделами, где задачи и клиенты разбросаны по чатам, почте и таблицам. Подойдёт, если руководитель хочет видеть общую картину без ручных отчётов.",
+  "for_whom_kk": "Тапсырмалары мен клиенттері чаттар, пошта және кестелер арасында шашыраңқы бірнеше бөлімі бар компанияларға арналған. Басшы қолмен есеп жасамай, жалпы көріністі көргісі келсе, қолайлы.",
+  "for_whom_en": "For companies with several departments where tasks and clients are scattered across chats, email and spreadsheets. It fits an owner who wants the full picture without building manual reports.",
+  "includes_ru": [
+    "Обследование процессов и список данных, которые нужно перенести в Битрикс24",
+    "Настройка CRM: воронки, статусы, поля и источники обращений",
+    "Структура задач, рабочие группы и права доступа по отделам",
+    "Подключение сайта и форм заявок к CRM",
+    "Перенос данных из таблиц и старой системы в согласованном объёме",
+    "Обучение сотрудников и краткая инструкция по работе"
+  ],
+  "includes_kk": [
+    "Процестерді тексеру және Битрикс24-ке көшіретін деректер тізімі",
+    "CRM баптауы: воронкалар, статустар, өрістер және өтініш көздері",
+    "Тапсырмалар құрылымы, жұмыс топтары және бөлімдер бойынша қол жеткізу",
+    "Сайтты және өтініш формаларын CRM-ге қосу",
+    "Келісілген көлемде кестелерден және ескі жүйеден деректерді көшіру",
+    "Қызметкерлерді оқыту және жұмыс бойынша қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Process review and a list of data that has to move into Bitrix24",
+    "CRM setup: pipelines, statuses, fields and lead sources",
+    "Task structure, workgroups and access rights per department",
+    "Connection of your website and request forms to the CRM",
+    "Data import from spreadsheets and the old system within the agreed scope",
+    "Staff training and a short how-to guide"
+  ],
+  "not_included_ru": [
+    "Лицензия Битрикс24 и тарифы самой платформы",
+    "Новые модули и доработки, которых нет в стандартной версии (оцениваются отдельно)",
+    "Ведение бизнес-процессов после запуска: поддержку можно заказать отдельно"
+  ],
+  "not_included_kk": [
+    "Битрикс24 лицензиясы және платформаның өз тарифтері",
+    "Стандартты нұсқада жоқ жаңа модульдер мен түзетулер (бөлек бағаланады)",
+    "Іске қосқаннан кейінгі бизнес-процестерді жүргізу: қолдауды бөлек тапсырыспен алуға болады"
+  ],
+  "not_included_en": [
+    "The Bitrix24 licence and the platform's own plan fees",
+    "New modules and custom changes that are not in the standard edition (quoted separately)",
+    "Running your business processes after launch: support can be ordered separately"
+  ],
+  "price_from_kzt": 70000,
+  "unit": "once",
+  "days_min": 7,
+  "days_max": 15,
+  "related": [
+    "crm-dlya-malogo-biznesa",
+    "integraciya-1s",
+    "integraciya-api"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 121,
+  "faqs": [
+    {
+      "question_ru": "Что нужно от вас до начала работ?",
+      "question_kk": "Жұмыс басталғанға дейін бізден не керек?",
+      "question_en": "What do you need to provide before we start?",
+      "answer_ru": "Доступ администратора к порталу Битрикс24 (или право его создать), описание того, как работают ваши отделы сейчас, и файлы, которые нужно импортировать. Чем понятнее текущий процесс, тем меньше правок понадобится потом.",
+      "answer_kk": "Битрикс24 порталына әкімші қолжетімділігі (немесе оны жасау құқығы), бөлімдеріңіздің қазір қалай жұмыс істейтіні туралы сипаттама және импорттауды қалайтын файлдар. Процесс неғұрлым айқын болса, кейін соғұрлым аз өзгеріс керек болады.",
+      "answer_en": "Admin access to the Bitrix24 portal (or the right to create one), a description of how your departments work now, and the files you want to import. The clearer the current process, the fewer changes you will need later.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что оплачивается отдельно?",
+      "question_kk": "Бөлек не төленеді?",
+      "question_en": "What is paid separately?",
+      "answer_ru": "Тариф Битрикс24, платные приложения из маркетплейса и любая доработка сверх стандартной версии. Эти суммы мы подтверждаем в письменном виде до начала работ.",
+      "answer_kk": "Битрикс24 тарифі, маркетплейстің ақылы қосымшалары және стандартты нұсқадан тыс әзірлеу. Бұл сомаларды жұмысты бастамас бұрын жазбаша түрде растаймыз.",
+      "answer_en": "The Bitrix24 plan, paid marketplace apps, and any custom development beyond the standard edition. We confirm these costs in writing before we begin.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Вы получаете настроенный портал, список доступов и короткую инструкцию. Если в первые недели кому-то из сотрудников что-то неудобно, мы поправим это в рамках согласованного объёма.",
+      "answer_kk": "Сіз баптаған порталды, қолжетімділіктер тізімін және қысқа нұсқаулықты аласыз. Алғашқы аптада қызметкерлерге ыңғайсыз нәрсе болса, оны келісілген көлем аясында түзетеміз.",
+      "answer_en": "You receive the configured portal, a list of access rights and a short guide. If anything feels awkward for your staff in the first weeks, we adjust it within the agreed scope.",
+      "sort": 2
+    }
+  ]
+}

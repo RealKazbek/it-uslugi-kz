@@ -19,6 +19,7 @@ export interface CardView {
   daysMin: number;
   daysMax: number;
   timelineText: string;
+  onsite: boolean;
 }
 
 export interface CardGroup {
@@ -40,6 +41,7 @@ export function cardView(product: ProductCardDto, lang: Lang, rate: number): Car
     daysMin: product.days_min,
     daysMax: product.days_max,
     timelineText: daysText(lang, product.unit, product.days_min, product.days_max),
+    onsite: product.is_onsite,
   };
 }
 

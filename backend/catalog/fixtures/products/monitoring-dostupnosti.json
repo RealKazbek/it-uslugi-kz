@@ -1,0 +1,99 @@
+{
+  "slug": "monitoring-dostupnosti",
+  "category": "devops",
+  "title_ru": "Мониторинг и уведомления о падении сайта",
+  "title_kk": "Сайт құлаған кезде мониторинг және хабарлама",
+  "title_en": "Uptime monitoring and downtime alerts",
+  "short_ru": "Настраиваем проверку доступности сайта и мгновенное уведомление в Telegram или на почту, если сайт перестал открываться.",
+  "short_kk": "Сайттың қолжетімділігін тексеруді баптаймыз. Сайт ашылмай қалса, Telegram немесе поштаға бірден хабар келеді.",
+  "short_en": "We set up availability checks for your site and instant alerts in Telegram or by email when it stops opening.",
+  "description_ru": "Наша команда подключает внешний сервис, который с заданной частотой открывает ваш сайт и проверяет ответ. Если сайт недоступен дольше установленного времени, вам приходит уведомление. Также настраиваем проверку ключевых страниц, например оформления заказа, и сертификата SSL, чтобы узнавать о его истечении заранее.",
+  "description_kk": "Біздің команда белгіленген жиілікпен сайтыңызды ашып, жауапты тексеретін сыртқы қызметті қосады. Сайт белгіленген уақыттан артық қолжетімсіз болса, сізге хабарлама келеді. Сонымен қатар маңызды беттерді, мысалы тапсырыс беру бетін, және SSL сертификатының мерзімін тексеруді баптаймыз.",
+  "description_en": "Our team connects an external service that opens your site at a set interval and checks the response. If the site is unavailable for longer than the limit, you get a notification. We also set up checks on key pages, such as checkout, and on the SSL certificate so you learn about its expiry in advance.",
+  "for_whom_ru": "Для сайтов, которые приносят заявки или продажи, и для владельцев, которые узнают о падении только от клиентов.",
+  "for_whom_kk": "Өтінім немесе сатылым әкелетін сайттар үшін және құлағанын тек клиенттерден біліп жүрген иелерге арналған.",
+  "for_whom_en": "For sites that bring in leads or sales, and for owners who learn about downtime only from their customers.",
+  "includes_ru": [
+    "Подключение внешней проверки доступности сайта с заданной частотой",
+    "Уведомления в Telegram или на почту при падении сайта",
+    "Уведомление о восстановлении работы сайта",
+    "Проверка ключевых страниц, например формы заявки или оплаты",
+    "Напоминание за несколько недель до окончания сертификата SSL",
+    "Настройка порогов: через какое время недоступности отправлять сигнал",
+    "Короткая инструкция, что делать при получении уведомления"
+  ],
+  "includes_kk": [
+    "Сайттың қолжетімділігін белгіленген жиілікпен тексеретін сыртқы қызметті қосу",
+    "Сайт құлағанда Telegram немесе поштаға хабарлама",
+    "Сайт қайта жұмыс істегені туралы хабарлама",
+    "Өтінім немесе төлем формасы сияқты маңызды беттерді тексеру",
+    "SSL сертификатының мерзімі аяқталардан бірнеше апта бұрын ескерту",
+    "Шектерді баптау: қанша уақыт қолжетімсіз болғанда дабыл беру керек",
+    "Хабарлама келгенде не істеу керектігінің қысқа нұсқаулығы"
+  ],
+  "includes_en": [
+    "Connecting an external availability check that runs at a set interval",
+    "Alerts in Telegram or by email when the site goes down",
+    "A notification when the site is back up",
+    "Checks on key pages, such as the lead form or payment page",
+    "A reminder a few weeks before the SSL certificate expires",
+    "Threshold setup: how long downtime must last before an alert is sent",
+    "A short guide on what to do when an alert arrives"
+  ],
+  "not_included_ru": [
+    "Оплата платных тарифов внешнего сервиса мониторинга, если нужны более частые проверки",
+    "Устранение причины падения сайта: мы сообщаем о проблеме, а исправление оценивается отдельно",
+    "Гарантия непрерывной работы сайта: мониторинг быстро сообщает о сбое, но не предотвращает его"
+  ],
+  "not_included_kk": [
+    "Жиі тексерулер керек болса, сыртқы мониторинг қызметінің ақылы тарифтері",
+    "Сайт құлауының себебін жою: біз мәселені хабарлаймыз, ал түзету бөлек бағаланады",
+    "Сайттың үзіліссіз жұмысына кепілдік: мониторинг ақаудың бірден хабарлайды, бірақ оны болдырмайды"
+  ],
+  "not_included_en": [
+    "Paid plans of the external monitoring service, if you need more frequent checks",
+    "Fixing the cause of the downtime: we report the problem, and the fix is priced separately",
+    "A guarantee of nonstop uptime: monitoring reports a failure quickly but does not prevent it"
+  ],
+  "price_from_kzt": 25000,
+  "unit": "once",
+  "days_min": 1,
+  "days_max": 3,
+  "related": [
+    "domen-hosting-ssl",
+    "bekapy-sait-baza",
+    "podderzhka-saita"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 135,
+  "faqs": [
+    {
+      "question_ru": "Как быстро придёт уведомление?",
+      "question_kk": "Хабарлама қаншалықты тез келеді?",
+      "question_en": "How quickly will the alert arrive?",
+      "answer_ru": "Проверка идёт с выбранной частотой, обычно раз в несколько минут. Уведомление приходит, когда сайт не отвечает дольше порога, который мы настраиваем вместе с вами, чтобы не получать сигналы из-за одной короткой задержки.",
+      "answer_kk": "Тексеру таңдалған жиілікпен, әдетте бірнеше минут сайын жүреді. Хабарлама сайт шектен артық жауап бермегенде келеді, оны сізбен бірге баптаймыз, сонда бір қысқа кідіріске байланысты артық дабыл алмайсыз.",
+      "answer_en": "Checks run at the chosen interval, usually every few minutes. An alert comes when the site does not respond for longer than the threshold we set with you, so a single short delay does not trigger false alarms.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Какие сервисы для мониторинга вы используете?",
+      "question_kk": "Мониторинг үшін қандай қызметтерді пайдаланасыз?",
+      "question_en": "Which monitoring services do you use?",
+      "answer_ru": "Мы подбираем бесплатный или недорогой внешний сервис под ваш объём проверок и подключаем его к Telegram или почте. Аккаунт в сервисе создаёте вы, чтобы данные оставались у вас.",
+      "answer_kk": "Тексеру көлеміңізге лайық тегін немесе арзан сыртқы қызметті таңдаймыз да, оны Telegram-ға немесе поштаға қосамыз. Деректер сізде қалуы үшін қызметтегі аккаунтты өзіңіз жасайсыз.",
+      "answer_en": "We pick a free or low-cost external service that fits your number of checks and connect it to Telegram or email. You create the account in that service yourself, so the data stays with you.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что делать, если пришло ложное уведомление?",
+      "question_kk": "Жалған хабарлама келсе, не істеу керек?",
+      "question_en": "What if I get a false alert?",
+      "answer_ru": "Такое бывает при кратком сбое сети или хостинга. Если уведомления повторяются, мы корректируем пороги и частоту проверок, чтобы сигналы были полезными.",
+      "answer_kk": "Бұл желі немесе хостингтегі қысқа ақаудан болуы мүмкін. Хабарламалар қайталанса, сигналдар пайдалы болуы үшін шектер мен тексеру жиілігін түзетеміз.",
+      "answer_en": "This can happen during a brief network or hosting glitch. If alerts keep repeating, we adjust the thresholds and check frequency so the signals stay useful.",
+      "sort": 2
+    }
+  ]
+}

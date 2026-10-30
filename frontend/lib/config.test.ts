@@ -12,6 +12,7 @@ describe('loadConfig', () => {
       apiInternalUrl: 'http://localhost:8000',
       siteUrl: 'https://uslugi.realkazbek.site',
       usdRate: 500,
+      onsiteCities: ['Алматы'],
     });
   });
 

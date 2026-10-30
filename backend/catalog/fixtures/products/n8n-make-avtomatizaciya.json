@@ -1,0 +1,96 @@
+{
+  "slug": "n8n-make-avtomatizaciya",
+  "category": "automation",
+  "title_ru": "Автоматизация процессов на n8n и Make",
+  "title_kk": "n8n және Make арқылы үдерістерді автоматтандыру",
+  "title_en": "Process automation with n8n and Make",
+  "short_ru": "Строим сценарии в n8n и Make, которые убирают ручную рутину: перенос данных, уведомления, ответы и отчёты.",
+  "short_kk": "n8n және Make-те қолмен қайталанатын жұмысты алып тастайтын сценарийлер жасаймыз: деректерді көшіру, хабарламалар, жауаптар және есептер.",
+  "short_en": "We build n8n and Make scenarios that remove repetitive manual work: data transfer, notifications, replies and reports.",
+  "description_ru": "Находим в вашей работе повторяющиеся действия: перенос заявок, уведомления, записи в таблицы, отчёты. Собираем из них сценарии в n8n или Make и подключаем к сайту, CRM, почте и мессенджерам, которыми вы уже пользуетесь. Работаем удалённо по всему Казахстану и добавляем проверку ошибок и понятное описание каждого сценария, чтобы команда могла в нём разобраться.",
+  "description_kk": "Жұмысыңыздан қайталанатын әрекеттерді табамыз: өтініштерді көшіру, хабарламалар, кестеге жазу, есептер. Осылардан n8n немесе Make-те сценарийлер жинап, сіз қазірдің өзінде пайдаланатын сайтқа, CRM-ге, поштаға және мессенджерлерге қосамыз. Біз Қазақстан бойынша қашықтан жұмыс істейміз, қателерді тексеруді және әр сценарийдің түсінікті сипаттамасын қосамыз.",
+  "description_en": "We find the repeated actions in your work, such as moving requests, sending notifications, writing to spreadsheets and building reports. We turn them into scenarios in n8n or Make and connect them to the website, CRM, email and messengers you already use. We work remotely across Kazakhstan and add error checks and a plain description of each scenario so your team can follow it.",
+  "for_whom_ru": "Для небольших команд, где сотрудники каждый день копируют данные между сервисами и тратят на это часы. Подойдёт, если процессы понятны, но пока выполняются вручную.",
+  "for_whom_kk": "Қызметкерлері күн сайын деректерді сервистер арасында көшіріп, соған сағаттап уақыт жұмсайтын шағын командаларға арналған. Үдерістер түсінікті, бірақ қолмен жасалса, қолайлы.",
+  "for_whom_en": "For small teams whose staff copy data between services every day and lose hours to it. It fits when the processes are clear but still done by hand.",
+  "includes_ru": [
+    "Разбор ваших процессов и список действий, которые стоит автоматизировать",
+    "Сборка согласованного списка сценариев в n8n или Make",
+    "Подключение таблиц, почты, мессенджеров и CRM, которыми вы пользуетесь",
+    "Проверка ошибок и уведомление, если сценарий сломался",
+    "Тестирование на реальных данных и инструкция по запуску",
+    "Описание каждого сценария, чтобы команда могла его понять"
+  ],
+  "includes_kk": [
+    "Жұмыс үдерістеріңізді талдау және автоматтандыруға болатын әрекеттер тізімі",
+    "Келісілген сценарийлер тізімін n8n немесе Make-те жинау",
+    "Сіз пайдаланатын кестелерді, поштаны, мессенджерлерді және CRM-ді қосу",
+    "Қателерді тексеру және сценарий бұзылғанда хабарлама",
+    "Нақты деректерде сынау және іске қосу нұсқаулығы",
+    "Команда түсінуі үшін әр сценарийдің сипаттамасы"
+  ],
+  "includes_en": [
+    "A review of your processes and a list of actions worth automating",
+    "Building an agreed list of scenarios in n8n or Make",
+    "Connecting the spreadsheets, email, messengers and CRM you use",
+    "Error checks and an alert when a scenario fails",
+    "Testing on real data and a launch guide",
+    "A description of each scenario so your team can understand it"
+  ],
+  "not_included_ru": [
+    "Платные тарифы n8n, Make и других сервисов, которые вы подключаете",
+    "Сценарии сверх согласованного объёма: дополнительные процессы оцениваем отдельно",
+    "Поддержка сценариев после запуска: её можно заказать отдельно"
+  ],
+  "not_included_kk": [
+    "Сіз қосатын n8n, Make және басқа сервистердің ақылы тарифтері",
+    "Келісілген көлемнен тыс сценарийлер: қосымша үдерістерді бөлек бағалаймыз",
+    "Іске қосқаннан кейін сценарийлерді қолдау: оны бөлек тапсырыспен алуға болады"
+  ],
+  "not_included_en": [
+    "Paid plans of n8n, Make and other services you connect",
+    "Scenarios beyond the agreed scope: additional processes are quoted separately",
+    "Support for scenarios after launch: it can be ordered separately"
+  ],
+  "price_from_kzt": 40000,
+  "unit": "once",
+  "days_min": 3,
+  "days_max": 10,
+  "related": [
+    "zayavki-v-google-sheets",
+    "integraciya-api",
+    "uvedomleniya-o-zayavkah"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 124,
+  "faqs": [
+    {
+      "question_ru": "Что выбрать: n8n или Make?",
+      "question_kk": "n8n немесе Make-тің қайсысын таңдау керек?",
+      "question_en": "Which should you choose: n8n or Make?",
+      "answer_ru": "Это зависит от того, где вы хотите хранить данные и сколько сценариев будет работать. n8n можно разместить на собственном сервере, а Make работает в облаке. Выбор обсуждаем до начала работ и объясняем, что подходит вашей команде.",
+      "answer_kk": "Бұл деректеріңізді қайда сақтауға және қанша сценарий жұмыс істейтініне байланысты. n8n-ді өз серверіңізге орнатуға болады, ал Make бұлтта жұмыс істейді. Таңдауды жұмыс басталғанға дейін талқылап, командаңызға не сай келетінін түсіндіреміз.",
+      "answer_en": "It depends on where you want your data stored and how many scenarios will run. n8n can be hosted on your own server, while Make runs in the cloud. We discuss the choice before work starts and explain what suits your team.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что оплачивается отдельно?",
+      "question_kk": "Бөлек не төленеді?",
+      "question_en": "What is paid separately?",
+      "answer_ru": "Тарифы самих сервисов, которые зависят от числа запусков, и сценарии сверх согласованного списка. Все суммы называем до начала работ.",
+      "answer_kk": "Сервистердің өз тарифтері, олар запуск санына байланысты, және келісілген тізімнен тыс сценарийлер. Барлық сомаларды жұмыс басталғанға дейін айтамыз.",
+      "answer_en": "The fees of the services themselves, which depend on the number of runs, and scenarios beyond the agreed list. We name all amounts before work starts.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что будет после запуска?",
+      "question_kk": "Іске қосқаннан кейін не болады?",
+      "question_en": "What happens after launch?",
+      "answer_ru": "Вы получаете рабочие сценарии, их описание и список подключённых сервисов с доступами. Если сценарий сломается из-за изменений в стороннем сервисе, починим его по отдельному запросу.",
+      "answer_kk": "Сіз жұмыс істеп тұрған сценарийлерді, олардың сипаттамасын және қосылған сервистердің қолжетімділіктер тізімін аласыз. Сценарий үшінші тарап сервисіндегі өзгеріске байланысты бұзылса, оны бөлек сұраныс бойынша түзетеміз.",
+      "answer_en": "You receive the working scenarios, their descriptions and a list of connected services with their access. If a scenario breaks because a third-party service changed, we fix it on a separate request.",
+      "sort": 2
+    }
+  ]
+}

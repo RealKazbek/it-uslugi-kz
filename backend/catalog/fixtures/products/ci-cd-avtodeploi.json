@@ -1,0 +1,99 @@
+{
+  "slug": "ci-cd-avtodeploi",
+  "category": "devops",
+  "title_ru": "CI/CD: автодеплой из GitHub",
+  "title_kk": "CI/CD: GitHub-тан автодеплой",
+  "title_en": "CI/CD: automatic deploy from GitHub",
+  "short_ru": "Настраиваем GitHub Actions: после каждого обновления кода проверки запускаются сами, а рабочая версия выкатывается на сервер.",
+  "short_kk": "GitHub Actions баптаймыз: код жаңарған сайын тексерулер өздігінен іске қосылады, ал жұмыс нұсқасы серверге шығады.",
+  "short_en": "We set up GitHub Actions so that after each code update the checks run automatically and the working version is released to the server.",
+  "description_ru": "Наша команда настраивает конвейер сборки и выкладки в GitHub Actions. Перед выкладкой запускаются автоматические проверки, и если что-то сломалось, новая версия на сервер не попадёт. Все секретные ключи хранятся в настройках репозитория, а не в коде.",
+  "description_kk": "Біздің команда GitHub Actions ішінде жинау және шығару конвейерін баптайды. Шығар алдында автоматты тексерулер іске қосылады, егер бірдеңе бұзылса, жаңа нұсқа серверге түспейді. Барлық құпия кілттер кодта емес, репозиторий баптауларында сақталады.",
+  "description_en": "Our team sets up a build and release pipeline in GitHub Actions. Automatic checks run before each release, and if something breaks, the new version does not reach the server. All secret keys are stored in repository settings, not in the code.",
+  "for_whom_ru": "Для команд, которые регулярно обновляют сайт или приложение и устали выкладывать изменения вручную по SSH.",
+  "for_whom_kk": "Сайтты немесе қосымшаны жиі жаңартатын және өзгерістерді SSH арқылы қолмен шығарудан шаршаған командаларға арналған.",
+  "for_whom_en": "For teams that update their site or app often and are tired of releasing changes by hand over SSH.",
+  "includes_ru": [
+    "Файл конвейера GitHub Actions для проекта",
+    "Автоматические проверки перед выкладкой: сборка и тесты",
+    "Автоматическая выкладка на сервер после успешной проверки",
+    "Хранение ключей и паролей в секретах репозитория",
+    "Откат на предыдущую версию одной командой",
+    "Уведомление о результате выкладки в Telegram или на почту",
+    "Инструкция по работе с конвейером для вашей команды"
+  ],
+  "includes_kk": [
+    "Жоба үшін GitHub Actions конвейер файлы",
+    "Шығар алдында автоматты тексерулер: жинау және тесттер",
+    "Тексеру сәтті өткеннен кейін серверге автоматты шығару",
+    "Кілттер мен құпия сөздерді репозиторий құпияларында сақтау",
+    "Бір командамен алдыңғы нұсқаға қайту",
+    "Шығару нәтижесі туралы Telegram немесе поштаға хабарлама",
+    "Командаңыз үшін конвейермен жұмыс нұсқаулығы"
+  ],
+  "includes_en": [
+    "A GitHub Actions pipeline file for the project",
+    "Automatic checks before release: build and tests",
+    "Automatic release to the server after a successful check",
+    "Keys and passwords stored in repository secrets",
+    "Rollback to the previous version with one command",
+    "A notification about the release result in Telegram or by email",
+    "A guide on working with the pipeline for your team"
+  ],
+  "not_included_ru": [
+    "Написание тестов для всего проекта с нуля: тесты пишутся отдельно по объёму работы",
+    "Оплата минут GitHub Actions сверх бесплатного лимита и аренда сервера",
+    "Исправление ошибок, которые проверки найдут в коде: это отдельная работа"
+  ],
+  "not_included_kk": [
+    "Жоба үшін тесттерді нөлден жазу: тесттер көлеміне қарай бөлек жасалады",
+    "Тегін лимиттен асқан GitHub Actions минуттарының және серверді жалға алудың төлемі",
+    "Тексерулер табатын кодтағы қателерді түзету: бұл бөлек жұмыс"
+  ],
+  "not_included_en": [
+    "Writing tests for the whole project from scratch: tests are priced separately by scope",
+    "Paying for GitHub Actions minutes above the free limit and for server rental",
+    "Fixing code errors that the checks find: this is separate work"
+  ],
+  "price_from_kzt": 45000,
+  "unit": "once",
+  "days_min": 2,
+  "days_max": 6,
+  "related": [
+    "deploy-proekta",
+    "docker-kontejnery",
+    "bekapy-sait-baza"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 133,
+  "faqs": [
+    {
+      "question_ru": "Нужно ли вести проект на GitHub?",
+      "question_kk": "Жобаны GitHub-та жүргізу керек пе?",
+      "question_en": "Does the project have to be on GitHub?",
+      "answer_ru": "Да, автодеплой настраивается для репозитория на GitHub. Если код сейчас в другом месте, мы поможем перенести его в GitHub, это входит в работу, если перенос занимает не больше часа.",
+      "answer_kk": "Иә, автодеплой GitHub репозиторийіне баптайды. Код қазір басқа жерде болса, оны GitHub-қа көшіруге көмектесеміз. Көшіру бір сағаттан аспаса, ол осы жұмысқа кіреді.",
+      "answer_en": "Yes, automatic deploy is set up for a GitHub repository. If the code is somewhere else now, we can move it to GitHub, and that is included if the move takes no more than an hour.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Что будет, если выкладка сломает сайт?",
+      "question_kk": "Шығару сайтты бұзып тастаса не болады?",
+      "question_en": "What happens if a release breaks the site?",
+      "answer_ru": "Проверки останавливают выкладку до того, как сломанная версия попадёт на сервер. Если ошибка проявилась уже после выкладки, откатываем сайт на предыдущую версию одной командой, а затем разбираем причину.",
+      "answer_kk": "Тексерулер бұзылған нұсқа серверге түспей тұрып шығаруды тоқтатады. Қате шығару кейін білінсе, сайтты бір командамен алдыңғы нұсқаға қайтарамыз, содан кейін себебін талдаймыз.",
+      "answer_en": "The checks stop the release before a broken version reaches the server. If the error shows up only after release, we roll the site back to the previous version with one command and then look into the cause.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Какие доступы нужны для настройки?",
+      "question_kk": "Баптау үшін қандай қолжетімділік керек?",
+      "question_en": "What access is needed for the setup?",
+      "answer_ru": "Доступ к репозиторию на GitHub с правом менять настройки и доступ к серверу для выкладки. Ключи для выкладки мы создаём отдельно, а вы добавляете их в секреты репозитория.",
+      "answer_kk": "GitHub репозиторийіне баптауларды өзгерту құқығымен және шығару үшін серверге қолжетімділік керек. Шығару кілттерін бөлек жасаймыз, ал сіз оларды репозиторий құпияларына қосасыз.",
+      "answer_en": "Access to the GitHub repository with the right to change settings, and access to the server for releases. We create the release keys separately, and you add them to the repository secrets.",
+      "sort": 2
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "ui-ux-dizain",
+  "category": "design",
+  "title_ru": "UI/UX дизайн сайта или приложения",
+  "title_kk": "Сайт немесе қосымша үшін UI/UX дизайн",
+  "title_en": "UI/UX design for a website or app",
+  "short_ru": "Проектируем удобный путь пользователя и визуальный интерфейс сайта или приложения: от структуры экранов до готовых макетов.",
+  "short_kk": "Сайттың немесе қосымшаның ыңғайлы пайдаланушы жолын және визуалды интерфейсін жобалаймыз: экрандар құрылымынан дайын макеттерге дейін.",
+  "short_en": "We design a convenient user journey and the visual interface of your website or app, from the screen structure to finished layouts.",
+  "description_ru": "Наша команда начинает с задач пользователя: какие экраны нужны, как он дойдёт до заявки или покупки и где может запутаться. Затем рисуем структуру, прототип и финальные макеты в едином стиле с компонентами. Вы получаете файлы, по которым разработчик может собрать интерфейс без догадок.",
+  "description_kk": "Біздің команда пайдаланушының міндеттерінен бастайды: қандай экрандар керек, ол өтінімге немесе сатып алуға қалай жетеді және қай жерде адасуы мүмкін. Содан кейін құрылымды, прототипті және компоненттері бар бірыңғай стильдегі соңғы макеттерді саламыз. Әзірлеушінің болжамсыз интерфейсті жинауына болатын файлдарды аласыз.",
+  "description_en": "Our team starts from the user's goals: which screens are needed, how they reach a request or a purchase, and where they might get stuck. Then we draw the structure, a prototype and final layouts in one style built from components. You get files a developer can build the interface from without guesswork.",
+  "for_whom_ru": "Для компаний, которые запускают новый сайт или приложение, и для тех, у кого действующий продукт неудобен и теряет посетителей.",
+  "for_whom_kk": "Жаңа сайт немесе қосымша іске қосатын компанияларға және қолданыстағы өнімі ыңғайсыз болып, келушілерін жоғалтып жүрген иелерге арналған.",
+  "for_whom_en": "For companies launching a new website or app, and for those whose current product is awkward and loses visitors.",
+  "includes_ru": [
+    "Исследование задач пользователя и разбор похожих решений",
+    "Карта экранов и структура навигации",
+    "Интерактивный прототип ключевых сценариев",
+    "Визуальный стиль: цвета, шрифты, иконки и сетка",
+    "Макеты всех основных экранов для сайта или приложения, в адаптивной версии",
+    "Набор компонентов: кнопки, формы, карточки, уведомления",
+    "Передача файлов и короткая инструкция для разработчиков"
+  ],
+  "includes_kk": [
+    "Пайдаланушы міндеттерін зерттеу және ұқсас шешімдерді талдау",
+    "Экрандар картасы және навигация құрылымы",
+    "Негізгі сценарийлердің интерактивті прототипі",
+    "Визуалды стиль: түстер, қаріптер, белгішелер және тор",
+    "Сайт немесе қосымшаның барлық негізгі экрандарының бейімделгіш нұсқадағы макеттері",
+    "Компоненттер жиынтығы: түймелер, формалар, карточкалар, хабарламалар",
+    "Файлдарды беру және әзірлеушілерге арналған қысқа нұсқаулық"
+  ],
+  "includes_en": [
+    "Research into user goals and a review of similar solutions",
+    "A screen map and navigation structure",
+    "An interactive prototype of the key scenarios",
+    "A visual style: colours, fonts, icons and grid",
+    "Layouts of all main screens for the website or app, in responsive versions",
+    "A component set: buttons, forms, cards, notifications",
+    "Handover of files and a short guide for developers"
+  ],
+  "not_included_ru": [
+    "Программная разработка интерфейса: верстку и код делает команда разработки, это оценивается отдельно",
+    "Проведение пользовательских тестов с живыми людьми, если они нужны: это отдельный этап",
+    "Бесконечные переделки целых экранов после согласования: дополнительные раунды оцениваются отдельно"
+  ],
+  "not_included_kk": [
+    "Интерфейсті бағдарламалық жасау: верстка мен кодты әзірлеу командасы жасайды, бұл бөлек бағаланады",
+    "Қажет болса, тірі адамдармен пайдаланушы тесттерін өткізу: бұл бөлек кезең",
+    "Келісілген экрандарды шексіз қайта жасау: қосымша айналымдар бөлек бағаланады"
+  ],
+  "not_included_en": [
+    "Building the interface in code: markup and code are done by the development team and priced separately",
+    "Running user tests with real people, if needed: this is a separate stage",
+    "Endless redesigns of whole screens after approval: extra rounds are priced separately"
+  ],
+  "price_from_kzt": 80000,
+  "unit": "once",
+  "days_min": 10,
+  "days_max": 25,
+  "related": [
+    "logotip",
+    "redizain",
+    "veb-prilozhenie"
+  ],
+  "is_active": true,
+  "is_onsite": false,
+  "sort": 139,
+  "faqs": [
+    {
+      "question_ru": "В каких инструментах будут макеты?",
+      "question_kk": "Макеттер қандай құралдарда болады?",
+      "question_en": "Which tools will the layouts be in?",
+      "answer_ru": "Макеты делаем в Figma. Вы получаете ссылку на файл с возможностью комментировать, а по завершении также PDF с экранами. Если нужен другой формат, например Sketch или Adobe XD, обсудим это до начала работы.",
+      "answer_kk": "Макеттерді Figma-да жасаймыз. Сіз пікір қалдыруға болатын файлдың сілтемесін аласыз, аяқталғанда экрандары бар PDF береміз. Басқа формат, мысалы Sketch немесе Adobe XD керек болса, жұмыс басталар алдында талқылаймыз.",
+      "answer_en": "We make the layouts in Figma. You get a link to the file where you can leave comments, and at the end a PDF with the screens. If you need another format, such as Sketch or Adobe XD, we will agree on it before the work starts.",
+      "sort": 0
+    },
+    {
+      "question_ru": "Сколько раундов правок входит в работу?",
+      "question_kk": "Жұмысқа қанша түзету айналымы кіреді?",
+      "question_en": "How many rounds of edits are included?",
+      "answer_ru": "На каждом этапе, структуре, прототипе и макетах, включены две итерации правок. Они касаются уточнений, а не смены задачи. Если вы решили изменить бриф, мы заранее согласуем сроки и стоимость изменений.",
+      "answer_kk": "Әр кезеңде, яғни құрылымда, прототипте және макеттерде екі түзету итерациясы кіреді. Олар нақтылауларға арналған, тапсырманы ауыстыруға емес. Брифті өзгерткіңіз келсе, мерзім мен құнды алдын ала келісеміз.",
+      "answer_en": "Each stage, the structure, the prototype and the layouts, includes two rounds of edits. They cover refinements, not a change of task. If you decide to change the brief, we will agree on the timing and cost of the changes in advance.",
+      "sort": 1
+    },
+    {
+      "question_ru": "Что нужно подготовить до начала работы?",
+      "question_kk": "Жұмыс басталар алдында не дайындау керек?",
+      "question_en": "What should I prepare before the work starts?",
+      "answer_ru": "Описание бизнеса и целей, список основных действий, которые должен совершить пользователь, и логотип или фирменные цвета, если они уже есть. Полезно также посмотреть 2-3 сайта, которые вам нравятся, и объяснить, что именно.",
+      "answer_kk": "Бизнес пен мақсаттардың сипаттамасы, пайдаланушы жасауы керек негізгі әрекеттердің тізімі және логотип немесе фирмалық түстер, егер олар бар болса. Ұнайтын 2-3 сайтты қарап, неге ұнағанын айтсаңыз да пайдалы.",
+      "answer_en": "A description of the business and goals, a list of the main actions the user should take, and the logo or brand colours if you already have them. It also helps to look at 2-3 sites you like and explain what exactly you like about them.",
+      "sort": 2
+    }
+  ]
+}
