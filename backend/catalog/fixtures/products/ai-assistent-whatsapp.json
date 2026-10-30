@@ -55,7 +55,7 @@
     "Language model usage fees, billed by actual use",
     "Approval of your number and message templates, which Meta and the provider decide, so we cannot control the timing"
   ],
-  "price_from_kzt": 80000,
+  "price_from_kzt": 150000,
   "unit": "once",
   "days_min": 10,
   "days_max": 15,

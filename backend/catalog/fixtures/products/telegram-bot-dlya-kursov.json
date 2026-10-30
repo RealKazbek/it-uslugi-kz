@@ -55,7 +55,7 @@
     "Paying for the course inside the bot, which can be added separately through a provider API by agreement",
     "Video hosting, as files live on the platform you choose"
   ],
-  "price_from_kzt": 45000,
+  "price_from_kzt": 110000,
   "unit": "once",
   "days_min": 7,
   "days_max": 12,

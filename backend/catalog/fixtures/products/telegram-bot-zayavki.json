@@ -52,7 +52,7 @@
     "The server for the bot, set up in your name and paid at the provider rate",
     "Handling the enquiries themselves, as calling back and replying is up to you"
   ],
-  "price_from_kzt": 30000,
+  "price_from_kzt": 45000,
   "unit": "once",
   "days_min": 3,
   "days_max": 5,

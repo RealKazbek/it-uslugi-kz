@@ -55,7 +55,7 @@
     "Card payment in the bot, which can be added separately through a provider API by agreement",
     "The server for the bot, set up in your name and paid at the provider rate"
   ],
-  "price_from_kzt": 60000,
+  "price_from_kzt": 130000,
   "unit": "once",
   "days_min": 10,
   "days_max": 15,

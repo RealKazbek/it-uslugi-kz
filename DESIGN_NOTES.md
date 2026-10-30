@@ -230,3 +230,34 @@ The goal says prices should sit ~10–20% under the KZ market, so the existing s
 | `sait-dlya-toi-zala` | 50 000 | 130 000 |
 | `sait-dlya-yurista` | 40 000 | 130 000 |
 | `sait-dlya-agentstva-nedvizhimosti` | 80 000 | 160 000 |
+
+### Price evidence, other categories (extended search, 2026-10-30)
+Sources are studio/contractor ad pages, so they are list prices, not statistics.
+- **Bots / AI** ([osn.kz](https://osn.kz/services/chatbots), [aoneagency.kz](https://aoneagency.kz/ai-chatboty), [awstudio.kz](https://www.awstudio.kz/razrabotka-chat-botov.html), [a-lux.kz](https://a-lux.kz/chatbots/), [tck.kz](https://tck.kz/chatbots/)): simple scenario bot 15 000–50 000 ₸ (up to 400 000 at a-lux), bot with integrations from 150 000, AI assistant from 150 000 (basic) / 250 000 (on company documents) / 450 000+ (GPT trained on client data). Our bots were set ~15% under the low-to-mid range.
+- **CRM** ([osn.kz](https://osn.kz/blog/digital-transformatsiya-biznesa-kz-2026), [4web.kz](https://4web.kz/blog/web/amocrm-vs-bitrix24-kz), [applications.kz](https://applications.kz/bitrix24-kazahstan/)): amoCRM from ~150 000 ₸ (up to 800 000), Bitrix24 300 000–900 000 (from 400 000 at one vendor). Licences are extra.
+- **CCTV / access control** ([onsetpro.kz](https://onsetpro.kz/blog/skolko-stoit-videonablyudenie-v-almaty), Kaspi Объявления, [satu.kz](https://satu.kz/almaty/Ustanovka-skud.html)): camera install 4 500–13 000 ₸ per camera, recorder set-up from 12 000, turnkey kits from 80 000 (apartment) / 215 000 (house); access control 45 000–130 000 ₸ per door. Our CCTV install from 45 000 (≈4 cameras without equipment) and access control from 70 000 sit ~15–20% under the middle of those ranges.
+- **Logo** ([hyperlab.kz](https://hyperlab.kz/blog/skolko-stoit-logotip/), Kaspi Объявления): freelancers 5 000–150 000 ₸, studios ~60 000–65 000. Logo + mini-brandbook set to 50 000.
+- **Tutoring** ([profi.kz](https://profi.kz/geo-alm/repetitor/prog/), [buki-kz.com](https://buki-kz.com/repetitor/prohramuvannia/almaty/)): from 3 000 ₸/h, average ~5 000, up to 10 000+. Our lessons at 3 500–5 000 are at or ~20% under the average; left as is.
+- **Still without a source (guesses, unchanged):** SEO and ads set-up, GA4/Metrica, DevOps (deploy, VPS, Docker, CI/CD, backups, monitoring), Kaspi Pay/Halyk, 1С/МойСклад sync, 1С and Kaspi API integrations, n8n/Make, mobile apps/PWA/Mini Apps, UI/UX, banners, presentations, support, maps cards. Searches for these returned no tenge prices.
+
+Changed in this pass:
+
+| product | old ₸ | new ₸ |
+|---|---|---|
+| `telegram-bot-faq` | 25 000 | 45 000 |
+| `telegram-bot-zayavki` | 30 000 | 45 000 |
+| `telegram-bot-rassylka` | 30 000 | 50 000 |
+| `telegram-bot-zapis` | 35 000 | 110 000 |
+| `telegram-bot-katalog` | 50 000 | 120 000 |
+| `telegram-bot-dostavka` | 60 000 | 130 000 |
+| `telegram-bot-dlya-kursov` | 45 000 | 110 000 |
+| `whatsapp-bot` | 40 000 | 60 000 |
+| `instagram-direct-bot` | 45 000 | 60 000 |
+| `ai-assistent-telegram` | 60 000 | 130 000 |
+| `ai-assistent-whatsapp` | 80 000 | 150 000 |
+| `ai-chat-na-sait` | 50 000 | 120 000 |
+| `ai-baza-znanii-dlya-sotrudnikov` | 90 000 | 210 000 |
+| `ai-prodazhi-i-podderzhka` | 110 000 | 300 000 |
+| `amocrm-nastroika` | 60 000 | 130 000 |
+| `bitrix24-nastroika` | 70 000 | 260 000 |
+| `logotip` | 25 000 | 50 000 |

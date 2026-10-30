@@ -52,7 +52,7 @@
     "Business account and number verification, done under Meta rules and needing a dedicated number",
     "Mass messaging to lists you did not collect, because WhatsApp rules forbid writing without the recipient consent"
   ],
-  "price_from_kzt": 40000,
+  "price_from_kzt": 60000,
   "unit": "once",
   "days_min": 5,
   "days_max": 10,

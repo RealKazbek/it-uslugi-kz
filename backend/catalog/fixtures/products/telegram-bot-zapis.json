@@ -55,7 +55,7 @@
     "The server for the bot, set up in your name and paid at the provider rate",
     "Service descriptions and prices, as the list of services comes from you"
   ],
-  "price_from_kzt": 35000,
+  "price_from_kzt": 110000,
   "unit": "once",
   "days_min": 4,
   "days_max": 8,
