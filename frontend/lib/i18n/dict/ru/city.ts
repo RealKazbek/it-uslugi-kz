@@ -5,7 +5,7 @@ function example(input: CityFaqInput): string {
 }
 
 export const cityRu: CityDict = {
-  title: (name) => `IT-услуги ${name}: сайты, боты, автоматизация | RK Dev`,
+  title: (name) => `IT-услуги ${name}: сайты, боты, автоматизация | Perne`,
   h1: (forms) => `IT-услуги ${forms.loc}`,
   description: (forms, min) => `Сайты, Telegram-боты и автоматизация ${forms.loc}. Цены ${min}. Работаю удалённо по Казахстану.`,
   intro: (context, sectors) => `${context} Заметные сферы города: ${sectors.join(', ')}.`,

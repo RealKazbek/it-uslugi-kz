@@ -5,7 +5,7 @@ function example(input: CityFaqInput): string {
 }
 
 export const cityKk: CityDict = {
-  title: (name) => `${name} IT-қызметтер: сайттар, боттар, автоматтандыру | RK Dev`,
+  title: (name) => `${name} IT-қызметтер: сайттар, боттар, автоматтандыру | Perne`,
   h1: (forms) => `${forms.attr} IT-қызметтер`,
   description: (forms, min) =>
     `${forms.attr} бизнеске сайттар, Telegram-боттар және автоматтандыру. Бағасы ${min}. Қазақстан бойынша қашықтан жұмыс істеймін.`,

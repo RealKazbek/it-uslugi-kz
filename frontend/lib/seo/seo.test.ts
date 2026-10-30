@@ -36,7 +36,7 @@ describe('buildPageMetadata', () => {
   });
 
   it('adds OpenGraph and Twitter summary tags with the page locale', () => {
-    expect(meta.openGraph).toMatchObject({ locale: 'kk_KZ', alternateLocale: ['ru_RU'], type: 'website', siteName: 'RK Dev' });
+    expect(meta.openGraph).toMatchObject({ locale: 'kk_KZ', alternateLocale: ['ru_RU'], type: 'website', siteName: 'Perne' });
     expect(meta.twitter).toMatchObject({ card: 'summary', title: 'T' });
   });
 
@@ -56,7 +56,7 @@ describe('hreflangMap', () => {
 describe('JSON-LD builders', () => {
   it('ProfessionalService has no aggregateRating and the contact fields', () => {
     const ld = professionalServiceLd(SITE);
-    expect(ld).toMatchObject({ '@type': 'ProfessionalService', name: 'RK Dev', telephone: '+77066620060' });
+    expect(ld).toMatchObject({ '@type': 'ProfessionalService', name: 'Perne', telephone: '+77066620060' });
     expect(JSON.stringify(ld)).not.toContain('aggregateRating');
   });
 

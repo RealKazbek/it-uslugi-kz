@@ -1,8 +1,8 @@
 import type { ContactsDict } from '../types';
 
 export const contactsEn: ContactsDict = {
-  title: 'Contacts: WhatsApp, Telegram, phone | RK Dev',
-  description: 'How to reach RK Dev: WhatsApp, Telegram, phone +7 706 662 00 60 and email. Freelance developer in Almaty, Kazakhstan.',
+  title: 'Contacts: WhatsApp, Telegram, phone | Perne',
+  description: 'How to reach Perne: WhatsApp, Telegram, phone +7 706 662 00 60 and email. Freelance developer in Almaty, Kazakhstan.',
   h1: 'Contacts',
   lead: 'The fastest way to reach me is WhatsApp. Describe your project in a couple of sentences and I will reply.',
   where: 'Where to find me',

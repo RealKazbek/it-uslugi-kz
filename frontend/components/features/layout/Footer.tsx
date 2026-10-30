@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Container } from '@/components/ui/Container';
-import { Monogram } from '@/components/ui/Monogram';
+import { Wordmark } from '@/components/ui/Wordmark';
 import { getDict } from '@/lib/i18n/dict';
 import type { Lang } from '@/lib/i18n/locales';
 import { localePath } from '@/lib/i18n/paths';
@@ -23,9 +23,8 @@ export function Footer({ lang }: { lang: Lang }) {
     <footer className="mt-16 border-t border-border bg-muted pb-24 md:pb-10">
       <Container className="grid gap-10 py-12 lg:grid-cols-4">
         <div className="space-y-3">
-          <p className="flex items-center gap-2 text-lg font-extrabold tracking-tight">
-            <Monogram size={28} />
-            {contacts.brand}
+          <p>
+            <Wordmark />
           </p>
           <p className="max-w-prose text-muted-foreground">{d.footerTagline}</p>
           <p className="max-w-prose text-sm text-muted-foreground">{d.footerNote}</p>

@@ -1,7 +1,7 @@
 import type { HomeDict } from '../types';
 
 export const homeEn: HomeDict = {
-  title: 'RK Dev: websites, bots and automation from Kazakhstan',
+  title: 'Perne: websites, bots and automation from Kazakhstan',
   description: (min) =>
     `Freelance developer in Almaty, Kazakhstan: websites, Telegram bots, AI assistants and automation for businesses, remotely. Prices ${min}.`,
   h1: 'Websites, bots and automation from a Kazakhstan-based developer',

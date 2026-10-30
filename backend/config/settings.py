@@ -139,7 +139,7 @@ REST_FRAMEWORK: dict[str, Any] = {
 }
 
 SPECTACULAR_SETTINGS: dict[str, Any] = {
-    "TITLE": "RK Dev API",
+    "TITLE": "Perne API",
     "VERSION": "1.0.0",
 }
 

@@ -1,7 +1,7 @@
 import type { PortfolioDict } from '../types';
 
 export const portfolioKk: PortfolioDict = {
-  title: 'Портфолио: TerraCon сайты, AI-көмекші, Car | RK Dev',
+  title: 'Портфолио: TerraCon сайты, AI-көмекші, Car | Perne',
   description: 'Жұмыс үлгілері: TerraCon үшін Next.js сайты, aiogram негізіндегі Telegram Business ЖИ-көмекшісі және Car демо жобасы.',
   h1: 'Портфолио',
   lead: 'Өзіңіз ашып қарай алатын бірнеше жұмыс. Көбірек ақпарат realkazbek.site мен GitHub-та.',

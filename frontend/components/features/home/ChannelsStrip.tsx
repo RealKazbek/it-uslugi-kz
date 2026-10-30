@@ -12,7 +12,7 @@ const CHANNELS: { name: string; Icon: IconType }[] = [
 
 /**
  * Channels a client's site or bot links to (buttons, links, chat bots). Plain labels, not links:
- * there are no RK Dev accounts on Instagram or TikTok (see `socials` in lib/site/contacts.ts).
+ * there are no Perne accounts on Instagram or TikTok (see `socials` in lib/site/contacts.ts).
  */
 export function ChannelsStrip({ title }: { title: string }) {
   return (

@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import type { Lang } from '@/lib/i18n/locales';
 import { DESCRIPTION_MAX, TITLE_MAX, fit } from './fit';
+import { SITE_NAME } from '@/lib/site/brand';
 import { absoluteUrl, hreflangMap } from './urls';
 
 const OG_LOCALE: Record<Lang, string> = { ru: 'ru_RU', kk: 'kk_KZ', en: 'en_US' };
-const SITE_NAME = 'RK Dev';
 
 export interface PageSeoInput {
   siteUrl: string;

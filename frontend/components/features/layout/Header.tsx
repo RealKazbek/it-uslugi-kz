@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { ButtonLink } from '@/components/ui/Button';
 import { Container } from '@/components/ui/Container';
-import { Monogram } from '@/components/ui/Monogram';
+import { Wordmark } from '@/components/ui/Wordmark';
 import { whatsappGeneralLink } from '@/lib/format/links';
 import { getDict } from '@/lib/i18n/dict';
 import type { CommonDict } from '@/lib/i18n/dict/types';
@@ -33,8 +33,7 @@ export function Header({ lang }: { lang: Lang }) {
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
       <Container className="flex h-16 items-center justify-between gap-4">
         <Link href={localePath(lang, '/')} className="flex items-center gap-2 text-foreground no-underline">
-          <Monogram size={32} />
-          <span className="text-lg font-extrabold tracking-tight">{contacts.brand}</span>
+          <Wordmark />
         </Link>
         <nav aria-label={d.menu} className="hidden md:flex md:items-center md:gap-5">
           {links.map((link) => (

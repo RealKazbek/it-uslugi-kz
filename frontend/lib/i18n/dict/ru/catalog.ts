@@ -1,7 +1,7 @@
 import type { CatalogDict } from '../types';
 
 export const catalogRu: CatalogDict = {
-  title: 'Каталог услуг: сайты, боты, AI, автоматизация | RK Dev',
+  title: 'Каталог услуг: сайты, боты, AI, автоматизация | Perne',
   description: (count, min) =>
     `Каталог из ${count} готовых продуктов: сайты, магазины, боты, AI-ассистенты, автоматизация и уроки. Цены ${min}, фильтр и поиск.`,
   h1: 'Каталог услуг',
@@ -13,7 +13,7 @@ export const catalogRu: CatalogDict = {
   empty: 'Ничего не найдено. Попробуйте другой запрос или напишите мне.',
   categories: 'Категории',
   countLabel: (n) => `Продуктов: ${n}`,
-  hubTitle: (name) => `${name}: каталог и цены | RK Dev`,
+  hubTitle: (name) => `${name}: каталог и цены | Perne`,
   hubDescription: (short, min) => `${short}. Цены ${min}. Работаю удалённо по Казахстану.`,
   hubH1: (name) => `${name}: каталог и цены`,
   hubList: 'Продукты в категории',

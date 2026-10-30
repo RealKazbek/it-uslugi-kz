@@ -1,5 +1,6 @@
+import { SITE_NAME } from '@/lib/site/brand';
 export const TITLE_LIMIT = 70;
-const SUFFIX = ' | RK Dev';
+const SUFFIX = ` | ${SITE_NAME}`;
 
 export interface PriceTitleInput {
   /** Product or page name, without the price. */
@@ -21,7 +22,7 @@ function cutHead(head: string, room: number): string {
 
 /**
  * Title for a page whose name and price must both fit in 70 characters.
- * Order: drop " | RK Dev", then the USD hint, then cut the name at a word boundary.
+ * Order: drop " | Perne", then the USD hint, then cut the name at a word boundary.
  * The price text (with "от" / "бастап" / "from") is never cut.
  */
 export function fitPriceTitle(input: PriceTitleInput): string {

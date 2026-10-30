@@ -1,8 +1,8 @@
 import type { ContactsDict } from '../types';
 
 export const contactsRu: ContactsDict = {
-  title: 'Контакты: WhatsApp, Telegram, телефон | RK Dev',
-  description: 'Как связаться с RK Dev: WhatsApp, Telegram, телефон 8 706 662 00 60 и email. Фриланс-разработчик из Алматы.',
+  title: 'Контакты: WhatsApp, Telegram, телефон | Perne',
+  description: 'Как связаться с Perne: WhatsApp, Telegram, телефон 8 706 662 00 60 и email. Фриланс-разработчик из Алматы.',
   h1: 'Контакты',
   lead: 'Самый быстрый способ связаться — WhatsApp. Опишите задачу в паре предложений, и я отвечу.',
   where: 'Где меня найти',

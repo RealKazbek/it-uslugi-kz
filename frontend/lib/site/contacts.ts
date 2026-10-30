@@ -1,6 +1,7 @@
 // Source: docs/content-config.json. Keep in sync with that file.
+import { SITE_NAME } from './brand';
 export const contacts = {
-  brand: 'RK Dev',
+  brand: SITE_NAME,
   telegram: 'RealKazbek',
   telegramUrl: 'https://t.me/RealKazbek',
   whatsapp: '77066620060',
