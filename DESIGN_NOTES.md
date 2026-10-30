@@ -185,3 +185,10 @@ Kazakh copy was model-written and needs a native-speaker pass.
 | Учёба и IT-наставничество | Подготовка к защите дипломного проекта (`podgotovka-k-zashite`) | от 5 000 ₸/урок | 1–1 дн. |
 | Учёба и IT-наставничество | Помощь разобраться с материалами онлайн-курсов (`pomosh-s-kursami`) | от 3 500 ₸/урок | 1–1 дн. |
 - Voice: fixtures and `lib/i18n/dict` copy rewritten from first person singular to the team voice ("мы / работаем командой"). Not changed on purpose (factual, owner to decide): `lib/site/legal.ts` (states the seller is a self-employed individual, not a company) and `lib/site/person.ts` / contacts person block. The copy no longer names an individual or claims an IITU student bio.
+
+### Verification (2026-10-30)
+- `make dev` (SEED=1) starts clean: db, backend, frontend, bot healthy. Backend 149 tests, frontend 145 tests, ruff/eslint/tsc clean.
+- All 99 product pages return 200 in ru, kk and en. `node frontend/scripts/check-links.mjs` (crawls sitemap + internal hrefs): 398 URLs, 0 failures.
+- On-site products: `/city/almaty` lists them, `/city/astana` does not; product pages show "Выезд: Алматы".
+- Screenshots (Playwright, ru): `screenshots/{home,catalog,product}-{375,1280}.png` at the repo root (`/screenshots` at filesystem root is read-only on macOS; folder is git-ignored). Product sample: `/products/ustanovka-videonablyudeniya`.
+- Open items for the owner: review all guessed prices above, native-speaker pass on Kazakh copy, dedicated photos for new categories/products, set `REVIEWS_2GIS_URL` and moderate reviews in the Django admin, decide on `legal.ts`/`person.ts` wording.
