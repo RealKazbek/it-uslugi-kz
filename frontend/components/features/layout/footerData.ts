@@ -8,6 +8,9 @@ import type { FooterLink } from './FooterNav';
 
 const POPULAR_COUNT = 8;
 
+/** The footer lists the largest cities only; the other city pages stay in the sitemap. */
+const FOOTER_CITY_LIMIT = 10;
+
 export interface FooterLinkSets {
   services: FooterLink[];
   popular: FooterLink[];
@@ -38,6 +41,6 @@ export async function loadFooterLinks(lang: Lang): Promise<FooterLinkSets> {
     popular: products
       .slice(0, POPULAR_COUNT)
       .map((p) => ({ href: localePath(lang, `/products/${p.slug}`), label: p.title })),
-    cities: cities.map((c) => ({ href: localePath(lang, `/city/${c.slug}`), label: c.name })),
+    cities: cities.slice(0, FOOTER_CITY_LIMIT).map((c) => ({ href: localePath(lang, `/city/${c.slug}`), label: c.name })),
   };
 }

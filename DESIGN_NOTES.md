@@ -300,3 +300,122 @@ Built by Haiku coders, every diff reviewed by the orchestrator. Existing Perne t
 - Transform: ffmpeg, trim 2s-10s (8 s), 1280x720, no audio, yuv420p. `hero.webm` VP9 crf 38 = 216 KB; `hero.mp4` H.264 crf 28 faststart = 411 KB; poster `hero-poster.webp` (frame at 2 s, cwebp q78) = 14 KB. All in `frontend/public/media/video/`.
 - Component `BackgroundVideo` (poster `<img>` in server HTML as LCP candidate; video mounted on idle, fades in on `canplay`; pauses when off-screen or tab hidden; poster only for reduced motion or save-data, see `shouldPlayVideo`). Has a `lazy` prop for below-the-fold use.
 - Second clip for "Как проходит работа" skipped: no calm clip that adds meaning, and mobile would show a poster only anyway. Pexels 5925294 (top-down hoodie, green terminal) was rejected as "hacker" imagery.
+
+## Round 2 polish (2026-10-30)
+
+### Prices cut to freelancer level
+`scripts/reprice.py` rewrote `price_from_kzt` in every fixture. Factor by category: websites/ecommerce 0.42, apps 0.45, design 0.5, bots/AI/automation/SEO 0.55, devops/support 0.6, on-site 0.65, education 0.8 (already cheap); rounded to 500/1 000/5 000/10 000 steps, floor 2 000. Explicit values: лендинг 40 000, Telegram-бот для заявок 25 000, сайт-визитка 55 000. The landing cut (−69%) is deeper than the 35–50% guideline to hit the requested example; sites overall are −58%. These are still estimates, not market-verified, and the earlier "10–20% below market" evidence above refers to the old prices. `/prices`, cards and JSON-LD read the API, so they follow the fixtures after a reseed (`SEED=1 make dev`).
+
+| Category | Product | Old, ₸ | New, ₸ | Change |
+|---|---|---:|---:|---:|
+| ai | ai-assistent-telegram | 130 000 | 70 000 | -46% |
+| ai | ai-assistent-whatsapp | 150 000 | 85 000 | -43% |
+| ai | ai-baza-znanii-dlya-sotrudnikov | 210 000 | 115 000 | -45% |
+| ai | ai-chat-na-sait | 120 000 | 65 000 | -46% |
+| ai | ai-opisaniya-tovarov | 30 000 | 17 000 | -43% |
+| ai | ai-prodazhi-i-podderzhka | 300 000 | 165 000 | -45% |
+| ai | golosovoi-bot | 150 000 | 85 000 | -43% |
+| apps | mobilnoe-prilozhenie-ios-android | 2 100 000 | 950 000 | -55% |
+| apps | pwa-prilozhenie | 150 000 | 70 000 | -53% |
+| apps | telegram-mini-app | 90 000 | 41 000 | -54% |
+| automation | amocrm-nastroika | 130 000 | 70 000 | -46% |
+| automation | bitrix24-nastroika | 260 000 | 145 000 | -44% |
+| automation | crm-dlya-malogo-biznesa | 90 000 | 50 000 | -44% |
+| automation | integraciya-1s | 80 000 | 44 000 | -45% |
+| automation | integraciya-api | 40 000 | 22 000 | -45% |
+| automation | integraciya-kaspi-api | 70 000 | 39 000 | -44% |
+| automation | n8n-make-avtomatizaciya | 40 000 | 22 000 | -45% |
+| automation | onlain-zapis-google-calendar | 30 000 | 17 000 | -43% |
+| automation | otchety-v-telegram | 30 000 | 17 000 | -43% |
+| automation | parsing-dannyh | 20 000 | 11 000 | -45% |
+| automation | uvedomleniya-o-zayavkah | 15 000 | 8 500 | -43% |
+| automation | zayavki-v-google-sheets | 25 000 | 14 000 | -44% |
+| bots | instagram-direct-bot | 60 000 | 33 000 | -45% |
+| bots | telegram-bot-dlya-kursov | 110 000 | 60 000 | -45% |
+| bots | telegram-bot-dostavka | 130 000 | 70 000 | -46% |
+| bots | telegram-bot-faq | 45 000 | 25 000 | -44% |
+| bots | telegram-bot-katalog | 120 000 | 65 000 | -46% |
+| bots | telegram-bot-rassylka | 50 000 | 28 000 | -44% |
+| bots | telegram-bot-zapis | 110 000 | 60 000 | -45% |
+| bots | telegram-bot-zayavki | 45 000 | 25 000 | -44% |
+| bots | whatsapp-bot | 60 000 | 33 000 | -45% |
+| design | bannery-dlya-reklamy | 8 000 | 4 000 | -50% |
+| design | logotip | 50 000 | 25 000 | -50% |
+| design | prezentaciya | 25 000 | 13 000 | -48% |
+| design | ui-ux-dizain | 130 000 | 65 000 | -50% |
+| devops | bekapy-sait-baza | 20 000 | 12 000 | -40% |
+| devops | ci-cd-avtodeploi | 45 000 | 27 000 | -40% |
+| devops | deploy-proekta | 40 000 | 24 000 | -40% |
+| devops | docker-kontejnery | 35 000 | 21 000 | -40% |
+| devops | domen-hosting-ssl | 10 000 | 6 000 | -40% |
+| devops | monitoring-dostupnosti | 25 000 | 15 000 | -40% |
+| devops | pochta-na-domene | 8 000 | 5 000 | -38% |
+| devops | vps-nastroika | 30 000 | 18 000 | -40% |
+| ecommerce | internet-magazin | 420 000 | 175 000 | -58% |
+| ecommerce | internet-magazin-cvetov | 380 000 | 160 000 | -58% |
+| ecommerce | internet-magazin-odezhdy | 400 000 | 170 000 | -57% |
+| ecommerce | kaspi-pay-halyk-oplata | 35 000 | 15 000 | -57% |
+| ecommerce | kaspi-xml | 25 000 | 11 000 | -56% |
+| ecommerce | katalog-s-zakazom-v-whatsapp | 80 000 | 34 000 | -57% |
+| ecommerce | magazin-s-kaspi-xml | 450 000 | 190 000 | -58% |
+| ecommerce | sinhronizaciya-1s-moysklad | 60 000 | 25 000 | -58% |
+| ecommerce | telegram-mini-app-magazin | 120 000 | 50 000 | -58% |
+| education | kompyuternaya-gramotnost | 3 000 | 2 500 | -17% |
+| education | konsultaciya-po-diplomu | 5 000 | 4 000 | -20% |
+| education | podgotovka-k-zashite | 5 000 | 4 000 | -20% |
+| education | pomosh-s-kursami | 3 500 | 3 000 | -14% |
+| education | python-s-nulya | 5 000 | 4 000 | -20% |
+| education | razbor-laboratornyh | 4 000 | 3 000 | -25% |
+| education | repetitor-programmirovaniya | 4 000 | 3 000 | -25% |
+| education | veb-razrabotka-dlya-nachinayushih | 5 000 | 4 000 | -20% |
+| onsite | skud-i-domofony | 70 000 | 46 000 | -34% |
+| onsite | udalennyi-prosmotr-s-telefona | 10 000 | 6 500 | -35% |
+| onsite | ustanovka-videonablyudeniya | 45 000 | 29 000 | -36% |
+| onsite | wifi-i-lokalnaya-set | 35 000 | 23 000 | -34% |
+| seo-maps | analitika-ga4-metrika | 25 000 | 14 000 | -44% |
+| seo-maps | google-ads-nastroika | 60 000 | 33 000 | -45% |
+| seo-maps | kartochka-2gis-google-maps | 10 000 | 5 500 | -45% |
+| seo-maps | kartochka-yandex-karty | 8 000 | 4 500 | -44% |
+| seo-maps | lokalnoe-seo | 30 000 | 17 000 | -43% |
+| seo-maps | seo-audit | 20 000 | 11 000 | -45% |
+| seo-maps | seo-prodvizhenie | 130 000 | 70 000 | -46% |
+| seo-maps | uskorenie-saita | 25 000 | 14 000 | -44% |
+| seo-maps | yandex-direct-nastroika | 100 000 | 55 000 | -45% |
+| support | dorabotka-saita | 15 000 | 9 000 | -40% |
+| support | ispravlenie-oshibok | 5 000 | 3 000 | -40% |
+| support | kompyuternaya-pomosch | 3 000 | 2 000 | -33% |
+| support | lechenie-ot-vzloma | 30 000 | 18 000 | -40% |
+| support | obnovlenie-saita | 12 000 | 7 000 | -42% |
+| support | perenos-saita | 15 000 | 9 000 | -40% |
+| support | podderzhka-saita | 15 000 | 9 000 | -40% |
+| support | redizain | 60 000 | 36 000 | -40% |
+| websites | katalog-sait | 250 000 | 105 000 | -58% |
+| websites | korporativnyi-sait | 300 000 | 125 000 | -58% |
+| websites | lending | 130 000 | 40 000 | -69% |
+| websites | mnogoyazychnyi-sait | 300 000 | 125 000 | -58% |
+| websites | sait-dlya-agentstva-nedvizhimosti | 160 000 | 65 000 | -59% |
+| websites | sait-dlya-avtoservisa | 130 000 | 55 000 | -58% |
+| websites | sait-dlya-fitnes-kluba | 140 000 | 60 000 | -57% |
+| websites | sait-dlya-kafe | 130 000 | 55 000 | -58% |
+| websites | sait-dlya-salona-krasoty | 130 000 | 55 000 | -58% |
+| websites | sait-dlya-stomatologii | 150 000 | 65 000 | -57% |
+| websites | sait-dlya-stroitelnoi-kompanii | 150 000 | 65 000 | -57% |
+| websites | sait-dlya-toi-zala | 130 000 | 55 000 | -58% |
+| websites | sait-dlya-uchebnogo-centra | 140 000 | 60 000 | -57% |
+| websites | sait-dlya-yurista | 130 000 | 55 000 | -58% |
+| websites | sait-na-tilda | 90 000 | 38 000 | -58% |
+| websites | sait-na-wordpress | 200 000 | 85 000 | -57% |
+| websites | sait-vizitka | 130 000 | 55 000 | -58% |
+| websites | veb-prilozhenie | 200 000 | 85 000 | -57% |
+
+### Site search approach
+Prebuilt client index, not Postgres FTS + pg_trgm. Reason: ~100 products + 12 categories + 36 FAQ + a few pages is a few KB per language; matching in the browser is instant (no round trip per keystroke), needs no new DB extension or migration, and ru/kk/en, typos and translit are handled in one place (`lib/search`: normalize, translit, synonyms, Damerau-Levenshtein on phonetic keys). The index is served by `/api/search-index?lang=` (ISR 1 h), loaded on first hover/focus/open, cached in memory. Titles of the other two languages are in each doc's keywords, so queries in any language still match. `/search?q=` renders the same engine server-side with noindex. Revisit with pg_trgm if the catalog grows beyond a few thousand items.
+
+### FAQ
+Site FAQ: 9 groups, 36 questions in `lib/faq/content/{ru,kk,en}` with identical ids; top 8 (`HOME_FAQ_IDS`) on the home page; `/faq` has FAQPage JSON-LD. Every product has 7 FAQs (3 existing + 4 new, written by a small model, ru/kk/en). Kazakh text needs a native-speaker pass. Floating contact menu: Instagram/TikTok rows appear only when `CONTACTS` has values.
+
+### Footer
+Cities column shows the 10 largest cities (all 31 made the footer very tall). Working hours come from `WORKING_HOURS` (default 09:00–21:00).
+
+### Verification
+Playwright (1280 and 375): contact pills equal width and 48px height; combobox filters "бот"; Ctrl+K opens search and "телеграм" returns Telegram bots; nav centre 640 = viewport centre 640; hero video muted and playing, poster only under reduced motion. Lighthouse mobile home: performance 0.88 (two runs), LCP 3.9 s, CLS 0. Screenshots: `screenshots/r2-*.png`.
