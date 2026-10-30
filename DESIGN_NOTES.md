@@ -418,4 +418,4 @@ Site FAQ: 9 groups, 36 questions in `lib/faq/content/{ru,kk,en}` with identical 
 Cities column shows the 10 largest cities (all 31 made the footer very tall). Working hours come from `WORKING_HOURS` (default 09:00–21:00).
 
 ### Verification
-Playwright (1280 and 375): contact pills equal width and 48px height; combobox filters "бот"; Ctrl+K opens search and "телеграм" returns Telegram bots; nav centre 640 = viewport centre 640; hero video muted and playing, poster only under reduced motion. Lighthouse mobile home: performance 0.88 (two runs), LCP 3.9 s, CLS 0. Screenshots: `screenshots/r2-*.png`.
+Playwright (1280 and 375): contact pills equal width and 48px height; combobox filters "бот"; Ctrl+K opens search and "телеграм" returns Telegram bots; nav centre 640 = viewport centre 640; hero video muted and playing, poster only under reduced motion. Lighthouse mobile home on the final build (two runs): performance 1.00, LCP 1.1 s, TBT 20–30 ms, CLS 0 (an earlier build scored 0.88). Footer at 1280: brand column + 4 link columns (Услуги 12, Популярное 8, Города 10, Информация 4). Screenshots: `screenshots/r2-*.png`.
