@@ -6,7 +6,7 @@ export const commonRu: CommonDict = {
   switchLabel: 'Язык сайта',
   skip: 'Перейти к содержимому',
   menu: 'Основное меню',
-  nav: { catalog: 'Каталог', prices: 'Цены', portfolio: 'Портфолио', contacts: 'Контакты' },
+  nav: { catalog: 'Каталог', prices: 'Цены', contacts: 'Контакты' },
   wa: 'WhatsApp',
   tg: 'Telegram',
   faq: 'Частые вопросы',

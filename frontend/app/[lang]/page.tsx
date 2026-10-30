@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Hero } from '@/components/features/home/Hero';
-import { CasesSection } from '@/components/features/home/CasesSection';
 import { CategoriesSection } from '@/components/features/home/CategoriesSection';
 import { ChannelsStrip } from '@/components/features/home/ChannelsStrip';
 import { CitiesSection } from '@/components/features/home/CitiesSection';
@@ -24,9 +23,6 @@ import { telegramLink, whatsappGeneralLink } from '@/lib/format/links';
 import { getDict } from '@/lib/i18n/dict';
 import { LANGS, type Lang } from '@/lib/i18n/locales';
 import { localePath } from '@/lib/i18n/paths';
-import { caseViews } from '@/lib/portfolio/caseViews';
-import { portfolioImageExists } from '@/lib/portfolio/images';
-import { PORTFOLIO } from '@/lib/portfolio/items';
 import { legal } from '@/lib/site/legal';
 import { buildPageMetadata } from '@/lib/seo/metadata';
 import { faqPageLd, professionalServiceLd } from '@/lib/seo/jsonld';
@@ -85,14 +81,6 @@ export default async function HomePage({ params }: PageProps) {
       <CategoriesSection title={h.catsHeading} lead={h.catsLead} categories={categories} hrefFor={hrefFor} countLabel={d.catalog.countLabel} />
       <ChannelsStrip title={h.channelsTitle} />
       <HowSection title={h.howHeading} lead={h.howLead} steps={h.howSteps} />
-      <CasesSection
-        title={h.casesHeading}
-        lead={h.casesLead}
-        allLabel={h.casesAll}
-        allHref={localePath(lang, '/portfolio')}
-        items={caseViews(PORTFOLIO, lang, portfolioImageExists)}
-        labels={{ stack: d.portfolio.stack, imageAlt: d.portfolio.imageAlt }}
-      />
       <PricesSection
         title={h.pricesHeading}
         lead={h.pricesLead}

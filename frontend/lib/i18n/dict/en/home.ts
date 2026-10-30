@@ -45,9 +45,6 @@ export const homeEn: HomeDict = {
   pricesHeading: 'Prices by area',
   pricesLead: 'Starting prices. The final amount is agreed before work starts and written into the agreement.',
   pricesAll: 'All prices',
-  casesHeading: 'Portfolio',
-  casesLead: 'Real projects: websites, bots and AI assistants you can open and try.',
-  casesAll: 'Full portfolio',
   trustHeading: 'Why working with me is easy',
   trustLead: 'No hidden terms: everything we agree on is written down.',
   trustItems: [

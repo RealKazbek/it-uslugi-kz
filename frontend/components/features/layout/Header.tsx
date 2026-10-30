@@ -18,7 +18,6 @@ function navLinks(lang: Lang, nav: CommonDict['nav']): (NavLink & { icon: NavIco
   return [
     { href: localePath(lang, '/catalog'), label: nav.catalog, icon: 'catalog' },
     { href: localePath(lang, '/prices'), label: nav.prices, icon: 'prices' },
-    { href: localePath(lang, '/portfolio'), label: nav.portfolio, icon: 'portfolio' },
     { href: localePath(lang, '/contacts'), label: nav.contacts, icon: 'contacts' },
   ];
 }

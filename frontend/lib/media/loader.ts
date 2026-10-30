@@ -11,7 +11,7 @@ interface LoaderArgs {
 }
 
 export default function mediaLoader({ src, width }: LoaderArgs): string {
-  if (!/^\/(media|portfolio)\/.+\.webp$/.test(src)) return src;
+  if (!/^\/media\/.+\.webp$/.test(src)) return src;
   const variant = VARIANT_WIDTHS.find((w) => w >= width);
   return variant === undefined ? src : src.replace(/\.webp$/, `-${variant}.webp`);
 }

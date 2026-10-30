@@ -17,7 +17,7 @@ export interface CommonDict {
   switchLabel: string;
   skip: string;
   menu: string;
-  nav: { catalog: string; prices: string; portfolio: string; contacts: string };
+  nav: { catalog: string; prices: string; contacts: string };
   wa: string;
   tg: string;
   faq: string;
@@ -74,9 +74,6 @@ export interface HomeDict {
   pricesHeading: string;
   pricesLead: string;
   pricesAll: string;
-  casesHeading: string;
-  casesLead: string;
-  casesAll: string;
   trustHeading: string;
   trustLead: string;
   trustItems: Step[];
@@ -183,18 +180,6 @@ export interface PricesDict {
   ctaText: string;
 }
 
-export interface PortfolioDict {
-  title: string;
-  description: string;
-  h1: string;
-  lead: string;
-  stack: string;
-  demo: string;
-  imageAlt: (title: string) => string;
-  ctaTitle: string;
-  ctaText: string;
-}
-
 export interface ContactsDict {
   title: string;
   description: string;
@@ -219,6 +204,5 @@ export interface Dict {
   lead: LeadDict;
   city: CityDict;
   prices: PricesDict;
-  portfolio: PortfolioDict;
   contacts: ContactsDict;
 }

@@ -2,14 +2,14 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { Briefcase, Contact, LayoutGrid, Menu, Tag, type LucideIcon } from 'lucide-react';
+import { Contact, LayoutGrid, Menu, Tag, type LucideIcon } from 'lucide-react';
 import { SiTelegram, SiWhatsapp } from 'react-icons/si';
 import { Button, ButtonLink } from '@/components/ui/Button';
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from '@/components/ui/Sheet';
 import type { Lang } from '@/lib/i18n/locales';
 import { LangSwitcher } from './LangSwitcher';
 
-export type NavIcon = 'catalog' | 'prices' | 'portfolio' | 'contacts';
+export type NavIcon = 'catalog' | 'prices' | 'contacts';
 export interface NavLink {
   href: string;
   label: string;
@@ -18,7 +18,6 @@ export interface NavLink {
 const NAV_ICONS: Record<NavIcon, LucideIcon> = {
   catalog: LayoutGrid,
   prices: Tag,
-  portfolio: Briefcase,
   contacts: Contact,
 };
 

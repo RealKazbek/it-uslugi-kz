@@ -5,7 +5,7 @@ export const commonEn: CommonDict = {
   switchLabel: 'Site language',
   skip: 'Skip to content',
   menu: 'Main menu',
-  nav: { catalog: 'Catalog', prices: 'Prices', portfolio: 'Portfolio', contacts: 'Contacts' },
+  nav: { catalog: 'Catalog', prices: 'Prices', contacts: 'Contacts' },
   wa: 'WhatsApp',
   tg: 'Telegram',
   faq: 'FAQ',

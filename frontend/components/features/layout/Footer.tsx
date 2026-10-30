@@ -15,7 +15,6 @@ export function Footer({ lang }: { lang: Lang }) {
   const links = [
     { href: localePath(lang, '/catalog'), label: d.nav.catalog },
     { href: localePath(lang, '/prices'), label: d.nav.prices },
-    { href: localePath(lang, '/portfolio'), label: d.nav.portfolio },
     { href: localePath(lang, '/contacts'), label: d.nav.contacts },
   ];
 
