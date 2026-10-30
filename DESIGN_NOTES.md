@@ -144,10 +144,10 @@ Kazakh copy was model-written and needs a native-speaker pass.
 
 | Category | Product | Price (guess) | Timeline |
 |---|---|---|---|
-| Сайты | Сайт-каталог с товарами и заявкой (`katalog-sait`) | от 70 000 ₸ | 10–20 дн. |
-| Сайты | Многоязычный сайт на русском  казахском и английском (`mnogoyazychnyi-sait`) | от 90 000 ₸ | 14–25 дн. |
-| Сайты | Сайт на Tilda под ключ (`sait-na-tilda`) | от 30 000 ₸ | 5–10 дн. |
-| Сайты | Сайт на WordPress с понятной админ-панелью (`sait-na-wordpress`) | от 60 000 ₸ | 10–20 дн. |
+| Сайты | Сайт-каталог с товарами и заявкой (`katalog-sait`) | от 250 000 ₸ | 10–20 дн. |
+| Сайты | Многоязычный сайт на русском  казахском и английском (`mnogoyazychnyi-sait`) | от 300 000 ₸ | 14–25 дн. |
+| Сайты | Сайт на Tilda под ключ (`sait-na-tilda`) | от 90 000 ₸ | 5–10 дн. |
+| Сайты | Сайт на WordPress с понятной админ-панелью (`sait-na-wordpress`) | от 200 000 ₸ | 10–20 дн. |
 | Интернет-магазины | Приём оплаты Kaspi Pay и Halyk на сайте (`kaspi-pay-halyk-oplata`) | от 35 000 ₸ | 5–10 дн. |
 | Интернет-магазины | Синхронизация магазина с 1С и МойСклад (`sinhronizaciya-1s-moysklad`) | от 60 000 ₸ | 10–20 дн. |
 | Мобильные приложения | Мобильное приложение для iOS и Android (`mobilnoe-prilozhenie-ios-android`) | от 450 000 ₸ | 45–90 дн. |
@@ -202,3 +202,8 @@ No market data in tenge could be found by web search (see above), so the 10–20
 - Contacts "Кто мы" block, legal text and `person.ts` moved to team voice; the personal portfolio and GitHub contact links were removed. Remaining first-person hits in fixtures are customer-voice quotes («у меня работает», "my kind of case").
 - Type scale: all headings, stats and prices use `text-display|h2|h3|stat`; resting card shadows removed (shadows only on hover, plus popovers/sheets).
 - `/screenshots` literally cannot exist (read-only root on macOS); screenshots are in `screenshots/` in the repo.
+
+### Price evidence, website products (extended search, 2026-10-30)
+Sources: [iprod.kz](https://iprod.kz/razrabotka-sajta-pod-klyuch-chto-vhodit-i-kak-vybrat-studiyu/) (landing/visitka from 150 000 ₸, corporate ~350–406 000, shop from 500 000; below 50 000 usually means a template), [lead.media](https://lead.media/kz/almaty/sozdanie-sajtov/tseny/) (landing from 320–400 000 ₸ by city, corporate 720–905 000, shop 1.2–1.5 M), [eldarcci.studio](https://eldarcci.studio/blog/tpost/ymx988p0m1-skolko-stoit-sait-pod-klyuch-v-kazahstan). These are studio list prices (advertising pages).
+- The four new website products were re-priced to about 15% under the lower studio figures: catalog site 250 000, multilingual 300 000, WordPress 200 000 ₸; the Tilda site (90 000 ₸) has no direct source and stays a guess.
+- **Existing products are far below this range** (landing 45 000, visitka 35 000, corporate 120 000, shop 180 000 ₸), i.e. 70–90% under studio prices, not 10–20%. They were not changed because they were priced before this task; the owner should decide whether to raise them. Prices for the other categories (bots, CRM, SEO, DevOps, CCTV, design, tutoring) still have no source and remain guesses.
