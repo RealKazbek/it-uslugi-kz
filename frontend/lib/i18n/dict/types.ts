@@ -186,7 +186,7 @@ export interface ContactsDict {
   h1: string;
   lead: string;
   where: string;
-  labels: { wa: string; tg: string; phone: string; email: string; site: string; gh: string };
+  labels: { wa: string; tg: string; phone: string; email: string };
   who: string;
   legal: string;
   how: string;

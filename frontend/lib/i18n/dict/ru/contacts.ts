@@ -6,7 +6,7 @@ export const contactsRu: ContactsDict = {
   h1: 'Контакты',
   lead: 'Самый быстрый способ связаться — WhatsApp. Опишите задачу в паре предложений, и мы ответим.',
   where: 'Где нас найти',
-  labels: { wa: 'WhatsApp', tg: 'Telegram', phone: 'Телефон', email: 'Email', site: 'Сайт-портфолио', gh: 'GitHub' },
+  labels: { wa: 'WhatsApp', tg: 'Telegram', phone: 'Телефон', email: 'Email' },
   who: 'Кто мы',
   legal: 'Статус и оплата',
   how: 'Как мы работаем',

@@ -28,11 +28,11 @@ export function ProductOrderCard(p: ProductOrderCardProps) {
           <Badge variant="soft">{p.category}</Badge>
           {p.onsiteText && <Badge variant="outline">{p.onsiteText}</Badge>}
         </div>
-        <h1 className="text-[1.65rem] leading-tight md:text-3xl">{p.title}</h1>
+        <h1 className="text-h3">{p.title}</h1>
         <p className="text-muted-foreground">{p.description}</p>
       </div>
       <div className="space-y-2">
-        <p className="text-3xl font-extrabold tabular-nums">{p.totalText}</p>
+        <p className="text-stat tabular-nums">{p.totalText}</p>
         <p className="flex items-center gap-2 text-sm text-muted-foreground">
           <Clock aria-hidden="true" className="size-4 shrink-0" />
           {p.timelineText}

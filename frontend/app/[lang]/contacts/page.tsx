@@ -45,8 +45,6 @@ function contactItems(lang: Parameters<typeof getDict>[0]): ContactItem[] {
     { label: labels.tg, href: telegramLink(), text: `@${contacts.telegram}`, external: true, icon: 'telegram' },
     { label: labels.phone, href: `tel:${contacts.phone}`, text: phone, external: false, icon: 'phone' },
     { label: labels.email, href: `mailto:${contacts.email}`, text: contacts.email, external: false, icon: 'mail' },
-    { label: labels.site, href: contacts.portfolioUrl, text: contacts.portfolioUrl.replace('https://', ''), external: true, icon: 'site' },
-    { label: labels.gh, href: contacts.github, text: 'RealKazbek', external: true, icon: 'github' },
   ];
 }
 

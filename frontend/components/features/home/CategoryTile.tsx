@@ -16,7 +16,7 @@ export function CategoryTile({ category, href, countLabel }: CategoryTileProps) 
   return (
     <Link
       href={href}
-      className="group relative block aspect-[4/5] overflow-hidden rounded-2xl bg-muted text-primary-foreground no-underline shadow-card transition-[box-shadow,transform] duration-base ease-out hover:shadow-card-hover motion-safe:hover:-translate-y-1 md:aspect-[3/4]"
+      className="group relative block aspect-[4/5] overflow-hidden rounded-2xl bg-muted text-primary-foreground no-underline transition-[box-shadow,transform] duration-base ease-out hover:shadow-card-hover motion-safe:hover:-translate-y-1 md:aspect-[3/4]"
     >
       <Image
         src={categoryImage(category.slug)}

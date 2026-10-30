@@ -21,7 +21,7 @@ export function ChannelsStrip({ title }: { title: string }) {
         <p className="max-w-md font-semibold">{title}</p>
         <ul className="flex flex-wrap justify-center gap-3">
           {CHANNELS.map(({ name, Icon }) => (
-            <li key={name} className="flex items-center gap-2 rounded-full bg-background px-4 py-2 text-sm font-semibold shadow-card">
+            <li key={name} className="flex items-center gap-2 rounded-full bg-background px-4 py-2 text-sm font-semibold">
               <Icon aria-hidden="true" className="size-5 text-foreground" />
               {name}
             </li>

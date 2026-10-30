@@ -69,7 +69,7 @@ export default async function CatalogPage({ params }: PageProps) {
             label={dict.common.menu}
             items={[{ name: dict.common.breadcrumbHome, href: localePath(lang, '/') }, { name: d.h1, href: localePath(lang, '/catalog') }]}
           />
-          <h1 className="text-3xl font-extrabold tracking-tight md:text-4xl">{d.h1}</h1>
+          <h1 className="text-h2 tracking-tight">{d.h1}</h1>
           <p className="max-w-prose text-lg text-muted-foreground">{d.lead}</p>
         </header>
         <CatalogBrowser

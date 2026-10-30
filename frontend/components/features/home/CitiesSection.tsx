@@ -26,7 +26,7 @@ export function CitiesSection({ title, lead, cities }: CitiesSectionProps) {
             <li key={city.href}>
               <Link
                 href={city.href}
-                className="inline-flex min-h-11 items-center gap-2 rounded-full border border-border bg-background px-4 font-medium text-foreground no-underline shadow-card hover:bg-accent hover:text-accent-foreground"
+                className="inline-flex min-h-11 items-center gap-2 rounded-full border border-border bg-background px-4 font-medium text-foreground no-underline hover:bg-accent hover:text-accent-foreground"
               >
                 <MapPin aria-hidden="true" className="size-4 text-primary" />
                 {city.name}

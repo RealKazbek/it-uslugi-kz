@@ -6,7 +6,7 @@ export const contactsEn: ContactsDict = {
   h1: 'Contacts',
   lead: 'The fastest way to reach us is WhatsApp. Describe your project in a couple of sentences and we will reply.',
   where: 'Where to find us',
-  labels: { wa: 'WhatsApp', tg: 'Telegram', phone: 'Phone', email: 'Email', site: 'Portfolio site', gh: 'GitHub' },
+  labels: { wa: 'WhatsApp', tg: 'Telegram', phone: 'Phone', email: 'Email' },
   who: 'About us',
   legal: 'Status and payment',
   how: 'How we work together',

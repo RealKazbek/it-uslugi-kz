@@ -30,7 +30,7 @@ export function TrustSection({ title, lead, items, stats }: TrustSectionProps) {
           {items.map((item, index) => {
             const Icon = TRUST_ICONS[index % TRUST_ICONS.length];
             return (
-              <StaggerItem key={item.t} as="li" className="rounded-xl border border-border bg-card p-6 shadow-card">
+              <StaggerItem key={item.t} as="li" className="rounded-xl border border-border bg-card p-6">
                 {Icon && (
                   <span className="mb-4 flex size-11 items-center justify-center rounded-lg bg-accent text-primary-hover">
                     <Icon aria-hidden="true" className="size-5" />
@@ -42,7 +42,7 @@ export function TrustSection({ title, lead, items, stats }: TrustSectionProps) {
             );
           })}
         </Stagger>
-        <dl className="grid grid-cols-2 gap-6 rounded-2xl bg-background p-6 shadow-card md:grid-cols-4 md:p-8">
+        <dl className="grid grid-cols-2 gap-6 rounded-2xl bg-background p-6 md:grid-cols-4 md:p-8">
           {stats.map((stat) => (
             <div key={stat.label} className="space-y-1">
               <dt className="text-sm text-muted-foreground">{stat.label}</dt>

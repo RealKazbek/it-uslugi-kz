@@ -6,7 +6,7 @@ export const contactsKk: ContactsDict = {
   h1: 'Байланыс',
   lead: 'Ең жылдам байланыс жолы — WhatsApp. Тапсырманы бірер сөйлемде сипаттаңыз, біз жауап береміз.',
   where: 'Бізді қайдан табуға болады',
-  labels: { wa: 'WhatsApp', tg: 'Telegram', phone: 'Телефон', email: 'Email', site: 'Портфолио сайт', gh: 'GitHub' },
+  labels: { wa: 'WhatsApp', tg: 'Telegram', phone: 'Телефон', email: 'Email' },
   who: 'Біз туралы',
   legal: 'Мәртебе және төлем',
   how: 'Біз қалай жұмыс істейміз',

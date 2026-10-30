@@ -30,7 +30,7 @@ export function ContactList({ items }: { items: ContactItem[] }) {
           <a
             href={item.href}
             {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-            className="group flex h-full min-h-16 items-center gap-4 rounded-xl border border-border bg-card p-5 text-foreground no-underline shadow-card transition-shadow duration-base ease-out hover:shadow-card-hover"
+            className="group flex h-full min-h-16 items-center gap-4 rounded-xl border border-border bg-card p-5 text-foreground no-underline transition-shadow duration-base ease-out hover:shadow-card-hover"
           >
             <span className="flex size-11 shrink-0 items-center justify-center rounded-lg bg-accent text-primary-hover">
               {ICONS[item.icon]}
