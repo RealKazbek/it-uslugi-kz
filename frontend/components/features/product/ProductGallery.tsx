@@ -1,6 +1,7 @@
 'use client';
 
 import { AnimatePresence, m } from 'framer-motion';
+import { imagePosition } from '@/lib/media/images';
 import Image from 'next/image';
 import { useState } from 'react';
 import { cn } from '@/lib/ui/cn';
@@ -30,10 +31,12 @@ export function ProductGallery({ images, alts, label }: ProductGalleryProps) {
             <Image
               src={images[active] ?? images[0] ?? ''}
               alt={alts[active] ?? ''}
-              fill
+              width={1200}
+              height={800}
+              style={{ objectPosition: imagePosition(images[active] ?? '') }}
               priority={active === 0}
               sizes="(min-width: 1024px) 58vw, 100vw"
-              className="object-cover"
+              className="absolute inset-0 size-full object-cover"
             />
           </m.div>
         </AnimatePresence>
@@ -51,7 +54,7 @@ export function ProductGallery({ images, alts, label }: ProductGalleryProps) {
               i === active ? 'border-primary' : 'border-transparent opacity-70 hover:opacity-100',
             )}
           >
-            <Image src={src} alt="" fill loading="lazy" sizes="(min-width: 1024px) 19vw, 33vw" className="object-cover" />
+            <Image src={src} alt="" width={1200} height={800} loading="lazy" sizes="(min-width: 1024px) 19vw, 33vw" className="absolute inset-0 size-full object-cover" />
           </button>
         ))}
       </div>

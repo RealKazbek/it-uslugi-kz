@@ -47,7 +47,7 @@ export function HeroVisual({ chips }: HeroVisualProps) {
       </div>
       <div className="absolute -bottom-2 right-0 w-28 overflow-hidden rounded-[2rem] border-4 border-foreground bg-foreground shadow-pop sm:w-36">
         <div className="relative aspect-[9/16]">
-          <Image src={heroImages.phone} alt="" fill sizes="144px" className="object-cover" />
+          <Image src={heroImages.phone} alt="" width={1400} height={933} sizes="144px" className="absolute inset-0 size-full object-cover" />
         </div>
       </div>
       <Chip icon={<Bot className="size-4" />} text={chips.first} delay={0.5} className="-left-1 top-10 sm:-left-4" />

@@ -1,6 +1,6 @@
 # Image credits
 
-All photos are from Unsplash (https://unsplash.com/license: free to use, no attribution required). Downloaded once, resized and converted to WebP; nothing is hotlinked.
+Photos are from Unsplash (https://unsplash.com/license) or Pexels (https://www.pexels.com/license/), both free to use without attribution. Downloaded once, resized and converted to WebP; nothing is hotlinked.
 
 | File | Source |
 |---|---|
@@ -22,10 +22,8 @@ All photos are from Unsplash (https://unsplash.com/license: free to use, no attr
 | categories/education-2.webp | https://images.unsplash.com/photo-1501504905252-473c47e087f8 |
 | products/ai-assistent-telegram.webp | https://images.unsplash.com/photo-1662974770404-468fd9660389 |
 | products/ai-assistent-whatsapp.webp | https://images.unsplash.com/photo-1488509082528-cefbba5ad692 |
-| products/ai-baza-znanii-dlya-sotrudnikov.webp | https://images.unsplash.com/photo-1517048676732-d65bc937f952 |
 | products/ai-chat-na-sait.webp | https://images.unsplash.com/photo-1674027444485-cec3da58eef4 |
 | products/ai-opisaniya-tovarov.webp | https://images.unsplash.com/photo-1697577418970-95d99b5a55cf |
-| products/crm-dlya-malogo-biznesa.webp | https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86 |
 | products/domen-hosting-ssl.webp | https://images.unsplash.com/photo-1695668548342-c0c1ad479aee |
 | products/dorabotka-saita.webp | https://images.unsplash.com/photo-1619410283995-43d9134e7656 |
 | products/integraciya-api.webp | https://images.unsplash.com/photo-1542831371-29b0f74f9713 |
@@ -51,7 +49,6 @@ All photos are from Unsplash (https://unsplash.com/license: free to use, no attr
 | products/podderzhka-saita.webp | https://images.unsplash.com/photo-1547394765-185e1e68f34e |
 | products/python-s-nulya.webp | https://images.unsplash.com/photo-1515879218367-8466d910aaa4 |
 | products/redizain.webp | https://images.unsplash.com/photo-1586880244406-556ebe35f282 |
-| products/repetitor-programmirovaniya.webp | https://images.unsplash.com/photo-1544006659-f0b21884ce1d |
 | products/sait-dlya-agentstva-nedvizhimosti.webp | https://images.unsplash.com/photo-1580587771525-78b9dba3b914 |
 | products/sait-dlya-avtoservisa.webp | https://images.unsplash.com/photo-1625047509248-ec889cbff17f |
 | products/sait-dlya-fitnes-kluba.webp | https://images.unsplash.com/photo-1534438327276-14e5300c3a48 |
@@ -78,7 +75,61 @@ All photos are from Unsplash (https://unsplash.com/license: free to use, no attr
 | products/veb-prilozhenie.webp | https://images.unsplash.com/photo-1605379399642-870262d3d051 |
 | products/veb-razrabotka-dlya-nachinayushih.webp | https://images.unsplash.com/photo-1607706189992-eae578626c86 |
 | products/whatsapp-bot.webp | https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e |
-| products/zayavki-v-google-sheets.webp | https://images.unsplash.com/photo-1543269664-56d93c1b41a6 |
 | hero/desk.webp | https://images.unsplash.com/photo-1575318634028-6a0cfcb60c59 |
 | hero/city.webp | https://images.unsplash.com/photo-1765436271393-16377d973d0e |
 | hero/phone.webp | https://images.unsplash.com/photo-1522125670776-3c7abb882bc2 |
+| products/amocrm-nastroika.webp | https://images.unsplash.com/photo-1787839253728-f6d42c2cfb8c |
+| products/bitrix24-nastroika.webp | https://images.unsplash.com/photo-1582005450386-52b25f82d9bb |
+| products/crm-dlya-malogo-biznesa.webp | https://images.unsplash.com/photo-1787839227786-17f3149942a5 |
+| products/integraciya-1s.webp | https://images.unsplash.com/photo-1709534486708-fb8f94150d0a |
+| products/integraciya-kaspi-api.webp | https://images.unsplash.com/photo-1599050751795-6cdaafbc2319 |
+| products/n8n-make-avtomatizaciya.webp | https://images.unsplash.com/photo-1758873272562-aa5459cbf34b |
+| products/zayavki-v-google-sheets.webp | https://images.unsplash.com/photo-1759752393975-7ca7b302fcc6 |
+| products/analitika-ga4-metrika.webp | https://images.unsplash.com/photo-1477013743164-ffc3a5e556da |
+| products/google-ads-nastroika.webp | https://images.unsplash.com/photo-1557858310-9052820906f7 |
+| products/yandex-direct-nastroika.webp | https://images.unsplash.com/photo-1563986768494-4dee2763ff3f |
+| products/lechenie-ot-vzloma.webp | https://images.unsplash.com/photo-1614064548237-096f735f344f |
+| products/obnovlenie-saita.webp | https://images.unsplash.com/photo-1758780691544-d11ce61aae47 |
+| products/mobilnoe-prilozhenie-ios-android.webp | https://images.unsplash.com/photo-1511707171634-5f897ff02aa9 |
+| products/pwa-prilozhenie.webp | https://images.unsplash.com/photo-1787834564572-a0b0e8c6ab55 |
+| products/telegram-mini-app.webp | https://images.unsplash.com/photo-1773332598501-f8612761781a |
+| categories/apps.webp | https://images.unsplash.com/photo-1523206489230-c012c64b2b48 |
+| categories/apps-2.webp | https://images.unsplash.com/photo-1773332611514-238856b76198 |
+| products/katalog-sait.webp | https://www.pexels.com/photo/close-up-shot-of-laptop-screen-7190944/ (Pexels licence) |
+| products/mnogoyazychnyi-sait.webp | https://unsplash.com/photos/K7JEYFDictM |
+| products/sait-na-tilda.webp | https://unsplash.com/photos/pqzRfBhd9r0 |
+| products/sait-na-wordpress.webp | https://unsplash.com/photos/fMXGNyhRkGg |
+| products/ai-baza-znanii-dlya-sotrudnikov.webp | https://unsplash.com/photos/1CNNxQsLfUo |
+| products/ai-prodazhi-i-podderzhka.webp | https://www.pexels.com/photo/a-man-talking-on-a-headset-while-using-a-laptop-7681286/ (Pexels licence) |
+| products/golosovoi-bot.webp | https://unsplash.com/photos/Jymh4EctxLs |
+| products/instagram-direct-bot.webp | https://unsplash.com/photos/Jrz9YXN1Vwc |
+| products/kaspi-pay-halyk-oplata.webp | https://unsplash.com/photos/wVqTWs-1nmI |
+| products/sinhronizaciya-1s-moysklad.webp | https://www.pexels.com/photo/4484154/ (Pexels licence) |
+| products/diplomnye-proekty.webp | https://images.unsplash.com/photo-1627556704302-624286467c65 |
+| products/podgotovka-k-zashite.webp | https://images.unsplash.com/photo-1505373877841-8d25f7d46678 |
+| products/pomosh-s-kursami.webp | https://images.unsplash.com/photo-1513258496099-48168024aec0 |
+| products/razbor-laboratornyh.webp | https://images.unsplash.com/photo-1517420704952-d9f39e95b43e |
+| products/repetitor-programmirovaniya.webp | https://images.unsplash.com/photo-1758687126375-e2c1683219e9 |
+| products/kursovye-proekty.webp | https://images.unsplash.com/photo-1516397281156-ca07cf9746fc |
+| products/praktika-otchet.webp | https://images.unsplash.com/photo-1454165804606-c3d57bc86b40 |
+| products/vps-nastroika.webp | https://images.unsplash.com/photo-1594915440248-1e419eba6611 |
+| products/docker-kontejnery.webp | https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff |
+| products/ci-cd-avtodeploi.webp | https://images.unsplash.com/photo-1516259762381-22954d7d3ad2 |
+| products/deploy-proekta.webp | https://images.unsplash.com/photo-1457364887197-9150188c107b |
+| products/bekapy-sait-baza.webp | https://images.unsplash.com/photo-1601737487795-dab272f52420 |
+| products/monitoring-dostupnosti.webp | https://images.unsplash.com/photo-1686061594225-3e92c0cd51b0 |
+| products/ustanovka-videonablyudeniya.webp | https://images.unsplash.com/photo-1496368077930-c1e31b4e5b44 |
+| products/skud-i-domofony.webp | https://images.unsplash.com/photo-1528817466667-942353411fee |
+| products/wifi-i-lokalnaya-set.webp | https://images.unsplash.com/photo-1785682117495-d87ff069cdb5 |
+| products/udalennyi-prosmotr-s-telefona.webp | https://images.unsplash.com/photo-1736488679013-38f65b0ae82c |
+| products/logotip.webp | https://images.unsplash.com/photo-1792830047526-e692ed52a905 |
+| products/bannery-dlya-reklamy.webp | https://images.unsplash.com/photo-1722072326019-689bcd610abc |
+| products/prezentaciya.webp | https://images.unsplash.com/photo-1771646752336-c5254f4199d5 |
+| products/ui-ux-dizain.webp | https://images.unsplash.com/photo-1790861286837-3580e5c91683 |
+| categories/devops.webp | https://images.unsplash.com/photo-1680992046626-418f7e910589 |
+| categories/devops-2.webp | https://images.unsplash.com/photo-1608742213509-815b97c30b36 |
+| categories/onsite.webp | https://images.unsplash.com/photo-1549109926-58f039549485 |
+| categories/onsite-2.webp | https://images.unsplash.com/photo-1531668383211-64743e924c66 |
+| categories/design.webp | https://images.unsplash.com/photo-1748326650737-33500fdfda30 |
+| categories/design-2.webp | https://images.unsplash.com/photo-1716471330463-f475b00f0506 |
+| products/uvedomleniya-o-zayavkah.webp | https://unsplash.com/photos/QQ2d5naZee0 |

@@ -11,7 +11,15 @@ interface CategoryBannerProps {
 export function CategoryBanner({ slug, title, intro }: CategoryBannerProps) {
   return (
     <div className="relative isolate overflow-hidden rounded-2xl bg-foreground">
-      <Image src={categoryImage(slug)} alt="" fill priority sizes="(min-width: 1280px) 1216px, 100vw" className="-z-10 object-cover" />
+      <Image
+        src={categoryImage(slug)}
+        alt={title}
+        width={1200}
+        height={800}
+        priority
+        sizes="(min-width: 1280px) 1216px, 100vw"
+        className="absolute inset-0 -z-10 size-full object-cover"
+      />
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-foreground/90 via-foreground/60 to-foreground/20" />
       <div className="flex min-h-56 flex-col justify-end gap-3 p-6 sm:min-h-72 sm:p-10">
         <h1 className="max-w-3xl text-h2 tracking-tight text-background">{title}</h1>

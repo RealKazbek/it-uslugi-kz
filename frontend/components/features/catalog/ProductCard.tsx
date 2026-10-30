@@ -1,4 +1,5 @@
 import { ArrowRight, Clock } from 'lucide-react';
+import { imagePosition } from '@/lib/media/images';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ButtonLink } from '@/components/ui/Button';
@@ -40,11 +41,13 @@ export function ProductCard({ card, labels, priority = false }: ProductCardProps
       <div className="relative aspect-[3/2] overflow-hidden bg-muted">
         <Image
           src={card.image}
-          alt=""
-          fill
+          alt={card.title}
+          width={1200}
+          height={800}
+          style={{ objectPosition: imagePosition(card.image) }}
           priority={priority}
           sizes={IMAGE_SIZES}
-          className="object-cover motion-safe:transition-transform motion-safe:duration-slow motion-safe:group-hover:scale-105"
+          className="absolute inset-0 size-full object-cover motion-safe:transition-transform motion-safe:duration-slow motion-safe:group-hover:scale-105"
         />
       </div>
       <div className="flex flex-1 flex-col gap-2 p-4 sm:p-5">

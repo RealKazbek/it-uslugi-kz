@@ -20,10 +20,11 @@ export function CategoryTile({ category, href, countLabel }: CategoryTileProps) 
     >
       <Image
         src={categoryImage(category.slug)}
-        alt=""
-        fill
+        alt={category.name}
+        width={1200}
+        height={800}
         sizes="(min-width: 768px) 25vw, 50vw"
-        className="object-cover motion-safe:transition-transform motion-safe:duration-slow motion-safe:group-hover:scale-105"
+        className="absolute inset-0 size-full object-cover motion-safe:transition-transform motion-safe:duration-slow motion-safe:group-hover:scale-105"
       />
       <span aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-foreground/80 to-transparent" />
       <span aria-hidden="true" className="absolute left-3 top-3 flex size-10 items-center justify-center rounded-lg bg-background/90 text-primary">
