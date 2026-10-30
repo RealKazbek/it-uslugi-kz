@@ -6,7 +6,9 @@ import '../globals.css';
 import { MotionProvider } from '@/components/motion/MotionProvider';
 import { Footer } from '@/components/features/layout/Footer';
 import { Header } from '@/components/features/layout/Header';
+import { FloatingWhatsApp } from '@/components/features/layout/FloatingWhatsApp';
 import { MobileCtaBar } from '@/components/features/layout/MobileCtaBar';
+import { callLink, telegramLink, whatsappGeneralLink } from '@/lib/format/links';
 import { getDict } from '@/lib/i18n/dict';
 import { HTML_LANG, LANGS, isLang } from '@/lib/i18n/locales';
 
@@ -34,19 +36,25 @@ interface LangLayoutProps {
 export default async function LangLayout({ children, params }: LangLayoutProps) {
   const { lang } = await params;
   if (!isLang(lang)) notFound();
-  const skip = getDict(lang).common.skip;
+  const d = getDict(lang).common;
 
   return (
     <html lang={HTML_LANG[lang]} className={fontSans.variable}>
       <body className="bg-background font-sans text-foreground antialiased">
         <a href="#main" className="skip-link">
-          {skip}
+          {d.skip}
         </a>
         <MotionProvider>
           <Header lang={lang} />
           <main id="main">{children}</main>
           <Footer lang={lang} />
-          <MobileCtaBar lang={lang} />
+          <MobileCtaBar
+            whatsappHref={whatsappGeneralLink(lang)}
+            telegramHref={telegramLink()}
+            callHref={callLink()}
+            labels={{ whatsapp: d.wa, telegram: d.tg, call: d.cta.call }}
+          />
+          <FloatingWhatsApp href={whatsappGeneralLink(lang)} label={d.floatingWa} />
         </MotionProvider>
       </body>
     </html>

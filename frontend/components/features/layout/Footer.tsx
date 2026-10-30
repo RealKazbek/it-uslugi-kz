@@ -1,42 +1,57 @@
+import Link from 'next/link';
 import { Container } from '@/components/ui/Container';
+import { Monogram } from '@/components/ui/Monogram';
 import { getDict } from '@/lib/i18n/dict';
 import type { Lang } from '@/lib/i18n/locales';
-import { contacts } from '@/lib/site/contacts';
-import { whatsappGeneralLink } from '@/lib/format/links';
 import { localePath } from '@/lib/i18n/paths';
-import Link from 'next/link';
+import { contacts } from '@/lib/site/contacts';
+import { FooterContacts } from './FooterContacts';
+import { FooterSocials } from './FooterSocials';
 
+/** Light footer: brand, site map, contacts and socials. Bottom padding clears the mobile CTA bar. */
 export function Footer({ lang }: { lang: Lang }) {
   const d = getDict(lang).common;
-  const phone = lang === 'en' ? contacts.phoneDisplayIntl : contacts.phoneDisplay;
+  const year = new Date().getFullYear();
+  const links = [
+    { href: localePath(lang, '/catalog'), label: d.nav.catalog },
+    { href: localePath(lang, '/prices'), label: d.nav.prices },
+    { href: localePath(lang, '/portfolio'), label: d.nav.portfolio },
+    { href: localePath(lang, '/contacts'), label: d.nav.contacts },
+  ];
 
   return (
-    <footer className="mt-16 border-t border-border pb-24 md:pb-10">
-      <Container className="grid gap-8 py-10 md:grid-cols-2">
-        <div>
-          <p className="font-bold">{contacts.brand}</p>
-          <p className="text-muted-foreground">{d.footerTagline}</p>
+    <footer className="mt-16 border-t border-border bg-muted pb-24 md:pb-10">
+      <Container className="grid gap-10 py-12 lg:grid-cols-4">
+        <div className="space-y-3">
+          <p className="flex items-center gap-2 text-lg font-extrabold tracking-tight">
+            <Monogram size={28} />
+            {contacts.brand}
+          </p>
+          <p className="max-w-prose text-muted-foreground">{d.footerTagline}</p>
+          <p className="max-w-prose text-sm text-muted-foreground">{d.footerNote}</p>
+          <FooterSocials />
         </div>
-        <ul className="space-y-1">
-          <li>
-            <a href={whatsappGeneralLink(lang)} rel="noopener noreferrer" target="_blank">{d.wa}</a>
-          </li>
-          <li>
-            <a href={contacts.telegramUrl} rel="noopener noreferrer" target="_blank">{d.tg}</a>
-          </li>
-          <li>
-            <a href={`tel:${contacts.phone}`}>{phone}</a>
-          </li>
-          <li>
-            <a href={`mailto:${contacts.email}`}>{contacts.email}</a>
-          </li>
-        </ul>
-        <div className="space-y-2 text-sm text-muted-foreground md:col-span-2">
-          <Link href={localePath(lang, '/contacts')} className="font-semibold text-foreground">
-            {d.footerContacts}
-          </Link>
-        </div>
+        <nav aria-label={d.menu} className="space-y-2">
+          {links.map((link) => (
+            <p key={link.href}>
+              <Link href={link.href} className="text-foreground no-underline hover:underline">
+                {link.label}
+              </Link>
+            </p>
+          ))}
+          <p>
+            <Link href={localePath(lang, '/contacts')} className="font-semibold text-foreground">
+              {d.footerContacts}
+            </Link>
+          </p>
+        </nav>
+        <FooterContacts lang={lang} />
       </Container>
+      <div className="border-t border-border">
+        <Container className="py-4 text-sm text-muted-foreground">
+          © {year} {contacts.brand}
+        </Container>
+      </div>
     </footer>
   );
 }
