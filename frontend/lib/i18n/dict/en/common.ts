@@ -31,7 +31,7 @@ export const commonEn: CommonDict = {
   menuOpen: 'Open menu',
   menuClose: 'Close menu',
   floatingWa: 'Message on WhatsApp',
-  speedDial: { open: 'Contact us', close: 'Close', whatsapp: 'WhatsApp', telegram: 'Telegram', instagram: 'Instagram', tiktok: 'TikTok', call: 'Call', email: 'Email us' },
+  speedDial: { open: 'Contact us', close: 'Close', whatsapp: 'WhatsApp', telegram: 'Telegram', instagram: 'Instagram', tiktok: 'TikTok', call: 'Call', email: 'Email' },
   timeline: 'Timeline',
   social: 'Contact',
 };

@@ -32,7 +32,7 @@ export const commonRu: CommonDict = {
   menuOpen: 'Открыть меню',
   menuClose: 'Закрыть меню',
   floatingWa: 'Написать в WhatsApp',
-  speedDial: { open: 'Связаться', close: 'Закрыть', whatsapp: 'WhatsApp', telegram: 'Telegram', instagram: 'Instagram', tiktok: 'TikTok', call: 'Позвонить', email: 'Написать на email' },
+  speedDial: { open: 'Связаться', close: 'Закрыть', whatsapp: 'WhatsApp', telegram: 'Telegram', instagram: 'Instagram', tiktok: 'TikTok', call: 'Позвонить', email: 'Email' },
   timeline: 'Срок',
   social: 'Связь',
 };

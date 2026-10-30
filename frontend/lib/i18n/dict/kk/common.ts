@@ -31,7 +31,7 @@ export const commonKk: CommonDict = {
   menuOpen: 'Мәзірді ашу',
   menuClose: 'Мәзірді жабу',
   floatingWa: 'WhatsApp-қа жазу',
-  speedDial: { open: 'Байланысу', close: 'Жабу', whatsapp: 'WhatsApp', telegram: 'Telegram', instagram: 'Instagram', tiktok: 'TikTok', call: 'Қоңырау шалу', email: 'Email-ге жазу' },
+  speedDial: { open: 'Байланысу', close: 'Жабу', whatsapp: 'WhatsApp', telegram: 'Telegram', instagram: 'Instagram', tiktok: 'TikTok', call: 'Қоңырау шалу', email: 'Email' },
   timeline: 'Мерзімі',
   social: 'Байланыс',
 };

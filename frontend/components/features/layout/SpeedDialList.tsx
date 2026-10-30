@@ -27,7 +27,7 @@ function listVariants(reduce: boolean): Variants {
   };
 }
 
-/** Stacked pills above the dial button. DOM order is top-down, but the column is reversed so the first item sits nearest the button. */
+/** Stacked pills above the dial button, top-down in config order. All pills share the width of the longest label. */
 export function SpeedDialList({ id, items, labels, open }: SpeedDialListProps) {
   const reduce = useReducedMotion() ?? false;
   return (
@@ -39,10 +39,10 @@ export function SpeedDialList({ id, items, labels, open }: SpeedDialListProps) {
           initial="hidden"
           animate="visible"
           exit="exit"
-          className="absolute bottom-full right-0 mb-3 flex flex-col-reverse items-end gap-2"
+          className="absolute bottom-full right-0 mb-3 flex w-max flex-col items-stretch gap-2"
         >
           {items.map((item) => (
-            <m.li key={item.key} variants={itemVariants}>
+            <m.li key={item.key} variants={itemVariants} data-speed-dial-item>
               <SpeedDialLink item={item} label={SPEED_DIAL_META[item.key].label(labels)} />
             </m.li>
           ))}
@@ -59,7 +59,7 @@ function SpeedDialLink({ item, label }: { item: SpeedDialItem; label: string }) 
     <a
       href={item.href}
       {...(isWeb ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-      className="flex h-11 items-center gap-2 rounded-full border border-line bg-surface-100 pl-3 pr-4 text-label text-ink shadow-pop"
+      className="flex h-12 w-full items-center gap-2 whitespace-nowrap rounded-full border border-line bg-surface-100 pl-2 pr-4 text-label text-ink shadow-pop"
     >
       <span className={`flex size-8 items-center justify-center rounded-full ${meta.circleClass}`}>{meta.icon}</span>
       {label}
