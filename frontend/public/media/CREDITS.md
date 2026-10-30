@@ -82,4 +82,3 @@ All photos are from Unsplash (https://unsplash.com/license: free to use, no attr
 | hero/desk.webp | https://images.unsplash.com/photo-1575318634028-6a0cfcb60c59 |
 | hero/city.webp | https://images.unsplash.com/photo-1765436271393-16377d973d0e |
 | hero/phone.webp | https://images.unsplash.com/photo-1522125670776-3c7abb882bc2 |
-| portfolio/telegram-business-ai.webp | https://images.unsplash.com/photo-1694903110330-cc64b7e1d21d |
